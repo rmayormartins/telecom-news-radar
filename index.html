@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TELECOM RADAR // monitor de telecomunicacoes</title>
+<meta name="description" content="Radar de noticias de telecom com filtros por tema (moveis, fibra, antenas, IoT, satelite, radar/militar, radiocom, TV), foco por pais e chave de pesquisa. Sinal sobre ruido.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#080a0f;
+    --panel:#0f131b;
+    --panel-2:#141a24;
+    --panel-3:#1a2230;
+    --line:#1e2735;
+    --line-soft:#26313f;
+    --text:#dde4ef;
+    --text-2:#9eaec2;
+    --muted:#637488;
+    --accent:#ff5a52;      /* sinal / radar (vermelho) */
+    --accent-dim:#3a1916;
+    --sat:#f5a524;         /* satelite (ambar) */
+    --sat-dim:#3a2a0e;
+    --research:#a78bfa;    /* pesquisa (violeta) */
+    --general:#7587a0;     /* geral */
+    /* paleta de temas */
+    --th-moveis:#38bdf8;
+    --th-fibra:#2dd4bf;
+    --th-antenas:#a78bfa;
+    --th-iot:#34d399;
+    --th-satelite:#f5a524;
+    --th-radar:#fb7185;
+    --th-radiocom:#a3e635;
+    --th-tv:#e879f9;
+    --th-geral:#7587a0;
+    --radius:3px;
+    --maxw:1320px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:"Chakra Petch",system-ui,sans-serif;
+    font-size:15px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    background-image:
+      radial-gradient(circle at 12% -10%, rgba(255,90,82,.07), transparent 40%),
+      radial-gradient(circle at 90% 0%, rgba(245,165,36,.05), transparent 45%);
+    background-attachment:fixed;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--accent);color:#180605}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+  /* ---------- HEADER ---------- */
+  header{
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, rgba(15,19,27,.9), rgba(8,10,15,.6));
+    position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);
+  }
+  .hd{display:flex;align-items:center;gap:18px;padding:14px 20px;max-width:var(--maxw);margin:0 auto;flex-wrap:wrap}
+  .sweep{
+    width:46px;height:46px;border-radius:50%;flex:0 0 auto;position:relative;
+    border:1px solid var(--line-soft);background:#0a0f16;overflow:hidden;
+  }
+  .sweep::before{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(from 0deg, rgba(255,90,82,.6), transparent 28%);
+    animation:spin 3.6s linear infinite;
+  }
+  .sweep::after{
+    content:"";position:absolute;inset:7px;border-radius:50%;
+    border:1px solid var(--line-soft);
+    background:
+      radial-gradient(circle, var(--accent) 0 1.4px, transparent 1.6px) 50% 50%/100% 100% no-repeat,
+      radial-gradient(circle at 68% 36%, var(--accent) 0 1px, transparent 1.4px),
+      radial-gradient(circle at 34% 64%, var(--sat) 0 1px, transparent 1.4px);
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .brand{display:flex;flex-direction:column;line-height:1}
+  .brand h1{
+    margin:0;font-size:26px;font-weight:700;letter-spacing:3px;
+    font-family:"Chakra Petch";color:var(--accent);
+  }
+  .brand h1 b{color:var(--accent);font-weight:700}
+  .brand h1 .mono{color:var(--text)}
+  .brand .tag{
+    font-family:"JetBrains Mono";font-size:10.5px;letter-spacing:1.5px;
+    color:var(--muted);margin-top:4px;text-transform:uppercase;
+  }
+  .hd-status{margin-left:auto;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .stat{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+  .stat .n{font-family:"JetBrains Mono";font-size:18px;font-weight:700;color:var(--text)}
+  .stat .n.sat{color:var(--sat)}
+  .stat .l{font-family:"JetBrains Mono";font-size:9px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-top:3px}
+  .live{display:flex;align-items:center;gap:7px;font-family:"JetBrains Mono";font-size:10px;color:var(--text-2);letter-spacing:.5px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+  /* ---------- STALE BANNER ---------- */
+  .banner{display:none;background:var(--panel-2);border-bottom:1px solid var(--line);
+    font-family:"JetBrains Mono";font-size:12px;color:var(--text-2)}
+  .banner.show{display:block}
+  .banner .wrap{padding:9px 20px;display:flex;gap:10px;align-items:center}
+  .banner b{color:var(--sat)}
+
+  /* ---------- LAYOUT ---------- */
+  .grid{display:grid;grid-template-columns:236px 1fr;gap:26px;padding:26px 20px;max-width:var(--maxw);margin:0 auto;align-items:start}
+  aside{position:sticky;top:84px;display:flex;flex-direction:column;gap:22px;
+    max-height:calc(100vh - 104px);overflow-y:auto;padding-right:6px;
+    scrollbar-width:thin;scrollbar-color:var(--line-soft) transparent}
+  aside::-webkit-scrollbar{width:8px}
+  aside::-webkit-scrollbar-track{background:transparent}
+  aside::-webkit-scrollbar-thumb{background:var(--line-soft);border-radius:8px;border:2px solid var(--bg)}
+  aside::-webkit-scrollbar-thumb:hover{background:#33414f}
+  /* a lista de fontes (longa) tambem ganha rolagem propria */
+  #sources{max-height:260px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--line-soft) transparent}
+  #sources::-webkit-scrollbar{width:6px}
+  #sources::-webkit-scrollbar-thumb{background:var(--line-soft);border-radius:6px}
+
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+  .panel h2{
+    margin:0;padding:11px 14px;font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;
+    font-family:"JetBrains Mono";color:var(--muted);border-bottom:1px solid var(--line);font-weight:500;
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .panel h2 .clr{background:none;border:none;color:var(--muted);font-family:inherit;font-size:9px;cursor:pointer;letter-spacing:1px;text-transform:uppercase;padding:0}
+  .panel h2 .clr:hover{color:var(--text-2)}
+  .panel .body{padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+
+  /* tabs / filtros verticais */
+  .navbtn{
+    display:flex;align-items:center;gap:10px;width:100%;text-align:left;cursor:pointer;
+    background:transparent;border:1px solid transparent;border-radius:var(--radius);
+    color:var(--text-2);font-family:"Chakra Petch";font-size:13.5px;font-weight:500;
+    padding:8px 10px;letter-spacing:.4px;transition:all .14s;
+  }
+  .navbtn:hover{background:var(--panel-2);color:var(--text)}
+  .navbtn.active{background:var(--panel-3);color:var(--text);border-color:var(--line-soft)}
+  .navbtn .ico{width:8px;height:8px;border-radius:50%;flex:0 0 auto;background:var(--muted)}
+  .navbtn[data-theme="moveis"] .ico{background:var(--th-moveis)}
+  .navbtn[data-theme="fibra"] .ico{background:var(--th-fibra)}
+  .navbtn[data-theme="antenas"] .ico{background:var(--th-antenas)}
+  .navbtn[data-theme="iot"] .ico{background:var(--th-iot)}
+  .navbtn[data-theme="satelite"] .ico{background:var(--th-satelite)}
+  .navbtn[data-theme="radar_militar"] .ico{background:var(--th-radar)}
+  .navbtn[data-theme="radiocom"] .ico{background:var(--th-radiocom)}
+  .navbtn[data-theme="tv"] .ico{background:var(--th-tv)}
+  .navbtn[data-theme="geral"] .ico{background:var(--th-geral)}
+  .navbtn .cnt{margin-left:auto;font-family:"JetBrains Mono";font-size:11px;color:var(--muted)}
+  .navbtn.active .cnt{color:var(--text-2)}
+  .navbtn[data-theme="satelite"].active{border-color:#5a4416}
+  /* foco por pais */
+  .ccbadge{font-family:"JetBrains Mono";font-size:9px;font-weight:700;letter-spacing:.5px;color:var(--muted);border:1px solid var(--line-soft);border-radius:2px;padding:2px 4px;flex:0 0 auto;min-width:24px;text-align:center}
+  .navbtn.ccrow.active{border-color:var(--accent)}
+  .navbtn.ccrow.active .ccbadge{color:var(--accent);border-color:var(--accent)}
+
+  .srcrow{display:flex;align-items:center;gap:8px;padding:5px 6px;cursor:pointer;border-radius:var(--radius);font-family:"JetBrains Mono";font-size:11.5px;color:var(--text-2)}
+  .srcrow:hover{background:var(--panel-2)}
+  .srcrow input{accent-color:var(--accent);margin:0;width:13px;height:13px;flex:0 0 auto}
+  .srcrow .sn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .srcrow .sc{margin-left:auto;color:var(--muted)}
+
+  .legend{font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);line-height:1.8}
+  .legend .row{display:flex;align-items:center;gap:8px}
+  .legend .sw{width:10px;height:10px;border-radius:2px;flex:0 0 auto}
+
+  /* ---------- TOOLBAR ---------- */
+  .toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+  .search{flex:1;min-width:200px;position:relative}
+  .search input{
+    width:100%;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text);font-family:"JetBrains Mono";font-size:13px;padding:10px 12px 10px 34px;
+  }
+  .search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-dim)}
+  .search input::placeholder{color:var(--muted)}
+  .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--muted)}
+  .sortbtn{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text-2);font-family:"JetBrains Mono";font-size:11px;letter-spacing:.5px;
+    padding:10px 13px;cursor:pointer;display:flex;align-items:center;gap:7px;text-transform:uppercase;
+  }
+  .sortbtn:hover{border-color:var(--line-soft);color:var(--text)}
+  .sortbtn b{color:var(--accent)}
+  .rangesel{position:relative}
+  .rangesel select{
+    appearance:none;-webkit-appearance:none;cursor:pointer;
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text-2);font-family:"JetBrains Mono";font-size:11px;letter-spacing:.5px;
+    padding:10px 30px 10px 13px;text-transform:uppercase;
+  }
+  .rangesel select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-dim);color:var(--text)}
+  .rangesel::after{content:"";position:absolute;right:12px;top:50%;width:6px;height:6px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-65%) rotate(45deg);pointer-events:none}
+
+  .morebar{display:flex;flex-direction:column;align-items:center;gap:10px;padding:18px 0 6px}
+  .showing{font-family:"JetBrains Mono";font-size:10.5px;letter-spacing:.5px;color:var(--muted)}
+  .morebtn{
+    background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);
+    color:var(--accent);font-family:"JetBrains Mono";font-size:12px;letter-spacing:1px;
+    padding:11px 26px;cursor:pointer;text-transform:uppercase;transition:all .14s;
+  }
+  .morebtn:hover{background:var(--panel-2);box-shadow:0 0 0 2px var(--accent-dim)}
+
+  /* chave (switch) */
+  .switchwrap{display:flex;flex-direction:column;gap:4px;padding:10px 12px}
+  .switch{display:flex;align-items:center;gap:9px;cursor:pointer;font-family:"JetBrains Mono";font-size:11px;color:var(--text-2);user-select:none;padding:3px 2px;border-radius:var(--radius)}
+  .switch:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .switch .track{width:30px;height:16px;border-radius:9px;background:var(--panel-3);border:1px solid var(--line-soft);position:relative;transition:.15s;flex:0 0 auto}
+  .switch .knob{position:absolute;top:1px;left:1px;width:12px;height:12px;border-radius:50%;background:var(--muted);transition:.15s}
+  .switch.on{color:var(--text)}
+  .switch.on .track{background:var(--accent-dim);border-color:var(--accent)}
+  .switch.on .knob{left:15px;background:var(--accent)}
+
+  /* botao traduzir */
+  .trbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--text)}
+  .trbtn[aria-pressed="true"] b{color:var(--accent)}
+  .trbtn.busy{opacity:.65;cursor:progress}
+  .trbtn.busy b::after{content:"...";}
+
+  /* ---------- FEED ---------- */
+  .feed{display:flex;flex-direction:column;gap:12px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:15px 17px;display:grid;grid-template-columns:1fr auto;gap:6px 16px;
+    transition:border-color .15s, transform .15s;position:relative;overflow:hidden;
+  }
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--general);opacity:.7}
+  .card.c-moveis::before{background:var(--th-moveis)}
+  .card.c-fibra::before{background:var(--th-fibra)}
+  .card.c-antenas::before{background:var(--th-antenas)}
+  .card.c-iot::before{background:var(--th-iot)}
+  .card.c-satelite::before{background:var(--th-satelite)}
+  .card.c-radar_militar::before{background:var(--th-radar)}
+  .card.c-radiocom::before{background:var(--th-radiocom)}
+  .card.c-tv::before{background:var(--th-tv)}
+  .card.c-geral::before{background:var(--th-geral)}
+  .card:hover{border-color:var(--line-soft);transform:translateX(2px)}
+  .card .meta{grid-column:1/2;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-family:"JetBrains Mono";font-size:10.5px}
+  .chip{padding:2px 7px;border-radius:2px;letter-spacing:.6px;text-transform:uppercase;font-weight:500;border:1px solid var(--line-soft);color:var(--text-2)}
+  .chip.th-moveis{color:var(--th-moveis)}
+  .chip.th-fibra{color:var(--th-fibra)}
+  .chip.th-antenas{color:var(--th-antenas)}
+  .chip.th-iot{color:var(--th-iot)}
+  .chip.th-satelite{color:var(--th-satelite);border-color:#5a4416;background:var(--sat-dim)}
+  .chip.th-radar_militar{color:var(--th-radar)}
+  .chip.th-radiocom{color:var(--th-radiocom)}
+  .chip.th-tv{color:var(--th-tv)}
+  .chip.th-geral{color:var(--th-geral)}
+  .chip.research-chip{color:var(--research);border-color:#3a3470}
+  .cc{font-family:"JetBrains Mono";font-size:9.5px;letter-spacing:.5px;color:var(--text-2);border:1px solid var(--line-soft);border-radius:2px;padding:1px 5px}
+  .src{color:var(--text-2)}
+  .when{color:var(--muted);margin-left:auto}
+  .card h3{grid-column:1/2;margin:2px 0 0;font-size:16.5px;font-weight:600;line-height:1.32;letter-spacing:.2px}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{grid-column:1/2;margin:4px 0 0;color:var(--text-2);font-size:13.5px;line-height:1.5;font-family:"Chakra Petch"}
+  .card .open{grid-column:1/2;margin-top:9px;font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);letter-spacing:.5px;display:inline-flex;align-items:center;gap:6px}
+  .card:hover .open{color:var(--accent)}
+
+  /* medidor de sinal (SNR) - a assinatura */
+  .snr{grid-row:1/3;grid-column:2/3;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;padding-top:1px}
+  .snr .bars{display:flex;align-items:flex-end;gap:2px;height:30px}
+  .snr .bar{width:4px;background:var(--line-soft);border-radius:1px}
+  .snr .bar.on{background:var(--accent)}
+  .snr .val{font-family:"JetBrains Mono";font-size:11px;font-weight:700;color:var(--text-2)}
+  .snr .lbl{font-family:"JetBrains Mono";font-size:8px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+
+  /* ---------- ESTADOS ---------- */
+  .empty,.loading{
+    border:1px dashed var(--line-soft);border-radius:var(--radius);padding:46px 24px;text-align:center;
+    font-family:"JetBrains Mono";color:var(--muted);font-size:13px;line-height:1.7;
+  }
+  .empty b{color:var(--text-2);display:block;font-size:15px;margin-bottom:8px;font-family:"Chakra Petch";letter-spacing:1px}
+  .empty code{background:var(--panel-2);border:1px solid var(--line);padding:2px 6px;border-radius:2px;color:var(--accent);font-size:12px}
+  .loading .sweep{margin:0 auto 16px}
+
+  footer{border-top:1px solid var(--line);margin-top:40px}
+  .ft{max-width:var(--maxw);margin:0 auto;padding:20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);letter-spacing:.5px}
+  .ft a:hover{color:var(--accent)}
+  .ft .serif{font-family:"Instrument Serif";font-style:italic;font-size:15px;color:var(--text-2);letter-spacing:0}
+
+  @media (max-width:860px){
+    .grid{grid-template-columns:1fr;gap:18px}
+    aside{position:static;flex-direction:column;max-height:none}
+    .fontes-panel #sources{display:none}        /* lista de fontes oculta no mobile */
+    .fontes-panel #src-toggle{display:none}     /* botao "limpar" idem */
+    .fontes-panel h2{border-bottom:none}
+    .card{grid-template-columns:1fr}
+    .snr{grid-row:auto;grid-column:1/2;flex-direction:row;justify-content:flex-start;margin-top:8px;gap:8px}
+    .snr .bars{height:18px}
+    .brand h1{font-size:22px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <div class="sweep" aria-hidden="true"></div>
+    <div class="brand">
+      <h1>TELECOM&nbsp;<b>RADAR</b></h1>
+      <span class="tag">monitor de telecom // sinal sobre ruido</span>
+    </div>
+    <div class="hd-status">
+      <div class="live"><span class="dot"></span><span id="updated">sincronizando...</span></div>
+      <div class="stat"><span class="n" id="stat-total">0</span><span class="l">sinais</span></div>
+      <div class="stat"><span class="n sat" id="stat-sat">0</span><span class="l">satcom</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="banner" id="banner">
+  <div class="wrap"><span>&#9888;</span><span id="banner-txt"></span></div>
+</div>
+
+<div class="grid">
+  <aside>
+    <div class="panel">
+      <h2>Temas <button class="clr" id="clr-themes">todos</button></h2>
+      <div class="body" id="themes"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Foco por pais <button class="clr" id="clr-countries">todos</button></h2>
+      <div class="body" id="countries"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Filtros</h2>
+      <div class="switchwrap">
+        <div class="switch" id="hide-research" role="switch" aria-checked="false" tabindex="0">
+          <span class="track"><span class="knob"></span></span>
+          <span>ocultar pesquisa (arXiv, papers)</span>
+        </div>
+      </div>
+      <div class="body legend" style="border-top:1px solid var(--line)">
+        <div class="row" style="color:var(--text-2)">SNR = relevancia estimada (0 a 100)</div>
+        <div class="row"><span class="sw" style="background:var(--research)"></span>pesquisa: paper / metodo (arXiv)</div>
+        <div class="row" style="margin-top:2px;color:var(--muted)">temas e paises somam (multi-selecao)</div>
+      </div>
+    </div>
+
+    <div class="panel fontes-panel">
+      <h2>Fontes <button id="src-toggle" class="clr">limpar</button></h2>
+      <div class="body" id="sources"></div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="filtrar por tecnologia, operadora, pais... (ex: 5g, open ran, starlink, jio, huawei)" autocomplete="off">
+      </div>
+      <div class="rangesel">
+        <select id="range" aria-label="periodo">
+          <option value="0">periodo: tudo</option>
+          <option value="1">ultimas 24h</option>
+          <option value="7">ultima semana</option>
+          <option value="30">ultimo mes</option>
+        </select>
+      </div>
+      <button class="sortbtn" id="sort">ordenar: <b id="sort-l">recencia</b></button>
+      <button class="sortbtn trbtn" id="translate" aria-pressed="false">traduzir: <b id="tr-l">EN</b></button>
+    </div>
+    <div id="feed" class="feed">
+      <div class="loading"><div class="sweep"></div>varrendo o espectro...</div>
+    </div>
+    <div id="morebar" class="morebar"></div>
+  </main>
+</div>
+
+<footer>
+  <div class="ft">
+    <span class="serif">sinal sobre ruido.</span>
+    <span>TELECOM RADAR // coleta automatica via GitHub Actions, servido por GitHub Pages</span>
+    <span>temas: moveis, fibra, antenas, iot, satelite, radar/militar, radiocom, tv</span>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+// fallback inline: garante que a pagina nunca abre vazia (mesmo via file://).
+// O arquivo data/news.json (gerado pela Action) tem prioridade. Estes itens
+// sao apenas exemplos para mostrar o layout antes da primeira coleta real.
+const INLINE_FALLBACK = {
+  generated_at: "2026-06-20T12:00:00+00:00", seed:true, count:10, research_count:1,
+  theme_counts:{moveis:5,fibra:1,antenas:1,iot:1,satelite:1,radar_militar:1,radiocom:1,tv:1,geral:0},
+  country_counts:{br:1,ru:0,il:0,in:1,jp:0,kr:0,cn:1},
+  sources:[{source:"seed",status:"aguardando coleta",kept:10}],
+  items:[
+    {title:"Operadora liga 5G em novas capitais e Anatel revisa metas de cobertura",link:"#",summary:"Exemplo (seed): Vivo e Claro ampliam 5G no Brasil; Anatel discute obrigacoes de cobertura e espectro.",source:"Telecompetitor",themes:["moveis"],research:false,countries:["br"],relevance:64,date:"2026-06-20T00:00:00+00:00",ts:1750377600},
+    {title:"Operadora ativa 5G Standalone com network slicing em rede comercial",link:"#",summary:"Exemplo (seed): nucleo 5G SA com fatiamento de rede e Open RAN em ambiente de producao.",source:"Light Reading",themes:["moveis"],research:false,countries:[],relevance:81,date:"2026-06-19T00:00:00+00:00",ts:1750291200},
+    {title:"Estudo propoe metodo de estimacao de canal para massive MIMO em mmWave",link:"#",summary:"Exemplo (seed): paper de processamento de sinais com avaliacao em OFDM e eficiencia espectral.",source:"arXiv eess.SP",themes:["moveis","antenas"],research:true,countries:[],relevance:78,date:"2026-06-18T00:00:00+00:00",ts:1750204800},
+    {title:"Servico direct-to-cell via constelacao LEO entra em fase de testes",link:"#",summary:"Exemplo (seed): NTN satellite-to-cell em parceria com operadora movel e novas estacoes terrenas.",source:"SpaceNews",themes:["moveis","satelite"],research:false,countries:[],relevance:74,date:"2026-06-17T00:00:00+00:00",ts:1750118400},
+    {title:"Fornecedor amplia portfolio 5G-Advanced com foco em eficiencia energetica",link:"#",summary:"Exemplo (seed): China Mobile e Huawei demonstram recursos de 5G-A e economia de energia na RAN.",source:"Mobile World Live",themes:["moveis"],research:false,countries:["cn"],relevance:68,date:"2026-06-16T00:00:00+00:00",ts:1750032000},
+    {title:"Provedor expande FTTH com XGS-PON e banda larga gigabit",link:"#",summary:"Exemplo (seed): Reliance Jio amplia fibra ate o assinante com XGS-PON e oferta gigabit na India.",source:"Telecoms.com",themes:["fibra"],research:false,countries:["in"],relevance:66,date:"2026-06-15T00:00:00+00:00",ts:1749945600},
+    {title:"Rede NB-IoT e LoRaWAN escala telemetria de medidores inteligentes",link:"#",summary:"Exemplo (seed): LPWAN para smart metering e IIoT com baixo consumo e ampla cobertura.",source:"The Fast Mode",themes:["iot"],research:false,countries:[],relevance:61,date:"2026-06-14T00:00:00+00:00",ts:1749859200},
+    {title:"Sistema de guerra eletronica adiciona deteccao de drones e anti-jamming",link:"#",summary:"Exemplo (seed): radar e EW para counter-UAS, com protecao GNSS e enlaces seguros.",source:"IEEE Spectrum (Telecom)",themes:["radar_militar"],research:false,countries:[],relevance:56,date:"2026-06-13T00:00:00+00:00",ts:1749772800},
+    {title:"Estacao SatNOGS e SDR ampliam recepcao em VHF e UHF",link:"#",summary:"Exemplo (seed): software defined radio e antenas para telemetria de satelites e radioamadorismo.",source:"IEEE ComSoc Tech Blog",themes:["radiocom"],research:false,countries:[],relevance:52,date:"2026-06-12T00:00:00+00:00",ts:1749686400},
+    {title:"Emissoras avancam ATSC 3.0 e NextGen TV com video over IP",link:"#",summary:"Exemplo (seed): broadcast DVB e ATSC 3 com entrega de video IP e novos servicos interativos.",source:"Advanced Television",themes:["tv"],research:false,countries:[],relevance:50,date:"2026-06-11T00:00:00+00:00",ts:1749600000}
+  ]
+};
+
+const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
+const THEME_ORDER = ["moveis","fibra","antenas","iot","satelite","radar_militar","radiocom","tv","geral"];
+const THEME_LABEL = {moveis:"Moveis",fibra:"Fibra",antenas:"Antenas",iot:"IoT",satelite:"Satelite",radar_militar:"Radar/Militar",radiocom:"Radiocom",tv:"TV",geral:"Geral"};
+const COUNTRY_ORDER = ["br","ru","il","in","jp","kr","cn"];
+const COUNTRY_LABEL = {br:"Brasil",ru:"Russia",il:"Israel",in:"India",jp:"Japao",kr:"Coreia",cn:"China"};
+
+// Listas dinamicas: temas e paises saem do proprio JSON (theme_counts/country_counts,
+// ou da uniao dos itens). Os conhecidos vem na ordem definida acima; qualquer chave
+// nova entra no fim. Assim, adicionar um tema no coletor o faz aparecer no painel
+// sozinho, sem mexer no frontend (cor/label caem num padrao neutro se nao houver regra).
+function themeKeys(){
+  let keys = (state.data.theme_counts && typeof state.data.theme_counts==="object") ? Object.keys(state.data.theme_counts) : null;
+  if(!keys){ const s=new Set(); state.data.items.forEach(i=>(i.themes||[]).forEach(t=>s.add(t))); keys=[...s]; }
+  return THEME_ORDER.filter(t=>keys.indexOf(t)>=0).concat(keys.filter(t=>THEME_ORDER.indexOf(t)<0).sort());
+}
+function countryKeys(){
+  let keys = (state.data.country_counts && typeof state.data.country_counts==="object") ? Object.keys(state.data.country_counts) : null;
+  if(!keys){ const s=new Set(); state.data.items.forEach(i=>(i.countries||[]).forEach(c=>s.add(c))); keys=[...s]; }
+  return COUNTRY_ORDER.filter(c=>keys.indexOf(c)>=0).concat(keys.filter(c=>COUNTRY_ORDER.indexOf(c)<0).sort());
+}
+const titleCase = s => s.replace(/_/g,"/").replace(/(^|[\/ ])([a-z])/g,(m,a,b)=>a+b.toUpperCase());
+function themeLabel(t){ return THEME_LABEL[t] || titleCase(t); }
+function countryLabel(c){ return COUNTRY_LABEL[c] || c.toUpperCase(); }
+
+const state = { data:null, themes:new Set(), countries:new Set(), hideResearch:false, q:"", sort:"recencia", range:0, translate:false, sources:new Set(), allSources:[], shown:PAGE };
+const trCache = new Map(); // texto original -> traducao PT (cache da sessao)
+
+const $ = s => document.querySelector(s);
+const feed = $("#feed");
+const morebar = $("#morebar");
+
+function rel(iso){
+  if(!iso) return "sem data";
+  const d=new Date(iso), now=new Date(), s=(now-d)/1000;
+  if(s<3600) return Math.max(1,Math.floor(s/60))+" min";
+  if(s<86400) return Math.floor(s/3600)+" h";
+  const days=Math.floor(s/86400);
+  if(days<30) return days+" d";
+  return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"short"});
+}
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function snrBars(v){
+  const seg=Math.round(v/20); // 0..5
+  let b="";
+  for(let i=1;i<=5;i++){
+    const h=8+i*4.4;
+    b+=`<span class="bar ${i<=seg?'on':''}" style="height:${h}px"></span>`;
+  }
+  return `<div class="snr"><div class="bars">${b}</div><div class="val">${v}</div><div class="lbl">snr</div></div>`;
+}
+
+// filtros comuns (fonte, periodo, busca) usados tambem nos contadores
+function passesCommon(it){
+  if(state.sources.size && !state.sources.has(it.source)) return false;
+  if(state.range){
+    if(!it.ts) return false;
+    const ageDays=(Date.now()/1000 - it.ts)/86400;
+    if(ageDays > state.range) return false;
+  }
+  if(state.q){
+    const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase();
+    if(!blob.includes(state.q)) return false;
+  }
+  return true;
+}
+
+// regra completa: comuns + ocultar pesquisa + temas (uniao) + paises (uniao)
+function passes(it){
+  if(!passesCommon(it)) return false;
+  if(state.hideResearch && it.research) return false;
+  if(state.themes.size && !((it.themes||[]).some(t=>state.themes.has(t)))) return false;
+  if(state.countries.size && !((it.countries||[]).some(c=>state.countries.has(c)))) return false;
+  return true;
+}
+
+// base dos contadores: aplica comuns + ocultar-pesquisa, mas ignora a selecao
+// de temas/paises (para mostrar quantos itens cada faceta traria).
+function baseForCounts(){
+  return state.data.items.filter(i=> passesCommon(i) && !(state.hideResearch && i.research));
+}
+
+function setCnt(k,v){ document.querySelectorAll(`[data-cnt="${k}"]`).forEach(e=>e.textContent=v); }
+
+function updateCounts(){
+  const base = baseForCounts();
+  themeKeys().forEach(t=> setCnt("th:"+t, base.reduce((n,i)=>n+(((i.themes||[]).indexOf(t)>=0)?1:0),0)));
+  countryKeys().forEach(c=> setCnt("cc:"+c, base.reduce((n,i)=>n+(((i.countries||[]).indexOf(c)>=0)?1:0),0)));
+}
+
+function primaryTheme(it){
+  const th=it.themes||[];
+  for(const t of THEME_ORDER){ if(th.indexOf(t)>=0) return t; }
+  return th[0] || "geral";
+}
+
+function render(){
+  const all=state.data.items.filter(passes);
+  all.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
+
+  updateCounts();
+
+  if(!all.length){ feed.innerHTML=emptyHTML(); morebar.innerHTML=""; return; }
+
+  const shown=Math.min(state.shown, all.length);
+  feed.innerHTML=all.slice(0,shown).map(it=>{
+    const th=it.themes||[];
+    const cls="c-"+primaryTheme(it);
+    const themeChips=th.map(t=>`<span class="chip th-${t}">${themeLabel(t)}</span>`).join("");
+    const resChip=it.research?`<span class="chip research-chip">pesquisa</span>`:"";
+    const ctyChips=(it.countries||[]).map(c=>`<span class="cc">${esc(c.toUpperCase())}</span>`).join("");
+    return `<article class="card ${cls}">
+      <div class="meta">${themeChips}${resChip}${ctyChips}<span class="src">${esc(it.source)}</span><span class="when">${rel(it.date)}</span></div>
+      <h3><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      ${it.summary?`<p>${esc(it.summary)}</p>`:""}
+      <a class="open" href="${esc(it.link)}" target="_blank" rel="noopener">abrir fonte &#8599;</a>
+      ${snrBars(it.relevance)}
+    </article>`;
+  }).join("");
+
+  // "mostrar mais" no fim do feed
+  if(all.length>shown){
+    const remaining=all.length-shown;
+    morebar.innerHTML=`<button class="morebtn" id="more">mostrar mais (+${remaining})</button><div class="showing">mostrando ${shown} de ${all.length}</div>`;
+    $("#more").addEventListener("click",()=>{ state.shown+=PAGE; render(); });
+  } else {
+    morebar.innerHTML=`<div class="showing">fim do feed // ${all.length} ${all.length===1?'sinal':'sinais'}</div>`;
+  }
+
+  if(state.translate) translateVisible();
+}
+
+// reseta a paginacao sempre que um filtro muda
+function resetAndRender(){ state.shown=PAGE; render(); }
+
+function emptyHTML(){
+  const filtering = state.themes.size||state.countries.size||state.q||state.range||state.hideResearch||state.sources.size;
+  if(filtering){
+    return `<div class="empty"><b>Nenhum sinal com esse filtro</b>
+      Tente remover temas ou paises, limpar a busca ou reativar fontes na barra lateral.</div>`;
+  }
+  return `<div class="empty"><b>Sem sinais nesta janela</b>
+    Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds.</div>`;
+}
+
+function buildFacets(){
+  const tc=$("#themes");
+  tc.innerHTML=themeKeys().map(t=>`<button class="navbtn" data-theme="${t}"><span class="ico"></span>${themeLabel(t)}<span class="cnt" data-cnt="th:${t}">0</span></button>`).join("");
+  tc.querySelectorAll(".navbtn").forEach(b=>b.addEventListener("click",()=>{
+    const t=b.dataset.theme;
+    if(state.themes.has(t)) state.themes.delete(t); else state.themes.add(t);
+    b.classList.toggle("active",state.themes.has(t));
+    resetAndRender();
+  }));
+  const cc=$("#countries");
+  cc.innerHTML=countryKeys().map(c=>`<button class="navbtn ccrow" data-country="${c}"><span class="ccbadge">${c.toUpperCase()}</span>${countryLabel(c)}<span class="cnt" data-cnt="cc:${c}">0</span></button>`).join("");
+  cc.querySelectorAll(".navbtn").forEach(b=>b.addEventListener("click",()=>{
+    const c=b.dataset.country;
+    if(state.countries.has(c)) state.countries.delete(c); else state.countries.add(c);
+    b.classList.toggle("active",state.countries.has(c));
+    resetAndRender();
+  }));
+}
+
+function buildSources(){
+  const map={};
+  state.data.items.forEach(i=>{ map[i.source]=(map[i.source]||0)+1; });
+  state.allSources=Object.keys(map).sort((a,b)=>map[b]-map[a]);
+  $("#sources").innerHTML=state.allSources.map(s=>
+    `<label class="srcrow"><input type="checkbox" value="${esc(s)}"><span class="sn">${esc(s)}</span><span class="sc">${map[s]}</span></label>`
+  ).join("");
+  $("#sources").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",()=>{
+    inp.checked ? state.sources.add(inp.value) : state.sources.delete(inp.value); resetAndRender();
+  }));
+}
+
+function applyData(d){
+  state.data = (d && Array.isArray(d.items) && d.items.length) ? d : INLINE_FALLBACK;
+  // header
+  const items=state.data.items;
+  const total=items.length;
+  const sat=items.reduce((n,i)=>n+(((i.themes||[]).indexOf("satelite")>=0)?1:0),0);
+  $("#stat-total").textContent=total;
+  $("#stat-sat").textContent=sat;
+  const gen=state.data.generated_at?new Date(state.data.generated_at):null;
+  $("#updated").textContent = gen ? "atualizado "+rel(state.data.generated_at)+" atras" : "dados locais";
+
+  // banner: dados antigos ou ainda no seed
+  const banner=$("#banner"), bt=$("#banner-txt");
+  if(state.data.seed){
+    bt.innerHTML="Mostrando <b>dados iniciais</b> (exemplos). Rode o workflow <b>update-news</b> em Actions (ou aguarde o cron) para a primeira coleta real.";
+    banner.classList.add("show");
+  } else if(gen && (Date.now()-gen)/36e5 > 30){
+    bt.innerHTML="Ultima coleta ha mais de <b>30 horas</b>. Verifique o workflow em Actions.";
+    banner.classList.add("show");
+  }
+  buildFacets();
+  buildSources();
+  render();
+}
+
+// --- traducao para PT (client-side, endpoint gratuito do Google) ---
+// Sem backend e sem chave. E um endpoint nao-oficial: pode limitar uso em rajada.
+// Cache por sessao evita re-traduzir o que ja passou.
+async function tr(text){
+  if(!text) return "";
+  if(trCache.has(text)) return trCache.get(text);
+  try{
+    const u="https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q="+encodeURIComponent(text);
+    const r=await fetch(u);
+    if(!r.ok) throw new Error(r.status);
+    const j=await r.json();
+    const out=(j[0]||[]).map(s=>s[0]).join("").trim();
+    const val=out||text;
+    trCache.set(text,val);
+    return val;
+  }catch(e){ return null; }
+}
+
+let trRun=0;
+async function translateVisible(){
+  const myRun=++trRun;                 // cancela traducoes antigas se algo mudar
+  const btn=$("#translate");
+  btn.classList.add("busy");
+  const cards=[...feed.querySelectorAll(".card")];
+  let okCount=0, failCount=0;
+  for(const c of cards){
+    if(myRun!==trRun || !state.translate) break;
+    const a=c.querySelector("h3 a"), p=c.querySelector("p");
+    const ot=a.dataset.o || (a.dataset.o=a.textContent);
+    const os=p ? (p.dataset.o || (p.dataset.o=p.textContent)) : null;
+    const [t,s]=await Promise.all([tr(ot), os!=null?tr(os):Promise.resolve(null)]);
+    if(myRun!==trRun || !state.translate) break;
+    if(t){ a.textContent=t; okCount++; } else failCount++;
+    if(s && p) p.textContent=s;
+  }
+  if(myRun===trRun) btn.classList.remove("busy");
+  // se nada traduziu (endpoint bloqueado/limite), volta pro original e avisa
+  if(myRun===trRun && state.translate && okCount===0 && failCount>0){
+    state.translate=false;
+    btn.setAttribute("aria-pressed","false");
+    $("#tr-l").textContent="EN";
+    morebar.insertAdjacentHTML("afterbegin",`<div class="showing">traducao indisponivel agora (limite do servico). tente de novo em instantes.</div>`);
+  }
+}
+
+// --- eventos ---
+$("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); resetAndRender(); });
+$("#range").addEventListener("change",e=>{ state.range=parseInt(e.target.value,10)||0; resetAndRender(); });
+$("#sort").addEventListener("click",()=>{
+  state.sort = state.sort==="recencia" ? "relevancia" : "recencia";
+  $("#sort-l").textContent=state.sort;
+  resetAndRender();
+});
+$("#clr-themes").addEventListener("click",()=>{
+  state.themes.clear();
+  document.querySelectorAll("#themes .navbtn").forEach(x=>x.classList.remove("active"));
+  resetAndRender();
+});
+$("#clr-countries").addEventListener("click",()=>{
+  state.countries.clear();
+  document.querySelectorAll("#countries .navbtn").forEach(x=>x.classList.remove("active"));
+  resetAndRender();
+});
+$("#src-toggle").addEventListener("click",()=>{
+  state.sources.clear();
+  document.querySelectorAll("#sources input").forEach(i=>i.checked=false);
+  resetAndRender();
+});
+
+// chave: ocultar pesquisa (arXiv, papers)
+const hr=$("#hide-research");
+function toggleHR(){
+  state.hideResearch=!state.hideResearch;
+  hr.classList.toggle("on",state.hideResearch);
+  hr.setAttribute("aria-checked",state.hideResearch?"true":"false");
+  resetAndRender();
+}
+hr.addEventListener("click",toggleHR);
+hr.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleHR(); } });
+
+// botao: traduzir para PT
+$("#translate").addEventListener("click",()=>{
+  state.translate=!state.translate;
+  const btn=$("#translate");
+  btn.setAttribute("aria-pressed",state.translate?"true":"false");
+  $("#tr-l").textContent = state.translate ? "PT" : "EN";
+  trRun++;                       // interrompe traducao em andamento
+  if(state.translate){ translateVisible(); }
+  else { render(); }             // volta aos textos originais
+});
+
+// carga
+fetch("./data/news.json",{cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(applyData)
+  .catch(()=>applyData(INLINE_FALLBACK));
+</script>
+</body>
+</html>
