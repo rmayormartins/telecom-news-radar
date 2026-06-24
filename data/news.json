@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T07:05:40.781012+00:00",
+  "generated_at": "2026-06-24T12:39:25.409747+00:00",
   "count": 96,
   "theme_counts": {
-    "moveis": 49,
+    "moveis": 50,
     "fibra": 9,
     "antenas": 7,
-    "iot": 5,
-    "satelite": 25,
+    "iot": 4,
+    "satelite": 23,
     "radar_militar": 8,
     "radiocom": 0,
     "tv": 0,
-    "geral": 23
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 4,
     "jp": 3,
     "kr": 0,
-    "cn": 1
+    "cn": 3
   },
   "research_count": 25,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -91,7 +91,7 @@
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Ericsson Blog",
@@ -201,6 +201,49 @@
   ],
   "items": [
     {
+      "title": "GSMA, TM Forum team on telecom AI",
+      "link": "https://www.mobileworldlive.com/ai-cloud/gsma-tm-forum-team-on-telecom-ai/",
+      "summary": "Industry associations the GSMA and TM Forum agreed a collaboration to aid adoption of practical AI systems across a range of use cases within the telecoms industry. The post GSMA, TM Forum team on telecom AI appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-06-24T11:01:54+00:00",
+      "ts": 1782298914.0
+    },
+    {
+      "title": "Home Broadband Is 5G’s Surprise Killer App",
+      "link": "https://spectrum.ieee.org/fixed-wireless-access",
+      "summary": "5G telecommunications, according to industry hype when 5G first launched in 2019 , was going to be all about buzzy applications like mobile augmented reality and autonomous vehicles . But the surprise plot twist came when replacing home cable internet turned into 5G’s most widely adopted new application. Fixed...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-06-24T10:00:02+00:00",
+      "ts": 1782295202.0
+    },
+    {
+      "title": "FCC wraps AWS-3 re-auction with $3.5B in bids",
+      "link": "https://www.mobileworldlive.com/fcc/fcc-wraps-aws-3-re-auction-with-3-5b-in-bids/",
+      "summary": "The US Federal Communications Commission closed an AWS-3 re-auction with gross winning bids topping $3.5 billion in what was the agency’s first spectrum sale after a four-year lapse in activity. The post FCC wraps AWS-3 re-auction with $3.5B in bids appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-06-24T08:54:43+00:00",
+      "ts": 1782291283.0
+    },
+    {
       "title": "Telecom news: NTT DOCOMO, Nokia, Bharti Airtel, Vodafone Idea, Reliance Jio, DoT, Starlink",
       "link": "https://telecomlead.com/news/telecom-news-ntt-docomo-nokia-bharti-airtel-vodafone-idea-reliance-jio-dot-starlink-126405",
       "summary": "Today’s telecom news includes announcements on NTT DOCOMO, Nokia, Bharti Airtel, Vodafone Idea, Reliance Jio, DoT, Starlink, OneWeb, Ericsson, Telia, Vinnova, RISE, AstaZero, Future by Lund, among others. Japan’s First AI-Driven Mobile Network: DOCOMO and Nokia Push Telecom Automation to New Heights NTT DOCOMO has...",
@@ -247,6 +290,22 @@
       "relevance": 40,
       "date": "2026-06-24T05:20:42+00:00",
       "ts": 1782278442.0
+    },
+    {
+      "title": "Globe, China Mobile drive AI use cases",
+      "link": "https://www.mobileworldlive.com/china-mobile/globe-china-mobile-drive-ai-use-cases/",
+      "summary": "LIVE FROM MWC SHANGHAI 2026: AI naturally dominated the opening keynote session of this year’s event, with China Mobile and Filipino operator Globe Telecom offering insight into consumer benefits of the tech and how it is driving growth at both companies. The post Globe, China Mobile drive AI use cases appeared first...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 37,
+      "date": "2026-06-24T04:49:49+00:00",
+      "ts": 1782276589.0
     },
     {
       "title": "Low-Complexity Hybrid Precoding for Cell-Free Massive MU-MIMO ISAC Systems",
@@ -606,6 +665,22 @@
       "ts": 1782273600.0
     },
     {
+      "title": "GSMA boss puts Asia focus on robotics, drones",
+      "link": "https://www.mobileworldlive.com/gsma/gsma-boss-puts-asia-focus-on-robotics-drones-and-connected-vehicles/",
+      "summary": "LIVE FROM MWC SHANGHAI 2026: Vivek Badrinath, director general of the GSMA, spotlighted humanoid robotics, the low-altitude economy and autonomous vehicles as three of the most promising markets emerging from Asia’s mobile ecosystem, as he underlined the importance of telco infrastructure in powering the continent’s...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 37,
+      "date": "2026-06-24T03:42:01+00:00",
+      "ts": 1782272521.0
+    },
+    {
       "title": "Northwood Space Debuts Parabolic Antenna, Designed for High-Volume Data",
       "link": "https://www.satellitetoday.com/technology/2026/06/23/northwood-space-debuts-parabolic-antenna-designed-for-high-volume-data/",
       "summary": "Northwood Space announced a new ground system design this week, the Prism parabolic antenna, designed for high-volume data. Prism is a 2.4 meter parabolic antenna, designed for high-volume connectivity for […] The post Northwood Space Debuts Parabolic Antenna, Designed for High-Volume Data appeared first on Via...",
@@ -749,35 +824,6 @@
       "ts": 1782225402.0
     },
     {
-      "title": "Iridium releases hybrid IoT module",
-      "link": "https://www.mobileworldlive.com/industry/iridium-releases-hybrid-iot-module/",
-      "summary": "Iridium Communications launched a module it pledged would simplify the release of hybrid IoT devices when used in conjunction with an associated development kit. The post Iridium releases hybrid IoT module appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-06-23T14:35:36+00:00",
-      "ts": 1782225336.0
-    },
-    {
-      "title": "VMO2 sets timeline to pull plug on 2G",
-      "link": "https://www.mobileworldlive.com/network-tech/vmo2-sets-timeline-to-pull-plug-on-2g/",
-      "summary": "UK operator Virgin Media O2 announced plans to begin its 2G network switch-off in Summer 2029, joining rivals BT and VodafoneThree in setting a date to wind down the legacy technology. The post VMO2 sets timeline to pull plug on 2G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-06-23T13:10:34+00:00",
-      "ts": 1782220234.0
-    },
-    {
       "title": "Telefonica Tech lights NB-IoT in coastal town",
       "link": "https://www.mobileworldlive.com/industry/telefonica-tech-lights-nb-iot-in-coastal-town/",
       "summary": "Telefonica Tech helped the people of Santa Pola on Spain’s Costa Blanca to see the bright side of life after contributing its NB-IoT capabilities to an upgrade of streetlights in the town. The post Telefonica Tech lights NB-IoT in coastal town appeared first on Mobile World Live .",
@@ -790,20 +836,6 @@
       "relevance": 54,
       "date": "2026-06-23T10:33:37+00:00",
       "ts": 1782210817.0
-    },
-    {
-      "title": "SpaceX inks computing deal with Reflection AI",
-      "link": "https://www.mobileworldlive.com/ai-cloud/spacex-inks-computing-deal-with-reflection-ai/",
-      "summary": "SpaceX reportedly signed a significant computing power deal with Reflection AI, making the open-source start-up the latest outside company to tap Elon Musk's Colossus infrastructure. The post SpaceX inks computing deal with Reflection AI appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-06-23T09:10:51+00:00",
-      "ts": 1782205851.0
     },
     {
       "title": "India's Jio bets on 5G, AI and satellite for next growth phase",
@@ -943,20 +975,6 @@
       "ts": 1782142276.0
     },
     {
-      "title": "Nokia recruits Gemini agents for assurance platform",
-      "link": "https://www.mobileworldlive.com/nokia/nokia-recruits-gemini-agents-for-assurance-platform/",
-      "summary": "Google Cloud and Nokia outlined a plan to integrate agents made using Gemini AI models into the vendor’s network assurance platform, a move they promoted as aiding quick resolution of operator issues. The post Nokia recruits Gemini agents for assurance platform appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-06-22T15:16:57+00:00",
-      "ts": 1782141417.0
-    },
-    {
       "title": "Europe leads on 5G FWA as fixed wireless remains key value driver",
       "link": "https://www.lightreading.com/fixed-wireless-access/europe-leads-on-5g-fwa-as-fixed-wireless-remains-key-value-driver",
       "summary": "Europe has the most 5G FWA deployments to date according to data from the GSA, while the USA is in the lead at country level, according to a GSA market update, which also says fixed wireless continues to be a key value driver for operators.",
@@ -984,21 +1002,6 @@
       "relevance": 62,
       "date": "2026-06-22T11:22:49+00:00",
       "ts": 1782127369.0
-    },
-    {
-      "title": "CityFibre extends alliance with VodafoneThree to support 5G Standalone rollout",
-      "link": "https://capacityglobal.com/news/cityfibre-extends-alliance-with-vodafonethree/",
-      "summary": "CityFibre has secured a new mobile network transmission contract with VodafoneThree, extending a long-term partnership that will see the full fibre provider support the operator's 5G Standalone build across selected sites in the UK. The post CityFibre extends alliance with VodafoneThree to support 5G Standalone...",
-      "source": "Capacity Media",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-06-22T09:55:08+00:00",
-      "ts": 1782122108.0
     },
     {
       "title": "Federated Wireless Spectrum AI: Advancing CBRS Efficiency Through AI-Driven RAN Optimization",
@@ -1477,6 +1480,20 @@
       "ts": 0
     },
     {
+      "title": "ExteNet seeks buyer, breathing room amid small cell challenges",
+      "link": "https://www.fierce-network.com/wireless/extenet-seeks-buyer-breathing-room-amid-outdoor-small-cell-challenges",
+      "summary": "ExteNet seeks a buyer for its outdoor small cell and DAS unit as a looming cash crunch and shifting carrier demands squeeze the business.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Blue Planet, Telefónica Deutschland create 5G network slices with AI",
       "link": "https://www.fierce-network.com/wireless/blue-planet-telefonica-deutschland-create-5g-network-slices-ai",
       "summary": "According to Kailem Anderson with Blue Planet, the design of 5G network slices has taken surprisingly long – sometimes weeks.",
@@ -1498,20 +1515,6 @@
       "themes": [
         "moveis",
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Federated Wireless launches Spectrum AI for shared spectrum",
-      "link": "https://www.fierce-network.com/wireless/federated-wireless-launches-spectrum-ai-shared-spectrum",
-      "summary": "Federated Wireless today announced general availability of Spectrum AI, a physical AI platform built for shared spectrum planning and coordination.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
