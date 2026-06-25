@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-25T12:42:41.624498+00:00",
-  "count": 105,
+  "generated_at": "2026-06-25T18:40:20.138905+00:00",
+  "count": 102,
   "theme_counts": {
-    "moveis": 55,
+    "moveis": 48,
     "fibra": 7,
-    "antenas": 7,
-    "iot": 4,
-    "satelite": 26,
+    "antenas": 6,
+    "iot": 3,
+    "satelite": 25,
     "radar_militar": 8,
     "radiocom": 0,
     "tv": 0,
-    "geral": 26
+    "geral": 30
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
-    "jp": 2,
+    "in": 3,
+    "jp": 1,
     "kr": 0,
     "cn": 6
   },
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "Ericsson Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,64 @@
     }
   ],
   "items": [
+    {
+      "title": "FCC’s AWS-3 spectrum auction: 72 rounds, 17 qualified bidders, $3.5B in bids",
+      "link": "https://www.telecompetitor.com/fccs-aws-3-spectrum-auction-72-rounds-17-qualified-bidders-3-5b-in-bids/",
+      "summary": "FCC’s AWS-3 spectrum auction: 72 rounds, 17 qualified bidders, $3.5B in bids The Federal Communications Commission (FCC) says that the recently closed AWS-3 spectrum auction finished with gross winning bids of more than $3.5 billion. The auction, formally Auction 113, began on June 2. The FCC announced earlier this...",
+      "source": "Telecompetitor",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-06-25T17:30:00+00:00",
+      "ts": 1782408600.0
+    },
+    {
+      "title": "GSMA tackles AI model deficiencies",
+      "link": "https://www.mobileworldlive.com/gsma/gsma-tackles-ai-model-deficiencies/",
+      "summary": "The GSMA moved to address gaps in the telecom capabilities of AI models, teaming with a French infrastructure organisation to provide a compilation of relevant data and technology spanning more than 10 billion tokens. The post GSMA tackles AI model deficiencies appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-06-25T14:32:32+00:00",
+      "ts": 1782397952.0
+    },
+    {
+      "title": "LEO satellite trade org forms, without SpaceX and AST SpaceMobile",
+      "link": "https://www.lightreading.com/satellite/leo-satellite-trade-org-forms-without-spacex-and-ast-spacemobile",
+      "summary": "SpaceConnect, an organization focused on the policies and interests of the LEO satellite sector, has formed with support from Amazon, Iridium, Telesat and Globalstar. Analysts aren't surprised that SpaceX and AST SpaceMobile aren't participating.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-06-25T14:28:00+00:00",
+      "ts": 1782397680.0
+    },
+    {
+      "title": "India Wireless Data Usage Surges to 77,953 PB as 5G Accounts for 42.75%; ARPU Rises to Rs 196",
+      "link": "https://telecomlead.com/5g/india-wireless-data-usage-surges-to-77953-pb-as-5g-accounts-for-42-75-arpu-rises-to-rs-196-126430",
+      "summary": "India’s wireless telecom sector continued its strong growth in the quarter ended March 2026, with mobile data consumption, 5G adoption, and average revenue per user (ARPU) all recording healthy gains, according to the latest Telecom Regulatory Authority of India (TRAI) report. Total wireless data usage increased to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-06-25T14:19:32+00:00",
+      "ts": 1782397172.0
+    },
     {
       "title": "TRAI Drive Test: Reliance Jio Tops Mobile Network Performance on Rajasthan’s NH-148, Airtel Delivers Strong Competition",
       "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-tops-mobile-network-performance-on-rajasthans-nh-148-airtel-delivers-strong-competition-126425",
@@ -721,22 +779,6 @@
       "ts": 1782360000.0
     },
     {
-      "title": "India’s biggest telco, Jio Platforms, declares ambition for sovereign LEO in path to 6G",
-      "link": "https://www.datacenterdynamics.com/en/news/indias-biggest-telco-jio-platforms-declares-ambition-for-sovereign-leo-in-path-to-6g/",
-      "summary": "Subsidiary of Indian industry giant seeks to create sovereign network infrastructure extending to the stars",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 49,
-      "date": "2026-06-25T02:00:26+00:00",
-      "ts": 1782352826.0
-    },
-    {
       "title": "BAE Systems to Build Buses for Vantor’s Vantage Imaging Satellites",
       "link": "https://www.satellitetoday.com/earth-observation/2026/06/24/bae-systems-to-build-buses-for-vantors-vantage-imaging-satellites/",
       "summary": "BAE Systems is to build the buses for Vantor‘s Vantor Vantage 20 centimeter imaging satellites, the first two of which are to start operating by 2029, the companies said on […] The post BAE Systems to Build Buses for Vantor’s Vantage Imaging Satellites appeared first on Via Satellite .",
@@ -995,24 +1037,6 @@
       "ts": 1782291283.0
     },
     {
-      "title": "Telecom news: NTT DOCOMO, Nokia, Bharti Airtel, Vodafone Idea, Reliance Jio, DoT, Starlink",
-      "link": "https://telecomlead.com/news/telecom-news-ntt-docomo-nokia-bharti-airtel-vodafone-idea-reliance-jio-dot-starlink-126405",
-      "summary": "Today’s telecom news includes announcements on NTT DOCOMO, Nokia, Bharti Airtel, Vodafone Idea, Reliance Jio, DoT, Starlink, OneWeb, Ericsson, Telia, Vinnova, RISE, AstaZero, Future by Lund, among others. Japan’s First AI-Driven Mobile Network: DOCOMO and Nokia Push Telecom Automation to New Heights NTT DOCOMO has...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in",
-        "jp"
-      ],
-      "relevance": 66,
-      "date": "2026-06-24T06:19:19+00:00",
-      "ts": 1782281959.0
-    },
-    {
       "title": "Globe, China Mobile drive AI use cases",
       "link": "https://www.mobileworldlive.com/china-mobile/globe-china-mobile-drive-ai-use-cases/",
       "summary": "LIVE FROM MWC SHANGHAI 2026: AI naturally dominated the opening keynote session of this year’s event, with China Mobile and Filipino operator Globe Telecom offering insight into consumer benefits of the tech and how it is driving growth at both companies. The post Globe, China Mobile drive AI use cases appeared first...",
@@ -1088,20 +1112,6 @@
       "ts": 1782243887.0
     },
     {
-      "title": "Fleet-Wide Hybrid Networks: Marlink Integrates Starlink Across 80+ Oldendorff Carriers Vessels",
-      "link": "https://satnews.com/2026/06/23/fleet-wide-hybrid-networks-marlink-integrates-starlink-across-80-oldendorff-carriers-vessels/",
-      "summary": "Managed Multi-Orbit Data Pools Offer Dynamic Bandwidth Allocation and Robust Low-Latency Connections for Global Dry Bulk Fleet OSLO & PARIS — Driving the maritime industry’s rapid transition toward resilient, multi-orbit […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-06-23T15:55:02+00:00",
-      "ts": 1782230102.0
-    },
-    {
       "title": "Clearing 160MHz in upper C-band will cost $3.6B, SES says",
       "link": "https://www.lightreading.com/regulatory-politics/clearing-160mhz-in-upper-c-band-will-cost-3-6b-ses-says",
       "summary": "SES says it will cost about $3.6 billion to clear up to 160MHz of spectrum in the upper C-band, with the bulk of those costs linked to new Ku-band satellites with C-band uplinks.",
@@ -1130,6 +1140,21 @@
       "ts": 1782229285.0
     },
     {
+      "title": "WEI taps Starlink to connect enterprises",
+      "link": "https://www.lightreading.com/satellite/wei-taps-starlink-to-connect-enterprises",
+      "summary": "IT specialist WEI has launched WEI Connect, a managed enterprise platform powered by Starlink's satellite broadband service. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-06-23T15:38:39+00:00",
+      "ts": 1782229119.0
+    },
+    {
       "title": "Analysts tip rise of robots to boost private 5G spend",
       "link": "https://www.mobileworldlive.com/5g/analysts-tip-rise-of-robots-to-boost-private-5g-spend/",
       "summary": "Support for so-called physical AI including automated vehicles, robot dogs, drones and semi-humanoid units was one of the main market drivers SNS Telecom & IT cited in a forecast annual private 5G spending would top $6.6 billion by 2030. The post Analysts tip rise of robots to boost private 5G spend appeared first on...",
@@ -1142,20 +1167,6 @@
       "relevance": 55,
       "date": "2026-06-23T15:03:00+00:00",
       "ts": 1782226980.0
-    },
-    {
-      "title": "Telefonica Tech lights NB-IoT in coastal town",
-      "link": "https://www.mobileworldlive.com/industry/telefonica-tech-lights-nb-iot-in-coastal-town/",
-      "summary": "Telefonica Tech helped the people of Santa Pola on Spain’s Costa Blanca to see the bright side of life after contributing its NB-IoT capabilities to an upgrade of streetlights in the town. The post Telefonica Tech lights NB-IoT in coastal town appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-06-23T10:33:37+00:00",
-      "ts": 1782210817.0
     },
     {
       "title": "India's Jio bets on 5G, AI and satellite for next growth phase",
@@ -1292,34 +1303,6 @@
       "ts": 1781808279.0
     },
     {
-      "title": "Federated Wireless bulks up on AI to unlock CBRS capacity",
-      "link": "https://www.lightreading.com/ai-machine-learning/federated-wireless-bulks-up-on-ai-to-unlock-cbrs-capacity",
-      "summary": "Based on the results of recent market trials, Federated claims its new 'Spectrum AI' platform can deliver a 5x boost in CBRS network capacity without the need for more spectrum or infrastructure.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-06-18T13:00:00+00:00",
-      "ts": 1781787600.0
-    },
-    {
-      "title": "Eurobites: Consortium seeks to head off 6G cyber threats",
-      "link": "https://www.lightreading.com/6g/eurobites-consortium-seeks-to-head-off-6g-cyber-threats",
-      "summary": "Also in today's EMEA regional roundup: Orange gets semantic; T-Systems connects SupplyOn to its cloud; A1 explores use of mobile network for weather forecasting.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-06-18T10:51:56+00:00",
-      "ts": 1781779916.0
-    },
-    {
       "title": "Subsea cable security: Focusing on reality over fear with UltramapGlobal",
       "link": "https://totaltele.com/subsea-cable-security-focusing-on-reality-over-fear-with-ultramapglobal/",
       "summary": "Interview At the Submarine Networks EMEA 2026, we caught up with UltramapGlobal’s marketing lead Mychael Owen and co-founder Martin Connelly to discuss the company’s role in securing submarine infrastructure As geopolitical tensions and high-profile disruptions push submarine cables from the realm of invisible...",
@@ -1361,22 +1344,6 @@
       "relevance": 66,
       "date": "2026-06-16T22:40:42+00:00",
       "ts": 1781649642.0
-    },
-    {
-      "title": "Bigleaf Networks’ Multipath Broadband platform combines Verizon 5G and Starlink",
-      "link": "https://www.telecompetitor.com/bigleaf-networks-multipath-broadband-platform-combines-verizon-5g-and-starlink/",
-      "summary": "Bigleaf Networks’ Multipath Broadband platform combines Verizon 5G and Starlink Bigleaf Networks, which provides a performance control layer for multi-carrier, multi-path enterprises, announced today that its Multipath Broadband platform is available. The company says that Multipath Broadband, which was developed in...",
-      "source": "Telecompetitor",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-06-16T19:30:00+00:00",
-      "ts": 1781638200.0
     },
     {
       "title": "Ericsson’s June 2026 Mobility Report Highlights + AI impact on network traffic",
@@ -1538,35 +1505,6 @@
       "ts": 1778752801.0
     },
     {
-      "title": "The AI Boom Is Forcing a Long-Delayed Wi-Fi Reckoning",
-      "link": "https://spectrum.ieee.org/wi-fi-enterprise-networks",
-      "summary": "Last month, Cisco released its State of Wireless Report , revealing Wi-Fi’s limitations for companies who are now expanding their use of AI. The report outlined a discrepancy between companies’ ambitious AI plans and their reliance on aging Wi-Fi standards from before the current AI era. Other highlights include an...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 22,
-      "date": "2026-05-11T16:46:42+00:00",
-      "ts": 1778518002.0
-    },
-    {
-      "title": "T-Mobile gets a lift from Nokia’s latest 5G MIMO tech — SRG",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-gets-lift-nokias-latest-5g-mimo-tech-srg",
-      "summary": "Signals Research Group (SRG) tested Nokia’s zero-forcing Multi-User MIMO (MU-MIMO) and compared it with the legacy implementation of MU-MIMO in T-Mobile’s network.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 66,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Ericsson predicts more FWA, uplink traffic as network demand transforms",
       "link": "https://www.fierce-network.com/broadband/ericsson-predicts-more-fwa-uplink-traffic-network-demand-transforms",
       "summary": "Ericsson sees FWA, satellite and AI-driven video uploads as big drivers of mobile network traffic growth.",
@@ -1592,20 +1530,6 @@
       "research": false,
       "countries": [],
       "relevance": 60,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "How Ericsson Private 5G is reshaping autonomous mining in Australia",
-      "link": "https://www.fierce-network.com/sponsored/how-ericsson-private-5g-reshaping-autonomous-mining-australia",
-      "summary": "Learn how one mine in Australia replaced Wi-Fi with Ericsson’s Private 5G to power autonomous machines and reshape industrial work.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
       "date": null,
       "ts": 0
     },
@@ -1666,20 +1590,6 @@
       "ts": 0
     },
     {
-      "title": "Samsung's Network in a Server: Future-Ready Enterprise Use Cases",
-      "link": "https://www.fierce-network.com/sponsored/samsungs-network-server-future-ready-enterprise-use-cases",
-      "summary": "Revolutionizing retail, logistics, manufacturing and more with Samsung's Network in a Server: a private network solution powering AI-driven connectivity. Learn more from Samsung.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "AWS-3 auction concludes, topping $3.5B",
       "link": "https://www.fierce-network.com/wireless/aws-3-auction-concludes-topping-35b",
       "summary": "The Federal Communications Commission (FCC) concluded its first spectrum auction in four years, raising more than $3.5 billion through the sale of 200 AWS-3 licenses.",
@@ -1708,6 +1618,20 @@
       "ts": 0
     },
     {
+      "title": "Enterprises are losing control of AI stacks but telcos can help, says IBM",
+      "link": "https://www.fierce-network.com/cloud/ai-sovereignty-moves-policy-debate-network-risk-enterprises-lose-control-ai-stacks",
+      "summary": "According to a new IBM study, “only 9% of executives say they have an excellent understanding of their dependencies on AI vendors, models and infrastructure.\"",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Carolina West Wireless is shutting down in deal with Verizon",
       "link": "https://www.fierce-network.com/wireless/carolina-west-wireless-shutting-down-deal-verizon",
       "summary": "Carolina West Wireless struck an agreement to transition its wireless network to Verizon and will end its wireless services effective September 30, 2026. Terms were not disclosed.",
@@ -1718,6 +1642,34 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Verizon: 'We are pushing hard toward Level 4 autonomy in critical segments'",
+      "link": "https://www.fierce-network.com/cloud/verizon-we-are-pushing-hard-toward-level-4-autonomy-critical-segments",
+      "summary": "Verizon CTO Yago Tenorio says the carrier is nearing Level 3 network autonomy and pushing toward Level 4, with Claude Code rolled out to its full 33,000-person technology team.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Opinion: Before networks can run themselves, engineers must teach AI what the network means",
+      "link": "https://www.fierce-network.com/cloud/opinion-networks-can-run-themselves-engineers-must-teach-ai-what-network-means",
+      "summary": "In the telecom projects I’m working on now, the most important network conversation has not started with autonomous networks.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     }
