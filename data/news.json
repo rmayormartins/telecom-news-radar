@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-25T07:05:44.829636+00:00",
-  "count": 104,
+  "generated_at": "2026-06-25T12:42:41.624498+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 52,
+    "moveis": 55,
     "fibra": 7,
     "antenas": 7,
-    "iot": 3,
-    "satelite": 28,
+    "iot": 4,
+    "satelite": 26,
     "radar_militar": 8,
     "radiocom": 0,
     "tv": 0,
-    "geral": 28
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
-    "jp": 3,
+    "in": 4,
+    "jp": 2,
     "kr": 0,
-    "cn": 4
+    "cn": 6
   },
   "research_count": 28,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -201,9 +201,115 @@
   ],
   "items": [
     {
-      "title": "Qualcomm looks to 6G support for AI from 2029",
+      "title": "TRAI Drive Test: Reliance Jio Tops Mobile Network Performance on Rajasthan’s NH-148, Airtel Delivers Strong Competition",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-tops-mobile-network-performance-on-rajasthans-nh-148-airtel-delivers-strong-competition-126425",
+      "summary": "Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted on the Manoharpur to Dausa stretch of National Highway 148 (NH-148) in Rajasthan, highlighting the performance of major telecom operators including Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL. The drive...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-06-25T11:07:46+00:00",
+      "ts": 1782385666.0
+    },
+    {
+      "title": "Telecom news: Huawei, Iridium, Mlink Technology, GSMA, China Tower",
+      "link": "https://telecomlead.com/news/telecom-news-huawei-iridium-mlink-technology-gsma-china-tower-126421",
+      "summary": "Today’s telecom news includes announcements on Huawei, Iridium, Mlink Technology, GSMA, China Tower, among others. From Connectivity to Digital Assets: Huawei’s New Token Strategy Opens Revenue Opportunities for Telecom Operators Huawei has introduced a new Service-Network-Compute integration framework designed to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 46,
+      "date": "2026-06-25T11:01:10+00:00",
+      "ts": 1782385270.0
+    },
+    {
+      "title": "Wi-Fi and Cellular Industries Duke It Out Over 6 GHz Band",
+      "link": "https://spectrum.ieee.org/6g-wifi-united-states-china",
+      "summary": "Global demand for high-capacity, low-latency wireless connectivity continues to grow, and the 6 gigahertz band of radio spectrum has emerged as a particularly vital chunk of wireless real estate. Both the cellular and Wi-Fi industries consider this contiguous block, which covers frequencies from 5,925 to 7,125...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 42,
+      "date": "2026-06-25T11:00:01+00:00",
+      "ts": 1782385201.0
+    },
+    {
+      "title": "Memory costs impact AI IoT module shipments",
+      "link": "https://www.mobileworldlive.com/industry/memory-costs-impact-ai-iot-module-shipments/",
+      "summary": "Counterpoint Research sounded the alarm on shipments of AI-embedded IoT modules after a decline in the opening quarter, though noted the segment remains a small proportion of the overall cellular segment. The post Memory costs impact AI IoT module shipments appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-06-25T10:36:18+00:00",
+      "ts": 1782383778.0
+    },
+    {
+      "title": "TDC Net wins $12M payout for Huawei kit removal",
+      "link": "https://www.mobileworldlive.com/regulation/tdc-net-wins-12m-payout-for-huawei-kit-removal/",
+      "summary": "Danish infrastructure company TDC Net was awarded DKK80 million ($12.2 million) in compensation after being forced to remove Huawei equipment used in its fibre network. The post TDC Net wins $12M payout for Huawei kit removal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 43,
+      "date": "2026-06-25T10:30:36+00:00",
+      "ts": 1782383436.0
+    },
+    {
+      "title": "Subco activates SMAP subsea cable in Australia",
+      "link": "https://www.lightreading.com/cable-technology/subco-activates-smap-subsea-cable-in-australia",
+      "summary": "The 5,000km Sydney-Melbourne-Adelaide-Perth (SMAP) submarine cable is now ready for service, adding more than 400 Tbit/s of IT capacity across the route that links four major Australian cities.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-06-25T09:23:36+00:00",
+      "ts": 1782379416.0
+    },
+    {
+      "title": "The Internet of Things was 5G's big fail – 6G risks a repeat",
+      "link": "https://www.lightreading.com/iot/the-internet-of-things-was-5g-s-big-fail-6g-risks-a-repeat",
+      "summary": "High module prices, poor 5G coverage and a profusion of narrowband technologies all share some blame for the disappointment surrounding IoT.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-06-25T07:30:00+00:00",
+      "ts": 1782372600.0
+    },
+    {
+      "title": "Qualcomm expects AI-boosting 6G devices in 2029",
       "link": "https://www.mobileworldlive.com/qualcomm/qualcomm-looks-to-6g-support-for-ai-from-2029/",
-      "summary": "LIVE FROM MWC SHANGHAI 2026: Qualcomm continued on its mission to see 6G as the wireless technology for the age Read more... The post Qualcomm looks to 6G support for AI from 2029 appeared first on Mobile World Live .",
+      "summary": "LIVE FROM MWC SHANGHAI 2026: Qualcomm continued a mission to position 6G as the wireless technology for the age of AI, with a senior executive expressing confidence pre-commercial devices could be available as soon as 2028, with commercial shipments commencing in 2029. The post Qualcomm expects AI-boosting 6G devices...",
       "source": "Mobile World Live",
       "themes": [
         "moveis"
@@ -212,7 +318,7 @@
       "countries": [
         "cn"
       ],
-      "relevance": 54,
+      "relevance": 51,
       "date": "2026-06-25T06:45:51+00:00",
       "ts": 1782369951.0
     },
@@ -907,20 +1013,6 @@
       "ts": 1782281959.0
     },
     {
-      "title": "Telecom news: Nextlink Internet, Aviat Networks, Alvian",
-      "link": "https://telecomlead.com/news/telecom-news-nextlink-internet-aviat-networks-alvian-126399",
-      "summary": "Today’s telecom news includes announcements on Nextlink Internet, Alvian Networks, Alvian, Private 5G Network Market, among others. Alvian Networks Bets on U.S. Growth with Buffalo Launch to Protect Critical Infrastructure Alvian Networks has launched U.S. operations through its new subsidiary, Alvian USA Inc.,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-06-24T05:38:37+00:00",
-      "ts": 1782279517.0
-    },
-    {
       "title": "Globe, China Mobile drive AI use cases",
       "link": "https://www.mobileworldlive.com/china-mobile/globe-china-mobile-drive-ai-use-cases/",
       "summary": "LIVE FROM MWC SHANGHAI 2026: AI naturally dominated the opening keynote session of this year’s event, with China Mobile and Filipino operator Globe Telecom offering insight into consumer benefits of the tech and how it is driving growth at both companies. The post Globe, China Mobile drive AI use cases appeared first...",
@@ -1038,21 +1130,6 @@
       "ts": 1782229285.0
     },
     {
-      "title": "WEI taps Starlink to connect enterprises",
-      "link": "https://www.lightreading.com/satellite/wei-taps-starlink-to-connect-enterprises",
-      "summary": "IT specialist WEI has launched WEI Connect, a managed enterprise platform powered by Starlink's satellite broadband service. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-06-23T15:38:39+00:00",
-      "ts": 1782229119.0
-    },
-    {
       "title": "Analysts tip rise of robots to boost private 5G spend",
       "link": "https://www.mobileworldlive.com/5g/analysts-tip-rise-of-robots-to-boost-private-5g-spend/",
       "summary": "Support for so-called physical AI including automated vehicles, robot dogs, drones and semi-humanoid units was one of the main market drivers SNS Telecom & IT cited in a forecast annual private 5G spending would top $6.6 billion by 2030. The post Analysts tip rise of robots to boost private 5G spend appeared first on...",
@@ -1065,21 +1142,6 @@
       "relevance": 55,
       "date": "2026-06-23T15:03:00+00:00",
       "ts": 1782226980.0
-    },
-    {
-      "title": "Iridium releases hybrid IoT module",
-      "link": "https://www.mobileworldlive.com/industry/iridium-releases-hybrid-iot-module/",
-      "summary": "Iridium Communications launched a module it pledged would simplify the release of hybrid IoT devices when used in conjunction with an associated development kit. The post Iridium releases hybrid IoT module appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-06-23T14:35:36+00:00",
-      "ts": 1782225336.0
     },
     {
       "title": "Telefonica Tech lights NB-IoT in coastal town",
@@ -1112,22 +1174,6 @@
       "relevance": 55,
       "date": "2026-06-23T06:30:00+00:00",
       "ts": 1782196200.0
-    },
-    {
-      "title": "Nvidia rallies telcos around AI agents at DTW Ignite",
-      "link": "https://www.mobileworldlive.com/nvidia/nvidia-rally-telcos-around-ai-agents-at-dtw-ignite/",
-      "summary": "Nvidia and telecom partners including SoftBank Corp and NTT Data plan to demonstrate a stack of data, models, simulation tools and secure runtimes at DTW Ignite 2026, aimed at helping operators move from task-based automation to fully autonomous network operations. The post Nvidia rallies telcos around AI agents at...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 43,
-      "date": "2026-06-23T06:00:00+00:00",
-      "ts": 1782194400.0
     },
     {
       "title": "AI-RAN and Agentic AI get real: Ericsson, Nokia, Verizon & other operators enter into a new network automation era",
@@ -1272,21 +1318,6 @@
       "relevance": 63,
       "date": "2026-06-18T10:51:56+00:00",
       "ts": 1781779916.0
-    },
-    {
-      "title": "Clarus Networks to resell Amazon Leo",
-      "link": "https://www.lightreading.com/satellite/clarus-networks-to-resell-amazon-leo",
-      "summary": "Building on similar agreements with Starlink and OneWeb, Clarus Networks has signed on as an authorized reseller of Amazon Leo's satellite broadband services to enterprise and maritime customers. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-06-17T16:51:24+00:00",
-      "ts": 1781715084.0
     },
     {
       "title": "Subsea cable security: Focusing on reality over fear with UltramapGlobal",
@@ -1521,21 +1552,6 @@
       "ts": 1778518002.0
     },
     {
-      "title": "Why Mastering EVM Is Essential for Next-Generation Wireless Systems",
-      "link": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
-      "summary": "A comprehensive guide to error vector magnitude (EVM), the primary metric for quantifying modulation accuracy in Wi-Fi, LTE, and 5G NR systems. What Attendees will Learn What error vector magnitude is and how it is calculated — Understand EVM as the distance between ideal and measured constellation points, learn the...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-05-11T10:00:01+00:00",
-      "ts": 1778493601.0
-    },
-    {
       "title": "T-Mobile gets a lift from Nokia’s latest 5G MIMO tech — SRG",
       "link": "https://www.fierce-network.com/wireless/t-mobile-gets-lift-nokias-latest-5g-mimo-tech-srg",
       "summary": "Signals Research Group (SRG) tested Nokia’s zero-forcing Multi-User MIMO (MU-MIMO) and compared it with the legacy implementation of MU-MIMO in T-Mobile’s network.",
@@ -1547,6 +1563,21 @@
       "research": false,
       "countries": [],
       "relevance": 66,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Ericsson predicts more FWA, uplink traffic as network demand transforms",
+      "link": "https://www.fierce-network.com/broadband/ericsson-predicts-more-fwa-uplink-traffic-network-demand-transforms",
+      "summary": "Ericsson sees FWA, satellite and AI-driven video uploads as big drivers of mobile network traffic growth.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
       "date": null,
       "ts": 0
     },
@@ -1680,20 +1711,6 @@
       "title": "Carolina West Wireless is shutting down in deal with Verizon",
       "link": "https://www.fierce-network.com/wireless/carolina-west-wireless-shutting-down-deal-verizon",
       "summary": "Carolina West Wireless struck an agreement to transition its wireless network to Verizon and will end its wireless services effective September 30, 2026. Terms were not disclosed.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon: 'We are pushing hard toward Level 4 autonomy in critical segments'",
-      "link": "https://www.fierce-network.com/cloud/verizon-we-are-pushing-hard-toward-level-4-autonomy-critical-segments",
-      "summary": "Verizon CTO Yago Tenorio says the carrier is nearing Level 3 network autonomy and pushing toward Level 4, with Claude Code rolled out to its full 33,000-person technology team.",
       "source": "Fierce Network",
       "themes": [
         "geral"
