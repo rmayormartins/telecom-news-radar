@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-26T12:37:44.074753+00:00",
-  "count": 106,
+  "generated_at": "2026-06-26T18:32:02.995321+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 48,
+    "moveis": 43,
     "fibra": 11,
     "antenas": 10,
-    "iot": 7,
-    "satelite": 27,
-    "radar_militar": 8,
+    "iot": 8,
+    "satelite": 28,
+    "radar_militar": 7,
     "radiocom": 1,
     "tv": 0,
-    "geral": 27
+    "geral": 29
   },
   "country_counts": {
     "br": 0,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
-    "in": 3,
+    "in": 2,
     "jp": 3,
     "kr": 0,
     "cn": 7
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Capacity Media",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,80 @@
     }
   ],
   "items": [
+    {
+      "title": "Tototheo Global to Deploy SES FlexMaritime in Expanded Maritime Deal",
+      "link": "https://www.satellitetoday.com/mobility/2026/06/26/tototheo-global-to-deploy-ses-flexmaritime-in-expanded-maritime-deal/",
+      "summary": "Tototheo Global has expanded its agreement with SES to deploy the FlexMartime connectivity service to the maritime market. FlexMaritime is a connectivity service that combines SES’s satellite network and integrated […] The post Tototheo Global to Deploy SES FlexMaritime in Expanded Maritime Deal appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-06-26T17:36:05+00:00",
+      "ts": 1782495365.0
+    },
+    {
+      "title": "ReOrbit Secures Finnish Funding for ‘OrbitCloud’ R&D Program",
+      "link": "https://www.satellitetoday.com/connectivity/2026/06/26/reorbit-secures-finnish-funding-for-orbitcloud-rd-program/",
+      "summary": "ReOrbit is launching a new OrbitCloud R&D program to create a space-based edge computing network, with initial funding from Business Finland of 4.6 million euro ($5.3 million). The company describes […] The post ReOrbit Secures Finnish Funding for ‘OrbitCloud’ R&D Program appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-06-26T17:34:50+00:00",
+      "ts": 1782495290.0
+    },
+    {
+      "title": "AiRanaculus to Advance Networking Technologies for NASA Lunar and Space Communications Networks",
+      "link": "https://www.satellitetoday.com/technology/2026/06/26/airanaculus-to-advance-networking-technologies-for-nasa-lunar-and-space-communications-networks/",
+      "summary": "Networking technology company AiRanaculus has received a $5 million award from NASA for its technologies to be used to support NASA lunar and space communications networks. Under a $5 million […] The post AiRanaculus to Advance Networking Technologies for NASA Lunar and Space Communications Networks appeared first on...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-06-26T17:27:36+00:00",
+      "ts": 1782494856.0
+    },
+    {
+      "title": "FCC concludes AWS-3 spectrum, raises $3.5bn",
+      "link": "https://www.datacenterdynamics.com/en/news/fcc-concludes-aws-3-spectrum-raises-35bn/",
+      "summary": "Will be used to fund \"rip and replace\" of Chinese telecoms kit",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 43,
+      "date": "2026-06-26T16:00:31+00:00",
+      "ts": 1782489631.0
+    },
+    {
+      "title": "Ukraine, Kyivstar plot domestic AI compute build",
+      "link": "https://www.mobileworldlive.com/europe/ukraine-kyivstar-plot-domestic-ai-compute-build/",
+      "summary": "Ukraine is reportedly planning to build domestic AI computing capacity in partnership with operator Kyivstar, in a bid to strengthen critical digital infrastructure amid the country's ongoing war with Russia. The post Ukraine, Kyivstar plot domestic AI compute build appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 31,
+      "date": "2026-06-26T15:46:58+00:00",
+      "ts": 1782488818.0
+    },
     {
       "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
       "link": "https://spacenews.com/starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership/",
@@ -721,20 +795,6 @@
       "ts": 1782446202.0
     },
     {
-      "title": "FCC Tightens Submarine Cable Security Rules to Protect 99 Percent of Global Internet Traffic",
-      "link": "https://telecomlead.com/broadband/fcc-tightens-submarine-cable-security-rules-to-protect-99-percent-of-global-internet-traffic-126436",
-      "summary": "The U.S. Federal Communications Commission (FCC) has approved tougher regulations for submarine communication cables, introducing stricter security requirements aimed at protecting critical internet infrastructure and reducing the role of equipment from foreign adversaries in U.S. networks. Submarine communication...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-06-26T01:53:57+00:00",
-      "ts": 1782438837.0
-    },
-    {
       "title": "Nigeria: Starlink making strong gains",
       "link": "https://www.advanced-television.com/2026/06/26/nigeria-starlink-making-strong-gains/",
       "summary": "SpaceX’s Starlink broadband-by-satellite service has added some 25,500 subscribers in the past half-year in Nigeria, and its subscriber base now totals 91,991. The total now places Starlink as the second largest ISP in Nigeria. The current total represents some 26 per cent of Nigeria’s total active ISP subscribers....",
@@ -843,6 +903,21 @@
       "ts": 1782402658.0
     },
     {
+      "title": "Vodafone Spain plans D2D next year with AST SpaceMobile's Euro JV",
+      "link": "https://www.lightreading.com/satellite/vodafone-spain-plans-d2d-next-year-with-ast-spacemobile-s-euro-jv",
+      "summary": "Satellite Connect Europe, the AST SpaceMobile-Vodafone joint venture, adds Vodafone Spain to the roster of mobile operator partners for D2D with services planned in 2027.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-06-25T14:36:42+00:00",
+      "ts": 1782398202.0
+    },
+    {
       "title": "GSMA tackles AI model deficiencies",
       "link": "https://www.mobileworldlive.com/gsma/gsma-tackles-ai-model-deficiencies/",
       "summary": "The GSMA moved to address gaps in the telecom capabilities of AI models, teaming with a French infrastructure organisation to provide a compilation of relevant data and technology spanning more than 10 billion tokens. The post GSMA tackles AI model deficiencies appeared first on Mobile World Live .",
@@ -869,54 +944,6 @@
       "relevance": 53,
       "date": "2026-06-25T14:28:00+00:00",
       "ts": 1782397680.0
-    },
-    {
-      "title": "India Wireless Data Usage Surges to 77,953 PB as 5G Accounts for 42.75%; ARPU Rises to Rs 196",
-      "link": "https://telecomlead.com/5g/india-wireless-data-usage-surges-to-77953-pb-as-5g-accounts-for-42-75-arpu-rises-to-rs-196-126430",
-      "summary": "India’s wireless telecom sector continued its strong growth in the quarter ended March 2026, with mobile data consumption, 5G adoption, and average revenue per user (ARPU) all recording healthy gains, according to the latest Telecom Regulatory Authority of India (TRAI) report. Total wireless data usage increased to...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 49,
-      "date": "2026-06-25T14:19:32+00:00",
-      "ts": 1782397172.0
-    },
-    {
-      "title": "TRAI Drive Test: Reliance Jio Tops Mobile Network Performance on Rajasthan’s NH-148, Airtel Delivers Strong Competition",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-tops-mobile-network-performance-on-rajasthans-nh-148-airtel-delivers-strong-competition-126425",
-      "summary": "Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted on the Manoharpur to Dausa stretch of National Highway 148 (NH-148) in Rajasthan, highlighting the performance of major telecom operators including Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL. The drive...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-06-25T11:07:46+00:00",
-      "ts": 1782385666.0
-    },
-    {
-      "title": "Telecom news: Huawei, Iridium, Mlink Technology, GSMA, China Tower",
-      "link": "https://telecomlead.com/news/telecom-news-huawei-iridium-mlink-technology-gsma-china-tower-126421",
-      "summary": "Today’s telecom news includes announcements on Huawei, Iridium, Mlink Technology, GSMA, China Tower, among others. From Connectivity to Digital Assets: Huawei’s New Token Strategy Opens Revenue Opportunities for Telecom Operators Huawei has introduced a new Service-Network-Compute integration framework designed to...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 46,
-      "date": "2026-06-25T11:01:10+00:00",
-      "ts": 1782385270.0
     },
     {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
@@ -1065,34 +1092,6 @@
       "ts": 1782334344.0
     },
     {
-      "title": "The EU’s 2 GHz Plan: A Test Case for Sovereignty in Satcom",
-      "link": "https://www.satellitetoday.com/opinion/2026/06/24/the-eus-2-ghz-plan-a-test-case-for-sovereignty-in-satcom/",
-      "summary": "The European Commission’s proposal to re-authorize the 2 GHz Mobile Satellite Services band beyond 2027 comes at a time when satellite connectivity is increasingly shaped by geopolitical considerations as much […] The post The EU’s 2 GHz Plan: A Test Case for Sovereignty in Satcom appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-06-24T20:13:32+00:00",
-      "ts": 1782332012.0
-    },
-    {
-      "title": "LEO Operators Launch New Industry Group for NGSO Issues",
-      "link": "https://www.satellitetoday.com/connectivity/2026/06/24/leo-operators-launch-new-industry-group-for-ngso-issues/",
-      "summary": "A group of satellite operators are launching a new trade association to represent Non-Geostationary (NGSO) satellite issues. Founding members Amazon, Iridium, Telesat and Globalstar announced SpaceConnect Association on Wednesday. SpaceConnect […] The post LEO Operators Launch New Industry Group for NGSO Issues...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-06-24T20:04:07+00:00",
-      "ts": 1782331447.0
-    },
-    {
       "title": "Carolina West Wireless sells network to Verizon",
       "link": "https://www.lightreading.com/5g/carolina-west-wireless-sells-network-to-verizon",
       "summary": "Regional carrier Carolina West Wireless is transitioning its network to Verizon, a move that will impact CWW's postpaid mobile service along with its Bark Mobile prepaid and Clearstream FWA services.",
@@ -1148,20 +1147,6 @@
       "relevance": 39,
       "date": "2026-06-24T13:50:59+00:00",
       "ts": 1782309059.0
-    },
-    {
-      "title": "Feature: How Verizon is crafting its network for the agentic AI era",
-      "link": "https://www.mobileworldlive.com/verizon/feature-how-verizon-is-crafting-its-network-for-the-agentic-ai-era/",
-      "summary": "MWL’s Mike Robuck talks with Verizon CTO Yago Tenorio about how the operator is embracing generative and agentic AI to enable network autonomy. The post Feature: How Verizon is crafting its network for the agentic AI era appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-06-24T13:35:13+00:00",
-      "ts": 1782308113.0
     },
     {
       "title": "AI Is Designing Radio Chips That Humans Couldn’t Even Imagine",
@@ -1237,6 +1222,21 @@
       "ts": 1782229119.0
     },
     {
+      "title": "Vodafone IoT looks to satellites to connect more things",
+      "link": "https://www.lightreading.com/iot/vodafone-iot-looks-to-satellites-to-connect-more-things",
+      "summary": "Vodafone IoT CEO Erik Brenneis tells Light Reading that it will launch satellite connectivity from Iridium and Skylo this year to expand global coverage.",
+      "source": "Light Reading",
+      "themes": [
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-06-23T14:36:42+00:00",
+      "ts": 1782225402.0
+    },
+    {
       "title": "India's Jio bets on 5G, AI and satellite for next growth phase",
       "link": "https://www.lightreading.com/satellite/india-s-jio-bets-on-5g-ai-and-satellite-for-next-growth-phase",
       "summary": "Jio outlined a growth strategy centered on 5G, AI, enterprise services and satellite broadband, including possible plans to set up a sovereign LEO constellation.",
@@ -1283,21 +1283,6 @@
       "ts": 1782138496.0
     },
     {
-      "title": "Eurobites: Ericsson, Telia plan Swedish test center for 5G, 6G and AI",
-      "link": "https://www.lightreading.com/6g/eurobites-ericsson-telia-plan-swedish-test-center-for-5g-6g-and-ai",
-      "summary": "Also in today's EMEA regional roundup: CityFibre extends backhaul deal with VodafoneThree; Eutelsat lands AST maritime gig; MasOrange chooses Polystar's analytics.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-06-22T11:22:49+00:00",
-      "ts": 1782127369.0
-    },
-    {
       "title": "Federated Wireless Spectrum AI: Advancing CBRS Efficiency Through AI-Driven RAN Optimization",
       "link": "https://techblog.comsoc.org/2026/06/20/federated-wireless-spectrum-ai-advancing-cbrs-efficiency-through-ai-driven-ran-optimization/",
       "summary": "Introduction: Recent field trial results from Federated Wireless indicate up to 50% gains in usable CBRS spectrum [1.] and significantly accelerated network planning cycles when using the company’s Wireless Spectrum AI platform [2.]. The field trials were held in markets such as Phoenix and Philadelphia, along with...",
@@ -1338,22 +1323,6 @@
       "relevance": 49,
       "date": "2026-06-19T15:58:21+00:00",
       "ts": 1781884701.0
-    },
-    {
-      "title": "Eurobites: Spain to mandate mobile network power backup – report",
-      "link": "https://www.lightreading.com/regulatory-politics/eurobites-spain-to-mandate-mobile-network-power-backup-report",
-      "summary": "Also in today's EMEA regional roundup: SpaceX criticizes EU's satellite spectrum plans; Nokia and KNDS work together on connectivity for defense environments; rural Czech Republic gets more 5G.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-06-19T10:48:57+00:00",
-      "ts": 1781866137.0
     },
     {
       "title": "SHIELD-6G with AI-native cyber threat intelligence platform to enhance cybersecurity for Europe’s future 6G networks",
@@ -1573,6 +1542,23 @@
       "ts": 1778752801.0
     },
     {
+      "title": "Can Jio build India's answer to Starlink?",
+      "link": "https://www.fierce-network.com/wireless/can-jio-build-indias-answer-starlink",
+      "summary": "India’s largest service provider, Reliance Jio, is evaluating the development of a sovereign low Earth orbit (LEO) satellite constellation, which would challenge several global satellite broadband providers, including Starlink, Eutelsat OneWeb and Amazon’s Project LEO, among others.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 66,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Ericsson predicts more FWA, uplink traffic as network demand transforms",
       "link": "https://www.fierce-network.com/broadband/ericsson-predicts-more-fwa-uplink-traffic-network-demand-transforms",
       "summary": "Ericsson sees FWA, satellite and AI-driven video uploads as big drivers of mobile network traffic growth.",
@@ -1598,20 +1584,6 @@
       "research": false,
       "countries": [],
       "relevance": 51,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Newmont advances mining automation with Ericsson Enterprise Wireless Solutions in Australia",
-      "link": "https://www.fierce-network.com/sponsored/newmont-advances-mining-automation-ericsson-enterprise-wireless-solutions-australia",
-      "summary": "Learn how Ericsson is helping Newmont bring private 5G to life—powering everything from giant autonomous drills to the smart tools miners could soon use every day.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
       "date": null,
       "ts": 0
     },
@@ -1650,20 +1622,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 33,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Are telcos doing network APIs all wrong?",
-      "link": "https://www.fierce-network.com/wireless/are-telcos-doing-network-apis-all-wrong",
-      "summary": "Network APIs were supposed to unlock 5G’s next revenue wave. Years later, telcos are still wrestling with the basics. Are they barking up the wrong tree?",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
       ],
       "research": false,
       "countries": [],
@@ -1739,6 +1697,20 @@
       "countries": [
         "cn"
       ],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Telco automation and autonomy are not the same thing",
+      "link": "https://www.fierce-network.com/wireless/telco-automation-and-autonomy-are-not-same-thing",
+      "summary": "Operators want autonomous networks. First, they have to solve software deployment, governance and people problems.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
       "relevance": 23,
       "date": null,
       "ts": 0
