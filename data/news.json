@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-26T07:12:14.332237+00:00",
-  "count": 96,
+  "generated_at": "2026-06-26T12:37:44.074753+00:00",
+  "count": 106,
   "theme_counts": {
-    "moveis": 42,
-    "fibra": 8,
-    "antenas": 9,
+    "moveis": 48,
+    "fibra": 11,
+    "antenas": 10,
     "iot": 7,
-    "satelite": 22,
+    "satelite": 27,
     "radar_militar": 8,
     "radiocom": 1,
     "tv": 0,
-    "geral": 29
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 1,
-    "jp": 2,
+    "in": 3,
+    "jp": 3,
     "kr": 0,
-    "cn": 6
+    "cn": 7
   },
   "research_count": 28,
   "sources": [
@@ -60,13 +60,13 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 500: Internal Server Error",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "TeckNexus",
@@ -86,17 +86,17 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Via Satellite",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 2
     },
     {
       "source": "SatNews",
@@ -200,6 +200,110 @@
     }
   ],
   "items": [
+    {
+      "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
+      "link": "https://spacenews.com/starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership/",
+      "summary": "Former SpaceX engineers who helped build and scale Starlink have launched a startup aiming to deliver megaconstellations for governments and companies seeking more control over space-based infrastructure. The post Starlink veterans launch startup to broaden megaconstellation ownership appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-06-26T12:00:00+00:00",
+      "ts": 1782475200.0
+    },
+    {
+      "title": "Nvidia and Samsung to power 6G-ready digital twin for Japan telecom giant",
+      "link": "https://www.datacenterdynamics.com/en/news/nvidia-and-samsung-to-power-6g-ready-digital-twin-for-japan-telecom-giant/",
+      "summary": "KDDI gets the gang together for AI and RAN-driven venture",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 52,
+      "date": "2026-06-26T11:58:10+00:00",
+      "ts": 1782475090.0
+    },
+    {
+      "title": "SpaceX mulls Starlink consumer mobile play",
+      "link": "https://www.mobileworldlive.com/starlink/spacex-mulls-starlink-consumer-mobile-play/",
+      "summary": "SpaceX is reportedly weighing a push into the US consumer mobile market through its Starlink business, in a move that would pit the satellite operator directly against Verizon, AT&T and T-Mobile US. The post SpaceX mulls Starlink consumer mobile play appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-06-26T10:40:03+00:00",
+      "ts": 1782470403.0
+    },
+    {
+      "title": "Extreme Networks debuts hyper-directional Wifi 7 antenna technology at new 60,000-seat NFL venue",
+      "link": "https://capacityglobal.com/news/extreme-networks-debuts-hyper-directional-wifi-7-antenna-technology-at-new-60000-seat-nfl-venue/",
+      "summary": "Extreme Networks has debuted its Multi-Beam Wireless technology at the new Nissan Stadium in Nashville, Tennessee, marking the first deployment of what the vendor describes as a hyper-directional antenna solution for Wifi. The post Extreme Networks debuts hyper-directional Wifi 7 antenna technology at new 60,000-seat...",
+      "source": "Capacity Media",
+      "themes": [
+        "antenas"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-06-26T09:50:10+00:00",
+      "ts": 1782467410.0
+    },
+    {
+      "title": "The Friday File: MWC26 Shanghai; Anthropic; Nvidia",
+      "link": "https://www.mobileworldlive.com/nvidia/the-friday-file-mwc26-shanghai-anthropic-nvidia/",
+      "summary": "Mobile World Live brings you our top three picks of the week as China’s 5G adoption hit a milestone ahead of MWC26 Shanghai, Anthropic accused Alibaba of a large-scale Claude distillation operation and Nvidia, alongside its telecom partners, put a spotlight on agentic AI and autonomous network operations at DTW Ignite...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 48,
+      "date": "2026-06-26T09:09:00+00:00",
+      "ts": 1782464940.0
+    },
+    {
+      "title": "FCC to curb barriers to broadband deployments",
+      "link": "https://www.mobileworldlive.com/fcc/fcc-moves-to-curb-barriers-to-broadband-deployments/",
+      "summary": "The Federal Communications Commission proposed rules aimed at preventing state and local permit delays and fees it claims can slow the deployment of high-speed broadband infrastructure across the US. The post FCC to curb barriers to broadband deployments appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-06-26T08:37:56+00:00",
+      "ts": 1782463076.0
+    },
+    {
+      "title": "AI-Driven Green & Resilience: New Blueprint for Zero-Carbon and Reliable Network Architecture",
+      "link": "https://totaltele.com/ai-driven-green-resilience-new-blueprint-for-zero-carbon-and-reliable-network-architecture/",
+      "summary": "Press Release [Copenhagen, Denmark, June 24, 2026] At Digital Transformation World (DTW) 26, Huawei, in collaboration with TM Forum and GSMA Intelligence, hosted the 5th Green & Resilience Development Forum, bringing together industry leaders to explore the sustainable development of communications networks. The forum...",
+      "source": "Total Telecom",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 43,
+      "date": "2026-06-26T08:37:45+00:00",
+      "ts": 1782463065.0
+    },
     {
       "title": "MIMO Zak-OTFS: Channel Estimation, Detection, and Throughput Analysis",
       "link": "https://arxiv.org/abs/2606.26420",
@@ -602,6 +706,51 @@
       "ts": 1782446400.0
     },
     {
+      "title": "SpaceX eyeing T-Mobile?",
+      "link": "https://www.advanced-television.com/2026/06/26/spacex-eyeing-t-mobile/",
+      "summary": "SpaceX is planning to buy US cellular operator T-Mobile according to industry speculation. The reports include a note from analysts at investment bank TD Cowen which says that SpaceX could buy T-Mobile if the three giant cellular operators (AT&T, Verizon and T-Mobile) decline to allow SpaceX’s Starlink service access...",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-06-26T03:56:42+00:00",
+      "ts": 1782446202.0
+    },
+    {
+      "title": "FCC Tightens Submarine Cable Security Rules to Protect 99 Percent of Global Internet Traffic",
+      "link": "https://telecomlead.com/broadband/fcc-tightens-submarine-cable-security-rules-to-protect-99-percent-of-global-internet-traffic-126436",
+      "summary": "The U.S. Federal Communications Commission (FCC) has approved tougher regulations for submarine communication cables, introducing stricter security requirements aimed at protecting critical internet infrastructure and reducing the role of equipment from foreign adversaries in U.S. networks. Submarine communication...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-06-26T01:53:57+00:00",
+      "ts": 1782438837.0
+    },
+    {
+      "title": "Nigeria: Starlink making strong gains",
+      "link": "https://www.advanced-television.com/2026/06/26/nigeria-starlink-making-strong-gains/",
+      "summary": "SpaceX’s Starlink broadband-by-satellite service has added some 25,500 subscribers in the past half-year in Nigeria, and its subscriber base now totals 91,991. The total now places Starlink as the second largest ISP in Nigeria. The current total represents some 26 per cent of Nigeria’s total active ISP subscribers....",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-06-26T01:02:42+00:00",
+      "ts": 1782435762.0
+    },
+    {
       "title": "Qualcomm prevé que los dispositivos 6G con IA lleguen al mercado en 2029",
       "link": "https://www.mobileworldlive.com/spanish/qualcomm-preve-que-los-dispositivos-6g-con-ia-lleguen-al-mercado-en-2029/",
       "summary": "EN DIRECTO DESDE EL MWC SHANGHAI 2026: Qualcomm ha reafirmado su apuesta por el 6G como la tecnología inalámbrica de Read more... The post Qualcomm prevé que los dispositivos 6G con IA lleguen al mercado en 2029 appeared first on Mobile World Live .",
@@ -680,6 +829,20 @@
       "ts": 1782408600.0
     },
     {
+      "title": "IBM takes chips atomic with sub-1nm design",
+      "link": "https://www.mobileworldlive.com/devices/ibm-takes-chips-atomic-with-sub-1nm-design/",
+      "summary": "IBM advanced chip production by unveiling sub-1nm silicon, tackling physical manufacturing constraints with a novel 3D stacked architecture to provide almost 100 billion transistors in a tiny form-factor. The post IBM takes chips atomic with sub-1nm design appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-06-25T15:50:58+00:00",
+      "ts": 1782402658.0
+    },
+    {
       "title": "GSMA tackles AI model deficiencies",
       "link": "https://www.mobileworldlive.com/gsma/gsma-tackles-ai-model-deficiencies/",
       "summary": "The GSMA moved to address gaps in the telecom capabilities of AI models, teaming with a French infrastructure organisation to provide a compilation of relevant data and technology spanning more than 10 billion tokens. The post GSMA tackles AI model deficiencies appeared first on Mobile World Live .",
@@ -706,6 +869,54 @@
       "relevance": 53,
       "date": "2026-06-25T14:28:00+00:00",
       "ts": 1782397680.0
+    },
+    {
+      "title": "India Wireless Data Usage Surges to 77,953 PB as 5G Accounts for 42.75%; ARPU Rises to Rs 196",
+      "link": "https://telecomlead.com/5g/india-wireless-data-usage-surges-to-77953-pb-as-5g-accounts-for-42-75-arpu-rises-to-rs-196-126430",
+      "summary": "India’s wireless telecom sector continued its strong growth in the quarter ended March 2026, with mobile data consumption, 5G adoption, and average revenue per user (ARPU) all recording healthy gains, according to the latest Telecom Regulatory Authority of India (TRAI) report. Total wireless data usage increased to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-06-25T14:19:32+00:00",
+      "ts": 1782397172.0
+    },
+    {
+      "title": "TRAI Drive Test: Reliance Jio Tops Mobile Network Performance on Rajasthan’s NH-148, Airtel Delivers Strong Competition",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-tops-mobile-network-performance-on-rajasthans-nh-148-airtel-delivers-strong-competition-126425",
+      "summary": "Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted on the Manoharpur to Dausa stretch of National Highway 148 (NH-148) in Rajasthan, highlighting the performance of major telecom operators including Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL. The drive...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-06-25T11:07:46+00:00",
+      "ts": 1782385666.0
+    },
+    {
+      "title": "Telecom news: Huawei, Iridium, Mlink Technology, GSMA, China Tower",
+      "link": "https://telecomlead.com/news/telecom-news-huawei-iridium-mlink-technology-gsma-china-tower-126421",
+      "summary": "Today’s telecom news includes announcements on Huawei, Iridium, Mlink Technology, GSMA, China Tower, among others. From Connectivity to Digital Assets: Huawei’s New Token Strategy Opens Revenue Opportunities for Telecom Operators Huawei has introduced a new Service-Network-Compute integration framework designed to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 46,
+      "date": "2026-06-25T11:01:10+00:00",
+      "ts": 1782385270.0
     },
     {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
@@ -968,20 +1179,6 @@
       "ts": 1782306001.0
     },
     {
-      "title": "GSMA, TM Forum team on telecom AI",
-      "link": "https://www.mobileworldlive.com/ai-cloud/gsma-tm-forum-team-on-telecom-ai/",
-      "summary": "Industry associations the GSMA and TM Forum agreed a collaboration to aid adoption of practical AI systems across a range of use cases within the telecoms industry. The post GSMA, TM Forum team on telecom AI appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-06-24T11:01:54+00:00",
-      "ts": 1782298914.0
-    },
-    {
       "title": "Home Broadband Is 5G’s Surprise Killer App",
       "link": "https://spectrum.ieee.org/fixed-wireless-access",
       "summary": "5G telecommunications, according to industry hype when 5G first launched in 2019 , was going to be all about buzzy applications like mobile augmented reality and autonomous vehicles . But the surprise plot twist came when replacing home cable internet turned into 5G’s most widely adopted new application. Fixed...",
@@ -995,52 +1192,6 @@
       "relevance": 53,
       "date": "2026-06-24T10:00:02+00:00",
       "ts": 1782295202.0
-    },
-    {
-      "title": "FCC wraps AWS-3 re-auction with $3.5B in bids",
-      "link": "https://www.mobileworldlive.com/fcc/fcc-wraps-aws-3-re-auction-with-3-5b-in-bids/",
-      "summary": "The US Federal Communications Commission closed an AWS-3 re-auction with gross winning bids topping $3.5 billion in what was the agency’s first spectrum sale after a four-year lapse in activity. The post FCC wraps AWS-3 re-auction with $3.5B in bids appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-06-24T08:54:43+00:00",
-      "ts": 1782291283.0
-    },
-    {
-      "title": "Globe, China Mobile drive AI use cases",
-      "link": "https://www.mobileworldlive.com/china-mobile/globe-china-mobile-drive-ai-use-cases/",
-      "summary": "LIVE FROM MWC SHANGHAI 2026: AI naturally dominated the opening keynote session of this year’s event, with China Mobile and Filipino operator Globe Telecom offering insight into consumer benefits of the tech and how it is driving growth at both companies. The post Globe, China Mobile drive AI use cases appeared first...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 37,
-      "date": "2026-06-24T04:49:49+00:00",
-      "ts": 1782276589.0
-    },
-    {
-      "title": "GSMA boss puts Asia focus on robotics, drones",
-      "link": "https://www.mobileworldlive.com/gsma/gsma-boss-puts-asia-focus-on-robotics-drones-and-connected-vehicles/",
-      "summary": "LIVE FROM MWC SHANGHAI 2026: Vivek Badrinath, director general of the GSMA, spotlighted humanoid robotics, the low-altitude economy and autonomous vehicles as three of the most promising markets emerging from Asia’s mobile ecosystem, as he underlined the importance of telco infrastructure in powering the continent’s...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 37,
-      "date": "2026-06-24T03:42:01+00:00",
-      "ts": 1782272521.0
     },
     {
       "title": "Clearing 160MHz in upper C-band will cost $3.6B, SES says",
