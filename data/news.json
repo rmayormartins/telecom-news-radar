@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28T07:16:17.865954+00:00",
-  "count": 80,
+  "generated_at": "2026-06-28T12:23:19.124480+00:00",
+  "count": 81,
   "theme_counts": {
-    "moveis": 37,
+    "moveis": 39,
     "fibra": 12,
     "antenas": 3,
     "iot": 6,
     "satelite": 32,
-    "radar_militar": 5,
+    "radar_militar": 4,
     "radiocom": 0,
     "tv": 0,
     "geral": 14
@@ -70,12 +70,12 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 2
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Ericsson Blog",
@@ -929,6 +929,20 @@
       "ts": 1782229425.0
     },
     {
+      "title": "The Token That Moves: T-Mobile’s Physical AI Framework and What It Reveals About Industrial Network Requirements",
+      "link": "https://tecknexus.com/kinetic-tokens-physical-ai-industrial-private-networks/",
+      "summary": "T-Mobile CTO John Saw's 'kinetic token' framework describes how Physical AI — robots, autonomous vehicles, industrial automation — changes what networks must do. The public telco debate that followed misses the most immediate implication: industrial private 5G networks are already, structurally, kinetic token...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-06-23T15:41:25+00:00",
+      "ts": 1782229285.0
+    },
+    {
       "title": "WEI taps Starlink to connect enterprises",
       "link": "https://www.lightreading.com/satellite/wei-taps-starlink-to-connect-enterprises",
       "summary": "IT specialist WEI has launched WEI Connect, a managed enterprise platform powered by Starlink's satellite broadband service. #pressrelease",
@@ -1017,6 +1031,20 @@
       "relevance": 58,
       "date": "2026-06-19T17:20:39+00:00",
       "ts": 1781889639.0
+    },
+    {
+      "title": "Federated Wireless Puts AI at the RF Layer – and Targets the Capacity Operators Already Own",
+      "link": "https://tecknexus.com/federated-wireless-spectrum-ai-cbrs-capacity/",
+      "summary": "Federated Wireless has launched Spectrum AI, a physical AI platform that applies continuous RF-layer modelling to shared spectrum networks, reporting up to 5x capacity gains without new spectrum or infrastructure. For private network buyers, it signals that radio planning assumptions long treated as fixed may have...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-06-19T15:58:21+00:00",
+      "ts": 1781884701.0
     },
     {
       "title": "SHIELD-6G with AI-native cyber threat intelligence platform to enhance cybersecurity for Europe’s future 6G networks",
@@ -1192,20 +1220,6 @@
       "relevance": 35,
       "date": "2026-05-14T18:00:02+00:00",
       "ts": 1778781602.0
-    },
-    {
-      "title": "Why RF Coexistence Testing Is Critical for Shared Spectrum",
-      "link": "https://content.knowledgehub.wiley.com/testing-for-coexistence-in-crowded-and-contested-rf-environments/",
-      "summary": "A comprehensive review of how spectrum congestion, dynamic sharing, and cognitive radio systems are reshaping RF coexistence testing for military and commercial applications. What Attendees will Learn Why spectrum congestion threatens wireless reliability — Explore how over 30 billion connected devices, more than...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-05-14T10:00:01+00:00",
-      "ts": 1778752801.0
     },
     {
       "title": "Can Jio build India's answer to Starlink?",
