@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-29T13:21:44.886794+00:00",
-  "count": 98,
+  "generated_at": "2026-06-29T18:37:05.722630+00:00",
+  "count": 95,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 10,
-    "antenas": 4,
-    "iot": 9,
-    "satelite": 28,
-    "radar_militar": 5,
+    "moveis": 40,
+    "fibra": 9,
+    "antenas": 3,
+    "iot": 8,
+    "satelite": 29,
+    "radar_militar": 4,
     "radiocom": 0,
     "tv": 0,
     "geral": 26
   },
   "country_counts": {
     "br": 0,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
-    "in": 3,
+    "in": 2,
     "jp": 2,
     "kr": 1,
-    "cn": 6
+    "cn": 4
   },
   "research_count": 23,
   "sources": [
@@ -56,7 +56,7 @@
     {
       "source": "Telecompetitor",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Fast Mode",
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Telecoms Tech News",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,21 @@
     }
   ],
   "items": [
+    {
+      "title": "The Invisible Dependency in Your Enterprise AI Plan: Fiber Infrastructure Between Your Facility and the Cloud",
+      "link": "https://tecknexus.com/fiber-infrastructure-enterprise-ai-data-center-connectivity/",
+      "summary": "A Fiber Broadband Association and RVA white paper quantifies the fibre interconnection gap underpinning the AI data centre build-out: 2x route miles and 2.3x fibre miles needed by 2029. For enterprise private network buyers, the analysis surfaces a connectivity dependency that rarely appears in AI deployment planning...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-06-29T15:53:54+00:00",
+      "ts": 1782748434.0
+    },
     {
       "title": "CTIA urges FCC to fast-track rules for upper C-band auction",
       "link": "https://www.lightreading.com/6g/ctia-urges-fcc-to-fast-track-rules-for-upper-c-band-auction",
@@ -761,35 +776,20 @@
       "ts": 1782494856.0
     },
     {
-      "title": "FCC concludes AWS-3 spectrum, raises $3.5bn",
-      "link": "https://www.datacenterdynamics.com/en/news/fcc-concludes-aws-3-spectrum-raises-35bn/",
-      "summary": "Will be used to fund \"rip and replace\" of Chinese telecoms kit",
-      "source": "DataCenterDynamics",
+      "title": "Ukraine, Kyivstar plot domestic AI compute build",
+      "link": "https://www.mobileworldlive.com/europe/ukraine-kyivstar-plot-domestic-ai-compute-build/",
+      "summary": "Ukraine is reportedly planning to build domestic AI computing capacity in partnership with operator Kyivstar, in a bid to strengthen critical digital infrastructure amid the country's ongoing war with Russia. The post Ukraine, Kyivstar plot domestic AI compute build appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [
-        "cn"
+        "ru"
       ],
-      "relevance": 43,
-      "date": "2026-06-26T16:00:31+00:00",
-      "ts": 1782489631.0
-    },
-    {
-      "title": "Cellular IoT Module Shipments to Reach 976 mn by 2030 as LoRa and LPWA Markets Accelerate: Berg Insight",
-      "link": "https://telecomlead.com/4g-lte/cellular-iot-module-shipments-to-reach-976-mn-by-2030-as-lora-and-lpwa-markets-accelerate-berg-insight-126440",
-      "summary": "The global market for cellular Internet of Things (IoT) and Low Power Wide Area (LPWA) connectivity technologies is entering a new phase of expansion, with annual shipments of cellular and non-3GPP LPWA IoT modules projected to increase from 909 million units in 2025 to 1.32 billion units by 2030, representing a...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-06-26T14:43:18+00:00",
-      "ts": 1782484998.0
+      "relevance": 31,
+      "date": "2026-06-26T15:46:58+00:00",
+      "ts": 1782488818.0
     },
     {
       "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
@@ -928,18 +928,16 @@
       "ts": 1782418420.0
     },
     {
-      "title": "Capella Validates Mynaric Optical Terminal on Latest SAR Satellite",
-      "link": "https://www.satellitetoday.com/technology/2026/06/25/capella-validates-mynaric-optical-terminal-on-latest-sar-satellite/",
-      "summary": "Capella Space validated a Mynaric optical communications terminal on its newest satellite — the first time Capella has deployed an optical terminal. Capella Space released the first synthetic aperture radar […] The post Capella Validates Mynaric Optical Terminal on Latest SAR Satellite appeared first on Via Satellite .",
+      "title": "Capella Prepares to Validate Mynaric Optical Terminal on Latest SAR Satellite",
+      "link": "https://www.satellitetoday.com/technology/2026/06/25/capella-prepares-to-validate-mynaric-optical-terminal-on-latest-sar-satellite/",
+      "summary": "Capella Space is preparing for tests to validate a Mynaric optical communications terminal on its newest satellite — the first time Capella has deployed an optical terminal. Capella Space released the first […] The post Capella Prepares to Validate Mynaric Optical Terminal on Latest SAR Satellite appeared first on Via...",
       "source": "Via Satellite",
       "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 50,
+      "relevance": 32,
       "date": "2026-06-25T20:08:12+00:00",
       "ts": 1782418092.0
     },
@@ -958,18 +956,18 @@
       "ts": 1782413168.0
     },
     {
-      "title": "FCC’s AWS-3 spectrum auction: 72 rounds, 17 qualified bidders, $3.5B in bids",
-      "link": "https://www.telecompetitor.com/fccs-aws-3-spectrum-auction-72-rounds-17-qualified-bidders-3-5b-in-bids/",
-      "summary": "FCC’s AWS-3 spectrum auction: 72 rounds, 17 qualified bidders, $3.5B in bids The Federal Communications Commission (FCC) says that the recently closed AWS-3 spectrum auction finished with gross winning bids of more than $3.5 billion. The auction, formally Auction 113, began on June 2. The FCC announced earlier this...",
-      "source": "Telecompetitor",
+      "title": "IBM takes chips atomic with sub-1nm design",
+      "link": "https://www.mobileworldlive.com/devices/ibm-takes-chips-atomic-with-sub-1nm-design/",
+      "summary": "IBM advanced chip production by unveiling sub-1nm silicon, tackling physical manufacturing constraints with a novel 3D stacked architecture to provide almost 100 billion transistors in a tiny form-factor. The post IBM takes chips atomic with sub-1nm design appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 45,
-      "date": "2026-06-25T17:30:00+00:00",
-      "ts": 1782408600.0
+      "relevance": 31,
+      "date": "2026-06-25T15:50:58+00:00",
+      "ts": 1782402658.0
     },
     {
       "title": "Vodafone Spain plans D2D next year with AST SpaceMobile's Euro JV",
@@ -1029,37 +1027,6 @@
       "ts": 1782385201.0
     },
     {
-      "title": "Memory costs impact AI IoT module shipments",
-      "link": "https://www.mobileworldlive.com/industry/memory-costs-impact-ai-iot-module-shipments/",
-      "summary": "Counterpoint Research sounded the alarm on shipments of AI-embedded IoT modules after a decline in the opening quarter, though noted the segment remains a small proportion of the overall cellular segment. The post Memory costs impact AI IoT module shipments appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-06-25T10:36:18+00:00",
-      "ts": 1782383778.0
-    },
-    {
-      "title": "TDC Net wins $12M payout for Huawei kit removal",
-      "link": "https://www.mobileworldlive.com/regulation/tdc-net-wins-12m-payout-for-huawei-kit-removal/",
-      "summary": "Danish infrastructure company TDC Net was awarded DKK80 million ($12.2 million) in compensation after being forced to remove Huawei equipment used in its fibre network. The post TDC Net wins $12M payout for Huawei kit removal appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 43,
-      "date": "2026-06-25T10:30:36+00:00",
-      "ts": 1782383436.0
-    },
-    {
       "title": "Subco activates SMAP subsea cable in Australia",
       "link": "https://www.lightreading.com/cable-technology/subco-activates-smap-subsea-cable-in-australia",
       "summary": "The 5,000km Sydney-Melbourne-Adelaide-Perth (SMAP) submarine cable is now ready for service, adding more than 400 Tbit/s of IT capacity across the route that links four major Australian cities.",
@@ -1087,20 +1054,6 @@
       "relevance": 59,
       "date": "2026-06-25T07:30:00+00:00",
       "ts": 1782372600.0
-    },
-    {
-      "title": "BAE Systems to Build Buses for Vantor’s Vantage Imaging Satellites",
-      "link": "https://www.satellitetoday.com/earth-observation/2026/06/24/bae-systems-to-build-buses-for-vantors-vantage-imaging-satellites/",
-      "summary": "BAE Systems is to build the buses for Vantor‘s Vantor Vantage 20 centimeter imaging satellites, the first two of which are to start operating by 2029, the companies said on […] The post BAE Systems to Build Buses for Vantor’s Vantage Imaging Satellites appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-06-24T21:36:29+00:00",
-      "ts": 1782336989.0
     },
     {
       "title": "SNS Telecom & IT: Private 5G Market to Reach $6.6 Billion as Physical AI Takes Hold",
@@ -1247,22 +1200,19 @@
       "ts": 1782229119.0
     },
     {
-      "title": "India's Jio bets on 5G, AI and satellite for next growth phase",
-      "link": "https://www.lightreading.com/satellite/india-s-jio-bets-on-5g-ai-and-satellite-for-next-growth-phase",
-      "summary": "Jio outlined a growth strategy centered on 5G, AI, enterprise services and satellite broadband, including possible plans to set up a sovereign LEO constellation.",
+      "title": "Vodafone IoT looks to satellites to connect more things",
+      "link": "https://www.lightreading.com/iot/vodafone-iot-looks-to-satellites-to-connect-more-things",
+      "summary": "Vodafone IoT CEO Erik Brenneis tells Light Reading that it will launch satellite connectivity from Iridium and Skylo this year to expand global coverage.",
       "source": "Light Reading",
       "themes": [
-        "moveis",
-        "fibra",
+        "iot",
         "satelite"
       ],
       "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 55,
-      "date": "2026-06-23T06:30:00+00:00",
-      "ts": 1782196200.0
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-06-23T14:36:42+00:00",
+      "ts": 1782225402.0
     },
     {
       "title": "AI-RAN and Agentic AI get real: Ericsson, Nokia, Verizon & other operators enter into a new network automation era",
@@ -1513,30 +1463,44 @@
       "ts": 0
     },
     {
-      "title": "5G core reaches a turning point on power and scale",
-      "link": "https://www.fierce-network.com/sponsored/5g-core-reaches-turning-point-power-and-scale",
-      "summary": "As operators add capacity to support growing workloads, power efficiency and long-term flexibility are becoming core considerations. That shift is shaping how 5G core infrastructure is planned and deployed.",
+      "title": "Rocket Lab acquires Iridium in $8B deal",
+      "link": "https://www.fierce-network.com/wireless/rocket-lab-acquires-iridium-8b-deal",
+      "summary": "Rocket Lab Corporation is acquiring Iridium Communications in a deal valued at $8 billion, uniting Rocket Lab’s launch and satellite manufacturing capabilities with Iridium’s global satellite network and L-band spectrum.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 51,
+      "relevance": 48,
       "date": null,
       "ts": 0
     },
     {
-      "title": "ExteNet seeks buyer, breathing room amid small cell challenges",
-      "link": "https://www.fierce-network.com/wireless/extenet-seeks-buyer-breathing-room-amid-outdoor-small-cell-challenges",
-      "summary": "ExteNet seeks a buyer for its outdoor small cell and DAS unit as a looming cash crunch and shifting carrier demands squeeze the business.",
+      "title": "SDN pioneers return with $15M GPU networking bet",
+      "link": "https://www.fierce-network.com/cloud/sdn-pioneers-return-15m-gpu-networking-bet",
+      "summary": "A16z leads a $15M Series A to upstart Netris, funding a platform automating GPU networking and multi-tenancy for AI cloud operators.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "geral"
       ],
       "research": false,
       "countries": [],
       "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "M&A tracker - Verizon, BT, Iridium, Rocket Lab and Comcast",
+      "link": "https://www.fierce-network.com/broadband/2026-ma-tracker",
+      "summary": "It's increasingly difficult to stay on top of the ever-changing business landscape the underpins the telecom and tech industries. We're here to help!",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1569,16 +1533,16 @@
       "ts": 0
     },
     {
-      "title": "Verizon: 'We are pushing hard toward Level 4 autonomy in critical segments'",
-      "link": "https://www.fierce-network.com/cloud/verizon-we-are-pushing-hard-toward-level-4-autonomy-critical-segments",
-      "summary": "Verizon CTO Yago Tenorio says the carrier is nearing Level 3 network autonomy and pushing toward Level 4, with Claude Code rolled out to its full 33,000-person technology team.",
+      "title": "Verizon emerges as biggest winner in AWS-3 auction",
+      "link": "https://www.fierce-network.com/wireless/verizon-emerges-biggest-winner-aws-3-auction",
+      "summary": "The Federal Communications Commission (FCC) concluded Auction 113 last week and announced the winners on Friday, with Verizon emerging as the biggest spender.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1600,20 +1564,6 @@
       "title": "Verizon, BT merge international enterprise operations in 50:50 JV worth $4B",
       "link": "https://www.fierce-network.com/broadband/verizon-bt-merge-international-enterprise-operations-5050-jv-worth-4b",
       "summary": "The JV will create a new global connectivity company focused on multinational organizations and serve 3,000+ businesses.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Opinion: Before networks can run themselves, engineers must teach AI what the network means",
-      "link": "https://www.fierce-network.com/cloud/opinion-networks-can-run-themselves-engineers-must-teach-ai-what-network-means",
-      "summary": "In the telecom projects I’m working on now, the most important network conversation has not started with autonomous networks.",
       "source": "Fierce Network",
       "themes": [
         "geral"
