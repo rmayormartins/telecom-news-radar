@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-30T12:36:02.540102+00:00",
-  "count": 102,
+  "generated_at": "2026-06-30T18:36:21.858816+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 51,
-    "fibra": 9,
+    "moveis": 52,
+    "fibra": 12,
     "antenas": 14,
     "iot": 4,
-    "satelite": 33,
-    "radar_militar": 6,
+    "satelite": 32,
+    "radar_militar": 7,
     "radiocom": 2,
     "tv": 0,
-    "geral": 22
+    "geral": 23
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 0,
     "in": 2,
-    "jp": 2,
-    "kr": 2,
-    "cn": 4
+    "jp": 3,
+    "kr": 1,
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -56,7 +56,7 @@
     {
       "source": "Telecompetitor",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "The Fast Mode",
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "DataCenterDynamics",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -186,12 +186,12 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 0
     },
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -201,9 +201,130 @@
   ],
   "items": [
     {
-      "title": "WhatsApp pushes privacy with username IDs",
-      "link": "https://www.mobileworldlive.com/meta/whatsapp-pushes-privacy-with-username-ids/",
-      "summary": "WhatsApp is preparing to rollout usernames across its messaging platform, allowing users to connect without sharing their phone numbers in a move aimed at strengthening privacy. The post WhatsApp pushes privacy with username IDs appeared first on Mobile World Live .",
+      "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
+      "link": "https://circleid.com/posts/the-economics-of-spacex-can-starlink-justify-a-2-trillion-valuation",
+      "summary": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for investors.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-06-30T18:15:00+00:00",
+      "ts": 1782843300.0
+    },
+    {
+      "title": "FCC to Auction 160 MHz Upper C-Band Spectrum in 2027, Creating 440 MHz Super-Band for Advanced 5G and 6G Service",
+      "link": "https://telecomlead.com/5g/fcc-to-auction-160-mhz-upper-c-band-spectrum-in-2027-creating-440-mhz-super-band-for-advanced-5g-and-6g-service-126473",
+      "summary": "The U.S. Federal Communications Commission (FCC) is set to accelerate the expansion of next-generation wireless networks by proposing the auction of 160 MHz of Upper C-Band spectrum (3.98–4.14 GHz) in 2027, creating a 440 MHz contiguous mid-band “super-band” (3.70–4.14 GHz) for advanced 5G and future 6G services. FCC...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-06-30T17:58:31+00:00",
+      "ts": 1782842311.0
+    },
+    {
+      "title": "Ovzon Secures 74 MSEK MILSATCOM Service Renewal from European NATO Defense Agency",
+      "link": "https://satnews.com/2026/06/30/ovzon-secures-74-msek-milsatcom-service-renewal-from-european-nato-defense-agency/",
+      "summary": "STOCKHOLM, SWEDEN — On Tuesday, June 30, 2026, mobile satellite communications provider Ovzon AB announced it has received a service renewal contract from the defense organization of a European NATO […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-06-30T16:04:25+00:00",
+      "ts": 1782835465.0
+    },
+    {
+      "title": "FCC announces winners of its recent spectrum auction",
+      "link": "https://www.telecompetitor.com/fcc-announces-winners-of-its-recent-spectrum-auction/",
+      "summary": "FCC announces winners of its recent spectrum auction UPDATE, June 30: The Federal Communications Commission (FCC) announced the winners of its recent AWS-3 spectrum auction, with winning bids of more than $3.5 billion (see original story below). Verizon was the largest winner by dollar amount, with more than $3...",
+      "source": "Telecompetitor",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-06-30T15:45:00+00:00",
+      "ts": 1782834300.0
+    },
+    {
+      "title": "Rakuten set for Japanese satellite investment",
+      "link": "https://www.mobileworldlive.com/network-tech/rakuten-set-for-japanese-satellite-investment/",
+      "summary": "Rakuten Mobile's plans to build a satellite communications network received a boost from the Japanese government, which reportedly earmarked an investment of JPY148 billion to the project. The post Rakuten set for Japanese satellite investment appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 37,
+      "date": "2026-06-30T15:22:34+00:00",
+      "ts": 1782832954.0
+    },
+    {
+      "title": "Samsung, KDDI reveal AI-RAN 5G gains",
+      "link": "https://www.mobileworldlive.com/5g/samsung-kddi-reveal-ai-ran-5g-gains/",
+      "summary": "KDDI and Samsung offered some tangible evidence of the network operation gains AI could deliver following a trial of RAN optimisation technology which delivered double-digit gains in 5G throughput. The post Samsung, KDDI reveal AI-RAN 5G gains appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 57,
+      "date": "2026-06-30T14:38:30+00:00",
+      "ts": 1782830310.0
+    },
+    {
+      "title": "AT&T 'Build-A-Plan' adds home broadband options",
+      "link": "https://www.lightreading.com/broadband/at-t-build-a-plan-adds-home-broadband-options",
+      "summary": "AT&T's new, wireless-focused 'Build-A-Plan' offering now lets customers bundle the operator's fiber and FWA home broadband services. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-06-30T14:33:17+00:00",
+      "ts": 1782829997.0
+    },
+    {
+      "title": "Why customers switch and what it means for retention: 2026 Rural Subscriber Study",
+      "link": "https://www.telecompetitor.com/why-customers-switch-and-what-it-means-for-retention-2026-rural-subscriber-study/",
+      "summary": "Why customers switch and what it means for retention: 2026 Rural Subscriber Study New entrants into the broadband landscape — including national mobile carriers offering home internet plans and low-Earth orbit (LEO) satellite providers — are marketing directly to rural subscribers, and Innovative Systems’ 2026 Rural...",
+      "source": "Telecompetitor",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-06-30T14:30:00+00:00",
+      "ts": 1782829800.0
+    },
+    {
+      "title": "Australia implements coverage map change",
+      "link": "https://www.mobileworldlive.com/operators/australia-implements-coverage-map-change/",
+      "summary": "Australian telecoms players were told they must comply with updated coverage information requirements designed to give users a clearer picture of the service levels on offer. The post Australia implements coverage map change appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "geral"
@@ -211,8 +332,8 @@
       "research": false,
       "countries": [],
       "relevance": 23,
-      "date": "2026-06-30T10:35:01+00:00",
-      "ts": 1782815701.0
+      "date": "2026-06-30T11:00:27+00:00",
+      "ts": 1782817227.0
     },
     {
       "title": "OneNZ promotes industrial gains in Waikato",
@@ -657,38 +778,6 @@
       "ts": 1782792000.0
     },
     {
-      "title": "ICASA sets out demands for Starlink in South Africa",
-      "link": "https://www.advanced-television.com/2026/06/30/icasa-sets-out-demands-for-starlink-in-south-africa/",
-      "summary": "ICASA, South Africa’s telecoms regulator, has set out exactly what satellite internet providers – such as SpaceX’s Starlink – must do to operate legally in the country. In a Government Gazette general notice, the watchdog said it had received numerous requests for clarity from prospective satellite operators seeking...",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-06-30T00:52:41+00:00",
-      "ts": 1782780761.0
-    },
-    {
-      "title": "Samsung, KDDI validate AI-powered RAN optimisation on live 5G SA",
-      "link": "https://www.advanced-television.com/2026/06/30/samsung-kddi-validate-ai-powered-ran-optimisation-on-live-5g-sa/",
-      "summary": "Samsung Electronics has announced the successful trial of its AI-powered RAN Speed Optimizer (RSO) on KDDI’s commercial 5G Standalone (SA) network in Japan. The joint trial, which began in late 2025 and lasted for several months, demonstrated how AI solutions can deliver benefits in daily operations and actualise a...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "kr"
-      ],
-      "relevance": 53,
-      "date": "2026-06-30T00:50:29+00:00",
-      "ts": 1782780629.0
-    },
-    {
       "title": "Analysis of AWS-3 Spectrum Results: Verizon Wins Big; Urban Capacity vs. Propagation",
       "link": "https://techblog.comsoc.org/2026/06/29/aws-3-spectrum-results-verizon-wins-big-analysis-of-urban-capacity-vs-propagation-mechanics/",
       "summary": "AWS-3 Auction Results: Of the $3.57 billion total spent in the recent AWS-3 auction, $3.2 billion of it was accounted for by Verizon alone (bidding as Cellco Partnership). That bought it 82 of the 200 licenses on offer, with the price premium explained by a bias towards high value urban licenses. The remaining AWS-3...",
@@ -772,20 +861,6 @@
       "relevance": 44,
       "date": "2026-06-29T15:17:35+00:00",
       "ts": 1782746255.0
-    },
-    {
-      "title": "Starlink becomes biggest ISP in rural New Zealand",
-      "link": "https://www.lightreading.com/broadband/starlink-becomes-biggest-isp-in-rural-new-zealand",
-      "summary": "Starlink is now the biggest Internet service provider in rural New Zealand, with customers having access to the same speeds as those in urban areas for the first time.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-06-29T14:18:35+00:00",
-      "ts": 1782742715.0
     },
     {
       "title": "CTIA urges FCC to fast-track rules for upper C-band auction",
@@ -1095,50 +1170,6 @@
       "relevance": 43,
       "date": "2026-06-26T08:37:45+00:00",
       "ts": 1782463065.0
-    },
-    {
-      "title": "SpaceX estudia lanzar Starlink como servicio móvil para consumidores",
-      "link": "https://www.mobileworldlive.com/spanish/spacex-estudia-lanzar-starlink-como-servicio-movil-para-consumidores/",
-      "summary": "SpaceX estaría valorando su entrada en el mercado de telefonía móvil para consumidores en Estados Unidos a través de su Read more... The post SpaceX estudia lanzar Starlink como servicio móvil para consumidores appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-06-26T08:01:59+00:00",
-      "ts": 1782460919.0
-    },
-    {
-      "title": "Qualcomm prevé que los dispositivos 6G con IA lleguen al mercado en 2029",
-      "link": "https://www.mobileworldlive.com/spanish/qualcomm-preve-que-los-dispositivos-6g-con-ia-lleguen-al-mercado-en-2029/",
-      "summary": "EN DIRECTO DESDE EL MWC SHANGHAI 2026: Qualcomm ha reafirmado su apuesta por el 6G como la tecnología inalámbrica de Read more... The post Qualcomm prevé que los dispositivos 6G con IA lleguen al mercado en 2029 appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 51,
-      "date": "2026-06-25T21:39:43+00:00",
-      "ts": 1782423583.0
-    },
-    {
-      "title": "Nextlink selects FWA vendor for BEAD buildout",
-      "link": "https://www.telecompetitor.com/nextlink-selects-fwa-vendor-for-bead-buildout/",
-      "summary": "Nextlink selects FWA vendor for BEAD buildout AUSTIN, Texas, June 22, 2026 /PRNewswire/ — Aviat Networks, Inc. (NASDAQ: AVNW), the leading expert in wireless transport solutions, today announced that Nextlink Internet (“Nextlink”), a rural-focused internet service provider serving commercial and residential...",
-      "source": "Telecompetitor",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-06-25T18:46:08+00:00",
-      "ts": 1782413168.0
     },
     {
       "title": "Vodafone Spain plans D2D next year with AST SpaceMobile's Euro JV",
@@ -1534,21 +1565,6 @@
       "ts": 0
     },
     {
-      "title": "Ericsson predicts more FWA, uplink traffic as network demand transforms",
-      "link": "https://www.fierce-network.com/broadband/ericsson-predicts-more-fwa-uplink-traffic-network-demand-transforms",
-      "summary": "Ericsson sees FWA, satellite and AI-driven video uploads as big drivers of mobile network traffic growth.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "T-Mobile says older-plan customers need 5G refresh",
       "link": "https://www.fierce-network.com/wireless/t-mobile-says-older-plan-customers-need-5g-refresh",
       "summary": "Some T-Mobile customers are being notified today that they’re getting moved to newer, sometimes pricier, rate plans.",
@@ -1647,16 +1663,16 @@
       "ts": 0
     },
     {
-      "title": "Carolina West Wireless is shutting down in deal with Verizon",
-      "link": "https://www.fierce-network.com/wireless/carolina-west-wireless-shutting-down-deal-verizon",
-      "summary": "Carolina West Wireless struck an agreement to transition its wireless network to Verizon and will end its wireless services effective September 30, 2026. Terms were not disclosed.",
+      "title": "CoreWeave launches ARIA to boost AI-enabled research",
+      "link": "https://www.fierce-network.com/newswire/coreweave-launches-aria-boost-ai-enabled-research",
+      "summary": "ARIA is an AI research agent that reads experiment data, uncovers hidden insights, and drives continuous model and agent improvement.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1681,6 +1697,20 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "How Vistabeam automated its operations with gaiia workflows",
+      "link": "https://www.fierce-network.com/sponsored/how-vistabeam-automated-its-operations-gaiia-workflows",
+      "summary": "Inside how a Mountain West ISP automated the network work behind every subscriber event: 97,000+ workflows at 98.5% success in under a year.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
       ],
       "research": false,
       "countries": [],
