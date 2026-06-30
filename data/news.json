@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-29T18:37:05.722630+00:00",
+  "generated_at": "2026-06-30T00:27:47.210209+00:00",
   "count": 95,
   "theme_counts": {
-    "moveis": 40,
+    "moveis": 37,
     "fibra": 9,
-    "antenas": 3,
+    "antenas": 2,
     "iot": 8,
-    "satelite": 29,
-    "radar_militar": 4,
+    "satelite": 30,
+    "radar_militar": 2,
     "radiocom": 0,
     "tv": 0,
-    "geral": 26
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 0,
     "in": 2,
-    "jp": 2,
+    "jp": 1,
     "kr": 1,
     "cn": 4
   },
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,62 @@
     }
   ],
   "items": [
+    {
+      "title": "Analysis of AWS-3 Spectrum Results: Verizon Wins Big; Urban Capacity vs. Propagation",
+      "link": "https://techblog.comsoc.org/2026/06/29/aws-3-spectrum-results-verizon-wins-big-analysis-of-urban-capacity-vs-propagation-mechanics/",
+      "summary": "AWS-3 Auction Results: Of the $3.57 billion total spent in the recent AWS-3 auction, $3.2 billion of it was accounted for by Verizon alone (bidding as Cellco Partnership). That bought it 82 of the 200 licenses on offer, with the price premium explained by a bias towards high value urban licenses. The remaining AWS-3...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-06-29T23:26:46+00:00",
+      "ts": 1782775606.0
+    },
+    {
+      "title": "New Megaconstellation Startup Eclipse Space Targets Sovereign Market",
+      "link": "https://www.satellitetoday.com/connectivity/2026/06/29/new-megaconstellation-startup-eclipse-space-targets-sovereign-market/",
+      "summary": "New megaconstellation startup Eclipse Space, built by a group of SpaceX alums, recently emerged from stealth mode with the aim of making constellation ownership possible for sovereign governments and enterprises. […] The post New Megaconstellation Startup Eclipse Space Targets Sovereign Market appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-06-29T20:31:53+00:00",
+      "ts": 1782765113.0
+    },
+    {
+      "title": "Saudia and Neo Space Group Linefit Inaugural Airbus A321XLR Aircraft With IFC",
+      "link": "https://www.satellitetoday.com/mobility/2026/06/29/saudia-and-neo-space-group-linefit-inaugural-airbus-a321xlr-aircraft-with-ifc/",
+      "summary": "Neo Space Group (NSG) and Saudia have announced the first line-fit activation of NSG Skywaves IFC aboard Saudia’s inaugural Airbus A321XLR aircraft. Powered by NSG Skywaves and leveraging the SES […] The post Saudia and Neo Space Group Linefit Inaugural Airbus A321XLR Aircraft With IFC appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-06-29T20:27:45+00:00",
+      "ts": 1782764865.0
+    },
+    {
+      "title": "SiriusXM Continues Refresh With SXM-11 Launch",
+      "link": "https://www.satellitetoday.com/launch/2026/06/29/siriusxm-continues-refresh-with-sxm-11-launch/",
+      "summary": "SpaceX launched a new satellite for SiriusXM over the weekend, launching the SXM-11 mission on Sunday evening. The new satellite will be the highest power satellite in SiriusXM’s fleet. SpaceX launched […] The post SiriusXM Continues Refresh With SXM-11 Launch appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-06-29T20:16:31+00:00",
+      "ts": 1782764191.0
+    },
     {
       "title": "The Invisible Dependency in Your Enterprise AI Plan: Fiber Infrastructure Between Your Facility and the Cloud",
       "link": "https://tecknexus.com/fiber-infrastructure-enterprise-ai-data-center-connectivity/",
@@ -661,21 +717,6 @@
       "ts": 1782599406.0
     },
     {
-      "title": "Clearing C-band “will be expensive” says SES",
-      "link": "https://satnews.com/2026/06/27/clearing-c-band-will-be-expensive-says-ses/",
-      "summary": "Chris Forrester — The FCC auction of cellular licences (AWS-3, Auction 113) wrapped last week after 72 rounds having settled on accepted bids of more than $3.57 billion. Up to […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-06-27T21:48:57+00:00",
-      "ts": 1782596937.0
-    },
-    {
       "title": "Assessing LPWANs for IoT: NB-IoT, 4G LTE versions, 5G Redcap and LoRa WAN",
       "link": "https://techblog.comsoc.org/2026/06/26/assessing-lpwans-for-iot-nb-iot-5g-redcap-and-lora-wan/",
       "summary": "Introduction – LPWANs (Low Power Wide Area Networks): In April 2011, Cisco soothsayer Dave Evans predicted there would be 50 billion IoT devices in the world by 2020. Yet in 2025, there were only 22.3 billion IoT devices worldwide, according to the Ericsson Mobility Report. Evans forecast was off by 27.7 billion five...",
@@ -908,38 +949,6 @@
       "relevance": 51,
       "date": "2026-06-25T21:39:43+00:00",
       "ts": 1782423583.0
-    },
-    {
-      "title": "Mitsubishi Electric Contracts MDA Space for Digital Payload for Japanese Defense Satellite",
-      "link": "https://www.satellitetoday.com/government-military/2026/06/25/mitsubishi-electric-contracts-mda-space-for-digital-payload-for-japanese-defense-satellite/",
-      "summary": "MDA Space secured a significant contract to support a next-generation defense communications satellite for Japan. Mitsubishi Electric Corporation has contracted the Canadian manufacturer to build the digital payload, antennas, and […] The post Mitsubishi Electric Contracts MDA Space for Digital Payload for Japanese...",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 39,
-      "date": "2026-06-25T20:13:40+00:00",
-      "ts": 1782418420.0
-    },
-    {
-      "title": "Capella Prepares to Validate Mynaric Optical Terminal on Latest SAR Satellite",
-      "link": "https://www.satellitetoday.com/technology/2026/06/25/capella-prepares-to-validate-mynaric-optical-terminal-on-latest-sar-satellite/",
-      "summary": "Capella Space is preparing for tests to validate a Mynaric optical communications terminal on its newest satellite — the first time Capella has deployed an optical terminal. Capella Space released the first […] The post Capella Prepares to Validate Mynaric Optical Terminal on Latest SAR Satellite appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-06-25T20:08:12+00:00",
-      "ts": 1782418092.0
     },
     {
       "title": "Nextlink selects FWA vendor for BEAD buildout",
@@ -1271,21 +1280,6 @@
       "ts": 1781884701.0
     },
     {
-      "title": "SHIELD-6G with AI-native cyber threat intelligence platform to enhance cybersecurity for Europe’s future 6G networks",
-      "link": "https://techblog.comsoc.org/2026/06/18/shield-6g-with-ai-native-cyber-threat-intelligence-platform-to-enhance-cybersecurity-for-europes-future-6g-networks/",
-      "summary": "The SHIELD-6G (Scalable, Hybrid, and Intelligent End-to-End Defense for 6G Networks) project is exploring ways of strengthening cybersecurity for Europe’s future 6G networks. Backed by an €8 million ($9 million) grant from the European Commission, the 36-month initiative brings together 19 international partners to...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-06-18T18:44:39+00:00",
-      "ts": 1781808279.0
-    },
-    {
       "title": "The Hidden 6G Bottleneck: RF Hardware Design Is Becoming a Strategic Race",
       "link": "https://6gworld.com/the-hidden-6g-bottleneck-rf-hardware-design-is-becoming-a-strategic-race/",
       "summary": "As 5G-Advanced matures and 6G research moves closer to implementation, the wireless industry faces a deeper challenge than spectrum, standards or AI-native network architecture. Future wireless systems will depend on whether the industry can design, validate and manufacture increasingly complex RF modules fast enough.",
@@ -1491,6 +1485,20 @@
       "ts": 0
     },
     {
+      "title": "Now SpaceX is talking to Charter about a mobile offer: report",
+      "link": "https://www.fierce-network.com/wireless/now-spacex-talking-charter-about-mobile-offer-report",
+      "summary": "The latest buzz is that Elon Musk’s SpaceX held executive-level talks with Charter Communications about partnering on a consumer mobile phone offering, per a Friday Bloomberg report.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "M&A tracker - Verizon, BT, Iridium, Rocket Lab and Comcast",
       "link": "https://www.fierce-network.com/broadband/2026-ma-tracker",
       "summary": "It's increasingly difficult to stay on top of the ever-changing business landscape the underpins the telecom and tech industries. We're here to help!",
@@ -1533,9 +1541,9 @@
       "ts": 0
     },
     {
-      "title": "Verizon emerges as biggest winner in AWS-3 auction",
-      "link": "https://www.fierce-network.com/wireless/verizon-emerges-biggest-winner-aws-3-auction",
-      "summary": "The Federal Communications Commission (FCC) concluded Auction 113 last week and announced the winners on Friday, with Verizon emerging as the biggest spender.",
+      "title": "Update: Verizon, BT merge international enterprise operations in 50:50 JV worth $4B",
+      "link": "https://www.fierce-network.com/broadband/verizon-bt-merge-international-enterprise-operations-5050-jv-worth-4b",
+      "summary": "The JV will create a new global connectivity company focused on multinational organizations and serve 3,000+ businesses.",
       "source": "Fierce Network",
       "themes": [
         "geral"
@@ -1547,23 +1555,9 @@
       "ts": 0
     },
     {
-      "title": "How Vistabeam automated its operations with gaiia workflows",
-      "link": "https://www.fierce-network.com/sponsored/how-vistabeam-automated-its-operations-gaiia-workflows",
-      "summary": "Inside how a Mountain West ISP automated the network work behind every subscriber event: 97,000+ workflows at 98.5% success in under a year.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon, BT merge international enterprise operations in 50:50 JV worth $4B",
-      "link": "https://www.fierce-network.com/broadband/verizon-bt-merge-international-enterprise-operations-5050-jv-worth-4b",
-      "summary": "The JV will create a new global connectivity company focused on multinational organizations and serve 3,000+ businesses.",
+      "title": "Verizon emerges as biggest winner in AWS-3 auction",
+      "link": "https://www.fierce-network.com/wireless/verizon-emerges-biggest-winner-aws-3-auction",
+      "summary": "The Federal Communications Commission (FCC) concluded Auction 113 last week and announced the winners on Friday, with Verizon emerging as the biggest spender.",
       "source": "Fierce Network",
       "themes": [
         "geral"
