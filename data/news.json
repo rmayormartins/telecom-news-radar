@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-02T08:40:25.396519+00:00",
-  "count": 110,
+  "generated_at": "2026-07-02T13:27:22.807829+00:00",
+  "count": 108,
   "theme_counts": {
-    "moveis": 48,
+    "moveis": 49,
     "fibra": 10,
     "antenas": 5,
-    "iot": 5,
-    "satelite": 32,
+    "iot": 6,
+    "satelite": 30,
     "radar_militar": 9,
     "radiocom": 0,
     "tv": 3,
-    "geral": 30
+    "geral": 28
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
-    "jp": 6,
+    "in": 3,
+    "jp": 7,
     "kr": 0,
     "cn": 2
   },
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
@@ -195,11 +195,85 @@
     },
     {
       "source": "European Spaceflight",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "DNB expands 5G capacity as U Mobile officially pulls out",
+      "link": "https://www.lightreading.com/5g/dnb-expands-5g-capacity-as-u-mobile-officially-pulls-out",
+      "summary": "Malaysia's DNB has activated an additional 100MHz of 5G spectrum in the 3.3GHz to 3.4GHz band, doubling network capacity as it enters the next phase of growth.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-07-02T13:08:02+00:00",
+      "ts": 1782997682.0
+    },
+    {
+      "title": "Myriota expands IoT tracker reach",
+      "link": "https://www.mobileworldlive.com/industry/myriota-expands-iot-tracker-reach/",
+      "summary": "Satellite IoT service provider Myriota broadened its reach by adding mobile connectivity to its mix, creating hybrid opportunities in asset tracking for industrial IoT. The post Myriota expands IoT tracker reach appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-02T12:23:47+00:00",
+      "ts": 1782995027.0
+    },
+    {
+      "title": "Eurobites: EU court rejects Google's appeal against €4.1B Android fine (again)",
+      "link": "https://www.lightreading.com/regulatory-politics/eurobites-eu-court-rejects-google-s-appeal-against-4-1b-android-fine-again-",
+      "summary": "Also in today's EMEA regional roundup: Nokia overhauls Orange Belgium's optical transport network; BT, Ivanti combine on remote eSIM installation; O2, Boldyn turbocharge Silverstone's 5G.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-07-02T11:09:32+00:00",
+      "ts": 1782990572.0
+    },
+    {
+      "title": "Cohere secures US deal for drone 5G sensing tech",
+      "link": "https://www.mobileworldlive.com/5g/cohere-secures-us-deal-for-drone-5g-sensing-tech/",
+      "summary": "Cohere Technologies won a $28 million contract from the FutureG Office within the US Department of War (DoW) to develop a multi-waveform radio access network prototype designed to turn ordinary commercial cellular infrastructure into a covert surveillance system for detecting drones and other aerial threats. The post...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-07-02T09:44:57+00:00",
+      "ts": 1782985497.0
+    },
+    {
+      "title": "SoftBank entities team to launch US neocloud business",
+      "link": "https://www.mobileworldlive.com/ai-cloud/softbank-entities-team-to-launch-us-neocloud-business/",
+      "summary": "SoftBank Group and its telecoms arm launched a new company to rent AI compute services to US enterprises and hyperscalers, in a bid to address growing demand for the technology in the country. The post SoftBank entities team to launch US neocloud business appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 31,
+      "date": "2026-07-02T09:43:47+00:00",
+      "ts": 1782985427.0
+    },
     {
       "title": "Best ISPs in UAE 2026: e& vs du for Fiber Broadband, 10 Gbps Internet and Wi-Fi 7",
       "link": "https://telecomlead.com/broadband/best-isps-in-uae-2026-e-vs-du-for-fiber-broadband-10-gbps-internet-and-wi-fi-7-126510",
@@ -760,22 +834,6 @@
       "ts": 1782922437.0
     },
     {
-      "title": "Tata Communications announces India-Singapore subsea cable investments",
-      "link": "https://www.datacenterdynamics.com/en/news/tata-communications-announces-india-singapore-subsea-cable-investments/",
-      "summary": "Connecting Mumbai-Singapore and Chennai-Singapore",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-07-01T15:00:30+00:00",
-      "ts": 1782918030.0
-    },
-    {
       "title": "Rakuten Symphony appoints new RAN unit lead",
       "link": "https://www.mobileworldlive.com/asia-pacific/rakuten-symphony-appoints-new-ran-unit-lead/",
       "summary": "Rakuten Symphony named former Boost Mobile and Ericsson executive Amit Bhardwaj as president of its Radio Access Network (RAN) Business Unit, as the company looks to strengthen its cloud-native open RAN business. The post Rakuten Symphony appoints new RAN unit lead appeared first on Mobile World Live .",
@@ -854,20 +912,6 @@
       "ts": 1782908530.0
     },
     {
-      "title": "US lifts export curbs on Anthropic AI models",
-      "link": "https://www.mobileworldlive.com/ai-cloud/us-lifts-export-curbs-on-anthropic-ai-models/",
-      "summary": "Anthropic resumed the rollout of its controversial Fable 5 and Mythos 5 AI models after the US Commerce Department lifted export controls imposed earlier this month over cybersecurity concerns. The post US lifts export curbs on Anthropic AI models appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-01T10:45:34+00:00",
-      "ts": 1782902734.0
-    },
-    {
       "title": "CMA fast-tracks probe into £2B fibre deal",
       "link": "https://www.mobileworldlive.com/regulation/cma-fast-tracks-probe-into-2b-fibre-deal/",
       "summary": "The UK’s Competition and Markets Authority launched an in-depth probe into Nexfibre’s planned £2 billion takeover of fellow fibre broadband player Netomnia, putting a question mark on potential consolidation in the sector. The post CMA fast-tracks probe into £2B fibre deal appeared first on Mobile World Live .",
@@ -914,20 +958,6 @@
       "ts": 1782900412.0
     },
     {
-      "title": "Zain wins 25-year Syria telecoms licence for $750M",
-      "link": "https://www.mobileworldlive.com/operators/zain-wins-25-year-syria-telecoms-licence-for-750m/",
-      "summary": "Zain Group secured a 25-year telecoms licence in Syria after winning a tender process with a bid totalling $747 million, replacing MTN’s existing network in the country. The post Zain wins 25-year Syria telecoms licence for $750M appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-01T09:44:37+00:00",
-      "ts": 1782899077.0
-    },
-    {
       "title": "FCC to vote on plan for 160MHz upper C-Band auction",
       "link": "https://www.mobileworldlive.com/fcc/fcc-to-vote-on-plan-for-160mhz-upper-c-band-auction/",
       "summary": "US Federal Communications Commission chair Brendan Carr revealed the agency would vote on an order setting up an auction of 160MHz of spectrum in the upper C-Band covering 3.98GHz to 4.14GHz next month, with the sale process scheduled for 2027. The post FCC to vote on plan for 160MHz upper C-Band auction appeared...",
@@ -942,20 +972,6 @@
       "ts": 1782896077.0
     },
     {
-      "title": "AWS launches $1B engineering unit for AI",
-      "link": "https://www.mobileworldlive.com/ai-cloud/aws-launches-1b-engineering-unit-for-ai/",
-      "summary": "Amazon Web Services created a dedicated forward deployed engineering organisation, designed to embed its engineers directly inside customer teams to build and deploy production AI systems, compressing deployment timelines from months to days. The post AWS launches $1B engineering unit for AI appeared first on Mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-01T08:27:20+00:00",
-      "ts": 1782894440.0
-    },
-    {
       "title": "Ericsson cloud boss still resists a Nokia move in the 5G core",
       "link": "https://www.lightreading.com/mobile-core/ericsson-cloud-boss-still-resists-a-nokia-move-in-the-5g-core",
       "summary": "Unlike Nokia, Ericsson continues to work on its own cloud infrastructure platform, and that is not about to change, says Jenny Lindqvist, who heads up Ericsson's cloud software and services group.",
@@ -968,21 +984,6 @@
       "relevance": 58,
       "date": "2026-07-01T07:30:00+00:00",
       "ts": 1782891000.0
-    },
-    {
-      "title": "FCC confirms C-band auction",
-      "link": "https://www.advanced-television.com/2026/07/01/fcc-confirms-c-band-auction/",
-      "summary": "The Federal Communications Commission (FCC), as expected, has published its auction plan for the satellite ‘Upper C-band’ release of 160 MHz of spectrum to be used by terrestrial operators for 5G and 6G services. (The Upper C-band is 3.98-4.14 GHz). FCC chairman Brendan Carr announced that “the FCC will vote July 22nd...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-07-01T04:59:55+00:00",
-      "ts": 1782881995.0
     },
     {
       "title": "Telefónica y Vodafone refuerzan la seguridad ciudadana con plataformas digitales y 5G SA",
@@ -1351,35 +1352,6 @@
       "ts": 1782403730.0
     },
     {
-      "title": "Vodafone Spain plans D2D next year with AST SpaceMobile's Euro JV",
-      "link": "https://www.lightreading.com/satellite/vodafone-spain-plans-d2d-next-year-with-ast-spacemobile-s-euro-jv",
-      "summary": "Satellite Connect Europe, the AST SpaceMobile-Vodafone joint venture, adds Vodafone Spain to the roster of mobile operator partners for D2D with services planned in 2027.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-06-25T14:36:42+00:00",
-      "ts": 1782398202.0
-    },
-    {
-      "title": "LEO satellite trade org forms, without SpaceX and AST SpaceMobile",
-      "link": "https://www.lightreading.com/satellite/leo-satellite-trade-org-forms-without-spacex-and-ast-spacemobile",
-      "summary": "SpaceConnect, an organization focused on the policies and interests of the LEO satellite sector, has formed with support from Amazon, Iridium, Telesat and Globalstar. Analysts aren't surprised that SpaceX and AST SpaceMobile aren't participating.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-06-25T14:28:00+00:00",
-      "ts": 1782397680.0
-    },
-    {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
       "link": "https://spectrum.ieee.org/6g-wifi-united-states-china",
       "summary": "Global demand for high-capacity, low-latency wireless connectivity continues to grow, and the 6-gigahertz band of radio spectrum has emerged as a particularly vital chunk of wireless real estate. Both the cellular and Wi-Fi industries consider this contiguous block, which covers frequencies from 5,925 to 7,125...",
@@ -1639,20 +1611,6 @@
       "ts": 0
     },
     {
-      "title": "SDN pioneers return with $15M GPU networking bet",
-      "link": "https://www.fierce-network.com/cloud/sdn-pioneers-return-15m-gpu-networking-bet",
-      "summary": "A16z leads a $15M Series A to upstart Netris, funding a platform automating GPU networking and multi-tenancy for AI cloud operators.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "FCC tees up big auction for C-band ‘super band’",
       "link": "https://www.fierce-network.com/wireless/fcc-tees-big-auction-c-band-super-band",
       "summary": "The industry just finished a little AWS-3 auction and now it’s gearing up for a much bigger one: 160 megahertz in the upper C-band next year.",
@@ -1735,6 +1693,20 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Will there be an AI cost reckoning for telcos? Here’s what AWS’ telco chief thinks.",
+      "link": "https://www.fierce-network.com/wireless/will-there-be-ai-cost-reckoning-telcos-heres-what-aws-telco-chief-thinks",
+      "summary": "Telcos are eager to unleash AI on their networks, but AWS’ Jan Hofmeyr warns they could face a costly wake-up call if they mistake generic LLMs for a network-ready fix.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
