@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T13:39:42.078761+00:00",
+  "generated_at": "2026-07-03T18:59:41.487803+00:00",
   "count": 103,
   "theme_counts": {
-    "moveis": 37,
-    "fibra": 14,
+    "moveis": 38,
+    "fibra": 13,
     "antenas": 10,
     "iot": 5,
     "satelite": 28,
@@ -16,7 +16,7 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
+    "in": 4,
     "jp": 4,
     "kr": 2,
     "cn": 2
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -136,7 +136,7 @@
     {
       "source": "6GWorld",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "3GPP News",
@@ -195,11 +195,43 @@
     },
     {
       "source": "European Spaceflight",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 409: Conflict",
       "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "TRAI Drive Test: Jio Leads Mobile Network Performance in Bharuch, Airtel Delivers Best Upload Speeds and Voice Quality",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-jio-leads-mobile-network-performance-in-bharuch-airtel-delivers-best-upload-speeds-and-voice-quality-126559",
+      "summary": "Telecom Regulatory Authority of India (TRAI) has released the findings of its drive test conducted across Bharuch city and nearby areas in Gujarat during 5-8 May 2026, highlighting the mobile network performance of Reliance Jio, Bharti Airtel, Vodafone Idea, and BSNL. The assessment covered 361.2 km of city drive...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-07-03T15:38:36+00:00",
+      "ts": 1783093116.0
+    },
+    {
+      "title": "TRAI Drive Test: Jio Tops Mobile Network Performance in Assam, Airtel Delivers Strong Voice Quality, BSNL Lags",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-jio-tops-mobile-network-performance-in-assam-airtel-delivers-strong-voice-quality-bsnl-lags-126555",
+      "summary": "Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted across Dibrugarh and Tinsukia districts in Assam during 13-17 April 2026, highlighting the mobile network performance of Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL across voice and data services. TRAI’s...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-07-03T15:34:44+00:00",
+      "ts": 1783092884.0
+    },
     {
       "title": "Orange Belgium picks Nokia to converge optical network for AI-scale demand",
       "link": "https://capacityglobal.com/news/orange-belgium-picks-nokia-optical-networks/",
@@ -707,20 +739,6 @@
       "relevance": 44,
       "date": "2026-07-03T01:58:06+00:00",
       "ts": 1783043886.0
-    },
-    {
-      "title": "Telecom news: Ekinops, Proximus, BT, Ivanti, T-Mobile, America250",
-      "link": "https://telecomlead.com/news/telecom-news-ekinops-proximus-bt-ivanti-t-mobile-america250-126534",
-      "summary": "Today’s telecom news includes announcements on Ekinops, Proximus, BT, Ivanti, T-Mobile, America250, among others. Ekinops Wins Proximus Deal to Build Belgium’s Next-Generation Optical Network Ekinops has signed a framework agreement with Proximus to deploy the NEURON (Next generation Enhanced Uniform Reliable Optical...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-03T01:53:17+00:00",
-      "ts": 1783043597.0
     },
     {
       "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
@@ -1509,20 +1527,6 @@
       "relevance": 53,
       "date": "2026-05-27T19:19:00+00:00",
       "ts": 1779909540.0
-    },
-    {
-      "title": "RF Digital Twins: Why 5G-Advanced and 6G Need Predictive Simulation",
-      "link": "https://6gworld.com/rf-digital-twins-why-5g-advanced-and-6g-need-predictive-simulation/",
-      "summary": "RF Digital Twins: Why 5G-Advanced and 6G Need Predictive Simulation As wireless systems become more tightly coupled across…",
-      "source": "6GWorld",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-05-19T17:01:34+00:00",
-      "ts": 1779210094.0
     },
     {
       "title": "Inseego boosts its FWA team with 2 ex-Nokia execs",
