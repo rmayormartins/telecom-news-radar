@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-02T19:07:37.529890+00:00",
-  "count": 105,
+  "generated_at": "2026-07-03T01:51:31.870836+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 46,
+    "moveis": 44,
     "fibra": 8,
     "antenas": 5,
     "iot": 6,
-    "satelite": 29,
+    "satelite": 28,
     "radar_militar": 9,
     "radiocom": 0,
     "tv": 3,
-    "geral": 30
+    "geral": 32
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
-    "jp": 6,
+    "in": 3,
+    "jp": 4,
     "kr": 0,
     "cn": 2
   },
-  "research_count": 29,
+  "research_count": 30,
   "sources": [
     {
       "source": "Light Reading",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,63 @@
     }
   ],
   "items": [
+    {
+      "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
+      "link": "https://techblog.comsoc.org/2026/07/02/analysis-coheres-28m-u-s-dod-futureg-isac-contract-otfs-vs-ofdm-6g-imt-2030-standards-outlook/",
+      "summary": "Executive Summary: Cohere Technologies has won a $28 million U.S. government contract funded by the FutureG Office within the U.S. Department of War (previously called the Defense Department or DoD) to develop a multi-waveform RAN prototype for integrated sensing and communications (ISAC), with Cohere’s Zak-OTFS as a...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 72,
+      "date": "2026-07-03T00:43:19+00:00",
+      "ts": 1783039399.0
+    },
+    {
+      "title": "Amazon Leo Constellation Ready to Support Initial Service After ULA Mission",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/02/amazon-leo-constellation-ready-to-support-initial-service-after-ula-mission/",
+      "summary": "The Amazon Leo constellation now has enough satellites in orbit to support “continuous service across initial latitudes,” after a United Launch Alliance (ULA) mission in the early hours of Thursday. […] The post Amazon Leo Constellation Ready to Support Initial Service After ULA Mission appeared first on Via Satellite...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-02T19:55:17+00:00",
+      "ts": 1783022117.0
+    },
+    {
+      "title": "Isar Aerospace Lands Big Win With Planet Launch Contract",
+      "link": "https://www.satellitetoday.com/launch/2026/07/02/isar-aerospace-lands-big-win-with-planet-launch-contract/",
+      "summary": "German launcher in development Isar Aerospace secured a launch contract with Planet to launch one of Planet’s next-generation Pelican satellites, as early as late 2026. Isar Aerospace and Planet announced […] The post Isar Aerospace Lands Big Win With Planet Launch Contract appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-07-02T19:50:13+00:00",
+      "ts": 1783021813.0
+    },
+    {
+      "title": "Vodafone Ireland Conducts Emergency Services D2D Call With AST SpaceMobile JV",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/02/vodafone-ireland-conducts-emergency-services-d2d-call-with-ast-spacemobile-jv/",
+      "summary": "Vodafone Ireland has conducted a successful test call with AST SpaceMobile’s satellite constellation as part of tests for connectivity for emergency and first responders. Vodafone Ireland reported the tests on […] The post Vodafone Ireland Conducts Emergency Services D2D Call With AST SpaceMobile JV appeared first on...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-07-02T19:42:40+00:00",
+      "ts": 1783021360.0
+    },
     {
       "title": "FCC's proposed upper C-band rules sidestep SpaceX's request",
       "link": "https://www.lightreading.com/regulatory-politics/fcc-s-proposed-upper-c-band-rules-sidestep-spacex-s-request",
@@ -259,6 +316,22 @@
       "relevance": 56,
       "date": "2026-07-02T15:29:47+00:00",
       "ts": 1783006187.0
+    },
+    {
+      "title": "India blocks WhatsApp username rollout over fraud concerns",
+      "link": "https://www.mobileworldlive.com/asia-pacific/india-blocks-whatsapp-usernames-rollout-over-fraud-concerns/",
+      "summary": "Indian authorities reportedly ordered WhatsApp to halt the rollout of its new usernames feature and provide justification for the design, citing concerns around online fraud and phishing scams. The post India blocks WhatsApp username rollout over fraud concerns appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 23,
+      "date": "2026-07-02T13:17:21+00:00",
+      "ts": 1782998241.0
     },
     {
       "title": "DNB expands 5G capacity as U Mobile officially pulls out",
@@ -469,7 +542,7 @@
     {
       "title": "Active Sensing for RIS-Aided Tracking and Power Control: A Hybrid Neuroevolution and Supervised Learning Approach",
       "link": "https://arxiv.org/abs/2607.00056",
-      "summary": "arXiv:2607.00056v1 Announce Type: cross Abstract: This paper studies energy efficient tracking of power-limited mobile users with the assistance of a Reconfigurable Intelligent Surface (RIS). Since localization pilot transmissions dominate the energy budget of power-constrained devices, we introduce a low-overhead...",
+      "summary": "arXiv:2607.00056v2 Announce Type: cross Abstract: This paper studies energy efficient tracking of power-limited mobile users with the assistance of a Reconfigurable Intelligent Surface (RIS). Since localization pilot transmissions dominate the energy budget of power-constrained devices, we introduce a low-overhead...",
       "source": "arXiv cs.NI",
       "themes": [
         "antenas"
@@ -777,6 +850,20 @@
       "ts": 1782964800.0
     },
     {
+      "title": "SpaceX muestra un prototipo de smartphone con IA a los inversores",
+      "link": "https://www.mobileworldlive.com/spanish/spacex-muestra-un-prototipo-de-smartphone-con-ia-a-los-inversores/",
+      "summary": "SpaceX ha desarrollado un prototipo de dispositivo similar a un smartphone con el que pretende cambiar la forma en que Read more... The post SpaceX muestra un prototipo de smartphone con IA a los inversores appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-02T01:05:48+00:00",
+      "ts": 1782954348.0
+    },
+    {
       "title": "The Internet in Space: The Apps that Dominate Satellite Traffic and Why it Matters",
       "link": "https://www.satellitetoday.com/opinion/2026/07/01/the-internet-in-space-the-apps-that-dominate-satellite-traffic-and-why-it-matters/",
       "summary": "What do people actually do on satellite networks? And, for non-government applications, does it even matter? As thousands of new satellites are launched into orbit, much of the conversation has […] The post The Internet in Space: The Apps that Dominate Satellite Traffic and Why it Matters appeared first on Via...",
@@ -925,6 +1012,20 @@
       "ts": 1782901560.0
     },
     {
+      "title": "Zain wins 25-year Syria telecoms licence for $750M",
+      "link": "https://www.mobileworldlive.com/operators/zain-wins-25-year-syria-telecoms-licence-for-750m/",
+      "summary": "Zain Group secured a 25-year telecoms licence in Syria after winning a tender process with a bid totalling $747 million, replacing MTN’s existing network in the country. The post Zain wins 25-year Syria telecoms licence for $750M appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-01T09:44:37+00:00",
+      "ts": 1782899077.0
+    },
+    {
       "title": "FCC to vote on plan for 160MHz upper C-Band auction",
       "link": "https://www.mobileworldlive.com/fcc/fcc-to-vote-on-plan-for-160mhz-upper-c-band-auction/",
       "summary": "US Federal Communications Commission chair Brendan Carr revealed the agency would vote on an order setting up an auction of 160MHz of spectrum in the upper C-Band covering 3.98GHz to 4.14GHz next month, with the sale process scheduled for 2027. The post FCC to vote on plan for 160MHz upper C-Band auction appeared...",
@@ -953,20 +1054,6 @@
       "ts": 1782891000.0
     },
     {
-      "title": "Telefónica y Vodafone refuerzan la seguridad ciudadana con plataformas digitales y 5G SA",
-      "link": "https://www.mobileworldlive.com/spanish/telefonica-y-vodafone-refuerzan-la-seguridad-ciudadana-con-plataformas-digitales-y-5g-sa/",
-      "summary": "Las operadoras de telecomunicaciones españolas amplían la capacidad operativa de los cuerpos de seguridad mediante la digitalización y la conectividad Read more... The post Telefónica y Vodafone refuerzan la seguridad ciudadana con plataformas digitales y 5G SA appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-06-30T22:55:34+00:00",
-      "ts": 1782860134.0
-    },
-    {
       "title": "FCC sets vote on rules to auction 160MHz of upper C-band spectrum",
       "link": "https://www.lightreading.com/5g/fcc-sets-vote-on-rules-to-auction-160mhz-of-upper-c-band-spectrum",
       "summary": "The FCC will vote July 22 on proposed rules to auction 160MHz of the upper C-band, including a provision to create a 440MHz 'super-band' that will harmonize spectrum in the lower C-band.",
@@ -979,20 +1066,6 @@
       "relevance": 53,
       "date": "2026-06-30T20:11:19+00:00",
       "ts": 1782850279.0
-    },
-    {
-      "title": "C-Band Round 2: FCC Set to Vote on Another C-Band Auction",
-      "link": "https://www.satellitetoday.com/government-military/2026/06/30/c-band-round-2-fcc-set-to-vote-on-another-c-band-auction/",
-      "summary": "The FCC is moving toward another C-band auction, planning to vote in July on whether to approve auctioning 160 megahertz of the upper C-band. Like the first C-band clearing that […] The post C-Band Round 2: FCC Set to Vote on Another C-Band Auction appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-06-30T20:10:50+00:00",
-      "ts": 1782850250.0
     },
     {
       "title": "Space Force fields mobile satellite-jamming system",
@@ -1054,21 +1127,6 @@
       "ts": 1782835906.0
     },
     {
-      "title": "Ovzon Secures 74 MSEK MILSATCOM Service Renewal from European NATO Defense Agency",
-      "link": "https://satnews.com/2026/06/30/ovzon-secures-74-msek-milsatcom-service-renewal-from-european-nato-defense-agency/",
-      "summary": "STOCKHOLM, SWEDEN — On Tuesday, June 30, 2026, mobile satellite communications provider Ovzon AB announced it has received a service renewal contract from the defense organization of a European NATO […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-06-30T16:04:25+00:00",
-      "ts": 1782835465.0
-    },
-    {
       "title": "FCC announces winners of its recent spectrum auction",
       "link": "https://www.telecompetitor.com/fcc-announces-winners-of-its-recent-spectrum-auction/",
       "summary": "FCC announces winners of its recent spectrum auction UPDATE, June 30: The Federal Communications Commission (FCC) announced the winners of its recent AWS-3 spectrum auction, with winning bids of more than $3.5 billion (see original story below). Verizon was the largest winner by dollar amount, with more than $3...",
@@ -1081,38 +1139,6 @@
       "relevance": 48,
       "date": "2026-06-30T15:45:00+00:00",
       "ts": 1782834300.0
-    },
-    {
-      "title": "Rakuten set for Japanese satellite investment",
-      "link": "https://www.mobileworldlive.com/network-tech/rakuten-set-for-japanese-satellite-investment/",
-      "summary": "Rakuten Mobile's plans to build a satellite communications network received a boost from the Japanese government, which reportedly earmarked an investment of JPY148 billion to the project. The post Rakuten set for Japanese satellite investment appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 37,
-      "date": "2026-06-30T15:22:34+00:00",
-      "ts": 1782832954.0
-    },
-    {
-      "title": "Samsung, KDDI reveal AI-RAN 5G gains",
-      "link": "https://www.mobileworldlive.com/5g/samsung-kddi-reveal-ai-ran-5g-gains/",
-      "summary": "KDDI and Samsung offered some tangible evidence of the network operation gains AI could deliver following a trial of RAN optimisation technology which delivered double-digit gains in 5G throughput. The post Samsung, KDDI reveal AI-RAN 5G gains appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 57,
-      "date": "2026-06-30T14:38:30+00:00",
-      "ts": 1782830310.0
     },
     {
       "title": "AT&T 'Build-A-Plan' adds home broadband options",
@@ -1158,34 +1184,6 @@
       "relevance": 55,
       "date": "2026-06-29T23:26:46+00:00",
       "ts": 1782775606.0
-    },
-    {
-      "title": "New Megaconstellation Startup Eclipse Space Targets Sovereign Market",
-      "link": "https://www.satellitetoday.com/connectivity/2026/06/29/new-megaconstellation-startup-eclipse-space-targets-sovereign-market/",
-      "summary": "New megaconstellation startup Eclipse Space, built by a group of SpaceX alums, recently emerged from stealth mode with the aim of making constellation ownership possible for sovereign governments and enterprises. […] The post New Megaconstellation Startup Eclipse Space Targets Sovereign Market appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-06-29T20:31:53+00:00",
-      "ts": 1782765113.0
-    },
-    {
-      "title": "Saudia and Neo Space Group Linefit Inaugural Airbus A321XLR Aircraft With IFC",
-      "link": "https://www.satellitetoday.com/mobility/2026/06/29/saudia-and-neo-space-group-linefit-inaugural-airbus-a321xlr-aircraft-with-ifc/",
-      "summary": "Neo Space Group (NSG) and Saudia have announced the first line-fit activation of NSG Skywaves IFC aboard Saudia’s inaugural Airbus A321XLR aircraft. Powered by NSG Skywaves and leveraging the SES […] The post Saudia and Neo Space Group Linefit Inaugural Airbus A321XLR Aircraft With IFC appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-06-29T20:27:45+00:00",
-      "ts": 1782764865.0
     },
     {
       "title": "The Invisible Dependency in Your Enterprise AI Plan: Fiber Infrastructure Between Your Facility and the Cloud",
@@ -1417,20 +1415,6 @@
       "relevance": 49,
       "date": "2026-06-22T21:28:05+00:00",
       "ts": 1782163685.0
-    },
-    {
-      "title": "Federated Wireless Spectrum AI: Advancing CBRS Efficiency Through AI-Driven RAN Optimization",
-      "link": "https://techblog.comsoc.org/2026/06/20/federated-wireless-spectrum-ai-advancing-cbrs-efficiency-through-ai-driven-ran-optimization/",
-      "summary": "Introduction: Recent field trial results from Federated Wireless indicate up to 50% gains in usable CBRS spectrum [1.] and significantly accelerated network planning cycles when using the company’s Wireless Spectrum AI platform [2.]. The field trials were held in markets such as Phoenix and Philadelphia, along with...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-06-20T22:44:39+00:00",
-      "ts": 1781995479.0
     },
     {
       "title": "The Hidden 6G Bottleneck: RF Hardware Design Is Becoming a Strategic Race",
