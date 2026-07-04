@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-04T01:51:28.784113+00:00",
-  "count": 103,
+  "generated_at": "2026-07-04T08:22:27.112014+00:00",
+  "count": 78,
   "theme_counts": {
-    "moveis": 38,
-    "fibra": 13,
-    "antenas": 10,
-    "iot": 5,
-    "satelite": 28,
-    "radar_militar": 6,
+    "moveis": 32,
+    "fibra": 12,
+    "antenas": 0,
+    "iot": 4,
+    "satelite": 25,
+    "radar_militar": 5,
     "radiocom": 0,
     "tv": 2,
-    "geral": 36
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 2,
     "cn": 2
   },
-  "research_count": 26,
+  "research_count": 1,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (28 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (8 itens)",
-      "kept": 6
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (21 itens)",
-      "kept": 6
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (45 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -352,365 +352,6 @@
       "relevance": 54,
       "date": "2026-07-03T04:09:17+00:00",
       "ts": 1783051757.0
-    },
-    {
-      "title": "Integrated Wake-Up Radio and MIMO Solution for Cellular IoT Networks",
-      "link": "https://arxiv.org/abs/2607.02008",
-      "summary": "arXiv:2607.02008v1 Announce Type: new Abstract: Wake-up radio (WUR) is a technology designed to enhance the energy efficiency of Internet of Things (IoT) networks and extend device battery life. While most studies focus on WUR performance with single-antenna base stations, this paper investigates the multiple-input...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Bayesian Self-Calibration and Parametric Channel Estimation for 6G Antenna Arrays",
-      "link": "https://arxiv.org/abs/2510.11628",
-      "summary": "arXiv:2510.11628v3 Announce Type: replace Abstract: Accurate channel estimation is essential for both high-rate communication and high-precision sensing in 6G wireless systems. However, a major performance limitation arises from calibration mismatches when operating phased-array antennas under real-world conditions....",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Scene-Conditioned PINN-GNN for Multipath RF Maps: Cross-Scene Generation and In-Scene Completion",
-      "link": "https://arxiv.org/abs/2607.01777",
-      "summary": "arXiv:2607.01777v1 Announce Type: new Abstract: Radio frequency (RF) maps provide a compact representation of multipath propagation characteristics and are fundamental to channel modeling, coverage analysis, and environment-aware wireless optimization. This paper proposes a unified RF map construction framework based...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Active Sensing for RIS-Aided Tracking and Power Control: A Hybrid Neuroevolution and Supervised Learning Approach",
-      "link": "https://arxiv.org/abs/2607.00056",
-      "summary": "arXiv:2607.00056v2 Announce Type: replace-cross Abstract: This paper studies energy efficient tracking of power-limited mobile users with the assistance of a Reconfigurable Intelligent Surface (RIS). Since localization pilot transmissions dominate the energy budget of power-constrained devices, we introduce a...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access",
-      "link": "https://arxiv.org/abs/2607.01921",
-      "summary": "arXiv:2607.01921v1 Announce Type: new Abstract: Communication systems designed for reliable data reconstruction, rather than task-oriented communication, typically rely on separate source and channel coding and incur high latency under limited spectrum availability and fading channels. To address this, we propose a...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Enabling Real-Time AI in O-RAN: Deploying andMeasuring AI Inside a Near-RT RIC xApp",
-      "link": "https://arxiv.org/abs/2607.01583",
-      "summary": "arXiv:2607.01583v1 Announce Type: new Abstract: Open Radio Access Network (O-RAN) architectures introduce programmable Near-Real-Time RAN Intelligent Controllers (Near-RT RICs) that support closed-loop control through xApps at timescales from 10 ms to 1 s. Although AI has been widely studied for RAN optimization,...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Antenna Orientation Optimization for Rotatable Antenna-Enabled ISAC Systems",
-      "link": "https://arxiv.org/abs/2606.31466",
-      "summary": "arXiv:2606.31466v2 Announce Type: replace Abstract: Non-fixed flexible antenna architectures, such as fluid antenna system (FAS), movable antenna (MA), and pinching antenna, have garnered significant interest in recent years. In this paper, we deploy a rotatable antenna (RA) array at the base station (BS) to improve...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Alternating Optimization for Joint Resource Allocation in Full-Duplex Multi-Sector Fluid Antenna-Enabled Near-Field Systems",
-      "link": "https://arxiv.org/abs/2607.01300",
-      "summary": "arXiv:2607.01300v1 Announce Type: new Abstract: This paper proposes a full duplex fluid antenna near field system (FD-FANS) with a multi-sector antenna array that jointly exploits resource allocation, antenna mobility, and group-based transmitting (TX) and receiving (RX) partitioning. A spherical wave uplink downlink...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Rethinking Fractional Programming for Joint Uplink Scheduling and Power Control in Multicell Wireless Networks",
-      "link": "https://arxiv.org/abs/2607.01769",
-      "summary": "arXiv:2607.01769v1 Announce Type: new Abstract: This paper investigates the joint uplink scheduling and power control problem in a coordinated multicell wireless network, where at most one single-antenna user is allowed to access the single-antenna base station in each cell simultaneously. The resulting weighted...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Beyond Beamforming: Phase-and-Gain Channel Shaping via Rotatable Antenna Arrays",
-      "link": "https://arxiv.org/abs/2607.02305",
-      "summary": "arXiv:2607.02305v1 Announce Type: new Abstract: This paper investigates geometry-reconfigurable transmission for multiuser communication systems enabled by a rotatable antenna array. In contrast to conventional fixed arrays, the proposed architecture jointly exploits array pose adjustment and element-level boresight...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Robust Transmission Design for RIS-Assisted RSMA-SWIPT Systems With Movable Antennas Under Hardware Distortions",
-      "link": "https://arxiv.org/abs/2607.02384",
-      "summary": "arXiv:2607.02384v1 Announce Type: new Abstract: This paper investigates a robust transmission design for a multi-user rate-splitting multiple access (RSMA)-based simultaneous wireless information and power transfer (SWIPT) system empowered by movable antennas (MAs) and a reconfigurable intelligent surface (RIS) under...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Complexity-Scalable Direct Geolocation and Cancellation of Terrestrial GNSS Jammers: Single-Satellite and Multi-Antenna Experiments in Low Earth Orbit",
-      "link": "https://arxiv.org/abs/2607.02190",
-      "summary": "arXiv:2607.02190v1 Announce Type: new Abstract: Monitoring the radio-frequency (RF) spectrum from space imposes demanding requirements to satellite platforms in terms of communication bandwidth and computational resources, which are necessary for the downlink, the storage, and the processing of high-throughput I/Q...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Generalized Rank Weight and Extended Generalized Poset Weight Defined For Codes Over Rings: A Galois Connection Approach",
-      "link": "https://arxiv.org/abs/2607.02377",
-      "summary": "arXiv:2607.02377v1 Announce Type: new Abstract: In this paper, we study generalized rank weights (GRWs) and extended generalized poset weight (EGPWs) of codes over rings via a Galois connection approach. First, we show that various coding-theoretic properties related to generalized weights, including security drops of...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Fully Unsupervised Detection of Physical Contacts on Subsea Cables via State-of-Polarization Monitoring",
-      "link": "https://arxiv.org/abs/2607.01484",
-      "summary": "arXiv:2607.01484v1 Announce Type: new Abstract: We present a fully unsupervised Fast-Slow DSVDD detector for continuous State-of-Polarization monitoring on a deployed subsea cable. Trained without event labels, it ranks all five confirmed trawler contacts within the top 13 of 122,174 recordings and surfaces additional...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "fibra"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Tool Use as Action: Towards Agentic Control in Mobile Core Networks",
-      "link": "https://arxiv.org/abs/2605.02811",
-      "summary": "arXiv:2605.02811v2 Announce Type: replace Abstract: Artificial Intelligence (AI) will play an essential role in 6G. It will fundamentally reshape the network architecture itself and drive major changes in the design of network entities, interfaces, and procedures. The adoption of agentic AI in next-generation networks...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Ultra-Low-Cost Hybrid Beamforming: A New Static-Connection Architecture with Sparse Phase-Shifter Sharing",
-      "link": "https://arxiv.org/abs/2607.02393",
-      "summary": "arXiv:2607.02393v1 Announce Type: new Abstract: Hybrid beamforming is a promising solution for high-frequency multi-antenna wireless systems, but its implementation is constrained by the cost and complexity of analog phase-shifter (PS) networks. Although sub-connected architectures simplify the analog network, their...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Influence of Radial Basis Activation Functions on Intelligent Controller for Robotic Manipulators",
-      "link": "https://arxiv.org/abs/2607.02167",
-      "summary": "arXiv:2607.02167v1 Announce Type: new Abstract: This paper presents an intelligent control framework for trajectory tracking of robotic manipulators using radial basis function (RBF) neural networks for online disturbance estimation. The proposed control structure combines model-based nonlinear control with an...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Learning-based Multi-agent Race Strategies in Formula 1",
-      "link": "https://arxiv.org/abs/2602.23056",
-      "summary": "arXiv:2602.23056v2 Announce Type: replace-cross Abstract: In Formula 1, race strategies are adapted according to evolving race conditions and competitors' actions. This paper proposes a reinforcement learning approach for multi-agent race strategy optimization. Agents learn to balance energy management, tire...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control",
-      "link": "https://arxiv.org/abs/2607.01616",
-      "summary": "arXiv:2607.01616v1 Announce Type: new Abstract: This paper proposes a novel unified control framework for achieving hybrid grid-forming (GFM) and grid-following (GFL) inverter operation by integrating dispatchable virtual oscillator control with reference-following synchronization. The proposed inverter control method...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Reachability-Based Safe-Start Regions for Approach to a Tumbling Target with Rotating LOS Constraints",
-      "link": "https://arxiv.org/abs/2607.02128",
-      "summary": "arXiv:2607.02128v1 Announce Type: new Abstract: This paper presents a reachability-aware guidance architecture for autonomous approach to a tumbling, uncooperative target under a rotating line-of-sight (LOS) docking corridor. The LOS admissible set rotates with the target body frame, producing time-varying polyhedral...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Global Convergence of Control-Based Lagrangian Flows for Non-Convex Optimization",
-      "link": "https://arxiv.org/abs/2605.22486",
-      "summary": "arXiv:2605.22486v3 Announce Type: replace-cross Abstract: This paper studies the continuous-time dynamics generated by control-theoretic Lagrangian methods for equality-constrained optimization. In particular, we consider dynamics induced by proportional-integral and feedback linearization controllers, which have...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Optimal Stabilizer Testing and Learning with Limited Quantum Memory",
-      "link": "https://arxiv.org/abs/2607.02444",
-      "summary": "arXiv:2607.02444v1 Announce Type: cross Abstract: We study stabilizer state testing and learning with limited coherent quantum memory. Here an algorithm sequentially receives copies of an unknown $n$-qubit state, but may keep only $k$ qubits of coherent quantum memory between measurements. With unrestricted memory,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Criticality-Based Guard Rail Validation for AI Agent Decisions in Autonomous Telecom Networks",
-      "link": "https://arxiv.org/abs/2607.02210",
-      "summary": "arXiv:2607.02210v1 Announce Type: cross Abstract: The evolution toward fully autonomous telecommunications networks (Autonomous Network Levels 4-5) requires AI/ML agents to make real-time network decisions without human intervention. However, no standardized runtime mechanism exists to intercept and validate...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Smart-TCP: An Agentic AI-based Autonomous and Adaptive TCP Protocol",
-      "link": "https://arxiv.org/abs/2512.00491",
-      "summary": "arXiv:2512.00491v2 Announce Type: replace Abstract: The Transmission Control Protocol (TCP) relies on deterministic state machines and sequence-number arithmetic to ensure reliable communication. However, hard-coded protocol logic is difficult to adapt to increasingly complex and dynamic network conditions. This paper...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
-    },
-    {
-      "title": "Refining Concentration for Gaussian Quadratic Chaos with Applications in Sonar and Communications",
-      "link": "https://arxiv.org/abs/2412.03774",
-      "summary": "arXiv:2412.03774v4 Announce Type: replace-cross Abstract: The paper studies concentration of measure for Gaussian quadratic chaos in the non-asymptotic regime where existing bounds are improved and new bounds are proposed. We begin by slightly tightening Hanson-Wright inequality (HWI) by increasing its absolute...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-03T04:00:00+00:00",
-      "ts": 1783051200.0
     },
     {
       "title": "Nokia to Build Orange Belgium’s AI-Ready Converged Optical Network with 400G Transport and WaveSuite Automation",
