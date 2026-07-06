@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-06T09:53:35.544229+00:00",
-  "count": 81,
+  "generated_at": "2026-07-06T14:55:57.421934+00:00",
+  "count": 80,
   "theme_counts": {
     "moveis": 33,
     "fibra": 14,
-    "antenas": 1,
-    "iot": 3,
-    "satelite": 28,
-    "radar_militar": 5,
-    "radiocom": 0,
+    "antenas": 0,
+    "iot": 4,
+    "satelite": 27,
+    "radar_militar": 4,
+    "radiocom": 1,
     "tv": 2,
-    "geral": 24
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
-    "jp": 4,
-    "kr": 3,
+    "in": 3,
+    "jp": 3,
+    "kr": 4,
     "cn": 2
   },
   "research_count": 1,
@@ -56,7 +56,7 @@
     {
       "source": "Telecompetitor",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "The Fast Mode",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -91,12 +91,12 @@
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Ericsson Blog",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Via Satellite",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -201,9 +201,112 @@
   ],
   "items": [
     {
+      "title": "VHF Propagation: What Every RF Engineer Should Know",
+      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
+      "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "radiocom"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 35,
+      "date": "2026-07-06T13:54:01+00:00",
+      "ts": 1783346041.0
+    },
+    {
+      "title": "July 6, 2026: FCC spectrum auctions, SpaceX considering mobile, and more",
+      "link": "https://www.telecompetitor.com/july-6-2026/",
+      "summary": "July 6, 2026: FCC spectrum auctions, SpaceX considering mobile, and more In this week’s episode of The Broadband Exchange, we look at the winners of the latest FCC spectrum auction and the new auction the Commission is proposing. We also discuss the reports of SpaceX’s mobile service, mergers and acquisitions news,...",
+      "source": "Telecompetitor",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-06T12:50:00+00:00",
+      "ts": 1783342200.0
+    },
+    {
+      "title": "Telkomsat, Univity probe Indonesian space options",
+      "link": "https://www.mobileworldlive.com/asia-pacific/telkomsat-univity-probe-indonesian-space-options/",
+      "summary": "Indonesian satellite service provider Telkom Satelit Indonesia and neutral host space-based network provider Univity agreed to explore options to boost connectivity services using a very-low Earth orbit architecture. The post Telkomsat, Univity probe Indonesian space options appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-06T12:14:34+00:00",
+      "ts": 1783340074.0
+    },
+    {
+      "title": "SpaceX’s $740bn Starlink Mobile TAM overstated by up to 50x, analysis finds",
+      "link": "https://capacityglobal.com/news/spacexs-740bn-starlink-mobile-tam-overstated-by-up-to-50x-analysis-finds/",
+      "summary": "SpaceX's record-breaking $75 billion IPO has assigned Starlink Mobile a total addressable market (TAM) of $740 billion, but new industry analysis from the GSMA Intelligence puts that into question. The post SpaceX’s $740bn Starlink Mobile TAM overstated by up to 50x, analysis finds appeared first on Capacity .",
+      "source": "Capacity Media",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-07-06T11:56:40+00:00",
+      "ts": 1783339000.0
+    },
+    {
+      "title": "Lenovo Connect, e& combine to drive vehicle tech",
+      "link": "https://www.mobileworldlive.com/e-and/lenovo-connect-e-combine-to-drive-vehicle-tech/",
+      "summary": "Operator e&’s Carrier & Wholesale Services unit teamed with Lenovo Connect to expand connected vehicle and related IoT services across a host of nations. The post Lenovo Connect, e& combine to drive vehicle tech appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-06T11:30:07+00:00",
+      "ts": 1783337407.0
+    },
+    {
+      "title": "KT sets aside $12B to fuel AI platform ambition",
+      "link": "https://www.mobileworldlive.com/asia-pacific/kt-sets-aside-12b-to-fuel-ai-platform-ambition/",
+      "summary": "South Korean operator KT revealed plans to invest KRW18 trillion over a five-year period to chase an ambition of becoming a platform business for AI transformation. The post KT sets aside $12B to fuel AI platform ambition appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
+      "date": "2026-07-06T10:37:23+00:00",
+      "ts": 1783334243.0
+    },
+    {
+      "title": "SKT targets 15GW data centre capacity",
+      "link": "https://www.mobileworldlive.com/asia-pacific/skt-targets-15gw-data-centre-capacity/",
+      "summary": "SK Telecom set an ambitious 15GW total capacity target for its AI-capable data centres in South Korea, seeking to cash in on an anticipated surge in demand and favourable investor sentiment. The post SKT targets 15GW data centre capacity appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
+      "date": "2026-07-06T10:35:39+00:00",
+      "ts": 1783334139.0
+    },
+    {
       "title": "South Korea confirms LEO plan",
       "link": "https://www.advanced-television.com/2026/07/06/south-korea-confirms-leo-plan/",
-      "summary": "South Korea, already one of the best-equipped countries on the planet in terms of fibre connections (and with an estimated 99 per cent of users have 4G or 5G cellular access) is going ahead with its own satellite low Earth orbing broadband system. Korea’s Economic Daily news says that the South Korean government wants...",
+      "summary": "South Korea, already one of the best-equipped countries on the planet in terms of fibre connections (and where an estimated 99 per cent of users have 4G or 5G cellular access) is going ahead with its own satellite low Earth orbing broadband system. Korea’s Economic Daily news says that the South Korean government...",
       "source": "Advanced Television",
       "themes": [
         "moveis",
@@ -217,39 +320,6 @@
       "relevance": 49,
       "date": "2026-07-06T00:44:21+00:00",
       "ts": 1783298661.0
-    },
-    {
-      "title": "AST SpaceMobile: “Hundreds of Mb/s to be deployed”",
-      "link": "https://www.advanced-television.com/2026/07/06/ast-spacemobile-hundreds-of-mb-s-to-be-deployed/",
-      "summary": "Would-be global cellular connectivity business AST SpaceMobile says that speeds of hundreds of Mb/s will be deployed in 5G via its Block 2 BlueBird satellites. “AST SpaceMobile has already demonstrated in its Block 1 satellites speeds of 98 Mbps. With our Block 2 satellites, with the largest phased-array antennas in...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-06T00:28:48+00:00",
-      "ts": 1783297728.0
-    },
-    {
-      "title": "Japan updates J-LEO plan",
-      "link": "https://www.advanced-television.com/2026/07/06/japan-updates-j-leo-plan/",
-      "summary": "The Communications and Information network Association of Japan (CIAJ) has published extra information on the proposed Japan and AST SpaceMobile scheme for a Japanese-backed low earth orbiting constellation of broadband satellites. The CIAJ manual provides the clearest official detail yet on how the Rakuten/AST (RAST)...",
-      "source": "Advanced Television",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 48,
-      "date": "2026-07-06T00:08:00+00:00",
-      "ts": 1783296480.0
     },
     {
       "title": "SpaceX Controlled-Deorbit Report Discloses Decommissioning of 260 Starlink Satellites Over Six Months",
@@ -278,20 +348,6 @@
       "relevance": 44,
       "date": "2026-07-05T00:52:53+00:00",
       "ts": 1783212773.0
-    },
-    {
-      "title": "Cellnex y Vodafone España renuevan por 10 años su contrato de infraestructuras",
-      "link": "https://www.mobileworldlive.com/spanish/cellnex-y-vodafone-espana-renuevan-por-10-anos-su-contrato-de-infraestructuras/",
-      "summary": "Cellnex y Vodafone España han anunciado la prórroga por una década de su acuerdo marco de infraestructuras, una operación que Read more... The post Cellnex y Vodafone España renuevan por 10 años su contrato de infraestructuras appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-04T09:34:56+00:00",
-      "ts": 1783157696.0
     },
     {
       "title": "TRAI Drive Test: Jio Leads Mobile Network Performance in Bharuch, Airtel Delivers Best Upload Speeds and Voice Quality",
@@ -385,36 +441,6 @@
       "ts": 1783069372.0
     },
     {
-      "title": "Anthropic eyes Samsung for custom AI chip",
-      "link": "https://www.mobileworldlive.com/ai-cloud/anthropic-eyes-samsung-for-custom-ai-chip/",
-      "summary": "Anthropic reportedly is in discussions with Samsung Electronics to serve as a manufacturing partner for a custom AI chip, although the talks remain at an early stage. The post Anthropic eyes Samsung for custom AI chip appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 23,
-      "date": "2026-07-03T08:58:44+00:00",
-      "ts": 1783069124.0
-    },
-    {
-      "title": "O2 records peak data during England World Cup win",
-      "link": "https://www.mobileworldlive.com/operators/o2-records-peak-data-during-england-world-cup-win/",
-      "summary": "UK operator O2 recorded the biggest mobile traffic event in its history during England’s match with DR Congo at the FIFA World Cup, 20% higher than the previous peak. The post O2 records peak data during England World Cup win appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-03T06:54:58+00:00",
-      "ts": 1783061698.0
-    },
-    {
       "title": "NEC, Lightstorm, Microsoft, Singtel and Tata Communications Build 3,600-km I-2SEA Submarine Cable to Power AI Connectivity Between India and Southeast Asia",
       "link": "https://telecomlead.com/broadband/nec-lightstorm-microsoft-singtel-and-tata-communications-build-3600-km-i-2sea-submarine-cable-to-power-ai-connectivity-between-india-and-southeast-asia-126552",
       "summary": "NEC has secured a supply contract for the India-Southeast Asia (I-2SEA) submarine cable system, joining a consortium comprising Lightstorm, Microsoft, Singtel, and Tata Communications to strengthen digital infrastructure connecting India, Malaysia, and Singapore. The new subsea cable is designed to support the rapidly...",
@@ -473,20 +499,6 @@
       "relevance": 54,
       "date": "2026-07-03T02:06:23+00:00",
       "ts": 1783044383.0
-    },
-    {
-      "title": "Telecom news: Spark New Zealand, One NZ, Ericsson, Nokia, Orange, TDC NET",
-      "link": "https://telecomlead.com/news/telecom-news-spark-new-zealand-one-nz-ericsson-nokia-orange-tdc-net-126538",
-      "summary": "Today’s telecom news includes announcements on Spark New Zealand, One NZ, Ericsson, Nokia, Orange Belgium, TDC NET, among others. New Zealand Approves Mobile Spectrum Transfer to Boost 2degrees Competition Spark New Zealand and One NZ have agreed to transfer portions of their mobile spectrum holdings to 2degrees...",
-      "source": "Telecom Lead",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-03T01:58:06+00:00",
-      "ts": 1783043886.0
     },
     {
       "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
@@ -572,22 +584,6 @@
       "relevance": 52,
       "date": "2026-07-02T16:16:06+00:00",
       "ts": 1783008966.0
-    },
-    {
-      "title": "India blocks WhatsApp username rollout over fraud concerns",
-      "link": "https://www.mobileworldlive.com/asia-pacific/india-blocks-whatsapp-usernames-rollout-over-fraud-concerns/",
-      "summary": "Indian authorities reportedly ordered WhatsApp to halt the rollout of its new usernames feature and provide justification for the design, citing concerns around online fraud and phishing scams. The post India blocks WhatsApp username rollout over fraud concerns appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 23,
-      "date": "2026-07-02T13:17:21+00:00",
-      "ts": 1782998241.0
     },
     {
       "title": "DNB expands 5G capacity as U Mobile officially pulls out",
@@ -793,21 +789,6 @@
       "relevance": 53,
       "date": "2026-06-30T20:11:19+00:00",
       "ts": 1782850279.0
-    },
-    {
-      "title": "Space Force fields mobile satellite-jamming system",
-      "link": "https://spacenews.com/space-force-fields-mobile-satellite-jamming-system/",
-      "summary": "The system known as Meadowlands is transitioning to operational use as the military places greater emphasis on electronic warfare The post Space Force fields mobile satellite-jamming system appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-06-30T19:31:29+00:00",
-      "ts": 1782847889.0
     },
     {
       "title": "After recent auction, FCC proposes “big” auction for 160 MHz of mid-band spectrum",
@@ -1275,12 +1256,12 @@
       "ts": 0
     },
     {
-      "title": "T-Mobile to shut down 2G GSM network this summer",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-shut-down-2g-gsm-network-summer",
-      "summary": "It’s hard to believe T-Mobile still operates a 2G GSM network, but it’s true – although not for long.",
+      "title": "Opinion: Despite obstacles, mobile and cloud are destined for a meet-cute",
+      "link": "https://www.fierce-network.com/wireless/opinion-ran-and-cloud-are-cusp-successful-convergence",
+      "summary": "Mobile network software is quickly becoming a stand-alone business that is not tied to hardware.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "moveis"
       ],
       "research": false,
       "countries": [],
@@ -1289,12 +1270,12 @@
       "ts": 0
     },
     {
-      "title": "Now SpaceX is talking to Charter about a mobile offer: report",
-      "link": "https://www.fierce-network.com/wireless/now-spacex-talking-charter-about-mobile-offer-report",
-      "summary": "The latest buzz is that Elon Musk’s SpaceX held executive-level talks with Charter Communications about partnering on a consumer mobile phone offering, per a Friday Bloomberg report.",
+      "title": "T-Mobile to shut down 2G GSM network this summer",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-shut-down-2g-gsm-network-summer",
+      "summary": "It’s hard to believe T-Mobile still operates a 2G GSM network, but it’s true – although not for long.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "geral"
       ],
       "research": false,
       "countries": [],
