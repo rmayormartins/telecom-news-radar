@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-07T14:04:25.234428+00:00",
-  "count": 107,
+  "generated_at": "2026-07-07T19:38:48.198395+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 55,
-    "fibra": 9,
+    "moveis": 54,
+    "fibra": 7,
     "antenas": 7,
-    "iot": 6,
-    "satelite": 27,
-    "radar_militar": 9,
+    "iot": 7,
+    "satelite": 26,
+    "radar_militar": 10,
     "radiocom": 1,
     "tv": 0,
-    "geral": 27
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 2,
-    "jp": 1,
-    "kr": 4,
-    "cn": 4
+    "jp": 2,
+    "kr": 3,
+    "cn": 5
   },
   "research_count": 30,
   "sources": [
@@ -56,7 +56,7 @@
     {
       "source": "Telecompetitor",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "The Fast Mode",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -185,13 +185,13 @@
     },
     {
       "source": "Advanced Television",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 500: Internal Server Error",
       "kept": 0
     },
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -201,19 +201,105 @@
   ],
   "items": [
     {
-      "title": "Indonesia's IOH gets $652M from fiber assets spinoff",
-      "link": "https://www.lightreading.com/finance/indonesia-s-ioh-gets-652m-from-fiber-assets-spinoff",
-      "summary": "IOH will retain a minority stake in the new joint venture fiber optic business with the Arsari Group. The Indonesian operator will use the proceeds from the deal to fund the rollout of 5G and the development of AI-ready digital services across Indonesia.",
-      "source": "Light Reading",
+      "title": "Bangladesh Authorizes Starlink for Transborder Bandwidth Exports, Creating Subcontinent Connectivity Routing",
+      "link": "https://satnews.com/2026/07/07/bangladesh-authorizes-starlink-for-transborder-bandwidth-exports-creating-subcontinent-connectivity-routing/",
+      "summary": "DHAKA, BANGLADESH — On Tuesday, July 7, 2026, the Bangladesh Telecommunication Regulatory Commission (BTRC) issued a structural regulatory modification granting formal clearance to SpaceX’s Starlink to “export” data connectivity from […]",
+      "source": "SatNews",
       "themes": [
-        "moveis",
-        "fibra"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 46,
-      "date": "2026-07-07T12:38:08+00:00",
-      "ts": 1783427888.0
+      "relevance": 50,
+      "date": "2026-07-07T17:02:07+00:00",
+      "ts": 1783443727.0
+    },
+    {
+      "title": "T-Mobile gets FCC approval for Grain Management spectrum swap",
+      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-gets-fcc-approval-for-grain-management-spectrum-swap/",
+      "summary": "As T-Mobile looks to finally shift the spectrum it picked up through Sprint acquisition",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-07-07T16:00:30+00:00",
+      "ts": 1783440030.0
+    },
+    {
+      "title": "Ericsson, AT&T, MediaTek complete North America LTM trial",
+      "link": "https://www.mobileworldlive.com/att/ericsson-att-mediatek-complete-north-america-ltm-trial/",
+      "summary": "Ericsson, AT&T and MediaTek completed what they claimed was the first North American in-field trial of low-latency Layer 1/Layer 2 triggered mobility (LTM) on AT&T’s Ericsson-powered RAN. The post Ericsson, AT&T, MediaTek complete North America LTM trial appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-07T15:50:23+00:00",
+      "ts": 1783439423.0
+    },
+    {
+      "title": "US military tunes in to SES connectivity",
+      "link": "https://www.mobileworldlive.com/network-tech/us-military-tunes-in-to-ses-connectivity/",
+      "summary": "SES’ defence division struck a five-year agreement with the US Space Force’s Systems Command to give the nation's military faster access to satellite connectivity in remote locations. The post US military tunes in to SES connectivity appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-07T15:44:18+00:00",
+      "ts": 1783439058.0
+    },
+    {
+      "title": "Telefonica unit, Crout develop dual-profile IoT SIM",
+      "link": "https://www.mobileworldlive.com/telefonica/telefonica-unit-crout-develop-dual-profile-iot-sim/",
+      "summary": "Telefonica Deutschland identified logistics, healthcare, manufacturing and security among the sectors it plans to target with an offering developed in partnership IoT specialist Crout combining two network profiles on a single SIM. The post Telefonica unit, Crout develop dual-profile IoT SIM appeared first on Mobile...",
+      "source": "Mobile World Live",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-07T15:31:43+00:00",
+      "ts": 1783438303.0
+    },
+    {
+      "title": "Can the telecom industry pave a smoother path to 6G?",
+      "link": "https://www.lightreading.com/6g/can-the-telecom-industry-pave-a-smoother-path-to-6g-",
+      "summary": "Telcos want a smooth path to 6G and to avoid the mistakes of 5G, but it's early days for the industry's preferred migration architecture.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-07-07T15:29:12+00:00",
+      "ts": 1783438152.0
+    },
+    {
+      "title": "DeepSeek eyes in-house AI chip",
+      "link": "https://www.mobileworldlive.com/greater-china/deepseek-eyes-in-house-ai-chip/",
+      "summary": "Chinese AI start-up DeepSeek is reportedly developing its own AI chip in a bid to reduce dependence on Nvidia and Huawei processors. The post DeepSeek eyes in-house AI chip appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 31,
+      "date": "2026-07-07T15:19:53+00:00",
+      "ts": 1783437593.0
     },
     {
       "title": "Eurobites: Rain plans lowband massive MIMO blizzard with Huawei",
@@ -303,20 +389,6 @@
       "relevance": 37,
       "date": "2026-07-07T09:13:35+00:00",
       "ts": 1783415615.0
-    },
-    {
-      "title": "AT&T, Everbridge offer critical event management",
-      "link": "https://www.mobileworldlive.com/att/att-offers-everbridge-critical-event-management-bundle/",
-      "summary": "AT&T teamed with software company Everbridge to offer enterprise and public sector customers a critical event management platform to help detect threats, send mass notifications and orchestrate crisis response. The post AT&T, Everbridge offer critical event management appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-07T08:33:44+00:00",
-      "ts": 1783413224.0
     },
     {
       "title": "Ireland's Druid adds private 5G RAN magic with Node-H takeover",
@@ -933,20 +1005,6 @@
       "ts": 1783352572.0
     },
     {
-      "title": "The Big Three Unite to Blunt Starlink’s Reach as SpaceX IPO Reshapes Direct-to-Device Landscape",
-      "link": "https://satnews.com/2026/07/06/the-big-three-unite-to-blunt-starlinks-reach-as-spacex-ipo-reshapes-direct-to-device-landscape/",
-      "summary": "The release of the Q2 2026 Satellite & NTN Tracker documents a profound structural realignment across the global direct-to-device (D2D) and non-terrestrial network (NTN) landscape. Anchored by the historic capital […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-06T15:03:23+00:00",
-      "ts": 1783350203.0
-    },
-    {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
       "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
       "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and...",
@@ -1018,20 +1076,6 @@
       "ts": 1783337407.0
     },
     {
-      "title": "SpaceX Controlled-Deorbit Report Discloses Decommissioning of 260 Starlink Satellites Over Six Months",
-      "link": "https://satnews.com/2026/07/05/spacex-controlled-deorbit-report-discloses-decommissioning-of-260-starlink-satellites-over-six-months/",
-      "summary": "WASHINGTON, D.C. — In a semi-annual regulatory compliance filing submitted to the Federal Communications Commission (FCC), SpaceX confirmed it successfully executed controlled atmospheric deorbit maneuvers for 260 Starlink satellites between […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-07-05T20:12:34+00:00",
-      "ts": 1783282354.0
-    },
-    {
       "title": "Neutral Host, Network Slicing, and Autonomous Vehicles: The Airport Security Questions Most Frameworks Can’t Answer",
       "link": "https://tecknexus.com/document/airport-private-network-architecture-neutral-host-network-slicing/",
       "summary": "Neutral host, network slicing, and autonomous ground vehicles look like three unrelated topics — but they share the same hidden security risk. See what 100 airport deployments reveal about securing the components with the broadest reach across the network. TeckNexus - TeckNexus: Navigating the Future of Tech and...",
@@ -1044,51 +1088,6 @@
       "relevance": 44,
       "date": "2026-07-05T00:52:53+00:00",
       "ts": 1783212773.0
-    },
-    {
-      "title": "MasOrange presume de conectividad 5G SA rural",
-      "link": "https://www.mobileworldlive.com/spanish/masorange-presume-de-conectividad-5g-sa-rural/",
-      "summary": "La operadora MasOrange ha completado su plan nacional de infraestructuras Único 5G Rural, con el que ha llevado cobertura a Read more... The post MasOrange presume de conectividad 5G SA rural appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-03T09:39:10+00:00",
-      "ts": 1783071550.0
-    },
-    {
-      "title": "The Friday File: BT; Anthropic; South Korea",
-      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-bt-anthropic-south-korea/",
-      "summary": "Mobile World Live (MWL) brings you our top three picks of the week as BT and Verizon formed a joint venture, the US restored access to Anthropic’s controversial AI models and South Korea lined up a $1 trillion push into semiconductors and AI led by Samsung and SK Hynix. The post The Friday File: BT; Anthropic; South...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 31,
-      "date": "2026-07-03T09:12:55+00:00",
-      "ts": 1783069975.0
-    },
-    {
-      "title": "Amazon Leo launches 29 more birds ahead of debut",
-      "link": "https://www.mobileworldlive.com/big-tech/amazon-leo-launches-29-more-birds-ahead-of-debut/",
-      "summary": "Amazon is on track to launch its broadband service later this year after a United Launch Alliance (ULA) rocket successfully deployed 29 Leo birds into low Earth orbit, bringing the constellation's total to 396 as the company races to compete with SpaceX's Starlink. The post Amazon Leo launches 29 more birds ahead of...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-03T09:02:52+00:00",
-      "ts": 1783069372.0
     },
     {
       "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
@@ -1276,20 +1275,6 @@
       "ts": 1782850279.0
     },
     {
-      "title": "After recent auction, FCC proposes “big” auction for 160 MHz of mid-band spectrum",
-      "link": "https://www.telecompetitor.com/after-recent-auction-fcc-proposes-big-auction-for-160-mhz-of-mid-band-spectrum/",
-      "summary": "After recent auction, FCC proposes “big” auction for 160 MHz of mid-band spectrum The Federal Communications Commission (FCC) Chairman Brendan Carr announced today that — at its monthly meeting, coming up July 22 — it will vote on whether to hold an auction for 160 MHz of mid-band spectrum. The spectrum to be...",
-      "source": "Telecompetitor",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-06-30T19:00:00+00:00",
-      "ts": 1782846000.0
-    },
-    {
       "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
       "link": "https://circleid.com/posts/the-economics-of-spacex-can-starlink-justify-a-2-trillion-valuation",
       "summary": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for investors.",
@@ -1318,20 +1303,6 @@
       "relevance": 66,
       "date": "2026-06-30T16:11:46+00:00",
       "ts": 1782835906.0
-    },
-    {
-      "title": "FCC announces winners of its recent spectrum auction",
-      "link": "https://www.telecompetitor.com/fcc-announces-winners-of-its-recent-spectrum-auction/",
-      "summary": "FCC announces winners of its recent spectrum auction UPDATE, June 30: The Federal Communications Commission (FCC) announced the winners of its recent AWS-3 spectrum auction, with winning bids of more than $3.5 billion (see original story below). Verizon was the largest winner by dollar amount, with more than $3...",
-      "source": "Telecompetitor",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-06-30T15:45:00+00:00",
-      "ts": 1782834300.0
     },
     {
       "title": "AT&T 'Build-A-Plan' adds home broadband options",
@@ -1624,9 +1595,9 @@
       "ts": 0
     },
     {
-      "title": "Inseego boosts its FWA team with 2 ex-Nokia execs",
-      "link": "https://www.fierce-network.com/wireless/inseego-boosts-new-fwa-team-2-ex-nokia-execs",
-      "summary": "Inseego pulled in two ex-Nokia execs for its FWA team and expanded the CCO's coverage to lead the Americas, including Latin America.",
+      "title": "Dish’s bankruptcy exposes the messy aftermath of its 5G gamble",
+      "link": "https://www.fierce-network.com/wireless/dishs-bankruptcy-exposes-messy-aftermath-its-5g-gamble",
+      "summary": "Big public tower companies and smaller individual landlords are left holding the bag after Dish Wireless filed for Chapter 11 bankruptcy proceedings.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
@@ -1638,16 +1609,16 @@
       "ts": 0
     },
     {
-      "title": "FCC tees up big auction for C-band ‘super band’",
-      "link": "https://www.fierce-network.com/wireless/fcc-tees-big-auction-c-band-super-band",
-      "summary": "The industry just finished a little AWS-3 auction and now it’s gearing up for a much bigger one: 160 megahertz in the upper C-band next year.",
+      "title": "Inseego boosts its FWA team with 2 ex-Nokia execs",
+      "link": "https://www.fierce-network.com/wireless/inseego-boosts-new-fwa-team-2-ex-nokia-execs",
+      "summary": "Inseego pulled in two ex-Nokia execs for its FWA team and expanded the CCO's coverage to lead the Americas, including Latin America.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 42,
+      "relevance": 47,
       "date": null,
       "ts": 0
     },
@@ -1726,23 +1697,25 @@
       "ts": 0
     },
     {
-      "title": "Lumen just closed its Alkira deal – here’s what happens next",
-      "link": "https://www.fierce-network.com/cloud/lumen-just-closed-its-alkira-deal-heres-what-happens-next",
-      "summary": "Lumen wants to stop selling static circuits and start selling network connectivity like the cloud: on demand, usage-based and ready for AI-driven traffic. Its Alkira integration is the first big test of whether that vision can move from pitch deck to production.",
+      "title": "SoftBank creates neocloud to serve US enterprises",
+      "link": "https://www.fierce-network.com/newswire/softbank-creates-neocloud-serve-us-enterprises",
+      "summary": "The new SB Neo business will leverage the 10-gigawatt-scale energy and AI infrastructure SoftBank currently has under development.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
-      "countries": [],
+      "countries": [
+        "jp"
+      ],
       "relevance": 23,
       "date": null,
       "ts": 0
     },
     {
-      "title": "Telcos want autonomous networks, but Ericsson says trust remains key hurdle",
-      "link": "https://www.fierce-network.com/wireless/telcos-want-autonomous-networks-ericsson-says-trust-remains-key-hurdle",
-      "summary": "Ericsson says telcos can’t automate their way into true network autonomy until they solve the harder problem: trusting AI to run the network without humans in the loop.",
+      "title": "Lumen just closed its Alkira deal – here’s what happens next",
+      "link": "https://www.fierce-network.com/cloud/lumen-just-closed-its-alkira-deal-heres-what-happens-next",
+      "summary": "Lumen wants to stop selling static circuits and start selling network connectivity like the cloud: on demand, usage-based and ready for AI-driven traffic. Its Alkira integration is the first big test of whether that vision can move from pitch deck to production.",
       "source": "Fierce Network",
       "themes": [
         "geral"
