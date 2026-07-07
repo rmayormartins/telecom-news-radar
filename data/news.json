@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-06T19:39:34.412176+00:00",
+  "generated_at": "2026-07-07T01:59:36.683626+00:00",
   "count": 82,
   "theme_counts": {
     "moveis": 34,
     "fibra": 12,
     "antenas": 0,
     "iot": 4,
-    "satelite": 29,
-    "radar_militar": 5,
+    "satelite": 30,
+    "radar_militar": 4,
     "radiocom": 1,
-    "tv": 2,
+    "tv": 1,
     "geral": 20
   },
   "country_counts": {
@@ -18,8 +18,8 @@
     "il": 0,
     "in": 4,
     "jp": 4,
-    "kr": 4,
-    "cn": 2
+    "kr": 5,
+    "cn": 3
   },
   "research_count": 1,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,81 @@
     }
   ],
   "items": [
+    {
+      "title": "American 5G is not up to scratch for AI – Ookla",
+      "link": "https://www.lightreading.com/5g/american-5g-is-not-up-to-scratch-for-ai-ookla",
+      "summary": "An overhaul may be needed to ensure US mobile networks can support the uplink and low-latency needs of new AI services, according to Ookla's research.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-07T01:00:00+00:00",
+      "ts": 1783386000.0
+    },
+    {
+      "title": "Huawei’s AI-Centric Network Vision: Six Imperatives for the Next Decade; Critical Questions for IEEE Techblog Community",
+      "link": "https://techblog.comsoc.org/2026/07/06/huaweis-ai-centric-network-vision-six-imperatives-for-the-next-decade-critical-questions-to-consider/",
+      "summary": "The Case for AI-Native Networks: At MWC Shanghai 2026 [1.], David Wang, Deputy Chairman of the Board and Rotating Chairman of Huawei, outlined a strategic roadmap for AI-native mobile networks, positioning artificial intelligence as the cornerstone of industry growth over the next decade. Note 1. MWC Shanghai 2026 was...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 39,
+      "date": "2026-07-06T22:48:19+00:00",
+      "ts": 1783378099.0
+    },
+    {
+      "title": "South Korea Formally Ratifies 2035 “K-Starlink” Low Earth Orbit Constellation Plan",
+      "link": "https://satnews.com/2026/07/06/south-korea-formally-ratifies-2035-k-starlink-low-earth-orbit-constellation-plan/",
+      "summary": "SEOUL, SOUTH KOREA — On Friday, July 3, 2026, the South Korean government formally authorized an industrial space strategy to develop a sovereign low Earth orbit (LEO) satellite communications network […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 55,
+      "date": "2026-07-06T20:23:07+00:00",
+      "ts": 1783369387.0
+    },
+    {
+      "title": "Neo Space and Hughes Deploy 3 Ground Gateways to Support IFC",
+      "link": "https://www.satellitetoday.com/technology/2026/07/06/neo-space-and-hughes-deploy-3-ground-gateways-to-support-ifc/",
+      "summary": "Neo Space Group and Hughes Network Systems have deployed three new Hughes ground gateways in Saudi Arabia and Europe to support NSG’s in-flight connectivity. NSG on Monday announced new gateways with […] The post Neo Space and Hughes Deploy 3 Ground Gateways to Support IFC appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-06T20:04:37+00:00",
+      "ts": 1783368277.0
+    },
+    {
+      "title": "Univity Signs MoU With Indonesia’s Telkomsat on VLEO and D2D Connectivity",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/06/univity-signs-mou-with-indonesias-telkomsat-on-vleo-and-d2d-connectivity/",
+      "summary": "Univity has signed an MoU with Indonesian national satellite operator Telkomsat to explore collaboration on satellite connectivity. The MoU announced Monday includes assessing Very Low Earth Orbit (VLEO) architecture, and […] The post Univity Signs MoU With Indonesia’s Telkomsat on VLEO and D2D Connectivity appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-07-06T19:57:08+00:00",
+      "ts": 1783367828.0
+    },
     {
       "title": "Private 5G Solved the Coverage Problem – And Exposed Every Other Problem in Enterprise Wireless",
       "link": "https://tecknexus.com/private-5g-coverage-solved-enterprise-wireless-operating-model/",
@@ -732,50 +807,6 @@
       "ts": 1782941255.0
     },
     {
-      "title": "Dish Satellite TV and Wireless Businesses File for Chapter 11 Bankruptcy",
-      "link": "https://www.satellitetoday.com/finance/2026/07/01/dish-satellite-tv-and-wireless-businesses-file-for-chapter-11-bankruptcy/",
-      "summary": "The satellite TV business Dish DBS and Dish Wireless filed for Chapter 11 bankruptcy on Tuesday, stating the move will facilitate transitioning the Dish Wireless business after the company’s spectrum […] The post Dish Satellite TV and Wireless Businesses File for Chapter 11 Bankruptcy appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "tv"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-01T21:09:08+00:00",
-      "ts": 1782940148.0
-    },
-    {
-      "title": "Ovzon Wins New Defense Deal with European NATO Nation",
-      "link": "https://www.satellitetoday.com/government-military/2026/07/01/ovzon-wins-new-defense-deal-with-european-nato-nation/",
-      "summary": "Ovzon has won a significant new defence with a European NATO country worth 74 million Swedish krona ($7.1 million). The deal comprises of Ovzon’s complete satellite communications solution, based on […] The post Ovzon Wins New Defense Deal with European NATO Nation appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-01T21:05:19+00:00",
-      "ts": 1782939919.0
-    },
-    {
-      "title": "Unseenlabs Orders 2 Cubesats from GomSpace",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/07/01/unseenlabs-orders-2-cubesats-from-gomspace/",
-      "summary": "French radio frequency (RF) detection company Unseenlabs has ordered two additional cubesats from smallsat manufacturer GomSpace. GomSpace announced the contract worth 2.2 million euro ($2.5 million) on Wednesday. The satellites, […] The post Unseenlabs Orders 2 Cubesats from GomSpace appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-01T20:59:33+00:00",
-      "ts": 1782939573.0
-    },
-    {
       "title": "Adoption Is Settled, ROI Is the Question: Private Network Insights, June 2026",
       "link": "https://tecknexus.com/private-network-insights-june-2026/",
       "summary": "With GSA counting 2,003 private mobile network references, June 2026's story shifted from whether private cellular works to what it returns. This roundup covers TeckNexus's vertical ROI tools, 3GPP's confirmed 6G timeline, AI moving into the RF layer, CBRS SAS consolidation, and a widening set of verticals from mining...",
@@ -980,20 +1011,6 @@
       "ts": 1782742715.0
     },
     {
-      "title": "CTIA urges FCC to fast-track rules for upper C-band auction",
-      "link": "https://www.lightreading.com/6g/ctia-urges-fcc-to-fast-track-rules-for-upper-c-band-auction",
-      "summary": "CTIA wants the FCC to set its rules for the upper C-band auction by late August. It's also pressing the agency to move forward with auctions of additional bands to support the future needs of AI and 6G.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-06-29T13:00:00+00:00",
-      "ts": 1782738000.0
-    },
-    {
       "title": "FT: SpaceX considering Starlink Direct-to-Consumer mobile service & terrestrial cellular network infrastructure in the U.S.",
       "link": "https://techblog.comsoc.org/2026/06/27/ft-spacex-considering-starlink-direct-to-consumer-mobile-service-terrestrial-cellular-network-infrastructure-in-the-u-s/",
       "summary": "According to the Financial Times (FT), SpaceX is evaluating a strategic expansion of its Starlink satellite Internet service to include a direct-to-consumer mobile service in the United States, a move that could materially disrupt the established U.S. mobile network market. According to sources familiar with recent...",
@@ -1124,20 +1141,6 @@
       "relevance": 53,
       "date": "2026-06-24T10:00:02+00:00",
       "ts": 1782295202.0
-    },
-    {
-      "title": "AI-RAN and Agentic AI get real: Ericsson, Nokia, Verizon & other operators enter into a new network automation era",
-      "link": "https://techblog.comsoc.org/2026/06/22/ai-ran-and-agentic-ai-get-real-ericsson-nokia-verizon-other-network-operators-enter-into-a-new-automation-era/",
-      "summary": "Disclaimer: Perplexity.ai was used for research in this article. Executive Summary: A cluster of announcements in early-to-mid June 2026 signals a real shift from AI research to commercial AI-driven network automation. Telcos are transitioning from isolated AI pilots to production-grade AI operations deployed across...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-06-22T21:28:05+00:00",
-      "ts": 1782163685.0
     },
     {
       "title": "The Hidden 6G Bottleneck: RF Hardware Design Is Becoming a Strategic Race",
