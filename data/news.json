@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-07T09:21:55.566547+00:00",
-  "count": 110,
+  "generated_at": "2026-07-07T14:04:25.234428+00:00",
+  "count": 107,
   "theme_counts": {
-    "moveis": 54,
+    "moveis": 55,
     "fibra": 9,
-    "antenas": 6,
+    "antenas": 7,
     "iot": 6,
-    "satelite": 29,
+    "satelite": 27,
     "radar_militar": 9,
     "radiocom": 1,
-    "tv": 1,
-    "geral": 29
+    "tv": 0,
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 2,
-    "jp": 2,
-    "kr": 3,
+    "jp": 1,
+    "kr": 4,
     "cn": 4
   },
   "research_count": 30,
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Via Satellite",
@@ -201,9 +201,99 @@
   ],
   "items": [
     {
-      "title": "GSMA Intelligence charts growing competition in D2D market",
-      "link": "https://www.mobileworldlive.com/old_latest-stories/gsma-intelligence-charts-growing-competition-in-d2d-market/",
-      "summary": "GSMA Intelligence noted the direct-to-device satellite market is increasingly marked by a greater need for operator control, shifting geopolitical priorities and intensifying competition. The post GSMA Intelligence charts growing competition in D2D market appeared first on Mobile World Live .",
+      "title": "Indonesia's IOH gets $652M from fiber assets spinoff",
+      "link": "https://www.lightreading.com/finance/indonesia-s-ioh-gets-652m-from-fiber-assets-spinoff",
+      "summary": "IOH will retain a minority stake in the new joint venture fiber optic business with the Arsari Group. The Indonesian operator will use the proceeds from the deal to fund the rollout of 5G and the development of AI-ready digital services across Indonesia.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-07-07T12:38:08+00:00",
+      "ts": 1783427888.0
+    },
+    {
+      "title": "Eurobites: Rain plans lowband massive MIMO blizzard with Huawei",
+      "link": "https://www.lightreading.com/5g/eurobites-rain-plans-lowband-massive-mimo-blizzard-with-huawei",
+      "summary": "Also in today's EMEA regional roundup: Sky buys ITV's Media & Entertainment unit; Vodafone and friends take the cyber pledge; Cellnex renews agreement with Vodafone Spain.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 59,
+      "date": "2026-07-07T11:52:56+00:00",
+      "ts": 1783425176.0
+    },
+    {
+      "title": "Rogers nets domestic sports business MLSE",
+      "link": "https://www.mobileworldlive.com/industry/rogers-nets-domestic-sports-business-mlse/",
+      "summary": "Canadian operator Rogers Communications stepped up its sports ambitions through a deal to take full control of Maple Leaf Sports and Entertainment, a move with ramifications for stadium connectivity and associated fan experiences. The post Rogers nets domestic sports business MLSE appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-07T11:04:36+00:00",
+      "ts": 1783422276.0
+    },
+    {
+      "title": "Australian social media age checks fall short",
+      "link": "https://www.mobileworldlive.com/regulation/australia-social-media-age-checks-fall-short/",
+      "summary": "Australia’s landmark social media ban for under-16s hit early challenges as a new study reportedly found major platforms are failing to consistently apply verification methods for accounts claiming to be of age. The post Australian social media age checks fall short appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-07T10:53:43+00:00",
+      "ts": 1783421623.0
+    },
+    {
+      "title": "Samsung expects record profit on AI boom",
+      "link": "https://www.mobileworldlive.com/ai-cloud/samsung-expects-record-profit-on-ai-boom/",
+      "summary": "Samsung Electronics forecast record Q2 quarterly operating profit and revenue of more than KRW171 trillion ($113 billion), driven by global demand for AI memory chips. The post Samsung expects record profit on AI boom appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
+      "date": "2026-07-07T10:52:20+00:00",
+      "ts": 1783421540.0
+    },
+    {
+      "title": "Druid Software acquires Node-H to bolster private network engineering capacity",
+      "link": "https://capacityglobal.com/news/druid-software-acquires-node-h-to-bolster-private-network-engineering-capacity/",
+      "summary": "Druid Software has acquired the team and intellectual property of Node-H, a Munich-based developer of Radio Access Network (RAN) software and user equipment technology, the Bray-headquartered core network specialist announced today. The post Druid Software acquires Node-H to bolster private network engineering...",
+      "source": "Capacity Media",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-07T09:57:59+00:00",
+      "ts": 1783418279.0
+    },
+    {
+      "title": "GSMA Intelligence charts growing competition in D2D",
+      "link": "https://www.mobileworldlive.com/network-tech/gsma-intelligence-charts-growing-competition-in-d2d-market/",
+      "summary": "The direct-to-device (D2D) satellite market is becoming increasingly impacted by a greater need for operator control, shifting geopolitical priorities and intensifying competition, a new GSMA Intelligence report found. The post GSMA Intelligence charts growing competition in D2D appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -826,34 +916,6 @@
       "ts": 1783357200.0
     },
     {
-      "title": "Broadcom, Apple extend custom chip partnership",
-      "link": "https://www.mobileworldlive.com/apple/broadcom-apple-extend-custom-chip-partnership/",
-      "summary": "Broadcom and Apple agreed to expand their longstanding partnership through 2031, suggesting a complete switch to the iPhone-maker's own C-series chips may still be several years away. The post Broadcom, Apple extend custom chip partnership appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-06T15:51:12+00:00",
-      "ts": 1783353072.0
-    },
-    {
-      "title": "VodafoneThree banks on firewall tweaks to scupper finance scams",
-      "link": "https://www.mobileworldlive.com/vodafone/vodafonethree-banks-on-firewall-tweaks-to-scupper-finance-scams/",
-      "summary": "UK-based operator VodafoneThree revealed a pilot to prevent delivery of fraudulent financial communications run in collaboration with players in the banking sector led to more than 2 million SMSes being blocked since August 2025. The post VodafoneThree banks on firewall tweaks to scupper finance scams appeared first...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-06T15:45:39+00:00",
-      "ts": 1783352739.0
-    },
-    {
       "title": "Telecom news: FCC, Deutsche Telekom, Huawei, Reliance Jio",
       "link": "https://telecomlead.com/news/telecom-news-fcc-deutsche-telekom-huawei-reliance-jio-126567",
       "summary": "Today’s telecom news includes announcements on The U.S. Federal Communications Commission (FCC), Deutsche Telekom, Huawei, Reliance Jio, among others. US Clears Deutsche Telekom Spectrum Swap, but T-Mobile Deal Uncertainty Persists The U.S. Federal Communications Commission (FCC) has approved a spectrum swap involving...",
@@ -871,22 +933,6 @@
       "ts": 1783352572.0
     },
     {
-      "title": "NTT drone unit tackles greenhouse heat",
-      "link": "https://www.mobileworldlive.com/industry/ntt-drone-unit-tackles-greenhouse-heat/",
-      "summary": "NTT e-Drone Technology flew into action by demonstrating a technique to help food producers control temperatures in greenhouses which it stated would contribute to government goals to nullify the sector’s CO2 emissions. The post NTT drone unit tackles greenhouse heat appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 23,
-      "date": "2026-07-06T15:18:48+00:00",
-      "ts": 1783351128.0
-    },
-    {
       "title": "The Big Three Unite to Blunt Starlink’s Reach as SpaceX IPO Reshapes Direct-to-Device Landscape",
       "link": "https://satnews.com/2026/07/06/the-big-three-unite-to-blunt-starlinks-reach-as-spacex-ipo-reshapes-direct-to-device-landscape/",
       "summary": "The release of the Q2 2026 Satellite & NTN Tracker documents a profound structural realignment across the global direct-to-device (D2D) and non-terrestrial network (NTN) landscape. Anchored by the historic capital […]",
@@ -899,20 +945,6 @@
       "relevance": 55,
       "date": "2026-07-06T15:03:23+00:00",
       "ts": 1783350203.0
-    },
-    {
-      "title": "T-Mobile to retire 2G mobile network next month",
-      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-to-retire-2g-mobile-network-next-month/",
-      "summary": "The carrier will focus on its 4G and 5G offerings",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-06T15:00:27+00:00",
-      "ts": 1783350027.0
     },
     {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
@@ -1026,20 +1058,6 @@
       "relevance": 47,
       "date": "2026-07-03T09:39:10+00:00",
       "ts": 1783071550.0
-    },
-    {
-      "title": "Orange Belgium picks Nokia to converge optical network for AI-scale demand",
-      "link": "https://capacityglobal.com/news/orange-belgium-picks-nokia-optical-networks/",
-      "summary": "Orange Belgium has selected Nokia as sole supplier for a multi-year transformation of its transport infrastructure, unifying fixed and mobile networks into a single converged optical transport network across Belgium. The post Orange Belgium picks Nokia to converge optical network for AI-scale demand appeared first on...",
-      "source": "Capacity Media",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-03T09:14:57+00:00",
-      "ts": 1783070097.0
     },
     {
       "title": "The Friday File: BT; Anthropic; South Korea",
@@ -1230,22 +1248,6 @@
       "ts": 1782922437.0
     },
     {
-      "title": "EchoStar’s satellite TV and wireless subsidiaries file for bankruptcy",
-      "link": "https://spacenews.com/echostars-satellite-tv-and-wireless-subsidiaries-file-for-bankruptcy/",
-      "summary": "EchoStar subsidiaries tied to its satellite TV and abandoned 5G network businesses have filed for Chapter 11 bankruptcy protection, advancing a prepackaged restructuring plan to repay debt early after selling spectrum to SpaceX and AT&T. The post EchoStar’s satellite TV and wireless subsidiaries file for bankruptcy...",
-      "source": "SpaceNews",
-      "themes": [
-        "moveis",
-        "satelite",
-        "tv"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-07-01T12:22:10+00:00",
-      "ts": 1782908530.0
-    },
-    {
       "title": "Ericsson cloud boss still resists a Nokia move in the 5G core",
       "link": "https://www.lightreading.com/mobile-core/ericsson-cloud-boss-still-resists-a-nokia-move-in-the-5g-core",
       "summary": "Unlike Nokia, Ericsson continues to work on its own cloud infrastructure platform, and that is not about to change, says Jenny Lindqvist, who heads up Ericsson's cloud software and services group.",
@@ -1376,34 +1378,6 @@
       "ts": 1782748434.0
     },
     {
-      "title": "Verizon ups pressure on Ericsson to be open like Samsung",
-      "link": "https://www.lightreading.com/5g/verizon-ups-pressure-on-ericsson-to-be-open-like-samsung",
-      "summary": "Verizon deployed Samsung's virtual RAN to almost half its network. CTO Yago Tenorio tells Light Reading the carrier hopes Ericsson will be ready soon too.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-06-29T15:17:35+00:00",
-      "ts": 1782746255.0
-    },
-    {
-      "title": "Starlink becomes biggest ISP in rural New Zealand",
-      "link": "https://www.lightreading.com/broadband/starlink-becomes-biggest-isp-in-rural-new-zealand",
-      "summary": "Starlink is now the biggest Internet service provider in rural New Zealand, with customers having access to the same speeds as those in urban areas for the first time.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-06-29T14:18:35+00:00",
-      "ts": 1782742715.0
-    },
-    {
       "title": "FT: SpaceX considering Starlink Direct-to-Consumer mobile service & terrestrial cellular network infrastructure in the U.S.",
       "link": "https://techblog.comsoc.org/2026/06/27/ft-spacex-considering-starlink-direct-to-consumer-mobile-service-terrestrial-cellular-network-infrastructure-in-the-u-s/",
       "summary": "According to the Financial Times (FT), SpaceX is evaluating a strategic expansion of its Starlink satellite Internet service to include a direct-to-consumer mobile service in the United States, a move that could materially disrupt the established U.S. mobile network market. According to sources familiar with recent...",
@@ -1432,22 +1406,6 @@
       "relevance": 74,
       "date": "2026-06-26T20:27:44+00:00",
       "ts": 1782505664.0
-    },
-    {
-      "title": "AI-Driven Green & Resilience: New Blueprint for Zero-Carbon and Reliable Network Architecture",
-      "link": "https://totaltele.com/ai-driven-green-resilience-new-blueprint-for-zero-carbon-and-reliable-network-architecture/",
-      "summary": "Press Release [Copenhagen, Denmark, June 24, 2026] At Digital Transformation World (DTW) 26, Huawei, in collaboration with TM Forum and GSMA Intelligence, hosted the 5th Green & Resilience Development Forum, bringing together industry leaders to explore the sustainable development of communications networks. The forum...",
-      "source": "Total Telecom",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 43,
-      "date": "2026-06-26T08:37:45+00:00",
-      "ts": 1782463065.0
     },
     {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
@@ -1768,9 +1726,9 @@
       "ts": 0
     },
     {
-      "title": "Telcos want autonomous networks, but Ericsson says trust remains key hurdle",
-      "link": "https://www.fierce-network.com/wireless/telcos-want-autonomous-networks-ericsson-says-trust-remains-key-hurdle",
-      "summary": "Ericsson says telcos can’t automate their way into true network autonomy until they solve the harder problem: trusting AI to run the network without humans in the loop.",
+      "title": "Lumen just closed its Alkira deal – here’s what happens next",
+      "link": "https://www.fierce-network.com/cloud/lumen-just-closed-its-alkira-deal-heres-what-happens-next",
+      "summary": "Lumen wants to stop selling static circuits and start selling network connectivity like the cloud: on demand, usage-based and ready for AI-driven traffic. Its Alkira integration is the first big test of whether that vision can move from pitch deck to production.",
       "source": "Fierce Network",
       "themes": [
         "geral"
@@ -1782,9 +1740,9 @@
       "ts": 0
     },
     {
-      "title": "Will there be an AI cost reckoning for telcos? Here’s what AWS’ telco chief thinks.",
-      "link": "https://www.fierce-network.com/wireless/will-there-be-ai-cost-reckoning-telcos-heres-what-aws-telco-chief-thinks",
-      "summary": "Telcos are eager to unleash AI on their networks, but AWS’ Jan Hofmeyr warns they could face a costly wake-up call if they mistake generic LLMs for a network-ready fix.",
+      "title": "Telcos want autonomous networks, but Ericsson says trust remains key hurdle",
+      "link": "https://www.fierce-network.com/wireless/telcos-want-autonomous-networks-ericsson-says-trust-remains-key-hurdle",
+      "summary": "Ericsson says telcos can’t automate their way into true network autonomy until they solve the harder problem: trusting AI to run the network without humans in the loop.",
       "source": "Fierce Network",
       "themes": [
         "geral"
