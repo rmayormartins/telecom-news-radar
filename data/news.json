@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-08T08:06:09.305141+00:00",
-  "count": 105,
+  "generated_at": "2026-07-08T13:28:21.276930+00:00",
+  "count": 107,
   "theme_counts": {
-    "moveis": 45,
-    "fibra": 8,
+    "moveis": 46,
+    "fibra": 10,
     "antenas": 7,
     "iot": 5,
-    "satelite": 28,
+    "satelite": 31,
     "radar_militar": 11,
     "radiocom": 1,
     "tv": 0,
-    "geral": 31
+    "geral": 29
   },
   "country_counts": {
     "br": 0,
@@ -18,7 +18,7 @@
     "il": 0,
     "in": 1,
     "jp": 2,
-    "kr": 3,
+    "kr": 2,
     "cn": 3
   },
   "research_count": 30,
@@ -86,12 +86,12 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Telecom Lead",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 0
+      "kept": 2
     },
     {
       "source": "Via Satellite",
@@ -200,6 +200,92 @@
     }
   ],
   "items": [
+    {
+      "title": "Globe launches D2C satellite service with Starlink",
+      "link": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink",
+      "summary": "Globe Telecom's direct-to-cell (D2C) offering with Starlink is the first D2C service to launch in Southeast Asia. The launch follows approval from Philippine regulatory authorities.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-07-08T13:27:55+00:00",
+      "ts": 1783517275.0
+    },
+    {
+      "title": "Fi expands Starlink direct-to-device capability into dog-tracking",
+      "link": "https://spacenews.com/fi-expands-starlink-direct-to-device-capability-into-dog-tracking/",
+      "summary": "Pet technology company Fi launched a dog tracker July 8 that uses T-Mobile’s Starlink-enabled T-Satellite service to remain connected across the United States, even outside the telco’s terrestrial network. The post Fi expands Starlink direct-to-device capability into dog-tracking appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-07-08T13:00:00+00:00",
+      "ts": 1783515600.0
+    },
+    {
+      "title": "The satellite industry’s most expensive problem isn’t in orbit",
+      "link": "https://spacenews.com/the-satellite-industrys-most-expensive-problem-isnt-in-orbit/",
+      "summary": "AST SpaceMobile recently deployed three more BlueBird satellites into low Earth orbit as it advances plans for a space-based cellular broadband network of 45 to 60 satellites by the end […] The post The satellite industry’s most expensive problem isn’t in orbit appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-08T13:00:00+00:00",
+      "ts": 1783515600.0
+    },
+    {
+      "title": "Ex-AT&T exec to join T-Mobile US",
+      "link": "https://www.mobileworldlive.com/t-mobile-us/ex-att-exec-to-join-t-mobile-us/",
+      "summary": "T-Mobile US named former AT&T stalwart Chris Sambar as its chief enterprise officer, tasked with leading the operator’s SMB, enterprise and government businesses. The post Ex-AT&T exec to join T-Mobile US appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-08T10:23:18+00:00",
+      "ts": 1783506198.0
+    },
+    {
+      "title": "Cisco hooks R&A golf connectivity deal",
+      "link": "https://www.mobileworldlive.com/industry/cisco-hooks-ra-golf-connectivity-deal/",
+      "summary": "Famed golf venue The Old Course in the UK town of St. Andrews is in for some new tech after Cisco was made an official network supplier by the sport’s governing body, the R&A. The post Cisco hooks R&A golf connectivity deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-08T10:11:08+00:00",
+      "ts": 1783505468.0
+    },
+    {
+      "title": "Minister and industry leaders champion subsea cable workforce at London reception",
+      "link": "https://capacityglobal.com/news/minister-and-industry-leaders-champion-subsea-cable-workforce-at-london-reception/",
+      "summary": "The UK's Minister for Digital Economy, Baroness Lloyd, joined government, industry and academic representatives at BT Tower on June 29 to discuss how the UK can build the skilled workforce needed to support the subsea cable sector. The post Minister and industry leaders champion subsea cable workforce at London...",
+      "source": "Capacity Media",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-07-08T09:55:42+00:00",
+      "ts": 1783504542.0
+    },
     {
       "title": "Movable Antenna Enhanced Covert Dual-Functional Radar-Communication: Joint Beamforming and Antenna Position Optimization",
       "link": "https://arxiv.org/abs/2510.09949",
@@ -730,20 +816,6 @@
       "ts": 1783443727.0
     },
     {
-      "title": "T-Mobile gets FCC approval for Grain Management spectrum swap",
-      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-gets-fcc-approval-for-grain-management-spectrum-swap/",
-      "summary": "As T-Mobile looks to finally shift the spectrum it picked up through Sprint acquisition",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-07T16:00:30+00:00",
-      "ts": 1783440030.0
-    },
-    {
       "title": "Ericsson, AT&T, MediaTek complete North America LTM trial",
       "link": "https://www.mobileworldlive.com/att/ericsson-att-mediatek-complete-north-america-ltm-trial/",
       "summary": "Ericsson, AT&T and MediaTek completed what they claimed was the first North American in-field trial of low-latency Layer 1/Layer 2 triggered mobility (LTM) on AT&T’s Ericsson-powered RAN. The post Ericsson, AT&T, MediaTek complete North America LTM trial appeared first on Mobile World Live .",
@@ -846,36 +918,6 @@
       "relevance": 37,
       "date": "2026-07-07T11:04:36+00:00",
       "ts": 1783422276.0
-    },
-    {
-      "title": "Australian social media age checks fall short",
-      "link": "https://www.mobileworldlive.com/regulation/australia-social-media-age-checks-fall-short/",
-      "summary": "Australia’s landmark social media ban for under-16s hit early challenges as a new study reportedly found major platforms are failing to consistently apply verification methods for accounts claiming to be of age. The post Australian social media age checks fall short appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-07T10:53:43+00:00",
-      "ts": 1783421623.0
-    },
-    {
-      "title": "Samsung expects record profit on AI boom",
-      "link": "https://www.mobileworldlive.com/ai-cloud/samsung-expects-record-profit-on-ai-boom/",
-      "summary": "Samsung Electronics forecast record Q2 quarterly operating profit and revenue of more than KRW171 trillion ($113 billion), driven by global demand for AI memory chips. The post Samsung expects record profit on AI boom appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 23,
-      "date": "2026-07-07T10:52:20+00:00",
-      "ts": 1783421540.0
     },
     {
       "title": "Druid Software acquires Node-H to bolster private network engineering capacity",
@@ -1180,20 +1222,6 @@
       "relevance": 62,
       "date": "2026-07-02T17:42:16+00:00",
       "ts": 1783014136.0
-    },
-    {
-      "title": "T-Mobile, Grain win FCC approval for spectrum swap",
-      "link": "https://www.lightreading.com/regulatory-politics/t-mobile-grain-win-fcc-approval-for-spectrum-swap",
-      "summary": "FCC approves proposed deal that will see T-Mobile transfer its 800MHz licenses to Grain Management in exchange for $2.9 billion and 600MHz licenses.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-02T16:16:06+00:00",
-      "ts": 1783008966.0
     },
     {
       "title": "DNB expands 5G capacity as U Mobile officially pulls out",
