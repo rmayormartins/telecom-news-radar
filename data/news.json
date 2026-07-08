@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-08T13:28:21.276930+00:00",
-  "count": 107,
+  "generated_at": "2026-07-08T19:05:02.257741+00:00",
+  "count": 106,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 10,
+    "moveis": 45,
+    "fibra": 9,
     "antenas": 7,
-    "iot": 5,
+    "iot": 4,
     "satelite": 31,
     "radar_militar": 11,
     "radiocom": 1,
     "tv": 0,
-    "geral": 29
+    "geral": 30
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 1,
-    "jp": 2,
-    "kr": 2,
+    "in": 0,
+    "jp": 1,
+    "kr": 1,
     "cn": 3
   },
   "research_count": 30,
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -195,11 +195,39 @@
     },
     {
       "source": "European Spaceflight",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "Is 5G ready for AI? Ookla report",
+      "link": "https://www.telecompetitor.com/is-5g-ready-for-ai-ookla-report/",
+      "summary": "Is 5G ready for AI? Ookla report U.S. 5G networks fell short of key benchmarks needed to support AI applications, according to a new report from Ookla. The report, titled “Beyond Download Speed: Benchmarking 5G Mobile Networks Against AI Workloads,” used 2025 Speedtest Intelligence data to evaluate 86 mobile operators...",
+      "source": "Telecompetitor",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-07-08T16:00:00+00:00",
+      "ts": 1783526400.0
+    },
+    {
+      "title": "SpaceX Files FCC Application for 100,000 Third-Generation Starlink Satellites",
+      "link": "https://satnews.com/2026/07/08/spacex-files-fcc-application-for-100000-third-generation-starlink-satellites/",
+      "summary": "On Monday, July 6, 2026, Space Exploration Technologies Corp. filed a comprehensive application with the U.S. Federal Communications Commission seeking regulatory authorization to deploy up to 100,000 third-generation satellites. Operating […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-07-08T15:34:52+00:00",
+      "ts": 1783524892.0
+    },
     {
       "title": "Globe launches D2C satellite service with Starlink",
       "link": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink",
@@ -732,7 +760,7 @@
     {
       "title": "Ookla: AI workloads will force changes in 5G mobile network infrastructure",
       "link": "https://techblog.comsoc.org/2026/07/07/ookla-ai-workloads-will-force-changes-in-5g-mobile-network-infrastructure/",
-      "summary": "Introduction: Ookla’s latest research study, examining which 5G network metrics emerging AI use cases will stress, relative to standard internet traffic. The report, based on Speedtest Intelligence® data across 22 markets, evaluates metrics like upload capacity, latency under load, and cloud infrastructure pathways....",
+      "summary": "Introduction: Ookla’s latest research study examines how AI use cases will stress 5G mobile networks, relative to standard internet traffic. The report, based on Speedtest Intelligence® data across 22 markets, evaluates metrics like upload capacity, latency under load, and cloud infrastructure pathways (see graphs...",
       "source": "IEEE ComSoc Tech Blog",
       "themes": [
         "moveis"
@@ -920,6 +948,20 @@
       "ts": 1783422276.0
     },
     {
+      "title": "Australian social media age checks fall short",
+      "link": "https://www.mobileworldlive.com/regulation/australia-social-media-age-checks-fall-short/",
+      "summary": "Australia’s landmark social media ban for under-16s hit early challenges as a new study reportedly found major platforms are failing to consistently apply verification methods for accounts claiming to be of age. The post Australian social media age checks fall short appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-07T10:53:43+00:00",
+      "ts": 1783421623.0
+    },
+    {
       "title": "Druid Software acquires Node-H to bolster private network engineering capacity",
       "link": "https://capacityglobal.com/news/druid-software-acquires-node-h-to-bolster-private-network-engineering-capacity/",
       "summary": "Druid Software has acquired the team and intellectual property of Node-H, a Munich-based developer of Radio Access Network (RAN) software and user equipment technology, the Bray-headquartered core network specialist announced today. The post Druid Software acquires Node-H to bolster private network engineering...",
@@ -977,22 +1019,6 @@
       "ts": 1783393551.0
     },
     {
-      "title": "Telecom news: Ericsson, Cloud RAN, India’s Telecom Tariffs",
-      "link": "https://telecomlead.com/news/telecom-news-ericsson-cloud-ran-indias-telecom-tariffs-126576",
-      "summary": "Today’s telecom news includes announcements on Ericsson, Cloud RAN, hike in India’s telecom tariffs, among others. Ericsson Expands Cloud RAN Push Across the United States Ericsson is strengthening its Cloud Radio Access Network (Cloud RAN) strategy across the United States by expanding deployments with communications...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 54,
-      "date": "2026-07-07T02:48:38+00:00",
-      "ts": 1783392518.0
-    },
-    {
       "title": "American 5G is not up to scratch for AI – Ookla",
       "link": "https://www.lightreading.com/5g/american-5g-is-not-up-to-scratch-for-ai-ookla",
       "summary": "An overhaul may be needed to ensure US mobile networks can support the uplink and low-latency needs of new AI services, according to Ookla's research.",
@@ -1022,22 +1048,6 @@
       "relevance": 39,
       "date": "2026-07-06T22:48:19+00:00",
       "ts": 1783378099.0
-    },
-    {
-      "title": "South Korea Formally Ratifies 2035 “K-Starlink” Low Earth Orbit Constellation Plan",
-      "link": "https://satnews.com/2026/07/06/south-korea-formally-ratifies-2035-k-starlink-low-earth-orbit-constellation-plan/",
-      "summary": "SEOUL, SOUTH KOREA — On Friday, July 3, 2026, the South Korean government formally authorized an industrial space strategy to develop a sovereign low Earth orbit (LEO) satellite communications network […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 55,
-      "date": "2026-07-06T20:23:07+00:00",
-      "ts": 1783369387.0
     },
     {
       "title": "Neo Space and Hughes Deploy 3 Ground Gateways to Support IFC",
@@ -1110,21 +1120,6 @@
       "ts": 1783346041.0
     },
     {
-      "title": "July 6, 2026: FCC spectrum auctions, SpaceX considering mobile, and more",
-      "link": "https://www.telecompetitor.com/july-6-2026/",
-      "summary": "July 6, 2026: FCC spectrum auctions, SpaceX considering mobile, and more In this week’s episode of The Broadband Exchange, we look at the winners of the latest FCC spectrum auction and the new auction the Commission is proposing. We also discuss the reports of SpaceX’s mobile service, mergers and acquisitions news,...",
-      "source": "Telecompetitor",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-06T12:50:00+00:00",
-      "ts": 1783342200.0
-    },
-    {
       "title": "Telkomsat, Univity probe Indonesian space options",
       "link": "https://www.mobileworldlive.com/asia-pacific/telkomsat-univity-probe-indonesian-space-options/",
       "summary": "Indonesian satellite service provider Telkom Satelit Indonesia and neutral host space-based network provider Univity agreed to explore options to boost connectivity services using a very-low Earth orbit architecture. The post Telkomsat, Univity probe Indonesian space options appeared first on Mobile World Live .",
@@ -1151,20 +1146,6 @@
       "relevance": 45,
       "date": "2026-07-06T11:56:40+00:00",
       "ts": 1783339000.0
-    },
-    {
-      "title": "Lenovo Connect, e& combine to drive vehicle tech",
-      "link": "https://www.mobileworldlive.com/e-and/lenovo-connect-e-combine-to-drive-vehicle-tech/",
-      "summary": "Operator e&’s Carrier & Wholesale Services unit teamed with Lenovo Connect to expand connected vehicle and related IoT services across a host of nations. The post Lenovo Connect, e& combine to drive vehicle tech appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-06T11:30:07+00:00",
-      "ts": 1783337407.0
     },
     {
       "title": "Neutral Host, Network Slicing, and Autonomous Vehicles: The Airport Security Questions Most Frameworks Can’t Answer",
@@ -1222,6 +1203,20 @@
       "relevance": 62,
       "date": "2026-07-02T17:42:16+00:00",
       "ts": 1783014136.0
+    },
+    {
+      "title": "T-Mobile, Grain win FCC approval for spectrum swap",
+      "link": "https://www.lightreading.com/regulatory-politics/t-mobile-grain-win-fcc-approval-for-spectrum-swap",
+      "summary": "FCC approves proposed deal that will see T-Mobile transfer its 800MHz licenses to Grain Management in exchange for $2.9 billion and 600MHz licenses.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-02T16:16:06+00:00",
+      "ts": 1783008966.0
     },
     {
       "title": "DNB expands 5G capacity as U Mobile officially pulls out",
@@ -1338,21 +1333,6 @@
       "relevance": 66,
       "date": "2026-06-30T16:11:46+00:00",
       "ts": 1782835906.0
-    },
-    {
-      "title": "AT&T 'Build-A-Plan' adds home broadband options",
-      "link": "https://www.lightreading.com/broadband/at-t-build-a-plan-adds-home-broadband-options",
-      "summary": "AT&T's new, wireless-focused 'Build-A-Plan' offering now lets customers bundle the operator's fiber and FWA home broadband services. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-06-30T14:33:17+00:00",
-      "ts": 1782829997.0
     },
     {
       "title": "Analysis of AWS-3 Spectrum Results: Verizon Wins Big; Urban Capacity vs. Propagation",
@@ -1602,6 +1582,21 @@
       "ts": 0
     },
     {
+      "title": "SpaceX files FCC request for 100,000 Starlink satellites",
+      "link": "https://www.fierce-network.com/broadband/spacex-files-fcc-request-100000-starlink-satellites",
+      "summary": "A Wall Street analyst says a constellation this size would give Starlink “massive headroom\" to compete, creating significant disruption for wireline broadband operators.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Is SpaceX developing a mobile phone now too?",
       "link": "https://www.fierce-network.com/wireless/spacex-developing-mobile-phone-now-too",
       "summary": "Between a new report about a possible Starlink AI device and ongoing speculation about Elon Musk’s terrestrial network aspirations, SpaceX is shaking up the wireless industry like nobody’s business.",
@@ -1612,6 +1607,20 @@
       "research": false,
       "countries": [],
       "relevance": 48,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Open RAN deployments hinge on multi-vendor interoperability",
+      "link": "https://www.fierce-network.com/sponsored/open-ran-deployments-hinge-multi-vendor-interoperability",
+      "summary": "Interoperability across multi-vendor systems has emerged as the central challenge shaping open RAN deployments.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
       "date": null,
       "ts": 0
     },
@@ -1658,22 +1667,6 @@
       "ts": 0
     },
     {
-      "title": "Rakuten Symphony taps Amit Bhardwaj as Head of RAN Business Unit",
-      "link": "https://www.fierce-network.com/newswire/rakuten-symphony-taps-amit-bhardwaj-head-ran-business-unit",
-      "summary": "Bhardwaj will help drive the continued evolution and deployment of cloud-native, open RAN solutions for operators worldwide.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 33,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "T-Mobile reshuffles executive ranks as Mike Katz exits",
       "link": "https://www.fierce-network.com/wireless/t-mobile-reshuffles-executive-ranks-mike-katz-exits",
       "summary": "T-Mobile’s Mike Katz is leaving. Chris Sambar is joining as chief enterprise officer and André Almeida is getting an expanded position as chief marketing, brand and broadband officer.",
@@ -1710,20 +1703,6 @@
       "source": "Fierce Network",
       "themes": [
         "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile to shut down 2G GSM network this summer",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-shut-down-2g-gsm-network-summer",
-      "summary": "It’s hard to believe T-Mobile still operates a 2G GSM network, but it’s true – although not for long.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
