@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-09T09:18:52.073310+00:00",
-  "count": 98,
+  "generated_at": "2026-07-09T14:28:27.318307+00:00",
+  "count": 99,
   "theme_counts": {
-    "moveis": 40,
+    "moveis": 43,
     "fibra": 10,
     "antenas": 8,
-    "iot": 5,
+    "iot": 6,
     "satelite": 30,
-    "radar_militar": 8,
-    "radiocom": 1,
+    "radar_militar": 10,
+    "radiocom": 2,
     "tv": 0,
-    "geral": 25
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 0,
-    "jp": 1,
+    "jp": 3,
     "kr": 1,
     "cn": 4
   },
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Ericsson Blog",
@@ -200,6 +200,114 @@
     }
   ],
   "items": [
+    {
+      "title": "Verizon's 5G network drives telematics for BMW",
+      "link": "https://www.lightreading.com/5g/verizon-s-5g-network-drives-telematics-for-bmw",
+      "summary": "Verizon Business, in partnership with KDDI, lands 5G telematics connectivity deal with BMW for new vehicles in the US.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 58,
+      "date": "2026-07-09T13:28:38+00:00",
+      "ts": 1783603718.0
+    },
+    {
+      "title": "BMW taps Verizon for US SA 5G connectivity",
+      "link": "https://www.mobileworldlive.com/verizon/bmw-taps-verizon-for-us-sa-5g-connectivity/",
+      "summary": "Verizon Business, KDDI and BMW Group teamed on a collaboration which makes newly manufactured vehicles in the US the first to tap into the operator’s nationwide standalone (SA) 5G network for connected automobiles using its 5G core and 3GPP Release 16 industry standards. The post BMW taps Verizon for US SA 5G...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 66,
+      "date": "2026-07-09T12:01:00+00:00",
+      "ts": 1783598460.0
+    },
+    {
+      "title": "China eyes overseas markets for subsea cable detection robots",
+      "link": "https://www.lightreading.com/cable-technology/china-eyes-overseas-markets-for-subsea-cable-detection-robots",
+      "summary": "China has developed powerful robots that can locate, track and bury subsea cables with an error margin of less than 5%. The project's team plans to export the technology to Southeast Asia, the Middle East and Europe.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 52,
+      "date": "2026-07-09T10:27:22+00:00",
+      "ts": 1783592842.0
+    },
+    {
+      "title": "Nokia, NestAI unveil first gains from defence AI tie-up",
+      "link": "https://www.mobileworldlive.com/nokia/nokia-nestai-unveil-first-gains-from-defence-ai-tie-up/",
+      "summary": "Nokia and defence AI company NestAI unveiled the first operational capabilities developed under a partnership launched in late 2025, spanning threat detection, AI-enabled command-and-control on 5G networks and mission planning tools for military operations. The post Nokia, NestAI unveil first gains from defence AI...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-09T10:25:57+00:00",
+      "ts": 1783592757.0
+    },
+    {
+      "title": "A1, Nokia take aim at GNSS disruption",
+      "link": "https://www.mobileworldlive.com/operators/a1-nokia-take-aim-at-gnss-disruption/",
+      "summary": "Austrian operator A1 teamed up with Nokia and weather forecast service Skyfora to detect interference affecting Global Navigation Satellite Systems through sensors, a move it claims evolves its mobile network into a data platform. The post A1, Nokia take aim at GNSS disruption appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-09T10:23:53+00:00",
+      "ts": 1783592633.0
+    },
+    {
+      "title": "Telefonica targets global IoT with eSIM platform",
+      "link": "https://www.mobileworldlive.com/telefonica/telefonica-targets-global-iot-with-esim-platform/",
+      "summary": "Telefonica Tech collaborated with Thales on an eSIM product intended for those using IoT technology in multiple countries which allows customers to quickly switch between connectivity providers. The post Telefonica targets global IoT with eSIM platform appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-09T10:18:43+00:00",
+      "ts": 1783592323.0
+    },
+    {
+      "title": "The Rebirth of High Frequency",
+      "link": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/",
+      "summary": "An examination of how satellite vulnerabilities, modern wideband waveforms, and automatic link establishment are driving renewed military and government investment in HF communications. What Attendees will Learn Why HF (High Frequency) declined — and what has changed — How satellites overtook HF for global...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "satelite",
+        "radar_militar",
+        "radiocom"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-07-09T10:00:03+00:00",
+      "ts": 1783591203.0
+    },
     {
       "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
       "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
@@ -872,37 +980,6 @@
       "ts": 1783438152.0
     },
     {
-      "title": "DeepSeek eyes in-house AI chip",
-      "link": "https://www.mobileworldlive.com/greater-china/deepseek-eyes-in-house-ai-chip/",
-      "summary": "Chinese AI start-up DeepSeek is reportedly developing its own AI chip in a bid to reduce dependence on Nvidia and Huawei processors. The post DeepSeek eyes in-house AI chip appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 31,
-      "date": "2026-07-07T15:19:53+00:00",
-      "ts": 1783437593.0
-    },
-    {
-      "title": "Indonesia's IOH gets $652M from fiber assets spinoff",
-      "link": "https://www.lightreading.com/finance/indonesia-s-ioh-gets-652m-from-fiber-assets-spinoff",
-      "summary": "IOH will retain a minority stake in the new joint venture fiber optic business with the Arsari Group. The Indonesian operator will use the proceeds from the deal to fund the rollout of 5G and the development of AI-ready digital services across Indonesia.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-07T12:38:08+00:00",
-      "ts": 1783427888.0
-    },
-    {
       "title": "Eurobites: Rain plans lowband massive MIMO blizzard with Huawei",
       "link": "https://www.lightreading.com/5g/eurobites-rain-plans-lowband-massive-mimo-blizzard-with-huawei",
       "summary": "Also in today's EMEA regional roundup: Sky buys ITV's Media & Entertainment unit; Vodafone and friends take the cyber pledge; Cellnex renews agreement with Vodafone Spain.",
@@ -932,34 +1009,6 @@
       "relevance": 37,
       "date": "2026-07-07T11:04:36+00:00",
       "ts": 1783422276.0
-    },
-    {
-      "title": "Australian social media age checks fall short",
-      "link": "https://www.mobileworldlive.com/regulation/australia-social-media-age-checks-fall-short/",
-      "summary": "Australia’s landmark social media ban for under-16s hit early challenges as a new study reportedly found major platforms are failing to consistently apply verification methods for accounts claiming to be of age. The post Australian social media age checks fall short appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-07T10:53:43+00:00",
-      "ts": 1783421623.0
-    },
-    {
-      "title": "GSMA Intelligence charts growing competition in D2D",
-      "link": "https://www.mobileworldlive.com/network-tech/gsma-intelligence-charts-growing-competition-in-d2d-market/",
-      "summary": "The direct-to-device (D2D) satellite market is becoming increasingly impacted by a greater need for operator control, shifting geopolitical priorities and intensifying competition, a new GSMA Intelligence report found. The post GSMA Intelligence charts growing competition in D2D appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-07T09:13:35+00:00",
-      "ts": 1783415615.0
     },
     {
       "title": "Ireland's Druid adds private 5G RAN magic with Node-H takeover",
@@ -1063,20 +1112,6 @@
       "ts": 1783346041.0
     },
     {
-      "title": "Telkomsat, Univity probe Indonesian space options",
-      "link": "https://www.mobileworldlive.com/asia-pacific/telkomsat-univity-probe-indonesian-space-options/",
-      "summary": "Indonesian satellite service provider Telkom Satelit Indonesia and neutral host space-based network provider Univity agreed to explore options to boost connectivity services using a very-low Earth orbit architecture. The post Telkomsat, Univity probe Indonesian space options appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-06T12:14:34+00:00",
-      "ts": 1783340074.0
-    },
-    {
       "title": "Neutral Host, Network Slicing, and Autonomous Vehicles: The Airport Security Questions Most Frameworks Can’t Answer",
       "link": "https://tecknexus.com/document/airport-private-network-architecture-neutral-host-network-slicing/",
       "summary": "Neutral host, network slicing, and autonomous ground vehicles look like three unrelated topics — but they share the same hidden security risk. See what 100 airport deployments reveal about securing the components with the broadest reach across the network. TeckNexus - TeckNexus: Navigating the Future of Tech and...",
@@ -1118,20 +1153,6 @@
       "relevance": 62,
       "date": "2026-07-02T17:42:16+00:00",
       "ts": 1783014136.0
-    },
-    {
-      "title": "T-Mobile, Grain win FCC approval for spectrum swap",
-      "link": "https://www.lightreading.com/regulatory-politics/t-mobile-grain-win-fcc-approval-for-spectrum-swap",
-      "summary": "FCC approves proposed deal that will see T-Mobile transfer its 800MHz licenses to Grain Management in exchange for $2.9 billion and 600MHz licenses.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-02T16:16:06+00:00",
-      "ts": 1783008966.0
     },
     {
       "title": "DNB expands 5G capacity as U Mobile officially pulls out",
@@ -1584,6 +1605,20 @@
       "ts": 0
     },
     {
+      "title": "Verizon EVP Joe Russo says if the network is ‘invisible,’ it’s working",
+      "link": "https://www.fierce-network.com/wireless/verizon-cto-joe-russo-network-works-best-when-nobody-notices-it",
+      "summary": "As Russo, who began his career at Bell Atlantic 30 years ago, prepares to retire from Verizon, he reflects on his career, technology changes and talks about the challenges ahead.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "SoftBank creates neocloud to serve US enterprises",
       "link": "https://www.fierce-network.com/newswire/softbank-creates-neocloud-serve-us-enterprises",
       "summary": "The new SB Neo business will leverage the 10-gigawatt-scale energy and AI infrastructure SoftBank currently has under development.",
@@ -1595,20 +1630,6 @@
       "countries": [
         "jp"
       ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Lumen just closed its Alkira deal – here’s what happens next",
-      "link": "https://www.fierce-network.com/cloud/lumen-just-closed-its-alkira-deal-heres-what-happens-next",
-      "summary": "Lumen wants to stop selling static circuits and start selling network connectivity like the cloud: on demand, usage-based and ready for AI-driven traffic. Its Alkira integration is the first big test of whether that vision can move from pitch deck to production.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 23,
       "date": null,
       "ts": 0
