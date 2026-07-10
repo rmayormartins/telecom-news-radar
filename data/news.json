@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-10T08:59:25.253151+00:00",
-  "count": 100,
+  "generated_at": "2026-07-10T13:55:37.938689+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 12,
+    "moveis": 45,
+    "fibra": 13,
     "antenas": 8,
     "iot": 5,
-    "satelite": 26,
+    "satelite": 27,
     "radar_militar": 14,
     "radiocom": 2,
     "tv": 0,
@@ -16,8 +16,8 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 0,
-    "jp": 4,
+    "in": 1,
+    "jp": 6,
     "kr": 1,
     "cn": 3
   },
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Telecoms Tech News",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno -3] Temporary failure in name resolution>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,81 @@
     }
   ],
   "items": [
+    {
+      "title": "Eurobites: Tele2 bags 5G spectrum in Lithuania",
+      "link": "https://www.lightreading.com/5g/eurobites-tele2-bags-5g-spectrum-in-lithuania",
+      "summary": "Also in today's EMEA regional roundup: Telefónica and Amper upgrade comms at Spanish airports; Deutsche Telekom, Ericsson combine on port network; O2 surfs the World Cup wave.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-07-10T10:51:02+00:00",
+      "ts": 1783680662.0
+    },
+    {
+      "title": "Millions flock to Docomo Starlink D2D service",
+      "link": "https://www.mobileworldlive.com/docomo/millions-flock-to-docomo-starlink-d2d-service/",
+      "summary": "Japanese operator NTT Docomo offered some of the first tangible information about the level of demand for direct-to-device services by revealing millions of users had signed up to a service using SpaceX’s Starlink constellation in less than three months. The post Millions flock to Docomo Starlink D2D service appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 57,
+      "date": "2026-07-10T10:25:24+00:00",
+      "ts": 1783679124.0
+    },
+    {
+      "title": "E& offloads Vodafone stake to telecoms tycoon Niel",
+      "link": "https://www.mobileworldlive.com/operators/e-offloads-vodafone-stake-to-telecoms-tycoon-niel/",
+      "summary": "Middle Eastern telco E& agreed to sell-off its 16.2% stake in Vodafone Group to an investment vehicle owned by Xavier Niel (pictured) for $6 billion, in a move that will establish the French billionaire as the UK-based operator’s largest shareholder. The post E& offloads Vodafone stake to telecoms tycoon Niel appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-10T10:06:57+00:00",
+      "ts": 1783678017.0
+    },
+    {
+      "title": "TRAI Drive Test: Reliance Jio Leads Mobile Network Performance in Barmer, Balotra and Pachpadra; Airtel Delivers Strong Reliability",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-leads-mobile-network-performance-in-barmer-balotra-and-pachpadra-airtel-delivers-strong-reliability-126639",
+      "summary": "Reliance Jio has emerged as the best-performing mobile operator in the latest drive test conducted by the Telecom Regulatory Authority of India (TRAI) across Barmer, Balotra, Pachpadra city and adjoining areas in Rajasthan, demonstrating the strongest network coverage, fastest download speeds, and one of the lowest...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-07-10T09:49:21+00:00",
+      "ts": 1783676961.0
+    },
+    {
+      "title": "Nokia & NestAI’s Defence AI: What It Reveals About Industrial Private Networks",
+      "link": "https://tecknexus.com/nokia-nestai-defence-ai-deployable-5g-industrial-private-networks/",
+      "summary": "Nokia Defense and NestAI have published their first operational capabilities: AI-enabled command and control on deployable 5G, connectivity-aware mission planning, and Integrated Sensing and Communications for threat detection. The assumption they’re engineering against — that connectivity will be available and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-07-10T09:03:17+00:00",
+      "ts": 1783674197.0
+    },
     {
       "title": "Hamburg’s Container Terminal Altenwerder Builds the Platform First – Then Proves the Applications",
       "link": "https://tecknexus.com/5gusecase/hhla-hamburg-private-5g-container-terminal-altenwerder/",
@@ -613,6 +688,36 @@
       "ts": 1783656000.0
     },
     {
+      "title": "Best ISPs in Pakistan 2026: Top Fiber Broadband Providers, Internet Speeds, Prices and Customer Demands",
+      "link": "https://telecomlead.com/broadband/best-isps-in-pakistan-2026-top-fiber-broadband-providers-internet-speeds-prices-and-customer-demands-126634",
+      "summary": "Pakistan’s fixed broadband market is undergoing its biggest transformations as consumers increasingly migrate from legacy DSL to high-speed fiber internet. For internet customers searching for the best ISP in Pakistan, providers are investing heavily in Fiber-to-the-Home (FTTH), gigabit broadband, submarine cable...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-10T03:28:08+00:00",
+      "ts": 1783654088.0
+    },
+    {
+      "title": "Best ISPs in Japan 2026: Top Fiber Broadband Providers, 10 Gbps Internet Plans, Prices and Customer Experience",
+      "link": "https://telecomlead.com/broadband/best-isps-in-japan-2026-top-fiber-broadband-providers-10-gbps-internet-plans-prices-and-customer-experience-126631",
+      "summary": "Japan continues to set the global benchmark for high-speed broadband in 2026, making it one of the best countries for consumers seeking ultra-fast fiber internet. With 99.9 percent residential FTTH coverage, widespread 10 Gbps fiber services, and advanced optical infrastructure, Japanese internet providers are...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 47,
+      "date": "2026-07-10T03:19:30+00:00",
+      "ts": 1783653570.0
+    },
+    {
       "title": "Avanti expands in South Africa",
       "link": "https://www.advanced-television.com/2026/07/10/avanti-expands-in-south-africa/",
       "summary": "London-based satellite operator Avanti Communications says it is seeing growing demand for its enterprise, cellular backhaul and rural connectivity in South Africa. While Starlink is stymied and seemingly unable to launch services in the country, Avanti is enjoying growth given that it is already licensed to operate...",
@@ -880,6 +985,20 @@
       "ts": 1783586543.0
     },
     {
+      "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
+      "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
+      "summary": "The merger between Vodafone and Three was supposed to improve 5G in the UK, but it sits at the bottom of Opensignal's latest ranking of network experience in Europe.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-09T07:30:00+00:00",
+      "ts": 1783582200.0
+    },
+    {
       "title": "Is 5G ready for AI? Ookla report",
       "link": "https://www.telecompetitor.com/is-5g-ready-for-ai-ookla-report/",
       "summary": "Is 5G ready for AI? Ookla report U.S. 5G networks fell short of key benchmarks needed to support AI applications, according to a new report from Ookla. The report, titled “Beyond Download Speed: Benchmarking 5G Mobile Networks Against AI Workloads,” used 2025 Speedtest Intelligence data to evaluate 86 mobile operators...",
@@ -966,20 +1085,6 @@
       "ts": 1783506198.0
     },
     {
-      "title": "Cisco hooks R&A golf connectivity deal",
-      "link": "https://www.mobileworldlive.com/industry/cisco-hooks-ra-golf-connectivity-deal/",
-      "summary": "Famed golf venue The Old Course in the UK town of St. Andrews is in for some new tech after Cisco was made an official network supplier by the sport’s governing body, the R&A. The post Cisco hooks R&A golf connectivity deal appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-08T10:11:08+00:00",
-      "ts": 1783505468.0
-    },
-    {
       "title": "Minister and industry leaders champion subsea cable workforce at London reception",
       "link": "https://capacityglobal.com/news/minister-and-industry-leaders-champion-subsea-cable-workforce-at-london-reception/",
       "summary": "The UK's Minister for Digital Economy, Baroness Lloyd, joined government, industry and academic representatives at BT Tower on June 29 to discuss how the UK can build the skilled workforce needed to support the subsea cable sector. The post Minister and industry leaders champion subsea cable workforce at London...",
@@ -1035,20 +1140,6 @@
       "relevance": 44,
       "date": "2026-07-07T20:18:19+00:00",
       "ts": 1783455499.0
-    },
-    {
-      "title": "Ericsson, AT&T, MediaTek complete North America LTM trial",
-      "link": "https://www.mobileworldlive.com/att/ericsson-att-mediatek-complete-north-america-ltm-trial/",
-      "summary": "Ericsson, AT&T and MediaTek completed what they claimed was the first North American in-field trial of low-latency Layer 1/Layer 2 triggered mobility (LTM) on AT&T’s Ericsson-powered RAN. The post Ericsson, AT&T, MediaTek complete North America LTM trial appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-07T15:50:23+00:00",
-      "ts": 1783439423.0
     },
     {
       "title": "US military tunes in to SES connectivity",
@@ -1225,36 +1316,6 @@
       "relevance": 59,
       "date": "2026-07-02T13:08:02+00:00",
       "ts": 1782997682.0
-    },
-    {
-      "title": "Eurobites: EU court rejects Google's appeal against €4.1B Android fine (again)",
-      "link": "https://www.lightreading.com/regulatory-politics/eurobites-eu-court-rejects-google-s-appeal-against-4-1b-android-fine-again-",
-      "summary": "Also in today's EMEA regional roundup: Nokia overhauls Orange Belgium's optical transport network; BT, Ivanti combine on remote eSIM installation; O2, Boldyn turbocharge Silverstone's 5G.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-07-02T11:09:32+00:00",
-      "ts": 1782990572.0
-    },
-    {
-      "title": "US Defense Dept backs 6G rival to tech used by Ericsson and Nokia",
-      "link": "https://www.lightreading.com/6g/us-defense-dept-backs-6g-rival-to-tech-used-by-ericsson-and-nokia",
-      "summary": "A pioneer of the OTFS waveform, Cohere Technologies has landed what could be an important government contract with the US Department of Defense (DoD).",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-07-02T06:00:00+00:00",
-      "ts": 1782972000.0
     },
     {
       "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
@@ -1575,6 +1636,20 @@
       "ts": 0
     },
     {
+      "title": "T-Mobile's network chief has a different take on autonomous networks",
+      "link": "https://www.fierce-network.com/wireless/t-mobiles-network-chief-has-different-take-autonomous-networks",
+      "summary": "T-Mobile Chief Network Officer Ankur Kapoor says efforts that focus on vertical autonomy are doing things all wrong.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "T-Mobile reshuffles executive ranks as Mike Katz exits",
       "link": "https://www.fierce-network.com/wireless/t-mobile-reshuffles-executive-ranks-mike-katz-exits",
       "summary": "T-Mobile’s Mike Katz is leaving. Chris Sambar is joining as chief enterprise officer and André Almeida is getting an expanded position as chief marketing, brand and broadband officer.",
@@ -1600,20 +1675,6 @@
       "countries": [
         "kr"
       ],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Opinion: Despite obstacles, mobile and cloud are destined for a meet-cute",
-      "link": "https://www.fierce-network.com/wireless/opinion-ran-and-cloud-are-cusp-successful-convergence",
-      "summary": "Mobile network software is quickly becoming a stand-alone business that is not tied to hardware.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 31,
       "date": null,
       "ts": 0
