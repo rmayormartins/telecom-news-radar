@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T18:43:10.328678+00:00",
-  "count": 76,
+  "generated_at": "2026-07-12T01:30:32.658446+00:00",
+  "count": 74,
   "theme_counts": {
-    "moveis": 38,
+    "moveis": 37,
     "fibra": 13,
     "antenas": 1,
     "iot": 5,
-    "satelite": 27,
+    "satelite": 25,
     "radar_militar": 6,
     "radiocom": 2,
     "tv": 0,
-    "geral": 10
+    "geral": 11
   },
   "country_counts": {
     "br": 0,
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "DataCenterDynamics",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Meta’s “Iris” AI Chip for MTIA: Implications for Telecom-Grade Optical Networking, DCI and High Capacity Ethernet Fabrics",
+      "link": "https://techblog.comsoc.org/2026/07/11/metas-iris-ai-chip-for-mtia-implications-for-telecom-grade-optical-networking-dci-ethernet-fabrics/",
+      "summary": "Executive Summary: According to Reuters, Meta Platforms (previously known as Facebook) plans to start manufacturing an artificial intelligence (AI) chip in ‌September as part of its plan to boost overall computing power to 14 gigawatts in 2027. The social media firm’s data center chip, code-named “Iris,” is part of a...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-11T19:07:03+00:00",
+      "ts": 1783796823.0
+    },
     {
       "title": "BIF Urges TRAI to Create Standalone Satellite Service Authorization Under Telecom Act 2023",
       "link": "https://telecomlead.com/satellite/bif-urges-trai-to-create-standalone-satellite-service-authorization-under-telecom-act-2023-126643",
@@ -705,20 +719,6 @@
       "ts": 1783582200.0
     },
     {
-      "title": "SpaceX Files FCC Application for 100,000 Third-Generation Starlink Satellites",
-      "link": "https://satnews.com/2026/07/08/spacex-files-fcc-application-for-100000-third-generation-starlink-satellites/",
-      "summary": "On Monday, July 6, 2026, Space Exploration Technologies Corp. filed a comprehensive application with the U.S. Federal Communications Commission seeking regulatory authorization to deploy up to 100,000 third-generation satellites. Operating […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-07-08T15:34:52+00:00",
-      "ts": 1783524892.0
-    },
-    {
       "title": "Globe launches D2C satellite service with Starlink",
       "link": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink",
       "summary": "Globe Telecom's direct-to-cell (D2C) offering with Starlink is the first D2C service to launch in Southeast Asia. The launch follows approval from Philippine regulatory authorities.",
@@ -1009,20 +1009,6 @@
       "ts": 1782344555.0
     },
     {
-      "title": "SNS Telecom & IT: Private 5G Market to Reach $6.6 Billion as Physical AI Takes Hold",
-      "link": "https://techblog.comsoc.org/2026/06/24/sns-telecom-it-private-5g-market-to-reach-6-6-billion-as-physical-ai-takes-hold/",
-      "summary": "Private 5G networks are transitioning from limited-scale deployments to a more material segment of the wireless infrastructure market. SNS Telecom & IT estimates that annual spending on private 5G networks will exceed $6.6 billion by 2029, driven by multi-site and multi-national enterprise rollouts supporting...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-06-24T20:52:24+00:00",
-      "ts": 1782334344.0
-    },
-    {
       "title": "AI Is Designing Radio Chips That Humans Couldn’t Even Imagine",
       "link": "https://spectrum.ieee.org/ai-radio-chip-design",
       "summary": "Summary RFIC design is a complex “ dark art ” that limits progress in wireless technologies like 5G, autonomous vehicles, and satellite communications. Princeton researchers use reinforcement learning and inverse design to rapidly create RFICs from scratch. Diffusion models rapidly generate novel or...",
@@ -1124,20 +1110,6 @@
       "relevance": 46,
       "date": "2026-06-02T10:00:02+00:00",
       "ts": 1780394402.0
-    },
-    {
-      "title": "Starlink and Amazon Could Gain Access to Europe’s Satellite Airwaves",
-      "link": "https://circleid.com/posts/starlink-and-amazon-could-gain-access-to-europes-satellite-airwaves",
-      "summary": "The European Union plans to reserve most future satellite spectrum for regional firms while still allowing Starlink and Amazon to compete, reflecting Brussels' attempt to balance technological sovereignty with market openness in a strategically sensitive communications sector.",
-      "source": "CircleID (Telecom)",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-05-27T19:19:00+00:00",
-      "ts": 1779909540.0
     },
     {
       "title": "Analysis: Starlink is helping close the U.S. digital divide",
