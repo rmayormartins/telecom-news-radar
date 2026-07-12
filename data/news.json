@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T12:53:25.656987+00:00",
-  "count": 74,
+  "generated_at": "2026-07-12T18:48:23.943003+00:00",
+  "count": 75,
   "theme_counts": {
-    "moveis": 37,
-    "fibra": 13,
+    "moveis": 38,
+    "fibra": 14,
     "antenas": 1,
     "iot": 5,
-    "satelite": 25,
-    "radar_militar": 6,
+    "satelite": 24,
+    "radar_militar": 7,
     "radiocom": 2,
     "tv": 0,
     "geral": 11
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Ericsson Blog",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -200,6 +200,35 @@
     }
   ],
   "items": [
+    {
+      "title": "Best ISPs in the U.S. 2026: Top Internet Providers, Fiber Broadband Deals, Prices and Multi-Gigabit Offers",
+      "link": "https://telecomlead.com/broadband/best-isps-in-the-u-s-2026-top-internet-providers-fiber-broadband-deals-prices-and-multi-gigabit-offers-126651",
+      "summary": "The U.S. fixed broadband market is becoming increasingly competitive as fiber providers, cable operators, and 5G home internet companies battle to attract new customers with faster speeds, lower prices, and value-added services. For internet customers looking for the best ISP in the United States, providers are...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-07-12T13:29:12+00:00",
+      "ts": 1783862952.0
+    },
+    {
+      "title": "Quantum Sensor Sniffs Out Radio Signals in 3D",
+      "link": "https://spectrum.ieee.org/quantum-sensor-radio-signal-direction",
+      "summary": "Modern battlefields are bathed in radio waves for communications, radar , remote control of drones, and signal jamming to disrupt those functions. The ability to rapidly locate their source could provide considerable tactical advantage, and a new quantum sensor the size of a paperclip promises to work as an...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-12T13:00:01+00:00",
+      "ts": 1783861201.0
+    },
     {
       "title": "Meta’s “Iris” AI Chip for MTIA: Implications for Telecom-Grade Optical Networking, DCI and High Capacity Ethernet Fabrics",
       "link": "https://techblog.comsoc.org/2026/07/11/metas-iris-ai-chip-for-mtia-implications-for-telecom-grade-optical-networking-dci-ethernet-fabrics/",
@@ -435,20 +464,6 @@
       "relevance": 49,
       "date": "2026-07-10T02:49:33+00:00",
       "ts": 1783651773.0
-    },
-    {
-      "title": "ITU denies Globalstar request for extra time",
-      "link": "https://www.advanced-television.com/2026/07/10/itu-denies-globalstar-request-for-extra-time/",
-      "summary": "Globalstar had asked the International Telecommunications Union’s Radio Communications Board (ITU/RCB) for an extension to its launch obligations. Globalstar, now with Amazon as a major buyer/investor, is required to launch a French-licensed fleet called HIBLEO-X/HIBLEO-4 which serves mobile satellite services....",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-10T01:12:51+00:00",
-      "ts": 1783645971.0
     },
     {
       "title": "SpaceX Files for 100,000-Satellite Gen-3 Constellation",
