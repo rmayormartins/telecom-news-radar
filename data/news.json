@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-13T08:45:36.641647+00:00",
-  "count": 98,
+  "generated_at": "2026-07-13T14:01:55.025105+00:00",
+  "count": 94,
   "theme_counts": {
-    "moveis": 45,
-    "fibra": 14,
+    "moveis": 46,
+    "fibra": 13,
     "antenas": 8,
     "iot": 8,
-    "satelite": 26,
-    "radar_militar": 9,
+    "satelite": 25,
+    "radar_militar": 10,
     "radiocom": 2,
     "tv": 0,
-    "geral": 21
+    "geral": 19
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
+    "in": 1,
     "jp": 5,
-    "kr": 1,
+    "kr": 0,
     "cn": 3
   },
-  "research_count": 27,
+  "research_count": 28,
   "sources": [
     {
       "source": "Light Reading",
@@ -86,17 +86,17 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,50 @@
     }
   ],
   "items": [
+    {
+      "title": "Evaluating MNO Yield Strategies in the Direct-to-Device Market",
+      "link": "https://satnews.com/2026/07/13/evaluating-mno-yield-strategies-in-the-direct-to-device-market/",
+      "summary": "Targeting the commercial monetization gap facing terrestrial carriers, mobile network operators (MNOs) are actively modifying their spectrum and billing frameworks to capture a return on investment (ROI) from direct-to-device (D2D) […]",
+      "source": "SatNews",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 42,
+      "date": "2026-07-13T13:26:13+00:00",
+      "ts": 1783949173.0
+    },
+    {
+      "title": "VHF Propagation: What Every RF Engineer Should Know",
+      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
+      "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering thephysics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn Why “line of sight” fails as a practical VHF planning model. How refraction, reflection, diffraction, and scattering...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "radiocom"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 35,
+      "date": "2026-07-13T10:00:01+00:00",
+      "ts": 1783936801.0
+    },
+    {
+      "title": "Feature: AT&T, Ericsson make sense of ISAC over 5G",
+      "link": "https://www.mobileworldlive.com/att/feature-att-ericsson-showcase-drone-detection/",
+      "summary": "AT&T and Ericsson teamed to provision Integrated Sensing and Communication over a 5G network to demonstrate live drone detection in authorised airspace outside AT&T Stadium in Arlington, Texas. The post Feature: AT&T, Ericsson make sense of ISAC over 5G appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 72,
+      "date": "2026-07-13T09:29:30+00:00",
+      "ts": 1783934970.0
+    },
     {
       "title": "Qualcomm retreats from small cells with eye on bigger 6G prize",
       "link": "https://www.lightreading.com/6g/qualcomm-retreats-from-small-cells-with-eye-on-bigger-6g-prize",
@@ -705,20 +749,6 @@
       "ts": 1783699619.0
     },
     {
-      "title": "SpaceX files FCC application for 100,000 Gen3 Starlink satellites",
-      "link": "https://www.datacenterdynamics.com/en/news/spacex-files-fcc-application-for-100000-gen3-starlink-satellites/",
-      "summary": "New satellites aim to solve orbital data center downlink bottleneck",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-10T14:32:00+00:00",
-      "ts": 1783693920.0
-    },
-    {
       "title": "Eurobites: Tele2 bags 5G spectrum in Lithuania",
       "link": "https://www.lightreading.com/5g/eurobites-tele2-bags-5g-spectrum-in-lithuania",
       "summary": "Also in today's EMEA regional roundup: Telefónica and Amper upgrade comms at Spanish airports; Deutsche Telekom, Ericsson combine on port network; O2 surfs the World Cup wave.",
@@ -763,22 +793,6 @@
       "ts": 1783678017.0
     },
     {
-      "title": "TRAI Drive Test: Reliance Jio Leads Mobile Network Performance in Barmer, Balotra and Pachpadra; Airtel Delivers Strong Reliability",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-leads-mobile-network-performance-in-barmer-balotra-and-pachpadra-airtel-delivers-strong-reliability-126639",
-      "summary": "Reliance Jio has emerged as the best-performing mobile operator in the latest drive test conducted by the Telecom Regulatory Authority of India (TRAI) across Barmer, Balotra, Pachpadra city and adjoining areas in Rajasthan, demonstrating the strongest network coverage, fastest download speeds, and one of the lowest...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-07-10T09:49:21+00:00",
-      "ts": 1783676961.0
-    },
-    {
       "title": "Nokia & NestAI’s Defence AI: What It Reveals About Industrial Private Networks",
       "link": "https://tecknexus.com/nokia-nestai-defence-ai-deployable-5g-industrial-private-networks/",
       "summary": "Nokia Defense and NestAI have published their first operational capabilities: AI-enabled command and control on deployable 5G, connectivity-aware mission planning, and Integrated Sensing and Communications for threat detection. The assumption they’re engineering against — that connectivity will be available and...",
@@ -806,20 +820,6 @@
       "relevance": 49,
       "date": "2026-07-10T08:57:00+00:00",
       "ts": 1783673820.0
-    },
-    {
-      "title": "Best ISPs in Pakistan 2026: Top Fiber Broadband Providers, Internet Speeds, Prices and Customer Demands",
-      "link": "https://telecomlead.com/broadband/best-isps-in-pakistan-2026-top-fiber-broadband-providers-internet-speeds-prices-and-customer-demands-126634",
-      "summary": "Pakistan’s fixed broadband market is undergoing its biggest transformations as consumers increasingly migrate from legacy DSL to high-speed fiber internet. For internet customers searching for the best ISP in Pakistan, providers are investing heavily in Fiber-to-the-Home (FTTH), gigabit broadband, submarine cable...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-10T03:28:08+00:00",
-      "ts": 1783654088.0
     },
     {
       "title": "SpaceX Files for 100,000-Satellite Gen-3 Constellation",
@@ -878,20 +878,6 @@
       "relevance": 44,
       "date": "2026-07-09T18:11:33+00:00",
       "ts": 1783620693.0
-    },
-    {
-      "title": "EchoStar Governance Reshuffle as Capital Unit Dissolves Following Spectrum Sales",
-      "link": "https://satnews.com/2026/07/09/echostar-governance-reshuffle-as-capital-unit-dissolves-following-spectrum-sales/",
-      "summary": "ENGLEWOOD, CO — In an unexpected shift in its executive tier, EchoStar Corporation announced that corporate president and chief executive officer Hamid Akhavan has stepped down from his leadership roles […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-07-09T17:52:41+00:00",
-      "ts": 1783619561.0
     },
     {
       "title": "Verizon BMW Connected Vehicles: Inside the 5G Standalone Telematics Deal with KDDI",
@@ -1104,34 +1090,6 @@
       "ts": 1783517275.0
     },
     {
-      "title": "Ex-AT&T exec to join T-Mobile US",
-      "link": "https://www.mobileworldlive.com/t-mobile-us/ex-att-exec-to-join-t-mobile-us/",
-      "summary": "T-Mobile US named former AT&T stalwart Chris Sambar as its chief enterprise officer, tasked with leading the operator’s SMB, enterprise and government businesses. The post Ex-AT&T exec to join T-Mobile US appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-08T10:23:18+00:00",
-      "ts": 1783506198.0
-    },
-    {
-      "title": "Minister and industry leaders champion subsea cable workforce at London reception",
-      "link": "https://capacityglobal.com/news/minister-and-industry-leaders-champion-subsea-cable-workforce-at-london-reception/",
-      "summary": "The UK's Minister for Digital Economy, Baroness Lloyd, joined government, industry and academic representatives at BT Tower on June 29 to discuss how the UK can build the skilled workforce needed to support the subsea cable sector. The post Minister and industry leaders champion subsea cable workforce at London...",
-      "source": "Capacity Media",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-07-08T09:55:42+00:00",
-      "ts": 1783504542.0
-    },
-    {
       "title": "Ookla: AI workloads will force changes in 5G mobile network infrastructure",
       "link": "https://techblog.comsoc.org/2026/07/07/ookla-ai-workloads-will-force-changes-in-5g-mobile-network-infrastructure/",
       "summary": "Introduction: Ookla’s latest research study examines how AI use cases will stress 5G mobile networks, relative to standard internet traffic. The report, based on Speedtest Intelligence® data across 22 markets, evaluates metrics like upload capacity, latency under load, and cloud infrastructure pathways (see graphs...",
@@ -1234,20 +1192,6 @@
       "relevance": 51,
       "date": "2026-07-06T17:16:44+00:00",
       "ts": 1783358204.0
-    },
-    {
-      "title": "VHF Propagation: What Every RF Engineer Should Know",
-      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
-      "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 35,
-      "date": "2026-07-06T13:54:01+00:00",
-      "ts": 1783346041.0
     },
     {
       "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
@@ -1500,6 +1444,20 @@
       "ts": 0
     },
     {
+      "title": "Cisco bets on Wi-Fi–5G convergence",
+      "link": "https://www.fierce-network.com/broadband/cisco-bets-wi-fi-5g-convergence",
+      "summary": "Wi-Fi carries the traffic; 5G covers the miles. Cisco's wireless CTO explains why the two are \"friends,\" how AI is pushing nurses and construction crews online full time,",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Open RAN deployments hinge on multi-vendor interoperability",
       "link": "https://www.fierce-network.com/sponsored/open-ran-deployments-hinge-multi-vendor-interoperability",
       "summary": "Interoperability across multi-vendor systems has emerged as the central challenge shaping open RAN deployments.",
@@ -1514,16 +1472,16 @@
       "ts": 0
     },
     {
-      "title": "Dish’s bankruptcy exposes the messy aftermath of its 5G gamble",
-      "link": "https://www.fierce-network.com/wireless/dishs-bankruptcy-exposes-messy-aftermath-its-5g-gamble",
-      "summary": "Big public tower companies and smaller individual landlords are left holding the bag after Dish Wireless filed for Chapter 11 bankruptcy proceedings.",
+      "title": "The Shift Toward Proactive Broadband Maintenance",
+      "link": "https://www.fierce-network.com/sponsored/shift-toward-proactive-broadband-maintenance",
+      "summary": "What if your network could identify problems before customers notice them? Learn how AI and machine learning are helping broadband operators improve visibility, reduce repair times and move toward proactive network management.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 47,
+      "relevance": 37,
       "date": null,
       "ts": 0
     },
@@ -1570,18 +1528,16 @@
       "ts": 0
     },
     {
-      "title": "Korean operators ramp up AI investments to make country an AI superpower",
-      "link": "https://www.fierce-network.com/cloud/korean-operators-ramp-ai-investments-help-make-country-ai-superpower",
-      "summary": "Korean telcos are racing to turn AI ambition into infrastructure reality, with SK Telecom, KT and LG Uplus pouring billions into data centers, compute and connectivity as South Korea pushes to become a top-three global AI power.",
+      "title": "AI agents shift telecom’s focus from intelligence to control",
+      "link": "https://www.fierce-network.com/sponsored/ai-agents-shift-telecoms-focus-intelligence-control",
+      "summary": "As AI agents scale across networks and applications, telecoms biggest challenges become coordination, governance and control at scale.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 31,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1611,20 +1567,6 @@
       "countries": [
         "jp"
       ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Lumen just closed its Alkira deal – here’s what happens next",
-      "link": "https://www.fierce-network.com/cloud/lumen-just-closed-its-alkira-deal-heres-what-happens-next",
-      "summary": "Lumen wants to stop selling static circuits and start selling network connectivity like the cloud: on demand, usage-based and ready for AI-driven traffic. Its Alkira integration is the first big test of whether that vision can move from pitch deck to production.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 23,
       "date": null,
       "ts": 0
