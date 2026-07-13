@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-13T14:01:55.025105+00:00",
-  "count": 94,
+  "generated_at": "2026-07-13T19:09:56.934523+00:00",
+  "count": 97,
   "theme_counts": {
-    "moveis": 46,
+    "moveis": 47,
     "fibra": 13,
     "antenas": 8,
-    "iot": 8,
-    "satelite": 25,
-    "radar_militar": 10,
+    "iot": 7,
+    "satelite": 28,
+    "radar_militar": 13,
     "radiocom": 2,
     "tv": 0,
-    "geral": 19
+    "geral": 16
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 1,
-    "jp": 5,
+    "jp": 4,
     "kr": 0,
     "cn": 3
   },
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -191,15 +191,87 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (10 itens)",
       "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "Even with bigger birds, Starlink still 'best suited to low-density markets' – study",
+      "link": "https://www.lightreading.com/satellite/even-with-bigger-birds-starlink-still-best-suited-to-low-density-markets-study",
+      "summary": "As the new V3 satellite nears deployment, Starlink is poised to tack on gobs of capacity. But even with the V3, Starlink will skew to low-density markets in the US and beyond, says a new study.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-13T17:41:33+00:00",
+      "ts": 1783964493.0
+    },
+    {
+      "title": "AT&T, Ericsson trial sensing during drone test outside AT&T Stadium",
+      "link": "https://www.datacenterdynamics.com/en/news/att-ericsson-trial-sensing-during-drone-test-outside-att-stadium/",
+      "summary": "The carrier worked with Ericsson to trial Integrated Sensing and Communication (ISAC) technology",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-07-13T15:50:26+00:00",
+      "ts": 1783957826.0
+    },
+    {
+      "title": "AT&T and Ericsson demo 5G sensing for drone detection",
+      "link": "https://www.lightreading.com/5g/att-and-ericsson-demo-5g-sensing-for-drone-detection",
+      "summary": "AT&T and Ericsson showed how 5G network sensing can detect and track drones flying near AT&T Stadium in Arlington, Texas, paving the way for 6G's ISAC.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 71,
+      "date": "2026-07-13T15:47:54+00:00",
+      "ts": 1783957674.0
+    },
+    {
+      "title": "SpaceX Advances Direct-to-Device Constellation Matrix with Starlink V3 Hardware",
+      "link": "https://satnews.com/2026/07/13/spacex-advances-direct-to-device-constellation-matrix-with-starlink-v3-hardware/",
+      "summary": "Targeting the network capacity and array limits facing first-generation satellite-to-cell architectures, Space Exploration Technologies Corp. (SpaceX) announced on Saturday, July 11, 2026, the manifest parameters for its upcoming Starship Flight […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-07-13T15:43:19+00:00",
+      "ts": 1783957399.0
+    },
+    {
+      "title": "Space Rapid Capabilities Office Selects HawkEye 360’s ISA for GEO Radar-Warning Sensor Development",
+      "link": "https://satnews.com/2026/07/13/space-rapid-capabilities-office-selects-hawkeye-360s-isa-for-geo-radar-warning-sensor-development/",
+      "summary": "On Thursday, July 9, 2026, the U.S. Space Force’s Space Rapid Capabilities Office (SpaceRCO) selected Innovative Signal Analysis (ISA), a subsidiary of HawkEye 360 Inc., to develop an adaptable radar-warning […]",
+      "source": "SatNews",
+      "themes": [
+        "radar_militar",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-07-13T14:44:44+00:00",
+      "ts": 1783953884.0
+    },
     {
       "title": "Evaluating MNO Yield Strategies in the Direct-to-Device Market",
       "link": "https://satnews.com/2026/07/13/evaluating-mno-yield-strategies-in-the-direct-to-device-market/",
@@ -956,22 +1028,6 @@
       "ts": 1783598460.0
     },
     {
-      "title": "Eurobites: Nokia joins forces with NestAI for battlefield comms",
-      "link": "https://www.lightreading.com/ai-machine-learning/eurobites-nokia-joins-forces-with-nestai-for-battlefield-comms",
-      "summary": "Also in today's EMEA regional roundup: Telefónica and Thales launch eSIM offering for IoT; euNetworks opens direct route between Paris and Milan; 5G on the rise in Germany.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "iot",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-07-09T11:15:46+00:00",
-      "ts": 1783595746.0
-    },
-    {
       "title": "China eyes overseas markets for subsea cable detection robots",
       "link": "https://www.lightreading.com/cable-technology/china-eyes-overseas-markets-for-subsea-cable-detection-robots",
       "summary": "China has developed powerful robots that can locate, track and bury subsea cables with an error margin of less than 5%. The project's team plans to export the technology to Southeast Asia, the Middle East and Europe.",
@@ -1060,20 +1116,6 @@
       "relevance": 47,
       "date": "2026-07-09T08:42:23+00:00",
       "ts": 1783586543.0
-    },
-    {
-      "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
-      "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
-      "summary": "The merger between Vodafone and Three was supposed to improve 5G in the UK, but it sits at the bottom of Opensignal's latest ranking of network experience in Europe.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-09T07:30:00+00:00",
-      "ts": 1783582200.0
     },
     {
       "title": "Globe launches D2C satellite service with Starlink",
@@ -1399,6 +1441,20 @@
       "ts": 1780394402.0
     },
     {
+      "title": "Deutsche Telekom and Ericsson deploy private 5G network at Hamburg port",
+      "link": "https://www.fierce-network.com/newswire/deutsche-telekom-and-ericsson-deploy-private-5g-network-hamburg-port",
+      "summary": "Covering an area of one square kilometer, the network provides state-of-the-art mobile connectivity and supports critical logistics processes as well as real-time applications.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Analysis: Starlink is helping close the U.S. digital divide",
       "link": "https://www.fierce-network.com/broadband/starlink-fact-helping-close-us-digital-divide",
       "summary": "The broadband industry should monitor the situation closely and not be like cable, which poo-pooed the threat from fixed wireless access (FWA), until it started eating into their revenues.",
@@ -1411,6 +1467,20 @@
       "research": false,
       "countries": [],
       "relevance": 63,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "CBRS enjoys private network momentum: SNS",
+      "link": "https://www.fierce-network.com/wireless/cbrs-enjoys-private-network-momentum-sns",
+      "summary": "CBRS-based private networks are drawing steady investment, with SNS Telecom projecting continued growth.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
       "date": null,
       "ts": 0
     },
@@ -1446,7 +1516,7 @@
     {
       "title": "Cisco bets on Wi-Fi–5G convergence",
       "link": "https://www.fierce-network.com/broadband/cisco-bets-wi-fi-5g-convergence",
-      "summary": "Wi-Fi carries the traffic; 5G covers the miles. Cisco's wireless CTO explains why the two are \"friends,\" how AI is pushing nurses and construction crews online full time,",
+      "summary": "Wi-Fi carries the traffic; 5G covers the miles. Cisco's wireless CTO explains why the two are \"friends,\" how AI is pushing nurses and construction crews online full time and more.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
@@ -1468,6 +1538,20 @@
       "research": false,
       "countries": [],
       "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "ISAC POC targets public safety use cases with drone defense",
+      "link": "https://www.fierce-network.com/wireless/isac-poc-targets-public-safety-use-cases-drone-defense",
+      "summary": "The weaponization of drones adds a new dimension to security and public safety. As agencies prepare, some are looking to wireless network operators as potential partners.",
+      "source": "Fierce Network",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
       "date": null,
       "ts": 0
     },
@@ -1524,50 +1608,6 @@
       "research": false,
       "countries": [],
       "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AI agents shift telecom’s focus from intelligence to control",
-      "link": "https://www.fierce-network.com/sponsored/ai-agents-shift-telecoms-focus-intelligence-control",
-      "summary": "As AI agents scale across networks and applications, telecoms biggest challenges become coordination, governance and control at scale.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon EVP Joe Russo says if the network is ‘invisible,’ it’s working",
-      "link": "https://www.fierce-network.com/wireless/verizon-cto-joe-russo-network-works-best-when-nobody-notices-it",
-      "summary": "As Russo, who began his career at Bell Atlantic 30 years ago, prepares to retire from Verizon, he reflects on his career, technology changes and talks about the challenges ahead.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "SoftBank creates neocloud to serve US enterprises",
-      "link": "https://www.fierce-network.com/newswire/softbank-creates-neocloud-serve-us-enterprises",
-      "summary": "The new SB Neo business will leverage the 10-gigawatt-scale energy and AI infrastructure SoftBank currently has under development.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 23,
       "date": null,
       "ts": 0
     }
