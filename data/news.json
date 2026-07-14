@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-14T13:04:33.521191+00:00",
+  "generated_at": "2026-07-14T19:00:06.216632+00:00",
   "count": 105,
   "theme_counts": {
-    "moveis": 61,
-    "fibra": 14,
-    "antenas": 7,
-    "iot": 4,
-    "satelite": 28,
+    "moveis": 55,
+    "fibra": 13,
+    "antenas": 6,
+    "iot": 5,
+    "satelite": 26,
     "radar_militar": 15,
     "radiocom": 2,
     "tv": 0,
-    "geral": 16
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
@@ -18,7 +18,7 @@
     "il": 0,
     "in": 2,
     "jp": 6,
-    "kr": 0,
+    "kr": 1,
     "cn": 2
   },
   "research_count": 32,
@@ -56,11 +56,11 @@
     {
       "source": "Telecompetitor",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,93 @@
     }
   ],
   "items": [
+    {
+      "title": "Best ISPs in Portugal in 2026: How to Choose Between MEO, NOS, Vodafone Portugal and DIGI for Fiber Broadband, Gigabit Speeds and Best Value",
+      "link": "https://telecomlead.com/broadband/best-isps-in-portugal-in-2026-how-to-choose-between-meo-nos-vodafone-portugal-and-digi-for-fiber-broadband-gigabit-speeds-and-best-value-126728",
+      "summary": "Portugal has become one of Europe’s most advanced broadband markets, making it easier than ever for consumers to access high-speed internet. Extensive fiber-to-the-home (FTTH) deployment, competitive pricing and strong investment from leading internet service providers (ISPs) have transformed the country’s digital...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-14T18:17:24+00:00",
+      "ts": 1784053044.0
+    },
+    {
+      "title": "AT&T, Ericsson demonstrate drone-sensing 5G capabilities",
+      "link": "https://www.telecompetitor.com/att-ericsson-demonstrate-drone-sensing-5g-capabilities/",
+      "summary": "AT&T, Ericsson demonstrate drone-sensing 5G capabilities AT&T and Ericsson partnered to demonstrate how an advanced 5G network can help drones with sensing today without the need for 6G. They performed the demonstration in authorized airspace outside AT&T Stadium in Arlington, Texas. They were able to detect and...",
+      "source": "Telecompetitor",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-07-14T17:45:00+00:00",
+      "ts": 1784051100.0
+    },
+    {
+      "title": "Starlink’s U.S. reach could top 30% of households: Analysis",
+      "link": "https://www.telecompetitor.com/starlinks-u-s-reach-could-top-30-of-households-analysis/",
+      "summary": "Starlink’s U.S. reach could top 30% of households: Analysis A new MoffettNathanson analysis of Starlink concluded that the low Earth orbit (LEO) satellite broadband service has a long potential runway in the United States, though its practical reach over the next five years will be shaped more by capacity constraints...",
+      "source": "Telecompetitor",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-14T16:30:00+00:00",
+      "ts": 1784046600.0
+    },
+    {
+      "title": "CableLabs targets interoperability for XGS-PON and CPON",
+      "link": "https://www.lightreading.com/fttx/cablelabs-targets-interoperability-for-xgs-pon-and-cpon",
+      "summary": "Taking a page from the DOCSIS playbook, CableLabs is working on interoperability for XGS-PON products used by cable operators and exploring the same for future coherent PON tech.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-07-14T16:23:59+00:00",
+      "ts": 1784046239.0
+    },
+    {
+      "title": "UK teens report wellbeing gains from social media curbs",
+      "link": "https://www.mobileworldlive.com/europe/uk-teens-report-wellbeing-gains-from-social-media-curbs/",
+      "summary": "Research commissioned by the Department for Science, Innovation and Technology (DSIT) found UK teenagers participating in a social media restriction trial reported improvements in sleep, concentration and family life. The post UK teens report wellbeing gains from social media curbs appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-14T15:14:31+00:00",
+      "ts": 1784042071.0
+    },
+    {
+      "title": "South Korea looks to AI-RAN, 5G to fuel future industry",
+      "link": "https://www.mobileworldlive.com/industry/south-korea-looks-to-ai-ran-5g-to-fuel-future-industry/",
+      "summary": "Authorities in South Korea kicked-off a project led by SK Telecom and KT to pilot the use of advanced networks to support robots and other physical AI applications in industrial sites including shipyards and manufacturing facilities. The post South Korea looks to AI-RAN, 5G to fuel future industry appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 47,
+      "date": "2026-07-14T15:07:06+00:00",
+      "ts": 1784041626.0
+    },
     {
       "title": "one6G and 5G-ACIA Strengthen Partnership for the Future of Industrial Wireless Communications",
       "link": "https://one6g.org/one6g-and-5g-acia-strengthen-partnership-for-the-future-of-industrial-wireless-communications/",
@@ -335,36 +422,6 @@
       "relevance": 65,
       "date": "2026-07-14T07:56:33+00:00",
       "ts": 1784015793.0
-    },
-    {
-      "title": "Best ISPs in Finland in 2026: Elisa, DNA and Telia Drive Fiber, 5G Broadband and AI-Powered Connectivity",
-      "link": "https://telecomlead.com/broadband/best-isps-in-finland-in-2026-elisa-dna-and-telia-drive-fiber-5g-broadband-and-ai-powered-connectivity-126701",
-      "summary": "Finland remains one of Europe’s most advanced broadband markets in 2026, supported by rapid fiber deployment, extensive 5G coverage, unlimited mobile data adoption and growing demand for AI-powered home networking. Leading ISPs including Elisa, DNA and Telia Finland are competing through gigabit fiber, 5G home...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-14T06:13:52+00:00",
-      "ts": 1784009632.0
-    },
-    {
-      "title": "Best ISPs in Denmark in 2026: Fiber Expansion, Gigabit Broadband and AI-Powered Wi-Fi Drive Europe’s Digital Connectivity Leader",
-      "link": "https://telecomlead.com/broadband/best-isps-in-denmark-in-2026-fiber-expansion-gigabit-broadband-and-ai-powered-wi-fi-drive-europes-digital-connectivity-leader-126698",
-      "summary": "Denmark remains one of Europe’s most advanced broadband markets in 2026, combining near-universal internet adoption, extensive fiber deployment, nationwide 5G availability, and strong competition among internet service providers (ISPs). Operators are differentiating through gigabit fiber, AI-powered Wi-Fi, smart home...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-14T05:43:46+00:00",
-      "ts": 1784007826.0
     },
     {
       "title": "The Emerging 3GPP 6G RAN Architecture: An Overview",
@@ -858,6 +915,20 @@
       "ts": 1783957399.0
     },
     {
+      "title": "Smartphone shipments sink to Q2 low",
+      "link": "https://www.mobileworldlive.com/devices/smartphone-shipments-sink-to-q2-low/",
+      "summary": "Counterpoint Research released preliminary data indicating there was no let up in a downward trend for smartphone shipments during Q2, a period the company branded the worst for more than a decade. The post Smartphone shipments sink to Q2 low appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-13T15:09:32+00:00",
+      "ts": 1783955372.0
+    },
+    {
       "title": "Space Rapid Capabilities Office Selects HawkEye 360’s ISA for GEO Radar-Warning Sensor Development",
       "link": "https://satnews.com/2026/07/13/space-rapid-capabilities-office-selects-hawkeye-360s-isa-for-geo-radar-warning-sensor-development/",
       "summary": "On Thursday, July 9, 2026, the U.S. Space Force’s Space Rapid Capabilities Office (SpaceRCO) selected Innovative Signal Analysis (ISA), a subsidiary of HawkEye 360 Inc., to develop an adaptable radar-warning […]",
@@ -886,6 +957,20 @@
       "relevance": 42,
       "date": "2026-07-13T13:26:13+00:00",
       "ts": 1783949173.0
+    },
+    {
+      "title": "Vodafone strengthens Number Verify 2.0 momentum",
+      "link": "https://www.mobileworldlive.com/vodafone/vodafone-strengthens-number-verify-2-0-momentum/",
+      "summary": "Vodafone Group rolled out its Number Verify 2.0 authentication API in Germany, the Netherlands and the UK, commencing a global deployment to reduce reliance on SMS one-time passcodes and so boost security. The post Vodafone strengthens Number Verify 2.0 momentum appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-13T11:40:32+00:00",
+      "ts": 1783942832.0
     },
     {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
@@ -1103,20 +1188,6 @@
       "ts": 1783627556.0
     },
     {
-      "title": "Race Communications announces expansion to Fresno, California",
-      "link": "https://www.telecompetitor.com/race-communications-announces-expansion-to-fresno-california/",
-      "summary": "Race Communications announces expansion to Fresno, California FRESNO, Calif., July 08, 2026 (GLOBE NEWSWIRE) — Today, Race Communications announced a multiphase expansion of its 100% fiber-to-the-home (FTTH) network into the City of Fresno. Continuing to build on its statewide momentum, Race is pouring even more into...",
-      "source": "Telecompetitor",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-09T18:11:33+00:00",
-      "ts": 1783620693.0
-    },
-    {
       "title": "Verizon BMW Connected Vehicles: Inside the 5G Standalone Telematics Deal with KDDI",
       "link": "https://tecknexus.com/verizon-bmw-connected-vehicles-kddi-5g/",
       "summary": "Verizon Business, KDDI and BMW Group announced a connected-vehicle partnership on July 9, 2026 that puts newly manufactured BMW and MINI vehicles for the US market on Verizon's nationwide 5G Standalone network — the first vehicles to use that network since its launch. Here's what the Verizon BMW connected vehicles...",
@@ -1147,20 +1218,6 @@
       "ts": 1783612196.0
     },
     {
-      "title": "Private 5G docks at Hamburg container port",
-      "link": "https://www.mobileworldlive.com/deutsche-telekom/private-5g-docks-at-hamburg-container-port/",
-      "summary": "Deutsche Telekom detailed a 5G campus network deployment undertaken alongside Ericsson at a 1 square km container terminal at the Port of Hamburg, infrastructure expected to support critical logistics processes. The post Private 5G docks at Hamburg container port appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-07-09T15:02:12+00:00",
-      "ts": 1783609332.0
-    },
-    {
       "title": "Verizon's 5G network drives telematics for BMW",
       "link": "https://www.lightreading.com/5g/verizon-s-5g-network-drives-telematics-for-bmw",
       "summary": "Verizon Business, in partnership with KDDI, lands 5G telematics connectivity deal with BMW for new vehicles in the US.",
@@ -1177,50 +1234,36 @@
       "ts": 1783603718.0
     },
     {
-      "title": "BMW taps Verizon for US SA 5G connectivity",
-      "link": "https://www.mobileworldlive.com/verizon/bmw-taps-verizon-for-us-sa-5g-connectivity/",
-      "summary": "Verizon Business, KDDI and BMW Group teamed on a collaboration which makes newly manufactured vehicles in the US the first to tap into the operator’s nationwide standalone (SA) 5G network for connected automobiles using its 5G core and 3GPP Release 16 industry standards. The post BMW taps Verizon for US SA 5G...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 66,
-      "date": "2026-07-09T12:01:00+00:00",
-      "ts": 1783598460.0
-    },
-    {
-      "title": "Nokia, NestAI unveil first gains from defence AI tie-up",
-      "link": "https://www.mobileworldlive.com/nokia/nokia-nestai-unveil-first-gains-from-defence-ai-tie-up/",
-      "summary": "Nokia and defence AI company NestAI unveiled the first operational capabilities developed under a partnership launched in late 2025, spanning threat detection, AI-enabled command-and-control on 5G networks and mission planning tools for military operations. The post Nokia, NestAI unveil first gains from defence AI...",
-      "source": "Mobile World Live",
+      "title": "Eurobites: Nokia joins forces with NestAI for battlefield comms",
+      "link": "https://www.lightreading.com/ai-machine-learning/eurobites-nokia-joins-forces-with-nestai-for-battlefield-comms",
+      "summary": "Also in today's EMEA regional roundup: Telefónica and Thales launch eSIM offering for IoT; euNetworks opens direct route between Paris and Milan; 5G on the rise in Germany.",
+      "source": "Light Reading",
       "themes": [
         "moveis",
+        "iot",
         "radar_militar"
       ],
       "research": false,
       "countries": [],
-      "relevance": 52,
-      "date": "2026-07-09T10:25:57+00:00",
-      "ts": 1783592757.0
+      "relevance": 50,
+      "date": "2026-07-09T11:15:46+00:00",
+      "ts": 1783595746.0
     },
     {
-      "title": "A1, Nokia take aim at GNSS disruption",
-      "link": "https://www.mobileworldlive.com/operators/a1-nokia-take-aim-at-gnss-disruption/",
-      "summary": "Austrian operator A1 teamed up with Nokia and weather forecast service Skyfora to detect interference affecting Global Navigation Satellite Systems through sensors, a move it claims evolves its mobile network into a data platform. The post A1, Nokia take aim at GNSS disruption appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
+      "title": "China eyes overseas markets for subsea cable detection robots",
+      "link": "https://www.lightreading.com/cable-technology/china-eyes-overseas-markets-for-subsea-cable-detection-robots",
+      "summary": "China has developed powerful robots that can locate, track and bury subsea cables with an error margin of less than 5%. The project's team plans to export the technology to Southeast Asia, the Middle East and Europe.",
+      "source": "Light Reading",
       "themes": [
-        "moveis",
-        "satelite"
+        "fibra"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-09T10:23:53+00:00",
-      "ts": 1783592633.0
+      "countries": [
+        "cn"
+      ],
+      "relevance": 52,
+      "date": "2026-07-09T10:27:22+00:00",
+      "ts": 1783592842.0
     },
     {
       "title": "The Rebirth of High Frequency",
@@ -1237,6 +1280,20 @@
       "relevance": 41,
       "date": "2026-07-09T10:00:03+00:00",
       "ts": 1783591203.0
+    },
+    {
+      "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
+      "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
+      "summary": "The merger between Vodafone and Three was supposed to improve 5G in the UK, but it sits at the bottom of Opensignal's latest ranking of network experience in Europe.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-09T07:30:00+00:00",
+      "ts": 1783582200.0
     },
     {
       "title": "Globe launches D2C satellite service with Starlink",
@@ -1265,66 +1322,6 @@
       "relevance": 67,
       "date": "2026-07-07T23:55:30+00:00",
       "ts": 1783468530.0
-    },
-    {
-      "title": "Can the telecom industry pave a smoother path to 6G?",
-      "link": "https://www.lightreading.com/6g/can-the-telecom-industry-pave-a-smoother-path-to-6g-",
-      "summary": "Telcos want a smooth path to 6G and to avoid the mistakes of 5G, but it's early days for the industry's preferred migration architecture.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-07-07T15:29:12+00:00",
-      "ts": 1783438152.0
-    },
-    {
-      "title": "Eurobites: Rain plans lowband massive MIMO blizzard with Huawei",
-      "link": "https://www.lightreading.com/5g/eurobites-rain-plans-lowband-massive-mimo-blizzard-with-huawei",
-      "summary": "Also in today's EMEA regional roundup: Sky buys ITV's Media & Entertainment unit; Vodafone and friends take the cyber pledge; Cellnex renews agreement with Vodafone Spain.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 59,
-      "date": "2026-07-07T11:52:56+00:00",
-      "ts": 1783425176.0
-    },
-    {
-      "title": "Ireland's Druid adds private 5G RAN magic with Node-H takeover",
-      "link": "https://www.lightreading.com/private-networks/ireland-s-druid-adds-private-5g-ran-magic-with-node-h-takeover",
-      "summary": "Druid Software says it has been growing fast as a core network provider in private 5G – now it is buying some RAN expertise.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-07-07T07:00:00+00:00",
-      "ts": 1783407600.0
-    },
-    {
-      "title": "American 5G is not up to scratch for AI – Ookla",
-      "link": "https://www.lightreading.com/5g/american-5g-is-not-up-to-scratch-for-ai-ookla",
-      "summary": "An overhaul may be needed to ensure US mobile networks can support the uplink and low-latency needs of new AI services, according to Ookla's research.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-07T01:00:00+00:00",
-      "ts": 1783386000.0
     },
     {
       "title": "Huawei’s AI-Centric Network Vision: Six Imperatives for the Next Decade; Critical Questions for IEEE Techblog Community",
@@ -1606,13 +1603,12 @@
       "ts": 0
     },
     {
-      "title": "SpaceX files FCC request for 100,000 Starlink satellites",
-      "link": "https://www.fierce-network.com/broadband/spacex-files-fcc-request-100000-starlink-satellites",
-      "summary": "A Wall Street analyst says a constellation this size would give Starlink “massive headroom\" to compete, creating significant disruption for wireline broadband operators.",
+      "title": "Nokia and Taiwan Mobile extend 5G partnership for AI-powered networks",
+      "link": "https://www.fierce-network.com/newswire/nokia-and-taiwan-mobile-extend-5g-partnership-ai-powered-networks",
+      "summary": "Nokia will deploy its latest AirScale portfolio, including next-generation baseband and radio solutions, alongside advanced software capabilities to enhance Taiwan Mobile’s existing network infrastructure and enable new 5G services and monetization opportunities.",
       "source": "Fierce Network",
       "themes": [
-        "fibra",
-        "satelite"
+        "moveis"
       ],
       "research": false,
       "countries": [],
@@ -1645,20 +1641,6 @@
       "research": false,
       "countries": [],
       "relevance": 51,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Open RAN deployments hinge on multi-vendor interoperability",
-      "link": "https://www.fierce-network.com/sponsored/open-ran-deployments-hinge-multi-vendor-interoperability",
-      "summary": "Interoperability across multi-vendor systems has emerged as the central challenge shaping open RAN deployments.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
       "date": null,
       "ts": 0
     },
@@ -1719,16 +1701,32 @@
       "ts": 0
     },
     {
-      "title": "T-Mobile reshuffles executive ranks as Mike Katz exits",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-reshuffles-executive-ranks-mike-katz-exits",
-      "summary": "T-Mobile’s Mike Katz is leaving. Chris Sambar is joining as chief enterprise officer and André Almeida is getting an expanded position as chief marketing, brand and broadband officer.",
+      "title": "Ericsson reports 2Q 2026 results",
+      "link": "https://www.fierce-network.com/newswire/ericsson-reports-2q-2026-results",
+      "summary": "Adjusted gross margin of 48.4%, supported by solid operational execution and improved margins in Mobile Networks.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "SoftBank's AI ambitions take shape around power, compute and cloud",
+      "link": "https://www.fierce-network.com/cloud/softbanks-ai-ambitions-take-shape-around-power-compute-and-cloud",
+      "summary": "Rather than competing solely on access to GPUs, SoftBank believes its new neocloud venture, SB Neo will have an advantage thanks to access to 10GW AI and energy infrastructure.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 23,
       "date": null,
       "ts": 0
     }
