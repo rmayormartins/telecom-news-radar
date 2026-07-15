@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-15T07:48:53.250850+00:00",
-  "count": 106,
+  "generated_at": "2026-07-15T13:08:18.995729+00:00",
+  "count": 107,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 11,
+    "moveis": 48,
+    "fibra": 10,
     "antenas": 6,
     "iot": 4,
-    "satelite": 29,
+    "satelite": 27,
     "radar_militar": 16,
     "radiocom": 2,
     "tv": 0,
-    "geral": 23
+    "geral": 25
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 1,
-    "jp": 6,
+    "jp": 7,
     "kr": 1,
     "cn": 3
   },
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Nokia launches AI-RAN platform",
+      "link": "https://totaltele.com/nokia-launches-ai-ran-platform/",
+      "summary": "Press Release Nokia today announced the industry’s first commercial AI-RAN platform, marking one of the most significant shifts in radio network architecture in decades. As AI becomes the dominant workload in mobile networks, telecommunication providers need more capacity, stronger economics and faster innovation...",
+      "source": "Total Telecom",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-15T12:36:07+00:00",
+      "ts": 1784118967.0
+    },
+    {
+      "title": "Rakuten Mobile ramps up Open RAN rollout with 1Finity 5G radios deployment",
+      "link": "https://www.datacenterdynamics.com/en/news/rakuten-mobile-pairs-with-fujitsus-1finity-to-advance-5g-open-ran-in-japan/",
+      "summary": "1Finity's radios have been commercially deployed across Rakuten's Open RAN network",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 57,
+      "date": "2026-07-15T12:10:31+00:00",
+      "ts": 1784117431.0
+    },
+    {
+      "title": "Nokia asserts AI-RAN leadership",
+      "link": "https://www.mobileworldlive.com/nokia/nokia-asserts-ai-ran-leadership/",
+      "summary": "Nokia promised significant hikes in spectral efficiency over the next two years as it launched an AI-native RAN platform which relies heavily on Nvidia systems. The post Nokia asserts AI-RAN leadership appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-15T11:01:23+00:00",
+      "ts": 1784113283.0
+    },
+    {
+      "title": "realme NARZO 100x 5G Launches in India at INR 18,499 with 8000mAh Battery, 144Hz Display and AI Features",
+      "link": "https://telecomlead.com/smart-phone/realme-narzo-100x-5g-launches-in-india-at-inr-18499-with-8000mah-battery-144hz-display-and-ai-features-126748",
+      "summary": "realme has launched the realme NARZO 100x 5G smartphone in India, targeting consumers looking for long battery life, gaming performance, AI-powered features, and durable design at an affordable price. Starting at an introductory price of INR 18,499, the 5G smartphone combines 8000mAh battery, MediaTek Dimensity 6300...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-07-15T10:05:29+00:00",
+      "ts": 1784109929.0
+    },
     {
       "title": "Nokia says long-term 6G is not doable without Nvidia",
       "link": "https://www.lightreading.com/6g/nokia-says-long-term-6g-is-not-doable-without-nvidia",
@@ -701,8 +761,8 @@
       "research": false,
       "countries": [],
       "relevance": 45,
-      "date": "2026-07-14T23:00:10+00:00",
-      "ts": 1784070010.0
+      "date": "2026-07-15T00:51:10+00:00",
+      "ts": 1784076670.0
     },
     {
       "title": "Europe Space Networks Look to Scale Optical Connectivity",
@@ -776,20 +836,6 @@
       "ts": 1784059078.0
     },
     {
-      "title": "Best ISPs in Portugal in 2026: How to Choose Between MEO, NOS, Vodafone Portugal and DIGI for Fiber Broadband, Gigabit Speeds and Best Value",
-      "link": "https://telecomlead.com/broadband/best-isps-in-portugal-in-2026-how-to-choose-between-meo-nos-vodafone-portugal-and-digi-for-fiber-broadband-gigabit-speeds-and-best-value-126728",
-      "summary": "Portugal has become one of Europe’s most advanced broadband markets, making it easier than ever for consumers to access high-speed internet. Extensive fiber-to-the-home (FTTH) deployment, competitive pricing and strong investment from leading internet service providers (ISPs) have transformed the country’s digital...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-14T18:17:24+00:00",
-      "ts": 1784053044.0
-    },
-    {
       "title": "AT&T, Ericsson demonstrate drone-sensing 5G capabilities",
       "link": "https://www.telecompetitor.com/att-ericsson-demonstrate-drone-sensing-5g-capabilities/",
       "summary": "AT&T, Ericsson demonstrate drone-sensing 5G capabilities AT&T and Ericsson partnered to demonstrate how an advanced 5G network can help drones with sensing today without the need for 6G. They performed the demonstration in authorized airspace outside AT&T Stadium in Arlington, Texas. They were able to detect and...",
@@ -835,7 +881,7 @@
     {
       "title": "UK teens report wellbeing gains from social media curbs",
       "link": "https://www.mobileworldlive.com/europe/uk-teens-report-wellbeing-gains-from-social-media-curbs/",
-      "summary": "Research commissioned by the Department for Science, Innovation and Technology (DSIT) found UK teenagers participating in a social media restriction trial reported improvements in sleep, concentration and family life. The post UK teens report wellbeing gains from social media curbs appeared first on Mobile World Live .",
+      "summary": "Research commissioned by the Department for Science, Innovation and Technology found UK teenagers participating in a social media restriction trial reported improvements in sleep, concentration and family life. The post UK teens report wellbeing gains from social media curbs appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "geral"
@@ -877,22 +923,6 @@
       "relevance": 56,
       "date": "2026-07-14T12:06:12+00:00",
       "ts": 1784030772.0
-    },
-    {
-      "title": "TRAI Drive Test: Jio Leads Network Performance on Rajasthan’s Munabao–Tanot Highway, Airtel Follows as BSNL and Vi Face Coverage Challenges",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-jio-leads-network-performance-on-rajasthans-munabao-tanot-highway-airtel-follows-as-bsnl-and-vi-face-coverage-challenges-126718",
-      "summary": "The Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted on the Munabao–Tanot National Highway (NH-70) in Rajasthan, highlighting significant differences in the mobile network performance of Reliance Jio, Bharti Airtel, BSNL, and Vodafone Idea. The drive test, conducted on...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-07-14T11:34:27+00:00",
-      "ts": 1784028867.0
     },
     {
       "title": "Nokia bags Taiwan Mobile remit for AI network push",
@@ -1068,6 +1098,22 @@
       "ts": 1783942832.0
     },
     {
+      "title": "SoftBank grabs physical AI opportunity",
+      "link": "https://www.mobileworldlive.com/industry/softbank-grabs-physical-ai-opportunity/",
+      "summary": "SoftBank Corp worked with Nvidia and motors specialist Yaskawa Electric to develop a way for robots to pick up squishy objects and so overcome an expected key challenge for the physical AI movement. The post SoftBank grabs physical AI opportunity appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 31,
+      "date": "2026-07-13T11:19:31+00:00",
+      "ts": 1783941571.0
+    },
+    {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
       "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
       "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering thephysics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn Why “line of sight” fails as a practical VHF planning model. How refraction, reflection, diffraction, and scattering...",
@@ -1181,36 +1227,6 @@
       "ts": 1783680662.0
     },
     {
-      "title": "Millions flock to Docomo Starlink D2D service",
-      "link": "https://www.mobileworldlive.com/docomo/millions-flock-to-docomo-starlink-d2d-service/",
-      "summary": "Japanese operator NTT Docomo offered some of the first tangible information about the level of demand for direct-to-device services by revealing millions of users had signed up to a service using SpaceX’s Starlink constellation in less than three months. The post Millions flock to Docomo Starlink D2D service appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 57,
-      "date": "2026-07-10T10:25:24+00:00",
-      "ts": 1783679124.0
-    },
-    {
-      "title": "E& offloads Vodafone stake to telecoms tycoon Niel",
-      "link": "https://www.mobileworldlive.com/operators/e-offloads-vodafone-stake-to-telecoms-tycoon-niel/",
-      "summary": "Middle Eastern telco E& agreed to sell-off its 16.2% stake in Vodafone Group to an investment vehicle owned by Xavier Niel (pictured) for $6 billion, in a move that will establish the French billionaire as the UK-based operator’s largest shareholder. The post E& offloads Vodafone stake to telecoms tycoon Niel appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-10T10:06:57+00:00",
-      "ts": 1783678017.0
-    },
-    {
       "title": "Nokia & NestAI’s Defence AI: What It Reveals About Industrial Private Networks",
       "link": "https://tecknexus.com/nokia-nestai-defence-ai-deployable-5g-industrial-private-networks/",
       "summary": "Nokia Defense and NestAI have published their first operational capabilities: AI-enabled command and control on deployable 5G, connectivity-aware mission planning, and Integrated Sensing and Communications for threat detection. The assumption they’re engineering against — that connectivity will be available and...",
@@ -1318,18 +1334,18 @@
       "ts": 1783591203.0
     },
     {
-      "title": "Globe launches D2C satellite service with Starlink",
-      "link": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink",
-      "summary": "Globe Telecom's direct-to-cell (D2C) offering with Starlink is the first D2C service to launch in Southeast Asia. The launch follows approval from Philippine regulatory authorities.",
+      "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
+      "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
+      "summary": "The merger between Vodafone and Three was supposed to improve 5G in the UK, but it sits at the bottom of Opensignal's latest ranking of network experience in Europe.",
       "source": "Light Reading",
       "themes": [
-        "satelite"
+        "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 55,
-      "date": "2026-07-08T13:27:55+00:00",
-      "ts": 1783517275.0
+      "relevance": 52,
+      "date": "2026-07-09T07:30:00+00:00",
+      "ts": 1783582200.0
     },
     {
       "title": "Ookla: AI workloads will force changes in 5G mobile network infrastructure",
