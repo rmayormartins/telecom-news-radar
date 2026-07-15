@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-14T19:00:06.216632+00:00",
-  "count": 105,
+  "generated_at": "2026-07-15T01:17:33.715738+00:00",
+  "count": 107,
   "theme_counts": {
-    "moveis": 55,
+    "moveis": 56,
     "fibra": 13,
     "antenas": 6,
-    "iot": 5,
-    "satelite": 26,
-    "radar_militar": 15,
+    "iot": 3,
+    "satelite": 29,
+    "radar_militar": 16,
     "radiocom": 2,
     "tv": 0,
     "geral": 21
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -181,12 +181,12 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -200,6 +200,108 @@
     }
   ],
   "items": [
+    {
+      "title": "European Consortium 5G NTN transmission paves the way for standards based direct to device (D2D) connectivity",
+      "link": "https://techblog.comsoc.org/2026/07/14/european-consortium-5g-ntn-transmission-paves-the-way-for-standards-based-direct-to-device-d2d-connectivity/",
+      "summary": "Executive Summary: Satellite connectivity advanced meaningfully this past week as the European Trantor consortium reported the first 5G NTN transmission over a Hispasat satellite on July 8th. This is an important step because it moves NTN from proof-of-concept demonstrations toward a standards-based implementation...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-07-15T00:59:13+00:00",
+      "ts": 1784077153.0
+    },
+    {
+      "title": "Data: US cable providers lost 280,000 broadband subs in Q1",
+      "link": "https://www.advanced-television.com/2026/07/15/data-us-cable-providers-lost-280000-broadband-subs-in-q1/",
+      "summary": "Research from Parks Associates’ Broadband Market Tracker shows broadband subscriber losses among the largest cable providers in the US continue to lessen as operators strengthen customer retention efforts and expand converged broadband and mobile offerings. Leading cablecos – including Comcast, Charter Spectrum and...",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-07-14T23:00:10+00:00",
+      "ts": 1784070010.0
+    },
+    {
+      "title": "Europe Space Networks Look to Scale Optical Connectivity",
+      "link": "https://satnews.com/2026/07/14/europe-space-networks-look-to-scale-optical-connectivity/",
+      "summary": "Targeting the commercial and defense bottlenecks of legacy radio frequency (RF) networks, Lithuanian laser technology developer Astrolight has outlined a strategic framework calling on European policymakers to scale optical communications. […]",
+      "source": "SatNews",
+      "themes": [
+        "radar_militar",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-14T21:20:45+00:00",
+      "ts": 1784064045.0
+    },
+    {
+      "title": "Honeywell to Lead ESA Quantum Space Magnetometer Contract",
+      "link": "https://www.satellitetoday.com/technology/2026/07/14/honeywell-to-lead-esa-quantum-space-magnetometer-contract/",
+      "summary": "Honeywell Aerospace will lead a consortium to develop a compact quantum space magnetometer to advance research into Earth’s magnetic field. It has teamed up with Quantum Brilliance, and Jagiellonian University […] The post Honeywell to Lead ESA Quantum Space Magnetometer Contract appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-14T20:33:28+00:00",
+      "ts": 1784061208.0
+    },
+    {
+      "title": "NRL Awards Parsons $245M Satellite Ground Systems Contract for Tracking Facility",
+      "link": "https://www.satellitetoday.com/government-military/2026/07/14/nrl-awards-parsons-245m-satellite-ground-systems-contract-for-tracking-facility/",
+      "summary": "The U.S. Naval Research Laboratory (NRL) awarded Parsons Corporation subsidiary Space Ground System Solutions a contract to continue its work supporting satellite ground systems software and operations at the Blossom […] The post NRL Awards Parsons $245M Satellite Ground Systems Contract for Tracking Facility appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-14T20:00:44+00:00",
+      "ts": 1784059244.0
+    },
+    {
+      "title": "Frontier to Adopt Starlink With New Customer Portal From SpaceX",
+      "link": "https://www.satellitetoday.com/mobility/2026/07/14/frontier-to-adopt-starlink-with-new-customer-portal-from-spacex/",
+      "summary": "Frontier Airlines and other Indigo Partners airlines will roll out SpaceX‘s Starlink in-flight connectivity (IFC) under a new deal announced Tuesday that covers more than 1,000 aircraft. This is Frontier’s […] The post Frontier to Adopt Starlink With New Customer Portal From SpaceX appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-07-14T19:59:14+00:00",
+      "ts": 1784059154.0
+    },
+    {
+      "title": "Iridium’s PNT Chip is Now Commercially Available",
+      "link": "https://www.satellitetoday.com/technology/2026/07/14/iridiums-pnt-chip-is-now-commercially-available/",
+      "summary": "Iridium’s positioning, navigation, and timing (PNT) chip is now commercially available, with the satellite operator reporting more than 150 organizations have expressed interest in the chip. First announced in October, […] The post Iridium’s PNT Chip is Now Commercially Available appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-14T19:57:58+00:00",
+      "ts": 1784059078.0
+    },
     {
       "title": "Best ISPs in Portugal in 2026: How to Choose Between MEO, NOS, Vodafone Portugal and DIGI for Fiber Broadband, Gigabit Speeds and Best Value",
       "link": "https://telecomlead.com/broadband/best-isps-in-portugal-in-2026-how-to-choose-between-meo-nos-vodafone-portugal-and-digi-for-fiber-broadband-gigabit-speeds-and-best-value-126728",
@@ -944,21 +1046,6 @@
       "ts": 1783953884.0
     },
     {
-      "title": "Evaluating MNO Yield Strategies in the Direct-to-Device Market",
-      "link": "https://satnews.com/2026/07/13/evaluating-mno-yield-strategies-in-the-direct-to-device-market/",
-      "summary": "Targeting the commercial monetization gap facing terrestrial carriers, mobile network operators (MNOs) are actively modifying their spectrum and billing frameworks to capture a return on investment (ROI) from direct-to-device (D2D) […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 42,
-      "date": "2026-07-13T13:26:13+00:00",
-      "ts": 1783949173.0
-    },
-    {
       "title": "Vodafone strengthens Number Verify 2.0 momentum",
       "link": "https://www.mobileworldlive.com/vodafone/vodafone-strengthens-number-verify-2-0-momentum/",
       "summary": "Vodafone Group rolled out its Number Verify 2.0 authentication API in Germany, the Netherlands and the UK, commencing a global deployment to reduce reliance on SMS one-time passcodes and so boost security. The post Vodafone strengthens Number Verify 2.0 momentum appeared first on Mobile World Live .",
@@ -1058,34 +1145,6 @@
       "ts": 1783707474.0
     },
     {
-      "title": "Ovzon’s GEO Connectivity and Terminals Complete Arctic Tests",
-      "link": "https://www.satellitetoday.com/technology/2026/07/10/ovzons-geo-connectivity-and-terminals-complete-arctic-tests/",
-      "summary": "Ovzon has completed a number of trials in the Arctic as the company looks to prove its technology in arctic environments. The company has conducted three separate High North expeditions […] The post Ovzon’s GEO Connectivity and Terminals Complete Arctic Tests appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-10T18:16:48+00:00",
-      "ts": 1783707408.0
-    },
-    {
-      "title": "Simera Sense to Supply Imagers for Canary Islands Satellite Constellation",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/07/10/simera-sense-to-supply-imagers-for-canary-islands-satellite-constellation/",
-      "summary": "Telespazio Ibérica has selected Simera Sense to supply multispectral imagers for the Canary Islands satellite constellation project. The Canary Islands are a Spanish group of islands off the coast of […] The post Simera Sense to Supply Imagers for Canary Islands Satellite Constellation appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-10T18:12:10+00:00",
-      "ts": 1783707130.0
-    },
-    {
       "title": "Skylo, Space42 test D2D for UAE",
       "link": "https://www.mobileworldlive.com/old_latest-stories/skylo-space42-test-d2d-for-uae/",
       "summary": "Space42 and Skylo Technologies advanced a plan to deliver direct-to-device connectivity to the UAE and beyond using the former’s Thuraya-4 satellite by completing a trial of SMS and SOS communications. The post Skylo, Space42 test D2D for UAE appeared first on Mobile World Live .",
@@ -1171,21 +1230,6 @@
       "relevance": 49,
       "date": "2026-07-10T08:57:00+00:00",
       "ts": 1783673820.0
-    },
-    {
-      "title": "SpaceX Files for 100,000-Satellite Gen-3 Constellation",
-      "link": "https://www.satellitetoday.com/connectivity/2026/07/09/spacex-files-for-100000-satellite-gen-3-constellation/",
-      "summary": "SpaceX has asked the FCC for authority to launch 100,000 satellites in a Gen3 constellation to deliver “multi-gigabit” connectivity. The filing indicates SpaceX intends to move into W- and D-band […] The post SpaceX Files for 100,000-Satellite Gen-3 Constellation appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-09T20:05:56+00:00",
-      "ts": 1783627556.0
     },
     {
       "title": "Verizon BMW Connected Vehicles: Inside the 5G Standalone Telematics Deal with KDDI",
@@ -1413,21 +1457,6 @@
       "ts": 1782599406.0
     },
     {
-      "title": "Assessing LPWANs for IoT: NB-IoT, 4G LTE versions, 5G Redcap and LoRa WAN",
-      "link": "https://techblog.comsoc.org/2026/06/26/assessing-lpwans-for-iot-nb-iot-5g-redcap-and-lora-wan/",
-      "summary": "Introduction – LPWANs (Low Power Wide Area Networks): In April 2011, Cisco soothsayer Dave Evans predicted there would be 50 billion IoT devices in the world by 2020. Yet in 2025, there were only 22.3 billion IoT devices worldwide, according to the Ericsson Mobility Report. Evans forecast was off by 27.7 billion five...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-06-26T20:27:44+00:00",
-      "ts": 1782505664.0
-    },
-    {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
       "link": "https://spectrum.ieee.org/6g-wifi-united-states-china",
       "summary": "Global demand for high-capacity, low-latency wireless connectivity continues to grow, and the 6-gigahertz band of radio spectrum has emerged as a particularly vital chunk of wireless real estate. Both the cellular and Wi-Fi industries consider this contiguous block, which covers frequencies from 5,925 to 7,125...",
@@ -1617,6 +1646,20 @@
       "ts": 0
     },
     {
+      "title": "T-Mobile’s 5G ‘refresh’ triggers customer backlash",
+      "link": "https://www.fierce-network.com/wireless/t-mobiles-5g-plan-refresh-triggers-customer-backlash",
+      "summary": "T-Mobile's forced migration to newer rate plans is sparking consumer backlash and new questions about whether the \"un-carrier\" has become just another carrier.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Verizon puts 5G in the driver’s seat with BMW deal",
       "link": "https://www.fierce-network.com/wireless/verizon-puts-5g-drivers-seat-bmw-deal",
       "summary": "BMW vehicles will be the first to use Verizon’s Standalone 5G network.",
@@ -1665,20 +1708,6 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Inside AT&T's industrial IoT logistics play",
-      "link": "https://www.fierce-network.com/cloud/inside-atts-industrial-iot-logistics-play",
-      "summary": "AT&T is leveraging its Wiliot partnership to build its logistics business. And connectivity is just part of it.",
-      "source": "Fierce Network",
-      "themes": [
-        "iot"
       ],
       "research": false,
       "countries": [],
