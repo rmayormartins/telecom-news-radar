@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-16T07:53:35.731227+00:00",
-  "count": 103,
+  "generated_at": "2026-07-16T13:17:00.621772+00:00",
+  "count": 101,
   "theme_counts": {
-    "moveis": 52,
-    "fibra": 12,
+    "moveis": 49,
+    "fibra": 10,
     "antenas": 5,
     "iot": 2,
-    "satelite": 26,
-    "radar_militar": 13,
+    "satelite": 29,
+    "radar_militar": 12,
     "radiocom": 2,
     "tv": 0,
     "geral": 22
@@ -16,12 +16,12 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 0,
-    "jp": 6,
+    "in": 2,
+    "jp": 2,
     "kr": 1,
-    "cn": 3
+    "cn": 2
   },
-  "research_count": 25,
+  "research_count": 24,
   "sources": [
     {
       "source": "Light Reading",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -91,7 +91,7 @@
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
@@ -126,7 +126,7 @@
     {
       "source": "One6G",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "6G-IA",
@@ -185,7 +185,7 @@
     },
     {
       "source": "Advanced Television",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 500: Internal Server Error",
       "kept": 0
     },
     {
@@ -200,6 +200,92 @@
     }
   ],
   "items": [
+    {
+      "title": "Eurobites: Vodafone, Nokia go network slicing in Albania",
+      "link": "https://www.lightreading.com/5g/eurobites-vodafone-nokia-go-network-slicing-in-albania",
+      "summary": "Also in today's EMEA regional roundup: Tele2's Q2; VodafoneThree says UK mobile market is 'out of balance'; Scaleway lands Airbus cloud contract.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-16T11:54:55+00:00",
+      "ts": 1784202895.0
+    },
+    {
+      "title": "EC hands SFR deal probe to France",
+      "link": "https://www.mobileworldlive.com/europe/ec-hands-sfr-deal-probe-to-france/",
+      "summary": "France’s competition authority assumed control of investigating a proposed purchase and subsequent carve-up of SFR by Iliad Group, Bouygues Telecom and Orange, after the European Commission referred the element falling under its remit. The post EC hands SFR deal probe to France appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-16T10:35:47+00:00",
+      "ts": 1784198147.0
+    },
+    {
+      "title": "Airtel embraces AI, 'premiumization' in post 5G rollout plan",
+      "link": "https://www.lightreading.com/finance/airtel-embraces-ai-premiumization-in-post-5g-rollout-plan",
+      "summary": "Airtel is shifting beyond network expansion toward AI, 'premiumization' and convergence while acknowledging that monetizing 5G remains a challenge.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-07-16T09:37:01+00:00",
+      "ts": 1784194621.0
+    },
+    {
+      "title": "NZ's 2degrees secures spectrum license for AST SpaceMobile satellite ground station",
+      "link": "https://www.datacenterdynamics.com/en/news/nzs-2degrees-secures-spectrum-license-for-ast-spacemobile-satellite-ground-station/",
+      "summary": "Telco building ground station in Marton to support direct-to-cell services",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-16T09:05:04+00:00",
+      "ts": 1784192704.0
+    },
+    {
+      "title": "Thinking Machines releases first AI model",
+      "link": "https://www.mobileworldlive.com/ai-cloud/thinking-machines-releases-first-ai-model/",
+      "summary": "Thinking Machines Lab unveiled its first AI model more than a year after former OpenAI executive Mira Murati founded the start-up, moving it from research previews to a full launch. The post Thinking Machines releases first AI model appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-16T08:35:33+00:00",
+      "ts": 1784190933.0
+    },
+    {
+      "title": "Bell edges closer to D2D service launch",
+      "link": "https://www.mobileworldlive.com/ast-spacemobile/bell-edges-closer-to-d2d-service-launch/",
+      "summary": "Bell Canada completed construction of its first sovereign direct-to-device satellite ground station, a milestone in a strategy to offer connectivity beyond the reach of its traditional wireless network. The post Bell edges closer to D2D service launch appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-16T08:33:05+00:00",
+      "ts": 1784190785.0
+    },
     {
       "title": "Tele2 Cuts Capex 26 Percent in Q2 2026 While Accelerating 5G, Spectrum and Sovereign Cloud Investments",
       "link": "https://telecomlead.com/telecom-services/tele2-cuts-capex-26-percent-in-q2-2026-while-accelerating-5g-spectrum-and-sovereign-cloud-investments-126776",
@@ -719,22 +805,6 @@
       "ts": 1784118967.0
     },
     {
-      "title": "Rakuten Mobile ramps up Open RAN rollout with 1Finity 5G radios deployment",
-      "link": "https://www.datacenterdynamics.com/en/news/rakuten-mobile-pairs-with-fujitsus-1finity-to-advance-5g-open-ran-in-japan/",
-      "summary": "1Finity's radios have been commercially deployed across Rakuten's Open RAN network",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 57,
-      "date": "2026-07-15T12:10:31+00:00",
-      "ts": 1784117431.0
-    },
-    {
       "title": "Nokia asserts AI-RAN leadership",
       "link": "https://www.mobileworldlive.com/nokia/nokia-asserts-ai-ran-leadership/",
       "summary": "Nokia promised significant hikes in spectral efficiency over the next two years as it launched an AI-native RAN platform which relies heavily on Nvidia systems. The post Nokia asserts AI-RAN leadership appeared first on Mobile World Live .",
@@ -749,6 +819,20 @@
       "ts": 1784113283.0
     },
     {
+      "title": "Samsung flexes foldable tech ahead of latest launch",
+      "link": "https://www.mobileworldlive.com/samsung/samsung-flexes-foldable-tech-ahead-of-latest-launch/",
+      "summary": "Samsung hyped-up redesigned screen technology intended to cut crease visibility and improve durability of foldable smartphones, in its latest announcement eking out details of new devices ahead of Galaxy Unpacked next week. The post Samsung flexes foldable tech ahead of latest launch appeared first on Mobile World...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-15T10:37:20+00:00",
+      "ts": 1784111840.0
+    },
+    {
       "title": "Nokia says long-term 6G is not doable without Nvidia",
       "link": "https://www.lightreading.com/6g/nokia-says-long-term-6g-is-not-doable-without-nvidia",
       "summary": "Ahead of its 'Midsummer Launch,' Nokia announces the availability of its first Nvidia-based RAN products and makes big claims over custom silicon.",
@@ -761,6 +845,22 @@
       "relevance": 52,
       "date": "2026-07-15T07:00:00+00:00",
       "ts": 1784098800.0
+    },
+    {
+      "title": "Can Vodafone Idea still compete in India's 5G race?",
+      "link": "https://www.lightreading.com/finance/can-vodafone-idea-still-compete-in-india-s-5g-race-",
+      "summary": "Vodafone Idea's delayed debt raise threatens its 5G expansion plans, widening the gap with its peers, Jio and Airtel.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 48,
+      "date": "2026-07-15T06:30:00+00:00",
+      "ts": 1784097000.0
     },
     {
       "title": "Frontier Airlines connects with Starlink",
@@ -937,6 +1037,20 @@
       "ts": 1784041626.0
     },
     {
+      "title": "Intel investit 5 milliards d’euros pour muscler ses capacités d’IA en Europe",
+      "link": "https://www.mobileworldlive.com/french/intel-investit-5-milliards-deuros-pour-muscler-ses-capacites-dia-en-europe/",
+      "summary": "Intel détaille un investissement en capital de 5 milliards d’euros dans son campus irlandais de Leixlip pour accroître sa production européenne Read more... The post Intel investit 5 milliards d’euros pour muscler ses capacités d’IA en Europe appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-14T12:48:12+00:00",
+      "ts": 1784033292.0
+    },
+    {
       "title": "one6G and 5G-ACIA Strengthen Partnership for the Future of Industrial Wireless Communications",
       "link": "https://one6g.org/one6g-and-5g-acia-strengthen-partnership-for-the-future-of-industrial-wireless-communications/",
       "summary": "The one6G Association (one6G) and the 5G Alliance for Connected Industries and Automation (5G-ACIA) signed a Memorandum of Understanding (MoU) at the 5G-ACIA Plenary in Tokyo in December 2025, establishing a formal framework for strategic collaboration. Building […] The post one6G and 5G-ACIA Strengthen Partnership...",
@@ -981,34 +1095,18 @@
       "ts": 1784023200.0
     },
     {
-      "title": "Nokia and Taiwan Mobile team up to build AI-native 5G network in Taiwan",
-      "link": "https://capacityglobal.com/news/nokia-extends-5g-deal-with-taiwan-mobile/",
-      "summary": "Nokia has signed a 5G expansion agreement with Taiwan Mobile to advance the operator's transition to AI-native mobile networks across Taiwan, the companies announced on July 14, 2026. Financial terms of the deal were not disclosed. The post Nokia and Taiwan Mobile team up to build AI-native 5G network in Taiwan...",
-      "source": "Capacity Media",
+      "title": "Can network sharing rescue the 6G business case?",
+      "link": "https://www.lightreading.com/6g/can-network-sharing-rescue-the-6g-business-case",
+      "summary": "Telcos spend heavily to eliminate costs yet cling to facilities-based competition. Ahead of 6G, embracing network sharing may be a survival move.",
+      "source": "Light Reading",
       "themes": [
         "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 53,
-      "date": "2026-07-14T08:56:01+00:00",
-      "ts": 1784019361.0
-    },
-    {
-      "title": "Rakuten Mobile rolls out 5G open RAN radios with 1Finity",
-      "link": "https://www.mobileworldlive.com/rakuten/rakuten-mobile-rolls-out-5g-open-ran-radios-with-1finity/",
-      "summary": "1Finity, a subsidiary of Fujitsu, touted the commercial deployment of its 5G Sub6 (3.7GHz) compact radio units across Rakuten Mobile’s nationwide cloud-native network in Japan. The post Rakuten Mobile rolls out 5G open RAN radios with 1Finity appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 60,
-      "date": "2026-07-14T08:26:10+00:00",
-      "ts": 1784017570.0
+      "relevance": 48,
+      "date": "2026-07-14T10:00:00+00:00",
+      "ts": 1784023200.0
     },
     {
       "title": "AT&T/Ericsson Demonstrate 5G-Based ISAC for Drone Detection at World Cup Stadium",
@@ -1055,50 +1153,6 @@
       "ts": 1783957674.0
     },
     {
-      "title": "Smartphone shipments sink to Q2 low",
-      "link": "https://www.mobileworldlive.com/devices/smartphone-shipments-sink-to-q2-low/",
-      "summary": "Counterpoint Research released preliminary data indicating there was no let up in a downward trend for smartphone shipments during Q2, a period the company branded the worst for more than a decade. The post Smartphone shipments sink to Q2 low appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-13T15:09:32+00:00",
-      "ts": 1783955372.0
-    },
-    {
-      "title": "Vodafone strengthens Number Verify 2.0 momentum",
-      "link": "https://www.mobileworldlive.com/vodafone/vodafone-strengthens-number-verify-2-0-momentum/",
-      "summary": "Vodafone Group rolled out its Number Verify 2.0 authentication API in Germany, the Netherlands and the UK, commencing a global deployment to reduce reliance on SMS one-time passcodes and so boost security. The post Vodafone strengthens Number Verify 2.0 momentum appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-13T11:40:32+00:00",
-      "ts": 1783942832.0
-    },
-    {
-      "title": "SoftBank grabs physical AI opportunity",
-      "link": "https://www.mobileworldlive.com/industry/softbank-grabs-physical-ai-opportunity/",
-      "summary": "SoftBank Corp worked with Nvidia and motors specialist Yaskawa Electric to develop a way for robots to pick up squishy objects and so overcome an expected key challenge for the physical AI movement. The post SoftBank grabs physical AI opportunity appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 31,
-      "date": "2026-07-13T11:19:31+00:00",
-      "ts": 1783941571.0
-    },
-    {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
       "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
       "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering thephysics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn Why “line of sight” fails as a practical VHF planning model. How refraction, reflection, diffraction, and scattering...",
@@ -1111,21 +1165,6 @@
       "relevance": 35,
       "date": "2026-07-13T10:00:01+00:00",
       "ts": 1783936801.0
-    },
-    {
-      "title": "Feature: AT&T, Ericsson make sense of ISAC over 5G",
-      "link": "https://www.mobileworldlive.com/att/feature-att-ericsson-showcase-drone-detection/",
-      "summary": "AT&T and Ericsson teamed to provision Integrated Sensing and Communication over a 5G network to demonstrate live drone detection in authorised airspace outside AT&T Stadium in Arlington, Texas. The post Feature: AT&T, Ericsson make sense of ISAC over 5G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-07-13T09:29:30+00:00",
-      "ts": 1783934970.0
     },
     {
       "title": "Qualcomm retreats from small cells with eye on bigger 6G prize",
@@ -1229,52 +1268,6 @@
       "ts": 1783614714.0
     },
     {
-      "title": "Vecima lands exclusive deal for Videotron's DOCSIS network upgrade",
-      "link": "https://www.lightreading.com/cable-technology/vecima-lands-exclusive-deal-for-videotron-s-docsis-network-upgrade",
-      "summary": "Videotron will deploy DOCSIS 4.0-ready remote PHY devices, GAP nodes and a virtual CMTS from Vecima to underpin the upgrade of the Canadian operator's HFC network.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-09T15:49:56+00:00",
-      "ts": 1783612196.0
-    },
-    {
-      "title": "Verizon's 5G network drives telematics for BMW",
-      "link": "https://www.lightreading.com/5g/verizon-s-5g-network-drives-telematics-for-bmw",
-      "summary": "Verizon Business, in partnership with KDDI, lands 5G telematics connectivity deal with BMW for new vehicles in the US.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 58,
-      "date": "2026-07-09T13:28:38+00:00",
-      "ts": 1783603718.0
-    },
-    {
-      "title": "China eyes overseas markets for subsea cable detection robots",
-      "link": "https://www.lightreading.com/cable-technology/china-eyes-overseas-markets-for-subsea-cable-detection-robots",
-      "summary": "China has developed powerful robots that can locate, track and bury subsea cables with an error margin of less than 5%. The project's team plans to export the technology to Southeast Asia, the Middle East and Europe.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 52,
-      "date": "2026-07-09T10:27:22+00:00",
-      "ts": 1783592842.0
-    },
-    {
       "title": "The Rebirth of High Frequency",
       "link": "https://content.knowledgehub.wiley.com/the-rebirth-of-high-frequency/",
       "summary": "An examination of how satellite vulnerabilities, modern wideband waveforms, and automatic link establishment are driving renewed military and government investment in HF communications. What Attendees will Learn Why HF (High Frequency) declined — and what has changed — How satellites overtook HF for global...",
@@ -1289,20 +1282,6 @@
       "relevance": 41,
       "date": "2026-07-09T10:00:03+00:00",
       "ts": 1783591203.0
-    },
-    {
-      "title": "UK still has Europe's worst 5G a year after VodafoneThree merger",
-      "link": "https://www.lightreading.com/5g/uk-still-has-europe-s-worst-5g-a-year-after-vodafonethree-merger",
-      "summary": "The merger between Vodafone and Three was supposed to improve 5G in the UK, but it sits at the bottom of Opensignal's latest ranking of network experience in Europe.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-09T07:30:00+00:00",
-      "ts": 1783582200.0
     },
     {
       "title": "Ookla: AI workloads will force changes in 5G mobile network infrastructure",
@@ -1508,20 +1487,6 @@
       "relevance": 46,
       "date": "2026-06-02T10:00:02+00:00",
       "ts": 1780394402.0
-    },
-    {
-      "title": "one6G at IEEE ICC 2026: AI-Native Robotics Panel Catalyses the Evolution of 6G Telecom Networks",
-      "link": "https://one6g.org/one6g-at-ieee-icc-2026-ai-native-robotics-panel-catalyses-the-evolution-of-6g-telecom-networks/",
-      "summary": "At the recent IEEE International Conference on Communications (ICC 2026) in Glasgow, Scotland, the industry panel “PNL-06: AI-Native Robotics: Catalysing the Evolution of 6G Telecom Networks“ brought together leading minds to explore the deep convergence of artificial […] The post one6G at IEEE ICC 2026: AI-Native...",
-      "source": "One6G",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-06-01T11:49:08+00:00",
-      "ts": 1780314548.0
     },
     {
       "title": "Deutsche Telekom and Ericsson deploy private 5G network at Hamburg port",
