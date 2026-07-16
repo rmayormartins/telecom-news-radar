@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-15T18:53:19.348725+00:00",
-  "count": 107,
+  "generated_at": "2026-07-16T01:27:44.964556+00:00",
+  "count": 108,
   "theme_counts": {
     "moveis": 50,
     "fibra": 11,
     "antenas": 6,
     "iot": 4,
     "satelite": 26,
-    "radar_militar": 15,
+    "radar_militar": 14,
     "radiocom": 2,
     "tv": 0,
     "geral": 24
@@ -19,7 +19,7 @@
     "in": 1,
     "jp": 6,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 32,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,76 @@
     }
   ],
   "items": [
+    {
+      "title": "Analysis: Nokia’s new AI-RAN platform and Standalone AI-RAN node with Nvidia GPUs",
+      "link": "https://techblog.comsoc.org/2026/07/15/analysis-nokias-new-ai-ran-platform-and-standalone-ai-ran-node-with-nvidia-gpus/",
+      "summary": "Nokia today announced what it describes as the first commercial AI-RAN platform, signaling a potentially significant inflection point in radio access network architecture. As AI workloads increasingly influence network design and operations, service providers are under pressure to deliver higher capacity, improved...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-07-16T00:42:52+00:00",
+      "ts": 1784162572.0
+    },
+    {
+      "title": "Nokia to support Taiwan Mobile's AI push with expanded 5G agreement",
+      "link": "https://www.datacenterdynamics.com/en/news/nokia-to-support-taiwan-mobiles-ai-push-with-expanded-5g-agreement/",
+      "summary": "The vendor will provide its AirScale portfolio to the telco",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-07-16T00:00:33+00:00",
+      "ts": 1784160033.0
+    },
+    {
+      "title": "FCC to Consider Allowing Wi-Fi, Bluetooth Devices for D2D Service",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/15/fcc-to-consider-allowing-wi-fi-bluetooth-devices-for-d2d-service/",
+      "summary": "The FCC may explore allowing unlicensed wireless devices like Wi-Fi and Bluetooth to communicate directly with satellites for direct-to-device (D2D) service. FCC Chairman Brendan Carr proposed a new proceeding on […] The post FCC to Consider Allowing Wi-Fi, Bluetooth Devices for D2D Service appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-07-15T20:38:34+00:00",
+      "ts": 1784147914.0
+    },
+    {
+      "title": "South Africa’s Top ISP Herotel to Distribute Amazon Leo",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/15/south-africas-top-isp-herotel-to-distribute-amazon-leo/",
+      "summary": "South Africa’s top internet service provider Herotel will distribute Amazon Leo satellite connectivity to residential customers under a new deal with Amazon announced Wednesday. Herotel is launching its own satellite […] The post South Africa’s Top ISP Herotel to Distribute Amazon Leo appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-15T20:25:37+00:00",
+      "ts": 1784147137.0
+    },
+    {
+      "title": "FCC Proposes Opening 225 MHz of Unlicensed Spectrum for Direct-to-Device Satellite Connectivity",
+      "link": "https://telecomlead.com/satellite/fcc-proposes-opening-225-mhz-of-unlicensed-spectrum-for-direct-to-device-satellite-connectivity-126764",
+      "summary": "The U.S. Federal Communications Commission (FCC) has proposed a new rulemaking that could significantly expand direct-to-device (D2D) satellite communications by allowing innovative unlicensed wireless devices to communicate directly with satellites. FCC Chairman Brendan Carr said the proposal aims to explore how...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-15T20:05:33+00:00",
+      "ts": 1784145933.0
+    },
     {
       "title": "SDA Set to Resume Launches With Second Plane of York Transport Layer Satellites",
       "link": "https://www.satellitetoday.com/government-military/2026/07/15/sda-set-to-resume-launches-with-second-plane-of-york-transport-layer-satellites/",
@@ -348,37 +418,6 @@
       "relevance": 52,
       "date": "2026-07-15T07:00:00+00:00",
       "ts": 1784098800.0
-    },
-    {
-      "title": "Telecom news: Starlink, GETESA, Huawei, Flexential",
-      "link": "https://telecomlead.com/news/telecom-news-starlink-getesa-huawei-flexential-126738",
-      "summary": "Today’s telecom news includes announcements on Starlink, GETESA, Huawei, Flexential, among others. Taiwan Telecom Bill Could Clear Path for Starlink Entry Taiwan has moved closer to allowing SpaceX’s Starlink to enter its telecommunications market after a legislative committee approved amendments to the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 52,
-      "date": "2026-07-15T04:45:58+00:00",
-      "ts": 1784090758.0
-    },
-    {
-      "title": "Telecom news: Swisscom, Sunrise, VIAVI Solutions, GSMA",
-      "link": "https://telecomlead.com/news/telecom-news-swisscom-sunrise-viavi-solutions-gsma-126734",
-      "summary": "Today’s telecom news includes announcements on Swisscom, Sunrise, VIAVI Solutions, SHIELD-6G consortium, Smart Networks and Services, GSMA, among others. World’s First Telco Fraud Alliance Strengthens Real-Time Cyber Defense Swisscom and Sunrise have launched the world’s first telecommunications fraud risk consortium,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-15T04:35:04+00:00",
-      "ts": 1784090104.0
     },
     {
       "title": "Fuse-then-Detect for Passive UAV Localization Using Multi-UE 5G Uplink Signals",
@@ -1057,20 +1096,6 @@
       "ts": 1783976536.0
     },
     {
-      "title": "Sonatel Taps Eutelsat OneWeb for Teleport Upgrade",
-      "link": "https://www.satellitetoday.com/connectivity/2026/07/13/sonatel-taps-eutelsat-oneweb-for-teleport-upgrade/",
-      "summary": "Sonatel, the main telco of Senegal, a country with a population of over 19 million people, has completed a significant teleport upgrade working with Eutelsat OneWeb. Sonatel has upgraded and […] The post Sonatel Taps Eutelsat OneWeb for Teleport Upgrade appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-13T20:56:05+00:00",
-      "ts": 1783976165.0
-    },
-    {
       "title": "Even with bigger birds, Starlink still 'best suited to low-density markets' – study",
       "link": "https://www.lightreading.com/satellite/even-with-bigger-birds-starlink-still-best-suited-to-low-density-markets-study",
       "summary": "As the new V3 satellite nears deployment, Starlink is poised to tack on gobs of capacity. But even with the V3, Starlink will skew to low-density markets in the US and beyond, says a new study.",
@@ -1189,14 +1214,14 @@
     {
       "title": "Quantum Sensor Sniffs Out Radio Signals in 3D",
       "link": "https://spectrum.ieee.org/quantum-sensor-radio-signal-direction",
-      "summary": "Modern battlefields are bathed in radio waves for communications, radar , remote control of drones, and signal jamming to disrupt those functions. The ability to rapidly locate their source could provide considerable tactical advantage, and a new quantum sensor the size of a paperclip promises to work as an...",
+      "summary": "Modern battlefields are bathed in radio waves for communications, radar , remote control of drones, and signal jamming to disrupt those functions. The ability to rapidly locate their source could provide considerable tactical advantage, and a new quantum sensor the size of a paper clip promises to work as an...",
       "source": "IEEE Spectrum (Telecom)",
       "themes": [
         "radar_militar"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
+      "relevance": 46,
       "date": "2026-07-12T13:00:01+00:00",
       "ts": 1783861201.0
     },
@@ -1436,21 +1461,6 @@
       "relevance": 55,
       "date": "2026-06-29T23:26:46+00:00",
       "ts": 1782775606.0
-    },
-    {
-      "title": "FT: SpaceX considering Starlink Direct-to-Consumer mobile service & terrestrial cellular network infrastructure in the U.S.",
-      "link": "https://techblog.comsoc.org/2026/06/27/ft-spacex-considering-starlink-direct-to-consumer-mobile-service-terrestrial-cellular-network-infrastructure-in-the-u-s/",
-      "summary": "According to the Financial Times (FT), SpaceX is evaluating a strategic expansion of its Starlink satellite Internet service to include a direct-to-consumer mobile service in the United States, a move that could materially disrupt the established U.S. mobile network market. According to sources familiar with recent...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-06-27T22:30:06+00:00",
-      "ts": 1782599406.0
     },
     {
       "title": "Wi-Fi and Cellular Industries Duke It Out Over 6-GHz Band",
