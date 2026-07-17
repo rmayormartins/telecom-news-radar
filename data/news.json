@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-17T07:50:56.250951+00:00",
+  "generated_at": "2026-07-17T13:01:36.609380+00:00",
   "count": 97,
   "theme_counts": {
     "moveis": 46,
     "fibra": 7,
     "antenas": 6,
     "iot": 2,
-    "satelite": 23,
-    "radar_militar": 11,
+    "satelite": 21,
+    "radar_militar": 12,
     "radiocom": 2,
     "tv": 0,
-    "geral": 26
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 2,
-    "jp": 4,
-    "kr": 1,
-    "cn": 2
+    "jp": 5,
+    "kr": 0,
+    "cn": 1
   },
   "research_count": 27,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -126,7 +126,7 @@
     {
       "source": "One6G",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "6G-IA",
@@ -185,7 +185,7 @@
     },
     {
       "source": "Advanced Television",
-      "status": "ERRO: HTTP Error 500: Internal Server Error",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "5G-ACIA and one6G Joint Webinar Explored the Future of 6G for Industrial Automation",
+      "link": "https://one6g.org/5g-acia-and-one6g-joint-webinar-explored-the-future-of-6g-for-industrial-automation/",
+      "summary": "On 15 July 2026, 5G-ACIA and one6G jointly hosted the webinar “6G Use Cases for Industrial Automation,” bringing together experts from industry and research to discuss how next-generation wireless technologies will support the future of manufacturing, robotics, […] The post 5G-ACIA and one6G Joint Webinar Explored the...",
+      "source": "One6G",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-07-17T11:20:43+00:00",
+      "ts": 1784287243.0
+    },
+    {
+      "title": "The Friday File: Apple; New York; Nokia",
+      "link": "https://www.mobileworldlive.com/apple/the-friday-file-apple-new-york-nokia/",
+      "summary": "Mobile World Live brings you our top three picks of the week as Apple took OpenAI to court over alleged trade secret theft, New York hit pause on mega data centre projects amid rising energy concerns and Nokia unveiled an AI-native RAN platform built around Nvidia’s systems. The post The Friday File: Apple; New York;...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-17T10:58:48+00:00",
+      "ts": 1784285928.0
+    },
+    {
+      "title": "Ericsson recruited to UK defence list",
+      "link": "https://www.mobileworldlive.com/ericsson/ericsson-recruited-to-uk-defence-list/",
+      "summary": "Ericsson emphasised the strengths of advanced 5G technology for the defence sector as it got the nod as a supplier under the UK’s Tactical Communication Systems framework for public sector procurement. The post Ericsson recruited to UK defence list appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-17T10:57:50+00:00",
+      "ts": 1784285870.0
+    },
+    {
+      "title": "NTT, TBS target child AI education",
+      "link": "https://www.mobileworldlive.com/asia-pacific/ntt-tbs-target-child-ai-education/",
+      "summary": "NTT and Japanese media company TBS identified AI as a potential danger to children’s decision-making abilities and outlined an intention to form a company to tackle the issue using digital games and smartphone apps. The post NTT, TBS target child AI education appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 23,
+      "date": "2026-07-17T10:55:57+00:00",
+      "ts": 1784285757.0
+    },
+    {
+      "title": "Micron strikes top-tier vehicle supply chain deals",
+      "link": "https://www.mobileworldlive.com/qualcomm/micron-strikes-top-tier-vehicle-supply-chain-deals/",
+      "summary": "Micron Technology secured strategic supply agreements with major automotive partners including Qualcomm and Harman to guarantee long-term chip access for software-defined vehicles. The post Micron strikes top-tier vehicle supply chain deals appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-17T08:27:08+00:00",
+      "ts": 1784276828.0
+    },
     {
       "title": "Serbia’s RATEL launches spectrum auction for 470-694 MHz band",
       "link": "https://capacityglobal.com/news/serbias-ratel-launches-spectrum-auction-for-470-694-mhz-band/",
@@ -601,9 +674,9 @@
       "ts": 1784235610.0
     },
     {
-      "title": "Kesight and Sateliot to Explore Blockchain Frameworks for 5G NTN Security",
+      "title": "Keysight and Sateliot to Explore Blockchain Frameworks for 5G NTN Security",
       "link": "https://www.satellitetoday.com/technology/2026/07/16/kesight-and-sateliot-to-explore-blockchain-frameworks-for-5g-ntn-security/",
-      "summary": "Keysight Technologies will lead a European Space Agency (ESA) development program looking at how blockchain technologies can be used to detect anomalies for 5G non-terrestrial networks (NTN). The award announced […] The post Kesight and Sateliot to Explore Blockchain Frameworks for 5G NTN Security appeared first on...",
+      "summary": "Keysight Technologies will lead a European Space Agency (ESA) development program looking at how blockchain technologies can be used to detect anomalies for 5G non-terrestrial networks (NTN). The award announced […] The post Keysight and Sateliot to Explore Blockchain Frameworks for 5G NTN Security appeared first on...",
       "source": "Via Satellite",
       "themes": [
         "moveis",
@@ -647,14 +720,14 @@
     {
       "title": "Viasat, BMW hail first in-vehicle satellite voice call",
       "link": "https://www.mobileworldlive.com/industry/viasat-bmw-hail-first-in-vehicle-satellite-voice-call/",
-      "summary": "Viasat demonstrated what it claimed was the first satellite-enabled voice call integrated into a BMW Group vehicle, as the satellite operator targets a larger role for non-terrestrial network (NTN) connectivity in connected cars. The post Viasat, BMW hail first in-vehicle satellite voice call appeared first on Mobile...",
+      "summary": "Viasat demonstrated what it claimed was the first satellite-enabled voice call integrated into a BMW Group vehicle, as the satellite operator targets a larger role for non-terrestrial network connectivity in connected cars. The post Viasat, BMW hail first in-vehicle satellite voice call appeared first on Mobile World...",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 58,
+      "relevance": 51,
       "date": "2026-07-16T15:40:33+00:00",
       "ts": 1784216433.0
     },
@@ -673,18 +746,18 @@
       "ts": 1784216216.0
     },
     {
-      "title": "Sonatel deploys OneWeb ground station in Senegal",
-      "link": "https://www.datacenterdynamics.com/en/news/sonatel-deploys-oneweb-ground-station-in-senegal/",
-      "summary": "As Bell Canada deploys AST SpaceMobile ground station in Québec",
-      "source": "DataCenterDynamics",
+      "title": "Zixi, Comcast unit team on C-band alternative",
+      "link": "https://www.lightreading.com/video-broadcast/zixi-comcast-unit-team-on-c-band-alternative",
+      "summary": "Zixi and Comcast Technology Solutions (CTS) have partnered to provide a video distribution alternative amid the coming upper C-band auction that integrates Zixi's software and the Comcast Media360 platform. #pressrelease",
+      "source": "Light Reading",
       "themes": [
-        "satelite"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 46,
-      "date": "2026-07-16T15:22:26+00:00",
-      "ts": 1784215346.0
+      "relevance": 43,
+      "date": "2026-07-16T14:15:54+00:00",
+      "ts": 1784211354.0
     },
     {
       "title": "Eurobites: Vodafone, Nokia go network slicing in Albania",
@@ -759,20 +832,6 @@
       "ts": 1784190785.0
     },
     {
-      "title": "Telefónica y Amancio Ortega ponen de nuevo a la venta Telxius por 1.200 M€",
-      "link": "https://www.mobileworldlive.com/spanish/telefonica-y-amancio-ortega-ponen-de-nuevo-a-la-venta-telxius-por-1-200-me/",
-      "summary": "Telefónica y Pontegadea, el holding inversor de Amancio Ortega, han acordado reactivar la venta de Telxius Telecom, la filial especializada Read more... The post Telefónica y Amancio Ortega ponen de nuevo a la venta Telxius por 1.200 M€ appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-16T06:07:52+00:00",
-      "ts": 1784182072.0
-    },
-    {
       "title": "Analysis: Nokia’s new AI-RAN platform and Standalone AI-RAN node with Nvidia GPUs",
       "link": "https://techblog.comsoc.org/2026/07/15/analysis-nokias-new-ai-ran-platform-and-standalone-ai-ran-node-with-nvidia-gpus/",
       "summary": "Nokia today announced what it describes as the first commercial AI-RAN platform, signaling a potentially significant inflection point in radio access network architecture. As AI workloads increasingly influence network design and operations, service providers are under pressure to deliver higher capacity, improved...",
@@ -827,22 +886,6 @@
       "relevance": 53,
       "date": "2026-07-15T18:31:01+00:00",
       "ts": 1784140261.0
-    },
-    {
-      "title": "Huawei sharpens imaging focus with Pura 90s Series",
-      "link": "https://www.mobileworldlive.com/devices/huawei-sharpens-imaging-focus-with-pura-90s-series/",
-      "summary": "Huawei unveiled its Pura 90s Series smartphone lineup at a launch event in Kuala Lumpur, Malaysia, placing design and photography upgrades at the centre. The post Huawei sharpens imaging focus with Pura 90s Series appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 23,
-      "date": "2026-07-15T15:48:10+00:00",
-      "ts": 1784130490.0
     },
     {
       "title": "Keysight and Sateliot Secure ESA Award for Blockchain-Anchored 5G NTN Security",
@@ -991,36 +1034,6 @@
       "ts": 1784046239.0
     },
     {
-      "title": "UK teens report wellbeing gains from social media curbs",
-      "link": "https://www.mobileworldlive.com/europe/uk-teens-report-wellbeing-gains-from-social-media-curbs/",
-      "summary": "Research commissioned by the Department for Science, Innovation and Technology found UK teenagers participating in a social media restriction trial reported improvements in sleep, concentration and family life. The post UK teens report wellbeing gains from social media curbs appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-14T15:14:31+00:00",
-      "ts": 1784042071.0
-    },
-    {
-      "title": "South Korea looks to AI-RAN, 5G to fuel future industry",
-      "link": "https://www.mobileworldlive.com/industry/south-korea-looks-to-ai-ran-5g-to-fuel-future-industry/",
-      "summary": "Authorities in South Korea kicked-off a project led by SK Telecom and KT to pilot the use of advanced networks to support robots and other physical AI applications in industrial sites including shipyards and manufacturing facilities. The post South Korea looks to AI-RAN, 5G to fuel future industry appeared first on...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 47,
-      "date": "2026-07-14T15:07:06+00:00",
-      "ts": 1784041626.0
-    },
-    {
       "title": "one6G and 5G-ACIA Strengthen Partnership for the Future of Industrial Wireless Communications",
       "link": "https://one6g.org/one6g-and-5g-acia-strengthen-partnership-for-the-future-of-industrial-wireless-communications/",
       "summary": "The one6G Association (one6G) and the 5G Alliance for Connected Industries and Automation (5G-ACIA) signed a Memorandum of Understanding (MoU) at the 5G-ACIA Plenary in Tokyo in December 2025, establishing a formal framework for strategic collaboration. Building […] The post one6G and 5G-ACIA Strengthen Partnership...",
@@ -1125,6 +1138,20 @@
       "ts": 1783952103.0
     },
     {
+      "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
+      "link": "https://spectrum.ieee.org/nokia-phones-history",
+      "summary": "In 2005, Nokia sold its billionth mobile phone , a budget-friendly device that went to a customer in Nigeria. By then, the company, based in Espoo, Finland, was making one of every three cellphones globally. But just nine years later, the mobile-device maker offloaded its entire handset division to Microsoft for...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 29,
+      "date": "2026-07-13T13:00:01+00:00",
+      "ts": 1783947601.0
+    },
+    {
       "title": "VHF Propagation: What Every RF Engineer Should Know",
       "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
       "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering thephysics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn Why “line of sight” fails as a practical VHF planning model. How refraction, reflection, diffraction, and scattering...",
@@ -1137,20 +1164,6 @@
       "relevance": 35,
       "date": "2026-07-13T10:00:01+00:00",
       "ts": 1783936801.0
-    },
-    {
-      "title": "Qualcomm retreats from small cells with eye on bigger 6G prize",
-      "link": "https://www.lightreading.com/6g/qualcomm-retreats-from-small-cells-with-eye-on-bigger-6g-prize",
-      "summary": "Qualcomm's challenge to Nvidia could encompass 6G radio as it apparently withdraws from some other network activities.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-13T07:30:00+00:00",
-      "ts": 1783927800.0
     },
     {
       "title": "Quantum Sensor Sniffs Out Radio Signals in 3D",
@@ -1416,21 +1429,6 @@
       "relevance": 60,
       "date": "2026-06-03T12:00:02+00:00",
       "ts": 1780488002.0
-    },
-    {
-      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
-      "link": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
-      "summary": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works as a spaceborne cell tower — LEO satellites carry LTE eNodeB payloads in regenerative mode. How they...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-06-02T10:00:02+00:00",
-      "ts": 1780394402.0
     },
     {
       "title": "Deutsche Telekom and Ericsson deploy private 5G network at Hamburg port",
