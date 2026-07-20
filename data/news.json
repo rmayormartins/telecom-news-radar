@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T01:53:57.101796+00:00",
-  "count": 70,
+  "generated_at": "2026-07-20T08:37:07.747437+00:00",
+  "count": 89,
   "theme_counts": {
-    "moveis": 36,
-    "fibra": 8,
-    "antenas": 0,
+    "moveis": 45,
+    "fibra": 10,
+    "antenas": 6,
     "iot": 0,
-    "satelite": 18,
-    "radar_militar": 10,
+    "satelite": 22,
+    "radar_militar": 15,
     "radiocom": 2,
     "tv": 0,
-    "geral": 14
+    "geral": 19
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 0,
     "cn": 2
   },
-  "research_count": 2,
+  "research_count": 21,
   "sources": [
     {
       "source": "Light Reading",
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (27 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (14 itens)",
+      "kept": 5
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (16 itens)",
+      "kept": 1
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (48 itens)",
+      "kept": 5
     },
     {
       "source": "FCC Headlines",
@@ -200,6 +200,298 @@
     }
   ],
   "items": [
+    {
+      "title": "Orange y Vodafone también fuerzan un mensaje de apoyo a la selección española de fútbol",
+      "link": "https://www.mobileworldlive.com/spanish/orange-y-vodafone-tambien-fuerzan-un-mensaje-de-apoyo-a-la-seleccion-espanola-de-futbol/",
+      "summary": "Movistar, Orange y Vodafone han modificado durante los días previos a la final del Mundial de fútbol el identificador de Read more... The post Orange y Vodafone también fuerzan un mensaje de apoyo a la selección española de fútbol appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-20T08:15:33+00:00",
+      "ts": 1784535333.0
+    },
+    {
+      "title": "Duality-Based Fixed Point Iteration Algorithm for Beamforming Design in ISAC Systems",
+      "link": "https://arxiv.org/abs/2510.26147",
+      "summary": "arXiv:2510.26147v2 Announce Type: replace-cross Abstract: In this paper, we investigate the beamforming design problem in an integrated sensing and communication (ISAC) system, where a multi-antenna base station simultaneously serves multiple communication users while performing radar sensing. We formulate the problem...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 73,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Integrated Channel Estimation and Sensing for Near-Field ELAA Systems via Low-Rank Tensor Decomposition",
+      "link": "https://arxiv.org/abs/2601.18333",
+      "summary": "arXiv:2601.18333v2 Announce Type: replace Abstract: In this paper, we study the problem of uplink channel estimation for near-filed orthogonal frequency division multiplexing (OFDM) systems, where a base station (BS), equipped with an extremely large-scale antenna array (ELAA), serves multiple users over the same...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 72,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "DFT-p-FDMA Based Chirp Transmission in CP-OFDM for Unified ISAC Waveform Design",
+      "link": "https://arxiv.org/abs/2607.15575",
+      "summary": "arXiv:2607.15575v1 Announce Type: new Abstract: We propose an integrated sensing and communications (ISAC) framework that supports chirp signal transmission in CP-OFDM-based multiple access communication systems, enabling efficient coexistence of communication and sensing capabilities. Our framework employs the...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 69,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Energy Efficient Active Stacked Intelligent Metasurfaces",
+      "link": "https://arxiv.org/abs/2607.15654",
+      "summary": "arXiv:2607.15654v1 Announce Type: new Abstract: This paper investigates an energy-efficient active stacked intelligent metasurfaces (ASIM)-assisted downlink transmission framework, where a multi-antenna base station (BS) serves multiple users through a multi-layer metasurface architecture. Unlike conventional passive...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 68,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field ISAC with Sparse Connectivity",
+      "link": "https://arxiv.org/abs/2607.15716",
+      "summary": "arXiv:2607.15716v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) at terahertz (THz) frequencies enables ultra-high-resolution perception while facing a key limitation: highly directional THz beams cannot illuminate extended targets within a single beam. Conventional solutions rely on...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 68,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Multibit Quantized Precoding for MU-mMIMO",
+      "link": "https://arxiv.org/abs/2607.15959",
+      "summary": "arXiv:2607.15959v1 Announce Type: new Abstract: We propose a novel multibit quantized precoding method for the downlink of multi-user massive MIMO systems with low-resolution digital-to-analog converters. The new method, termed multibit quantized precoding (MQP), enforces the finite-alphabet constraint through an...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 67,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Split-Aware Function Placement with Availability Guarantees and Optical Provisioning in vRANs",
+      "link": "https://arxiv.org/abs/2607.15816",
+      "summary": "arXiv:2607.15816v1 Announce Type: new Abstract: The rapid evolution of beyond-5G and emerging 6G networks is driving the need for flexible, reliable, and cost-efficient virtualized Radio Access Network (vRAN) architectures capable of supporting heterogeneous services such as enhanced Mobile Broadband (eMBB),...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 67,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Pinching Antenna-Assisted ISAC with Waveguide Mode Selection",
+      "link": "https://arxiv.org/abs/2607.15547",
+      "summary": "arXiv:2607.15547v1 Announce Type: new Abstract: Conventional pinching antenna (PA)-assisted integrated sensing and communication (ISAC) architectures typically assume static receiver locations or predetermined receive waveguides, thereby underutilizing the inherent spatial degrees of freedom. This paper proposes a...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Dual-Security for Indoor OFDM-ISAC Systems via Temporal Artificial Noise",
+      "link": "https://arxiv.org/abs/2607.15710",
+      "summary": "arXiv:2607.15710v1 Announce Type: new Abstract: With the rapid development of integrated sensing and communication (ISAC) as a key enabler for future wireless networks, ensuring the security of both communication and sensing functions has become increasingly important. Current secure ISAC studies focus restrictively...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "LLM-Powered Agentic AI for 5G/6G Networks: A Tutorial and Survey on Architectures, Protocols, and Standardization",
+      "link": "https://arxiv.org/abs/2607.16066",
+      "summary": "arXiv:2607.16066v1 Announce Type: new Abstract: Agentic Artificial Intelligence (AI), enabled by Large Language Models, marks a shift from rule-based automation toward autonomous, goal-driven control of Next-Generation Networks (NGNs). Existing surveys treat the two domains in isolation, leaving protocol integration,...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Seasonal Statistics of Shannon Rate in a Dynamical Poisson-Voronoi Cellular Network",
+      "link": "https://arxiv.org/abs/2605.16560",
+      "summary": "arXiv:2605.16560v3 Announce Type: replace-cross Abstract: In this work we consider a dynamical cellular communication network in which mobile base stations (BSs) are modeled as a homogeneous Poisson point process on $\\mathbb{R}^2$. Each base station moves at a constant speed in a random direction. A typical user...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "StarCodex: Dynamic Coding Harness for Starlink Measurement Analysis and Experiment Automation",
+      "link": "https://arxiv.org/abs/2607.15541",
+      "summary": "arXiv:2607.15541v1 Announce Type: new Abstract: Starlink and other low Earth orbit (LEO) satellite broadband systems are producing increasingly diverse measurement data across regions, time periods, and access conditions. These measurements are valuable for throughput prediction, adaptive bitrate (ABR) evaluation, and...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "GII-Polar Codes for Block Fading Channels",
+      "link": "https://arxiv.org/abs/2607.03919",
+      "summary": "arXiv:2607.03919v2 Announce Type: replace Abstract: Polar codes are proven to be capacity-achieving codes, being gradually practiced in wireless communications. However, their successive cancellation (SC) and successive cancellation list (SCL) decoding incur latency challenge especially for long codes. This paper...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Converging Safety and Security: IO-Link Wireless and OPC UA over 5G under prEN 50742",
+      "link": "https://arxiv.org/abs/2607.15840",
+      "summary": "arXiv:2607.15840v1 Announce Type: new Abstract: The integration of wireless communication technologies in industrial automation offers greater flexibility, but also exposes safety systems to a broader threat vector. Emerging regulations, such as the draft standard prEN 50742, mandate the convergence of functional...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Gaussian behaviors and stochastic data-driven control",
+      "link": "https://arxiv.org/abs/2607.15949",
+      "summary": "arXiv:2607.15949v1 Announce Type: new Abstract: We propose a stochastic behavioral modeling framework, termed Gaussian behaviors, which augments a deterministic linear time-invariant (LTI) behavior with a Gaussian noise component. We show that this notion is a tractable subclass of stochastic behaviors and encompasses...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Learning a System-Level Surrogate for Hydraulic Excavators: A Simulation-to-Real LSTM Approach",
+      "link": "https://arxiv.org/abs/2607.15656",
+      "summary": "arXiv:2607.15656v1 Announce Type: cross Abstract: Developing autonomous hydraulic excavators is constrained by limited access to physical machines and the high cost of real-world experimentation. This paper proposes a simulation-to-real framework for learning a system-level digital surrogate using Long Short-Term...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Robust Path Following Control for Vehicles with Uncertain Steering Resistance Using Model Error Compensation",
+      "link": "https://arxiv.org/abs/2604.19248",
+      "summary": "arXiv:2604.19248v2 Announce Type: replace Abstract: This paper presents a robust path following control method for vehicles that explicitly incorporates steering torque dynamics into the control model. Unlike conventional approaches that treat the steering angle as a direct control input, this study models the...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "App-Based Performance Characterization of Cellular and Wi-Fi Networks in Dense Stadium Deployments",
+      "link": "https://arxiv.org/abs/2607.16008",
+      "summary": "arXiv:2607.16008v1 Announce Type: new Abstract: The concentration of 77,622 spectators during football games at Notre Dame Stadium creates an exceptionally demanding environment for wireless infrastructure. To handle this extreme user density, the stadium deploys concurrent multi-tier networks serving outdoor users:...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
+    {
+      "title": "Label-Free Concept Drift Assessment for Reliable AI in Emerging Wireless Applications",
+      "link": "https://arxiv.org/abs/2508.00042",
+      "summary": "arXiv:2508.00042v2 Announce Type: replace Abstract: Machine learning models deployed in non-stationary environments degrade silently, since as the input distribution drifts their accuracy decays without an error signal and without labels to reveal it. Sustaining reliable AI therefore requires a concept-drift detector...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-20T04:00:00+00:00",
+      "ts": 1784520000.0
+    },
     {
       "title": "Jio’s LEO satellite constellation authorized by IN-SPACe: 5 Tbps over India with 3GPP Rel 17 and 18 NTN Alignment",
       "link": "https://techblog.comsoc.org/2026/07/19/jios-leo-satellite-constellation-authorized-by-in-space-5-tbps-over-india-with-3gpp-ntn-alignment/",
@@ -636,20 +928,6 @@
       "relevance": 43,
       "date": "2026-07-15T12:36:07+00:00",
       "ts": 1784118967.0
-    },
-    {
-      "title": "Nokia asserts AI-RAN leadership",
-      "link": "https://www.mobileworldlive.com/nokia/nokia-asserts-ai-ran-leadership/",
-      "summary": "Nokia promised significant hikes in spectral efficiency over the next two years as it launched an AI-native RAN platform which relies heavily on Nvidia systems. The post Nokia asserts AI-RAN leadership appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-15T11:01:23+00:00",
-      "ts": 1784113283.0
     },
     {
       "title": "Nokia says long-term 6G is not doable without Nvidia",
