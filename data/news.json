@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T13:46:10.970260+00:00",
-  "count": 94,
+  "generated_at": "2026-07-20T19:23:04.240863+00:00",
+  "count": 95,
   "theme_counts": {
-    "moveis": 48,
+    "moveis": 45,
     "fibra": 12,
     "antenas": 6,
     "iot": 0,
@@ -10,16 +10,16 @@
     "radar_militar": 14,
     "radiocom": 2,
     "tv": 0,
-    "geral": 18
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 9,
+    "in": 8,
     "jp": 2,
     "kr": 0,
-    "cn": 2
+    "cn": 3
   },
   "research_count": 21,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,65 @@
     }
   ],
   "items": [
+    {
+      "title": "UK Government Faces £340 Million Paper Loss on Legacy OneWeb Low Earth Orbit Satellite Investment",
+      "link": "https://satnews.com/2026/07/20/uk-government-faces-340-million-paper-loss-on-legacy-oneweb-low-earth-orbit-satellite-investment/",
+      "summary": "On Monday, July 20, 2026, financial reviews highlighted a significant valuation decline in the United Kingdom government’s sovereign stake in satellite operator Eutelsat OneWeb. According to a report published by […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-20T16:47:41+00:00",
+      "ts": 1784566061.0
+    },
+    {
+      "title": "Car connectivity opportunities on the up",
+      "link": "https://www.mobileworldlive.com/industry/car-connectivity-opportunities-on-the-up/",
+      "summary": "Berg Insight tipped connected vehicles to become a growing opportunity for operators as strategies by manufacturers to boost the number of drivers accessing embedded connectivity services pay off. The post Car connectivity opportunities on the up appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-20T15:45:31+00:00",
+      "ts": 1784562331.0
+    },
+    {
+      "title": "FCC IDs three bands for unlicensed D2D",
+      "link": "https://www.lightreading.com/satellite/fcc-ids-three-bands-for-unlicensed-d2d",
+      "summary": "The FCC's proposal to bring D2D connectivity to unlicensed wireless devices initially keys on three spectrum bands that are already being used for Wi-Fi, Bluetooth and other unlicensed use cases.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-07-20T15:08:38+00:00",
+      "ts": 1784560118.0
+    },
+    {
+      "title": "Huawei, China Unicom launch ‘world’s largest’ 5G-A network in Beijing",
+      "link": "https://www.datacenterdynamics.com/en/news/huawei-china-unicom-launch-worlds-largest-5g-a-network-in-beijing/",
+      "summary": "More than 10,000 base stations powering ‘seamless’ uplink for AI smart glasses workloads",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 57,
+      "date": "2026-07-20T13:51:00+00:00",
+      "ts": 1784555460.0
+    },
     {
       "title": "TRAI Drive Test: Airtel Leads Coverage and Upload Speeds, Reliance Jio Tops 5G Downloads in Virudhunagar and Tenkasi",
       "link": "https://telecomlead.com/4g-lte/trai-drive-test-airtel-leads-coverage-and-upload-speeds-reliance-jio-tops-5g-downloads-in-virudhunagar-and-tenkasi-126822",
@@ -261,20 +320,6 @@
       "relevance": 43,
       "date": "2026-07-20T12:58:13+00:00",
       "ts": 1784552293.0
-    },
-    {
-      "title": "GCI expands 5G network coverage in Alaska",
-      "link": "https://www.datacenterdynamics.com/en/news/gci-expands-5g-network-coverage-in-alaska/",
-      "summary": "As telco pushes to move customers away from legacy networks",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-20T12:20:42+00:00",
-      "ts": 1784550042.0
     },
     {
       "title": "Singapore urges transparency from genAI players",
@@ -731,23 +776,6 @@
       "ts": 1784315025.0
     },
     {
-      "title": "Jio Platforms Q1 FY27 Results: Revenue Rises 12%, EBITDA Hits Record ₹20,865 Crore as 5G Users Reach 285 mn",
-      "link": "https://telecomlead.com/5g/jio-platforms-q1-fy27-results-revenue-rises-12-ebitda-hits-record-%e2%82%b920865-crore-as-5g-users-reach-285-mn-126807",
-      "summary": "Jio Platforms delivered another quarter of strong growth in Q1 FY27, driven by higher subscriber additions, expanding digital services, rising customer engagement, and leadership in India’s 5G and fixed broadband markets. Jio Platforms reported revenue of ₹45,961 crore, an increase of 12 percent year-on-year, while...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 49,
-      "date": "2026-07-17T16:02:30+00:00",
-      "ts": 1784304150.0
-    },
-    {
       "title": "Beyond agent mania – The architecture shift reshaping the telco industry",
       "link": "https://www.lightreading.com/6g/beyond-agent-mania-the-architecture-shift-reshaping-the-telco-industry",
       "summary": "As 6G standards evolve, operators are beginning to layer autonomous capabilities, but selectivity, not blanket adoption, will determine AI-native success.",
@@ -934,6 +962,20 @@
       "ts": 1784216216.0
     },
     {
+      "title": "Zixi, Comcast unit team on C-band alternative",
+      "link": "https://www.lightreading.com/video-broadcast/zixi-comcast-unit-team-on-c-band-alternative",
+      "summary": "Zixi and Comcast Technology Solutions (CTS) have partnered to provide a video distribution alternative amid the coming upper C-band auction that integrates Zixi's software and the Comcast Media360 platform. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-16T14:15:54+00:00",
+      "ts": 1784211354.0
+    },
+    {
       "title": "Eurobites: Vodafone, Nokia go network slicing in Albania",
       "link": "https://www.lightreading.com/5g/eurobites-vodafone-nokia-go-network-slicing-in-albania",
       "summary": "Also in today's EMEA regional roundup: Tele2's Q2; VodafoneThree says UK mobile market is 'out of balance'; Scaleway lands Airbus cloud contract.",
@@ -978,20 +1020,6 @@
       "ts": 1784194621.0
     },
     {
-      "title": "Viasat et BMW réussissent un premier appel vocal par satellite en voiture",
-      "link": "https://www.mobileworldlive.com/french/viasat-et-bmw-reussissent-un-premier-appel-vocal-par-satellite-en-voiture/",
-      "summary": "Décidé à donner un rôle plus important à la connectivité non terrestre (NTN) dans les voitures connectées, Viasat revendique une Read more... The post Viasat et BMW réussissent un premier appel vocal par satellite en voiture appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-16T08:37:10+00:00",
-      "ts": 1784191030.0
-    },
-    {
       "title": "Analysis: Nokia’s new AI-RAN platform and Standalone AI-RAN node with Nvidia GPUs",
       "link": "https://techblog.comsoc.org/2026/07/15/analysis-nokias-new-ai-ran-platform-and-standalone-ai-ran-node-with-nvidia-gpus/",
       "summary": "Nokia today announced what it describes as the first commercial AI-RAN platform, signaling a potentially significant inflection point in radio access network architecture. As AI workloads increasingly influence network design and operations, service providers are under pressure to deliver higher capacity, improved...",
@@ -1004,6 +1032,20 @@
       "relevance": 53,
       "date": "2026-07-16T00:42:52+00:00",
       "ts": 1784162572.0
+    },
+    {
+      "title": "Liberty Puerto Rico taps Aurora Networks for remote MACPHY deployment",
+      "link": "https://www.lightreading.com/cable-technology/liberty-puerto-rico-taps-aurora-networks-for-remote-macphy-deployment",
+      "summary": "Aurora Networks, a unit of Vistance Networks, has won a deal to supply remote MACPHY devices to Liberty Puerto Rico to support the operator's distributed access architecture (DAA) strategy. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-07-15T14:58:09+00:00",
+      "ts": 1784127489.0
     },
     {
       "title": "Nokia launches AI-RAN platform",
@@ -1110,34 +1152,6 @@
       "ts": 1784030772.0
     },
     {
-      "title": "CTIA's AI report makes an accidental case for Wi-Fi and CBRS",
-      "link": "https://www.lightreading.com/ai-machine-learning/ctia-s-ai-report-makes-an-accidental-case-for-wi-fi-and-cbrs",
-      "summary": "The trade group wants 275MHz of Wi-Fi spectrum to carry AI traffic. Analyst Dean Bubley says the report's own examples argue for CBRS and local networks.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-14T10:00:00+00:00",
-      "ts": 1784023200.0
-    },
-    {
-      "title": "Can network sharing rescue the 6G business case?",
-      "link": "https://www.lightreading.com/6g/can-network-sharing-rescue-the-6g-business-case",
-      "summary": "Telcos spend heavily to eliminate costs yet cling to facilities-based competition. Ahead of 6G, embracing network sharing may be a survival move.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-14T10:00:00+00:00",
-      "ts": 1784023200.0
-    },
-    {
       "title": "AT&T/Ericsson Demonstrate 5G-Based ISAC for Drone Detection at World Cup Stadium",
       "link": "https://techblog.comsoc.org/2026/07/13/att-and-ericsson-demonstrate-5g-based-isac-for-drone-detection-at-world-cup-stadium/",
       "summary": "AT&T and Ericsson recently demonstrated the potential of 5G as a platform for integrated sensing and communications (ISAC) [1.] in support of critical infrastructure protection and public safety. The demonstration, conducted at a World Cup stadium near Dallas, TX highlights how cellular networks can evolve into...",
@@ -1151,20 +1165,6 @@
       "relevance": 73,
       "date": "2026-07-13T21:02:16+00:00",
       "ts": 1783976536.0
-    },
-    {
-      "title": "Even with bigger birds, Starlink still 'best suited to low-density markets' – study",
-      "link": "https://www.lightreading.com/satellite/even-with-bigger-birds-starlink-still-best-suited-to-low-density-markets-study",
-      "summary": "As the new V3 satellite nears deployment, Starlink is poised to tack on gobs of capacity. But even with the V3, Starlink will skew to low-density markets in the US and beyond, says a new study.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-13T17:41:33+00:00",
-      "ts": 1783964493.0
     },
     {
       "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
@@ -1446,20 +1446,6 @@
       "ts": 0
     },
     {
-      "title": "T-Mobile’s 5G ‘refresh’ triggers customer backlash",
-      "link": "https://www.fierce-network.com/wireless/t-mobiles-5g-plan-refresh-triggers-customer-backlash",
-      "summary": "T-Mobile's forced migration to newer rate plans is sparking consumer backlash and new questions about whether the \"un-carrier\" has become just another carrier.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Silo Communications expands fiber connectivity in rural Illinois with Adtran",
       "link": "https://www.fierce-network.com/newswire/silo-communications-expands-fiber-connectivity-rural-illinois-adtran",
       "summary": "As demand for reliable broadband continues to grow across communities, Silo Communications is building on its wireless heritage with a scalable fiber network designed to support higher speeds, stronger service reliability and future expansion.",
@@ -1484,6 +1470,34 @@
       "research": false,
       "countries": [],
       "relevance": 43,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "EchoStar off hook for operating own mobile network",
+      "link": "https://www.fierce-network.com/wireless/echostar-hook-operating-own-mobile-network",
+      "summary": "EchoStar is officially off the hook for building and running its own mobile network as Dish Wireless heads back to bankruptcy court this week.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AT&T takes multi-prong approach to get out of California landline phone business",
+      "link": "https://www.fierce-network.com/broadband/att-takes-multi-prong-approach-get-out-california-landline-phone-business",
+      "summary": "One consumer advocacy group says AT&T has not provided any data or proof that its alternative telephone technology works in California’s most remote areas.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1516,6 +1530,34 @@
       "ts": 0
     },
     {
+      "title": "e& UAE and Core42 team to launch sovereign AI infrastructure",
+      "link": "https://www.fierce-network.com/newswire/e-uae-and-core42-team-launch-sovereign-ai-infrastructure",
+      "summary": "The telco is teaming up with AI infrastructure provider Core42 to offer sovereign cloud services to enterprises in the UAE.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Cirion turns to agentic AI to optimize its Latin America network",
+      "link": "https://www.fierce-network.com/broadband/cirion-turns-agentic-ai-optimize-its-latin-america-network",
+      "summary": "Cirion put Grokstream's Grok AIOps into production across 105,000 km of Latin American fiber, cutting alarm noise up to 92% and flagging faults early.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "AT&T, Palo Alto Networks launch quantum-resilient SASE fabric",
       "link": "https://www.fierce-network.com/cloud/att-palo-alto-networks-launch-quantum-resilient-sase-fabric",
       "summary": "Palo Alto Networks and AT&T Business have launched Secure Connectivity solutions for Business Customers.",
@@ -1536,34 +1578,6 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AI's power crunch is forcing data centers into unconventional places",
-      "link": "https://www.fierce-network.com/cloud/ais-power-crunch-forcing-data-centers-unconventional-places",
-      "summary": "Alternative data center models are attracting attention as AI strains traditional infrastructure, but significant technical, networking and economic hurdles remain.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Ericsson reports 2Q 2026 results",
-      "link": "https://www.fierce-network.com/newswire/ericsson-reports-2q-2026-results",
-      "summary": "Adjusted gross margin of 48.4%, supported by solid operational execution and improved margins in Mobile Networks.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
