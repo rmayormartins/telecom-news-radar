@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-21T13:13:59.437740+00:00",
-  "count": 100,
+  "generated_at": "2026-07-21T19:01:34.658399+00:00",
+  "count": 95,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 11,
+    "moveis": 44,
+    "fibra": 10,
     "antenas": 12,
     "iot": 0,
-    "satelite": 17,
-    "radar_militar": 13,
+    "satelite": 16,
+    "radar_militar": 12,
     "radiocom": 2,
     "tv": 0,
-    "geral": 28
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 6,
+    "in": 3,
     "jp": 4,
     "kr": 2,
     "cn": 3
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 12
+      "kept": 10
     },
     {
       "source": "Telecoms.com",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,34 @@
     }
   ],
   "items": [
+    {
+      "title": "Freshwave adds DAS of 4G to UK hospital",
+      "link": "https://www.mobileworldlive.com/industry/freshwave-adds-das-of-4g-to-uk-hospital/",
+      "summary": "Infrastructure-as-a-service provider Freshwave advanced UK medical connectivity ambitions with its latest installation of 4G in a hospital, a move it indicated could all-but eliminate billions of pounds in lost value for the healthcare sector. The post Freshwave adds DAS of 4G to UK hospital appeared first on Mobile...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-21T15:54:18+00:00",
+      "ts": 1784649258.0
+    },
+    {
+      "title": "Freshwave deploys 4G DAS at Chelsea and Westminster Hospital",
+      "link": "https://www.datacenterdynamics.com/en/news/freshwave-deploys-4g-das-at-chelsea-and-westminster-hospital/",
+      "summary": "The DAS provides all operator 4G connectivity",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-07-21T14:00:41+00:00",
+      "ts": 1784642441.0
+    },
     {
       "title": "Is spectrum SpaceX's ticket to an MVNO deal?",
       "link": "https://www.lightreading.com/satellite/is-spectrum-spacex-s-ticket-to-an-mvno-deal-",
@@ -826,54 +854,6 @@
       "ts": 1784566061.0
     },
     {
-      "title": "TRAI Drive Test: Airtel Leads Coverage and Upload Speeds, Reliance Jio Tops 5G Downloads in Virudhunagar and Tenkasi",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-airtel-leads-coverage-and-upload-speeds-reliance-jio-tops-5g-downloads-in-virudhunagar-and-tenkasi-126822",
-      "summary": "Airtel and Reliance Jio emerged as the top-performing mobile network operators in the latest Telecom Regulatory Authority of India (TRAI) drive test conducted across Virudhunagar and Tenkasi districts in Tamil Nadu during June 2026. Airtel delivered the best network coverage, zero dropped calls alongside Jio, and the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 54,
-      "date": "2026-07-20T13:11:28+00:00",
-      "ts": 1784553088.0
-    },
-    {
-      "title": "TRAI Drive Test: Vodafone Idea Excels in Coverage, Reliance Jio Leads 5G Speeds Across Mumbai Mobile Networks",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-vodafone-idea-excels-in-coverage-reliance-jio-leads-5g-speeds-across-mumbai-mobile-networks-126820",
-      "summary": "Reliance Jio and Vodafone Idea emerged as the strongest performers in the latest Telecom Regulatory Authority of India (TRAI) drive test conducted across Mumbai during June 2026. While Vodafone Idea delivered the best network coverage with the fewest poor signal samples, Reliance Jio dominated 5G download and upload...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 54,
-      "date": "2026-07-20T13:08:58+00:00",
-      "ts": 1784552938.0
-    },
-    {
-      "title": "TRAI Drive Test: Reliance Jio Leads 5G Performance Across Bhopal, Indore-Neemuch and Bilaspur-Ambikapur Routes",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-leads-5g-performance-across-bhopal-indore-neemuch-and-bilaspur-ambikapur-routes-126816",
-      "summary": "Reliance Jio has delivered the strongest overall mobile network performance in the latest Telecom Regulatory Authority of India (TRAI) drive test conducted across Bhopal city, the Indore-Neemuch highway, and the Bilaspur-Ambikapur highway during June 2026. The drive test evaluated the real-world quality of voice and...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 54,
-      "date": "2026-07-20T13:02:55+00:00",
-      "ts": 1784552575.0
-    },
-    {
       "title": "Malaysia seeks proposals for $489M Salam subsea cable system",
       "link": "https://www.lightreading.com/cable-technology/malaysia-seeks-proposals-for-489m-salam-subsea-cable-system",
       "summary": "The planned 5,582 kilometer Salam subsea cable project will connect Peninsular Malaysia, Sabah and Sarawak. The $489 million project is expected to take two to three years to complete.",
@@ -900,20 +880,6 @@
       "relevance": 31,
       "date": "2026-07-20T11:01:17+00:00",
       "ts": 1784545277.0
-    },
-    {
-      "title": "TIM takeover bid goes live after board backing",
-      "link": "https://www.mobileworldlive.com/europe/tim-takeover-bid-goes-live-after-board-backing/",
-      "summary": "Poste Italiane opened a tender offer to buy out shareholders of Telecom Italia, after the operator’s board endorsed the price and rationale as being fair over the weekend. The post TIM takeover bid goes live after board backing appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-07-20T10:37:07+00:00",
-      "ts": 1784543827.0
     },
     {
       "title": "Feature: Ericsson smart factory is where AI meets US-made 5G",
@@ -944,21 +910,6 @@
       "relevance": 63,
       "date": "2026-07-20T01:12:51+00:00",
       "ts": 1784509971.0
-    },
-    {
-      "title": "Space Force Declares Return to U.S. Electromagnetic Spectrum Dominance Following Iran Operations",
-      "link": "https://satnews.com/2026/07/19/space-force-declares-return-to-u-s-electromagnetic-spectrum-dominance-following-iran-operations/",
-      "summary": "On Friday, July 17, 2026, the commander of the U.S. Space Force (USSF) Combat Forces Command declared that recent multi-domain joint deployments in the Middle East mark a decisive return […]",
-      "source": "SatNews",
-      "themes": [
-        "radar_militar",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-07-19T16:55:56+00:00",
-      "ts": 1784480156.0
     },
     {
       "title": "HawkEye 360 Details Tactical Direct Downlink in Valiant Shield Exercise",
@@ -1532,20 +1483,6 @@
       "ts": 0
     },
     {
-      "title": "NTIA announces funding opp for AI-native wireless network innovation",
-      "link": "https://www.fierce-network.com/newswire/ntia-announces-funding-opp-ai-native-wireless-network-innovation",
-      "summary": "NTIA is making up to $53 million available to accelerate the development, testing, and commercialization, of secure, American-led AI‑enabled Radio Access Network (RAN) architecture.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "EchoStar off hook for operating own mobile network",
       "link": "https://www.fierce-network.com/wireless/echostar-hook-operating-own-mobile-network",
       "summary": "EchoStar is officially off the hook for building and running its own mobile network as Dish Wireless heads back to bankruptcy court this week.",
@@ -1636,20 +1573,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Comcast, AT&T duke it out with utilities over pole attachments",
-      "link": "https://www.fierce-network.com/broadband/comcast-att-duke-it-out-utilities-over-pole-attachments",
-      "summary": "The FCC has instituted new rules and regulations to expedite pole attachment issues for broadband deployers. But utilities aren't going along.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
