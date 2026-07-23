@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T13:21:54.003382+00:00",
-  "count": 106,
+  "generated_at": "2026-07-23T18:57:24.968200+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 48,
-    "fibra": 15,
+    "moveis": 44,
+    "fibra": 16,
     "antenas": 14,
     "iot": 2,
-    "satelite": 22,
-    "radar_militar": 11,
+    "satelite": 23,
+    "radar_militar": 10,
     "radiocom": 2,
     "tv": 1,
     "geral": 26
@@ -16,12 +16,12 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
-    "jp": 5,
-    "kr": 3,
+    "in": 2,
+    "jp": 6,
+    "kr": 4,
     "cn": 2
   },
-  "research_count": 29,
+  "research_count": 28,
   "sources": [
     {
       "source": "Light Reading",
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -126,7 +126,7 @@
     {
       "source": "One6G",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "6G-IA",
@@ -201,18 +201,48 @@
   ],
   "items": [
     {
-      "title": "FCC sets out vision for C-band spectrum auction next year",
-      "link": "https://www.datacenterdynamics.com/en/news/fcc-sets-out-vision-for-c-band-spectrum-auction-next-year/",
-      "summary": "Aims to auction 160MHz of spectrum in the Upper C-band by July 2027",
-      "source": "DataCenterDynamics",
+      "title": "Highlights from Ookla’s U.S. Speedtest Connectivity Report-Mobile & Fixed Networks",
+      "link": "https://techblog.comsoc.org/2026/07/23/highlights-from-ooklas-u-s-speedtest-connectivity-report-mobile-fixed-networks/",
+      "summary": "Executive Summary: Ookla’s United States Speedtest Connectivity Report H1 2026 provides a detailed snapshot of network performance across the U.S. mobile and fixed broadband markets, based on Speedtest Intelligence data. The findings point to a competitive landscape in which T-Mobile continued to distinguish itself in...",
+      "source": "IEEE ComSoc Tech Blog",
       "themes": [
-        "geral"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 47,
-      "date": "2026-07-23T13:00:30+00:00",
-      "ts": 1784811630.0
+      "relevance": 49,
+      "date": "2026-07-23T18:36:10+00:00",
+      "ts": 1784831770.0
+    },
+    {
+      "title": "T-Mobile looks to new JV for D2D but still tied to Starlink",
+      "link": "https://www.lightreading.com/satellite/t-mobile-looks-to-new-jv-for-d2d-but-still-tied-to-starlink",
+      "summary": "T-Mobile CEO Srini Gopalan said D2D joint venture with AT&T and Verizon is 'progressing rapidly' to an agreement but it's still exclusive with Starlink.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-23T16:47:23+00:00",
+      "ts": 1784825243.0
+    },
+    {
+      "title": "Vecima, Furukawa Electric team on FTTP in Japan",
+      "link": "https://www.lightreading.com/broadband/vecima-furukawa-electric-team-on-fttp-in-japan",
+      "summary": "Furukawa Electric has become a preferred partner for providing Vecima's fiber-to-the-premises gear to Japanese operators, starting with 10G-EPON products. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 52,
+      "date": "2026-07-23T16:43:36+00:00",
+      "ts": 1784825016.0
     },
     {
       "title": "LTN Crosses 3,000 Satellite-to-IP Migrations Following FCC Action on Upper C-Band Spectrum",
@@ -258,6 +288,20 @@
       "relevance": 41,
       "date": "2026-07-23T10:55:38+00:00",
       "ts": 1784804138.0
+    },
+    {
+      "title": "High risk vendor rip out could cost EU up to €40B",
+      "link": "https://www.mobileworldlive.com/network-tech/high-risk-vendor-rip-out-could-cost-eu-up-to-e40b/",
+      "summary": "GSMA Intelligence estimated the cost of replacing equipment made by so-called high risk vendors from telecoms networks in Europe will cost between €30 billion to €40 billion, based on data from operators representing almost half of the market. The post High risk vendor rip out could cost EU up to €40B appeared first...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-23T10:05:31+00:00",
+      "ts": 1784801131.0
     },
     {
       "title": "KPN Q2 2026 Results: Revenue Drops 0.5%, Fiber Revenue Rises 7.7%, Fiber Connections Reach 4.74 mn",
@@ -911,22 +955,6 @@
       "ts": 1784722821.0
     },
     {
-      "title": "TRAI Drive Test: Reliance Jio Leads Mobile Network Performance in Mizoram, Airtel Follows with Strong 5G Speeds",
-      "link": "https://telecomlead.com/4g-lte/trai-drive-test-reliance-jio-leads-mobile-network-performance-in-mizoram-airtel-follows-with-strong-5g-speeds-126862",
-      "summary": "Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted across Lunglei, Lawngtlai and Siaha districts in Mizoram during May 20-23, 2026, revealing significant differences in mobile network performance among Airtel, Reliance Jio, BSNL and Vodafone Idea (Vi). The drive test...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 56,
-      "date": "2026-07-22T11:58:15+00:00",
-      "ts": 1784721495.0
-    },
-    {
       "title": "Miami broadband speed is slowest among US cities – Ookla",
       "link": "https://www.lightreading.com/broadband/miami-broadband-speed-is-slowest-among-us-cities-ookla",
       "summary": "At 113.51 Mbit/s, Miami claims the slowest median fixed download speed of any US city, according to Ookla's latest connectivity report. Miami's fastest ISP is AT&T Fiber, which again ranked as the fastest fixed network in the US.",
@@ -1090,20 +1118,6 @@
       "ts": 1784631112.0
     },
     {
-      "title": "Telefonica breathes healthcare purpose into AI",
-      "link": "https://www.mobileworldlive.com/industry/telefonica-breathes-healthcare-purpose-into-ai/",
-      "summary": "Telefonica Tech advanced the march of applied AI through a deal with a global healthcare technology player covering X-ray processes which the operator believes could boost early detection of various ills. The post Telefonica breathes healthcare purpose into AI appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-21T10:43:18+00:00",
-      "ts": 1784630598.0
-    },
-    {
       "title": "1Finity ramps open RAN at Rakuten Mobile and beyond",
       "link": "https://www.lightreading.com/open-ran/1finity-ramps-open-ran-at-rakuten-mobile-and-beyond",
       "summary": "Rakuten Mobile completes rollout of 1Finity's 5G radios and plans to deploy the vendor's massive MIMO radios in a rare sign of positivity for open RAN.",
@@ -1205,34 +1219,6 @@
       "relevance": 59,
       "date": "2026-07-17T11:20:43+00:00",
       "ts": 1784287243.0
-    },
-    {
-      "title": "GCI expands 5G coverage in Alaska",
-      "link": "https://www.lightreading.com/5g/gci-expands-5g-coverage-in-alaska",
-      "summary": "GCI has expanded 5G coverage to about 83% of Alaskans in more than 125 communities in the state. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-16T21:00:00+00:00",
-      "ts": 1784235600.0
-    },
-    {
-      "title": "Zixi, Comcast unit team on C-band alternative",
-      "link": "https://www.lightreading.com/video-broadcast/zixi-comcast-unit-team-on-c-band-alternative",
-      "summary": "Zixi and Comcast Technology Solutions (CTS) have partnered to provide a video distribution alternative amid the coming upper C-band auction that integrates Zixi's software and the Comcast Media360 platform. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-16T14:15:54+00:00",
-      "ts": 1784211354.0
     },
     {
       "title": "Eurobites: Vodafone, Nokia go network slicing in Albania",
@@ -1472,21 +1458,6 @@
       "ts": 1783378099.0
     },
     {
-      "title": "Analysis: Cohere’s $28M U.S. DoD FutureG ISAC contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT standards outlook",
-      "link": "https://techblog.comsoc.org/2026/07/02/analysis-coheres-28m-u-s-dod-futureg-isac-contract-otfs-vs-ofdm-6g-imt-2030-standards-outlook/",
-      "summary": "Executive Summary: Cohere Technologies has won a $28 million U.S. government contract funded by the FutureG Office within the U.S. Department of War (previously called the Defense Department or DoD) to develop a multi-waveform RAN prototype for integrated sensing and communications (ISAC), with Cohere’s Zak-OTFS as a...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-07-03T00:43:19+00:00",
-      "ts": 1783039399.0
-    },
-    {
       "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
       "link": "https://circleid.com/posts/the-economics-of-spacex-can-starlink-justify-a-2-trillion-valuation",
       "summary": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for investors.",
@@ -1574,18 +1545,18 @@
       "ts": 1781112003.0
     },
     {
-      "title": "one6G Supports IEEE Communications Standards Magazine Special Issue on empowering robotics with 6G",
-      "link": "https://one6g.org/one6g-supports-ieee-communications-standards-magazine-special-issue-on-empowering-robotics-with-6g/",
-      "summary": "one6G is pleased to highlight the IEEE Communications Standards Magazine special issue, “Empowering Robotics With 6G: Connectivity, Intelligence, and Beyond.” Guest-edited by Mona Ghassemian, Kaspar Althoefer, Aryan Kaushik, Mahdi Tavakoli, Douwe Dresscher, and Xueli An, this publication […] The post one6G Supports...",
-      "source": "One6G",
+      "title": "T-Mobile eyes C-band, 2.7 GHz to shore up 5G edge",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-eyes-c-band-27-ghz-shore-5g-edge",
+      "summary": "T-Mobile CEO Srini Gopalan says it’s too early to tell which one will be more attractive.",
+      "source": "Fierce Network",
       "themes": [
         "moveis"
       ],
       "research": false,
       "countries": [],
       "relevance": 53,
-      "date": "2026-06-08T18:47:01+00:00",
-      "ts": 1780944421.0
+      "date": null,
+      "ts": 0
     },
     {
       "title": "Dell’Oro: Global RAN market finds stability as 5G, AI-RAN and early 6G investments take hold",
@@ -1630,20 +1601,6 @@
       "ts": 0
     },
     {
-      "title": "EchoStar off hook for operating own mobile network",
-      "link": "https://www.fierce-network.com/wireless/echostar-hook-operating-own-mobile-network",
-      "summary": "EchoStar is officially off the hook for building and running its own mobile network as Dish Wireless heads back to bankruptcy court this week.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Ericsson, LG Uplus target network-based voice AI for smarter calling",
       "link": "https://www.fierce-network.com/wireless/ericsson-lg-uplus-target-network-based-voice-ai-smarter-calling",
       "summary": "Ericsson and LG Uplus are moving voice AI deeper into telecom networks, but have their work cut out for them to overcome privacy, latency and consent hurdles.",
@@ -1674,16 +1631,46 @@
       "ts": 0
     },
     {
-      "title": "AT&T takes multi-prong approach to get out of California landline phone business",
-      "link": "https://www.fierce-network.com/broadband/att-takes-multi-prong-approach-get-out-california-landline-phone-business",
-      "summary": "One consumer advocacy group says AT&T has not provided any data or proof that its alternative telephone technology works in California’s most remote areas.",
+      "title": "AMD's Helios bets AI networking on open Ethernet",
+      "link": "https://www.fierce-network.com/cloud/amds-helios-bets-ai-networking-open-ethernet",
+      "summary": "AMD launches its Helios AI rack on open Ethernet networking, claiming 30% better token economics than Nvidia as gigawatt customer deals mount.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nokia bets on AI supercycle as demand drives strong second quarter",
+      "link": "https://www.fierce-network.com/wireless/nokia-bets-ai-supercycle-demand-drives-strong-second-quarter",
+      "summary": "Nokia's AI and cloud networking business more than doubled in Q2, helping the vendor beat expectations even as it ramps up a costly restructuring effort.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "SK Telecom spins up SK Hyper for 15GW AI data center buildout",
+      "link": "https://www.fierce-network.com/cloud/sk-telecom-spins-sk-hyper-15gw-ai-data-center-buildout",
+      "summary": "Korean operator SK Telecom launched a new subsidiary dedicated to its AI data center ambitions.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1722,20 +1709,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Cirion turns to agentic AI to optimize its Latin America network",
-      "link": "https://www.fierce-network.com/broadband/cirion-turns-agentic-ai-optimize-its-latin-america-network",
-      "summary": "Cirion put Grokstream's Grok AIOps into production across 105,000 km of Latin American fiber, cutting alarm noise up to 92% and flagging faults early.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
