@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-24T08:05:31.557068+00:00",
-  "count": 106,
+  "generated_at": "2026-07-24T13:15:27.633563+00:00",
+  "count": 108,
   "theme_counts": {
     "moveis": 43,
     "fibra": 16,
-    "antenas": 5,
+    "antenas": 4,
     "iot": 1,
     "satelite": 20,
     "radar_militar": 9,
     "radiocom": 2,
     "tv": 1,
-    "geral": 32
+    "geral": 35
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
-    "jp": 6,
-    "kr": 5,
-    "cn": 2
+    "in": 3,
+    "jp": 5,
+    "kr": 4,
+    "cn": 1
   },
   "research_count": 30,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -185,7 +185,7 @@
     },
     {
       "source": "Advanced Television",
-      "status": "ERRO: HTTP Error 500: Internal Server Error",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "AT&T Cuts AI Inference Costs by 90%, Processes 45 bn Daily AI Tokens as Enterprise Network Expands Across 200 Countries",
+      "link": "https://telecomlead.com/5g/att-cuts-ai-inference-costs-by-90-processes-45-bn-daily-ai-tokens-as-enterprise-network-expands-across-200-countries-126912",
+      "summary": "AT&T is accelerating its artificial intelligence and enterprise connectivity strategy with a combination of AI cost optimization, high-performance networking, and advanced wireless infrastructure. The telecom operator has introduced an AI tokenomics framework that has reduced AI inference costs by up to 90 percent,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-07-24T12:47:32+00:00",
+      "ts": 1784897252.0
+    },
+    {
+      "title": "iQOO Z11 Lite 5G Launches in India at INR 17,999 with AI Features, 6500mAh Battery to Challenge Samsung, realme and Redmi",
+      "link": "https://telecomlead.com/smart-phone/iqoo-z11-lite-5g-launches-in-india-at-inr-17999-with-ai-features-6500mah-battery-to-challenge-samsung-realme-and-redmi-126909",
+      "summary": "iQOO has expanded its affordable 5G smartphone portfolio in India with the launch of the iQOO Z11 Lite 5G, targeting students and young professionals with AI-powered productivity tools, a large battery, durable design, and competitive pricing. Starting at an effective price of INR 17,999, the 5G smartphone aims to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-07-24T12:16:12+00:00",
+      "ts": 1784895372.0
+    },
+    {
+      "title": "Verizon Q2 2026: Fiber Broadband Reaches 10.9 mn as Broadband Adds Hit 348,000, Mobility Revenue Grows",
+      "link": "https://telecomlead.com/5g/verizon-q2-2026-fiber-broadband-reaches-10-9-mn-as-broadband-adds-hit-348000-mobility-revenue-grows-126906",
+      "summary": "Verizon Communications delivered a strong second quarter in 2026 as its customer-focused strategy accelerated growth across fiber broadband, fixed wireless access (FWA), mobility services and subscriber additions. The telecom operator has strengthened its position in the broadband market by expanding its fiber...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-24T11:56:41+00:00",
+      "ts": 1784894201.0
+    },
+    {
+      "title": "The Friday File: OpenAI; Samsung; World Cup",
+      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-openai-samsung-world-cup/",
+      "summary": "Mobile World Live brings you our top three picks of the week as OpenAI's models hacked an AI start-up during testing, Samsung unveiled its latest AI-powered foldables, and Verizon and AT&T logged record World Cup network traffic. The post The Friday File: OpenAI; Samsung; World Cup appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-07-24T11:03:27+00:00",
+      "ts": 1784891007.0
+    },
+    {
+      "title": "Telefonica tests Wurth of AI, quantum",
+      "link": "https://www.mobileworldlive.com/industry/telefonica-tests-wurth-of-ai-quantum/",
+      "summary": "Telefonica and materials producer Wurth Group boxed clever in applying advanced computing and AI to a logistics scenario, delivering various benefits in packing efficiency and a reduced environmental impact. The post Telefonica tests Wurth of AI, quantum appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-24T10:37:07+00:00",
+      "ts": 1784889427.0
+    },
     {
       "title": "TRAI Drive Test: Airtel Leads Mobile Network Performance in South Tripura, Jio Delivers Best Call Reliability While BSNL Trails",
       "link": "https://telecomlead.com/4g-lte/trai-drive-test-airtel-leads-mobile-network-performance-in-south-tripura-jio-delivers-best-call-reliability-while-bsnl-trails-126900",
@@ -833,21 +906,21 @@
       "ts": 1784801131.0
     },
     {
-      "title": "KPN Q2 2026 Results: Revenue Drops 0.5%, Fiber Revenue Rises 7.7%, Fiber Connections Reach 4.74 mn",
-      "link": "https://telecomlead.com/5g/kpn-q2-2026-results-revenue-drops-0-5-fiber-revenue-rises-7-7-fiber-connections-reach-4-74-mn-126884",
-      "summary": "Dutch telecom operator KPN reported drop in second-quarter and first-half 2026 revenue, despite accelerating fiber adoption, stronger mobile services, robust SME demand, and disciplined capital investment. The operator is shifting from an intensive network rollout phase to monetizing its fiber infrastructure through...",
-      "source": "Telecom Lead",
+      "title": "Retirar equipos de proveedores de alto riesgo podría costar a la UE hasta 40.000 M€",
+      "link": "https://www.mobileworldlive.com/spanish/retirar-equipos-de-proveedores-de-alto-riesgo-podria-costar-a-la-ue-hasta-40-000-me/",
+      "summary": "Según estimaciones de GSMA Intelligence, el coste de sustituir los equipos fabricados por los denominados proveedores de alto riesgo (HRV, Read more... The post Retirar equipos de proveedores de alto riesgo podría costar a la UE hasta 40.000 M€ appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 43,
-      "date": "2026-07-23T09:46:03+00:00",
-      "ts": 1784799963.0
+      "relevance": 23,
+      "date": "2026-07-23T09:53:53+00:00",
+      "ts": 1784800433.0
     },
     {
-      "title": "FCC adopts Upper C-Band auction rules",
+      "title": "FCC adopts upper C-Band auction rules",
       "link": "https://www.mobileworldlive.com/fcc/fcc-adopts-upper-c-band-auction-rules/",
       "summary": "The US Federal Communications Commission adopted final rules for auctioning 160MHz of spectrum in the upper C-Band, setting the stage for an auction to close by July 2027 and creating what the regulator called a harmonised 5G super band spanning 440MHz when combined with existing lower C-Band holdings. The post FCC...",
       "source": "Mobile World Live",
@@ -1105,20 +1178,6 @@
       "ts": 1784660400.0
     },
     {
-      "title": "Freshwave adds DAS of 4G to UK hospital",
-      "link": "https://www.mobileworldlive.com/industry/freshwave-adds-das-of-4g-to-uk-hospital/",
-      "summary": "Infrastructure-as-a-service provider Freshwave advanced UK medical connectivity ambitions with its latest installation of 4G in a hospital, a move it indicated could all-but eliminate billions of pounds in lost value for the healthcare sector. The post Freshwave adds DAS of 4G to UK hospital appeared first on Mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-07-21T15:54:18+00:00",
-      "ts": 1784649258.0
-    },
-    {
       "title": "Is spectrum SpaceX's ticket to an MVNO deal?",
       "link": "https://www.lightreading.com/satellite/is-spectrum-spacex-s-ticket-to-an-mvno-deal-",
       "summary": "MoffettNathanson wonders if SpaceX's spectrum – what it's acquiring and may acquire in the future – will serve as a bargaining chip for an MVNO deal.",
@@ -1146,39 +1205,6 @@
       "relevance": 57,
       "date": "2026-07-21T12:54:04+00:00",
       "ts": 1784638444.0
-    },
-    {
-      "title": "Vodafone pilots AI-powered robotic mobile mast",
-      "link": "https://www.mobileworldlive.com/network-tech/vodafone-pilots-ai-powered-robotic-mobile-mast/",
-      "summary": "Vodafone Group trialled a mobile mast equipped with a so-called AI brain and a robotic arm to automatically optimise 4G and 5G network coverage by adjusting its radio antenna. The post Vodafone pilots AI-powered robotic mobile mast appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-07-21T11:30:37+00:00",
-      "ts": 1784633437.0
-    },
-    {
-      "title": "Samsung deepens robotics push with new division",
-      "link": "https://www.mobileworldlive.com/samsung/samsung-deepens-robotics-push-with-new-division/",
-      "summary": "Samsung Electronics established a new robotics division due to span research hubs in the US, China and Japan to accelerate its ambitions in the sector. The post Samsung deepens robotics push with new division appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "kr",
-        "cn"
-      ],
-      "relevance": 37,
-      "date": "2026-07-21T10:51:52+00:00",
-      "ts": 1784631112.0
     },
     {
       "title": "1Finity ramps open RAN at Rakuten Mobile and beyond",
