@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-23T18:57:24.968200+00:00",
-  "count": 104,
+  "generated_at": "2026-07-24T01:42:16.135745+00:00",
+  "count": 102,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 16,
+    "moveis": 42,
+    "fibra": 14,
     "antenas": 14,
     "iot": 2,
-    "satelite": 23,
+    "satelite": 24,
     "radar_militar": 10,
     "radiocom": 2,
     "tv": 1,
-    "geral": 26
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
+    "in": 1,
     "jp": 6,
-    "kr": 4,
+    "kr": 5,
     "cn": 2
   },
   "research_count": 28,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -170,7 +170,7 @@
     },
     {
       "source": "FCC Headlines",
-      "status": "ERRO: The read operation timed out",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,78 @@
     }
   ],
   "items": [
+    {
+      "title": "FCC OKs upper C-band auction rules, sets sights on 2.7GHz",
+      "link": "https://www.lightreading.com/5g/fcc-oks-upper-c-band-auction-rules-sets-sights-on-2-7ghz",
+      "summary": "The FCC's plan for a 'Super Band' that combines the lower and upper C-band is taking shape as the agency also looks to auction spectrum in the 2.7GHz band in 2028.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-07-23T20:01:03+00:00",
+      "ts": 1784836863.0
+    },
+    {
+      "title": "Space Is Coming for Silicon",
+      "link": "https://www.satellitetoday.com/opinion/2026/07/23/space-is-coming-for-silicon/",
+      "summary": "Orbital data centers are now taking shape enough to have brand names. SpaceX has put Starmind on the map, with Elon Musk describing it as an AI satellite megaconstellation that […] The post Space Is Coming for Silicon appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-07-23T19:25:28+00:00",
+      "ts": 1784834728.0
+    },
+    {
+      "title": "Iceye and KT SAT Partner on Flood Intelligence in South Korea",
+      "link": "https://www.satellitetoday.com/earth-observation/2026/07/23/iceye-and-kt-sat-partner-on-flood-intelligence-in-south-korea/",
+      "summary": "Iceye and KT SAT have a new strategic partnership to offer flood monitoring solutions in South Korea to government and commercial organizations. This marks the first deployment of Iceye Solutions […] The post Iceye and KT SAT Partner on Flood Intelligence in South Korea appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 24,
+      "date": "2026-07-23T19:18:35+00:00",
+      "ts": 1784834315.0
+    },
+    {
+      "title": "Intellian Releases New Terminal for Iridium GMDSS Service",
+      "link": "https://www.satellitetoday.com/technology/2026/07/23/intellian-releases-new-terminal-for-iridium-gmdss-service/",
+      "summary": "Intellian has released a new terminal for Iridium’s GMDSS maritime safety service, based on the Iridium Certus 100 service. The terminal, announced Thursday, is used with the Global Maritime Distress […] The post Intellian Releases New Terminal for Iridium GMDSS Service appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-07-23T19:17:14+00:00",
+      "ts": 1784834234.0
+    },
+    {
+      "title": "GCI expands mobile coverage for Alaska's roadways",
+      "link": "https://www.lightreading.com/5g/gci-expands-mobile-coverage-for-alaska-s-roadways",
+      "summary": "GCI said it is broadening LTE and 5G coverage across Alaska's key travel corridors. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-23T19:06:41+00:00",
+      "ts": 1784833601.0
+    },
     {
       "title": "Highlights from Ookla’s U.S. Speedtest Connectivity Report-Mobile & Fixed Networks",
       "link": "https://techblog.comsoc.org/2026/07/23/highlights-from-ooklas-u-s-speedtest-connectivity-report-mobile-fixed-networks/",
@@ -304,20 +376,6 @@
       "ts": 1784801131.0
     },
     {
-      "title": "KPN Q2 2026 Results: Revenue Drops 0.5%, Fiber Revenue Rises 7.7%, Fiber Connections Reach 4.74 mn",
-      "link": "https://telecomlead.com/5g/kpn-q2-2026-results-revenue-drops-0-5-fiber-revenue-rises-7-7-fiber-connections-reach-4-74-mn-126884",
-      "summary": "Dutch telecom operator KPN reported drop in second-quarter and first-half 2026 revenue, despite accelerating fiber adoption, stronger mobile services, robust SME demand, and disciplined capital investment. The operator is shifting from an intensive network rollout phase to monetizing its fiber infrastructure through...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-23T09:46:03+00:00",
-      "ts": 1784799963.0
-    },
-    {
       "title": "FCC adopts Upper C-Band auction rules",
       "link": "https://www.mobileworldlive.com/fcc/fcc-adopts-upper-c-band-auction-rules/",
       "summary": "The US Federal Communications Commission adopted final rules for auctioning 160MHz of spectrum in the upper C-Band, setting the stage for an auction to close by July 2027 and creating what the regulator called a harmonised 5G super band spanning 440MHz when combined with existing lower C-Band holdings. The post FCC...",
@@ -359,20 +417,6 @@
       "relevance": 47,
       "date": "2026-07-23T06:07:29+00:00",
       "ts": 1784786849.0
-    },
-    {
-      "title": "Nokia Q2 2026 Revenue Rises 8% to €4.815 bn as Optical Networks Jumps 19%, AI & Cloud Drives Growth",
-      "link": "https://telecomlead.com/telecom-equipment/nokia-q2-2026-revenue-rises-8-to-e4-815-bn-as-optical-networks-jumps-19-ai-cloud-drives-growth-126880",
-      "summary": "Nokia delivered strong second-quarter 2026 results, with revenue increasing 8 percent year over year to €4.815 billion from €4.443 billion in the same quarter of 2025, driven by robust demand for AI-ready networking infrastructure, optical transport, IP networking, and mobile infrastructure solutions. Growth across...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-23T05:23:40+00:00",
-      "ts": 1784784220.0
     },
     {
       "title": "Fundamental Limits of MIMO-OTFS and MIMO-OFDM in High-Dynamics ISAC: An Antenna Array Architecture Perspective",
@@ -899,20 +943,6 @@
       "ts": 1784733223.0
     },
     {
-      "title": "FCC Approves Upper C-Band Spectrum Auction for July 2027, Unlocking 160 MHz to Boost 5G, $422 bn GDP and 2.4 mn Jobs",
-      "link": "https://telecomlead.com/5g/fcc-approves-upper-c-band-spectrum-auction-for-july-2027-unlocking-160-mhz-to-boost-5g-422-bn-gdp-and-2-4-mn-jobs-126875",
-      "summary": "The Federal Communications Commission (FCC) has approved rules to auction 160 MHz of Upper C-Band spectrum (3.98-4.14 GHz) by July 2027, marking one of the most significant spectrum initiatives for the U.S. wireless industry. The move is designed to accelerate next-generation 5G deployment, expand fixed wireless...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-07-22T15:08:27+00:00",
-      "ts": 1784732907.0
-    },
-    {
       "title": "Why Are We Building 6G?",
       "link": "https://circleid.com/posts/why-are-we-building-6g",
       "summary": "As 6G development accelerates, its promises of faster speeds, lower latency, and immersive applications raise questions about whether carriers can justify another costly network upgrade when 5G's commercial promises remain largely unfulfilled across the industry.",
@@ -1012,20 +1042,6 @@
       "relevance": 24,
       "date": "2026-07-21T21:35:01+00:00",
       "ts": 1784669701.0
-    },
-    {
-      "title": "Poland Commits Nearly $750M to Europe’s IRIS² Constellation",
-      "link": "https://www.satellitetoday.com/government-military/2026/07/21/poland-commits-nearly-750m-to-europes-iris%c2%b2-constellation/",
-      "summary": "Poland has committed 656 million euro ($748 million) to Europe’s IRIS² constellation, which will fund nearly 10% of the constellation. Under the agreement signed Tuesday in Warsaw, Poland will fund […] The post Poland Commits Nearly $750M to Europe’s IRIS² Constellation appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-21T20:02:57+00:00",
-      "ts": 1784664177.0
     },
     {
       "title": "Adara and Aurora pitch DOCSIS and PON upgrade path to smaller operators",
@@ -1135,20 +1151,6 @@
       "ts": 1784625523.0
     },
     {
-      "title": "UK Government to Invest Further Millions to Boost Space Sector",
-      "link": "https://www.satellitetoday.com/finance/2026/07/20/uk-government-to-invest-further-millions-to-boost-space-sector/",
-      "summary": "The U.K. government is to invest a further 62 million pounds ($83.4 million) to help boost the space sector in the country. This funding will support new satellite communications systems […] The post UK Government to Invest Further Millions to Boost Space Sector appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-20T21:38:45+00:00",
-      "ts": 1784583525.0
-    },
-    {
       "title": "Autonomous customer experience required for AI-Native 6G and distributed intelligence at the network edge",
       "link": "https://techblog.comsoc.org/2026/07/20/autonomous-customer-experience-needed-for-ai-native-6g-and-distributed-intelligence-at-the-network-edge/",
       "summary": "Executive Sumary: Communications service providers (CSPs) have historically competed on network-centric KPIs—coverage, capacity, reliability, and price—anchored in 3GPP performance and management frameworks (e.g., TS 28-series, TS 23.501 QoS models). However, these metrics alone are no longer sufficient to sustain...",
@@ -1219,36 +1221,6 @@
       "relevance": 59,
       "date": "2026-07-17T11:20:43+00:00",
       "ts": 1784287243.0
-    },
-    {
-      "title": "Eurobites: Vodafone, Nokia go network slicing in Albania",
-      "link": "https://www.lightreading.com/5g/eurobites-vodafone-nokia-go-network-slicing-in-albania",
-      "summary": "Also in today's EMEA regional roundup: Tele2's Q2; VodafoneThree says UK mobile market is 'out of balance'; Scaleway lands Airbus cloud contract.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-16T11:54:55+00:00",
-      "ts": 1784202895.0
-    },
-    {
-      "title": "Airtel embraces AI, 'premiumization' in post 5G rollout plan",
-      "link": "https://www.lightreading.com/finance/airtel-embraces-ai-premiumization-in-post-5g-rollout-plan",
-      "summary": "Airtel is shifting beyond network expansion toward AI, 'premiumization' and convergence while acknowledging that monetizing 5G remains a challenge.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 52,
-      "date": "2026-07-16T09:37:01+00:00",
-      "ts": 1784194621.0
     },
     {
       "title": "Analysis: Nokia’s new AI-RAN platform and Standalone AI-RAN node with Nvidia GPUs",
@@ -1601,6 +1573,20 @@
       "ts": 0
     },
     {
+      "title": "AT&T's AI advice: Stop 'racing from stoplight to stoplight'",
+      "link": "https://www.fierce-network.com/broadband/atts-ai-advice-stop-racing-stoplight-stoplight",
+      "summary": "AT&T launches OTel 2.0 open source telco AI models trained on AMD silicon, as the carrier's AI usage passes 1 trillion tokens per month.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Ericsson, LG Uplus target network-based voice AI for smarter calling",
       "link": "https://www.fierce-network.com/wireless/ericsson-lg-uplus-target-network-based-voice-ai-smarter-calling",
       "summary": "Ericsson and LG Uplus are moving voice AI deeper into telecom networks, but have their work cut out for them to overcome privacy, latency and consent hurdles.",
@@ -1692,20 +1678,6 @@
       "title": "'AI tailwind' keeps Arista at No. 1 spot in data center switching — now Nvidia looms",
       "link": "https://www.fierce-network.com/cloud/arista-rides-ai-past-cisco-now-nvidia-looms",
       "summary": "Arista leveraged the AI buildout to take the No. 1 spot from Cisco in data center switching. Now it's facing off against the Nvidia AI colossus.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "e& UAE and Core42 team to launch sovereign AI infrastructure",
-      "link": "https://www.fierce-network.com/newswire/e-uae-and-core42-team-launch-sovereign-ai-infrastructure",
-      "summary": "The telco is teaming up with AI infrastructure provider Core42 to offer sovereign cloud services to enterprises in the UAE.",
       "source": "Fierce Network",
       "themes": [
         "geral"
