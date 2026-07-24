@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-24T13:15:27.633563+00:00",
-  "count": 108,
+  "generated_at": "2026-07-24T19:10:09.461668+00:00",
+  "count": 109,
   "theme_counts": {
-    "moveis": 43,
-    "fibra": 16,
+    "moveis": 45,
+    "fibra": 19,
     "antenas": 4,
     "iot": 1,
-    "satelite": 20,
+    "satelite": 24,
     "radar_militar": 9,
     "radiocom": 2,
     "tv": 1,
-    "geral": 35
+    "geral": 32
   },
   "country_counts": {
     "br": 0,
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: <urlopen error timed out>",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -200,6 +200,78 @@
     }
   ],
   "items": [
+    {
+      "title": "Two Galileo Satellites Enter Service for Europe",
+      "link": "https://www.satellitetoday.com/earth-observation/2026/07/24/two-galileo-satellites-enter-service-for-europe/",
+      "summary": "Two new Galileo satellites, SAT 33 and SAT 34, have entered service, the European Space Agency (ESA) announced on Friday. These satellites are now adding capability, resilience, and autonomy to […] The post Two Galileo Satellites Enter Service for Europe appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-07-24T18:24:35+00:00",
+      "ts": 1784917475.0
+    },
+    {
+      "title": "Telco CEOs Shut Down the Idea of Satellite MVNO, Say LEO Isn’t a Threat to Broadband",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/24/telco-ceos-shut-down-the-idea-of-satellite-mvno-say-leo-isnt-a-threat-to-broadband/",
+      "summary": "Top telco CEOs shut down the idea of establishing a mobile virtual network operator (MVNO) agreement with a satellite player, saying they do not see satellite broadband as meaningful competition […] The post Telco CEOs Shut Down the Idea of Satellite MVNO, Say LEO Isn’t a Threat to Broadband appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-07-24T18:09:20+00:00",
+      "ts": 1784916560.0
+    },
+    {
+      "title": "Charter sidesteps Starlink speculation",
+      "link": "https://www.lightreading.com/cable-technology/charter-sidesteps-starlink-speculation",
+      "summary": "Competition and collaboration with Starlink was a big topic of interest on Charter's Q2 call, fueled by a report that the company is chatting with SpaceX about a possible partnership.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-24T16:38:02+00:00",
+      "ts": 1784911082.0
+    },
+    {
+      "title": "Meta launches dedicated Sellers app",
+      "link": "https://www.mobileworldlive.com/meta/meta-launches-dedicated-sellers-app/",
+      "summary": "Meta introduced a standalone app for sellers on its Facebook Marketplace platform, adding AI tools and sales management features to enable merchants to manage listings, reach buyers, and grow their business. The post Meta launches dedicated Sellers app appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-07-24T15:23:33+00:00",
+      "ts": 1784906613.0
+    },
+    {
+      "title": "T-Mobile CEO: Satellite exclusivity deal with Starlink doesn't end this year",
+      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-ceo-satellite-exclusivity-deal-with-starlink-doesnt-end-this-year/",
+      "summary": "As carrier reiterates that satellite offering is \"complementary\" to its terrestrial network",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-24T13:33:27+00:00",
+      "ts": 1784900007.0
+    },
     {
       "title": "AT&T Cuts AI Inference Costs by 90%, Processes 45 bn Daily AI Tokens as Enterprise Network Expands Across 200 Countries",
       "link": "https://telecomlead.com/5g/att-cuts-ai-inference-costs-by-90-processes-45-bn-daily-ai-tokens-as-enterprise-network-expands-across-200-countries-126912",
@@ -906,20 +978,6 @@
       "ts": 1784801131.0
     },
     {
-      "title": "Retirar equipos de proveedores de alto riesgo podría costar a la UE hasta 40.000 M€",
-      "link": "https://www.mobileworldlive.com/spanish/retirar-equipos-de-proveedores-de-alto-riesgo-podria-costar-a-la-ue-hasta-40-000-me/",
-      "summary": "Según estimaciones de GSMA Intelligence, el coste de sustituir los equipos fabricados por los denominados proveedores de alto riesgo (HRV, Read more... The post Retirar equipos de proveedores de alto riesgo podría costar a la UE hasta 40.000 M€ appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-07-23T09:53:53+00:00",
-      "ts": 1784800433.0
-    },
-    {
       "title": "FCC adopts upper C-Band auction rules",
       "link": "https://www.mobileworldlive.com/fcc/fcc-adopts-upper-c-band-auction-rules/",
       "summary": "The US Federal Communications Commission adopted final rules for auctioning 160MHz of spectrum in the upper C-Band, setting the stage for an auction to close by July 2027 and creating what the regulator called a harmonised 5G super band spanning 440MHz when combined with existing lower C-Band holdings. The post FCC...",
@@ -1136,34 +1194,6 @@
       "ts": 1784716762.0
     },
     {
-      "title": "Contrivian Completes Merger With Big Network to Fuel Orchestration Service",
-      "link": "https://www.satellitetoday.com/connectivity/2026/07/21/contrivian-completes-merger-with-big-network-to-fuel-orchestration-service/",
-      "summary": "Contrivian has completed its merger with networking software company Big Network in a move that the company says creates a vertically integrated, multi-modal connectivity platform. The merger was first announced in […] The post Contrivian Completes Merger With Big Network to Fuel Orchestration Service appeared first...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-07-22T00:36:57+00:00",
-      "ts": 1784680617.0
-    },
-    {
-      "title": "SpaceX Launches Northrop Grumman’s First Mission Robotic Vehicle",
-      "link": "https://www.satellitetoday.com/launch/2026/07/21/spacex-launches-northrop-grummans-first-mission-robotic-vehicle/",
-      "summary": "Northrop Grumman’s next-generation space vehicle for on-orbit refueling and satellite life extension is on its way to orbit after a SpaceX launch on Tuesday. SpaceX launched the MRV-MEP mission on […] The post SpaceX Launches Northrop Grumman’s First Mission Robotic Vehicle appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-21T21:35:01+00:00",
-      "ts": 1784669701.0
-    },
-    {
       "title": "Adara and Aurora pitch DOCSIS and PON upgrade path to smaller operators",
       "link": "https://www.lightreading.com/broadband/adara-aurora-pitch-docsis-and-pon-upgrade-path-to-smaller-operators",
       "summary": "Adara Technologies and Aurora Networks have teamed on a hosted and managed platform to help smaller operators economically upgrade to a distributed access architecture that supports DOCSIS and PON.",
@@ -1266,20 +1296,6 @@
       "relevance": 63,
       "date": "2026-07-20T01:12:51+00:00",
       "ts": 1784509971.0
-    },
-    {
-      "title": "Beyond agent mania – The architecture shift reshaping the telco industry",
-      "link": "https://www.lightreading.com/6g/beyond-agent-mania-the-architecture-shift-reshaping-the-telco-industry",
-      "summary": "As 6G standards evolve, operators are beginning to layer autonomous capabilities, but selectivity, not blanket adoption, will determine AI-native success.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-17T13:30:15+00:00",
-      "ts": 1784295015.0
     },
     {
       "title": "5G-ACIA and one6G Joint Webinar Explored the Future of 6G for Industrial Automation",
@@ -1618,6 +1634,22 @@
       "ts": 0
     },
     {
+      "title": "Verizon CEO shuts down Starlink MVNO talk, touts strong Q2 comeback",
+      "link": "https://www.fierce-network.com/wireless/verizon-ceo-shuts-down-starlink-mvno-talk-touts-strong-q2-comeback",
+      "summary": "Verizon CEO Dan Schulman took a victory lap of sorts today, declaring Verizon’s best second quarter in five years, with 184,000 postpaid phone net additions and more than 550,000 total mobility and broadband net additions in Q2.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "FCC sets up next C-band auction for 2027",
       "link": "https://www.fierce-network.com/wireless/fcc-frees-160-mhz-upper-c-band-spectrum-terrestrial-wireless-use-nationwide",
       "summary": "\"America’s leadership in wireless is back,\" says Brendan Carr, FCC Chairman, as he announces 160 MHz of upper C‑Band to go to auction in 2027.",
@@ -1642,6 +1674,21 @@
       "research": false,
       "countries": [],
       "relevance": 43,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Analysts give Charter some ideas for satellite integrations during Q2 2026 earnings",
+      "link": "https://www.fierce-network.com/broadband/analysts-give-charter-some-ideas-satellite-integrations-during-q2-2026-earnings",
+      "summary": "During its second quarter 2026, Charter lost 172,000 broadband subscribers, but it added 406,000 Spectrum Mobile lines.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 36,
       "date": null,
       "ts": 0
     },
@@ -1729,34 +1776,6 @@
       "countries": [
         "kr"
       ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile touts hot growth runway as Q2 account additions cool",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-touts-hot-growth-runway-q2-account-additions-cool",
-      "summary": "T-Mobile’s Q2 results include a 2% year-over-year growth in ARPA and a 13% decrease year-over-year in postpaid net account additions.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "'AI tailwind' keeps Arista at No. 1 spot in data center switching — now Nvidia looms",
-      "link": "https://www.fierce-network.com/cloud/arista-rides-ai-past-cisco-now-nvidia-looms",
-      "summary": "Arista leveraged the AI buildout to take the No. 1 spot from Cisco in data center switching. Now it's facing off against the Nvidia AI colossus.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 23,
       "date": null,
       "ts": 0
