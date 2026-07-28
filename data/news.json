@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T19:09:56.178402+00:00",
-  "count": 108,
+  "generated_at": "2026-07-28T01:26:14.981266+00:00",
+  "count": 111,
   "theme_counts": {
-    "moveis": 45,
+    "moveis": 43,
     "fibra": 13,
     "antenas": 9,
     "iot": 4,
-    "satelite": 33,
+    "satelite": 36,
     "radar_militar": 6,
     "radiocom": 2,
     "tv": 0,
-    "geral": 27
+    "geral": 28
   },
   "country_counts": {
     "br": 0,
@@ -18,10 +18,10 @@
     "il": 0,
     "in": 1,
     "jp": 6,
-    "kr": 4,
-    "cn": 0
+    "kr": 3,
+    "cn": 1
   },
-  "research_count": 27,
+  "research_count": 26,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "DataCenterDynamics",
@@ -176,12 +176,12 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,108 @@
     }
   ],
   "items": [
+    {
+      "title": "Cheap Chinese AI Models: Unappreciated Threat to U.S. Hyperscaler AI Dominance",
+      "link": "https://techblog.comsoc.org/2026/07/27/cheap-chinese-ai-models-unappreciated-threat-to-u-s-hyperscaler-ai-dominance/",
+      "summary": "Introduction: IEEE Techblog readers are keenly aware of the stupendous AI capex that has eliminated most hyperscaler free cash flow. There’s also the ROI question when there’s no “killer app” or a clear way to monetize AI services. And let’s not forget issues like: the competition for AI benchmark bragging rights....",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 32,
+      "date": "2026-07-27T23:18:32+00:00",
+      "ts": 1785194312.0
+    },
+    {
+      "title": "Space-Based Data Centers: Inside the Race to Move Compute to Orbit",
+      "link": "https://www.satellitetoday.com/podcast/2026/07/27/space-based-data-centers-inside-the-race-to-move-compute-to-orbit/",
+      "summary": "As AI is driving explosive growth in data center construction on Earth, there’s accelerating interest in moving some of the computing infrastructure to orbit. The past few months have seen […] The post Space-Based Data Centers: Inside the Race to Move Compute to Orbit appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-07-27T20:46:33+00:00",
+      "ts": 1785185193.0
+    },
+    {
+      "title": "SES Space & Defense Wins Space Station Connectivity Deal With Starlab",
+      "link": "https://www.satellitetoday.com/space-economy/2026/07/27/ses-space-defense-wins-space-station-connectivity-deal-with-starlab/",
+      "summary": "SES Space & Defense has announced an interesting new collaboration in the arena of space station connectivity. It will work with Starlab to develop a communication architecture to deliver continuous, […] The post SES Space & Defense Wins Space Station Connectivity Deal With Starlab appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-07-27T20:25:56+00:00",
+      "ts": 1785183956.0
+    },
+    {
+      "title": "Upper C-band auction offers another lift for GEO industry",
+      "link": "https://spacenews.com/upper-c-band-auction-offers-another-lift-for-geo-industry/",
+      "summary": "Satellite operators have welcomed the prospect of reaping more than $6 billion for quickly clearing upper C-band spectrum the FCC aims to auction next year, with billions more set to cover new geostationary spacecraft and other transition costs. The post Upper C-band auction offers another lift for GEO industry...",
+      "source": "SpaceNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-27T20:11:07+00:00",
+      "ts": 1785183067.0
+    },
+    {
+      "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
+      "link": "https://circleid.com/posts/spacex-wants-to-handle-the-worlds-broadband-heres-why-thats-unlikely",
+      "summary": "SpaceX wants to expand Starlink to 100,000 satellites and eventually carry most of the world's internet traffic. Ambition is not the problem. Market competition, geopolitics and the resilience of fiber networks make that goal implausible.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 42,
+      "date": "2026-07-27T20:03:00+00:00",
+      "ts": 1785182580.0
+    },
+    {
+      "title": "Amazon Leo Files for 5,105 Satellites in Globalstar Spectrum for D2D",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/27/amazon-leo-files-for-5105-satellites-in-globalstar-spectrum-for-d2d/",
+      "summary": "Amazon has filed with the FCC to launch an Amazon Leo Direct-to-Device constellation of up to 5,105 satellites, in spectrum to be acquired in the Globalstar deal. The system in […] The post Amazon Leo Files for 5,105 Satellites in Globalstar Spectrum for D2D appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-27T19:49:42+00:00",
+      "ts": 1785181782.0
+    },
+    {
+      "title": "SES Set to Receive $5.6B in Incentive Payments for C-Band Clearing",
+      "link": "https://www.satellitetoday.com/connectivity/2026/07/27/ses-set-to-receive-5-6b-in-incentive-payments-for-c-band-clearing/",
+      "summary": "Satellite operator SES is set to receive $5.6 billion in incentive payments to clear the C-band, while Eutelsat is set to receive $504 million, according to the FCC’s final C-band […] The post SES Set to Receive $5.6B in Incentive Payments for C-Band Clearing appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-27T19:44:32+00:00",
+      "ts": 1785181472.0
+    },
     {
       "title": "NTIA creates international team for 6G development",
       "link": "https://www.telecompetitor.com/ntia-creates-international-team-for-6g-development/",
@@ -922,20 +1024,6 @@
       "ts": 1785099331.0
     },
     {
-      "title": "New Horizons for the Smallsat Industry",
-      "link": "https://www.satellitetoday.com/opinion/2026/07/26/new-horizons-for-the-smallsat-industry/",
-      "summary": "Welcome to the annual Via Smallsat edition — where Via Satellite rebrands to focus on the smallsat industry. We are thrilled to present the third group of Rising Stars, a […] The post New Horizons for the Smallsat Industry appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-26T20:29:58+00:00",
-      "ts": 1785097798.0
-    },
-    {
       "title": "Las operadoras activan satélites de Starlink en los incendios del centro y levante peninsulares",
       "link": "https://www.mobileworldlive.com/spanish/las-operadoras-activan-satelites-de-starlink-en-los-incendios-del-centro-y-levante-peninsulares/",
       "summary": "Los incendios forestales que han afectado al centro de la península (Madrid, Ávila y Toledo) y a puntos del levante Read more... The post Las operadoras activan satélites de Starlink en los incendios del centro y levante peninsulares appeared first on Mobile World Live .",
@@ -962,36 +1050,6 @@
       "relevance": 55,
       "date": "2026-07-25T23:31:49+00:00",
       "ts": 1785022309.0
-    },
-    {
-      "title": "Two Galileo Satellites Enter Service for Europe",
-      "link": "https://www.satellitetoday.com/earth-observation/2026/07/24/two-galileo-satellites-enter-service-for-europe/",
-      "summary": "Two new Galileo satellites, SAT 33 and SAT 34, have entered service, the European Space Agency (ESA) announced on Friday. These satellites are now adding capability, resilience, and autonomy to […] The post Two Galileo Satellites Enter Service for Europe appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-24T18:24:35+00:00",
-      "ts": 1784917475.0
-    },
-    {
-      "title": "Telco CEOs Shut Down the Idea of Satellite MVNO, Say LEO Isn’t a Threat to Broadband",
-      "link": "https://www.satellitetoday.com/connectivity/2026/07/24/telco-ceos-shut-down-the-idea-of-satellite-mvno-say-leo-isnt-a-threat-to-broadband/",
-      "summary": "Top telco CEOs shut down the idea of establishing a mobile virtual network operator (MVNO) agreement with a satellite player, saying they do not see satellite broadband as meaningful competition […] The post Telco CEOs Shut Down the Idea of Satellite MVNO, Say LEO Isn’t a Threat to Broadband appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-24T18:09:20+00:00",
-      "ts": 1784916560.0
     },
     {
       "title": "Charter sidesteps Starlink speculation",
@@ -1414,21 +1472,6 @@
       "ts": 1784030772.0
     },
     {
-      "title": "AT&T/Ericsson Demonstrate 5G-Based ISAC for Drone Detection at World Cup Stadium",
-      "link": "https://techblog.comsoc.org/2026/07/13/att-and-ericsson-demonstrate-5g-based-isac-for-drone-detection-at-world-cup-stadium/",
-      "summary": "AT&T and Ericsson recently demonstrated the potential of 5G as a platform for integrated sensing and communications (ISAC) [1.] in support of critical infrastructure protection and public safety. The demonstration, conducted at a World Cup stadium near Dallas, TX highlights how cellular networks can evolve into...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-07-13T21:02:16+00:00",
-      "ts": 1783976536.0
-    },
-    {
       "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
       "link": "https://spectrum.ieee.org/nokia-phones-history",
       "summary": "In 2005, Nokia sold its billionth mobile phone , a budget-friendly device that went to a customer in Nigeria. By then, the company, based in Espoo, Finland, was making one of every three cellphones globally. But just nine years later, the mobile-device maker offloaded its entire handset division to Microsoft for...",
@@ -1678,18 +1721,16 @@
       "ts": 0
     },
     {
-      "title": "Ericsson, LG Uplus target network-based voice AI for smarter calling",
-      "link": "https://www.fierce-network.com/wireless/ericsson-lg-uplus-target-network-based-voice-ai-smarter-calling",
-      "summary": "Ericsson and LG Uplus are moving voice AI deeper into telecom networks, but have their work cut out for them to overcome privacy, latency and consent hurdles.",
+      "title": "AT&T joins growing list of telcos making quantum moves in 2026",
+      "link": "https://www.fierce-network.com/cloud/att-joins-growing-list-telcos-making-quantum-moves-2026",
+      "summary": "AT&T expanded its partnership with quantum computing company D-Wave to include network operations.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 31,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
