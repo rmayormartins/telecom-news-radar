@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-29T08:17:37.919596+00:00",
-  "count": 104,
+  "generated_at": "2026-07-29T13:43:00.488990+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 33,
-    "fibra": 11,
-    "antenas": 13,
-    "iot": 5,
-    "satelite": 39,
+    "moveis": 34,
+    "fibra": 12,
+    "antenas": 12,
+    "iot": 4,
+    "satelite": 42,
     "radar_militar": 7,
     "radiocom": 2,
     "tv": 0,
-    "geral": 23
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 1,
-    "jp": 6,
+    "jp": 5,
     "kr": 0,
     "cn": 1
   },
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -91,11 +91,11 @@
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
       "kept": 0
     },
     {
@@ -201,9 +201,94 @@
   ],
   "items": [
     {
-      "title": "Telstra expands Starlink satellite service with data app support",
+      "title": "EchoStar closes AT&T spectrum deal, but wrinkles remain",
+      "link": "https://www.lightreading.com/5g/echostar-closes-at-t-spectrum-deal-but-wrinkles-remain",
+      "summary": "EchoStar and AT&T have wrapped a $23 billion spectrum sale, with a portion being deposited to an FCC-mandated trust. It's not clear if the close will prevent a possible Hughes unit bankruptcy.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-29T13:37:27+00:00",
+      "ts": 1785332247.0
+    },
+    {
+      "title": "FCC OKs $6.3B in upper C-band incentive payments, but cable ops still concerned",
+      "link": "https://www.lightreading.com/5g/fcc-oks-6-3b-in-upper-c-band-incentive-payments-but-cable-ops-still-concerned",
+      "summary": "The FCC's rules for the upper C-band auction authorized $6.3 billion in incentive payments to help satellite operators clear the band. Meanwhile, cable operators remain anxious about the coming transition.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-07-29T13:00:00+00:00",
+      "ts": 1785330000.0
+    },
+    {
+      "title": "AT&T completes $23bn EchoStar spectrum acquisition",
+      "link": "https://www.datacenterdynamics.com/en/news/att-completes-23bn-echostar-spectrum-acquisition/",
+      "summary": "The carrier has already put some of this spectrum to use",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-07-29T11:30:27+00:00",
+      "ts": 1785324627.0
+    },
+    {
+      "title": "AT&T completes $23B EchoStar spectrum buy",
+      "link": "https://www.mobileworldlive.com/att/att-completes-23b-echostar-spectrum-buy/",
+      "summary": "AT&T talked-up an expected boost in 5G capacity across the US from a freshly completed $23 billion acquisition of spectrum assets from EchoStar, highlighting an enhanced ability to meet emerging AI use cases. The post AT&T completes $23B EchoStar spectrum buy appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-07-29T10:33:24+00:00",
+      "ts": 1785321204.0
+    },
+    {
+      "title": "Amazon seeks approval for 5,105-satellite direct-to-device network",
+      "link": "https://capacityglobal.com/news/amazon-seeks-approval-for-5105-satellite-d2d-network/",
+      "summary": "Amazon has filed an application with the US Federal Communications Commission to launch up to 5,105 LEO satellites for a direct-to-device (D2D) mobile network, as the company moves to compete with Starlink in space-based connectivity. The post Amazon seeks approval for 5,105-satellite direct-to-device network appeared...",
+      "source": "Capacity Media",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-07-29T09:58:50+00:00",
+      "ts": 1785319130.0
+    },
+    {
+      "title": "FCC exempts new Starlink routers from Covered List",
+      "link": "https://www.mobileworldlive.com/starlink/fcc-exempts-new-starlink-routers-from-covered-list/",
+      "summary": "New SpaceX Starlink routers will continue being authorised for import into the US after the Federal Communications Commission (FCC) granted a conditional exemption from its national security Covered List. The post FCC exempts new Starlink routers from Covered List appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-07-29T08:20:16+00:00",
+      "ts": 1785313216.0
+    },
+    {
+      "title": "Telstra adds apps to Starlink D2D service",
       "link": "https://www.mobileworldlive.com/telstra/telstra-expands-starlink-satellite-service-with-data-app-support/",
-      "summary": "Australia-based Telstra expanded its satellite-to-mobile coverage to support select mobile apps, allowing remote consumers and business customers to access essential location, weather and messaging services beyond the reach of its terrestrial network. The post Telstra expands Starlink satellite service with data app...",
+      "summary": "Telstra expanded its satellite-to-mobile service by adding access to select mobile apps, enabling customers to access location, weather and messaging services beyond the reach of its terrestrial network. The post Telstra adds apps to Starlink D2D service appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -632,6 +717,21 @@
       "ts": 1785297600.0
     },
     {
+      "title": "FTTH Council Europe rebrands as Fibre Council Europe",
+      "link": "https://www.advanced-television.com/2026/07/29/ftth-council-europe-rebrands-as-fibre-council-europe/",
+      "summary": "The FTTH Council Europe has announced that it has rebranded as Fibre Council Europe. Explaining the rebrand, the industry body said: “Fibre to the home is where the Council’s journey began; it no longer defines the full extent of the fibre industry’s work or ambition. Across Europe, fibre infrastructure now underpins...",
+      "source": "Advanced Television",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-07-29T01:59:43+00:00",
+      "ts": 1785290383.0
+    },
+    {
       "title": "Amazon Leo plans to deploy 5,105 D2D satellites",
       "link": "https://techblog.comsoc.org/2026/07/28/amazon-leo-plans-to-deploy-5105-d2d-satellites/",
       "summary": "Executive Summary: Amazon Leo, the #1 competitor to SpaceX’s Starlink for LEO satellite internet, is proposing a new Direct to Device (D2D) constellation comprising 5,105 low-Earth orbit (LEO) satellites that will work in concert with satellites Amazon is acquiring from Globalstar. Amazon Leo has disclosed additional...",
@@ -644,20 +744,6 @@
       "relevance": 57,
       "date": "2026-07-29T01:54:12+00:00",
       "ts": 1785290052.0
-    },
-    {
-      "title": "AT&T closes $23B acquisition of EchoStar spectrum",
-      "link": "https://www.lightreading.com/5g/at-t-closes-23b-acquisition-of-echostar-spectrum",
-      "summary": "AT&T has completed its acquisition of 50MHz of lowband and midband spectrum from EchoStar. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-07-28T21:54:51+00:00",
-      "ts": 1785275691.0
     },
     {
       "title": "Eutelsat Details IRIS² MoU With Poland",
@@ -749,22 +835,6 @@
       "ts": 1785250861.0
     },
     {
-      "title": "Rakuten Symphony secures Japanese METI grant to support Ukraine's Open RAN deployment",
-      "link": "https://www.datacenterdynamics.com/en/news/rakuten-symphony-secures-japanese-meti-grant-to-support-ukraines-open-ran-deployment/",
-      "summary": "The carrier is currently working with Ukrainian telco Kyivstar on Open RAN",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 49,
-      "date": "2026-07-28T13:40:27+00:00",
-      "ts": 1785246027.0
-    },
-    {
       "title": "SpaceX won't buy a telco. Musk will buy the spectrum and build one himself",
       "link": "https://www.lightreading.com/satellite/spacex-won-t-buy-a-telco-musk-will-buy-the-spectrum-and-build-one-himself",
       "summary": "Everyone's guessing which carrier SpaceX will buy. The FCC docket says Musk may not be shopping for one, but he is pricing a build.",
@@ -820,20 +890,6 @@
       "relevance": 66,
       "date": "2026-07-28T07:30:00+00:00",
       "ts": 1785223800.0
-    },
-    {
-      "title": "FCC explains C-band incentives",
-      "link": "https://www.advanced-television.com/2026/07/28/fcc-explains-c-band-incentives/",
-      "summary": "The FCC’s upper C-band compensation payments targeted to SES, Eutelsat and Telesat, at an overall $6.3 billion (€5.5bn), sound impressive. However, the total is dependent on the frequencies controlled by the three satellite operators being cleared on schedule. The FCC’s statement said: “Today we take a major step...",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-28T02:04:37+00:00",
-      "ts": 1785204277.0
     },
     {
       "title": "Cheap Chinese AI Models: Unappreciated Threat to U.S. Hyperscaler AI Dominance",
@@ -950,21 +1006,6 @@
       "relevance": 48,
       "date": "2026-07-27T16:45:00+00:00",
       "ts": 1785170700.0
-    },
-    {
-      "title": "Fractus, Geotab settle IoT antenna legal action",
-      "link": "https://www.mobileworldlive.com/industry/fractus-geotab-settle-iot-antenna-legal-action/",
-      "summary": "Antenna technology company Fractus settled a legal action against fleet management player Geotab, ending a 20-month fight in which a big-name US operator was originally implicated. The post Fractus, Geotab settle IoT antenna legal action appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "antenas",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-27T16:32:19+00:00",
-      "ts": 1785169939.0
     },
     {
       "title": "FCC Approves Upper C-Band Order, Allocating $5.6 Billion to SES and $504 Million to Eutelsat",
@@ -1111,20 +1152,6 @@
       "ts": 1784911082.0
     },
     {
-      "title": "The Friday File: OpenAI; Samsung; World Cup",
-      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-openai-samsung-world-cup/",
-      "summary": "Mobile World Live brings you our top three picks of the week as OpenAI's models hacked an AI start-up during testing, Samsung unveiled its latest AI-powered foldables, and Verizon and AT&T logged record World Cup network traffic. The post The Friday File: OpenAI; Samsung; World Cup appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-24T11:03:27+00:00",
-      "ts": 1784891007.0
-    },
-    {
       "title": "Converged OT, Network Slicing, and Automated Grid Control: The Utility Security Questions a Foundational Framework Can’t Answer",
       "link": "https://tecknexus.com/document/securing-grid-scale-network-architecture-utilities/",
       "summary": "Converged OT, network slicing, and automated grid control look like three unrelated engineering topics. They share the same underlying risk pattern. Part 2 of TeckNexus's Utilities Intelligence Series digs into what happens when the component with the broadest reach across the grid, the management plane, the...",
@@ -1209,20 +1236,6 @@
       "relevance": 52,
       "date": "2026-07-23T16:43:36+00:00",
       "ts": 1784825016.0
-    },
-    {
-      "title": "FCC votes in rules for upper C-band auction",
-      "link": "https://www.lightreading.com/regulatory-politics/fcc-votes-in-rules-for-upper-c-band-auction",
-      "summary": "The FCC has adopted rules to auction 160MHz of upper C-band spectrum by July 2027. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-22T21:35:02+00:00",
-      "ts": 1784756102.0
     },
     {
       "title": "Why Are We Building 6G?",
