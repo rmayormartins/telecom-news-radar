@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-30T08:05:25.264771+00:00",
-  "count": 103,
+  "generated_at": "2026-07-30T13:24:35.380754+00:00",
+  "count": 101,
   "theme_counts": {
-    "moveis": 39,
-    "fibra": 18,
+    "moveis": 38,
+    "fibra": 15,
     "antenas": 9,
-    "iot": 3,
+    "iot": 4,
     "satelite": 35,
     "radar_militar": 8,
     "radiocom": 2,
     "tv": 0,
-    "geral": 21
+    "geral": 22
   },
   "country_counts": {
-    "br": 2,
+    "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 1,
-    "jp": 5,
+    "in": 2,
+    "jp": 3,
     "kr": 0,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 24,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "3G4G Blog",
@@ -185,7 +185,7 @@
     },
     {
       "source": "Advanced Television",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 500: Internal Server Error",
       "kept": 0
     },
     {
@@ -200,6 +200,39 @@
     }
   ],
   "items": [
+    {
+      "title": "China Mobile, China Telecom, Vodafone, AT&T, Airtel, Verizon and Deutsche Telekom Accelerate IoT with 5G, AI, Satellite and Smart Connectivity",
+      "link": "https://telecomlead.com/5g/china-mobile-china-telecom-vodafone-att-airtel-verizon-and-deutsche-telekom-accelerate-iot-with-5g-ai-satellite-and-smart-connectivity-126997",
+      "summary": "The telecom industry’s IoT strategy is moving beyond basic cellular connectivity toward satellite IoT, 5G RedCap, eSIM, AI-powered analytics, smart utilities, edge computing and global connectivity orchestration. Below is a summary of recent IoT initiatives from seven major mobile operators. China Mobile China Mobile...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 70,
+      "date": "2026-07-30T12:31:35+00:00",
+      "ts": 1785414695.0
+    },
+    {
+      "title": "Core 5G revenue scaling faster than 4G",
+      "link": "https://www.mobileworldlive.com/old_latest-stories/core-5g-revenue-scales-faster-than-4g/",
+      "summary": "Dell’Oro Group revealed mobile operators have spent 208% more on standalone 5G than they had on 4G core functions at the same point in the technology’s lifecycle. The post Core 5G revenue scaling faster than 4G appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-07-30T08:40:42+00:00",
+      "ts": 1785400842.0
+    },
     {
       "title": "Tri-Domain Multiuser MIMO Precoding Optimization and Channel Estimation with Spatial-EM Reconfigurable Antenna",
       "link": "https://arxiv.org/abs/2605.23682",
@@ -678,6 +711,20 @@
       "ts": 1785334437.0
     },
     {
+      "title": "AT&T retires final 4ESS switch in Alaska",
+      "link": "https://www.mobileworldlive.com/att/att-retires-final-4ess-switch-in-alaska/",
+      "summary": "AT&T powered down its final No. 4 Electronic Switching System in Anchorage, Alaska, closing out more than five decades of long-distance calling technology as the operator continues shifting toward modern, software-driven network platforms. The post AT&T retires final 4ESS switch in Alaska appeared first on Mobile...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-07-29T14:01:00+00:00",
+      "ts": 1785333660.0
+    },
+    {
       "title": "EchoStar closes AT&T spectrum deal, but wrinkles remain",
       "link": "https://www.lightreading.com/5g/echostar-closes-at-t-spectrum-deal-but-wrinkles-remain",
       "summary": "EchoStar and AT&T have wrapped a $23 billion spectrum sale, with a portion being deposited to an FCC-mandated trust. It's not clear if the close will prevent a possible Hughes unit bankruptcy.",
@@ -761,54 +808,6 @@
       "relevance": 57,
       "date": "2026-07-29T08:12:47+00:00",
       "ts": 1785312767.0
-    },
-    {
-      "title": "American Tower Q2 2026 Revenue Reaches $2.75 bn as Global 5G Tower Demand, AI Data Centers and Fiber Connectivity Fuel Growth",
-      "link": "https://telecomlead.com/telecom-equipment/american-tower-q2-2026-revenue-reaches-2-75-bn-as-global-5g-tower-demand-ai-data-centers-and-fiber-connectivity-fuel-growth-126971",
-      "summary": "American Tower delivered a strong second quarter in 2026 as accelerating demand for 5G infrastructure, AI-ready data centers and digital connectivity lifted revenue and prompted the company to raise its full-year outlook. The telecom tower company reported total revenue of $2.749 billion, up 4.7 percent year on year,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-29T05:35:12+00:00",
-      "ts": 1785303312.0
-    },
-    {
-      "title": "Telefonica Brasil Q2 2026 Revenue Rises 7.6% to R$15.8 bn as Vivo Expands Mobile, Fiber, Digital Services and 5G",
-      "link": "https://telecomlead.com/telecom-services/telefonica-brasil-q2-2026-revenue-rises-7-6-to-r15-8-bn-as-vivo-expands-mobile-fiber-digital-services-and-5g-126969",
-      "summary": "Telefonica Brasil, operating under the Vivo brand, delivered another quarter of growth in the second quarter of 2026, driven by higher mobile service revenue, expanding fiber broadband, rising digital services and continued investment in 5G infrastructure. The operator reported revenue of R$15.76 billion, up 7.6...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "br"
-      ],
-      "relevance": 56,
-      "date": "2026-07-29T05:29:30+00:00",
-      "ts": 1785302970.0
-    },
-    {
-      "title": "Asia Pacific Satellite Direct-to-Device Services Expand Across Four Markets as Starlink Leads Commercial Rollout",
-      "link": "https://telecomlead.com/satellite/asia-pacific-satellite-direct-to-device-services-expand-across-four-markets-as-starlink-leads-commercial-rollout-126963",
-      "summary": "Satellite direct-to-device (D2D) services are expanding across the Asia Pacific region, with six commercial Starlink-based services now operating across four markets such as Australia, Japan, New Zealand, and the Philippines. The Ookla report, based on background signal scan data from January 2025 to June 2026,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 46,
-      "date": "2026-07-29T02:21:30+00:00",
-      "ts": 1785291690.0
     },
     {
       "title": "Amazon Leo plans to deploy 5,105 D2D to interoperate with Apple devices",
@@ -1056,36 +1055,6 @@
       "relevance": 48,
       "date": "2026-07-27T16:45:00+00:00",
       "ts": 1785170700.0
-    },
-    {
-      "title": "Ookla reveals US AI cloud latency trends",
-      "link": "https://www.mobileworldlive.com/ai-cloud/ookla-reveals-ai-cloud-latency-trends-across-us-cities/",
-      "summary": "Research by network performance measurement company Ookla found network responsiveness for AI applications varies significantly by location, with geography, fibre routing and hyperscaler infrastructure playing a bigger role than population size or the presence of local data centres. The post Ookla reveals US AI cloud...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-27T15:44:31+00:00",
-      "ts": 1785167071.0
-    },
-    {
-      "title": "Rakuten Symphony bags grant for Kyivstar open RAN trial",
-      "link": "https://www.mobileworldlive.com/rakuten/rakuten-symphony-bags-grant-for-kyivstar-open-ran-trial/",
-      "summary": "Japan’s Ministry of Economy, Trade and Industry awarded a grant of up to JPY350 million to partly fund Rakuten Symphony's field tests of open RAN architecture in Ukraine. The post Rakuten Symphony bags grant for Kyivstar open RAN trial appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 54,
-      "date": "2026-07-27T15:20:01+00:00",
-      "ts": 1785165601.0
     },
     {
       "title": "Starship completes first test flight with Starlink 'V3' satellites",
