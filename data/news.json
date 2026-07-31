@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-31T08:31:42.762444+00:00",
-  "count": 100,
+  "generated_at": "2026-07-31T13:28:28.311196+00:00",
+  "count": 103,
   "theme_counts": {
-    "moveis": 41,
-    "fibra": 10,
+    "moveis": 45,
+    "fibra": 12,
     "antenas": 13,
-    "iot": 1,
-    "satelite": 27,
+    "iot": 0,
+    "satelite": 25,
     "radar_militar": 10,
     "radiocom": 3,
     "tv": 1,
-    "geral": 19
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 1,
-    "jp": 3,
+    "in": 2,
+    "jp": 5,
     "kr": 0,
-    "cn": 1
+    "cn": 3
   },
   "research_count": 28,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -91,12 +91,12 @@
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Via Satellite",
@@ -201,9 +201,84 @@
   ],
   "items": [
     {
+      "title": "Starlink targets D2C trial in Malaysia amid D2C boom across APAC",
+      "link": "https://www.lightreading.com/satellite/starlink-targets-d2c-trial-in-malaysia-amid-d2c-boom-across-apac",
+      "summary": "Starlink intends to trial its direct-to-cell (D2C) technology in Malaysia, as a new Ookla report reveals rapid growth of D2C satellite services across Asia-Pacific.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-07-31T13:06:08+00:00",
+      "ts": 1785503168.0
+    },
+    {
+      "title": "Taiwan Mobile Market to Reach $6.9 Billion by 2030 as 5G Share Tops 94 Percent",
+      "link": "https://telecomlead.com/5g/taiwan-mobile-market-to-reach-6-9-billion-by-2030-as-5g-share-tops-94-percent-127042",
+      "summary": "Taiwan’s mobile services market is forecast to grow steadily through 2030, driven by rising 5G adoption, higher mobile data consumption and telecom operators’ investments in AI, cloud, enterprise digital services and premium mobile plans. According to GlobalData’s Taiwan Mobile Broadband Forecast (Q1 2026), total...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-07-31T13:04:12+00:00",
+      "ts": 1785503052.0
+    },
+    {
+      "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
+      "link": "https://www.lightreading.com/regulatory-politics/fcc-dish-2-4b-trust-fund-only-for-outsiders-that-built-its-5g-network",
+      "summary": "The FCC confirmed that a mandated trust fund linked to EchoStar's spectrum sales to AT&T and SpaceX is exclusive to external companies and partners involved in Dish's 5G network, and not to service EchoStar subsidiary loans.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-07-31T12:00:00+00:00",
+      "ts": 1785499200.0
+    },
+    {
+      "title": "Eurobites: EE rolls out XGS-PON-powered broadband in UK",
+      "link": "https://www.lightreading.com/broadband/eurobites-ee-rolls-out-xgs-pon-powered-broadband-in-uk",
+      "summary": "Also in today's EMEA regional roundup: Proximus still facing international headwinds; the future's about towers, not satellites, insists Cellnex; EU puts out call for would-be 'AI gigafactory' owners.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-07-31T11:25:18+00:00",
+      "ts": 1785497118.0
+    },
+    {
+      "title": "Docomo picks Ericsson RAN baseband",
+      "link": "https://www.mobileworldlive.com/docomo/docomo-picks-ericsson-ran-baseband/",
+      "summary": "Japan continued to be lucrative territory for Ericsson, with NTT Docomo picking it to provide RAN baseband platform spanning all generations of its mobile infrastructure. The post Docomo picks Ericsson RAN baseband appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 37,
+      "date": "2026-07-31T11:10:02+00:00",
+      "ts": 1785496202.0
+    },
+    {
       "title": "AT&T rolls out dedicated SA 5G core for FirstNet",
       "link": "https://www.mobileworldlive.com/5g/att-rolls-out-dedicated-sa-5g-core-for-firstnet/",
-      "summary": "AT&T switched on a dedicated standalone (SA) 5G core for public safety network FirstNet, which the operator described as the first and only nationwide SA 5G core built specifically for first responders. The post AT&T rolls out dedicated SA 5G core for FirstNet appeared first on Mobile World Live .",
+      "summary": "AT&T switched on a dedicated standalone 5G core for public safety network FirstNet, which the operator described as the first and only such nationwide network built specifically for first responders. The post AT&T rolls out dedicated SA 5G core for FirstNet appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "moveis"
@@ -213,6 +288,38 @@
       "relevance": 62,
       "date": "2026-07-31T08:10:25+00:00",
       "ts": 1785485425.0
+    },
+    {
+      "title": "NTT DOCOMO Targets ¥857 bn Capex in FY2026, Focuses on 5G, AI-Native Networks and Next-Generation Infrastructure",
+      "link": "https://telecomlead.com/5g/ntt-docomo-targets-%c2%a5857-bn-capex-in-fy2026-focuses-on-5g-ai-native-networks-and-next-generation-infrastructure-127031",
+      "summary": "NTT DOCOMO is maintaining a high level of capital expenditure as it strengthens its mobile network and prepares infrastructure for AI, 5G Advanced and eventually 6G. The operator is forecasting capital expenditure of ¥857 billion for FY2026, broadly unchanged from ¥857.5 billion in FY2025. FY2025 Capex had increased...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 64,
+      "date": "2026-07-31T06:29:45+00:00",
+      "ts": 1785479385.0
+    },
+    {
+      "title": "NTT DOCOMO Selects Ericsson RAN for Japan 5G Network, Delivering 2X Capacity With Less Than Half the Energy",
+      "link": "https://telecomlead.com/5g/ntt-docomo-selects-ericsson-ran-for-japan-5g-network-delivering-2x-capacity-with-less-than-half-the-energy-127028",
+      "summary": "NTT DOCOMO has selected Ericsson’s RAN Compute platform to strengthen its mobile networks in Japan, including its 5G infrastructure, as the operator prepares for rising data traffic and future AI-driven network requirements. NTT DOCOMO started the deployment of the Ericsson RAN Compute platform in July 2026. The RAN...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 58,
+      "date": "2026-07-31T06:17:06+00:00",
+      "ts": 1785478626.0
     },
     {
       "title": "Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation",
@@ -620,6 +727,39 @@
       "ts": 1785470400.0
     },
     {
+      "title": "Telecom news: Ericsson, Private 5G Deal, GSMA, Huawei, Xinghe AI Campus",
+      "link": "https://telecomlead.com/news/telecom-news-ericsson-private-5g-deal-gsma-huawei-xinghe-ai-campus-127022",
+      "summary": "Today’s telecom news includes announcements on Ericsson, Queensland’s rail network, GSMA, Huawei, Xinghe AI Campus, among others. Ericsson Wins Private 5G Deal to Modernize Queensland’s Rail Communications Ericsson has been selected to deliver a private 5G communications platform for Queensland’s rail network,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 61,
+      "date": "2026-07-31T02:01:25+00:00",
+      "ts": 1785463285.0
+    },
+    {
+      "title": "Telecom news: Inwi, Huawei, TRAI, Vodafone Idea, TRAI, Capex",
+      "link": "https://telecomlead.com/news/telecom-news-inwi-huawei-trai-vodafone-idea-trai-capex-127020",
+      "summary": "Today’s telecom news includes announcements on Inwi, Huawei, Vodafone Idea, TRAI, Capex, among others. Inwi and Huawei Partner to Expand High-Speed Mobile Connectivity Across Morocco Moroccan telecom operator Inwi has partnered with Huawei to enhance mobile network coverage along Morocco’s railway corridors and...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 46,
+      "date": "2026-07-31T01:59:04+00:00",
+      "ts": 1785463144.0
+    },
+    {
       "title": "Highlights and Analysis of July 30th U.S. Senate hearing on AI and telecommunications",
       "link": "https://techblog.comsoc.org/2026/07/30/highlights-analysis-of-july-30th-u-s-senate-hearing-on-ai-and-telecommunications/",
       "summary": "Disclaimer: Perplexity.ai was used for research used to generate this article. ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………….. Introduction: Today, U.S. Senator Deb Fischer (R-Neb), Chairman of the Senate Commerce Subcommittee on Telecommunications and Media, convened a...",
@@ -889,18 +1029,18 @@
       "ts": 1785334999.0
     },
     {
-      "title": "AT&T completes $23bn EchoStar spectrum acquisition",
-      "link": "https://capacityglobal.com/news/att-completes-23bn-echostar-spectrum-acquisition/",
-      "summary": "AT&T closes its EchoStar acquisition for roughly $23bn in a deal which promises to add mid-band spectrum to boost 5G speed and fuel AI connectivity. The post AT&T completes $23bn EchoStar spectrum acquisition appeared first on Capacity .",
-      "source": "Capacity Media",
+      "title": "AT&T retires final 4ESS switch in Alaska",
+      "link": "https://www.mobileworldlive.com/att/att-retires-final-4ess-switch-in-alaska/",
+      "summary": "AT&T powered down its final No. 4 Electronic Switching System in Anchorage, Alaska, closing out more than five decades of long-distance calling technology as the operator continues shifting toward modern, software-driven network platforms. The post AT&T retires final 4ESS switch in Alaska appeared first on Mobile...",
+      "source": "Mobile World Live",
       "themes": [
-        "moveis"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 52,
-      "date": "2026-07-29T14:13:57+00:00",
-      "ts": 1785334437.0
+      "relevance": 37,
+      "date": "2026-07-29T14:01:00+00:00",
+      "ts": 1785333660.0
     },
     {
       "title": "EchoStar closes AT&T spectrum deal, but wrinkles remain",
@@ -959,20 +1099,6 @@
       "ts": 1785313216.0
     },
     {
-      "title": "Telstra adds apps to Starlink D2D service",
-      "link": "https://www.mobileworldlive.com/telstra/telstra-expands-starlink-satellite-service-with-data-app-support/",
-      "summary": "Telstra expanded its satellite-to-mobile service by adding access to select mobile apps, enabling customers to access location, weather and messaging services beyond the reach of its terrestrial network. The post Telstra adds apps to Starlink D2D service appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-07-29T08:12:47+00:00",
-      "ts": 1785312767.0
-    },
-    {
       "title": "Amazon Leo plans to deploy 5,105 D2D to interoperate with Apple devices",
       "link": "https://techblog.comsoc.org/2026/07/28/amazon-leo-plans-to-deploy-5105-d2d-satellites/",
       "summary": "Executive Summary: Amazon Leo, the #1 competitor to SpaceX’s Starlink for LEO satellite internet, is proposing a new Direct to Device (D2D) constellation comprising 5,105 low-Earth orbit (LEO) satellites that will work in concert with satellites Amazon is acquiring from Globalstar. Amazon Leo has disclosed additional...",
@@ -999,35 +1125,6 @@
       "relevance": 43,
       "date": "2026-07-28T16:20:46+00:00",
       "ts": 1785255646.0
-    },
-    {
-      "title": "FCC exempts new Starlink devices from router ban",
-      "link": "https://www.lightreading.com/broadband/fcc-exempts-new-starlink-devices-from-router-ban",
-      "summary": "The FCC has granted conditional approval to a number of new Starlink devices. The approvals add to a growing list of gear that are temporarily exempt from the FCC's ban on new, foreign-made routers.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-28T16:15:30+00:00",
-      "ts": 1785255330.0
-    },
-    {
-      "title": "Iridium brings LEO to Skywave fleet management",
-      "link": "https://www.mobileworldlive.com/industry/iridium-brings-leo-to-skywave-fleet-management/",
-      "summary": "Industrial IoT connectivity player Skywave tapped Iridium Communications to bolster a heavy equipment fleet management system by adding the satellite company’s coverage to its existing terminals. The post Iridium brings LEO to Skywave fleet management appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-07-28T15:01:01+00:00",
-      "ts": 1785250861.0
     },
     {
       "title": "SpaceX won't buy a telco. Musk will buy the spectrum and build one himself",
@@ -1118,36 +1215,6 @@
       "ts": 1785162339.0
     },
     {
-      "title": "Rakuten Symphony scores Japanese grant to fast-track Ukraine open RAN trials",
-      "link": "https://www.lightreading.com/open-ran/rakuten-symphony-scores-japanese-grant-to-fast-track-ukraine-open-ran-trials",
-      "summary": "Rakuten Symphony has received a $2.14 million grant from the Japanese government to further develop open RAN trials in Ukraine, as its collaboration with Kyivstar on open RAN technology moves into the field-testing phase.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 43,
-      "date": "2026-07-27T12:36:18+00:00",
-      "ts": 1785155778.0
-    },
-    {
-      "title": "Amazon files application for direct-to-device satellite constellation",
-      "link": "https://spacenews.com/amazon-files-application-for-direct-to-device-satellite-constellation/",
-      "summary": "Amazon has filed plans with the Federal Communications Commission for a constellation of more than 5,100 satellites that would provide direct-to-device (D2D) services using Globalstar spectrum. The post Amazon files application for direct-to-device satellite constellation appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-27T11:59:34+00:00",
-      "ts": 1785153574.0
-    },
-    {
       "title": "5G infrastructure moves from coverage and speeds to cloud-native, orchestration, automation and AI-assisted networks",
       "link": "https://techblog.comsoc.org/2026/07/25/5g-infrastructure-moves-from-coverage-speeds-to-cloud-native-orchestration-automation-and-ai-assisted-networks/",
       "summary": "The most meaningful 5G infrastructure theme this week is the continued shift toward 5G standalone (SA), cloud-native, and AI-assisted networks. Recent news coverage shows that network operators and vendors pushing 5G SA expansion, automation, and 5G private-network use cases, alongside funding and buildout activity in...",
@@ -1160,20 +1227,6 @@
       "relevance": 55,
       "date": "2026-07-25T23:31:49+00:00",
       "ts": 1785022309.0
-    },
-    {
-      "title": "Charter sidesteps Starlink speculation",
-      "link": "https://www.lightreading.com/cable-technology/charter-sidesteps-starlink-speculation",
-      "summary": "Competition and collaboration with Starlink was a big topic of interest on Charter's Q2 call, fueled by a report that the company is chatting with SpaceX about a possible partnership.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-24T16:38:02+00:00",
-      "ts": 1784911082.0
     },
     {
       "title": "Converged OT, Network Slicing, and Automated Grid Control: The Utility Security Questions a Foundational Framework Can’t Answer",
