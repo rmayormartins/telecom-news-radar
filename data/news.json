@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T01:47:45.684264+00:00",
-  "count": 100,
+  "generated_at": "2026-08-01T08:01:28.073482+00:00",
+  "count": 72,
   "theme_counts": {
-    "moveis": 47,
+    "moveis": 36,
     "fibra": 11,
-    "antenas": 13,
+    "antenas": 1,
     "iot": 0,
-    "satelite": 23,
-    "radar_militar": 12,
-    "radiocom": 3,
-    "tv": 1,
-    "geral": 19
+    "satelite": 22,
+    "radar_militar": 7,
+    "radiocom": 2,
+    "tv": 0,
+    "geral": 9
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 0,
     "cn": 2
   },
-  "research_count": 28,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (23 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (13 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (26 itens)",
-      "kept": 7
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (40 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -392,411 +392,6 @@
       "relevance": 58,
       "date": "2026-07-31T06:17:06+00:00",
       "ts": 1785478626.0
-    },
-    {
-      "title": "Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation",
-      "link": "https://arxiv.org/abs/2607.27778",
-      "summary": "arXiv:2607.27778v1 Announce Type: new Abstract: Cell-free massive MIMO (CF-mMIMO) combined with integrated sensing and communication (ISAC) is a promising architecture for future 6G networks, enabling new sensing-based applications. However, integrating sensing functionality increases power consumption across the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 75,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Coexistence of 5G NR and Wi Fi 6E/7 at 6 GHz: Experimental Interference Measurements",
-      "link": "https://arxiv.org/abs/2607.28213",
-      "summary": "arXiv:2607.28213v1 Announce Type: new Abstract: This paper presents the first conducted-interference measurements of a commercial Very Low Power (VLP) Wi-Fi 6E/7 device into both the gNB uplink and UE downlink receiver chains of a live 5G New Radio (NR) system, using a complete O-RAN/SDR stack with 5G core in...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radiocom"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Energy Saving in Cell-Free Massive MIMO ISAC for Ultra-Reliable Target-Aware Actuation",
-      "link": "https://arxiv.org/abs/2401.10315",
-      "summary": "arXiv:2401.10315v4 Announce Type: replace-cross Abstract: Emerging 6G sensing-based applications rely on ultra-reliable target-aware actuation, where timely and accurate sensing information triggers critical actions. Achieving this requires tightly integrated sensing and communication (ISAC) under stringent...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Radar-Aided Near-Field Beam Prediction via Beam Map Learning for XL-MIMO V2I Communications",
-      "link": "https://arxiv.org/abs/2607.27643",
-      "summary": "arXiv:2607.27643v1 Announce Type: new Abstract: Near-field beam training in extremely large-scale multiple-input multiple-output (XL-MIMO) vehicle-to-infrastructure (V2I) systems incurs high overhead due to large range-angle codebooks and rapid channel variation. This paper proposes a passive radar-aided framework for...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 71,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
-      "link": "https://arxiv.org/abs/2607.28002",
-      "summary": "arXiv:2607.28002v1 Announce Type: new Abstract: Accurate localization of devices is a key capability for emerging 5G and 6G networks and depends on effective base station (BS) placement. Conventional geometry-based approaches such as Geometric Dilution of Precision (GDOP) ignore realistic propagation effects such as...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 70,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Beamforming and Phase Shift Design for STAR-RIS Assisted Secure Sensing and Communication in ISAC Systems",
-      "link": "https://arxiv.org/abs/2607.28081",
-      "summary": "arXiv:2607.28081v1 Announce Type: new Abstract: Integrated sensing and communication(ISAC), as a rapidly advancing technique, introduces a fresh approach for achieving secure communication and intelligent sensing for future wireless networks. An ISAC framework empowered by simultaneously transmitting and reflecting...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 70,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "A Stochastic Optimization Framework for RIS-Aided Wireless Network Design",
-      "link": "https://arxiv.org/abs/2607.28018",
-      "summary": "arXiv:2607.28018v1 Announce Type: new Abstract: Reconfigurable intelligent surfaces (RISs) are a promising technology for improving the spectral and energy efficiency of future wireless networks, which make use of metasurfaces. However, optimizing RIS configurations typically leads to large-scale, non-convex problems...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ISAC Networks",
-      "link": "https://arxiv.org/abs/2607.28224",
-      "summary": "arXiv:2607.28224v1 Announce Type: new Abstract: This paper presents a Cram\\'er-Rao lower bound (CRLB)-driven beamforming (BF) and power allocation (PA) framework for cooperative integrated sensing and communication (ISAC) networks, where a set of multi-antenna base stations (BSs) jointly serve multiple users and...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "O-RAN: Analysis of Latency-critical Interfaces and Overview of Time Sensitive Networking Solutions",
-      "link": "https://arxiv.org/abs/2607.27448",
-      "summary": "arXiv:2607.27448v1 Announce Type: new Abstract: 5G and B5G/6G foundations heavily rely on virtualization technologies, and virtualized Radio Access Networks (vRANs) are one of their major keystones. However, while vRANs have been traditionally suffering from significant hardware/software coupling, next generation...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Multi-Chirp AFDM for Rydberg Atomic Quantum Receivers: Waveform and Algorithm Design",
-      "link": "https://arxiv.org/abs/2607.27903",
-      "summary": "arXiv:2607.27903v1 Announce Type: new Abstract: We propose a multi-chirp affine frequency division multiplexing (MC-AFDM) scheme for joint delay-Doppler estimation with Rydberg atomic quantum receivers (RAQRs). The work is motivated by the fact that RAQRs, while offering superior sensitivity and advantageous sensing...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Power-Efficient XL-MIMO Design for Mixed Near- and Far-Field SWIPT Systems",
-      "link": "https://arxiv.org/abs/2607.27992",
-      "summary": "arXiv:2607.27992v1 Announce Type: new Abstract: This paper examines the power consumption (PC) efficiency of a mixed near- and far-field (MF) simultaneous wireless information and power transfer (SWIPT) system underpinned by a hybrid beamforming (HB)-based modular extra-large multiple-input-multiple output (XL-MIMO)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Flexible-Sector 6DMA Base Station: Modeling and Design",
-      "link": "https://arxiv.org/abs/2509.26086",
-      "summary": "arXiv:2509.26086v3 Announce Type: replace Abstract: Six-dimensional movable antenna (6DMA) has emerged as a promising new technology for future wireless networks, which can adaptively adjust the three-dimensional (3D) positions and 3D rotations of antennas/antenna arrays for performance enhancement. This paper...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Powering Net-Zero 6G: Packetized Energy Management for Grid-Interactive Telecom Infrastructure",
-      "link": "https://arxiv.org/abs/2607.28111",
-      "summary": "arXiv:2607.28111v1 Announce Type: new Abstract: The transition to net-zero 6G requires energy-management approaches that go beyond conventional RAN efficiency mechanisms. As future networks integrate AI-native operation, edge intelligence, dense deployments, renewables, and storage, the RAN will become both a growing...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Geometric View on Integrated Cascaded Channel of IRS-Aided Communications",
-      "link": "https://arxiv.org/abs/2607.27972",
-      "summary": "arXiv:2607.27972v1 Announce Type: new Abstract: The hybrid intelligent reflecting surface (IRS) architecture is a novel technology that leverages the advantages of both passive and active IRS; the passive IRS offers a large aperture, while the active IRS provides additional power amplification. Prior studies have...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "On the Implementation of Two-Parameter Stabilizing Controllers Using Stable-Block Input-Output Feedback Structures",
-      "link": "https://arxiv.org/abs/2607.28469",
-      "summary": "arXiv:2607.28469v1 Announce Type: new Abstract: This paper a universal implementation method for continuous- and discrete-time two-parameter (2-DOF) stabilizing controllers using exclusively stable constituent blocks. The framework is valid for all regular SISO and MIMO plants, particularly those failing to satisfy...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "A Sub-6G Mixer First RXFE with LO Overlap Reduction and 1.08 dB NF Degradation",
-      "link": "https://arxiv.org/abs/2607.28546",
-      "summary": "arXiv:2607.28546v1 Announce Type: new Abstract: This work presents a mixer-first receiver front-end (RXFE) optimized for sub-6 GHz applications with minimized local oscillator (LO) pulse overlap. A design methodology is proposed to mitigate LO overlap-induced degradation in input matching and noise figure (NF),...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Constructing linear codes from digraphs and groups",
-      "link": "https://arxiv.org/abs/2607.28016",
-      "summary": "arXiv:2607.28016v1 Announce Type: new Abstract: In 2012, Kaufman and Lubotzky constructed the first family of symmetric LDPC good codes. Their construction used Cayley codes, as originally defined by Kaufman and Wigderson (2016). In this paper we present two generalisations to the Cayley code construction, which we...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Generalized Query-Oriented Image Semantic Coding Empowered by Large AI Models and Semantic-Aware Hybrid Beamforming",
-      "link": "https://arxiv.org/abs/2607.28276",
-      "summary": "arXiv:2607.28276v1 Announce Type: new Abstract: Semantic communication is an emerging paradigm that can preserve the meaning of data during transmission. However, human users are often interested in specific semantic content based on their intent, and users' intent is often not considered in current semantic coding...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Entropy-Smooth Convex Optimization Cannot Be Accelerated",
-      "link": "https://arxiv.org/abs/2607.27476",
-      "summary": "arXiv:2607.27476v1 Announce Type: cross Abstract: We prove an $\\Omega(L/T)$ lower bound for the convergence rate of minimization in the class of functions that are convex and $L$-smooth relative to negative entropy on the standard $d$-simplex, valid for every first-order method when $d = \\Omega(T^2)$. In particular,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "A subspace approach to data-driven predictive control for linear parameter-varying systems",
-      "link": "https://arxiv.org/abs/2607.28490",
-      "summary": "arXiv:2607.28490v1 Announce Type: new Abstract: This paper presents a subspace data-driven predictive control method for linear parameter-varying (LPV) systems. Starting from an affine LPV state-space model in innovation form, we derive a multi-step predictor that separates the effects of past data, future inputs,...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Accelerated ADMM: Automated Parameter Tuning and Improved Linear Convergence",
-      "link": "https://arxiv.org/abs/2511.21210",
-      "summary": "arXiv:2511.21210v3 Announce Type: replace-cross Abstract: This work studies the linear convergence of an accelerated scheme of the Alternating Direction Method of Multipliers (ADMM) for strongly convex and Lipschitz-smooth problems. We use the methodology of expressing the accelerated ADMM as a Lur'e system, i.e., an...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Layered Architecture for Mobile Intelligence",
-      "link": "https://arxiv.org/abs/2607.28083",
-      "summary": "arXiv:2607.28083v1 Announce Type: new Abstract: Artificial intelligence (AI) is rapidly evolving from a centralized computing capability into a pervasive infrastructure that interacts directly with the physical world. While recent perspectives highlight the roles of energy, chips, infrastructure, models, and...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "A Multi-Perspective Study of the Internet Shutdown in Iran",
-      "link": "https://arxiv.org/abs/2605.00187",
-      "summary": "arXiv:2605.00187v2 Announce Type: replace Abstract: Iran conducted two nationwide Internet shutdowns in 2026, on January 8-25 and March 1-May 26, the latter lasting 86 days. We characterize both using three complementary measurement planes: six months of daily Censys scan data, BGP analysis of RIPE RIS snapshots...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Data Field Theory: Theory and Applications of the Functional Renormalization Group for Signal Detection",
-      "link": "https://arxiv.org/abs/2607.27236",
-      "summary": "arXiv:2607.27236v1 Announce Type: cross Abstract: We review the renormalization group framework for signal detection in high-dimensional data, tailored to the regime where the signal may be of extensive rank and does not separate from the noise bulk as isolated spikes. The framework provides a conceptually simple...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Localization and Pursuit of a Mobile Target using Distance-only Measurements",
-      "link": "https://arxiv.org/abs/2607.27812",
-      "summary": "arXiv:2607.27812v1 Announce Type: new Abstract: This paper investigates localization and pursuit of a linearly moving target in a two-dimensional plane using distance measurements only. The distance from the target is estimated from pathloss measurements and is assumed to be noise-free. The proposed system consists of...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "The Capacity Region of the Broadcast Channel with Non-Signaling Assistance",
-      "link": "https://arxiv.org/abs/2607.27434",
-      "summary": "arXiv:2607.27434v1 Announce Type: new Abstract: The capacity region of the $K$-user discrete memoryless broadcast channel is fully characterized when non-signaling (NS) assistance is available to the transmitter and all $K$ receivers. The NS-assisted capacity region is shown to coincide with Sato's region, i.e., the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Field Codes for Distributed Coupling Samplers and Certified Empirical Transport",
-      "link": "https://arxiv.org/abs/2607.27078",
-      "summary": "arXiv:2607.27078v2 Announce Type: replace-cross Abstract: In this paper, we formulate three communication tasks for empirical optimal transport: distributed coupling sampling, cost-evaluable coupling output, and scalar value-certified sampling. Our main result is a field-code compiler: any communicated transport field...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
-    },
-    {
-      "title": "Estimated-State Adaptive Sliding Mode Control and Disturbance Observation Using Second-Order Surfaces for Spacecraft Formation Reconfiguration",
-      "link": "https://arxiv.org/abs/2607.27524",
-      "summary": "arXiv:2607.27524v1 Announce Type: new Abstract: This paper presents a two-phase relative orbit control framework for spacecraft formation flying that combines analytic energy-optimal transfer with robust adaptive sliding mode tracking. In the first phase, a chaser is transferred from an arbitrary initial relative...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-07-31T04:00:00+00:00",
-      "ts": 1785470400.0
     },
     {
       "title": "Telecom news: Ericsson, Private 5G Deal, GSMA, Huawei, Xinghe AI Campus",
