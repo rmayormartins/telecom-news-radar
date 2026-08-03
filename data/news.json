@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-03T08:59:47.397528+00:00",
-  "count": 97,
+  "generated_at": "2026-08-03T14:13:08.372342+00:00",
+  "count": 94,
   "theme_counts": {
-    "moveis": 49,
+    "moveis": 46,
     "fibra": 13,
     "antenas": 8,
     "iot": 0,
-    "satelite": 26,
-    "radar_militar": 10,
+    "satelite": 25,
+    "radar_militar": 9,
     "radiocom": 2,
     "tv": 0,
-    "geral": 19
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 0,
-    "jp": 3,
+    "jp": 4,
     "kr": 0,
-    "cn": 5
+    "cn": 4
   },
   "research_count": 22,
   "sources": [
@@ -70,8 +70,8 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: The read operation timed out",
+      "kept": 0
     },
     {
       "source": "Telecoms Tech News",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Ericsson Blog",
@@ -201,6 +201,65 @@
   ],
   "items": [
     {
+      "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
+      "link": "https://spectrum.ieee.org/ai-ran-6g",
+      "summary": "Today’s advanced-5G networks, and tomorrow’s 6G networks, are now moving toward an increasingly AI-centered future. This September in Madrid , the global telecommunications standards body, the 3GPP , will meet to decide how present-day 5G networks migrate to the emerging 6G standard, slated to begin rolling out by...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-03T12:00:01+00:00",
+      "ts": 1785758401.0
+    },
+    {
+      "title": "Why Saudi Arabia Is a Global 5G Leader with 314 Mbps Speeds, Spectrum Strategy and Infrastructure Investments",
+      "link": "https://telecomlead.com/5g/why-saudi-arabia-is-a-global-5g-leader-with-314-mbps-speeds-spectrum-strategy-and-infrastructure-investments-127074",
+      "summary": "Saudi Arabia has emerged as one of the world’s leading 5G markets, driven by sustained investments in digital infrastructure, extensive spectrum allocation, and nationwide deployment of advanced mobile networks. According to a GSMA Intelligence study, Saudi Arabia’s focus on 5G, fibre connectivity, and technology...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-08-03T11:35:39+00:00",
+      "ts": 1785756939.0
+    },
+    {
+      "title": "Philippine telcos pool resources for $500M domestic subsea cable system",
+      "link": "https://www.lightreading.com/cable-technology/philippine-telcos-pool-resources-for-500m-domestic-subsea-cable-system",
+      "summary": "PLDT, Globe Telecom and Converge ICT Solutions have submitted a proposal to the Philippine government for the construction of a $500 million nationwide submarine cable system.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-03T11:28:42+00:00",
+      "ts": 1785756522.0
+    },
+    {
+      "title": "NTT advances OptQC quantum collaboration",
+      "link": "https://www.mobileworldlive.com/industry/ntt-advances-optqc-quantum-collaboration/",
+      "summary": "NTT committed to invest in deep-tech start-up OptQC to advance joint research into quantum computing commenced in November 2025. The post NTT advances OptQC quantum collaboration appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 37,
+      "date": "2026-08-03T10:49:58+00:00",
+      "ts": 1785754198.0
+    },
+    {
       "title": "NTIA approves US 4.4GHz 6G research",
       "link": "https://www.mobileworldlive.com/regulation/ntia-approves-us-4-4ghz-6g-research/",
       "summary": "The US National Telecommunications and Information Administration revealed the administration of President Donald Trump cleared plans to study the 4.4GHz band for full-power commercial licensed use, which it claimed as a milestone for securing leadership in 6G technology. The post NTIA approves US 4.4GHz 6G research...",
@@ -290,9 +349,9 @@
       "ts": 1785739213.0
     },
     {
-      "title": "Vodafone completes VodafoneThree buyout",
+      "title": "Vodafone completes VodafoneThree buyout, VodafoneZiggo sale",
       "link": "https://www.advanced-television.com/2026/08/03/vodafone-completes-vodafonethree-buyout/",
-      "summary": "Vodafone Group has completed the buyout of CK Hutchison Group Telecom Holding Limited’s 49 per cent stake in VodafoneThree for £4.3 billion (€4.9bn). As a result, Vodafone now owns 100 per cent of VodafoneThree, the UK’s largest mobile operator and one of the fastest growing broadband providers. The Transaction has...",
+      "summary": "Vodafone Group has completed the buyout of CK Hutchison Group Telecom’s 49 per cent stake in VodafoneThree for £4.3 billion (€4.9bn). As a result, Vodafone now owns 100 per cent of VodafoneThree, the UK mobile operator and broadband provider. The transaction has been fully funded from existing Vodafone Group cash...",
       "source": "Advanced Television",
       "themes": [
         "moveis",
@@ -624,22 +683,6 @@
       "ts": 1785729600.0
     },
     {
-      "title": "Ports Become Private 5G’s Proving Ground: Private Network Insights, July 2026",
-      "link": "https://tecknexus.com/private-network-insights-july-2026/",
-      "summary": "July 2026's roundup: ports deliver this month's deepest deployment evidence, China sets a 50,000-network industrial 5G target, FRMCS rail hardware starts shipping, and private networks add an AI layer across safety and heavy industry. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 60,
-      "date": "2026-08-03T02:54:24+00:00",
-      "ts": 1785725664.0
-    },
-    {
       "title": "Analysis: Huawei”s upgraded Xinghe Intelligent Network Solution for South Africa",
       "link": "https://techblog.comsoc.org/2026/08/02/analysis-huaweis-upgraded-xinghe-intelligent-network-solution-for-south-africa/",
       "summary": "The Huawei Network Summit 2026 South Africa concluded successfully in Johannesburg, drawing more than 400 industry leaders, technical experts, and ecosystem partners. At the event, Huawei introduced its upgraded Xinghe Intelligent Network Solution for Southern Africa, now positioned under the “Secure and Intelligent...",
@@ -700,6 +743,20 @@
       "ts": 1785542074.0
     },
     {
+      "title": "Smartphone revenue hits $109B as Apple claims record share",
+      "link": "https://www.mobileworldlive.com/devices/smartphone-revenue-hits-109b-as-apple-claims-record-share/",
+      "summary": "Global smartphone revenue rose 7% year-on-year in Q2 to an historic $109 billion, the highest second-quarter total on record even as shipments declined, Counterpoint Research revealed. The post Smartphone revenue hits $109B as Apple claims record share appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-31T15:35:16+00:00",
+      "ts": 1785512116.0
+    },
+    {
       "title": "Hisdesat picks team for next secure satellite build",
       "link": "https://www.mobileworldlive.com/industry/hisdesat-picks-team-for-next-secure-satellite-build/",
       "summary": "Airbus Defence and Space won prime contractor status for the development of the next SpainSat NG bird, a secure communications satellite for mission-critical government and defence uses. The post Hisdesat picks team for next secure satellite build appeared first on Mobile World Live .",
@@ -755,21 +812,6 @@
       "relevance": 52,
       "date": "2026-07-31T13:06:08+00:00",
       "ts": 1785503168.0
-    },
-    {
-      "title": "Taiwan Mobile Market to Reach $6.9 Billion by 2030 as 5G Share Tops 94 Percent",
-      "link": "https://telecomlead.com/5g/taiwan-mobile-market-to-reach-6-9-billion-by-2030-as-5g-share-tops-94-percent-127042",
-      "summary": "Taiwan’s mobile services market is forecast to grow steadily through 2030, driven by rising 5G adoption, higher mobile data consumption and telecom operators’ investments in AI, cloud, enterprise digital services and premium mobile plans. According to GlobalData’s Taiwan Mobile Broadband Forecast (Q1 2026), total...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-31T13:04:12+00:00",
-      "ts": 1785503052.0
     },
     {
       "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
@@ -1031,20 +1073,6 @@
       "ts": 1785357831.0
     },
     {
-      "title": "One NZ reveals next key AI trust field",
-      "link": "https://www.mobileworldlive.com/ai-cloud/one-nz-reveals-next-key-ai-trust-field/",
-      "summary": "One NZ advised businesses to rethink their approach to responsible AI after research showed consumers are growing worried about the environmental impact of companies’ use of the technology. The post One NZ reveals next key AI trust field appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-29T16:18:17+00:00",
-      "ts": 1785341897.0
-    },
-    {
       "title": "5G standalone revenue triples 4G core at same stage of tech cycle – Dell'Oro",
       "link": "https://www.lightreading.com/5g/5g-standalone-revenue-triples-4g-core-at-same-stage-of-tech-cycle-dell-oro",
       "summary": "Escalating hardware costs will stretch revenue curve. #pressrelease",
@@ -1057,20 +1085,6 @@
       "relevance": 56,
       "date": "2026-07-29T15:22:59+00:00",
       "ts": 1785338579.0
-    },
-    {
-      "title": "Verizon fibre partners to invest $1.5B in Eaton Fiber",
-      "link": "https://www.mobileworldlive.com/verizon/verizon-fibre-partners-to-invest-1-5b-in-eaton-fiber/",
-      "summary": "Bain Capital and Tillman Global Holdings revealed a $1.5 billion investment in Eaton Fiber to accelerate the expansion of Verizon fibre broadband to more than 1 million locations outside the operator's existing US footprint. The post Verizon fibre partners to invest $1.5B in Eaton Fiber appeared first on Mobile World...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-07-29T14:23:19+00:00",
-      "ts": 1785334999.0
     },
     {
       "title": "EchoStar closes AT&T spectrum deal, but wrinkles remain",
@@ -1189,20 +1203,6 @@
       "ts": 1785182580.0
     },
     {
-      "title": "Starship completes first test flight with Starlink 'V3' satellites",
-      "link": "https://www.lightreading.com/satellite/starship-completes-first-test-flight-with-starlink-v3-satellites",
-      "summary": "A week after a test launch was scrubbed, Starship, SpaceX's heavy-duty rocket, completed a test flight Friday that, for the first time, carried a payload of advanced Starlink 'V3' satellites.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-27T14:25:39+00:00",
-      "ts": 1785162339.0
-    },
-    {
       "title": "5G infrastructure moves from coverage and speeds to cloud-native, orchestration, automation and AI-assisted networks",
       "link": "https://techblog.comsoc.org/2026/07/25/5g-infrastructure-moves-from-coverage-speeds-to-cloud-native-orchestration-automation-and-ai-assisted-networks/",
       "summary": "The most meaningful 5G infrastructure theme this week is the continued shift toward 5G standalone (SA), cloud-native, and AI-assisted networks. Recent news coverage shows that network operators and vendors pushing 5G SA expansion, automation, and 5G private-network use cases, alongside funding and buildout activity in...",
@@ -1215,20 +1215,6 @@
       "relevance": 55,
       "date": "2026-07-25T23:31:49+00:00",
       "ts": 1785022309.0
-    },
-    {
-      "title": "Converged OT, Network Slicing, and Automated Grid Control: The Utility Security Questions a Foundational Framework Can’t Answer",
-      "link": "https://tecknexus.com/document/securing-grid-scale-network-architecture-utilities/",
-      "summary": "Converged OT, network slicing, and automated grid control look like three unrelated engineering topics. They share the same underlying risk pattern. Part 2 of TeckNexus's Utilities Intelligence Series digs into what happens when the component with the broadest reach across the grid, the management plane, the...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-07-24T03:48:11+00:00",
-      "ts": 1784864891.0
     },
     {
       "title": "Why Are We Building 6G?",
@@ -1343,35 +1329,6 @@
       "relevance": 46,
       "date": "2026-07-12T13:00:01+00:00",
       "ts": 1783861201.0
-    },
-    {
-      "title": "Nokia & NestAI’s Defence AI: What It Reveals About Industrial Private Networks",
-      "link": "https://tecknexus.com/nokia-nestai-defence-ai-deployable-5g-industrial-private-networks/",
-      "summary": "Nokia Defense and NestAI have published their first operational capabilities: AI-enabled command and control on deployable 5G, connectivity-aware mission planning, and Integrated Sensing and Communications for threat detection. The assumption they’re engineering against — that connectivity will be available and...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-07-10T09:03:17+00:00",
-      "ts": 1783674197.0
-    },
-    {
-      "title": "Hamburg’s Container Terminal Altenwerder Builds the Platform First – Then Proves the Applications",
-      "link": "https://tecknexus.com/5gusecase/hhla-hamburg-private-5g-container-terminal-altenwerder/",
-      "summary": "HHLA has activated a private 5G campus network at Container Terminal Altenwerder with Deutsche Telekom and Ericsson. The deployment is explicitly framed as a live digital test field rather than a finished solution — a platform for validating applications under real operating conditions before committing to production...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-10T08:57:00+00:00",
-      "ts": 1783673820.0
     },
     {
       "title": "The Rebirth of High Frequency",
@@ -1563,6 +1520,20 @@
       "ts": 0
     },
     {
+      "title": "How carriers turn trust and security into architecture",
+      "link": "https://www.fierce-network.com/sponsored/how-carriers-turn-trust-and-security-architecture",
+      "summary": "The next chapter of network security won't be defined by firewalls. It will be defined by trust, who holds it, who governs it, and how carriers turn it into their next growth engine.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "A quick welcome to Mitch Wagner, FNTV’s new editorial director",
       "link": "https://www.fierce-network.com/broadband/quick-welcome-mitch-wagner-fntvs-new-editorial-director",
       "summary": "FNTV names award-winning telecom and digital infrastructure journalist Mitch Wagner as editorial director, expanding its coverage of AI, networking, cloud, data centers and enterprise technology through original reporting, executive interviews and analysis.",
@@ -1583,20 +1554,6 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Opinion: Kinetic tokens could be $250B market opp for telcos",
-      "link": "https://www.fierce-network.com/wireless/opinion-kinetic-tokens-could-be-250b-market-opp-telcos",
-      "summary": "In physical AI, telcos have an opportunity to capture the AI inference market, according to Mobile Experts' latest research.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
