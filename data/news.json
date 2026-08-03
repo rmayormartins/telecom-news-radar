@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-02T18:52:39.865577+00:00",
-  "count": 71,
+  "generated_at": "2026-08-03T01:46:38.764787+00:00",
+  "count": 67,
   "theme_counts": {
-    "moveis": 35,
-    "fibra": 11,
+    "moveis": 32,
+    "fibra": 9,
     "antenas": 1,
     "iot": 0,
-    "satelite": 23,
+    "satelite": 22,
     "radar_militar": 7,
     "radiocom": 2,
     "tv": 0,
-    "geral": 9
+    "geral": 10
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 0,
-    "jp": 6,
+    "jp": 4,
     "kr": 0,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 0,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: <urlopen error timed out>",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -201,6 +201,22 @@
   ],
   "items": [
     {
+      "title": "Analysis: Huawei”s upgraded Xinghe Intelligent Network Solution for South Africa",
+      "link": "https://techblog.comsoc.org/2026/08/02/analysis-huaweis-upgraded-xinghe-intelligent-network-solution-for-south-africa/",
+      "summary": "The Huawei Network Summit 2026 South Africa concluded successfully in Johannesburg, drawing more than 400 industry leaders, technical experts, and ecosystem partners. At the event, Huawei introduced its upgraded Xinghe Intelligent Network Solution for Southern Africa, now positioned under the “Secure and Intelligent...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 24,
+      "date": "2026-08-02T19:44:21+00:00",
+      "ts": 1785699861.0
+    },
+    {
       "title": "Analysis & Opinion: SpaceX to build, lease or buy a hybrid/terrestrial satellite network?",
       "link": "https://techblog.comsoc.org/2026/08/01/analysis-opinion-spacex-to-build-lease-or-buy-a-hybrid-terrestrial-satellite-mobile-network/",
       "summary": "Should SpaceX’s Starlink build, lease/rent or buy a hybrid terrestrial/satellite mobile network or perhaps do it through a mix of these alternatives. Several industry watchers see an MVNO deal as the most likely path (we agree- see Analysis & Opinion below). That way SpaceX/Starlink can deliver reliable service...",
@@ -214,20 +230,6 @@
       "relevance": 57,
       "date": "2026-08-01T21:36:50+00:00",
       "ts": 1785620210.0
-    },
-    {
-      "title": "VLEO Satellite Investment to Reach $9.8 bn by 2031 as AI and Earth Observation Drive Market Growth",
-      "link": "https://telecomlead.com/satellite/vleo-satellite-investment-to-reach-9-8-bn-by-2031-as-ai-and-earth-observation-drive-market-growth-127053",
-      "summary": "Global investment in Very Low Earth Orbit (VLEO) satellites is projected to almost double from $5.2 billion in 2026 to $9.8 billion by 2031, representing nearly 100 percent growth, according to Juniper Research’s VLEO Satellite Market 2026-2031 study. There will be 1,024 VLEO satellites in orbit by 2031. The expansion...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-01T13:47:49+00:00",
-      "ts": 1785592069.0
     },
     {
       "title": "SNS Telecom & IT: Private 5G for the Defense Sector to hit $2.5 Billion by 2029",
@@ -316,21 +318,6 @@
       "ts": 1785503168.0
     },
     {
-      "title": "Taiwan Mobile Market to Reach $6.9 Billion by 2030 as 5G Share Tops 94 Percent",
-      "link": "https://telecomlead.com/5g/taiwan-mobile-market-to-reach-6-9-billion-by-2030-as-5g-share-tops-94-percent-127042",
-      "summary": "Taiwan’s mobile services market is forecast to grow steadily through 2030, driven by rising 5G adoption, higher mobile data consumption and telecom operators’ investments in AI, cloud, enterprise digital services and premium mobile plans. According to GlobalData’s Taiwan Mobile Broadband Forecast (Q1 2026), total...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-31T13:04:12+00:00",
-      "ts": 1785503052.0
-    },
-    {
       "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
       "link": "https://www.lightreading.com/regulatory-politics/fcc-dish-2-4b-trust-fund-only-for-outsiders-that-built-its-5g-network",
       "summary": "The FCC confirmed that a mandated trust fund linked to EchoStar's spectrum sales to AT&T and SpaceX is exclusive to external companies and partners involved in Dish's 5G network, and not to service EchoStar subsidiary loans.",
@@ -389,38 +376,6 @@
       "relevance": 62,
       "date": "2026-07-31T08:10:25+00:00",
       "ts": 1785485425.0
-    },
-    {
-      "title": "NTT DOCOMO Targets ¥857 bn Capex in FY2026, Focuses on 5G, AI-Native Networks and Next-Generation Infrastructure",
-      "link": "https://telecomlead.com/5g/ntt-docomo-targets-%c2%a5857-bn-capex-in-fy2026-focuses-on-5g-ai-native-networks-and-next-generation-infrastructure-127031",
-      "summary": "NTT DOCOMO is maintaining a high level of capital expenditure as it strengthens its mobile network and prepares infrastructure for AI, 5G Advanced and eventually 6G. The operator is forecasting capital expenditure of ¥857 billion for FY2026, broadly unchanged from ¥857.5 billion in FY2025. FY2025 Capex had increased...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 64,
-      "date": "2026-07-31T06:29:45+00:00",
-      "ts": 1785479385.0
-    },
-    {
-      "title": "NTT DOCOMO Selects Ericsson RAN for Japan 5G Network, Delivering 2X Capacity With Less Than Half the Energy",
-      "link": "https://telecomlead.com/5g/ntt-docomo-selects-ericsson-ran-for-japan-5g-network-delivering-2x-capacity-with-less-than-half-the-energy-127028",
-      "summary": "NTT DOCOMO has selected Ericsson’s RAN Compute platform to strengthen its mobile networks in Japan, including its 5G infrastructure, as the operator prepares for rising data traffic and future AI-driven network requirements. NTT DOCOMO started the deployment of the Ericsson RAN Compute platform in July 2026. The RAN...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 58,
-      "date": "2026-07-31T06:17:06+00:00",
-      "ts": 1785478626.0
     },
     {
       "title": "Highlights and Analysis of July 30th U.S. Senate hearing on AI and telecommunications",
@@ -820,20 +775,6 @@
       "relevance": 50,
       "date": "2026-07-24T03:48:11+00:00",
       "ts": 1784864891.0
-    },
-    {
-      "title": "Highlights from Ookla’s U.S. Speedtest Connectivity Report-Mobile & Fixed Networks",
-      "link": "https://techblog.comsoc.org/2026/07/23/highlights-from-ooklas-u-s-speedtest-connectivity-report-mobile-fixed-networks/",
-      "summary": "Executive Summary: Ookla’s United States Speedtest Connectivity Report H1 2026 provides a detailed snapshot of network performance across the U.S. mobile and fixed broadband markets, based on Speedtest Intelligence data. The findings point to a competitive landscape in which T-Mobile continued to distinguish itself in...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-07-23T18:36:10+00:00",
-      "ts": 1784831770.0
     },
     {
       "title": "Why Are We Building 6G?",
