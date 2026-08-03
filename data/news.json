@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-03T14:13:08.372342+00:00",
-  "count": 94,
+  "generated_at": "2026-08-03T19:16:47.862689+00:00",
+  "count": 101,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 13,
+    "moveis": 50,
+    "fibra": 16,
     "antenas": 8,
     "iot": 0,
     "satelite": 25,
-    "radar_militar": 9,
+    "radar_militar": 10,
     "radiocom": 2,
     "tv": 0,
-    "geral": 20
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 0,
+    "in": 1,
     "jp": 4,
     "kr": 0,
     "cn": 4
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 10
+      "kept": 11
     },
     {
       "source": "Telecoms.com",
@@ -70,12 +70,12 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ERRO: The read operation timed out",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "3G4G Blog",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Via Satellite",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,108 @@
     }
   ],
   "items": [
+    {
+      "title": "Analysis: Cell Tower Companies (towercos) & market forecast with small cells in the lead",
+      "link": "https://techblog.comsoc.org/2026/08/03/analysis-cell-tower-companies-towercos-market-forecast-with-small-cells-in-the-lead/",
+      "summary": "Over the last few years, mobile network operators all over the world generated cash to fund their 5G buildouts by selling cell towers [1.]. Private equity has also entered the market in this period, and consolidation is expected to continue. There are hundreds of smaller tower companies that could be aggregated into a...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-03T17:35:36+00:00",
+      "ts": 1785778536.0
+    },
+    {
+      "title": "TRAI Drive Test: Jio Tops 5G Speed at 205.57 Mbps in Haridwar and Rishikesh, Vi Records Zero Dropped Calls",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-jio-tops-5g-speed-at-205-57-mbps-in-haridwar-and-rishikesh-vi-records-zero-dropped-calls-127086",
+      "summary": "The Telecom Regulatory Authority of India (TRAI) has released the results of its drive test conducted across Haridwar and Rishikesh in Uttar Pradesh West, highlighting the mobile network performance of Airtel, BSNL, Reliance Jio, and Vodafone Idea. The assessment, carried out between June 29 and July 1, 2026, covered...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 56,
+      "date": "2026-08-03T16:47:34+00:00",
+      "ts": 1785775654.0
+    },
+    {
+      "title": "Hughes files for bankruptcy after GEO business loses ground to Starlink",
+      "link": "https://spacenews.com/hughes-files-for-bankruptcy-after-geo-business-loses-ground-to-starlink/",
+      "summary": "EchoStar’s Hughes geostationary satellite broadband business has filed for bankruptcy in the United States after years of mounting competition from SpaceX’s Starlink constellation. The post Hughes files for bankruptcy after GEO business loses ground to Starlink appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-03T16:06:47+00:00",
+      "ts": 1785773207.0
+    },
+    {
+      "title": "Mundo’s Rural-First FTTH Strategy Makes Chile a Global Broadband Leader, Wins World’s Fastest ISP Recognition",
+      "link": "https://telecomlead.com/broadband/mundos-rural-first-ftth-strategy-makes-chile-a-global-broadband-leader-wins-worlds-fastest-isp-recognition-127082",
+      "summary": "Mundo Chile has transformed from a small rural internet service provider into one of the world’s fastest broadband operators by prioritizing underserved communities before expanding into major cities. The company’s unconventional Fiber-to-the-Home (FTTH) strategy, backed by Ookla Speedtest Intelligence and the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-03T16:04:42+00:00",
+      "ts": 1785773082.0
+    },
+    {
+      "title": "Vietnam Telecom Market to Grow 2.5% CAGR by 2030 as 5G Subscribers Reach 23 mn and Fiber Broadband Expands",
+      "link": "https://telecomlead.com/broadband/vietnam-telecom-market-to-grow-2-5-cagr-by-2030-as-5g-subscribers-reach-23-mn-and-fiber-broadband-expands-127080",
+      "summary": "Vietnam’s telecom and pay-TV services market is projected to grow at a CAGR of 2.5 percent between 2025 and 2030, driven by mobile data usage, 5G deployment and investment in fiber broadband, according to GlobalData. As operators phase out legacy voice services, the country’s telecom industry is increasingly shifting...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-08-03T15:46:17+00:00",
+      "ts": 1785771977.0
+    },
+    {
+      "title": "Xona secures spectrum approval for 250-satellite navigation network",
+      "link": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
+      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for 250-satellite navigation network appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-08-03T15:36:37+00:00",
+      "ts": 1785771397.0
+    },
+    {
+      "title": "New US 6G alliance must show it can make a difference",
+      "link": "https://www.lightreading.com/6g/new-us-6g-alliance-must-show-it-can-make-a-difference",
+      "summary": "New US-led 6G alliance has been backed by 25 countries but lacks path to secure supply chain.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-03T14:23:58+00:00",
+      "ts": 1785767038.0
+    },
     {
       "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
       "link": "https://spectrum.ieee.org/ai-ran-6g",
@@ -303,20 +405,6 @@
       "relevance": 60,
       "date": "2026-08-03T07:30:46+00:00",
       "ts": 1785742246.0
-    },
-    {
-      "title": "Mobile Market Consolidation Can Boost Network Investment by 48% Without Raising Consumer Prices: GSMA",
-      "link": "https://telecomlead.com/5g/mobile-market-consolidation-can-boost-network-investment-by-48-without-raising-consumer-prices-gsma-127063",
-      "summary": "Greater scale among mobile operators can significantly improve financial sustainability, increase network investment and accelerate 5G deployment without increasing consumer prices, according to a new GSMA Intelligence report. The study argues that enabling operators to achieve efficient scale strengthens long-term...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-03T07:17:03+00:00",
-      "ts": 1785741423.0
     },
     {
       "title": "EU 5G Networks Face €40 bn Vendor Replacement Cost as Huawei-ZTE Ban Could Raise Equipment Prices by 24%: GSMA",
@@ -683,20 +771,20 @@
       "ts": 1785729600.0
     },
     {
-      "title": "Analysis: Huawei”s upgraded Xinghe Intelligent Network Solution for South Africa",
-      "link": "https://techblog.comsoc.org/2026/08/02/analysis-huaweis-upgraded-xinghe-intelligent-network-solution-for-south-africa/",
-      "summary": "The Huawei Network Summit 2026 South Africa concluded successfully in Johannesburg, drawing more than 400 industry leaders, technical experts, and ecosystem partners. At the event, Huawei introduced its upgraded Xinghe Intelligent Network Solution for Southern Africa, now positioned under the “Secure and Intelligent...",
-      "source": "IEEE ComSoc Tech Blog",
+      "title": "Ports Become Private 5G’s Proving Ground: Private Network Insights, July 2026",
+      "link": "https://tecknexus.com/private-network-insights-july-2026/",
+      "summary": "July 2026's roundup: ports deliver this month's deepest deployment evidence, China sets a 50,000-network industrial 5G target, FRMCS rail hardware starts shipping, and private networks add an AI layer across safety and heavy industry. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
+      "source": "TeckNexus",
       "themes": [
-        "geral"
+        "moveis"
       ],
       "research": false,
       "countries": [
         "cn"
       ],
-      "relevance": 24,
-      "date": "2026-08-02T19:44:21+00:00",
-      "ts": 1785699861.0
+      "relevance": 60,
+      "date": "2026-08-03T02:54:24+00:00",
+      "ts": 1785725664.0
     },
     {
       "title": "Analysis & Opinion: SpaceX to build, lease or buy a hybrid/terrestrial satellite network?",
@@ -712,20 +800,6 @@
       "relevance": 57,
       "date": "2026-08-01T21:36:50+00:00",
       "ts": 1785620210.0
-    },
-    {
-      "title": "VLEO Satellite Investment to Reach $9.8 bn by 2031 as AI and Earth Observation Drive Market Growth",
-      "link": "https://telecomlead.com/satellite/vleo-satellite-investment-to-reach-9-8-bn-by-2031-as-ai-and-earth-observation-drive-market-growth-127053",
-      "summary": "Global investment in Very Low Earth Orbit (VLEO) satellites is projected to almost double from $5.2 billion in 2026 to $9.8 billion by 2031, representing nearly 100 percent growth, according to Juniper Research’s VLEO Satellite Market 2026-2031 study. There will be 1,024 VLEO satellites in orbit by 2031. The expansion...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-01T13:47:49+00:00",
-      "ts": 1785592069.0
     },
     {
       "title": "SNS Telecom & IT: Private 5G for the Defense Sector to hit $2.5 Billion by 2029",
@@ -770,6 +844,20 @@
       "relevance": 37,
       "date": "2026-07-31T14:47:08+00:00",
       "ts": 1785509228.0
+    },
+    {
+      "title": "French state reduces Orange stake in €1.1B sale",
+      "link": "https://www.mobileworldlive.com/orange/french-state-reduces-orange-stake-in-e1-1b-sale/",
+      "summary": "French state investment bank Bpifrance sold a 2.5% stake in Orange for approximately €1.1 billion, but maintained its position as the operator’s largest shareholder. The post French state reduces Orange stake in €1.1B sale appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-07-31T14:41:46+00:00",
+      "ts": 1785508906.0
     },
     {
       "title": "Azio taps AT&T for fibre link to Texas AI campus",
@@ -916,21 +1004,6 @@
       "ts": 1785432527.0
     },
     {
-      "title": "AccelerComm Powers Eclipse Space 5G Physical Layer Architecture for Sovereign Satellite Constellations",
-      "link": "https://satnews.com/2026/07/30/accelercomm-powers-eclipse-space-5g-physical-layer-architecture-for-sovereign-satellite-constellations/",
-      "summary": "SOUTHAMPTON, U.K. and REDMOND, Wash., July 30, 2026 – Non-terrestrial network technology provider AccelerComm announced on July 30, 2026, the successful completion of two consecutive engineering engagements with Eclipse Space, […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-30T17:12:00+00:00",
-      "ts": 1785431520.0
-    },
-    {
       "title": "Planet Labs Wins One-Year Agricultural Data Contract with the Scottish Government",
       "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/07/30/planet-labs-wins-one-year-agricultural-data-contract-with-the-scottish-government/",
       "summary": "The Scottish Government signed a one-year, seven-figure contract with imagery data satellite operator Planet Labs through its Computacenter reseller. The agreement, announced Thursday, tasks Planet’s German subsidiary based in Berlin […] The post Planet Labs Wins One-Year Agricultural Data Contract with the Scottish...",
@@ -1029,20 +1102,6 @@
       "ts": 1785418106.0
     },
     {
-      "title": "Core 5G revenue scaling faster than 4G",
-      "link": "https://www.mobileworldlive.com/old_latest-stories/core-5g-revenue-scales-faster-than-4g/",
-      "summary": "Dell’Oro Group revealed mobile operators have spent 208% more on standalone 5G than they had on 4G core functions at the same point in the technology’s lifecycle. The post Core 5G revenue scaling faster than 4G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-07-30T08:40:42+00:00",
-      "ts": 1785400842.0
-    },
-    {
       "title": "Cyber Firm Resecurity Joins Space ISAC",
       "link": "https://www.satellitetoday.com/cybersecurity/2026/07/29/cyber-firm-resecurity-joins-space-isac/",
       "summary": "Resecurity is the latest cybersecurity company to join Space ISAC as a member. As a provider of cyber threat intelligence and digital risk protection, Resecurity aims to deliver advanced capabilities, […] The post Cyber Firm Resecurity Joins Space ISAC appeared first on Via Satellite .",
@@ -1129,20 +1188,6 @@
       "ts": 1785290052.0
     },
     {
-      "title": "5G to drive two more years of growth in microwave transmission – Dell'Oro",
-      "link": "https://www.lightreading.com/5g/5g-to-drive-two-more-years-of-growth-in-microwave-transmission-dell-oro",
-      "summary": "Microwave transmission revenue associated with 5G is forecast to grow through 2028 at an average annual rate of 12%. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-28T16:20:46+00:00",
-      "ts": 1785255646.0
-    },
-    {
       "title": "SpaceX won't buy a telco. Musk will buy the spectrum and build one himself",
       "link": "https://www.lightreading.com/satellite/spacex-won-t-buy-a-telco-musk-will-buy-the-spectrum-and-build-one-himself",
       "summary": "Everyone's guessing which carrier SpaceX will buy. The FCC docket says Musk may not be shopping for one, but he is pricing a build.",
@@ -1215,6 +1260,20 @@
       "relevance": 55,
       "date": "2026-07-25T23:31:49+00:00",
       "ts": 1785022309.0
+    },
+    {
+      "title": "Converged OT, Network Slicing, and Automated Grid Control: The Utility Security Questions a Foundational Framework Can’t Answer",
+      "link": "https://tecknexus.com/document/securing-grid-scale-network-architecture-utilities/",
+      "summary": "Converged OT, network slicing, and automated grid control look like three unrelated engineering topics. They share the same underlying risk pattern. Part 2 of TeckNexus's Utilities Intelligence Series digs into what happens when the component with the broadest reach across the grid, the management plane, the...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-07-24T03:48:11+00:00",
+      "ts": 1784864891.0
     },
     {
       "title": "Why Are We Building 6G?",
@@ -1329,6 +1388,35 @@
       "relevance": 46,
       "date": "2026-07-12T13:00:01+00:00",
       "ts": 1783861201.0
+    },
+    {
+      "title": "Nokia & NestAI’s Defence AI: What It Reveals About Industrial Private Networks",
+      "link": "https://tecknexus.com/nokia-nestai-defence-ai-deployable-5g-industrial-private-networks/",
+      "summary": "Nokia Defense and NestAI have published their first operational capabilities: AI-enabled command and control on deployable 5G, connectivity-aware mission planning, and Integrated Sensing and Communications for threat detection. The assumption they’re engineering against — that connectivity will be available and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-07-10T09:03:17+00:00",
+      "ts": 1783674197.0
+    },
+    {
+      "title": "Hamburg’s Container Terminal Altenwerder Builds the Platform First – Then Proves the Applications",
+      "link": "https://tecknexus.com/5gusecase/hhla-hamburg-private-5g-container-terminal-altenwerder/",
+      "summary": "HHLA has activated a private 5G campus network at Container Terminal Altenwerder with Deutsche Telekom and Ericsson. The deployment is explicitly framed as a live digital test field rather than a finished solution — a platform for validating applications under real operating conditions before committing to production...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-07-10T08:57:00+00:00",
+      "ts": 1783673820.0
     },
     {
       "title": "The Rebirth of High Frequency",
@@ -1506,16 +1594,30 @@
       "ts": 0
     },
     {
-      "title": "Bain, Tillman, Eaton, Ripple join in $1.5B collaboration to expand Verizon fiber broadband",
-      "link": "https://www.fierce-network.com/broadband/bain-tillman-eaton-ripple-join-15b-collaboration-expand-verizon-fiber-broadband",
-      "summary": "The plan is to expand Verizon’s fiber broadband network to 1 million more locations outside its wired footprint.",
+      "title": "Uniti’s wholesale fiber transport booms, but fiber broadband suffers ARPU decline",
+      "link": "https://www.fierce-network.com/broadband/unitis-wholesale-fiber-transport-booms-fiber-broadband-suffers-arpu-decline",
+      "summary": "Kinetic’s ARPU was down 2.6% year over year, and the company expects Kinetic ARPU to also be down in Q3.",
       "source": "Fierce Network",
       "themes": [
         "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile pivots to premium as wireless pricing lanes blur: Navi",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-pivots-premium-wireless-pricing-lanes-blur-navi",
+      "summary": "Everyone in wireless is now competing in more places at once – and that’s good news for customers at nearly every tier, according to Navi.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
