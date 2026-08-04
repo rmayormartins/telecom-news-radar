@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-03T19:16:47.862689+00:00",
-  "count": 101,
+  "generated_at": "2026-08-04T01:22:22.077759+00:00",
+  "count": 102,
   "theme_counts": {
     "moveis": 50,
     "fibra": 16,
     "antenas": 8,
     "iot": 0,
-    "satelite": 25,
+    "satelite": 26,
     "radar_militar": 10,
     "radiocom": 2,
-    "tv": 0,
+    "tv": 1,
     "geral": 21
   },
   "country_counts": {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -140,12 +140,12 @@
     },
     {
       "source": "3GPP News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
       "source": "ETSI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,78 @@
     }
   ],
   "items": [
+    {
+      "title": "Airbus and Thales Alenia Space to Build SpainSat NG-III",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/03/airbus-and-thales-alenia-space-to-build-spainsat-ng-iii/",
+      "summary": "Hisdesat has contracted Airbus and Thales Alenia Space to build the SpainSat NG-III secure satellite communications satellite for Spain. Airbus, the prime contractor, announced the award on July 31. As […] The post Airbus and Thales Alenia Space to Build SpainSat NG-III appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-03T21:24:27+00:00",
+      "ts": 1785792267.0
+    },
+    {
+      "title": "ETL Acquires Software Developer Amphinicy Technologies",
+      "link": "https://www.satellitetoday.com/finance/2026/08/03/etl-acquires-software-developer-amphinicy-technologies/",
+      "summary": "ETL Systems has acquired Amphinicy Technologies, which develops software for satcom and Earth Observation markets, in a move the company said will help solve more complex ground segment challenges for […] The post ETL Acquires Software Developer Amphinicy Technologies appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-03T20:31:28+00:00",
+      "ts": 1785789088.0
+    },
+    {
+      "title": "Xona Gets Approval to Deploy Commercial Navigation Constellation",
+      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/08/03/xona-gets-approval-to-deploy-commercial-navigation-constellation/",
+      "summary": "Xona has received FCC approval to deploy its commercial navigation constellation called Pulsar, planned for more than 250 satellites. Xona announced Monday it has received authorization to broadcast radionavigation signals […] The post Xona Gets Approval to Deploy Commercial Navigation Constellation appeared first on...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-03T20:19:36+00:00",
+      "ts": 1785788376.0
+    },
+    {
+      "title": "Hughes Files for Chapter 11 With Plan to Reorganize Around Enterprise, Defense Business",
+      "link": "https://www.satellitetoday.com/finance/2026/08/03/hughes-files-for-chapter-11-with-plan-to-reorganize-around-enterprise-defense-business/",
+      "summary": "Hughes Satellite Systems Corporation filed for Chapter 11 bankruptcy protection on Monday, with the intention of refocusing its operations around business-to-business, government, and defense customers amid a decline in consumer […] The post Hughes Files for Chapter 11 With Plan to Reorganize Around Enterprise,...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-03T19:51:42+00:00",
+      "ts": 1785786702.0
+    },
+    {
+      "title": "How NTIA “Call to Action for 6G Leadership and Security” might influence 6G/IMT-2030 standards and 3GPP specifications",
+      "link": "https://techblog.comsoc.org/2026/08/03/how-ntia-call-to-action-for-6g-leadership-and-security-might-influence-6g-imt-2030-standards/",
+      "summary": "Introduction: The U.S. National Telecommunications and Information Administration (NTIA) has launched the “Call to Action for 6G Leadership and Security,” a multilateral initiative uniting more than 20 like-minded governments to coordinate on a shared vision for open, interoperable, secure, and resilient 6G networks....",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-03T19:49:13+00:00",
+      "ts": 1785786553.0
+    },
     {
       "title": "Analysis: Cell Tower Companies (towercos) & market forecast with small cells in the lead",
       "link": "https://techblog.comsoc.org/2026/08/03/analysis-cell-tower-companies-towercos-market-forecast-with-small-cells-in-the-lead/",
@@ -275,9 +347,9 @@
       "ts": 1785771977.0
     },
     {
-      "title": "Xona secures spectrum approval for 250-satellite navigation network",
+      "title": "Xona secures spectrum approval for satellite navigation network",
       "link": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
-      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for 250-satellite navigation network appeared first on SpaceNews .",
+      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for satellite navigation network appeared first on SpaceNews .",
       "source": "SpaceNews",
       "themes": [
         "satelite"
@@ -1074,49 +1146,6 @@
       "ts": 1785419680.0
     },
     {
-      "title": "SES Optimistic for Second Half Year Bounce after “Soft” Q2",
-      "link": "https://www.satellitetoday.com/finance/2026/07/30/ses-optimistic-for-second-half-year-bounce-after-soft-q2/",
-      "summary": "Satellite operator SES’s Networks business surpassed 1 billion euros ($1.1 billion) in revenue during its six-month fiscal period ending June 2026, according to the operator’s latest financial results issued July […] The post SES Optimistic for Second Half Year Bounce after “Soft” Q2 appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-07-30T13:40:27+00:00",
-      "ts": 1785418827.0
-    },
-    {
-      "title": "Starlink’s Link Budget Comes up Short for the D2D Opportunity",
-      "link": "https://www.satellitetoday.com/opinion/2026/07/30/starlinks-link-budget-comes-up-short-for-the-d2d-opportunity/",
-      "summary": "SpaceX has identified a massive total addressable market (TAM) for Starlink Mobile … but many people have expressed doubts. Let’s look at the technical issues that matter. A detailed analysis […] The post Starlink’s Link Budget Comes up Short for the D2D Opportunity appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-30T13:28:26+00:00",
-      "ts": 1785418106.0
-    },
-    {
-      "title": "Cyber Firm Resecurity Joins Space ISAC",
-      "link": "https://www.satellitetoday.com/cybersecurity/2026/07/29/cyber-firm-resecurity-joins-space-isac/",
-      "summary": "Resecurity is the latest cybersecurity company to join Space ISAC as a member. As a provider of cyber threat intelligence and digital risk protection, Resecurity aims to deliver advanced capabilities, […] The post Cyber Firm Resecurity Joins Space ISAC appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-07-29T20:56:39+00:00",
-      "ts": 1785358599.0
-    },
-    {
       "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
       "link": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/",
       "summary": "Falcon 9 will launch satellites supporting missile tracking, targeting and military communications The post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on SpaceNews .",
@@ -1246,20 +1275,6 @@
       "relevance": 42,
       "date": "2026-07-27T20:03:00+00:00",
       "ts": 1785182580.0
-    },
-    {
-      "title": "5G infrastructure moves from coverage and speeds to cloud-native, orchestration, automation and AI-assisted networks",
-      "link": "https://techblog.comsoc.org/2026/07/25/5g-infrastructure-moves-from-coverage-speeds-to-cloud-native-orchestration-automation-and-ai-assisted-networks/",
-      "summary": "The most meaningful 5G infrastructure theme this week is the continued shift toward 5G standalone (SA), cloud-native, and AI-assisted networks. Recent news coverage shows that network operators and vendors pushing 5G SA expansion, automation, and 5G private-network use cases, alongside funding and buildout activity in...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-07-25T23:31:49+00:00",
-      "ts": 1785022309.0
     },
     {
       "title": "Converged OT, Network Slicing, and Automated Grid Control: The Utility Security Questions a Foundational Framework Can’t Answer",
