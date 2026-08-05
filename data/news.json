@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-05T13:40:26.879323+00:00",
-  "count": 105,
+  "generated_at": "2026-08-05T19:12:19.767041+00:00",
+  "count": 111,
   "theme_counts": {
-    "moveis": 45,
+    "moveis": 48,
     "fibra": 14,
-    "antenas": 9,
+    "antenas": 12,
     "iot": 1,
-    "satelite": 30,
-    "radar_militar": 8,
+    "satelite": 40,
+    "radar_militar": 9,
     "radiocom": 2,
     "tv": 2,
-    "geral": 26
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 1,
+    "in": 2,
     "jp": 2,
-    "kr": 3,
-    "cn": 2
+    "kr": 4,
+    "cn": 1
   },
   "research_count": 28,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "Via Satellite",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -201,34 +201,168 @@
   ],
   "items": [
     {
-      "title": "China Unicom lands SHV-HK submarine cable connecting Hong Kong to Cambodia",
-      "link": "https://www.datacenterdynamics.com/en/news/china-unicom-lands-shv-hk-submarine-cable-connecting-hong-kong-to-cambodia/",
-      "summary": "Is the first direct line connecting Cambodia to Hong Kong",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 43,
-      "date": "2026-08-05T12:27:14+00:00",
-      "ts": 1785932834.0
-    },
-    {
-      "title": "Telefonica shines light on work to aid eclipse viewers",
-      "link": "https://www.mobileworldlive.com/telefonica/telefonica-shines-light-on-work-to-aid-eclipse-viewers/",
-      "summary": "Telefonica detailed an operation to increase connectivity provision across more than 2,700 sites across Spain for an expected boost in network demand from viewers turning out to see a solar eclipse on 12 August. The post Telefonica shines light on work to aid eclipse viewers appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
+      "title": "Ookla: U.S. dominates global WiFi 7 while adoption grew 4X to 7.2% by Q1-2026",
+      "link": "https://techblog.comsoc.org/2026/08/05/ookla-u-s-dominates-global-wifi-7-while-adoption-grew-300-by-q1-2026/",
+      "summary": "Introduction: According to Ookla’s new WiFi report, cablecos Spectrum (Charter) is the largest Wi-Fi 7 provider in the world! WiFi 7 is actually IEEE 802.11be, also known as Extremely High Throughput (EHT). Following Ookla’s recent report on The Global State of Wi-Fi , this article focuses on the U.S. and updates last...",
+      "source": "IEEE ComSoc Tech Blog",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
-      "date": "2026-08-05T10:28:16+00:00",
-      "ts": 1785925696.0
+      "relevance": 62,
+      "date": "2026-08-05T18:51:09+00:00",
+      "ts": 1785955869.0
+    },
+    {
+      "title": "Telecom news: Optus, Nokia, Airtel Kenya, Starlink, Bharti Airtel",
+      "link": "https://telecomlead.com/news/telecom-news-optus-nokia-airtel-kenya-starlink-bharti-airtel-127140",
+      "summary": "Today’s telecom news includes announcements on Optus, Nokia, Airtel Kenya, Starlink, Bharti Airtel, among others. Optus and Nokia Reach 3.5 Gbps in Major Australian 6G Network Trial Optus and Nokia have achieved download speeds of 3.5 Gbps during a 6G technology trial in Australia, demonstrating the capabilities of...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 57,
+      "date": "2026-08-05T18:48:52+00:00",
+      "ts": 1785955732.0
+    },
+    {
+      "title": "Telecom news: AST SpaceMobile, SpaceX, Starlink, AT&T, Verizon, T-Mobile, ZBTLink",
+      "link": "https://telecomlead.com/news/telecom-news-ast-spacemobile-spacex-starlink-att-verizon-t-mobile-zbtlink-127138",
+      "summary": "Today’s telecom news includes announcements on AST SpaceMobile, SpaceX, Starlink, AT&T, Verizon, T-Mobile, ZBTLink, among others. AST SpaceMobile Successfully Launches Three New BlueBird Satellites to Expand Direct-to-Device Connectivity AST SpaceMobile has launched its next-generation BlueBird 11, 12, and 13...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-08-05T18:46:49+00:00",
+      "ts": 1785955609.0
+    },
+    {
+      "title": "Capella, Iceye and Umbra win NRO radar-data contracts",
+      "link": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/",
+      "summary": "SAN FRANCISCO – The National Reconnaissance Office has awarded contracts to Capella Space, Iceye U.S. and Umbra to expand the U.S. government’s use of commercial synthetic aperture radar (SAR). The […] The post Capella, Iceye and Umbra win NRO radar-data contracts appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "antenas",
+        "radar_militar",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-08-05T17:05:00+00:00",
+      "ts": 1785949500.0
+    },
+    {
+      "title": "Expansion in Direct-to-Device Capabilities Drives Satellite Reach to iPads, Tablets, and Large-Format Displays",
+      "link": "https://satnews.com/2026/08/05/expansion-in-direct-to-device-capabilities-drives-satellite-reach-to-ipads-tablets-and-large-format-displays/",
+      "summary": "On August 5, 2026, market data tracking the satellite Direct-to-Device (D2D) sector highlighted a significant expansion in satellite connectivity beyond initial smartphone rollouts. Modern Non-Terrestrial Networks (NTN) and giant phased-array […]",
+      "source": "SatNews",
+      "themes": [
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 42,
+      "date": "2026-08-05T15:56:01+00:00",
+      "ts": 1785945361.0
+    },
+    {
+      "title": "Czech trial elevates flying base station ambitions",
+      "link": "https://www.mobileworldlive.com/industry/czech-trial-elevates-flying-base-station-ambitions/",
+      "summary": "Deutsche Telekom held its latest pilot of delivering mobile connectivity from base stations on unmanned aerial vehicles, using two aircraft and direct satellite backhaul to deliver signals during a trail running event in the Czech Republic. The post Czech trial elevates flying base station ambitions appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-05T15:25:55+00:00",
+      "ts": 1785943555.0
+    },
+    {
+      "title": "EnSilica Joins 5G-aNTeNna Consortium to Advance Ka-Band 5G-NTN User Terminals",
+      "link": "https://satnews.com/2026/08/05/ensilica-joins-5g-antenna-consortium-to-advance-ka-band-5g-ntn-user-terminals/",
+      "summary": "On August 5, 2026, custom application-specific integrated circuit (ASIC) developer EnSilica announced its membership in the 5G-aNTeNna consortium. The European technical initiative focuses on engineering compact, secure, and scalable 5G […]",
+      "source": "SatNews",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-08-05T15:12:00+00:00",
+      "ts": 1785942720.0
+    },
+    {
+      "title": "Finding room in Starlink’s shadow",
+      "link": "https://spacenews.com/finding-room-in-starlinks-shadow/",
+      "summary": "Another wave of constellations has staked claims for communications satellites in non-geostationary orbit (NGSO), but what hope do newcomers have alongside the industry’s entrenched, vertically integrated giants? A mix of […] The post Finding room in Starlink’s shadow appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-08-05T15:00:00+00:00",
+      "ts": 1785942000.0
+    },
+    {
+      "title": "Musk's mobile network moonshot is in danger of a crash landing",
+      "link": "https://www.lightreading.com/satellite/musk-s-mobile-network-moonshot-is-in-danger-of-a-crash-landing",
+      "summary": "SpaceX's plan to take on US telcos with terrestrial small cell network, new mobile D2D satellite fleet and EchoStar spectrum is met with analyst skepticism.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-05T14:56:52+00:00",
+      "ts": 1785941812.0
+    },
+    {
+      "title": "Private network revenue tipped to hit $22B by 2030",
+      "link": "https://www.mobileworldlive.com/network-tech/private-network-revenue-tipped-to-hit-22b-by-2030/",
+      "summary": "Global revenue from private mobile networks is estimated to grow from $2.3 billion in 2025 to $22 billion in 2030, according to an STL Partners forecast, with the manufacturing industry vertical leading the way in terms of spending. The post Private network revenue tipped to hit $22B by 2030 appeared first on Mobile...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-08-05T14:12:04+00:00",
+      "ts": 1785939124.0
+    },
+    {
+      "title": "AT&T’s FirstNet gains 5G SA access",
+      "link": "https://www.datacenterdynamics.com/en/news/atts-firstnet-gains-5g-sa-access/",
+      "summary": "The move will open up new features for the dedicated public safety network",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-05T13:40:38+00:00",
+      "ts": 1785937238.0
     },
     {
       "title": "Optus, Nokia detail upper 6GHz test outcomes",
@@ -1057,20 +1191,6 @@
       "ts": 1785756522.0
     },
     {
-      "title": "NTIA approves US 4.4GHz 6G research",
-      "link": "https://www.mobileworldlive.com/regulation/ntia-approves-us-4-4ghz-6g-research/",
-      "summary": "The US National Telecommunications and Information Administration revealed the administration of President Donald Trump cleared plans to study the 4.4GHz band for full-power commercial licensed use, which it claimed as a milestone for securing leadership in 6G technology. The post NTIA approves US 4.4GHz 6G research...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-03T08:23:53+00:00",
-      "ts": 1785745433.0
-    },
-    {
       "title": "Ports Become Private 5G’s Proving Ground: Private Network Insights, July 2026",
       "link": "https://tecknexus.com/private-network-insights-july-2026/",
       "summary": "July 2026's roundup: ports deliver this month's deepest deployment evidence, China sets a 50,000-network industrial 5G target, FRMCS rail hardware starts shipping, and private networks add an AI layer across safety and heavy industry. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
@@ -1145,20 +1265,6 @@
       "ts": 1785503168.0
     },
     {
-      "title": "Broadband access, cable outside plant revenues set to rise – Dell'Oro",
-      "link": "https://www.lightreading.com/broadband/broadband-access-cable-outside-plant-revenues-set-to-rise-dell-oro",
-      "summary": "Broadband access revenues are expected to tick up because of rising equipment prices. Meanwhile, outside plant revenues will surge as operators seed the network for DOCSIS 4.0, says Dell'Oro Group.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-07-31T13:00:00+00:00",
-      "ts": 1785502800.0
-    },
-    {
       "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
       "link": "https://www.lightreading.com/regulatory-politics/fcc-dish-2-4b-trust-fund-only-for-outsiders-that-built-its-5g-network",
       "summary": "The FCC confirmed that a mandated trust fund linked to EchoStar's spectrum sales to AT&T and SpaceX is exclusive to external companies and partners involved in Dish's 5G network, and not to service EchoStar subsidiary loans.",
@@ -1187,20 +1293,6 @@
       "relevance": 55,
       "date": "2026-07-31T11:25:18+00:00",
       "ts": 1785497118.0
-    },
-    {
-      "title": "Highlights and Analysis of July 30th U.S. Senate hearing on AI and telecommunications",
-      "link": "https://techblog.comsoc.org/2026/07/30/highlights-analysis-of-july-30th-u-s-senate-hearing-on-ai-and-telecommunications/",
-      "summary": "Disclaimer: Perplexity.ai was used for research used to generate this article. ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………….. Introduction: Today, U.S. Senator Deb Fischer (R-Neb), Chairman of the Senate Commerce Subcommittee on Telecommunications and Media, convened a...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-07-31T00:03:05+00:00",
-      "ts": 1785456185.0
     },
     {
       "title": "FirstNet launches 5G standalone core",
@@ -1548,6 +1640,20 @@
       "ts": 1782295202.0
     },
     {
+      "title": "e& UAE unveils DWDM network with Ciena’s high-speed optical gear",
+      "link": "https://www.fierce-network.com/newswire/e-uae-unveils-dwdm-network-cienas-high-speed-optical-gear",
+      "summary": "The network will enable the high-speed, data-intensive connectivity needs of hyperscalers, neoscalers and data center operators.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "NTIA tees up 4.4 GHz band for 6G study",
       "link": "https://www.fierce-network.com/wireless/ntia-tees-44-ghz-band-6g-study",
       "summary": "The National Telecommunications and Information Administration (NTIA) today announced that the Trump Administration has cleared plans to study the 4.4 GHz band for wireless carriers to use in 6G.",
@@ -1578,20 +1684,6 @@
       "ts": 0
     },
     {
-      "title": "EchoStar can’t pay itself from 5G trust fund, FCC says",
-      "link": "https://www.fierce-network.com/wireless/echostar-cant-pay-itself-5g-trust-fund-fcc-says",
-      "summary": "The $2.4 billion trust fund is meant to pay the contractors, tower companies and infrastructure partners that built Dish Wireless’ 5G network – not EchoStar or its affiliates, the FCC said.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "SpaceX lays out plan to compete with Big 3 wireless carriers",
       "link": "https://www.fierce-network.com/wireless/spacex-lays-out-plan-compete-big-3-wireless-carriers",
       "summary": "Make no mistake: SpaceX intends to build a terrestrial mobile network and says it’s got enough spectrum to get it off the ground (pun intended).",
@@ -1603,20 +1695,6 @@
       "research": false,
       "countries": [],
       "relevance": 52,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "FirstNet launches 5G SA core built by AT&T for public safety sector",
-      "link": "https://www.fierce-network.com/newswire/firstnet-launches-5g-sa-core-built-att-public-safety-sector",
-      "summary": "The network is physically separate from the AT&T commercial network core to give public safety enhanced security, reliability and operational control.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
       "date": null,
       "ts": 0
     },
@@ -1677,26 +1755,43 @@
       "ts": 0
     },
     {
-      "title": "A quick welcome to Mitch Wagner, FNTV’s new editorial director",
-      "link": "https://www.fierce-network.com/broadband/quick-welcome-mitch-wagner-fntvs-new-editorial-director",
-      "summary": "FNTV names award-winning telecom and digital infrastructure journalist Mitch Wagner as editorial director, expanding its coverage of AI, networking, cloud, data centers and enterprise technology through original reporting, executive interviews and analysis.",
+      "title": "SpaceX shares big plans for global broadband",
+      "link": "https://www.fierce-network.com/broadband/spacex-has-big-plans-global-broadband",
+      "summary": "SpaceX already has 10.3 million Starlink broadband subscribers across 164 countries, but it wants to serve \"the majority of internet\" around the world.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 29,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "SK Telecom’s AI data center bet gains traction with 92.5% revenue growth",
+      "link": "https://www.fierce-network.com/cloud/sk-telecoms-ai-data-center-bet-gains-traction-925-revenue-growth",
+      "summary": "SK Telecom’s AI data center revenue nearly doubled as it chases a 15 GW infrastructure dream.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 31,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
     {
-      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
-      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
+      "title": "Analysts question whether SpaceX’s mobile mission will lift off",
+      "link": "https://www.fierce-network.com/wireless/analysts-question-whether-spacexs-mobile-mission-will-lift",
+      "summary": "Wall Street doesn’t appear to be completely buying into the way Elon Musk intends to compete in the mobile phone industry, but who knows? It’s still early days, in some ways.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "satelite"
       ],
       "research": false,
       "countries": [],
@@ -1705,9 +1800,9 @@
       "ts": 0
     },
     {
-      "title": "Enterprises think they’re ready for AI – they’re not",
-      "link": "https://www.fierce-network.com/cloud/enterprises-think-theyre-ready-ai-theyre-not",
-      "summary": "Execs from Cisco and DE-CIX told Fierce AI ambitions could crash hard if enterprises don’t fix the one thing they’re overlooking: the network.",
+      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
+      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
       "source": "Fierce Network",
       "themes": [
         "geral"
