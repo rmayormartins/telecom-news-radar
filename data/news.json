@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-05T08:14:32.893664+00:00",
-  "count": 103,
+  "generated_at": "2026-08-05T13:40:26.879323+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 13,
+    "moveis": 45,
+    "fibra": 14,
     "antenas": 9,
     "iot": 1,
     "satelite": 30,
-    "radar_militar": 9,
+    "radar_militar": 8,
     "radiocom": 2,
     "tv": 2,
-    "geral": 25
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 0,
-    "jp": 3,
+    "in": 1,
+    "jp": 2,
     "kr": 3,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 28,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -201,6 +201,95 @@
   ],
   "items": [
     {
+      "title": "China Unicom lands SHV-HK submarine cable connecting Hong Kong to Cambodia",
+      "link": "https://www.datacenterdynamics.com/en/news/china-unicom-lands-shv-hk-submarine-cable-connecting-hong-kong-to-cambodia/",
+      "summary": "Is the first direct line connecting Cambodia to Hong Kong",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 43,
+      "date": "2026-08-05T12:27:14+00:00",
+      "ts": 1785932834.0
+    },
+    {
+      "title": "Telefonica shines light on work to aid eclipse viewers",
+      "link": "https://www.mobileworldlive.com/telefonica/telefonica-shines-light-on-work-to-aid-eclipse-viewers/",
+      "summary": "Telefonica detailed an operation to increase connectivity provision across more than 2,700 sites across Spain for an expected boost in network demand from viewers turning out to see a solar eclipse on 12 August. The post Telefonica shines light on work to aid eclipse viewers appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-08-05T10:28:16+00:00",
+      "ts": 1785925696.0
+    },
+    {
+      "title": "Optus, Nokia detail upper 6GHz test outcomes",
+      "link": "https://www.mobileworldlive.com/nokia/optus-nokia-detail-upper-6ghz-test-outcomes/",
+      "summary": "Australian operator Optus joined a growing upper 6GHz movement, completing tests with Nokia it stated could be fundamental in an eventual transition to 6G. The post Optus, Nokia detail upper 6GHz test outcomes appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-08-05T10:27:22+00:00",
+      "ts": 1785925642.0
+    },
+    {
+      "title": "TRAI Proposes Stricter QoS Rules: 10 Changes Covering 5G, Network Outages, Broadband Speeds and Compensation",
+      "link": "https://telecomlead.com/4g-lte/trai-proposes-stricter-qos-rules-10-changes-covering-5g-network-outages-broadband-speeds-and-compensation-127136",
+      "summary": "The Telecom Regulatory Authority of India (TRAI) has released a consultation paper proposing major amendments to the Standards of Quality of Service (QoS) Regulations, 2024, introducing stricter quality benchmarks for telecom and broadband operators. The draft focuses on improving 5G network performance, broadband...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 54,
+      "date": "2026-08-05T10:05:36+00:00",
+      "ts": 1785924336.0
+    },
+    {
+      "title": "SpaceX claims Starlink Mobile will rival AT&T, Verizon, T-Mobile US",
+      "link": "https://www.mobileworldlive.com/network-tech/spacex-claims-starlink-mobile-will-rival-att-verizon-t-mobile-us/",
+      "summary": "SpaceX president Gwynne Shotwell claimed Starlink Mobile is positioned to compete directly with AT&T, Verizon and T-Mobile US, pointing to the trio's roughly $600 billion in combined annual revenue as a measure of the opportunity. The post SpaceX claims Starlink Mobile will rival AT&T, Verizon, T-Mobile US appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-05T08:50:38+00:00",
+      "ts": 1785919838.0
+    },
+    {
+      "title": "OCUDU group signs-up Intel to boost open RAN push",
+      "link": "https://www.mobileworldlive.com/network-tech/ocudu-group-signs-up-intel-to-boost-open-ran-push/",
+      "summary": "Chipmaker Intel joined the OCUDU Ecosystem Foundation as a premier member, bolstering open-source RAN software development for 5G and future 6G networks. The post OCUDU group signs-up Intel to boost open RAN push appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-08-05T08:34:08+00:00",
+      "ts": 1785918848.0
+    },
+    {
       "title": "Chunghwa Telecom Q2 2026: Revenue Rises 8.2%, 5G ARPU Hits NT$569, Broadband Subscribers Reach 4.47 mn as AI Drives Growth",
       "link": "https://telecomlead.com/4g-lte/chunghwa-telecom-q2-2026-revenue-rises-8-2-5g-arpu-hits-nt569-broadband-subscribers-reach-4-47-mn-as-ai-drives-growth-127134",
       "summary": "Chunghwa Telecom reported strong financial and operational performance for the second quarter of 2026, with revenue increasing 8.2 percent year over year to NT$61.36 billion. Operating income of Chunghwa Telecom rose 5.7 percent to NT$13.26 billion and net income climbed 4.7 percent to NT$10.64 billion. EBITDA...",
@@ -214,21 +303,6 @@
       "relevance": 46,
       "date": "2026-08-05T07:55:53+00:00",
       "ts": 1785916553.0
-    },
-    {
-      "title": "SpaceX targets US cellular entry",
-      "link": "https://www.advanced-television.com/2026/08/05/spacex-targets-us-cellular-entry/",
-      "summary": "SpaceX’s president and COO Gwynne Shotwell told analysts during the company’s Q2 earnings call that the business will turn into a fully-fledged mobile telco, and will hit the ‘Big Three’ (Verizon, AT&T and T-Mobile) in the process. These three make roughly $600 billion (€520bn) a year, and Starlink sees that market as...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-05T05:25:21+00:00",
-      "ts": 1785907521.0
     },
     {
       "title": "Deep-Unfolded Accelerated Projected Gradient for Energy-Efficient Cell-Free Massive MIMO",
@@ -635,6 +709,21 @@
       "ts": 1785902400.0
     },
     {
+      "title": "SpaceX Q2 beats expectations; targets US cellular entry",
+      "link": "https://www.advanced-television.com/2026/08/05/spacex-targets-us-cellular-entry/",
+      "summary": "SpaceX’s president and COO, Gwynne Shotwell, told analysts during the company’s Q2 earnings call that the business will turn into a fully-fledged mobile telco, and will hit the ‘Big Three’ (Verizon, AT&T and T-Mobile) in the process. These three make roughly $600 billion (€520bn) a year, and Starlink sees that market...",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-08-05T03:25:21+00:00",
+      "ts": 1785900321.0
+    },
+    {
       "title": "SpaceX Q2 2026: Revenue Jumps 92% to $7.8 bn as Starlink Subscribers Double to 12 mn, AI Capex Hits $15.8 bn",
       "link": "https://telecomlead.com/satellite/spacex-q2-2026-revenue-jumps-92-to-7-8-bn-as-starlink-subscribers-double-to-12-mn-ai-capex-hits-15-8-bn-127124",
       "summary": "SpaceX reported a strong second quarter for 2026, driven by expansion across its satellite broadband, AI infrastructure and launch businesses. Total revenue surged 92 percent year over year to $7.814 billion, while adjusted EBITDA nearly tripled to $3.538 billion. The company also narrowed its net loss to $541 million...",
@@ -968,22 +1057,6 @@
       "ts": 1785756522.0
     },
     {
-      "title": "NTT advances OptQC quantum collaboration",
-      "link": "https://www.mobileworldlive.com/industry/ntt-advances-optqc-quantum-collaboration/",
-      "summary": "NTT committed to invest in deep-tech start-up OptQC to advance joint research into quantum computing commenced in November 2025. The post NTT advances OptQC quantum collaboration appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 37,
-      "date": "2026-08-03T10:49:58+00:00",
-      "ts": 1785754198.0
-    },
-    {
       "title": "NTIA approves US 4.4GHz 6G research",
       "link": "https://www.mobileworldlive.com/regulation/ntia-approves-us-4-4ghz-6g-research/",
       "summary": "The US National Telecommunications and Information Administration revealed the administration of President Donald Trump cleared plans to study the 4.4GHz band for full-power commercial licensed use, which it claimed as a milestone for securing leadership in 6G technology. The post NTIA approves US 4.4GHz 6G research...",
@@ -1044,35 +1117,6 @@
       "ts": 1785542074.0
     },
     {
-      "title": "Hisdesat picks team for next secure satellite build",
-      "link": "https://www.mobileworldlive.com/industry/hisdesat-picks-team-for-next-secure-satellite-build/",
-      "summary": "Airbus Defence and Space won prime contractor status for the development of the next SpainSat NG bird, a secure communications satellite for mission-critical government and defence uses. The post Hisdesat picks team for next secure satellite build appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-07-31T14:47:08+00:00",
-      "ts": 1785509228.0
-    },
-    {
-      "title": "Azio taps AT&T for fibre link to Texas AI campus",
-      "link": "https://www.mobileworldlive.com/att/azio-taps-att-for-fibre-link-to-texas-ai-campus/",
-      "summary": "Infrastructure company Azio AI Holdings signed a master services agreement (MSA) with AT&T worth roughly $2.4 million to provide enterprise fibre connectivity for its first AI data centre campus. The post Azio taps AT&T for fibre link to Texas AI campus appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-31T14:41:40+00:00",
-      "ts": 1785508900.0
-    },
-    {
       "title": "AccelerCom and Eclipse Space Reveals Details of D2D Collaboration",
       "link": "https://www.satellitetoday.com/connectivity/2026/07/31/accelercom-and-eclipse-space-reveals-details-of-d2d-collaboration/",
       "summary": "AccelerCom has completed two engineering engagements with Eclipse Space, a sovereign satellite infrastructure company. AccelerComm supported Eclipse in defining the physical-layer architecture for its next-generation spacecraft, spanning both its Direct-to-Device […] The post AccelerCom and Eclipse Space Reveals...",
@@ -1099,6 +1143,20 @@
       "relevance": 52,
       "date": "2026-07-31T13:06:08+00:00",
       "ts": 1785503168.0
+    },
+    {
+      "title": "Broadband access, cable outside plant revenues set to rise – Dell'Oro",
+      "link": "https://www.lightreading.com/broadband/broadband-access-cable-outside-plant-revenues-set-to-rise-dell-oro",
+      "summary": "Broadband access revenues are expected to tick up because of rising equipment prices. Meanwhile, outside plant revenues will surge as operators seed the network for DOCSIS 4.0, says Dell'Oro Group.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-07-31T13:00:00+00:00",
+      "ts": 1785502800.0
     },
     {
       "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
@@ -1129,20 +1187,6 @@
       "relevance": 55,
       "date": "2026-07-31T11:25:18+00:00",
       "ts": 1785497118.0
-    },
-    {
-      "title": "AT&T rolls out dedicated SA 5G core for FirstNet",
-      "link": "https://www.mobileworldlive.com/5g/att-rolls-out-dedicated-sa-5g-core-for-firstnet/",
-      "summary": "AT&T switched on a dedicated standalone 5G core for public safety network FirstNet, which the operator described as the first and only such nationwide network built specifically for first responders. The post AT&T rolls out dedicated SA 5G core for FirstNet appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-07-31T08:10:25+00:00",
-      "ts": 1785485425.0
     },
     {
       "title": "Highlights and Analysis of July 30th U.S. Senate hearing on AI and telecommunications",
@@ -1255,20 +1299,6 @@
       "relevance": 57,
       "date": "2026-07-29T01:54:12+00:00",
       "ts": 1785290052.0
-    },
-    {
-      "title": "5G to drive two more years of growth in microwave transmission – Dell'Oro",
-      "link": "https://www.lightreading.com/5g/5g-to-drive-two-more-years-of-growth-in-microwave-transmission-dell-oro",
-      "summary": "Microwave transmission revenue associated with 5G is forecast to grow through 2028 at an average annual rate of 12%. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-07-28T16:20:46+00:00",
-      "ts": 1785255646.0
     },
     {
       "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
@@ -1661,23 +1691,23 @@
       "ts": 0
     },
     {
-      "title": "America’s AI future depends on fiber, permitting reform, telecom execs tell Congress",
-      "link": "https://www.fierce-network.com/broadband/americas-ai-future-depends-fiber-permitting-reform-telecom-execs-tell-congress",
-      "summary": "AI is putting America’s broadband backbone to the test, and telecom execs say fiber — plus faster permitting — is the only way to keep the country’s innovation economy from falling behind.",
+      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
+      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
     {
-      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
-      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
+      "title": "Enterprises think they’re ready for AI – they’re not",
+      "link": "https://www.fierce-network.com/cloud/enterprises-think-theyre-ready-ai-theyre-not",
+      "summary": "Execs from Cisco and DE-CIX told Fierce AI ambitions could crash hard if enterprises don’t fix the one thing they’re overlooking: the network.",
       "source": "Fierce Network",
       "themes": [
         "geral"
