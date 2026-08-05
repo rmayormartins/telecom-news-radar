@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-04T19:17:13.974729+00:00",
-  "count": 99,
+  "generated_at": "2026-08-05T01:27:32.881804+00:00",
+  "count": 106,
   "theme_counts": {
-    "moveis": 46,
+    "moveis": 50,
     "fibra": 11,
     "antenas": 5,
     "iot": 1,
-    "satelite": 27,
-    "radar_militar": 14,
+    "satelite": 30,
+    "radar_militar": 15,
     "radiocom": 2,
     "tv": 1,
-    "geral": 19
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 0,
-    "jp": 3,
-    "kr": 2,
-    "cn": 2
+    "in": 2,
+    "jp": 4,
+    "kr": 3,
+    "cn": 1
   },
   "research_count": 29,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 9
     },
     {
       "source": "Advanced Television",
@@ -201,6 +201,79 @@
   ],
   "items": [
     {
+      "title": "Ericsson leads SK Telecom AI RAN vs. NVIDIA’s GPU centric AI RAN Alliance",
+      "link": "https://techblog.comsoc.org/2026/08/04/ericsson-leads-sk-telecom-ai-ran-which-differs-from-nvidias-gpu-centric-ai-ran-alliance/",
+      "summary": "Executive Summary: Ericsson says it has been selected as the sole global technology partner in SK Telecom’s consortium for Korea’s Hyper-AI Network Infrastructure Demonstration Project, a South Korea government-backed initiative led by the Ministry of Science and ICT and the National Information Society Agency. The...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 44,
+      "date": "2026-08-05T01:11:37+00:00",
+      "ts": 1785892297.0
+    },
+    {
+      "title": "L3Harris Confirms Successful Deployment for First Perimeter Truss Reflector on ViaSat-3",
+      "link": "https://www.satellitetoday.com/technology/2026/08/04/l3harris-confirms-successful-deployment-for-first-perimeter-truss-reflector-on-viasat-3/",
+      "summary": "L3Harris Technologies confirmed a successful deployment for its first perimeter truss reflector onboard the ViaSat-3 Flight 3 satellite. SpaceX launched the satellite in late April, the third deployment in Viasat’s […] The post L3Harris Confirms Successful Deployment for First Perimeter Truss Reflector on ViaSat-3...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-04T20:34:41+00:00",
+      "ts": 1785875681.0
+    },
+    {
+      "title": "Kreios Space to Demo Air-breathing Electric Propulsion in VLEO With NanoAvionics",
+      "link": "https://www.satellitetoday.com/technology/2026/08/04/kreios-space-to-demo-air-breathing-electric-propulsion-in-vleo-with-nanoavionics/",
+      "summary": "Spanish satellite startup Kreios Space is set to demonstrate an air-breathing electric propulsion (ABEP) system in Very Low Earth Orbit (VLEO), tapping Kongsberg NanoAvionics to provide the spacecraft bus. Kreios […] The post Kreios Space to Demo Air-breathing Electric Propulsion in VLEO With NanoAvionics appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-04T20:27:33+00:00",
+      "ts": 1785875253.0
+    },
+    {
+      "title": "Telesat Expands Lightspeed Constellation for Arctic Military Satcom Program",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/04/telesat-expands-lightspeed-constellation-for-arctic-military-satcom-program/",
+      "summary": "Telesat signed a $1.9 billion (U.S. dollar) contract with the government of Canada for Arctic military satcom connectivity and will expand the Lightspeed constellation by 69 satellites to fulfill the […] The post Telesat Expands Lightspeed Constellation for Arctic Military Satcom Program appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-04T19:59:35+00:00",
+      "ts": 1785873575.0
+    },
+    {
+      "title": "Endeavor Optical Networks Emerges From Stealth to Build Optical MEO Data Transfer",
+      "link": "https://www.satellitetoday.com/finance/2026/08/04/endeavor-optical-networks-emerges-from-stealth-to-build-optical-meo-data-transfer/",
+      "summary": "A new startup Endeavor Optical Networks emerged from stealth on Tuesday, with a plan to build an optical satellite network in Medium-Earth Orbit (MEO) for space-based data transfer. The company […] The post Endeavor Optical Networks Emerges From Stealth to Build Optical MEO Data Transfer appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-04T19:56:04+00:00",
+      "ts": 1785873364.0
+    },
+    {
       "title": "Ericsson lands prime role in Korean AI-RAN project",
       "link": "https://www.mobileworldlive.com/industry/ericsson-lands-prime-role-in-korean-ai-ran-project/",
       "summary": "Ericsson declared itself set to be a major influence on the development of physical AI and 6G in South Korea after being chosen to be a principle global technology player for the nation’s Hyper-AI Network Infrastructure Demonstration Project. The post Ericsson lands prime role in Korean AI-RAN project appeared first...",
@@ -215,6 +288,22 @@
       "relevance": 44,
       "date": "2026-08-04T15:29:48+00:00",
       "ts": 1785857388.0
+    },
+    {
+      "title": "TRAI Drive Test: Jio Tops 5G Speeds in Srinagar, Airtel Delivers Strong Voice Quality as BSNL and Vi Face Network Gaps",
+      "link": "https://telecomlead.com/4g-lte/trai-drive-test-jio-tops-5g-speeds-in-srinagar-airtel-delivers-strong-voice-quality-as-bsnl-and-vi-face-network-gaps-127107",
+      "summary": "Telecom Regulatory Authority of India (TRAI) has released the findings of its drive test conducted across Srinagar, Gulmarg, Anantnag and Pahalgam cities, along with the Srinagar–Pahalgam and Srinagar–Gulmarg highway routes during June 2026. The assessment evaluated the mobile network performance of Airtel, BSNL,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-08-04T12:47:48+00:00",
+      "ts": 1785847668.0
     },
     {
       "title": "Eurobites: Ericsson recruited for South Korea's AI-RAN initiative",
@@ -707,6 +796,65 @@
       "ts": 1785816000.0
     },
     {
+      "title": "EU Needs €475 bn Mobile Network Investment by 2036 as 5G, AI and Digital Connectivity Drive €1.1 Trillion Economy",
+      "link": "https://telecomlead.com/5g/eu-needs-e475-bn-mobile-network-investment-by-2036-as-5g-ai-and-digital-connectivity-drive-e1-1-trillion-economy-127098",
+      "summary": "European Union (EU) will need €475 billion in telecom market investment between 2026 and 2036 to match global connectivity leaders, according to GSMA Intelligence. While operators are expected to invest €270 billion under existing network upgrade plans, an additional €200 billion is required to accelerate 5G...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-04T02:01:34+00:00",
+      "ts": 1785808894.0
+    },
+    {
+      "title": "Latin America Mobile Economy to Reach $700 bn by 2030 as 5G, AI and $75.8 bn Network Investment Accelerate Digital Growth",
+      "link": "https://telecomlead.com/5g/latin-america-mobile-economy-to-reach-700-bn-by-2030-as-5g-ai-and-75-8-bn-network-investment-accelerate-digital-growth-127095",
+      "summary": "Mobile technologies and services are becoming a cornerstone of Latin America’s digital economy, generating $600 billion in economic value in 2025, equivalent to 8.6 percent of the region’s GDP. According to the latest GSMA Intelligence analysis, the mobile ecosystem supported nearly 3 million jobs, including 1.6...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-04T01:58:58+00:00",
+      "ts": 1785808738.0
+    },
+    {
+      "title": "Telecom news: Bpifrance, Orange, Ethio Telecom, Private 5G Market size",
+      "link": "https://telecomlead.com/news/telecom-news-bpifrance-orange-ethio-telecom-private-5g-market-size-127093",
+      "summary": "Today’s telecom news includes announcements on VEON, Kyivstar, Bpifrance, Orange, Ethio Telecom, Private 5G Market size, among others. Bpifrance Sells 2.5 Percent Orange Stake in €1.3 Billion Share Offering French state investment bank Bpifrance has sold a 2.5 percent stake in Orange through a share placement valued...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-08-04T01:56:34+00:00",
+      "ts": 1785808594.0
+    },
+    {
+      "title": "Telecom news: TRAI, Bharti Airtel, NTT DOCOMO, 5G Deployment in Rwanda",
+      "link": "https://telecomlead.com/news/telecom-news-trai-bharti-airtel-ntt-docomo-5g-deployment-in-rwanda-127091",
+      "summary": "Today’s telecom news includes announcements on TRAI, Bharti Airtel, NTT DOCOMO, 5G Deployment in Rwanda, among others. TRAI Imposes Rs. 6.3 Lakh Penalty on Bharti Airtel Over MNP Non-Compliance The Telecom Regulatory Authority of India has imposed a financial penalty of Rs. 6.3 lakh on Bharti Airtel for failing to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "jp"
+      ],
+      "relevance": 52,
+      "date": "2026-08-04T01:50:57+00:00",
+      "ts": 1785808257.0
+    },
+    {
       "title": "Airbus and Thales Alenia Space to Build SpainSat NG-III",
       "link": "https://www.satellitetoday.com/government-military/2026/08/03/airbus-and-thales-alenia-space-to-build-spainsat-ng-iii/",
       "summary": "Hisdesat has contracted Airbus and Thales Alenia Space to build the SpainSat NG-III secure satellite communications satellite for Spain. Airbus, the prime contractor, announced the award on July 31. As […] The post Airbus and Thales Alenia Space to Build SpainSat NG-III appeared first on Via Satellite .",
@@ -1083,20 +1231,6 @@
       "ts": 1785432527.0
     },
     {
-      "title": "Planet Labs Wins One-Year Agricultural Data Contract with the Scottish Government",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/07/30/planet-labs-wins-one-year-agricultural-data-contract-with-the-scottish-government/",
-      "summary": "The Scottish Government signed a one-year, seven-figure contract with imagery data satellite operator Planet Labs through its Computacenter reseller. The agreement, announced Thursday, tasks Planet’s German subsidiary based in Berlin […] The post Planet Labs Wins One-Year Agricultural Data Contract with the Scottish...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-30T16:57:13+00:00",
-      "ts": 1785430633.0
-    },
-    {
       "title": "SpaceX might build and buy its way to a terrestrial wireless network – report",
       "link": "https://www.lightreading.com/5g/spacex-might-build-and-buy-its-way-to-a-terrestrial-wireless-network-report",
       "summary": "A Semafor report claims that SpaceX is hunting for spectrum that can serve 'cities and dense areas' and could look to obtain it at auction or via M&A.",
@@ -1109,20 +1243,6 @@
       "relevance": 46,
       "date": "2026-07-30T16:39:57+00:00",
       "ts": 1785429597.0
-    },
-    {
-      "title": "Fortastra and Hadrian Sign National Security Spacecraft Manufacturing MoU",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/07/30/fortastra-and-hadrian-sign-national-security-spacecraft-manufacturing-mou/",
-      "summary": "Spacecraft manufacturer Fortastra and industrial manufacturer Hadrian signed an MoU that establishes a framework for technical collaboration to build advanced spacecraft that can help address urgent national security space missions, […] The post Fortastra and Hadrian Sign National Security Spacecraft Manufacturing MoU...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-07-30T13:54:40+00:00",
-      "ts": 1785419680.0
     },
     {
       "title": "5G standalone revenue triples 4G core at same stage of tech cycle – Dell'Oro",
@@ -1193,22 +1313,6 @@
       "relevance": 43,
       "date": "2026-07-28T16:20:46+00:00",
       "ts": 1785255646.0
-    },
-    {
-      "title": "Cheap Chinese AI Models: Unappreciated Threat to U.S. Hyperscaler AI Dominance",
-      "link": "https://techblog.comsoc.org/2026/07/27/cheap-chinese-ai-models-unappreciated-threat-to-u-s-hyperscaler-ai-dominance/",
-      "summary": "Introduction: IEEE Techblog readers are keenly aware of the stupendous AI capex that has eliminated most hyperscaler free cash flow. There’s also the ROI question when there’s no “killer app” or a clear way to monetize AI services. And let’s not forget issues like: the competition for AI benchmark bragging rights....",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 32,
-      "date": "2026-07-27T23:18:32+00:00",
-      "ts": 1785194312.0
     },
     {
       "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
@@ -1502,6 +1606,21 @@
       "ts": 0
     },
     {
+      "title": "SpaceX lays out plan to compete with Big 3 wireless carriers",
+      "link": "https://www.fierce-network.com/wireless/spacex-lays-out-plan-compete-big-3-wireless-carriers",
+      "summary": "Make no mistake: SpaceX intends to build a terrestrial mobile network and says it’s got enough spectrum to get it off the ground (pun intended).",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "FirstNet launches 5G SA core built by AT&T for public safety sector",
       "link": "https://www.fierce-network.com/newswire/firstnet-launches-5g-sa-core-built-att-public-safety-sector",
       "summary": "The network is physically separate from the AT&T commercial network core to give public safety enhanced security, reliability and operational control.",
@@ -1512,34 +1631,6 @@
       "research": false,
       "countries": [],
       "relevance": 51,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AT&T hits 2 million FWA subscribers with minimal marketing",
-      "link": "https://www.fierce-network.com/broadband/att-hits-2-million-fwa-subscribers-minimal-marketing",
-      "summary": "Inexplicably, AT&T is doing minimal marketing and yet garnering impressive numbers of new subscribers. But this is probably attributed to the fact that it’s late to the FWA game and still has more runway than its competitors.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "US calls on allies to rally around 6G",
-      "link": "https://www.fierce-network.com/wireless/us-calls-allies-rally-around-6g",
-      "summary": "The message from industry: 6G may sound early, but the policy, standards and security groundwork is happening now.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 42,
       "date": null,
       "ts": 0
     },
@@ -1624,6 +1715,20 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
+      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     }
