@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-06T13:38:35.959562+00:00",
-  "count": 100,
+  "generated_at": "2026-08-06T23:47:49.860356+00:00",
+  "count": 99,
   "theme_counts": {
-    "moveis": 42,
-    "fibra": 14,
+    "moveis": 40,
+    "fibra": 16,
     "antenas": 8,
     "iot": 0,
-    "satelite": 36,
-    "radar_militar": 8,
+    "satelite": 34,
+    "radar_militar": 7,
     "radiocom": 2,
     "tv": 0,
-    "geral": 23
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
-    "il": 0,
-    "in": 0,
-    "jp": 2,
-    "kr": 4,
+    "il": 1,
+    "in": 1,
+    "jp": 1,
+    "kr": 3,
     "cn": 1
   },
   "research_count": 21,
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -176,22 +176,22 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 7
     },
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,108 @@
     }
   ],
   "items": [
+    {
+      "title": "FCC opens proceeding on unlicensed spectrum for D2D",
+      "link": "https://www.lightreading.com/satellite/fcc-opens-proceeding-on-unlicensed-spectrum-for-d2d",
+      "summary": "The FCC voted to launch a proceeding to explore new avenues for enabling unlicensed wireless devices to communicate directly with satellites. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-06T17:25:55+00:00",
+      "ts": 1786037155.0
+    },
+    {
+      "title": "AT&T puts 600MHz to work with Ericsson for coverage and uplink",
+      "link": "https://www.lightreading.com/5g/at-t-puts-600mhz-to-work-with-ericsson-for-coverage-and-uplink",
+      "summary": "AT&T to roll out Ericsson dual-band radios with 'uplink-enhancing' technology in newly acquired 600MHz spectrum from EchoStar.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-06T16:16:56+00:00",
+      "ts": 1786033016.0
+    },
+    {
+      "title": "Gilat Demonstrates Interference Detection and Cancellation Technology",
+      "link": "https://www.satellitetoday.com/technology/2026/08/06/gilat-demonstrates-interference-detection-and-cancellation-technology/",
+      "summary": "Gilat Satellite Networks reports a demonstration of an interference detection and cancellation technology for satellite communication links, calling it a milestone toward improved operations in contested spectrum environments. Gilat said […] The post Gilat Demonstrates Interference Detection and Cancellation...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "il"
+      ],
+      "relevance": 46,
+      "date": "2026-08-06T16:11:34+00:00",
+      "ts": 1786032694.0
+    },
+    {
+      "title": "MatSing Details Manufacturing Technology to Improve Satellite Antenna Performance",
+      "link": "https://www.satellitetoday.com/technology/2026/08/06/matsing-details-manufacturing-technology-to-improve-satellite-antenna-performance/",
+      "summary": "MatSing developed a new proprietary manufacturing technology that it says will enable multibeam, wideband antennas to able to transmit and receive signals simultaneously across a range of directions and frequencies. […] The post MatSing Details Manufacturing Technology to Improve Satellite Antenna Performance appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-06T16:07:48+00:00",
+      "ts": 1786032468.0
+    },
+    {
+      "title": "SpaceX to FCC: Starlink makes rural subsidies obsolete",
+      "link": "https://www.lightreading.com/broadband/spacex-to-fcc-starlink-makes-rural-subsidies-obsolete",
+      "summary": "SpaceX told the FCC that Starlink has made billions a year in rural broadband subsidies pointless. Rural telcos and electric co-ops say the argument doesn't hold up.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-06T15:46:43+00:00",
+      "ts": 1786031203.0
+    },
+    {
+      "title": "AT&T Bets $23 bn on 5G Expansion with Ericsson, Promises Faster Speeds, Better Coverage and AI-Ready Network",
+      "link": "https://telecomlead.com/5g/att-bets-23-bn-on-5g-expansion-with-ericsson-promises-faster-speeds-better-coverage-and-ai-ready-network-127162",
+      "summary": "AT&T is accelerating its 5G network expansion after completing its $23 billion acquisition of spectrum from EchoStar, strengthening its spectrum portfolio with Ericsson’s radio technology. The investment is designed to improve wireless coverage, increase network capacity, deliver faster download speeds, and prepare...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-08-06T15:09:05+00:00",
+      "ts": 1786028945.0
+    },
+    {
+      "title": "AT&T taps Ericsson for 600MHz spectrum rollout",
+      "link": "https://www.mobileworldlive.com/att/att-taps-ericsson-for-600mhz-spectrum-rollout/",
+      "summary": "AT&T picked vendor partner Ericsson to supply 600MHz dual-band radios as it works to put newly acquired spectrum from EchoStar to use across its wireless network. The post AT&T taps Ericsson for 600MHz spectrum rollout appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-08-06T14:01:00+00:00",
+      "ts": 1786024860.0
+    },
     {
       "title": "Telecom and Wireless Insights, July 2026: Satellite’s Extremes and AI-RAN’s Deployment Gap",
       "link": "https://tecknexus.com/telecom-wireless-insights-july-2026/",
@@ -243,6 +345,36 @@
       "relevance": 53,
       "date": "2026-08-06T08:10:12+00:00",
       "ts": 1786003812.0
+    },
+    {
+      "title": "Deutsche Telekom H1 2026 Revenue Reaches €59.8 bn as 5G, Fiber, Broadband and T-Mobile US Drive Growth",
+      "link": "https://telecomlead.com/5g/deutsche-telekom-h1-2026-revenue-reaches-e59-8-bn-as-5g-fiber-broadband-and-t-mobile-us-drive-growth-127150",
+      "summary": "Deutsche Telekom has reported strong operating momentum in the first half of 2026, with revenue increasing 2.4 percent year over year to €59.8 billion and service revenue rising 2.8 percent to €50.4 billion. The growth in revenue at Deutsche Telekom was driven by continued customer additions, expanding broadband and...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-08-06T06:42:46+00:00",
+      "ts": 1785998566.0
+    },
+    {
+      "title": "Swisscom H1 2026: Revenue Reaches CHF 7.22 bn as Fiber, 5G and Italy Synergies Drive Growth",
+      "link": "https://telecomlead.com/5g/swisscom-h1-2026-revenue-reaches-chf-7-22-bn-as-fiber-5g-and-italy-synergies-drive-growth-127147",
+      "summary": "Swisscom has reported mixed financial performance for the first half of 2026, with Group revenue declining 3.0 percent year over year to CHF 7.221 billion, while profitability and cash generation improved significantly. EBITDA after lease expense (EBITDAaL) of Swisscom rose 3.3 percent to CHF 2.557 billion, and net...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-06T06:22:33+00:00",
+      "ts": 1785997353.0
     },
     {
       "title": "A 6G Integrated Sensing and Communication Framework for Railway Intrusion Detection and Collision Prediction",
@@ -544,22 +676,6 @@
       "ts": 1785988800.0
     },
     {
-      "title": "Forecast: European FTTP subs at 157m by 2030",
-      "link": "https://www.advanced-television.com/2026/08/06/forecast-european-fttp-subs-at-157m-by-2030/",
-      "summary": "Point Topic has produced its latest FTTP (Fibre-to-the-Premises) subscriber forecast for 31 European countries. The market intelligence and research company expects FTTP subscribers in these markets to reach 157.4 million by 2030, up from 112.4 million at the end of 2025, showing a 40.1 per cent growth rate over five...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-06T01:00:01+00:00",
-      "ts": 1785978001.0
-    },
-    {
       "title": "Optus and Nokia’s pre-“6G” Trial in Australia: Upper 6 GHz May Be Widely Deployable",
       "link": "https://techblog.comsoc.org/2026/08/05/optus-and-nokias-pre-6g-trial-in-australia-upper-6-ghz-may-be-widely-deployable/",
       "summary": "Executive Summary: Australia’s Optus and Nokia have delivered one of the more credible pre 6G demonstrations yet: a live-field trial in Sydney that paired multi-gigabit speed with good coverage. The most notable result was the 3.5 Gbps peak download rate and the indication that upper 6 GHz could support a macrocell...",
@@ -647,6 +763,37 @@
       "ts": 1785955869.0
     },
     {
+      "title": "Telecom news: Optus, Nokia, Airtel Kenya, Starlink, Bharti Airtel",
+      "link": "https://telecomlead.com/news/telecom-news-optus-nokia-airtel-kenya-starlink-bharti-airtel-127140",
+      "summary": "Today’s telecom news includes announcements on Optus, Nokia, Airtel Kenya, Starlink, Bharti Airtel, among others. Optus and Nokia Reach 3.5 Gbps in Major Australian 6G Network Trial Optus and Nokia have achieved download speeds of 3.5 Gbps during a 6G technology trial in Australia, demonstrating the capabilities of...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 57,
+      "date": "2026-08-05T18:48:52+00:00",
+      "ts": 1785955732.0
+    },
+    {
+      "title": "Telecom news: AST SpaceMobile, SpaceX, Starlink, AT&T, Verizon, T-Mobile, ZBTLink",
+      "link": "https://telecomlead.com/news/telecom-news-ast-spacemobile-spacex-starlink-att-verizon-t-mobile-zbtlink-127138",
+      "summary": "Today’s telecom news includes announcements on AST SpaceMobile, SpaceX, Starlink, AT&T, Verizon, T-Mobile, ZBTLink, among others. AST SpaceMobile Successfully Launches Three New BlueBird Satellites to Expand Direct-to-Device Connectivity AST SpaceMobile has launched its next-generation BlueBird 11, 12, and 13...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-08-05T18:46:49+00:00",
+      "ts": 1785955609.0
+    },
+    {
       "title": "Capella, Iceye and Umbra win NRO radar-data contracts",
       "link": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/",
       "summary": "SAN FRANCISCO – The National Reconnaissance Office has awarded contracts to Capella Space, Iceye U.S. and Umbra to expand the U.S. government’s use of commercial synthetic aperture radar (SAR). The […] The post Capella, Iceye and Umbra win NRO radar-data contracts appeared first on SpaceNews .",
@@ -691,22 +838,6 @@
       "relevance": 60,
       "date": "2026-08-05T15:25:55+00:00",
       "ts": 1785943555.0
-    },
-    {
-      "title": "EnSilica Joins 5G-aNTeNna Consortium to Advance Ka-Band 5G-NTN User Terminals",
-      "link": "https://satnews.com/2026/08/05/ensilica-joins-5g-antenna-consortium-to-advance-ka-band-5g-ntn-user-terminals/",
-      "summary": "On August 5, 2026, custom application-specific integrated circuit (ASIC) developer EnSilica announced its membership in the 5G-aNTeNna consortium. The European technical initiative focuses on engineering compact, secure, and scalable 5G […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-05T15:12:00+00:00",
-      "ts": 1785942720.0
     },
     {
       "title": "Finding room in Starlink’s shadow",
@@ -838,51 +969,6 @@
       "ts": 1785875253.0
     },
     {
-      "title": "Telesat Expands Lightspeed Constellation for Arctic Military Satcom Program",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/04/telesat-expands-lightspeed-constellation-for-arctic-military-satcom-program/",
-      "summary": "Telesat signed a $1.9 billion (U.S. dollar) contract with the government of Canada for Arctic military satcom connectivity and will expand the Lightspeed constellation by 69 satellites to fulfill the […] The post Telesat Expands Lightspeed Constellation for Arctic Military Satcom Program appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-04T19:59:35+00:00",
-      "ts": 1785873575.0
-    },
-    {
-      "title": "Endeavor Optical Networks Emerges From Stealth to Build Optical MEO Data Transfer",
-      "link": "https://www.satellitetoday.com/finance/2026/08/04/endeavor-optical-networks-emerges-from-stealth-to-build-optical-meo-data-transfer/",
-      "summary": "A new startup Endeavor Optical Networks emerged from stealth on Tuesday, with a plan to build an optical satellite network in Medium-Earth Orbit (MEO) for space-based data transfer. The company […] The post Endeavor Optical Networks Emerges From Stealth to Build Optical MEO Data Transfer appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-04T19:56:04+00:00",
-      "ts": 1785873364.0
-    },
-    {
-      "title": "Ericsson lands prime role in Korean AI-RAN project",
-      "link": "https://www.mobileworldlive.com/industry/ericsson-lands-prime-role-in-korean-ai-ran-project/",
-      "summary": "Ericsson declared itself set to be a major influence on the development of physical AI and 6G in South Korea after being chosen to be a principle global technology player for the nation’s Hyper-AI Network Infrastructure Demonstration Project. The post Ericsson lands prime role in Korean AI-RAN project appeared first...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-08-04T15:29:48+00:00",
-      "ts": 1785857388.0
-    },
-    {
       "title": "Eurobites: Ericsson recruited for South Korea's AI-RAN initiative",
       "link": "https://www.lightreading.com/ai-machine-learning/eurobites-ericsson-recruited-for-south-korea-s-ai-ran-initiative",
       "summary": "Also in today's EMEA regional roundup: Vodafone sells VodafoneZiggo stake; BT, EE shine in fixed and mobile network tests; CMA wants fair rankings from Google.",
@@ -941,34 +1027,6 @@
       "ts": 1785836017.0
     },
     {
-      "title": "Airbus and Thales Alenia Space to Build SpainSat NG-III",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/03/airbus-and-thales-alenia-space-to-build-spainsat-ng-iii/",
-      "summary": "Hisdesat has contracted Airbus and Thales Alenia Space to build the SpainSat NG-III secure satellite communications satellite for Spain. Airbus, the prime contractor, announced the award on July 31. As […] The post Airbus and Thales Alenia Space to Build SpainSat NG-III appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-03T21:24:27+00:00",
-      "ts": 1785792267.0
-    },
-    {
-      "title": "ETL Acquires Software Developer Amphinicy Technologies",
-      "link": "https://www.satellitetoday.com/finance/2026/08/03/etl-acquires-software-developer-amphinicy-technologies/",
-      "summary": "ETL Systems has acquired Amphinicy Technologies, which develops software for satcom and Earth Observation markets, in a move the company said will help solve more complex ground segment challenges for […] The post ETL Acquires Software Developer Amphinicy Technologies appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-03T20:31:28+00:00",
-      "ts": 1785789088.0
-    },
-    {
       "title": "How NTIA “Call to Action for 6G Leadership and Security” might influence 6G/IMT-2030 standards and 3GPP specifications",
       "link": "https://techblog.comsoc.org/2026/08/03/how-ntia-call-to-action-for-6g-leadership-and-security-might-influence-6g-imt-2030-standards/",
       "summary": "Introduction: The U.S. National Telecommunications and Information Administration (NTIA) has launched the “Call to Action for 6G Leadership and Security,” a multilateral initiative uniting more than 20 like-minded governments to coordinate on a shared vision for open, interoperable, secure, and resilient 6G networks....",
@@ -995,35 +1053,6 @@
       "relevance": 46,
       "date": "2026-08-03T17:35:36+00:00",
       "ts": 1785778536.0
-    },
-    {
-      "title": "Hughes files for bankruptcy after GEO business loses ground to Starlink",
-      "link": "https://spacenews.com/hughes-files-for-bankruptcy-after-geo-business-loses-ground-to-starlink/",
-      "summary": "EchoStar’s Hughes geostationary satellite broadband business has filed for bankruptcy in the United States after years of mounting competition from SpaceX’s Starlink constellation. The post Hughes files for bankruptcy after GEO business loses ground to Starlink appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-03T16:06:47+00:00",
-      "ts": 1785773207.0
-    },
-    {
-      "title": "Xona secures spectrum approval for satellite navigation network",
-      "link": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
-      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for satellite navigation network appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-03T15:36:37+00:00",
-      "ts": 1785771397.0
     },
     {
       "title": "New US 6G alliance must show it can make a difference",
@@ -1198,48 +1227,6 @@
       "relevance": 46,
       "date": "2026-07-30T16:39:57+00:00",
       "ts": 1785429597.0
-    },
-    {
-      "title": "5G standalone revenue triples 4G core at same stage of tech cycle – Dell'Oro",
-      "link": "https://www.lightreading.com/5g/5g-standalone-revenue-triples-4g-core-at-same-stage-of-tech-cycle-dell-oro",
-      "summary": "Escalating hardware costs will stretch revenue curve. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-07-29T15:22:59+00:00",
-      "ts": 1785338579.0
-    },
-    {
-      "title": "EchoStar closes AT&T spectrum deal, but wrinkles remain",
-      "link": "https://www.lightreading.com/5g/echostar-closes-at-t-spectrum-deal-but-wrinkles-remain",
-      "summary": "EchoStar and AT&T have wrapped a $23 billion spectrum sale, with a portion being deposited to an FCC-mandated trust. It's not clear if the close will prevent a possible Hughes unit bankruptcy.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-29T13:37:27+00:00",
-      "ts": 1785332247.0
-    },
-    {
-      "title": "FCC OKs $6.3B in upper C-band incentive payments, but cable ops still concerned",
-      "link": "https://www.lightreading.com/5g/fcc-oks-6-3b-in-upper-c-band-incentive-payments-but-cable-ops-still-concerned",
-      "summary": "The FCC's rules for the upper C-band auction authorized $6.3 billion in incentive payments to help satellite operators clear the band. Meanwhile, cable operators remain anxious about the coming transition.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-07-29T13:00:00+00:00",
-      "ts": 1785330000.0
     },
     {
       "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
@@ -1488,36 +1475,6 @@
       "ts": 0
     },
     {
-      "title": "NTIA tees up 4.4 GHz band for 6G study",
-      "link": "https://www.fierce-network.com/wireless/ntia-tees-44-ghz-band-6g-study",
-      "summary": "The National Telecommunications and Information Administration (NTIA) today announced that the Trump Administration has cleared plans to study the 4.4 GHz band for wireless carriers to use in 6G.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Ericsson lands NTT DOCOMO deal to supply AI-ready RAN Compute platform for Japan 5G network",
-      "link": "https://www.fierce-network.com/wireless/ericsson-lands-ntt-docomo-deal-supply-ai-ready-ran-compute-platform-japan-5g-network",
-      "summary": "The companies plan to collaborate on next-generation network architectures designed to support growing AI-generated traffic.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 54,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "SpaceX lays out plan to compete with Big 3 wireless carriers",
       "link": "https://www.fierce-network.com/wireless/spacex-lays-out-plan-compete-big-3-wireless-carriers",
       "summary": "Make no mistake: SpaceX intends to build a terrestrial mobile network and says it’s got enough spectrum to get it off the ground (pun intended).",
@@ -1529,6 +1486,20 @@
       "research": false,
       "countries": [],
       "relevance": 52,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AT&T taps Ericsson for 600 MHz radios",
+      "link": "https://www.fierce-network.com/wireless/att-taps-ericsson-600-mhz-radios",
+      "summary": "AT&T is wasting no time getting its 600 MHz ducks in a row, including the selection of Ericsson to supply the 600 MHz dual-band radios it will use to deploy its newly acquired spectrum from EchoStar.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
       "date": null,
       "ts": 0
     },
@@ -1604,6 +1575,34 @@
       "ts": 0
     },
     {
+      "title": "Indosat launches 1 GW AI infra play with $800M Ooredoo backing",
+      "link": "https://www.fierce-network.com/cloud/indosat-launches-1-gw-ai-infra-play-800m-ooredoo-backing",
+      "summary": "Nokia and Nvidia are key players in Indosat and Ooredoo's plan to build up to 1 GW of compute capacity via the newly launched Zankore paltform.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Fiber broadband spurs consumer AI usage, says Recon Analytics",
+      "link": "https://www.fierce-network.com/broadband/fiber-broadband-spurs-consumer-ai-usage-says-recon-analytics",
+      "summary": "People with fiber connections have AI sessions that are 50% more intensive than people with cable connections.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "SK Telecom’s AI data center bet gains traction with 92.5% revenue growth",
       "link": "https://www.fierce-network.com/cloud/sk-telecoms-ai-data-center-bet-gains-traction-925-revenue-growth",
       "summary": "SK Telecom’s AI data center revenue nearly doubled as it chases a 15 GW infrastructure dream.",
@@ -1626,20 +1625,6 @@
       "source": "Fierce Network",
       "themes": [
         "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile launches ‘Nothing,’ so what’s the big deal?",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
-      "summary": "T-Mobile today unveiled new Experience and Essentials 2.0 Plans with an equipment installment plan (EIP) financing option that promises a “zero-dollar-out-of-pocket” path to a new device, while “paying nothing” upfront.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
