@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-08T00:47:44.930497+00:00",
-  "count": 107,
+  "generated_at": "2026-08-08T06:32:10.594630+00:00",
+  "count": 78,
   "theme_counts": {
-    "moveis": 41,
-    "fibra": 21,
-    "antenas": 10,
+    "moveis": 32,
+    "fibra": 20,
+    "antenas": 4,
     "iot": 0,
-    "satelite": 38,
-    "radar_militar": 7,
+    "satelite": 36,
+    "radar_militar": 5,
     "radiocom": 2,
     "tv": 0,
-    "geral": 28
+    "geral": 9
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 2,
     "cn": 1
   },
-  "research_count": 29,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (21 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (15 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (25 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (25 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -402,422 +402,6 @@
       "relevance": 52,
       "date": "2026-08-07T04:19:12+00:00",
       "ts": 1786076352.0
-    },
-    {
-      "title": "5G ISAC-Based UAV Detection and 3-D Tracking Using Uplink Sounding Reference Signals on an End-to-End O-RAN Simulation Testbed",
-      "link": "https://arxiv.org/abs/2608.05826",
-      "summary": "arXiv:2608.05826v1 Announce Type: new Abstract: Integrated Sensing and Communication (ISAC) lets cellular infrastructure serve communication users and sense on the same waveform. We present an end-to-end O-RAN simulation testbed for 5G ISAC targeting low-altitude UAV detection and 3-D tracking, built from open-source...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 78,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Channel Map-Based Channel Estimation for Near-Field UM-MIMO with Movable Planar Arrays",
-      "link": "https://arxiv.org/abs/2608.05520",
-      "summary": "arXiv:2608.05520v1 Announce Type: new Abstract: Accurate channel estimation is essential for coherent transmission in ultra-massive multiple-input multiple-output (UM-MIMO) systems, where near-field propagation and high-dimensional spatial channels impose substantial signal processing challenges. Movable antenna...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Multi-Target Micro-Motion Parameter Estimation using MIMO-FMCW Radar with Limited Measurements",
-      "link": "https://arxiv.org/abs/2608.05216",
-      "summary": "arXiv:2608.05216v1 Announce Type: new Abstract: This work presents a compressive sensing-based approach for estimating the micro-motion parameters of targets with rotating components, such as small unmanned aerial vehicles (UAVs) with propellers, using fewer measurements than conventional methods. A...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Neural CRC Prediction for 5G NR URLLC",
-      "link": "https://arxiv.org/abs/2608.06230",
-      "summary": "arXiv:2608.06230v1 Announce Type: new Abstract: We propose a neural cyclic redundancy check (CRC) predictor for the 5G New Radio (5G NR) physical uplink shared channel (PUSCH) that enables early link-adaptation decisions for Ultra-Reliable Low-Latency Communications (URLLC). The predictor combines a lightweight...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Multi-Agent Reinforcement Learning for Online Traffic Scheduling in Time-Sensitive Application",
-      "link": "https://arxiv.org/abs/2608.05346",
-      "summary": "arXiv:2608.05346v1 Announce Type: new Abstract: Time-sensitive networking (TSN) is increasingly integrated into mobile edge computing (MEC) to support applications with stringent latency requirements, such as extended reality (XR). However, existing TSN scheduling solutions predominantly rely on static optimization...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "EqDeepRx: Learning a Scalable and Interference Mitigating MIMO Receiver",
-      "link": "https://arxiv.org/abs/2602.11834",
-      "summary": "arXiv:2602.11834v2 Announce Type: replace Abstract: While machine learning (ML)-based receiver algorithms have received a great deal of attention in the recent literature, they often suffer from poor scaling with increasing spatial multiplexing order and lack of explainability and generalization. This paper presents...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Numerical Model of a Multiple-Input-Multiple-Output Distributed Acoustic Sensing System with Joint Phase and Birefringence Estimation",
-      "link": "https://arxiv.org/abs/2608.06198",
-      "summary": "arXiv:2608.06198v1 Announce Type: new Abstract: In this work, we introduce and experimentally validate a numerical model for a Multiple-Input-Multiple-Output Distributed Acoustic Sensing (MIMO-DAS) system that accounts for dynamic perturbations of fiber birefringence and of the common optical phase of the...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "fibra",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Cross-Layer Optimization and System-Level Design of Next-Generation Wireless Networks via Intelligent RAN Control",
-      "link": "https://arxiv.org/abs/2608.02067",
-      "summary": "arXiv:2608.02067v2 Announce Type: replace Abstract: Recent years have seen the evolution of the traditional Radio Access Network (RAN) toward more open, programmable, disaggregated, and intelligent architectures, known as an Open RAN. Future Next Generation (NextG) networks are envisioned to be AI-native, enabling...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Multi-Agent Transformer for Queue-Level XR Traffic Scheduling in TSN Networks",
-      "link": "https://arxiv.org/abs/2608.05340",
-      "summary": "arXiv:2608.05340v1 Announce Type: new Abstract: Time-Sensitive Networking (TSN) and Mobile Edge Computing (MEC) hold strong potential for enabling ultra-reliable low-latency communication for time-sensitive applications, such as eXtended Reality (XR). However, the widespread adoption of XR introduces significant...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Media Meets Communication in 6G: Fundamentals, Key Technologies, and Applications",
-      "link": "https://arxiv.org/abs/2608.05184",
-      "summary": "arXiv:2608.05184v1 Announce Type: new Abstract: The rapid advancement of sixth-generation (6G) networks is accelerating the convergence of media intelligence and communication intelligence, driving media communication beyond conventional bit-level delivery toward intelligent, semantic-aware, and generative paradigms....",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Radio-FM: A Foundation Model for Radio Signal Representation Learning and Its Applications",
-      "link": "https://arxiv.org/abs/2608.05793",
-      "summary": "arXiv:2608.05793v1 Announce Type: new Abstract: Applying foundation models to the radio frequency (RF) domain presents unique challenges due to the intrinsic physical complexity of raw I/Q signals and the extreme heterogeneity of spectral data. In this paper, we present Radio-FM, a scalable family of foundation models...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Joint Access Point Selection and Precoder Design under Statistical CSI",
-      "link": "https://arxiv.org/abs/2608.06251",
-      "summary": "arXiv:2608.06251v1 Announce Type: new Abstract: This work addresses joint access point (AP) selection and precoding for sum-rate maximization under statistical channel state information (CSI) in multi-AP multi-user systems. To this end, we propose two approaches. The first method is an iterative alternating...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "An Analysis of the Accuracy of the Added Length De-Embedding Methods for Coaxial to Waveguide Adapters in the X-Band",
-      "link": "https://arxiv.org/abs/2608.06313",
-      "summary": "arXiv:2608.06313v1 Announce Type: new Abstract: This paper assesses the accuracy of the \"added length method\" (also known as port extension or channel offset) for de-embedding coaxial-to-waveguide transitions in the X-band, comparing it to full waveguide calibration on both Keysight and Rohde & Schwarz VNAs. The study...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Communication-Aware Multi-Agent Reinforcement Learning for Decentralized Cooperative UAV Deployment",
-      "link": "https://arxiv.org/abs/2603.16141",
-      "summary": "arXiv:2603.16141v2 Announce Type: replace-cross Abstract: Autonomous Unmanned Aerial Vehicle (UAV) swarms are increasingly used as rapidly deployable aerial relays and sensing platforms, yet practical deployments must operate under partial observability and intermittent peer-to-peer connectivity. We present a...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "GSBF: Gaussian Splatting for Environment-Aware Beamforming",
-      "link": "https://arxiv.org/abs/2608.05896",
-      "summary": "arXiv:2608.05896v1 Announce Type: cross Abstract: Beamforming plays a key role in multiple-input-multiple-output (MIMO) communication systems. However, conventional beamforming design normally requires accurate instantaneous channel state information (CSI) and iterative optimization, which incur substantial pilot...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "An Ordered-Reliability-Bits Chase Decoding Algorithm for BCH Codes",
-      "link": "https://arxiv.org/abs/2608.05591",
-      "summary": "arXiv:2608.05591v1 Announce Type: new Abstract: In this paper, we propose a low-complexity ordered-reliability-bits Chase (ORB-Chase) decoding algorithm for BCH codes. The proposed algorithm differs from the traditional Chase algorithm in two key aspects. First, it employs the logical weight as a metric to generate...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "MARS: Margin and Semantic-Aware Data Augmentation for Reward Modeling",
-      "link": "https://arxiv.org/abs/2602.17658",
-      "summary": "arXiv:2602.17658v4 Announce Type: replace-cross Abstract: Reward modeling is central to RLHF, RLAIF, and PPO-based alignment, but its reliability is often limited by scarce and heterogeneous human preference data. In this paper, we introduce MARS (Margin and Semantic-Aware Data Augmentation for Reward Modeling), an...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Enhancing Anomaly Resilience in Research Networks: A Large-Scale Forecasting Benchmark for Dynamic Security Baselining",
-      "link": "https://arxiv.org/abs/2608.05605",
-      "summary": "arXiv:2608.05605v1 Announce Type: cross Abstract: Research and Education Networks (RENs) serve as critical infrastructure for scientific discovery, yet they face a unique security paradox: their normal traffic patterns which are characterized by massive, bursty \"elephant flows\" are statistically indistinguishable from...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Beyond Static Forecasting: Unleashing the Power of World Models for Mobile Traffic Extrapolation",
-      "link": "https://arxiv.org/abs/2604.08199",
-      "summary": "arXiv:2604.08199v2 Announce Type: replace Abstract: Mobile traffic prediction is a fundamental yet challenging problem for wireless network planning and optimization. Conventional models mainly learn static long-term temporal patterns and cannot capture the dynamics under network-parameter adjustments. Leveraging the...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Multilayer Dual-polarized Microstrip Antenna Design by Topology Optimization with Enhanced Bandwidth",
-      "link": "https://arxiv.org/abs/2608.05712",
-      "summary": "arXiv:2608.05712v1 Announce Type: new Abstract: Dual-polarized (DP) microstrip antennas are utilized in wireless systems for efficient data transmission. However, their bandwidth is typically very limited. In this contribution, we propose to design DP microstrip antennas with enhanced bandwidth using a density-based...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Sequential-Innovation Reducibility and the Innovation Spectrum",
-      "link": "https://arxiv.org/abs/2608.05443",
-      "summary": "arXiv:2608.05443v1 Announce Type: cross Abstract: Sequential prediction naturally induces an innovation sequence consisting of the prediction errors produced by a causal predictor. We use the collection of all such innovation sequences to define the \\emph{innovation spectrum} of an individual binary sequence and, from...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "A Session Interaction Framework for The Multiple-Unicast Conjecture",
-      "link": "https://arxiv.org/abs/2608.06042",
-      "summary": "arXiv:2608.06042v1 Announce Type: new Abstract: The multiple-unicast conjecture asserts that network coding offers no throughput advantage over routing in undirected networks. Its validity is known to imply fundamental lower bounds in computational complexity. We propose a Session Interaction Framework that reduces...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Statistical Verification of Medium-Access Parameterization for Power-Grid Edge Ad Hoc Sensor Networks",
-      "link": "https://arxiv.org/abs/2602.05510",
-      "summary": "arXiv:2602.05510v3 Announce Type: replace Abstract: The widespread deployment of power grid ad hoc sensor networks based on IEEE 802.15.4 raises reliability challenges when nodes selfishly adapt CSMA/CA parameters to maximize individual performance. Such behavior degrades reliability, energy efficiency, and compliance...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Maximal achievable service rates of some classes of linear codes",
-      "link": "https://arxiv.org/abs/2608.05657",
-      "summary": "arXiv:2608.05657v1 Announce Type: new Abstract: In this paper, we investigate lower bounds on the maximum achievable service rates for data symbols in certain classes of linear codes, including cyclic codes and low-density parity-check (LDPC) codes, that are derived from combinatorial structures such as $t$-designs,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "A Guess and Determine Attack on the Elliptic Curve Discrete Logarithm Problem",
-      "link": "https://arxiv.org/abs/2607.09814",
-      "summary": "arXiv:2607.09814v2 Announce Type: replace-cross Abstract: This paper is a continuation of our earlier work, in which we described a Las Vegas algorithm to solve the elliptic curve discrete logarithm problem. The Las Vegas algorithm reduces the elliptic curve discrete logarithm problem to finding a zero minor in a...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Zero-Instruction Sensor Reads: Register-Mapped Peripherals and Hardware PWM on a Five-Stage Soft Processor",
-      "link": "https://arxiv.org/abs/2608.05638",
-      "summary": "arXiv:2608.05638v1 Announce Type: cross Abstract: We present a case study in application-driven specialization of a five-stage soft processor, evaluated on the inner control loop of a reaction-wheel self-balancing bicycle. Starting from a custom 32-bit RISC core in the MIPS tradition, we specialize the design in two...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Decentralized Affine Transformation for Scalable and Safe Multi-Agent Aerial Coordination",
-      "link": "https://arxiv.org/abs/2509.10791",
-      "summary": "arXiv:2509.10791v2 Announce Type: replace Abstract: This paper presents an experimental evaluation of decentralized affine transformation (AT) in multi-agent systems using teams of mini-quadcopters. The AT framework enables an agent team to safely navigate constrained environments with narrow passages while allowing...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "A Games-in-Games Paradigm for Strategic Hybrid Jump-Diffusions: Hamilton-Jacobi-Isaacs Hierarchy and Spectral Structure",
-      "link": "https://arxiv.org/abs/2512.18098",
-      "summary": "arXiv:2512.18098v2 Announce Type: replace Abstract: This paper develops a hierarchical games-in-games control architecture for hybrid stochastic systems governed by regime-switching jump-diffusions. We model the interplay between continuous state dynamics and discrete mode transitions as a bilevel differential game:...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
-    },
-    {
-      "title": "Unified Eigenvalue-Eigenspace Criteria for Functional Properties of Linear Systems and the Generalized Separation Principle",
-      "link": "https://arxiv.org/abs/2602.14909",
-      "summary": "arXiv:2602.14909v2 Announce Type: replace Abstract: Classical controllability and observability admit equivalent Popov-Belevitch-Hautus (PBH) tests based on eigenvalue-wise rank conditions. This paper extends this framework to functional properties of linear systems, establishing necessary and sufficient PBH-style...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-07T04:00:00+00:00",
-      "ts": 1786075200.0
     },
     {
       "title": "FCC opens proceeding on unlicensed spectrum for D2D",
