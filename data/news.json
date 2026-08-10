@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-10T07:07:37.138585+00:00",
-  "count": 99,
+  "generated_at": "2026-08-10T12:41:40.396492+00:00",
+  "count": 98,
   "theme_counts": {
-    "moveis": 33,
-    "fibra": 21,
+    "moveis": 32,
+    "fibra": 20,
     "antenas": 8,
     "iot": 1,
     "satelite": 40,
     "radar_militar": 9,
     "radiocom": 2,
     "tv": 0,
-    "geral": 19
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 1,
-    "in": 1,
-    "jp": 1,
-    "kr": 1,
+    "in": 2,
+    "jp": 3,
+    "kr": 2,
     "cn": 1
   },
   "research_count": 23,
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -200,6 +200,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Samsung, NTT add a personal touch to AI-RAN tests",
+      "link": "https://www.mobileworldlive.com/network-tech/samsung-ntt-add-a-personal-touch-to-ai-ran-tests/",
+      "summary": "NTT Docomo and Samsung Electronics validated AI-RAN technology which optimises user experience at an individual level to cut service issues, a feat the pair asserted is an important step towards predictive architecture expected to be prevalent in 6G. The post Samsung, NTT add a personal touch to AI-RAN tests appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp",
+        "kr"
+      ],
+      "relevance": 48,
+      "date": "2026-08-10T10:48:35+00:00",
+      "ts": 1786358915.0
+    },
+    {
+      "title": "India moves to rein in consumer 5G network slicing",
+      "link": "https://www.lightreading.com/5g/india-moves-to-rein-in-consumer-5g-network-slicing",
+      "summary": "India has proposed safeguards for 5G network slicing services to protect regular users' experience.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 56,
+      "date": "2026-08-10T07:00:00+00:00",
+      "ts": 1786345200.0
+    },
     {
       "title": "RIS-Aided mmWave Localization Under Cross-Link Interference via Beam-Domain ML Fingerprinting",
       "link": "https://arxiv.org/abs/2608.07444",
@@ -529,6 +562,21 @@
       "ts": 1786334400.0
     },
     {
+      "title": "Study: 75% of drivers willing to pay for satellite-connected services",
+      "link": "https://www.advanced-television.com/2026/08/10/study-75-of-drivers-willing-to-pay-for-satellite-connected-services/",
+      "summary": "A study from satellite communications specialist Viasat and industry body the 5G Automotive Association (5GAA) has revealed drivers around the world say they regularly experience coverage ‘black spots’ and are willing to pay for satellite-powered services – especially when it comes to safety. The number of ‘connected...",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-08-10T00:30:25+00:00",
+      "ts": 1786321825.0
+    },
+    {
       "title": "AT&T’s 600 MHz Deployment with Ericsson: Turning Low-Band Spectrum Into Coverage and Uplink Capacity",
       "link": "https://techblog.comsoc.org/2026/08/09/atts-600-mhz-deployment-turning-low-band-spectrum-into-coverage-and-uplink-capacity/",
       "summary": "Executive Summary: AT&T has selected Ericsson to supply 600 MHz dual-band radios for deployment of the low-band spectrum it recently acquired from EchoStar. The equipment choice is notable not simply because it activates new spectrum, but because it enables AT&T to introduce uplink-enhancing eight-receiver (8RX)...",
@@ -659,7 +707,7 @@
     {
       "title": "MobileX founder counters T-Mobile CEO on Starlink threat",
       "link": "https://www.mobileworldlive.com/network-tech/mobilex-founder-counters-t-mobile-ceo-on-starlink-threat/",
-      "summary": "MobileX and Boost Mobile founder Peter Adderton pushed back on T-Mobile US CEO Srini Gopalan reportedly claiming the threat posed by Starlink to mobile operators has been exaggerated. The post MobileX founder counters T-Mobile CEO on Starlink threat appeared first on Mobile World Live .",
+      "summary": "MobileX and Boost Mobile founder Peter Adderton rebuffed the reported view of T-Mobile US CEO Srini Gopalan that Starlink poses little threat to mobile operators. The post MobileX founder counters T-Mobile CEO on Starlink threat appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -669,20 +717,6 @@
       "relevance": 45,
       "date": "2026-08-07T14:34:26+00:00",
       "ts": 1786113266.0
-    },
-    {
-      "title": "Tampa Electric picks Ericsson, OneLayer, and Burns & McDonnell for private LTE network deployment",
-      "link": "https://www.datacenterdynamics.com/en/news/tampa-electric-picks-ericsson-onelayer-and-burns-mcdonnell-for-private-lte-network-deployment/",
-      "summary": "The deployment brings SIM lifecycle management to Tampa Electric",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-07T12:30:32+00:00",
-      "ts": 1786105832.0
     },
     {
       "title": "The Friday File: Starlink; Verizon; World Bank",
@@ -698,6 +732,22 @@
       "relevance": 56,
       "date": "2026-08-07T11:01:37+00:00",
       "ts": 1786100497.0
+    },
+    {
+      "title": "NTT digs deep into remote operations at Chile mine",
+      "link": "https://www.mobileworldlive.com/industry/ntt-digs-deep-into-remote-operations-at-chile-mine/",
+      "summary": "NTT Docomo Business partnered with Chilean state-owned copper mining company Codelco to assess the viability of remotely operating heavy machinery over high capacity, low latency communications architecture. The post NTT digs deep into remote operations at Chile mine appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 43,
+      "date": "2026-08-07T10:24:05+00:00",
+      "ts": 1786098245.0
     },
     {
       "title": "Wi-Fi 7 Adoption Jumps 300% in U.S. as CenturyLink, Frontier, Ziply, Spectrum, Fiber Providers Drive Broadband Upgrade",
@@ -936,21 +986,6 @@
       "ts": 1785998566.0
     },
     {
-      "title": "Swisscom H1 2026: Revenue Reaches CHF 7.22 bn as Fiber, 5G and Italy Synergies Drive Growth",
-      "link": "https://telecomlead.com/5g/swisscom-h1-2026-revenue-reaches-chf-7-22-bn-as-fiber-5g-and-italy-synergies-drive-growth-127147",
-      "summary": "Swisscom has reported mixed financial performance for the first half of 2026, with Group revenue declining 3.0 percent year over year to CHF 7.221 billion, while profitability and cash generation improved significantly. EBITDA after lease expense (EBITDAaL) of Swisscom rose 3.3 percent to CHF 2.557 billion, and net...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-06T06:22:33+00:00",
-      "ts": 1785997353.0
-    },
-    {
       "title": "Optus and Nokia’s pre-“6G” Trial in Australia: Upper 6 GHz May Be Widely Deployable",
       "link": "https://techblog.comsoc.org/2026/08/05/optus-and-nokias-pre-6g-trial-in-australia-upper-6-ghz-may-be-widely-deployable/",
       "summary": "Executive Summary: Australia’s Optus and Nokia have delivered one of the more credible pre 6G demonstrations yet: a live-field trial in Sydney that paired multi-gigabit speed with good coverage. The most notable result was the 3.5 Gbps peak download rate and the indication that upper 6 GHz could support a macrocell...",
@@ -1098,34 +1133,6 @@
       "ts": 1785939124.0
     },
     {
-      "title": "SpaceX claims Starlink Mobile will rival AT&T, Verizon, T-Mobile US",
-      "link": "https://www.mobileworldlive.com/network-tech/spacex-claims-starlink-mobile-will-rival-att-verizon-t-mobile-us/",
-      "summary": "SpaceX president Gwynne Shotwell claimed Starlink Mobile is positioned to compete directly with AT&T, Verizon and T-Mobile US, pointing to the trio's roughly $600 billion in combined annual revenue as a measure of the opportunity. The post SpaceX claims Starlink Mobile will rival AT&T, Verizon, T-Mobile US appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-05T08:50:38+00:00",
-      "ts": 1785919838.0
-    },
-    {
-      "title": "OCUDU group signs-up Intel to boost open RAN push",
-      "link": "https://www.mobileworldlive.com/network-tech/ocudu-group-signs-up-intel-to-boost-open-ran-push/",
-      "summary": "Chipmaker Intel joined the OCUDU Ecosystem Foundation as a premier member, bolstering open-source RAN software development for 5G and future 6G networks. The post OCUDU group signs-up Intel to boost open RAN push appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-08-05T08:34:08+00:00",
-      "ts": 1785918848.0
-    },
-    {
       "title": "How NTIA “Call to Action for 6G Leadership and Security” might influence 6G/IMT-2030 standards and 3GPP specifications",
       "link": "https://techblog.comsoc.org/2026/08/03/how-ntia-call-to-action-for-6g-leadership-and-security-might-influence-6g-imt-2030-standards/",
       "summary": "Introduction: The U.S. National Telecommunications and Information Administration (NTIA) has launched the “Call to Action for 6G Leadership and Security,” a multilateral initiative uniting more than 20 like-minded governments to coordinate on a shared vision for open, interoperable, secure, and resilient 6G networks....",
@@ -1255,20 +1262,6 @@
       "relevance": 55,
       "date": "2026-07-31T11:25:18+00:00",
       "ts": 1785497118.0
-    },
-    {
-      "title": "FirstNet launches 5G standalone core",
-      "link": "https://www.lightreading.com/5g/firstnet-launches-5g-standalone-core",
-      "summary": "FirstNet and partner AT&T have launched what they claim to be the first 5G standalone core dedicated for public safety and first responders. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-30T20:42:37+00:00",
-      "ts": 1785444157.0
     },
     {
       "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
