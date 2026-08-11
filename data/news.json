@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T12:38:03.296192+00:00",
-  "count": 99,
+  "generated_at": "2026-08-11T18:44:31.066358+00:00",
+  "count": 103,
   "theme_counts": {
-    "moveis": 37,
-    "fibra": 18,
+    "moveis": 39,
+    "fibra": 21,
     "antenas": 6,
     "iot": 1,
-    "satelite": 31,
-    "radar_militar": 8,
+    "satelite": 33,
+    "radar_militar": 9,
     "radiocom": 4,
     "tv": 0,
     "geral": 22
@@ -15,11 +15,11 @@
   "country_counts": {
     "br": 1,
     "ru": 1,
-    "il": 1,
+    "il": 0,
     "in": 3,
     "jp": 4,
-    "kr": 5,
-    "cn": 1
+    "kr": 4,
+    "cn": 0
   },
   "research_count": 29,
   "sources": [
@@ -75,18 +75,18 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,149 @@
     }
   ],
   "items": [
+    {
+      "title": "AI Is Straining 5G Uplink: What Ookla’s Research Means for Your Network Architecture",
+      "link": "https://tecknexus.com/ai-workloads-5g-uplink-capacity-architecture/",
+      "summary": "Most 5G networks were designed for downlink-heavy traffic. AI workloads invert that assumption - and Ookla's research shows the mismatch is already creating capacity and latency constraints most site plans haven't accounted for. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-08-11T16:57:55+00:00",
+      "ts": 1786467475.0
+    },
+    {
+      "title": "DamoTech Joins Space ISAC",
+      "link": "https://www.satellitetoday.com/cybersecurity/2026/08/11/damotech-joins-space-isac/",
+      "summary": "DamoTech is the latest company to join the Space Information Sharing and Analysis Center (Space ISAC). The company specializes in advanced cybersecurity in the space sector. This significant development is […] The post DamoTech Joins Space ISAC appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-11T16:46:21+00:00",
+      "ts": 1786466781.0
+    },
+    {
+      "title": "From 300 to 150,000+: What MTN Nigeria’s FTTH Journey Teaches Us About Scaling Connectivity",
+      "link": "https://circleid.com/posts/from-300-to-150000-what-mtn-nigerias-ftth-journey-teaches-us-about-scaling-connectivity",
+      "summary": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-08-11T15:35:00+00:00",
+      "ts": 1786462500.0
+    },
+    {
+      "title": "T-Mobile US completes $2.9B Grain spectrum sale",
+      "link": "https://www.mobileworldlive.com/t-mobile-us/t-mobile-us-completes-2-9b-grain-spectrum-sale/",
+      "summary": "T-Mobile US completed a sale of its nationwide 800MHz spectrum portfolio to Grain Management in exchange for $2.9 billion in cash and all of the latter's 600MHz spectrum licences more than a year after agreeing a deal in principle. The post T-Mobile US completes $2.9B Grain spectrum sale appeared first on Mobile World...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-08-11T15:20:35+00:00",
+      "ts": 1786461635.0
+    },
+    {
+      "title": "T-Mobile finally shifts 800MHz spectrum to Grain, picks up 600MHz as part of swap deal",
+      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-finally-shifts-800mhz-spectrum-to-grain-picks-up-600mhz-as-part-of-swap-deal/",
+      "summary": "T-Mobile finally shifts its 800MHz spectrum",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-11T14:25:10+00:00",
+      "ts": 1786458310.0
+    },
+    {
+      "title": "T-Mobile, Grain complete spectrum swap",
+      "link": "https://www.lightreading.com/5g/t-mobile-grain-complete-spectrum-swap",
+      "summary": "T-Mobile has transferred its 800MHz spectrum portfolio to Grain Management in exchange for $2.9 billion in cash and all of Grain's 600MHz spectrum licenses. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-11T14:20:13+00:00",
+      "ts": 1786458013.0
+    },
+    {
+      "title": "Timor-Leste launches commercial operations of first international subsea cable",
+      "link": "https://www.datacenterdynamics.com/en/news/timor-leste-launches-commercial-operations-of-first-international-subsea-cable/",
+      "summary": "Country no longer solely reliant on satellite-based systems",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-11T13:50:30+00:00",
+      "ts": 1786456230.0
+    },
+    {
+      "title": "Ericsson to support ICE's 5G deployment in Costa Rica as main network supplier",
+      "link": "https://www.datacenterdynamics.com/en/news/ericsson-to-support-ices-5g-deployment-in-costa-rica-as-main-network-supplier/",
+      "summary": "Will provide its 5G RAN as the main radio supplier",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-11T13:40:28+00:00",
+      "ts": 1786455628.0
+    },
+    {
+      "title": "Global 2G and 3G Shutdowns Reach 313 as Operators Accelerate 4G and 5G Migration",
+      "link": "https://telecomlead.com/4g-lte/global-2g-and-3g-shutdowns-reach-313-as-operators-accelerate-4g-and-5g-migration-127243",
+      "summary": "The global retirement of legacy mobile networks is gathering momentum as telecom operators seek to refarm spectrum, reduce energy consumption and move customers to more efficient 4G and 5G technologies. The Global mobile Suppliers Association (GSA) identified 313 completed, planned or ongoing 2G and 3G network...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-08-11T13:31:11+00:00",
+      "ts": 1786455071.0
+    },
+    {
+      "title": "T-Mobile Completes $2.9 bn Grain Spectrum Deal to Expand 600 MHz Network",
+      "link": "https://telecomlead.com/5g/t-mobile-completes-2-9-bn-grain-spectrum-deal-to-expand-600-mhz-network-127241",
+      "summary": "T-Mobile has completed its spectrum transaction with Grain Management, receiving $2.9 billion in cash and all of Grain’s 600 MHz spectrum licences in exchange for the mobile operator’s 800 MHz spectrum portfolio. The transaction, approved by the Federal Communications Commission on July 1, 2026, strengthens T-Mobile’s...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-11T13:17:45+00:00",
+      "ts": 1786454265.0
+    },
     {
       "title": "Wireless Logic buys bigger Brazilian IoT presence",
       "link": "https://www.mobileworldlive.com/industry/wireless-logic-buys-bigger-brazilian-iot-presence/",
@@ -739,18 +882,19 @@
       "ts": 1786378804.0
     },
     {
-      "title": "Array Digital Infrastructure reports 95% increase in site rental revenue, remains patient with C-band spectrum holdings",
-      "link": "https://www.datacenterdynamics.com/en/news/array-digital-infrastructure-reports-95-increase-in-site-rental-revenue-remains-patient-with-c-band-spectrum-holdings/",
-      "summary": "A sale of its C-band spectrum won't come straight away",
-      "source": "DataCenterDynamics",
+      "title": "Fiber industry eyes AI as force for favorable policies",
+      "link": "https://www.lightreading.com/fttx/fiber-industry-eyes-ai-as-force-for-favorable-policies",
+      "summary": "Telecom leaders increasingly cite the country's AI future as reason to advance policies that support and speed up fiber deployments, while analysts are also keeping eyes on Starlink's 'fiber-like reliability.'",
+      "source": "Light Reading",
       "themes": [
-        "geral"
+        "fibra",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 50,
-      "date": "2026-08-10T15:50:29+00:00",
-      "ts": 1786377029.0
+      "relevance": 40,
+      "date": "2026-08-10T14:31:38+00:00",
+      "ts": 1786372298.0
     },
     {
       "title": "Samsung, NTT add a personal touch to AI-RAN tests",
@@ -828,20 +972,6 @@
       "relevance": 50,
       "date": "2026-08-09T21:19:59+00:00",
       "ts": 1786310399.0
-    },
-    {
-      "title": "FCC Opens Proceeding to Unlock 200 MHz of Unlicensed Spectrum for Direct-to-Device Satellite Links",
-      "link": "https://satnews.com/2026/08/09/fcc-opens-proceeding-to-unlock-200-mhz-of-unlicensed-spectrum-for-direct-to-device-satellite-links/",
-      "summary": "On August 9, 2026, the Federal Communications Commission (FCC) voted to launch a formal regulatory proceeding exploring new pathways for unlicensed wireless devices to communicate directly with orbiting satellites. The […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-09T14:39:42+00:00",
-      "ts": 1786286382.0
     },
     {
       "title": "Starlink Mobile: NTN–Terrestrial Convergence, Network Capacity, and the Limits of Disruption",
@@ -1077,22 +1207,6 @@
       "ts": 1786033016.0
     },
     {
-      "title": "Gilat Demonstrates Interference Detection and Cancellation Technology",
-      "link": "https://www.satellitetoday.com/technology/2026/08/06/gilat-demonstrates-interference-detection-and-cancellation-technology/",
-      "summary": "Gilat Satellite Networks reports a demonstration of an interference detection and cancellation technology for satellite communication links, calling it a milestone toward improved operations in contested spectrum environments. Gilat said […] The post Gilat Demonstrates Interference Detection and Cancellation...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "il"
-      ],
-      "relevance": 46,
-      "date": "2026-08-06T16:11:34+00:00",
-      "ts": 1786032694.0
-    },
-    {
       "title": "SpaceX to FCC: Starlink makes rural subsidies obsolete",
       "link": "https://www.lightreading.com/broadband/spacex-to-fcc-starlink-makes-rural-subsidies-obsolete",
       "summary": "SpaceX told the FCC that Starlink has made billions a year in rural broadband subsidies pointless. Rural telcos and electric co-ops say the argument doesn't hold up.",
@@ -1106,20 +1220,6 @@
       "relevance": 52,
       "date": "2026-08-06T15:46:43+00:00",
       "ts": 1786031203.0
-    },
-    {
-      "title": "AT&T taps Ericsson for 600MHz spectrum rollout",
-      "link": "https://www.mobileworldlive.com/att/att-taps-ericsson-for-600mhz-spectrum-rollout/",
-      "summary": "AT&T picked vendor partner Ericsson to supply 600MHz dual-band radios as it works to put newly acquired spectrum from EchoStar to use across its wireless network. The post AT&T taps Ericsson for 600MHz spectrum rollout appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-06T14:01:00+00:00",
-      "ts": 1786024860.0
     },
     {
       "title": "Telecom and Wireless Insights, July 2026: Satellite’s Extremes and AI-RAN’s Deployment Gap",
@@ -1241,20 +1341,6 @@
       "ts": 1785778536.0
     },
     {
-      "title": "New US 6G alliance must show it can make a difference",
-      "link": "https://www.lightreading.com/6g/new-us-6g-alliance-must-show-it-can-make-a-difference",
-      "summary": "New US-led 6G alliance has been backed by 25 countries but lacks path to secure supply chain.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-03T14:23:58+00:00",
-      "ts": 1785767038.0
-    },
-    {
       "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
       "link": "https://spectrum.ieee.org/ai-ran-6g",
       "summary": "Today’s advanced 5G networks, and tomorrow’s 6G networks, are now moving toward an increasingly AI-centered future. This September in Madrid , the global telecommunications standards body, the 3GPP , will meet to decide how present-day 5G networks migrate to the emerging 6G standard, slated to begin rolling out by...",
@@ -1267,36 +1353,6 @@
       "relevance": 56,
       "date": "2026-08-03T12:00:01+00:00",
       "ts": 1785758401.0
-    },
-    {
-      "title": "Philippine telcos pool resources for $500M domestic subsea cable system",
-      "link": "https://www.lightreading.com/cable-technology/philippine-telcos-pool-resources-for-500m-domestic-subsea-cable-system",
-      "summary": "PLDT, Globe Telecom and Converge ICT Solutions have submitted a proposal to the Philippine government for the construction of a $500 million nationwide submarine cable system.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-03T11:28:42+00:00",
-      "ts": 1785756522.0
-    },
-    {
-      "title": "Ports Become Private 5G’s Proving Ground: Private Network Insights, July 2026",
-      "link": "https://tecknexus.com/private-network-insights-july-2026/",
-      "summary": "July 2026's roundup: ports deliver this month's deepest deployment evidence, China sets a 50,000-network industrial 5G target, FRMCS rail hardware starts shipping, and private networks add an AI layer across safety and heavy industry. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 60,
-      "date": "2026-08-03T02:54:24+00:00",
-      "ts": 1785725664.0
     },
     {
       "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
@@ -1487,9 +1543,9 @@
       "ts": 0
     },
     {
-      "title": "SpaceX lays out plan to compete with Big 3 wireless carriers",
-      "link": "https://www.fierce-network.com/wireless/spacex-lays-out-plan-compete-big-3-wireless-carriers",
-      "summary": "Make no mistake: SpaceX intends to build a terrestrial mobile network and says it’s got enough spectrum to get it off the ground (pun intended).",
+      "title": "Elon Musk’s mobile moonshot still needs grounding",
+      "link": "https://www.fierce-network.com/wireless/elon-musks-mobile-moonshot-still-needs-grounding",
+      "summary": "Elon Musk and SpaceX are sketching out big plans for Starlink Mobile, but analysts remain cautious around small cells, spectrum, distribution and whether it’s a real network play or MVNO leverage.",
       "source": "Fierce Network",
       "themes": [
         "moveis",
@@ -1497,7 +1553,21 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 52,
+      "relevance": 56,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T‑Mobile completes sale of 800 MHz spectrum portfolio to Grain Management",
+      "link": "https://www.fierce-network.com/newswire/t-mobile-completes-sale-800-mhz-spectrum-portfolio-grain-management",
+      "summary": "Grain is planning to market the 800 MHz spectrum portfolio to utilities, other critical infrastructure industry operators, rural and regional operators, and other enterprises.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
       "date": null,
       "ts": 0
     },
@@ -1530,16 +1600,16 @@
       "ts": 0
     },
     {
-      "title": "Ciena, Toshiba complete quantum networking trial on live Midwest network",
-      "link": "https://www.fierce-network.com/modernization/ciena-toshiba-complete-live-quantum-networking-trial-live-midwest-network",
-      "summary": "A new trial on Quantum Corridor’s Midwest network tested Ciena’s WaveLogic 6 Extreme with post-quantum cryptography and Toshiba’s quantum key distribution technology, offering a path toward quantum-safe networking without replacing existing infrastructure.",
+      "title": "Fiber speeds of 1 Gig are ‘standard’ now, according to ISP execs",
+      "link": "https://www.fierce-network.com/broadband/fiber-speeds-1-gig-are-standard-now-according-isp-execs",
+      "summary": "Alberto Garcia with GFiber said the reality today is that everybody is offering 1 Gig. “Just being a fiber-to-the-home network is not what's going to differentiate you anymore.\"",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1624,22 +1694,6 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "SK Telecom’s AI data center bet gains traction with 92.5% revenue growth",
-      "link": "https://www.fierce-network.com/cloud/sk-telecoms-ai-data-center-bet-gains-traction-925-revenue-growth",
-      "summary": "SK Telecom’s AI data center revenue nearly doubled as it chases a 15 GW infrastructure dream.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
       "relevance": 23,
       "date": null,
       "ts": 0
