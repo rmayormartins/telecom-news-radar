@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T12:41:26.885579+00:00",
+  "generated_at": "2026-08-12T18:45:17.967222+00:00",
   "count": 95,
   "theme_counts": {
-    "moveis": 31,
-    "fibra": 16,
+    "moveis": 39,
+    "fibra": 15,
     "antenas": 3,
-    "iot": 4,
-    "satelite": 32,
-    "radar_militar": 8,
+    "iot": 5,
+    "satelite": 29,
+    "radar_militar": 10,
     "radiocom": 2,
     "tv": 0,
-    "geral": 29
+    "geral": 25
   },
   "country_counts": {
     "br": 1,
@@ -18,8 +18,8 @@
     "il": 0,
     "in": 3,
     "jp": 3,
-    "kr": 5,
-    "cn": 1
+    "kr": 3,
+    "cn": 2
   },
   "research_count": 28,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 12
+      "kept": 11
     },
     {
       "source": "Telecoms.com",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -181,12 +181,12 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "Optus Completes First Part of Project Aurora",
+      "link": "https://www.satellitetoday.com/sustainability/2026/08/12/optus-completes-first-part-of-project-aurora/",
+      "summary": "Optus, an Australian based telco and satellite player, has achieved a key milestone in the area of satellite life extension. It has completed the first phase of Project Aurora, with […] The post Optus Completes First Part of Project Aurora appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-12T16:59:30+00:00",
+      "ts": 1786553970.0
+    },
+    {
+      "title": "Marlink to Acquire U.K. Defense Comms Specialist GRC",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/12/marlink-to-acquire-u-k-defense-comms-specialist-grc/",
+      "summary": "Marlink has made a significant move as it looks to better position itself in the European government, defense and critical infrastructure markets. It is to acquire Global RadioData Communications (GRC), […] The post Marlink to Acquire U.K. Defense Comms Specialist GRC appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 36,
+      "date": "2026-08-12T16:54:08+00:00",
+      "ts": 1786553648.0
+    },
+    {
+      "title": "Private 5G piques interest of UK cybersecurity body",
+      "link": "https://www.mobileworldlive.com/europe/private-5g-piques-interest-of-uk-cybersecurity-body/",
+      "summary": "The UK National Cyber Security Centre requested companies, industry leaders and innovators in the technology sector to engage with it for potential work on future private 5G capabilities. The post Private 5G piques interest of UK cybersecurity body appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-12T15:33:45+00:00",
+      "ts": 1786548825.0
+    },
+    {
+      "title": "Lockheed Martin, Verizon tap 5G for drone detection",
+      "link": "https://www.mobileworldlive.com/verizon/lockheed-martin-verizon-tap-5g-for-drone-detection/",
+      "summary": "Aerospace company Lockheed Martin, Verizon, Nvidia and others demonstrated an AI system capable of identifying, tracking, and monitoring unmanned aerial systems using existing 5G networks. The post Lockheed Martin, Verizon tap 5G for drone detection appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-08-12T14:55:48+00:00",
+      "ts": 1786546548.0
+    },
+    {
+      "title": "Celona expands private 5G to meet the rise of physical AI",
+      "link": "https://www.lightreading.com/private-networks/celona-expands-private-5g-to-meet-the-rise-of-physical-ai",
+      "summary": "Celona adds Wi-Fi, satellite and public support to private 5G along with agentic AI to manage connectivity across technologies and physical AI workloads.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-08-12T14:28:58+00:00",
+      "ts": 1786544938.0
+    },
     {
       "title": "Optus breathes fresh life into GEO satellite",
       "link": "https://www.mobileworldlive.com/operators/optus-breathes-fresh-life-into-geo-satellite/",
@@ -259,6 +332,38 @@
       "relevance": 37,
       "date": "2026-08-12T08:40:57+00:00",
       "ts": 1786524057.0
+    },
+    {
+      "title": "China Telecom Revenue to Grow at 1.3% CAGR as 5G, Fiber, IoT and AI Expand",
+      "link": "https://telecomlead.com/5g/china-telecom-revenue-to-grow-at-1-3-cagr-as-5g-fiber-iot-and-ai-expand-127253",
+      "summary": "China’s telecom and pay-TV services revenue is forecast to grow at a 1.3 percent CAGR during 2025-2030 as mobile data, 5G, fiber broadband, IoT and enterprise computing offset declines in voice and traditional television services, according to GlobalData. The modest growth rate reflects the maturity of the world’s...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra",
+        "iot"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 56,
+      "date": "2026-08-12T08:34:36+00:00",
+      "ts": 1786523676.0
+    },
+    {
+      "title": "Travel eSIM Market Growth Opens New Roaming Revenue Opportunity for Telecom Operators",
+      "link": "https://telecomlead.com/telecom-services/travel-esim-market-growth-opens-new-roaming-revenue-opportunity-for-telecom-operators-127250",
+      "summary": "Travel eSIM adoption is accelerating as international travelers seek flexible and affordable mobile connectivity, but network routing, wholesale partners, internet exit points, speed restrictions and 5G agreements can significantly affect performance. Ookla’s Q2 2026 Speedtest data shows that branded travel eSIM...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-08-12T08:07:43+00:00",
+      "ts": 1786522063.0
     },
     {
       "title": "Multi-UAV Tracking Evaluation Using 5G Uplink Signals on an O-RAN ISAC Simulation Testbed",
@@ -664,21 +769,6 @@
       "ts": 1786507200.0
     },
     {
-      "title": "Data: Europe leads 3G switch-off",
-      "link": "https://www.advanced-television.com/2026/08/12/data-europe-leads-3g-switch-off/",
-      "summary": "GSA (Global mobile Suppliers Association) has published its latest 2G and 3G Switch-Off Report showing the global transition away from 2G and 3G networks is gathering pace as operators seek to modernise infrastructure and reallocate spectrum for faster 4G and 5G technologies. GSA identifies 313 operators that have...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-12T01:21:04+00:00",
-      "ts": 1786497664.0
-    },
-    {
       "title": "AI Is Straining 5G Uplink: What Ookla’s Research Means for Your Network Architecture",
       "link": "https://tecknexus.com/ai-workloads-5g-uplink-capacity-architecture/",
       "summary": "Most 5G networks were designed for downlink-heavy traffic. AI workloads invert that assumption - and Ookla's research shows the mismatch is already creating capacity and latency constraints most site plans haven't accounted for. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
@@ -737,18 +827,18 @@
       "ts": 1786461635.0
     },
     {
-      "title": "T-Mobile finally shifts 800MHz spectrum to Grain, picks up 600MHz as part of swap deal",
-      "link": "https://www.datacenterdynamics.com/en/news/t-mobile-finally-shifts-800mhz-spectrum-to-grain-picks-up-600mhz-as-part-of-swap-deal/",
-      "summary": "Deal raises $2.9 billion",
-      "source": "DataCenterDynamics",
+      "title": "Open RAN, cloud RAN and multi-vendor RAN set to follow diverging paths – Dell'Oro",
+      "link": "https://www.lightreading.com/open-ran/open-ran-cloud-ran-and-multi-vendor-ran-set-to-follow-diverging-paths-dell-oro",
+      "summary": "Open Fronthaul continues to gain traction and is expected to become the preferred interface across next-generation RAN platforms. #pressrelease",
+      "source": "Light Reading",
       "themes": [
-        "geral"
+        "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 46,
-      "date": "2026-08-11T14:25:00+00:00",
-      "ts": 1786458300.0
+      "relevance": 56,
+      "date": "2026-08-11T14:36:17+00:00",
+      "ts": 1786458977.0
     },
     {
       "title": "T-Mobile, Grain complete spectrum swap",
@@ -763,6 +853,34 @@
       "relevance": 52,
       "date": "2026-08-11T14:20:13+00:00",
       "ts": 1786458013.0
+    },
+    {
+      "title": "Global 2G and 3G Shutdowns Reach 313 as Operators Accelerate 4G and 5G Migration",
+      "link": "https://telecomlead.com/4g-lte/global-2g-and-3g-shutdowns-reach-313-as-operators-accelerate-4g-and-5g-migration-127243",
+      "summary": "The global retirement of legacy mobile networks is gathering momentum as telecom operators seek to refarm spectrum, reduce energy consumption and move customers to more efficient 4G and 5G technologies. The Global mobile Suppliers Association (GSA) identified 313 completed, planned or ongoing 2G and 3G network...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-08-11T13:31:11+00:00",
+      "ts": 1786455071.0
+    },
+    {
+      "title": "T-Mobile Completes $2.9 bn Grain Spectrum Deal to Expand 600 MHz Network",
+      "link": "https://telecomlead.com/5g/t-mobile-completes-2-9-bn-grain-spectrum-deal-to-expand-600-mhz-network-127241",
+      "summary": "T-Mobile has completed its spectrum transaction with Grain Management, receiving $2.9 billion in cash and all of Grain’s 600 MHz spectrum licences in exchange for the mobile operator’s 800 MHz spectrum portfolio. The transaction, approved by the Federal Communications Commission on July 1, 2026, strengthens T-Mobile’s...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-11T13:17:45+00:00",
+      "ts": 1786454265.0
     },
     {
       "title": "Wireless Logic buys bigger Brazilian IoT presence",
@@ -808,20 +926,6 @@
       "relevance": 56,
       "date": "2026-08-11T10:53:38+00:00",
       "ts": 1786445618.0
-    },
-    {
-      "title": "NGMN identifies top telecom agentic AI needs",
-      "link": "https://www.mobileworldlive.com/network-tech/ngmn-identifies-top-telecom-agentic-ai-needs/",
-      "summary": "Trade body the Next Generation Mobile Networks Alliance outlined a need for significant moves across several areas including standards and security ahead of widespread use of agentic AI for automated networks. The post NGMN identifies top telecom agentic AI needs appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-11T10:18:07+00:00",
-      "ts": 1786443487.0
     },
     {
       "title": "Rakuten faces surge in 4G, 5G costs as KDDI cuts it off",
@@ -960,34 +1064,6 @@
       "ts": 1786142331.0
     },
     {
-      "title": "SES, Eutelsat Complete RDV1 Milestone for Europe’s IRIS2 Sovereign Constellation Program",
-      "link": "https://www.satellitetoday.com/connectivity/2026/08/07/ses-eutelsat-complete-rdv1-milestone-for-europes-iris2-sovereign-constellation-program/",
-      "summary": "Satellite operator SES completed the Rendez-vous 1 (RDV1) milestone on the implementation phase of the Infrastructure for Resilience, Interconnectivity and Security by Satellite (IRIS²) constellation program. The goal of the […] The post SES, Eutelsat Complete RDV1 Milestone for Europe’s IRIS2 Sovereign Constellation...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-07T16:48:14+00:00",
-      "ts": 1786121294.0
-    },
-    {
-      "title": "CEO Fallacher Suggests Eutelsat is ‘Undervalued’ Compared to SpaceX Following 2025-26 Results",
-      "link": "https://www.satellitetoday.com/finance/2026/08/07/ceo-fallacher-suggests-eutelsat-is-undervalued-compared-to-spacex-following-2025-26-results/",
-      "summary": "European satellite operator Eutelsat reported strong growth in its Low Earth Orbit (LEO) business segment during the 2026-2027 fiscal year, according to its 2025-2026 full year fiscal report issued Friday. […] The post CEO Fallacher Suggests Eutelsat is ‘Undervalued’ Compared to SpaceX Following 2025-26 Results...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 36,
-      "date": "2026-08-07T16:32:58+00:00",
-      "ts": 1786120378.0
-    },
-    {
       "title": "Eutelsat hails 5G NTN to take on 'American giants'",
       "link": "https://www.lightreading.com/satellite/eutelsat-hails-5g-ntn-to-take-on-american-giants",
       "summary": "Eutelsat CEO Jean-François Fallacher talked up 5G NTN tech in the EU's expanded sovereign satellite project to rival the likes of Starlink and Amazon Leo.",
@@ -1003,20 +1079,6 @@
       "ts": 1786119849.0
     },
     {
-      "title": "How the Internet of Space is Reshaping Active Resiliency",
-      "link": "https://www.satellitetoday.com/opinion/2026/08/07/how-the-internet-of-space-is-reshaping-active-resiliency/",
-      "summary": "For decades, satellite data has played a critical role in helping governments, emergency responders, and infrastructure operators understand the impact of disasters. Whether assessing the damage caused by a wildfire, […] The post How the Internet of Space is Reshaping Active Resiliency appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-07T15:46:27+00:00",
-      "ts": 1786117587.0
-    },
-    {
       "title": "MobileX founder counters T-Mobile CEO on Starlink threat",
       "link": "https://www.mobileworldlive.com/network-tech/mobilex-founder-counters-t-mobile-ceo-on-starlink-threat/",
       "summary": "MobileX and Boost Mobile founder Peter Adderton rebuffed the reported view of T-Mobile US CEO Srini Gopalan that Starlink poses little threat to mobile operators. The post MobileX founder counters T-Mobile CEO on Starlink threat appeared first on Mobile World Live .",
@@ -1029,21 +1091,6 @@
       "relevance": 45,
       "date": "2026-08-07T14:34:26+00:00",
       "ts": 1786113266.0
-    },
-    {
-      "title": "The Friday File: Starlink; Verizon; World Bank",
-      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-starlink-verizon-world-bank/",
-      "summary": "Mobile World Live (MWL) brings you our top three picks of the week as SpaceX CEO Elon Musk outlined Starlink's global broadband ambitions, Verizon lifted the lid on the network behind the FIFA World Cup 2026 and the World Bank urged developing nations to boost AI adoption. The post The Friday File: Starlink; Verizon;...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-07T11:01:37+00:00",
-      "ts": 1786100497.0
     },
     {
       "title": "SpaceX small cell plan serves up more Musk madness",
@@ -1090,20 +1137,6 @@
       "relevance": 52,
       "date": "2026-08-06T17:25:55+00:00",
       "ts": 1786037155.0
-    },
-    {
-      "title": "AT&T puts 600MHz to work with Ericsson for coverage and uplink",
-      "link": "https://www.lightreading.com/5g/at-t-puts-600mhz-to-work-with-ericsson-for-coverage-and-uplink",
-      "summary": "AT&T to roll out Ericsson dual-band radios with 'uplink-enhancing' technology in newly acquired 600MHz spectrum from EchoStar.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-06T16:16:56+00:00",
-      "ts": 1786033016.0
     },
     {
       "title": "SpaceX to FCC: Starlink makes rural subsidies obsolete",
@@ -1194,22 +1227,6 @@
       "relevance": 44,
       "date": "2026-08-05T01:11:37+00:00",
       "ts": 1785892297.0
-    },
-    {
-      "title": "Eurobites: Ericsson recruited for South Korea's AI-RAN initiative",
-      "link": "https://www.lightreading.com/ai-machine-learning/eurobites-ericsson-recruited-for-south-korea-s-ai-ran-initiative",
-      "summary": "Also in today's EMEA regional roundup: Vodafone sells VodafoneZiggo stake; BT, EE shine in fixed and mobile network tests; CMA wants fair rankings from Google.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-08-04T12:03:15+00:00",
-      "ts": 1785844995.0
     },
     {
       "title": "How NTIA “Call to Action for 6G Leadership and Security” might influence 6G/IMT-2030 standards and 3GPP specifications",
@@ -1414,6 +1431,21 @@
       "ts": 1782843300.0
     },
     {
+      "title": "Private 5G, Wi-Fi converge in Celona’s new AI platform",
+      "link": "https://www.fierce-network.com/wireless/private-5g-wi-fi-converge-celonas-new-ai-platform",
+      "summary": "Celona Orion makes its debut today, unifying private 5G, Wi-Fi, public cellular and satellite into a single fabric for enterprise customers.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Elon Musk’s mobile moonshot still needs grounding",
       "link": "https://www.fierce-network.com/wireless/elon-musks-mobile-moonshot-still-needs-grounding",
       "summary": "Elon Musk and SpaceX are sketching out big plans for Starlink Mobile, but analysts remain cautious around small cells, spectrum, distribution and whether it’s a real network play or MVNO leverage.",
@@ -1425,6 +1457,20 @@
       "research": false,
       "countries": [],
       "relevance": 56,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Sports fans never sleep: Ericsson says 5G is becoming central to game-day",
+      "link": "https://www.fierce-network.com/wireless/sports-fans-never-sleep-ericsson-says-5g-becoming-central-game-day",
+      "summary": "The World Cup may be over, but the race to improve fan experiences is not. Advanced 5G networks are increasingly shaping everything from stadium connectivity and concessions to media production and public safety.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
       "date": null,
       "ts": 0
     },
@@ -1457,20 +1503,6 @@
       "ts": 0
     },
     {
-      "title": "AT&T taps Ericsson for 600 MHz radios",
-      "link": "https://www.fierce-network.com/wireless/att-taps-ericsson-600-mhz-radios",
-      "summary": "AT&T is wasting no time getting its 600 MHz ducks in a row, including the selection of Ericsson to supply the 600 MHz dual-band radios it will use to deploy its newly acquired spectrum from EchoStar.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Fiber speeds of 1 Gig are ‘standard’ now, according to ISP execs",
       "link": "https://www.fierce-network.com/broadband/fiber-speeds-1-gig-are-standard-now-according-isp-execs",
       "summary": "Alberto Garcia with GFiber said the reality today is that everybody is offering 1 Gig. “Just being a fiber-to-the-home network is not what's going to differentiate you anymore.\"",
@@ -1485,17 +1517,16 @@
       "ts": 0
     },
     {
-      "title": "SpaceX shares big plans for global broadband",
-      "link": "https://www.fierce-network.com/broadband/spacex-has-big-plans-global-broadband",
-      "summary": "SpaceX already has 10.3 million Starlink broadband subscribers across 164 countries, but it wants to serve \"the majority of internet\" around the world.",
+      "title": "Prysmian shells out $1.25B to double US fiber manufacturing footprint",
+      "link": "https://www.fierce-network.com/broadband/prysmian-shells-out-125b-double-us-fiber-manufacturing-footprint",
+      "summary": "Prysmian’s big U.S. fiber bet shows AI data center demand and geopolitics are turning manufacturing capacity into strategic infrastructure.",
       "source": "Fierce Network",
       "themes": [
-        "fibra",
-        "satelite"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 29,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1551,36 +1582,6 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Fiber broadband spurs consumer AI usage, says Recon Analytics",
-      "link": "https://www.fierce-network.com/broadband/fiber-broadband-spurs-consumer-ai-usage-says-recon-analytics",
-      "summary": "People with fiber connections have AI sessions that are 50% more intensive than people with cable connections.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "SK Telecom’s AI data center bet gains traction with 92.5% revenue growth",
-      "link": "https://www.fierce-network.com/cloud/sk-telecoms-ai-data-center-bet-gains-traction-925-revenue-growth",
-      "summary": "SK Telecom’s AI data center revenue nearly doubled as it chases a 15 GW infrastructure dream.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
       "relevance": 23,
       "date": null,
       "ts": 0
