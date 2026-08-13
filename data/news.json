@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T07:09:28.835968+00:00",
+  "generated_at": "2026-08-13T12:42:43.589295+00:00",
   "count": 97,
   "theme_counts": {
-    "moveis": 33,
+    "moveis": 35,
     "fibra": 16,
     "antenas": 6,
     "iot": 2,
-    "satelite": 28,
-    "radar_militar": 10,
+    "satelite": 26,
+    "radar_militar": 9,
     "radiocom": 2,
     "tv": 0,
     "geral": 28
@@ -19,7 +19,7 @@
     "in": 3,
     "jp": 3,
     "kr": 3,
-    "cn": 2
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,81 @@
     }
   ],
   "items": [
+    {
+      "title": "TCS, Vodafone Business Partner on AI, Cloud and 5G as VodafoneThree Invests £11 bn in UK Network",
+      "link": "https://telecomlead.com/5g/tcs-vodafone-business-partner-on-ai-cloud-and-5g-as-vodafonethree-invests-11-bn-in-uk-network-127287",
+      "summary": "Tata Consultancy Services (TCS) has entered a partnership with Vodafone Business, the enterprise division of VodafoneThree, to accelerate AI, cloud, cybersecurity and network transformation among UK organisations. The partnership combines Vodafone Business’ connectivity and digital infrastructure capabilities with...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-13T12:16:31+00:00",
+      "ts": 1786623391.0
+    },
+    {
+      "title": "China Mobile Revenue Falls 1.1% to RMB 538 bn as AI, Cloud and 5G Investment Accelerates",
+      "link": "https://telecomlead.com/5g/china-mobile-revenue-falls-1-1-to-rmb-538-bn-as-ai-cloud-and-5g-investment-accelerates-127284",
+      "summary": "China Mobile reported operating revenue of RMB 538.04 billion in the first half of 2026, down 1.1 percent from RMB 543.77 billion a year earlier, as pressure on traditional communications services offset strong growth in cloud computing, artificial intelligence and international operations. Main business revenue...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 49,
+      "date": "2026-08-13T12:03:22+00:00",
+      "ts": 1786622602.0
+    },
+    {
+      "title": "East Longmeadow approves fiber funding against Spectrum's objections",
+      "link": "https://www.lightreading.com/broadband/east-longmeadow-approves-fiber-funding-against-spectrum-s-objections",
+      "summary": "A Massachusetts town council voted to approve $43.5 million to fund a municipal fiber broadband network despite a plea from Spectrum to 'slow down' the process to advance the project.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-13T12:00:00+00:00",
+      "ts": 1786622400.0
+    },
+    {
+      "title": "Celona unveils platform to aid enterprise AI applications",
+      "link": "https://www.mobileworldlive.com/network-tech/celona-unveils-platform-to-aid-enterprise-ai-applications/",
+      "summary": "US-based vendor Celona launched Orion, a platform combining private 5G, Wi-Fi, mobile and satellite connectivity into a deterministic, secure set-up for enterprises deploying physical and agentic AI. The post Celona unveils platform to aid enterprise AI applications appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-08-13T09:02:45+00:00",
+      "ts": 1786611765.0
+    },
+    {
+      "title": "Trump's latest 6G alliance features some big Huawei users",
+      "link": "https://www.lightreading.com/6g/trump-s-latest-6g-alliance-features-some-big-huawei-users",
+      "summary": "The US looks past 5G disappointment and starts hyping the next gen, but major countries in its new coalition are on a 6G path with China's Huawei.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 56,
+      "date": "2026-08-13T07:30:00+00:00",
+      "ts": 1786606200.0
+    },
     {
       "title": "Telstra FY26 Mobile Revenue Rises 3.2% as ARPU, Subscribers, AI and Fibre Investment Drive Growth",
       "link": "https://telecomlead.com/telecom-services/telstra-fy26-mobile-revenue-rises-3-2-as-arpu-subscribers-ai-and-fibre-investment-drive-growth-127282",
@@ -672,21 +747,6 @@
       "ts": 1786587419.0
     },
     {
-      "title": "Telecom news: Verizon, NVIDIA, Keysight, Astris AI, NetSense, VIAVI Solutions",
-      "link": "https://telecomlead.com/news/telecom-news-verizon-nvidia-keysight-astris-ai-netsense-viavi-solutions-127266",
-      "summary": "Today’s telecom news includes announcements on Lockheed Martin, Verizon, NVIDIA, Keysight Technologies, Astris AI, NetSense, VIAVI Solutions, Vertex 6.0, among others. Lockheed Martin, Verizon and NVIDIA Turn 5G into an AI-Powered Drone Detection Network Lockheed Martin, Verizon, NVIDIA, Keysight Technologies, ODC and...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-13T02:13:17+00:00",
-      "ts": 1786587197.0
-    },
-    {
       "title": "Optus Completes First Part of Project Aurora",
       "link": "https://www.satellitetoday.com/sustainability/2026/08/12/optus-completes-first-part-of-project-aurora/",
       "summary": "Optus, an Australian based telco and satellite player, has achieved a key milestone in the area of satellite life extension. It has completed the first phase of Project Aurora, with […] The post Optus Completes First Part of Project Aurora appeared first on Via Satellite .",
@@ -772,22 +832,6 @@
       "relevance": 47,
       "date": "2026-08-12T11:13:16+00:00",
       "ts": 1786533196.0
-    },
-    {
-      "title": "Orange could keep Huawei or bring Nokia into its Spanish mobile network - report",
-      "link": "https://www.datacenterdynamics.com/en/news/orange-plans-to-keep-huawei-or-add-nokia-to-its-mobile-network/",
-      "summary": "The Spanish subsidiary is challenging the agreement that called for transferring 100 percent of its network to Ericsson",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 43,
-      "date": "2026-08-12T10:41:41+00:00",
-      "ts": 1786531301.0
     },
     {
       "title": "Indian telcos need compelling use cases to invest in 6G – COAI",
@@ -1116,20 +1160,6 @@
       "ts": 1786119849.0
     },
     {
-      "title": "MobileX founder counters T-Mobile CEO on Starlink threat",
-      "link": "https://www.mobileworldlive.com/network-tech/mobilex-founder-counters-t-mobile-ceo-on-starlink-threat/",
-      "summary": "MobileX and Boost Mobile founder Peter Adderton rebuffed the reported view of T-Mobile US CEO Srini Gopalan that Starlink poses little threat to mobile operators. The post MobileX founder counters T-Mobile CEO on Starlink threat appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-07T14:34:26+00:00",
-      "ts": 1786113266.0
-    },
-    {
       "title": "SpaceX small cell plan serves up more Musk madness",
       "link": "https://www.lightreading.com/satellite/spacex-small-cell-plan-serves-up-more-musk-madness",
       "summary": "A small cell network built on the homes of Starlink customers will not provide the coverage demanded by any sensible mobile user.",
@@ -1160,35 +1190,6 @@
       "relevance": 54,
       "date": "2026-08-07T06:30:00+00:00",
       "ts": 1786084200.0
-    },
-    {
-      "title": "FCC opens proceeding on unlicensed spectrum for D2D",
-      "link": "https://www.lightreading.com/satellite/fcc-opens-proceeding-on-unlicensed-spectrum-for-d2d",
-      "summary": "The FCC voted to launch a proceeding to explore new avenues for enabling unlicensed wireless devices to communicate directly with satellites. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-06T17:25:55+00:00",
-      "ts": 1786037155.0
-    },
-    {
-      "title": "SpaceX to FCC: Starlink makes rural subsidies obsolete",
-      "link": "https://www.lightreading.com/broadband/spacex-to-fcc-starlink-makes-rural-subsidies-obsolete",
-      "summary": "SpaceX told the FCC that Starlink has made billions a year in rural broadband subsidies pointless. Rural telcos and electric co-ops say the argument doesn't hold up.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-06T15:46:43+00:00",
-      "ts": 1786031203.0
     },
     {
       "title": "Telecom and Wireless Insights, July 2026: Satellite’s Extremes and AI-RAN’s Deployment Gap",
