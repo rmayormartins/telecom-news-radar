@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T12:42:43.589295+00:00",
-  "count": 97,
+  "generated_at": "2026-08-13T18:46:22.385871+00:00",
+  "count": 93,
   "theme_counts": {
-    "moveis": 35,
-    "fibra": 16,
+    "moveis": 32,
+    "fibra": 13,
     "antenas": 6,
     "iot": 2,
-    "satelite": 26,
-    "radar_militar": 9,
+    "satelite": 27,
+    "radar_militar": 10,
     "radiocom": 2,
     "tv": 0,
     "geral": 28
@@ -17,9 +17,9 @@
     "ru": 0,
     "il": 0,
     "in": 3,
-    "jp": 3,
-    "kr": 3,
-    "cn": 3
+    "jp": 2,
+    "kr": 1,
+    "cn": 1
   },
   "research_count": 29,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "DataCenterDynamics",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 6
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -201,34 +201,62 @@
   ],
   "items": [
     {
-      "title": "TCS, Vodafone Business Partner on AI, Cloud and 5G as VodafoneThree Invests £11 bn in UK Network",
-      "link": "https://telecomlead.com/5g/tcs-vodafone-business-partner-on-ai-cloud-and-5g-as-vodafonethree-invests-11-bn-in-uk-network-127287",
-      "summary": "Tata Consultancy Services (TCS) has entered a partnership with Vodafone Business, the enterprise division of VodafoneThree, to accelerate AI, cloud, cybersecurity and network transformation among UK organisations. The partnership combines Vodafone Business’ connectivity and digital infrastructure capabilities with...",
-      "source": "Telecom Lead",
+      "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
+      "link": "https://circleid.com/posts/poland-excluded-from-starlinks-european-region",
+      "summary": "Poland's exclusion from Starlink's new European roaming region has triggered a dispute with Warsaw, exposing how private infrastructure providers can shape cross-border connectivity and raising questions about digital sovereignty, accountability, and internet governance in Europe.",
+      "source": "CircleID (Telecom)",
       "themes": [
-        "moveis"
+        "moveis",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 52,
-      "date": "2026-08-13T12:16:31+00:00",
-      "ts": 1786623391.0
+      "relevance": 50,
+      "date": "2026-08-13T15:02:00+00:00",
+      "ts": 1786633320.0
     },
     {
-      "title": "China Mobile Revenue Falls 1.1% to RMB 538 bn as AI, Cloud and 5G Investment Accelerates",
-      "link": "https://telecomlead.com/5g/china-mobile-revenue-falls-1-1-to-rmb-538-bn-as-ai-cloud-and-5g-investment-accelerates-127284",
-      "summary": "China Mobile reported operating revenue of RMB 538.04 billion in the first half of 2026, down 1.1 percent from RMB 543.77 billion a year earlier, as pressure on traditional communications services offset strong growth in cloud computing, artificial intelligence and international operations. Main business revenue...",
-      "source": "Telecom Lead",
+      "title": "Impulse Space Wins New Space Force Contract",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/13/impulse-space-wins-new-space-force-contract/",
+      "summary": "Impulse Space has won further business with U.S. Space Force. It has won a $28 million Small Business Innovation Research (SBIR) Phase III contract extension in support of two missions: […] The post Impulse Space Wins New Space Force Contract appeared first on Via Satellite .",
+      "source": "Via Satellite",
       "themes": [
-        "moveis"
+        "satelite"
       ],
       "research": false,
-      "countries": [
-        "cn"
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-13T14:39:19+00:00",
+      "ts": 1786631959.0
+    },
+    {
+      "title": "Telesat Remains Optimistic About Lightspeed Despite Shaky 1H26 Financial Results, Looming Debt",
+      "link": "https://www.satellitetoday.com/finance/2026/08/13/telesat-remains-optimistic-about-lightspeed-despite-shaky-1h26-financial-results-looming-debt/",
+      "summary": "Canadian satellite operator Telesat’s latest financial results paint a picture of short-term pain in the first six months of 2026 and raises concern over debt that matures in the next […] The post Telesat Remains Optimistic About Lightspeed Despite Shaky 1H26 Financial Results, Looming Debt appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
       ],
-      "relevance": 49,
-      "date": "2026-08-13T12:03:22+00:00",
-      "ts": 1786622602.0
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-13T14:33:49+00:00",
+      "ts": 1786631629.0
+    },
+    {
+      "title": "Lockheed Martin preps drone detection service using Verizon 5G",
+      "link": "https://www.lightreading.com/5g/lockheed-martin-preps-drone-detection-service-via-verizon-5g",
+      "summary": "Lockheed Martin plans to offer a 5G drone detection service next year using Verizon's network and tech from Nvidia, ODC, Keysight and subsidiary Astris AI.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-08-13T14:06:49+00:00",
+      "ts": 1786630009.0
     },
     {
       "title": "East Longmeadow approves fiber funding against Spectrum's objections",
@@ -274,21 +302,6 @@
       "relevance": 56,
       "date": "2026-08-13T07:30:00+00:00",
       "ts": 1786606200.0
-    },
-    {
-      "title": "Telstra FY26 Mobile Revenue Rises 3.2% as ARPU, Subscribers, AI and Fibre Investment Drive Growth",
-      "link": "https://telecomlead.com/telecom-services/telstra-fy26-mobile-revenue-rises-3-2-as-arpu-subscribers-ai-and-fibre-investment-drive-growth-127282",
-      "summary": "Telstra has reported stronger mobile revenue, higher average revenue per user, subscriber growth and lower postpaid churn in fiscal 2026, while expanding its AI capabilities, digital customer services, mobile network and Aura fibre infrastructure. Total income declined 0.9 percent to A$23.4 billion from A$23.6...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-13T05:12:13+00:00",
-      "ts": 1786597933.0
     },
     {
       "title": "Integrated Sensing and Communication in 3GPP: Evolution from 5G-Advanced to 6G",
@@ -702,51 +715,6 @@
       "ts": 1786593600.0
     },
     {
-      "title": "Telecom news: Spectrum, Optimum, MasOrange, Nokia, Samsung, Huawei, Ericsson, ZTE",
-      "link": "https://telecomlead.com/news/telecom-news-spectrum-optimum-masorange-nokia-samsung-huawei-ericsson-zte-127274",
-      "summary": "Today’s telecom news includes announcements on Spectrum, Optimum, UK mobile, MasOrange Nokia, Samsung, Huawei, Ericsson, ZTE, among others. Spectrum and Optimum Deepen Partnership to Expand Local News and Advertising Spectrum and Optimum have announced a strategic agreement to expand local news access and strengthen...",
-      "source": "Telecom Lead",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 58,
-      "date": "2026-08-13T02:22:13+00:00",
-      "ts": 1786587733.0
-    },
-    {
-      "title": "Telecom news: T-Mobile, AST SpaceMobile, Vodafone, iSON",
-      "link": "https://telecomlead.com/news/telecom-news-t-mobile-ast-spacemobile-vodafone-ison-127272",
-      "summary": "Today’s telecom news includes announcements on Black & Veatch, Mobile, AST SpaceMobile, Vodafone, iSON, among others. Black & Veatch Highlights Utility Opportunity from T-Mobile’s 800 MHz Spectrum Sale Black & Veatch is highlighting new opportunities for U.S. utilities following the completion of Grain Management’s...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-08-13T02:19:49+00:00",
-      "ts": 1786587589.0
-    },
-    {
-      "title": "Telecom news: FirstLight Networks, VETRO, T-Mobile, Google, Starlink, Wire 3",
-      "link": "https://telecomlead.com/news/telecom-news-firstlight-networks-vetro-t-mobile-google-starlink-wire-3-127270",
-      "summary": "Today’s telecom news includes announcements on FirstLight Networks, VETRO, T-Mobile, Google Pixel 11, Starlink, Wire 3, among others. FirstLight Selects VETRO to Modernize Management of 25,000-Mile Fiber Network FirstLight Networks has selected VETRO as its official network system of record as the fiber operator...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-13T02:16:59+00:00",
-      "ts": 1786587419.0
-    },
-    {
       "title": "Optus Completes First Part of Project Aurora",
       "link": "https://www.satellitetoday.com/sustainability/2026/08/12/optus-completes-first-part-of-project-aurora/",
       "summary": "Optus, an Australian based telco and satellite player, has achieved a key milestone in the area of satellite life extension. It has completed the first phase of Project Aurora, with […] The post Optus Completes First Part of Project Aurora appeared first on Via Satellite .",
@@ -1009,6 +977,34 @@
       "ts": 1786445618.0
     },
     {
+      "title": "NGMN identifies top telecom agentic AI needs",
+      "link": "https://www.mobileworldlive.com/network-tech/ngmn-identifies-top-telecom-agentic-ai-needs/",
+      "summary": "Trade body the Next Generation Mobile Networks Alliance outlined a need for significant moves across several areas including standards and security ahead of widespread use of agentic AI for automated networks. The post NGMN identifies top telecom agentic AI needs appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-11T10:18:07+00:00",
+      "ts": 1786443487.0
+    },
+    {
+      "title": "AST SpaceMobile revenue rockets",
+      "link": "https://www.mobileworldlive.com/ast-spacemobile/ast-spacemobile-revenue-rockets/",
+      "summary": "AST SpaceMobile booked a big year-on-year rise in revenue in Q2, driven by gateway deliveries and milestones tied to US government contracts as the direct-to-device satellite operator continues to scale ahead of a planned beta service launch later this year. The post AST SpaceMobile revenue rockets appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-11T09:39:08+00:00",
+      "ts": 1786441148.0
+    },
+    {
       "title": "Rakuten faces surge in 4G, 5G costs as KDDI cuts it off",
       "link": "https://www.lightreading.com/open-ran/rakuten-faces-surge-in-4g-5g-costs-as-kddi-cuts-it-off",
       "summary": "The termination of KDDI's roaming agreement is forcing Rakuten to plug holes in network coverage at some expense.",
@@ -1023,67 +1019,6 @@
       "relevance": 62,
       "date": "2026-08-11T04:00:00+00:00",
       "ts": 1786420800.0
-    },
-    {
-      "title": "Arabsat Signs Digital Communications Infrastructure Deal with Libya Telecom and Technology (LTT)",
-      "link": "https://www.satellitetoday.com/connectivity/2026/08/10/arabsat-signs-digital-communications-infrastructure-deal-with-libya-telecom-and-technology-ltt/",
-      "summary": "Arabsat has signed a new deal with Libya Telecom and Technology (LTT) as Libya looks to develop its digital communications infrastructure. Libya has a population of around 7.5 million people. […] The post Arabsat Signs Digital Communications Infrastructure Deal with Libya Telecom and Technology (LTT) appeared first on...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-10T16:26:47+00:00",
-      "ts": 1786379207.0
-    },
-    {
-      "title": "Catalyst Completes Infrastructure EO Analysis Pilot Program with UK Rail Operator",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/08/10/catalyst-completes-infrastructure-eo-analysis-pilot-program-with-uk-rail-operator/",
-      "summary": "Network Rail, the owner and operator of Britain’s railway infrastructure, teamed up with Earth Observation (EO) analytics Catalyst (PCI Geomatics) on a 12-week pilot program that investigated how weather-driven risks […] The post Catalyst Completes Infrastructure EO Analysis Pilot Program with UK Rail Operator...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-10T16:20:04+00:00",
-      "ts": 1786378804.0
-    },
-    {
-      "title": "Samsung, NTT add a personal touch to AI-RAN tests",
-      "link": "https://www.mobileworldlive.com/network-tech/samsung-ntt-add-a-personal-touch-to-ai-ran-tests/",
-      "summary": "NTT Docomo and Samsung Electronics validated AI-RAN technology which optimises user experience at an individual level to cut service issues, a feat the pair asserted is an important step towards predictive architecture expected to be prevalent in 6G. The post Samsung, NTT add a personal touch to AI-RAN tests appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "kr"
-      ],
-      "relevance": 48,
-      "date": "2026-08-10T10:48:35+00:00",
-      "ts": 1786358915.0
-    },
-    {
-      "title": "LG Uplus, Broadcom apply AI to router management",
-      "link": "https://www.mobileworldlive.com/operators/lg-uplus-broadcom-apply-ai-to-router-management/",
-      "summary": "LG Uplus advanced efforts to apply AI in network automation by testing its ability to control the quality of a Wi-Fi 8-compatible home broadband system. The post LG Uplus, Broadcom apply AI to router management appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 37,
-      "date": "2026-08-10T10:19:17+00:00",
-      "ts": 1786357157.0
     },
     {
       "title": "India moves to rein in consumer 5G network slicing",
@@ -1234,21 +1169,6 @@
       "relevance": 62,
       "date": "2026-08-05T18:51:09+00:00",
       "ts": 1785955869.0
-    },
-    {
-      "title": "Musk's mobile network moonshot is in danger of a crash landing",
-      "link": "https://www.lightreading.com/satellite/musk-s-mobile-network-moonshot-is-in-danger-of-a-crash-landing",
-      "summary": "SpaceX's plan to take on US telcos with terrestrial small cell network, new mobile D2D satellite fleet and EchoStar spectrum is met with analyst skepticism.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-05T14:56:52+00:00",
-      "ts": 1785941812.0
     },
     {
       "title": "Ericsson leads SK Telecom AI RAN vs. NVIDIA’s GPU centric AI RAN Alliance",
@@ -1513,6 +1433,49 @@
       "ts": 0
     },
     {
+      "title": "Texas pauses BEAD disbursements after allegations it favored Starlink",
+      "link": "https://www.fierce-network.com/broadband/texas-pauses-bead-disbursements-after-allegations-it-favored-starlink",
+      "summary": "There have been rumblings out of Texas for a few weeks now, with lawmakers from both sides of the aisle complaining about the state broadband office's processes.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Helium CEO: SpaceX validates our mobile playbook",
+      "link": "https://www.fierce-network.com/wireless/helium-ceo-sees-spacex-validating-its-mobile-playbook",
+      "summary": "Helium CEO Mario Di Dio sees SpaceX’s emerging mobile strategy as validation of Helium’s long-running demand-driven approach to wireless.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 34,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Cisco’s AI bet pays off with record Q4, $4B order haul",
+      "link": "https://www.fierce-network.com/cloud/cisco-closes-fy2026-record-revenue-cites-ai-demand-and-networking-growth",
+      "summary": "Cisco reported record fourth-quarter and full-year results for fiscal 2026, driven by strong networking demand and growing AI infrastructure orders from hyperscale customers.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Fiber speeds of 1 Gig are ‘standard’ now, according to ISP execs",
       "link": "https://www.fierce-network.com/broadband/fiber-speeds-1-gig-are-standard-now-according-isp-execs",
       "summary": "Alberto Garcia with GFiber said the reality today is that everybody is offering 1 Gig. “Just being a fiber-to-the-home network is not what's going to differentiate you anymore.\"",
@@ -1523,6 +1486,20 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "IBM partners with OpenAI to secure enterprise AI deployment",
+      "link": "https://www.fierce-network.com/newswire/ibm-partners-openai-secure-enterprise-ai-deployment",
+      "summary": "The partnership includes joint-go-to market initiatives and creating industry-specific solutions for financial services, government, telecommunication, retail and more.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
@@ -1558,48 +1535,6 @@
       "title": "Prysmian shells out $1.25B to double US fiber manufacturing footprint",
       "link": "https://www.fierce-network.com/broadband/prysmian-shells-out-125b-double-us-fiber-manufacturing-footprint",
       "summary": "Prysmian’s big U.S. fiber bet shows AI data center demand and geopolitics are turning manufacturing capacity into strategic infrastructure.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon outages put network back in focus",
-      "link": "https://www.fierce-network.com/wireless/verizon-outages-put-network-back-focus",
-      "summary": "It was a busy weekend for Verizon engineers after an outage that affected voice services for thousands of customers in some parts of the U.S. on Saturday.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Why Proving Interoperability Matters in Next-gen Networks",
-      "link": "https://www.fierce-network.com/sponsored/why-proving-interoperability-matters-next-gen-networks",
-      "summary": "Before operators deploy new technologies, they need proof that complex network architectures can work together.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Zayo confirms Nvidia as its new ‘monster' customer",
-      "link": "https://www.fierce-network.com/broadband/zayo-confirms-nvidia-its-new-monster-customer",
-      "summary": "Nvidia wanted to make sure it's putting enough fiber in the ground both for its own use and for the greater good of the AI ecosystem.",
       "source": "Fierce Network",
       "themes": [
         "fibra"
