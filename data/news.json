@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-14T12:38:27.511116+00:00",
+  "generated_at": "2026-08-14T18:38:51.651979+00:00",
   "count": 95,
   "theme_counts": {
-    "moveis": 43,
-    "fibra": 13,
+    "moveis": 46,
+    "fibra": 10,
     "antenas": 13,
     "iot": 4,
-    "satelite": 30,
-    "radar_militar": 9,
+    "satelite": 31,
+    "radar_militar": 8,
     "radiocom": 2,
     "tv": 0,
-    "geral": 20
+    "geral": 19
   },
   "country_counts": {
     "br": 1,
@@ -71,22 +71,22 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "FCC Broadband Report 2026: 97% of Americans Access 100/20 Mbps as Rural Internet and 5G Coverage Expand",
+      "link": "https://telecomlead.com/broadband/fcc-broadband-report-2026-97-of-americans-access-100-20-mbps-as-rural-internet-and-5g-coverage-expand-127308",
+      "summary": "The Federal Communications Commission’s 2026 Section 706 Report finds that broadband deployment across the United States is progressing at a reasonable and timely pace, driven by fixed-wireless growth, expanding fibre and cable networks, mobile 5G investment, satellite broadband and billions of dollars in federal...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-08-14T17:07:38+00:00",
+      "ts": 1786727258.0
+    },
+    {
+      "title": "Space Force Awards Space Data Network Contracts to Five Satellite Manufacturers",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/14/space-force-awards-space-data-network-contracts-to-five-satellite-manufacturers/",
+      "summary": "The U.S Space Force has awarded a series of contracts to five companies as it looks to reap the benefits of a a more diverse multi-vendor architecture approach related to […] The post Space Force Awards Space Data Network Contracts to Five Satellite Manufacturers appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-14T15:01:53+00:00",
+      "ts": 1786719713.0
+    },
+    {
+      "title": "Astranis Unveils Perceptor Space Domain Awareness GEO Satellite",
+      "link": "https://www.satellitetoday.com/manufacturing/2026/08/14/astranis-unveils-perceptor-space-domain-awareness-geo-satellite/",
+      "summary": "Astranis is bringing to market a new space domain awareness and maneuverability satellite for GEO orbit, called “Perceptor,” the company announced Thursday. Adding the satellite is Astranis’ latest effort to […] The post Astranis Unveils Perceptor Space Domain Awareness GEO Satellite appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-14T14:58:43+00:00",
+      "ts": 1786719523.0
+    },
+    {
+      "title": "UK retailer AO launches 5G mobile service",
+      "link": "https://www.datacenterdynamics.com/en/news/uk-retailer-ao-launches-5g-mobile-service/",
+      "summary": "Will utilize Vodafone's mobile network",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-14T13:00:28+00:00",
+      "ts": 1786712428.0
+    },
+    {
+      "title": "Study pours more cold water on SpaceX's small cell plan",
+      "link": "https://www.lightreading.com/satellite/study-pours-more-cold-water-on-spacex-s-small-cell-plan",
+      "summary": "Research firm MoffettNathanson flags a host of challenges for SpaceX's small cell plan, arguing the 'bull case' hinges on SpaceX locking down an MVNO deal.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-08-14T13:00:00+00:00",
+      "ts": 1786712400.0
+    },
     {
       "title": "Feature: T-Mobile US talks SA 5G crowd connection strategy",
       "link": "https://www.mobileworldlive.com/t-mobile-us/feature-t-mobile-us-talks-sa-5g-crowd-connection-strategy/",
@@ -801,21 +874,6 @@
       "ts": 1786606200.0
     },
     {
-      "title": "Telstra FY26 Mobile Revenue Rises 3.2% as ARPU, Subscribers, AI and Fibre Investment Drive Growth",
-      "link": "https://telecomlead.com/telecom-services/telstra-fy26-mobile-revenue-rises-3-2-as-arpu-subscribers-ai-and-fibre-investment-drive-growth-127282",
-      "summary": "Telstra has reported stronger mobile revenue, higher average revenue per user, subscriber growth and lower postpaid churn in fiscal 2026, while expanding its AI capabilities, digital customer services, mobile network and Aura fibre infrastructure. Total income declined 0.9 percent to A$23.4 billion from A$23.6...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-13T05:12:13+00:00",
-      "ts": 1786597933.0
-    },
-    {
       "title": "Optus Completes First Part of Project Aurora",
       "link": "https://www.satellitetoday.com/sustainability/2026/08/12/optus-completes-first-part-of-project-aurora/",
       "summary": "Optus, an Australian based telco and satellite player, has achieved a key milestone in the area of satellite life extension. It has completed the first phase of Project Aurora, with […] The post Optus Completes First Part of Project Aurora appeared first on Via Satellite .",
@@ -962,21 +1020,6 @@
       "ts": 1786467475.0
     },
     {
-      "title": "DamoTech Joins Space ISAC",
-      "link": "https://www.satellitetoday.com/cybersecurity/2026/08/11/damotech-joins-space-isac/",
-      "summary": "DamoTech is the latest company to join the Space Information Sharing and Analysis Center (Space ISAC). The company specializes in advanced cybersecurity in the space sector. This significant development is […] The post DamoTech Joins Space ISAC appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-11T16:46:21+00:00",
-      "ts": 1786466781.0
-    },
-    {
       "title": "From 300 to 150,000+: What MTN Nigeria’s FTTH Journey Teaches Us About Scaling Connectivity",
       "link": "https://circleid.com/posts/from-300-to-150000-what-mtn-nigerias-ftth-journey-teaches-us-about-scaling-connectivity",
       "summary": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
@@ -1017,20 +1060,6 @@
       "relevance": 56,
       "date": "2026-08-11T14:36:17+00:00",
       "ts": 1786458977.0
-    },
-    {
-      "title": "T-Mobile, Grain complete spectrum swap",
-      "link": "https://www.lightreading.com/5g/t-mobile-grain-complete-spectrum-swap",
-      "summary": "T-Mobile has transferred its 800MHz spectrum portfolio to Grain Management in exchange for $2.9 billion in cash and all of Grain's 600MHz spectrum licenses. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-11T14:20:13+00:00",
-      "ts": 1786458013.0
     },
     {
       "title": "Wireless Logic buys bigger Brazilian IoT presence",
@@ -1169,21 +1198,6 @@
       "relevance": 54,
       "date": "2026-08-07T06:30:00+00:00",
       "ts": 1786084200.0
-    },
-    {
-      "title": "Telecom and Wireless Insights, July 2026: Satellite’s Extremes and AI-RAN’s Deployment Gap",
-      "link": "https://tecknexus.com/telecom-wireless-insights-july-2026/",
-      "summary": "July 2026's roundup: Hughes Network Systems nears bankruptcy as SpaceX files to launch 100,000 satellites, Nokia's AI-RAN commercial deployments trail Ericsson's 15+ by a full order of magnitude, the FCC finalizes a $6.3B C-band incentive package and closes AT&T's $23B EchoStar spectrum deal, and fiber capital and...",
-      "source": "TeckNexus",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-08-06T13:28:20+00:00",
-      "ts": 1786022900.0
     },
     {
       "title": "Optus and Nokia’s pre-“6G” Trial in Australia: Upper 6 GHz May Be Widely Deployable",
@@ -1404,19 +1418,18 @@
       "ts": 1783346041.0
     },
     {
-      "title": "The Economics of SpaceX: Can Starlink Justify a $2 Trillion Valuation?",
-      "link": "https://circleid.com/posts/the-economics-of-spacex-can-starlink-justify-a-2-trillion-valuation",
-      "summary": "SpaceX's towering valuation rests less on Starlink's current connectivity economics than on ambitious platform expectations, raising doubts that satellite broadband and mobile services alone can justify trillion-dollar valuations indefinitely despite intensifying competition for investors.",
-      "source": "CircleID (Telecom)",
+      "title": "What’s so great about 5G SA? Hint: It’s not network slicing",
+      "link": "https://www.fierce-network.com/wireless/whats-so-great-about-5g-sa-hint-its-not-network-slicing",
+      "summary": "More than Peanuts: The really big deal about 5G SA isn't network slicing. It’s about spectral efficiency, according to Signals Research Group President Mike Thelander.",
+      "source": "Fierce Network",
       "themes": [
-        "fibra",
-        "satelite"
+        "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 51,
-      "date": "2026-06-30T18:15:00+00:00",
-      "ts": 1782843300.0
+      "relevance": 64,
+      "date": null,
+      "ts": 0
     },
     {
       "title": "Private 5G, Wi-Fi converge in Celona’s new AI platform",
@@ -1568,20 +1581,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Prysmian shells out $1.25B to double US fiber manufacturing footprint",
-      "link": "https://www.fierce-network.com/broadband/prysmian-shells-out-125b-double-us-fiber-manufacturing-footprint",
-      "summary": "Prysmian’s big U.S. fiber bet shows AI data center demand and geopolitics are turning manufacturing capacity into strategic infrastructure.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
