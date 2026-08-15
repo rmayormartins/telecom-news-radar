@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-15T00:35:39.772724+00:00",
-  "count": 95,
+  "generated_at": "2026-08-15T06:18:43.813961+00:00",
+  "count": 68,
   "theme_counts": {
-    "moveis": 45,
-    "fibra": 10,
-    "antenas": 13,
-    "iot": 4,
-    "satelite": 31,
-    "radar_militar": 8,
+    "moveis": 33,
+    "fibra": 11,
+    "antenas": 1,
+    "iot": 2,
+    "satelite": 26,
+    "radar_militar": 5,
     "radiocom": 2,
     "tv": 0,
-    "geral": 19
+    "geral": 10
   },
   "country_counts": {
     "br": 1,
@@ -21,7 +21,7 @@
     "kr": 1,
     "cn": 2
   },
-  "research_count": 27,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: <urlopen error timed out>",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (31 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (11 itens)",
-      "kept": 6
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (24 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (35 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -331,399 +331,6 @@
       "relevance": 60,
       "date": "2026-08-14T11:06:03+00:00",
       "ts": 1786705563.0
-    },
-    {
-      "title": "Antenna Positioning and Beamforming Optimization in MA Enabled Secure ISAC Systems: A Gradient-Based Meta Learning Approach",
-      "link": "https://arxiv.org/abs/2608.12870",
-      "summary": "arXiv:2608.12870v1 Announce Type: new Abstract: Integrated sensing and communications (ISAC) significantly improves spectral efficiency but introduces security risks regarding the interception of embedded communication signals. This paper proposes an movable antenna (MA)-enabled secure ISAC system that utilizes the...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Covariance-Aware Detection for Single-RF MIMO-OFDM Systems",
-      "link": "https://arxiv.org/abs/2606.03311",
-      "summary": "arXiv:2606.03311v2 Announce Type: replace Abstract: We propose the use of a covariance-aware detection method for single-radio-frequency (RF) multiple-input multiple-output (MIMO) orthogonal frequency division multiplexing (OFDM) systems. This detection approach enhances bit error rate (BER) performance as compared to...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Multi-perspective Imbalance-Conscious 6G Beamforming Optimization and Performance",
-      "link": "https://arxiv.org/abs/2608.12929",
-      "summary": "arXiv:2608.12929v1 Announce Type: cross Abstract: The study presents a systematic machine learning (ML) study of 6G-IoT beamforming optimization (6GBO) using supervised and unsupervised approaches. We compared the predictive power of network, environmental, device, and vision feature groups for 6GBO. Additionally, it...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "antenas",
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Low-Complexity Channel Parameter Estimation for Coprime HRIS-Assisted MIMO Systems",
-      "link": "https://arxiv.org/abs/2608.13436",
-      "summary": "arXiv:2608.13436v1 Announce Type: new Abstract: This paper proposes a parameter estimation scheme for uplink MIMO systems assisted by a Hybrid Reconfigurable Intelligent Surface (HRIS). To reduce hardware complexity, the HRIS employs a small number of active elements arranged in a sparse coprime geometry for local...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 70,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Energy Efficiency Maximization for FAS-Assisted Downlink Communication in Mobile Embodied AI Networks (MEAN) over Interference Channels",
-      "link": "https://arxiv.org/abs/2608.12849",
-      "summary": "arXiv:2608.12849v1 Announce Type: new Abstract: In this paper, we investigate a fluid antenna system (FAS)-assisted downlink mobile embodied AI network (MEAN) over interference channels, where multiple base station (BS)-agent pairs reuse the same spectrum. The BSs employ FASs to improve the communication quality,...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Self-Localizing MIMO Beam Mapping for Intelligent Open RAN with Continuously Evolving Channel Memory",
-      "link": "https://arxiv.org/abs/2511.17007",
-      "summary": "arXiv:2511.17007v2 Announce Type: replace Abstract: Open and intelligent radio access networks (RANs) envisioned for 6G require accurate and reusable wireless channel knowledge for intelligent inference and control. However, full-dimensional channel state information (CSI) and accurate location labels are difficult to...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Pareto-Aware Hierarchical Reinforcement Learning for Online Resource Allocation in RIS-assisted Large-Scale IoT Systems",
-      "link": "https://arxiv.org/abs/2608.13032",
-      "summary": "arXiv:2608.13032v1 Announce Type: new Abstract: With the rapid evolution of 5G and emerging 6G networks, reconfigurable intelligent surfaces (RIS) have become a critical technology for enhancing wireless communication scenarios. However, optimizing RIS-assisted multi-user systems typically introduces high-dimensional...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "antenas",
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "MiLAC-Aided Beamforming for MIMO Over-the-Air Computation",
-      "link": "https://arxiv.org/abs/2608.13353",
-      "summary": "arXiv:2608.13353v1 Announce Type: new Abstract: Over-the-air computation (AirComp) enables low-latency wireless data aggregation, but its accuracy is limited by imperfect signal alignment over fading channels and receiver noise. Fully digital beamforming improves aggregation accuracy in multiple-input multiple-output...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Feasibility and Convex Design of Probe-Position Matching in a Scanning X-Band Radar Array",
-      "link": "https://arxiv.org/abs/2608.12602",
-      "summary": "arXiv:2608.12602v1 Announce Type: new Abstract: The probe position of a microstrip element is normally chosen from the isolated-element input resistance. This paper replaces that procedure with a decision available before any array optimisation. A single Floquet unit-cell solution at one arbitrary probe position is...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Heterogeneity-Aware Belief Synchronization for Semantic Communication in AI-Native 6G Networks",
-      "link": "https://arxiv.org/abs/2608.13394",
-      "summary": "arXiv:2608.13394v1 Announce Type: new Abstract: 6G networks will not be serving as communication infrastructures only; rather, they are expected to evolve into intelligent systems, where thousands of autonomous artificial intelligence (AI) agents are interconnected. The agents are deployed across a wide range of...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "RSMA-Enabled ISAC Networks with Fluid Antenna Systems: Stochastic Geometry Analysis and Low-Complexity Resource Allocation",
-      "link": "https://arxiv.org/abs/2608.12517",
-      "summary": "arXiv:2608.12517v1 Announce Type: new Abstract: In this paper, we investigate the downlink performance of multi-cell RSMA-enabled ISAC networks in which base stations (BSs), communication users, and sensing targets are spatially distributed according to independent Poisson point processes (PPPs). Each BS...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Input-Correlated Supervision Noise Limits the Benefits of OTA Training for Learned Receivers",
-      "link": "https://arxiv.org/abs/2608.12918",
-      "summary": "arXiv:2608.12918v1 Announce Type: new Abstract: While learned wireless receivers are typically studied using synthetic data, the impact of over-the-air (OTA) measurements for training remains unclear. We conducted a 5.88 GHz measurement campaign with a 5G/6G-like orthogonal frequency-division multiplexing (OFDM)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Channel Estimation for OTFS Systems With Overspread Doppler Shifts",
-      "link": "https://arxiv.org/abs/2608.12524",
-      "summary": "arXiv:2608.12524v1 Announce Type: new Abstract: In this paper, we consider an orthogonal time frequency space (OTFS) system in time-varying channels with overspread Doppler shifts, typically found in non-terrestrial multi-satellite links. The overspread Doppler shifts with magnitude greater than half of the subcarrier...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Age of Incorrect Information for Pull-Based State Estimation of General Markov Sources",
-      "link": "https://arxiv.org/abs/2608.13248",
-      "summary": "arXiv:2608.13248v1 Announce Type: cross Abstract: We study pull-based remote state estimation of an arbitrary, multi-state Markov source while accounting for both freshness and correctness attributes of information. To that end, we formulate a discounted optimization problem in terms of the age of incorrect...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "A Q-learning-based QoS-aware multipath routing protocol in IoMT-based wireless body area network",
-      "link": "https://arxiv.org/abs/2604.15489",
-      "summary": "arXiv:2604.15489v2 Announce Type: replace Abstract: The Internet of Medical Things (IoMT) enables intelligent healthcare services but faces challenges such as dynamic topology, energy constraints, and diverse QoS requirements. This paper proposes QQMR, a Q-learning-based QoS-aware multipath routing method for WBANs....",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Optimal Movable-Antenna Control for Multi-Path Sensing Guided by Prior AoA Statistic",
-      "link": "https://arxiv.org/abs/2608.09165",
-      "summary": "arXiv:2608.09165v2 Announce Type: replace Abstract: Multi-path sensing, which aims to extract the geometric attributes of multiple propagation paths, is expected to be a key functionality of 6G. A movable antenna (MA) can enable this functionality by synthesizing an aperture through mechanical motion. However,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case",
-      "link": "https://arxiv.org/abs/2608.13535",
-      "summary": "arXiv:2608.13535v1 Announce Type: new Abstract: In this paper, we formalize a joint communication-control strategy optimization (JCCO) problem in multi-agent linear systems with quadratic costs, under the common-information-based (CIB) framework from decentralized stochastic control. For computational tractability, we...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Finite-Time Minimax Bounds and an Optimal Lyapunov Policy in Queueing Control",
-      "link": "https://arxiv.org/abs/2506.18278",
-      "summary": "arXiv:2506.18278v4 Announce Type: replace-cross Abstract: We introduce an original minimax framework for finite-time performance analysis in queueing control and propose a surprisingly simple Lyapunov-based scheduling policy with superior finite-time performance. The framework quantitatively characterizes how the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
-      "link": "https://arxiv.org/abs/2608.12436",
-      "summary": "arXiv:2608.12436v1 Announce Type: cross Abstract: Multi-AUV ad-hoc network-based target tracking requires networked autonomous underwater vehicles (AUVs) to cooperatively track maneuvering targets under constrained acoustic communication, dynamic topology, and uncertain ocean disturbances. Although multi-agent...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems",
-      "link": "https://arxiv.org/abs/2608.13372",
-      "summary": "arXiv:2608.13372v1 Announce Type: new Abstract: Wireless networks increasingly support closed-loop industrial applications in which sensed data must be transmitted, processed, and converted into an action before physical process makes the result obsolete. Throughput, latency, and inference accuracy measured separately...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Impedance-Aware Zonal Port Activation for Fluid Antenna Arrays",
-      "link": "https://arxiv.org/abs/2608.13249",
-      "summary": "arXiv:2608.13249v1 Announce Type: new Abstract: Fluid antenna array (FAA) activation jointly determines the effective multi-user channel for precoding and the sparse physical aperture. Channel-oriented selection can concentrate high-gain ports and erode aperture quality, whereas geometry-oriented selection does not...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Resource-efficient Semantic Coding Schemes with Manifold-constrained Hyper-connections",
-      "link": "https://arxiv.org/abs/2608.13253",
-      "summary": "arXiv:2608.13253v1 Announce Type: new Abstract: Semantic communication (SemCom) and task-oriented communication (TOC) can reduce wireless resource consumption by focusing on transmitting semantic or task-relevant information instead of raw messages. In practice, a main challenge is to make transmitting information...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Robust Space-Filling Input Design via Stochastic Optimization",
-      "link": "https://arxiv.org/abs/2608.13360",
-      "summary": "arXiv:2608.13360v1 Announce Type: new Abstract: The space-filling input design approach generates a so-called space-filling dataset in the feature space of the system model. The design method is applicable on a broad class of model structures with wide selection of signals and also incorporates information measures...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "From Noisy Data to Hierarchical Control: A Model-Order-Reduction Framework",
-      "link": "https://arxiv.org/abs/2603.25057",
-      "summary": "arXiv:2603.25057v2 Announce Type: replace Abstract: This paper develops a direct data-driven framework for constructing reduced-order models (ROMs) of discrete-time linear dynamical systems with unknown dynamics and process disturbances. The proposed scheme enables controller synthesis on the ROM and its refinement to...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Distributionally Robust Safety Under Arbitrary Uncertainties: A Safety Filtering Approach",
-      "link": "https://arxiv.org/abs/2605.12974",
-      "summary": "arXiv:2605.12974v3 Announce Type: replace-cross Abstract: We study how to ensure probabilistic safety for nonlinear systems under distributional ambiguity. Our approach builds on a backup-based safety filtering framework that switches between a high-performance nominal policy and a certified backup policy to ensure...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations",
-      "link": "https://arxiv.org/abs/2608.12865",
-      "summary": "arXiv:2608.12865v1 Announce Type: new Abstract: Satellite mega-constellations in Low Earth Orbit (LEO) are becoming an important part of next-generation non-terrestrial networks, but their operation remains challenging because of fast network topology variation, intermittent inter-satellite links, hardware...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
-    },
-    {
-      "title": "EM-Guided Graph Learning for Fluid Antenna Beamforming under Current-Domain Constraints",
-      "link": "https://arxiv.org/abs/2608.13254",
-      "summary": "arXiv:2608.13254v1 Announce Type: new Abstract: Fluid antenna arrays (FAAs) reconfigure a finite set of radiating ports within a prescribed aperture. In compact apertures, however, channel-driven placement may cluster ports, strengthen mutual coupling, degrade radiation conditioning, increase source-voltage demand,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-14T04:00:00+00:00",
-      "ts": 1786680000.0
     },
     {
       "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
@@ -1108,6 +715,20 @@
       "ts": 1786420800.0
     },
     {
+      "title": "Dell’Oro: Enterprise PON Deployments expected to increase 844% year-over-year",
+      "link": "https://techblog.comsoc.org/2026/08/10/delloro-enterprise-pon-deployments-expected-to-increase-844-year-over-year/",
+      "summary": "According to a new Dell’Oro Group report, “PON in the Data Center and Premise Advanced Research Report“ recently published, total 2026 Data Center PON equipment revenues are expected to increase 844% year-over-year (Y/Y), driven by hyperscalers looking to use the point-to-multipoint technologies to reduce the cabling...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-10T21:35:44+00:00",
+      "ts": 1786397744.0
+    },
+    {
       "title": "India moves to rein in consumer 5G network slicing",
       "link": "https://www.lightreading.com/5g/india-moves-to-rein-in-consumer-5g-network-slicing",
       "summary": "India has proposed safeguards for 5G network slicing services to protect regular users' experience.",
@@ -1240,20 +861,6 @@
       "relevance": 44,
       "date": "2026-08-05T01:11:37+00:00",
       "ts": 1785892297.0
-    },
-    {
-      "title": "How NTIA “Call to Action for 6G Leadership and Security” might influence 6G/IMT-2030 standards and 3GPP specifications",
-      "link": "https://techblog.comsoc.org/2026/08/03/how-ntia-call-to-action-for-6g-leadership-and-security-might-influence-6g-imt-2030-standards/",
-      "summary": "Introduction: The U.S. National Telecommunications and Information Administration (NTIA) has launched the “Call to Action for 6G Leadership and Security,” a multilateral initiative uniting more than 20 like-minded governments to coordinate on a shared vision for open, interoperable, secure, and resilient 6G networks....",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-03T19:49:13+00:00",
-      "ts": 1785786553.0
     },
     {
       "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
