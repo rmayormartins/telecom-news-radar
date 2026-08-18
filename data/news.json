@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T18:21:32.113759+00:00",
-  "count": 97,
+  "generated_at": "2026-08-18T00:35:18.850795+00:00",
+  "count": 98,
   "theme_counts": {
     "moveis": 36,
-    "fibra": 13,
-    "antenas": 7,
+    "fibra": 14,
+    "antenas": 8,
     "iot": 1,
     "satelite": 30,
-    "radar_militar": 7,
+    "radar_militar": 8,
     "radiocom": 2,
     "tv": 0,
-    "geral": 30
+    "geral": 29
   },
   "country_counts": {
     "br": 1,
-    "ru": 0,
-    "il": 0,
+    "ru": 1,
+    "il": 1,
     "in": 3,
     "jp": 4,
-    "kr": 1,
+    "kr": 0,
     "cn": 1
   },
   "research_count": 29,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -176,7 +176,7 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Via Satellite",
@@ -200,6 +200,83 @@
     }
   ],
   "items": [
+    {
+      "title": "5G in Europe: Broad coverage but 5G SA cloud native core network lags other major markets (Table)",
+      "link": "https://techblog.comsoc.org/2026/08/17/5g-in-europe-broad-coverage-but-5g-sa-and-cloud-native-core-network-lag-other-major-markets-table/",
+      "summary": "Europe’s 5G market status appears increasingly uneven. The region has achieved broad 5G population coverage, but its transition to the 5G Standalone (SA) core network—and the cloud-native 5G Core required to realize 5G features and capabilities—remains materially behind several major markets. A recent workshop report...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-17T23:32:05+00:00",
+      "ts": 1787009525.0
+    },
+    {
+      "title": "New EU sanctions target leaders of Russia’s space industry",
+      "link": "https://spacenews.com/new-eu-sanctions-target-leaders-of-russias-space-industry/",
+      "summary": "JOHANNESBURG — The European Union has sanctioned the head of a Roscosmos subsidiary developing a synthetic aperture radar satellite system for the Russian military. The sanctions are part of what […] The post New EU sanctions target leaders of Russia’s space industry appeared first on SpaceNews .",
+      "source": "SpaceNews",
+      "themes": [
+        "antenas",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 44,
+      "date": "2026-08-17T21:05:13+00:00",
+      "ts": 1787000713.0
+    },
+    {
+      "title": "Katalyst Space Wins U.S. Defense Innovation Unit Contract",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/17/katalyst-space-wins-u-s-defense-innovation-unit-contract/",
+      "summary": "Katalyst Space has won a major new contract from the Defense Innovation Unit (DIU) as the U.S. Government looks to tap into the latest deorbiting technologies. Katalyst Space will now […] The post Katalyst Space Wins U.S. Defense Innovation Unit Contract appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-17T19:58:20+00:00",
+      "ts": 1786996700.0
+    },
+    {
+      "title": "Peru Taps Gilat for Connectivity Program",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/17/peru-taps-gilat-for-connectivity-program/",
+      "summary": "Gilat Satellite Networks has won a new connectivity deal in Peru, a country with a population of around 35 million people. Gilat Peru has signed a $14 million deal with […] The post Peru Taps Gilat for Connectivity Program appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "il"
+      ],
+      "relevance": 24,
+      "date": "2026-08-17T19:50:22+00:00",
+      "ts": 1786996222.0
+    },
+    {
+      "title": "Lynk and Omnispace Completer Merger – Announce Elveo Mobile",
+      "link": "https://www.satellitetoday.com/connectivity/2026/08/17/lynk-and-omnispace-completer-merger-announce-elveo-mobile/",
+      "summary": "The era of Elveo Mobile has arrived. This is the new combined company of Lynk and Omnispace after the two companies announced the completion of their merger. Elveo Mobile aims […] The post Lynk and Omnispace Completer Merger – Announce Elveo Mobile appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-17T19:47:31+00:00",
+      "ts": 1786996051.0
+    },
     {
       "title": "US court rejects Verizon bid to recoup $47M FCC fine",
       "link": "https://www.mobileworldlive.com/verizon/us-court-rejects-verizon-bid-to-recoup-47m-fcc-fine/",
@@ -941,20 +1018,6 @@
       "ts": 1786631959.0
     },
     {
-      "title": "Telesat Remains Optimistic About Lightspeed Despite Shaky 1H26 Financial Results, Looming Debt",
-      "link": "https://www.satellitetoday.com/finance/2026/08/13/telesat-remains-optimistic-about-lightspeed-despite-shaky-1h26-financial-results-looming-debt/",
-      "summary": "Canadian satellite operator Telesat’s latest financial results paint a picture of short-term pain in the first six months of 2026 and raises concern over debt that matures in the next […] The post Telesat Remains Optimistic About Lightspeed Despite Shaky 1H26 Financial Results, Looming Debt appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-13T14:33:49+00:00",
-      "ts": 1786631629.0
-    },
-    {
       "title": "Lockheed Martin preps drone detection service using Verizon 5G",
       "link": "https://www.lightreading.com/5g/lockheed-martin-preps-drone-detection-service-via-verizon-5g",
       "summary": "Lockheed Martin plans to offer a 5G drone detection service next year using Verizon's network and tech from Nvidia, ODC, Keysight and subsidiary Astris AI.",
@@ -1027,35 +1090,6 @@
       "relevance": 56,
       "date": "2026-08-13T07:30:00+00:00",
       "ts": 1786606200.0
-    },
-    {
-      "title": "Optus Completes First Part of Project Aurora",
-      "link": "https://www.satellitetoday.com/sustainability/2026/08/12/optus-completes-first-part-of-project-aurora/",
-      "summary": "Optus, an Australian based telco and satellite player, has achieved a key milestone in the area of satellite life extension. It has completed the first phase of Project Aurora, with […] The post Optus Completes First Part of Project Aurora appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-12T16:59:30+00:00",
-      "ts": 1786553970.0
-    },
-    {
-      "title": "Marlink to Acquire U.K. Defense Comms Specialist GRC",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/12/marlink-to-acquire-u-k-defense-comms-specialist-grc/",
-      "summary": "Marlink has made a significant move as it looks to better position itself in the European government, defense and critical infrastructure markets. It is to acquire Global RadioData Communications (GRC), […] The post Marlink to Acquire U.K. Defense Comms Specialist GRC appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 36,
-      "date": "2026-08-12T16:54:08+00:00",
-      "ts": 1786553648.0
     },
     {
       "title": "Private 5G piques interest of UK cybersecurity body",
@@ -1276,22 +1310,6 @@
       "ts": 1785955869.0
     },
     {
-      "title": "Ericsson leads SK Telecom AI RAN vs. NVIDIA’s GPU centric AI RAN Alliance",
-      "link": "https://techblog.comsoc.org/2026/08/04/ericsson-leads-sk-telecom-ai-ran-which-differs-from-nvidias-gpu-centric-ai-ran-alliance/",
-      "summary": "Executive Summary: Ericsson says it has been selected as the sole global technology partner in SK Telecom’s consortium for Korea’s Hyper-AI Network Infrastructure Demonstration Project, a South Korea government-backed initiative led by the Ministry of Science and ICT and the National Information Society Agency. The...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-08-05T01:11:37+00:00",
-      "ts": 1785892297.0
-    },
-    {
       "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
       "link": "https://spectrum.ieee.org/ai-ran-6g",
       "summary": "Today’s advanced 5G networks, and tomorrow’s 6G networks, are now moving toward an increasingly AI-centered future. This September in Madrid , the global telecommunications standards body, the 3GPP , will meet to decide how present-day 5G networks migrate to the emerging 6G standard, slated to begin rolling out by...",
@@ -1451,21 +1469,6 @@
       "ts": 0
     },
     {
-      "title": "Private 5G, Wi-Fi converge in Celona’s new AI platform",
-      "link": "https://www.fierce-network.com/wireless/private-5g-wi-fi-converge-celonas-new-ai-platform",
-      "summary": "Celona Orion makes its debut today, unifying private 5G, Wi-Fi, public cellular and satellite into a single fabric for enterprise customers.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Sports fans never sleep: Ericsson says 5G is becoming central to game-day",
       "link": "https://www.fierce-network.com/wireless/sports-fans-never-sleep-ericsson-says-5g-becoming-central-game-day",
       "summary": "The World Cup may be over, but the race to improve fan experiences is not. Advanced 5G networks are increasingly shaping everything from stadium connectivity and concessions to media production and public safety.",
@@ -1599,6 +1602,20 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Prysmian shells out $1.25B to double US fiber manufacturing footprint",
+      "link": "https://www.fierce-network.com/broadband/prysmian-shells-out-125b-double-us-fiber-manufacturing-footprint",
+      "summary": "Prysmian’s big U.S. fiber bet shows AI data center demand and geopolitics are turning manufacturing capacity into strategic infrastructure.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
       ],
       "research": false,
       "countries": [],
