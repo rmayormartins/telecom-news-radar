@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-18T06:23:19.273950+00:00",
-  "count": 94,
+  "generated_at": "2026-08-18T12:21:25.517141+00:00",
+  "count": 100,
   "theme_counts": {
-    "moveis": 41,
-    "fibra": 13,
+    "moveis": 40,
+    "fibra": 15,
     "antenas": 13,
     "iot": 1,
-    "satelite": 30,
+    "satelite": 35,
     "radar_militar": 13,
     "radiocom": 2,
     "tv": 0,
-    "geral": 18
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 1,
-    "in": 1,
-    "jp": 4,
+    "in": 3,
+    "jp": 6,
     "kr": 0,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -86,17 +86,17 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -196,10 +196,115 @@
     {
       "source": "European Spaceflight",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     }
   ],
   "items": [
+    {
+      "title": "Softbank digs into pockets to back construction player",
+      "link": "https://www.mobileworldlive.com/industry/softbank-digs-into-pockets-to-back-construction-player/",
+      "summary": "SoftBank Group invested $200 million in construction automation specialist Gravis Robotics, cash it plans to use to accelerate the global rollout of its AI-aided products. The post Softbank digs into pockets to back construction player appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 31,
+      "date": "2026-08-18T11:08:05+00:00",
+      "ts": 1787051285.0
+    },
+    {
+      "title": "SES deepens Elveo Mobile bet as direct-to-device race narrows to three",
+      "link": "https://capacityglobal.com/news/ses-deepens-elveo-mobile-bet/",
+      "summary": "SES has expanded its strategic investment in Elveo Mobile, the direct-to-device operator formed this week from the completed merger of Lynk Global and Omnispace, giving the satellite race for standard smartphones a clearer three-way shape. The post SES deepens Elveo Mobile bet as direct-to-device race narrows to three...",
+      "source": "Capacity Media",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-08-18T10:51:02+00:00",
+      "ts": 1787050262.0
+    },
+    {
+      "title": "Starlink goes live in Vietnam, signs launch contract with local satellite operator VinSpace",
+      "link": "https://www.datacenterdynamics.com/en/news/starlink-goes-live-in-vietnam-signs-launch-contract-with-local-satellite-operator-vinspace/",
+      "summary": "Commercial services are now available in Starlink's sixth Southeast Asian market",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-18T10:48:57+00:00",
+      "ts": 1787050137.0
+    },
+    {
+      "title": "Ericsson, MediaTek find autonomous mojo",
+      "link": "https://www.mobileworldlive.com/industry/ericsson-mediatek-find-autonomous-mojo/",
+      "summary": "Ericsson and MediaTek positioned recent testing as a boon for autonomous system ambitions after achieving outdoor location accuracy of less than 30cm. The post Ericsson, MediaTek find autonomous mojo appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-18T10:33:44+00:00",
+      "ts": 1787049224.0
+    },
+    {
+      "title": "Google to pull Pixel production from China",
+      "link": "https://www.mobileworldlive.com/google/google-to-pull-pixel-production-from-china/",
+      "summary": "Google reportedly plans to move production of its Pixel smartphones, watches and wireless earbuds out of China by 2027 as it expands manufacturing in Vietnam and India due to ongoing US-China tensions. The post Google to pull Pixel production from China appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 23,
+      "date": "2026-08-18T10:31:40+00:00",
+      "ts": 1787049100.0
+    },
+    {
+      "title": "Asia Pacific Mobile Revenue to Hit $224 Billion as 5G Connections Approach 1.5 Billion by 2030",
+      "link": "https://telecomlead.com/5g/asia-pacific-mobile-revenue-to-hit-224-billion-as-5g-connections-approach-1-5-billion-by-2030-127347",
+      "summary": "Asia Pacific’s telecom industry is entering a major investment and technology transition as operators shift billions of dollars toward 5G, fibre, mobile broadband, cloud, edge infrastructure and AI-ready networks. The GSMA’s The Mobile Economy Asia Pacific 2026 forecasts rising operator revenue, nearly 1.5 billion 5G...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-08-18T09:44:58+00:00",
+      "ts": 1787046298.0
+    },
+    {
+      "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
+      "link": "https://europeanspaceflight.com/spacex-reverses-starlink-roaming-decision-for-polish-customers/",
+      "summary": "SpaceX has agreed to keep Poland within Starlink’s European roaming region after the country’s foreign minister threatened to reconsider roughly $50 million in annual payments to the company. The dispute began on 12 Aug. when Polish Deputy Prime Minister and Digital Affairs Minister Krzysztof Gawkowski said Poland had...",
+      "source": "European Spaceflight",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-18T08:01:49+00:00",
+      "ts": 1787040109.0
+    },
     {
       "title": "Lightweight Deep Learning-Based Channel Estimation for RIS-Aided Extremely Large-Scale MIMO Systems on Resource-Limited Edge Devices",
       "link": "https://arxiv.org/abs/2507.09627",
@@ -626,6 +731,36 @@
       "ts": 1787025600.0
     },
     {
+      "title": "Telecom news: BSNL, DoT, Tata Group, Nelco, Lunar Holdco, Elveo Mobile, Lynk Global, Omnispace, Airtel Africa, Starlink",
+      "link": "https://telecomlead.com/news/telecom-news-bsnl-dot-tata-group-nelco-lunar-holdco-elveo-mobile-lynk-global-omnispace-airtel-africa-starlink-127340",
+      "summary": "Today’s telecom news includes announcements on BSNL, DoT, Tata Group, Nelco, Lunar Holdco, Elveo Mobile, Lynk Global, Omnispace, Airtel Africa, Starlink, among others. BSNL Unveils ₹77,000 Crore Network Expansion Blueprint BSNL has proposed a five-year capital expenditure plan of ₹77,000 crore to modernize and expand...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 54,
+      "date": "2026-08-18T03:49:21+00:00",
+      "ts": 1787024961.0
+    },
+    {
+      "title": "Telecom news: Lynk Global, Omnispace, Elveo Mobile, Cybertel Bridge, Deutsche Telekom, Fiberhost, Inea, T-Mobile",
+      "link": "https://telecomlead.com/news/telecom-news-lynk-global-omnispace-elveo-mobile-cybertel-bridge-deutsche-telekom-fiberhost-inea-t-mobile-127338",
+      "summary": "Today’s telecom news includes announcements on Lynk Global, Omnispace, Elveo Mobile, Cybertel Bridge, Deutsche Telekom, Fiberhost, Inea, T-Mobile, among others. Elveo Mobile Emerges as New Global Satellite-to-Device Powerhouse Lynk Global and Omnispace have completed their merger and launched Elveo Mobile, a new...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-18T03:45:51+00:00",
+      "ts": 1787024751.0
+    },
+    {
       "title": "5G in Europe: Broad coverage but 5G SA cloud native core network lags other major markets (Table)",
       "link": "https://techblog.comsoc.org/2026/08/17/5g-in-europe-broad-coverage-but-5g-sa-and-cloud-native-core-network-lag-other-major-markets-table/",
       "summary": "Europe’s 5G market status appears increasingly uneven. The region has achieved broad 5G population coverage, but its transition to the 5G Standalone (SA) core network—and the cloud-native 5G Core required to realize 5G features and capabilities—remains materially behind several major markets. A recent workshop report...",
@@ -703,20 +838,6 @@
       "ts": 1786996051.0
     },
     {
-      "title": "US court rejects Verizon bid to recoup $47M FCC fine",
-      "link": "https://www.mobileworldlive.com/verizon/us-court-rejects-verizon-bid-to-recoup-47m-fcc-fine/",
-      "summary": "The US Supreme Court declined to modify a ruling made on 4 June in a way which would let Verizon Communications pursue recovery of a $46.9 million penalty it paid the Federal Communications Commission over location-data privacy violations, Bloomberg reported. The post US court rejects Verizon bid to recoup $47M FCC...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-08-17T14:42:26+00:00",
-      "ts": 1786977746.0
-    },
-    {
       "title": "T-Mobile Polska bulks up on fibre",
       "link": "https://www.mobileworldlive.com/deutsche-telekom/t-mobile-polska-bulks-up-on-fibre/",
       "summary": "Deutsche Telekom arranged acquisitions worth €1 billion to boost its fibre holdings in Poland, a nation where government figures indicate the connectivity option is the dominant fixed-line broadband technology. The post T-Mobile Polska bulks up on fibre appeared first on Mobile World Live .",
@@ -745,19 +866,21 @@
       "ts": 1786971235.0
     },
     {
-      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
-      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
-      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
+      "title": "NTT Docomo expands Starlink deal for mobile broadband upgrade",
+      "link": "https://www.lightreading.com/satellite/ntt-docomo-expands-starlink-deal-for-mobile-broadband-upgrade",
+      "summary": "NTT Docomo has signed a contract for the use of Starlink Mobile V2 satellites, which will allow the operator to add voice calls and high-speed Internet browsing to its direct-to-cell service in 2028.",
       "source": "Light Reading",
       "themes": [
         "fibra",
         "satelite"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-17T12:00:00+00:00",
-      "ts": 1786968000.0
+      "countries": [
+        "jp"
+      ],
+      "relevance": 63,
+      "date": "2026-08-17T12:17:56+00:00",
+      "ts": 1786969076.0
     },
     {
       "title": "Lynk, Omnispace complete docking for D2D challenge",
@@ -786,6 +909,21 @@
       "relevance": 37,
       "date": "2026-08-17T08:44:56+00:00",
       "ts": 1786956296.0
+    },
+    {
+      "title": "Africa Fiber Broadband Growth: Nigeria, Ghana and Senegal Accelerate FTTP as Starlink Competition Rises",
+      "link": "https://telecomlead.com/broadband/africa-fiber-broadband-growth-nigeria-ghana-and-senegal-accelerate-fttp-as-starlink-competition-rises-127324",
+      "summary": "Africa’s fiber broadband market is entering a faster growth phase as operators make investment to expand FTTP networks, regulators promote infrastructure sharing and consumers demand higher internet speeds. However, expensive broadband deployments, low average revenue per user, repeated cable damage and competition...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-17T06:12:56+00:00",
+      "ts": 1786947176.0
     },
     {
       "title": "Lynk and Omnispace form Elveo Mobile to advance D2D services",
@@ -1007,21 +1145,6 @@
       "ts": 1786622400.0
     },
     {
-      "title": "Celona unveils platform to aid enterprise AI applications",
-      "link": "https://www.mobileworldlive.com/network-tech/celona-unveils-platform-to-aid-enterprise-ai-applications/",
-      "summary": "US-based vendor Celona launched Orion, a platform combining private 5G, Wi-Fi, mobile and satellite connectivity into a deterministic, secure set-up for enterprises deploying physical and agentic AI. The post Celona unveils platform to aid enterprise AI applications appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-13T09:02:45+00:00",
-      "ts": 1786611765.0
-    },
-    {
       "title": "Trump's latest 6G alliance features some big Huawei users",
       "link": "https://www.lightreading.com/6g/trump-s-latest-6g-alliance-features-some-big-huawei-users",
       "summary": "The US looks past 5G disappointment and starts hyping the next gen, but major countries in its new coalition are on a 6G path with China's Huawei.",
@@ -1036,20 +1159,6 @@
       "relevance": 56,
       "date": "2026-08-13T07:30:00+00:00",
       "ts": 1786606200.0
-    },
-    {
-      "title": "Private 5G piques interest of UK cybersecurity body",
-      "link": "https://www.mobileworldlive.com/europe/private-5g-piques-interest-of-uk-cybersecurity-body/",
-      "summary": "The UK National Cyber Security Centre requested companies, industry leaders and innovators in the technology sector to engage with it for potential work on future private 5G capabilities. The post Private 5G piques interest of UK cybersecurity body appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-08-12T15:33:45+00:00",
-      "ts": 1786548825.0
     },
     {
       "title": "Celona expands private 5G to meet the rise of physical AI",
@@ -1299,20 +1408,6 @@
       "ts": 1784732760.0
     },
     {
-      "title": "5G-A: A mobile foundation for embodied AI",
-      "link": "https://totaltele.com/5g-a-a-mobile-foundation-for-embodied-ai/",
-      "summary": "Partner Article If you have attended any Mobile World Congress event in recent years, you will never have been far away from a robot. From mechanical dogs prowling the halls at trade shows to robotic baristas serving coffee, robots have long been a novel way to demonstrate the power of mobile technology. With the...",
-      "source": "Total Telecom",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-07-22T12:20:21+00:00",
-      "ts": 1784722821.0
-    },
-    {
       "title": "5G-ACIA and one6G Joint Webinar Explored the Future of 6G for Industrial Automation",
       "link": "https://one6g.org/5g-acia-and-one6g-joint-webinar-explored-the-future-of-6g-for-industrial-automation/",
       "summary": "On 15 July 2026, 5G-ACIA and one6G jointly hosted the webinar “6G Use Cases for Industrial Automation,” bringing together experts from industry and research to discuss how next-generation wireless technologies will support the future of manufacturing, robotics, […] The post 5G-ACIA and one6G Joint Webinar Explored the...",
@@ -1472,12 +1567,12 @@
       "ts": 0
     },
     {
-      "title": "Why AI readiness is becoming an enterprise priority",
-      "link": "https://www.fierce-network.com/sponsored/why-ai-readiness-becoming-enterprise-priority",
-      "summary": "As AI adoption expands, organizations are focusing on the infrastructure, processes and skills needed for deployment at scale.",
+      "title": "The Evolution of Fiber Protection and Capacity",
+      "link": "https://www.fierce-network.com/sponsored/evolution-fiber-protection-and-capacity",
+      "summary": "From higher-density designs to easier deployments, learn how fiber closure innovations are helping operators prepare for future network demands.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "fibra"
       ],
       "research": false,
       "countries": [],
@@ -1486,12 +1581,12 @@
       "ts": 0
     },
     {
-      "title": "The Evolution of Fiber Protection and Capacity",
-      "link": "https://www.fierce-network.com/sponsored/evolution-fiber-protection-and-capacity",
-      "summary": "From higher-density designs to easier deployments, learn how fiber closure innovations are helping operators prepare for future network demands.",
+      "title": "Why AI readiness is becoming an enterprise priority",
+      "link": "https://www.fierce-network.com/sponsored/why-ai-readiness-becoming-enterprise-priority",
+      "summary": "As AI adoption expands, organizations are focusing on the infrastructure, processes and skills needed for deployment at scale.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
