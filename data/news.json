@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T18:20:07.379024+00:00",
-  "count": 101,
+  "generated_at": "2026-08-19T00:35:18.725675+00:00",
+  "count": 103,
   "theme_counts": {
     "moveis": 41,
-    "fibra": 14,
-    "antenas": 14,
-    "iot": 2,
-    "satelite": 37,
-    "radar_militar": 14,
+    "fibra": 13,
+    "antenas": 12,
+    "iot": 3,
+    "satelite": 39,
+    "radar_militar": 16,
     "radiocom": 2,
     "tv": 0,
     "geral": 20
@@ -19,7 +19,7 @@
     "in": 2,
     "jp": 4,
     "kr": 0,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -176,12 +176,12 @@
     {
       "source": "SpaceNews",
       "status": "ok (24 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 8
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -201,17 +201,119 @@
   ],
   "items": [
     {
-      "title": "Ericsson and MediaTek Demonstrate 3GPP-Based GNSS RTK Positioning with Sub-30cm Accuracy Over a Commercial 5G Network",
-      "link": "https://techblog.comsoc.org/2026/08/18/ericsson-and-mediatek-demonstrate-3gpp-based-gnss-rtk-positioning-with-sub-30-cm-accuracy-over-commercial-5g-network/",
-      "summary": "Ericsson and MediaTek have completed a world-first end-to-end demonstration of high-precision outdoor positioning over a commercial 5G network, using standardized 3GPP GNSS Real-Time Kinematic (RTK) assistance. The trial achieved stable outdoor positioning accuracy below 30 cm using a handset’s integrated antenna,...",
+      "title": "Omdia’s 2025 Mobile Core Network Leaders: Huawei #1 in market share; Nokia #1 for competitiveness",
+      "link": "https://techblog.comsoc.org/2026/08/18/omdias-2025-mobile-core-network-leaders-huawei-1-in-market-share-nokia-1-for-competitiveness/",
+      "summary": "Highlights of Omdia’s “Market Landscape: Core Vendors” Report: 1. Market Share: Five vendors control the 4G and 5G core market with a combined market share of 86.1% in 2025, down from 87.4% in 2024. The top three players collectively captured 70.9% of total revenue. With such a concentration of market power, each...",
       "source": "IEEE ComSoc Tech Blog",
       "themes": [
-        "moveis",
-        "antenas"
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 60,
+      "date": "2026-08-19T00:29:12+00:00",
+      "ts": 1787099352.0
+    },
+    {
+      "title": "Integrasys Awarded €2.89 Million in Luxembourg Defense R&D Projects",
+      "link": "https://satnews.com/2026/08/18/integrasys-awarded-e2-89-million-in-luxembourg-defense-rd-projects/",
+      "summary": "On August 18, 2026, satellite communications and network software vendor Integrasys announced it was awarded two defense research and development contracts in Luxembourg valued at €2.89 million combined. Funded through […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "radar_militar"
       ],
       "research": false,
       "countries": [],
-      "relevance": 63,
+      "relevance": 41,
+      "date": "2026-08-18T21:17:30+00:00",
+      "ts": 1787087850.0
+    },
+    {
+      "title": "Viasat Taps Rocket Lab to Build Small GEO for PTS-G Program",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/18/viasat-taps-rocket-lab-to-build-small-geo-for-pts-g-program/",
+      "summary": "Viasat has selected Rocket Lab to build a Geostationary Orbit (GEO) satellite for its contract on the Protected Tactical Satcom-Global (PTS-G) program. Rocket Lab will deliver a spacecraft based on […] The post Viasat Taps Rocket Lab to Build Small GEO for PTS-G Program appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-18T19:37:38+00:00",
+      "ts": 1787081858.0
+    },
+    {
+      "title": "Vietnam’s VinSpace Plans to Launch Tech Demonstration on 2027 SpaceX Rideshare Mission",
+      "link": "https://www.satellitetoday.com/launch/2026/08/18/vietnams-vinspace-plans-to-launch-tech-demonstration-on-2027-spacex-rideshare-mission/",
+      "summary": "VinSpace, a space company recently formed as part of Vietnamese conglomerate Vingroup, signed a launch contract with SpaceX to launch in-orbit demonstration satellites on a Transporter rideshare mission in 2027. […] The post Vietnam’s VinSpace Plans to Launch Tech Demonstration on 2027 SpaceX Rideshare Mission...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-18T19:34:16+00:00",
+      "ts": 1787081656.0
+    },
+    {
+      "title": "Applying Zero Trust at the Wireless Edge: Securing Mixed WPA2 and WPA3 IoT Fleets",
+      "link": "https://techblog.comsoc.org/2026/08/18/applying-zero-trust-at-the-wireless-edge-securing-mixed-wpa2-and-wpa3-iot-fleets/",
+      "summary": "By Iftikhar Javed khan with Ajay Lotan Thakur Abstract Zero-trust architecture is a security model that eliminates implicit trust based on network location and instead requires every access request to be continuously authenticated, authorized, and validated before it is granted (NIST SP 800-207), Yet while zero-trust...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-08-18T19:17:05+00:00",
+      "ts": 1787080625.0
+    },
+    {
+      "title": "Aerospace Report Examines Defense and Space Growth in FY ‘27 Budget Request",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/18/aerospace-report-examines-defense-and-space-growth-in-fy-27-budget-request/",
+      "summary": "A new report from The Aerospace Corporation examining defense and space growth in the White House’s fiscal year 2027 budget request found that more than 75% of the increase is […] The post Aerospace Report Examines Defense and Space Growth in FY ‘27 Budget Request appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-18T19:10:30+00:00",
+      "ts": 1787080230.0
+    },
+    {
+      "title": "Seraphim Space Makes Hubble Investment",
+      "link": "https://www.satellitetoday.com/finance/2026/08/18/seraphim-space-makes-hubble-investment/",
+      "summary": "Seraphim Space Investment Trust (SSIT) is investing a further $30 million into Hubble Network. Hubble is building a satellite-powered Bluetooth network, enabling standard off-the-shelf Bluetooth low energy chips to connect […] The post Seraphim Space Makes Hubble Investment appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-18T19:01:50+00:00",
+      "ts": 1787079710.0
+    },
+    {
+      "title": "Ericsson and MediaTek Demonstrate 3GPP-Based GNSS RTK Positioning with Sub-30cm Accuracy Over a Commercial 5G Network",
+      "link": "https://techblog.comsoc.org/2026/08/18/ericsson-and-mediatek-demonstrate-3gpp-based-gnss-rtk-positioning-with-sub-30-cm-accuracy-over-commercial-5g-network/",
+      "summary": "Ericsson and MediaTek have completed a world-first end-to-end demonstration of high-precision outdoor positioning over a commercial 5G network, using standardized 3GPP Global Navigation Satellite Systems (GNSS) Real-Time Kinematic (RTK) assistance. The trial achieved stable outdoor positioning accuracy below 30 cm...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
       "date": "2026-08-18T16:40:47+00:00",
       "ts": 1787071247.0
     },
@@ -1011,20 +1113,6 @@
       "ts": 1786719713.0
     },
     {
-      "title": "Astranis Unveils Perceptor Space Domain Awareness GEO Satellite",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/08/14/astranis-unveils-perceptor-space-domain-awareness-geo-satellite/",
-      "summary": "Astranis is bringing to market a new space domain awareness and maneuverability satellite for GEO orbit, called “Perceptor,” the company announced Thursday. Adding the satellite is Astranis’ latest effort to […] The post Astranis Unveils Perceptor Space Domain Awareness GEO Satellite appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-14T14:58:43+00:00",
-      "ts": 1786719523.0
-    },
-    {
       "title": "Study pours more cold water on SpaceX's small cell plan",
       "link": "https://www.lightreading.com/satellite/study-pours-more-cold-water-on-spacex-s-small-cell-plan",
       "summary": "Research firm MoffettNathanson flags a host of challenges for SpaceX's small cell plan, arguing the 'bull case' hinges on SpaceX locking down an MVNO deal.",
@@ -1099,21 +1187,6 @@
       "ts": 1786705563.0
     },
     {
-      "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
-      "link": "https://spacenews.com/cesiumastro-buys-semiconductor-specialist-to-boost-constellation-plans/",
-      "summary": "CesiumAstro is acquiring semiconductor specialist Jariet Technologies, adding more in-house capabilities behind the phased-array antenna specialist’s plans for a future communications constellation. The post CesiumAstro buys semiconductor specialist to boost constellation plans appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-14T02:24:02+00:00",
-      "ts": 1786674242.0
-    },
-    {
       "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
       "link": "https://circleid.com/posts/poland-excluded-from-starlinks-european-region",
       "summary": "Poland's exclusion from Starlink's new European roaming region has triggered a dispute with Warsaw, exposing how private infrastructure providers can shape cross-border connectivity and raising questions about digital sovereignty, accountability, and internet governance in Europe.",
@@ -1127,20 +1200,6 @@
       "relevance": 50,
       "date": "2026-08-13T15:02:00+00:00",
       "ts": 1786633320.0
-    },
-    {
-      "title": "Impulse Space Wins New Space Force Contract",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/13/impulse-space-wins-new-space-force-contract/",
-      "summary": "Impulse Space has won further business with U.S. Space Force. It has won a $28 million Small Business Innovation Research (SBIR) Phase III contract extension in support of two missions: […] The post Impulse Space Wins New Space Force Contract appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-13T14:39:19+00:00",
-      "ts": 1786631959.0
     },
     {
       "title": "Lockheed Martin preps drone detection service using Verizon 5G",
@@ -1345,35 +1404,6 @@
       "relevance": 71,
       "date": "2026-08-08T21:30:29+00:00",
       "ts": 1786224629.0
-    },
-    {
-      "title": "Eutelsat hails EC’s IRIS-2 project to take on U.S. NTN providers",
-      "link": "https://techblog.comsoc.org/2026/08/07/eutelsat-hails-ecs-iris-2-project-to-take-on-u-s-ntn-providers/",
-      "summary": "Executive Summary: The European Commission (EC) has announced the next steps for the IRIS2 [1.] project after reaching an implementation agreement with the prime contractors, one of which is Eutelsat. The EC agreed terms with the SpaceRISE consortium – comprising Eutelsat, Hispasat and SES – for deploying the...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-07T22:38:51+00:00",
-      "ts": 1786142331.0
-    },
-    {
-      "title": "Optus and Nokia’s pre-“6G” Trial in Australia: Upper 6 GHz May Be Widely Deployable",
-      "link": "https://techblog.comsoc.org/2026/08/05/optus-and-nokias-pre-6g-trial-in-australia-upper-6-ghz-may-be-widely-deployable/",
-      "summary": "Executive Summary: Australia’s Optus and Nokia have delivered one of the more credible pre 6G demonstrations yet: a live-field trial in Sydney that paired multi-gigabit speed with good coverage. The most notable result was the 3.5 Gbps peak download rate and the indication that upper 6 GHz could support a macrocell...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-05T22:54:20+00:00",
-      "ts": 1785970460.0
     },
     {
       "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
