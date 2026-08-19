@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-19T06:24:11.554792+00:00",
-  "count": 102,
+  "generated_at": "2026-08-19T12:21:40.599934+00:00",
+  "count": 103,
   "theme_counts": {
     "moveis": 35,
-    "fibra": 14,
+    "fibra": 15,
     "antenas": 4,
-    "iot": 4,
+    "iot": 3,
     "satelite": 35,
-    "radar_militar": 12,
+    "radar_militar": 11,
     "radiocom": 2,
     "tv": 0,
-    "geral": 27
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 1,
     "in": 2,
-    "jp": 4,
-    "kr": 1,
-    "cn": 3
+    "jp": 3,
+    "kr": 2,
+    "cn": 4
   },
   "research_count": 25,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -86,17 +86,17 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "SatNews",
@@ -200,6 +200,123 @@
     }
   ],
   "items": [
+    {
+      "title": "LG brings latest telematics specs to EU vehicles",
+      "link": "https://www.mobileworldlive.com/industry/lg-brings-latest-telematics-specs-to-eu-vehicles/",
+      "summary": "LG Electronics drove home its advantage in the 5G telematics sector after stealing a march in providing European vehicle manufacturers with a set-up employing the latest 3GPP specifications. The post LG brings latest telematics specs to EU vehicles appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-19T11:46:04+00:00",
+      "ts": 1787139964.0
+    },
+    {
+      "title": "LG Uplus tackles physical AI handoff",
+      "link": "https://www.mobileworldlive.com/industry/lg-uplus-tackles-physical-ai-handoff/",
+      "summary": "LG Uplus highlighted handoff challenges associated with physical AI as it detailed work with academics to connect a RAN based on the technology to 5G. The post LG Uplus tackles physical AI handoff appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 33,
+      "date": "2026-08-19T11:01:28+00:00",
+      "ts": 1787137288.0
+    },
+    {
+      "title": "AI, 5G tipped to fuel gains at geothermal plants",
+      "link": "https://www.mobileworldlive.com/industry/ai-5g-tipped-to-fuel-gains-at-geothermal-plants/",
+      "summary": "Jieyuan Energy unveiled ambitions for a range of smart applications in geothermal power plants relying on private 5G and AI, as it discussed trials taking place at one of its sites with Taiwan Mobile. The post AI, 5G tipped to fuel gains at geothermal plants appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-19T10:57:19+00:00",
+      "ts": 1787137039.0
+    },
+    {
+      "title": "Two Perth subsea cable faults test Australia’s bid to be the Indo-Pacific’s safest landing point",
+      "link": "https://capacityglobal.com/news/two-perth-subsea-cable-faults-test-australia/",
+      "summary": "Two SUBCO-owned cables suffered faults inside Perth's federally protected subsea corridor on 8-9 August. The post Two Perth subsea cable faults test Australia’s bid to be the Indo-Pacific’s safest landing point appeared first on Capacity .",
+      "source": "Capacity Media",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-08-19T09:56:41+00:00",
+      "ts": 1787133401.0
+    },
+    {
+      "title": "IBM Consulting joins GSMA Open Gateway",
+      "link": "https://www.mobileworldlive.com/network-tech/ibm-consulting-joins-gsma-open-gateway/",
+      "summary": "IBM Consulting joined the GSMA Open Gateway initiative, adding integration and managed services expertise to help connect mobile network capabilities with enterprise applications through standardised APIs. The post IBM Consulting joins GSMA Open Gateway appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-08-19T08:40:27+00:00",
+      "ts": 1787128827.0
+    },
+    {
+      "title": "Satellite D2D dealmaking: SpaceX, Amazon, Rocket Lab and the spectrum they're after",
+      "link": "https://www.lightreading.com/satellite/satellite-d2d-dealmaking-spacex-amazon-rocket-lab-and-the-spectrum-they-re-after",
+      "summary": "Mobile satellite spectrum with potential to connect directly to smartphones is at the heart of recent M&A moves following SpaceX's EchoStar spectrum buy.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-08-19T08:30:00+00:00",
+      "ts": 1787128200.0
+    },
+    {
+      "title": "Ericsson and Nokia shed thousands of China jobs at likely 6G cost",
+      "link": "https://www.lightreading.com/6g/ericsson-and-nokia-shed-thousands-of-china-jobs-at-likely-6g-cost",
+      "summary": "The retreat of Ericsson and Nokia from China, with 8,500 job cuts since 2021 and more ahead, is a further step toward 6G fragmentation.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 52,
+      "date": "2026-08-19T07:30:00+00:00",
+      "ts": 1787124600.0
+    },
+    {
+      "title": "Openreach plans wider UK rollout of Next Gen Full Fibre",
+      "link": "https://www.advanced-television.com/2026/08/19/openreach-plans-wider-uk-rollout-of-next-gen-full-fibre/",
+      "summary": "UK digital infrastructure provider Openreach is planning to upgrade more of its Full Fibre network to deliver even faster broadband speeds, greater capacity and a more future-ready platform designed to support the next generation of digital services. The business aims to expand the rollout of XGS-PON technology,...",
+      "source": "Advanced Television",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-08-19T07:00:19+00:00",
+      "ts": 1787122819.0
+    },
     {
       "title": "realme P4s 5G to Launch with Dimensity 7400 Ultra, 8,000mAh Battery and 144Hz Samsung Display",
       "link": "https://telecomlead.com/smart-phone/realme-p4s-5g-to-launch-with-dimensity-7400-ultra-8000mah-battery-and-144hz-samsung-display-127370",
@@ -635,6 +752,20 @@
       "ts": 1787112000.0
     },
     {
+      "title": "SES ordering C-band satellites?",
+      "link": "https://www.advanced-television.com/2026/08/19/ses-ordering-c-band-satellites/",
+      "summary": "SES has been reported as having ordered a batch of satellites from Intuitive Machines (perhaps better known as Maxar Technologies). The rumour – unconfirmed – is that the satellites represent the craft needed by SES to replace some of its existing US fleet to handle the shift from upper C-band as part of the FCC’s […]",
+      "source": "Advanced Television",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-08-19T03:00:37+00:00",
+      "ts": 1787108437.0
+    },
+    {
       "title": "UAE wants 3,240 ‘Deep Thought’ satellites",
       "link": "https://www.advanced-television.com/2026/08/19/uae-wants-3240-deep-thought-satellites/",
       "summary": "The United Arab Emirates (UAE) has filed a formal submission to the International Telecommunications Union (ITU) for 3,240 non-geostationary satellites. The constellation is called ‘Deep Thought’. Details are scarce, but the filing is made by Al Yah Satellite Communications. Al Yah owns the YahSat portfolio of...",
@@ -826,22 +957,6 @@
       "ts": 1787055647.0
     },
     {
-      "title": "Eurobites: UK to support 'next-gen' satellite projects",
-      "link": "https://www.lightreading.com/satellite/eurobites-uk-to-support-next-gen-satellite-projects",
-      "summary": "Also in today's EMEA regional roundup: Ericsson uses 5G for positioning; Orange Belgium launches cyber defense tool for businesses; VodafoneThree adds AI to non-emergency police call routing.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-18T11:55:00+00:00",
-      "ts": 1787054100.0
-    },
-    {
       "title": "Softbank digs into pockets to back construction player",
       "link": "https://www.mobileworldlive.com/industry/softbank-digs-into-pockets-to-back-construction-player/",
       "summary": "SoftBank Group invested $200 million in construction automation specialist Gravis Robotics, cash it plans to use to accelerate the global rollout of its AI-aided products. The post Softbank digs into pockets to back construction player appeared first on Mobile World Live .",
@@ -870,49 +985,6 @@
       "relevance": 41,
       "date": "2026-08-18T10:51:02+00:00",
       "ts": 1787050262.0
-    },
-    {
-      "title": "Starlink goes live in Vietnam, signs launch contract with local satellite operator VinSpace",
-      "link": "https://www.datacenterdynamics.com/en/news/starlink-goes-live-in-vietnam-signs-launch-contract-with-local-satellite-operator-vinspace/",
-      "summary": "Commercial services are now available in Starlink's sixth Southeast Asian market",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-18T10:48:57+00:00",
-      "ts": 1787050137.0
-    },
-    {
-      "title": "Ericsson, MediaTek find autonomous mojo",
-      "link": "https://www.mobileworldlive.com/industry/ericsson-mediatek-find-autonomous-mojo/",
-      "summary": "Ericsson and MediaTek positioned recent testing as a boon for autonomous system ambitions after achieving outdoor location accuracy of less than 30cm. The post Ericsson, MediaTek find autonomous mojo appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-18T10:33:44+00:00",
-      "ts": 1787049224.0
-    },
-    {
-      "title": "Asia Pacific Mobile Revenue to Hit $224 Billion as 5G Connections Approach 1.5 Billion by 2030",
-      "link": "https://telecomlead.com/5g/asia-pacific-mobile-revenue-to-hit-224-billion-as-5g-connections-approach-1-5-billion-by-2030-127347",
-      "summary": "Asia Pacific’s telecom industry is entering a major investment and technology transition as operators shift billions of dollars toward 5G, fibre, mobile broadband, cloud, edge infrastructure and AI-ready networks. The GSMA’s The Mobile Economy Asia Pacific 2026 forecasts rising operator revenue, nearly 1.5 billion 5G...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-18T09:44:58+00:00",
-      "ts": 1787046298.0
     },
     {
       "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
@@ -1106,20 +1178,6 @@
       "ts": 1786712400.0
     },
     {
-      "title": "Feature: T-Mobile US talks SA 5G crowd connection strategy",
-      "link": "https://www.mobileworldlive.com/t-mobile-us/feature-t-mobile-us-talks-sa-5g-crowd-connection-strategy/",
-      "summary": "MWL’s Mike Robuck spoke with T-Mobile US’ Salim Kouidri about how the operator is using standalone 5G to enable connectivity across large outdoor events. The post Feature: T-Mobile US talks SA 5G crowd connection strategy appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-14T12:22:54+00:00",
-      "ts": 1786710174.0
-    },
-    {
       "title": "Shared Rural Network rollout extends to UK national parks with over 150 4G masts live",
       "link": "https://totaltele.com/shared-rural-network-rollout-extends-to-uk-national-parks-with-over-150-4g-masts-live/",
       "summary": "Over 150 4G mast upgrades are now live across the UK’s national parks, including the Yorkshire Dales and Eryri, Snowdonia, as part of the continued rollout of the Shared Rural Network. The post Shared Rural Network rollout extends to UK national parks with over 150 4G masts live appeared first on Total Telecom .",
@@ -1132,37 +1190,6 @@
       "relevance": 51,
       "date": "2026-08-14T11:33:18+00:00",
       "ts": 1786707198.0
-    },
-    {
-      "title": "e& pushes enhanced RedCap for IoT transformation",
-      "link": "https://www.mobileworldlive.com/network-tech/e-pushes-enhanced-redcap-for-iot-transformation/",
-      "summary": "The UAE unit of e& pointed to the ability to bring popular IoT applications into the 5G era using enhanced reduced capability technology after running tests on a live network. The post e& pushes enhanced RedCap for IoT transformation appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-14T11:07:18+00:00",
-      "ts": 1786705638.0
-    },
-    {
-      "title": "Docomo plans Starlink D2D sequel",
-      "link": "https://www.mobileworldlive.com/docomo/docomo-plans-starlink-d2d-sequel/",
-      "summary": "NTT Docomo agreed a continuation of a direct-to-device connectivity arrangement with SpaceX’s local Starlink unit, lining up capacity on the company’s V2 satellites and plotting service availability in 2028. The post Docomo plans Starlink D2D sequel appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 60,
-      "date": "2026-08-14T11:06:03+00:00",
-      "ts": 1786705563.0
     },
     {
       "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
@@ -1193,20 +1220,6 @@
       "relevance": 63,
       "date": "2026-08-13T14:06:49+00:00",
       "ts": 1786630009.0
-    },
-    {
-      "title": "Eurobites: Vodafone calls on EU to simplify its DNA",
-      "link": "https://www.lightreading.com/regulatory-politics/eurobites-vodafone-calls-on-eu-to-simplify-its-dna",
-      "summary": "Also in today's EMEA regional roundup: Vodafone Business teams up with Tata consultants; NCSC calls for private 5G partners; AO tries its hand at telecom.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-13T12:47:04+00:00",
-      "ts": 1786625224.0
     },
     {
       "title": "East Longmeadow approves fiber funding against Spectrum's objections",
