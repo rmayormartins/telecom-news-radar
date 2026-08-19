@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-19T12:21:40.599934+00:00",
-  "count": 103,
+  "generated_at": "2026-08-19T18:17:27.533300+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 35,
-    "fibra": 15,
+    "moveis": 36,
+    "fibra": 16,
     "antenas": 4,
     "iot": 3,
-    "satelite": 35,
-    "radar_militar": 11,
+    "satelite": 38,
+    "radar_militar": 12,
     "radiocom": 2,
     "tv": 0,
-    "geral": 26
+    "geral": 23
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 1,
-    "in": 2,
-    "jp": 3,
+    "in": 1,
+    "jp": 4,
     "kr": 2,
-    "cn": 4
+    "cn": 7
   },
   "research_count": 25,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 12
+      "kept": 10
     },
     {
       "source": "Telecoms.com",
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "DataCenterDynamics",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,113 @@
     }
   ],
   "items": [
+    {
+      "title": "Nvidia plays matchmaker as Nordic AI deals boom",
+      "link": "https://www.mobileworldlive.com/network-tech/nvidia-plays-matchmaker-as-nordic-ai-data-centre-deals-boom/",
+      "summary": "Nvidia reportedly is connecting companies seeking access to its GPUs with data centre operators across the Nordics, as the chipmaker seeks to deepen its influence across the AI infrastructure ecosystem. The post Nvidia plays matchmaker as Nordic AI deals boom appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-19T15:50:18+00:00",
+      "ts": 1787154618.0
+    },
+    {
+      "title": "Delta Incident Puts Aviation Cybersecurity into Sharp Focus",
+      "link": "https://www.satellitetoday.com/cybersecurity/2026/08/19/delta-incident-puts-aviation-cybersecurity-into-sharp-focus/",
+      "summary": "In-flight connectivity (IFC) has a been a huge topic in satellite circles for well over a decade now, as airlines roll out these services improving both passenger experience and operations. […] The post Delta Incident Puts Aviation Cybersecurity into Sharp Focus appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-19T15:35:01+00:00",
+      "ts": 1787153701.0
+    },
+    {
+      "title": "Wi-Fi 7 Adoption Is Accelerating",
+      "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
+      "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-08-19T15:22:00+00:00",
+      "ts": 1787152920.0
+    },
+    {
+      "title": "Huawei Leads Global Core Network Market in 2025 as Ericsson, ZTE, Nokia, NEC and Samsung Compete for 5G Deals",
+      "link": "https://telecomlead.com/telecom-equipment/huawei-leads-global-core-network-market-in-2025-as-ericsson-zte-nokia-nec-and-samsung-compete-for-5g-deals-127385",
+      "summary": "Huawei maintained its leadership in the global mobile core network market in 2025, ahead of Ericsson, ZTE, Nokia, NEC and Samsung Electronics, as competition intensified around 5G core contracts, new operator wins and emerging-market expansion. Market concentration among the largest suppliers remained high, although...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp",
+        "kr",
+        "cn"
+      ],
+      "relevance": 62,
+      "date": "2026-08-19T14:27:44+00:00",
+      "ts": 1787149664.0
+    },
+    {
+      "title": "Omdia 2026 Mobile Core Vendor Ranking: Huawei Leads Business Performance, Nokia Tops Portfolio as ZTE Leads 5G Deals",
+      "link": "https://telecomlead.com/telecom-equipment/omdia-2026-mobile-core-vendor-ranking-huawei-leads-business-performance-nokia-tops-portfolio-as-zte-leads-5g-deals-127383",
+      "summary": "Competition in the global 4G and 5G mobile core market is intensifying as Huawei, Ericsson, Nokia and ZTE defend their leadership positions while Mavenir, Oracle, NEC, Samsung, IPLOOK, AxyomCore, ENEA and Viettel expand their capabilities and commercial footprints. Omdia’s Market Landscape: Core Vendors 2026 evaluates...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp",
+        "cn"
+      ],
+      "relevance": 61,
+      "date": "2026-08-19T14:16:47+00:00",
+      "ts": 1787149007.0
+    },
+    {
+      "title": "Nokia Leads Omdia 2026 Mobile Core Portfolio Ranking as Ericsson, Huawei and ZTE Intensify 5G Core Competition",
+      "link": "https://telecomlead.com/telecom-equipment/nokia-leads-omdia-2026-mobile-core-portfolio-ranking-as-ericsson-huawei-and-zte-intensify-5g-core-competition-127380",
+      "summary": "Nokia has retained the No. 1 position for mobile core portfolio competitiveness for the second consecutive year in Omdia’s “Market Landscape: Core Vendors 2026” report, highlighting intensifying competition among Ericsson, Huawei, Nokia, ZTE and other vendors as operators accelerate their transition toward...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 56,
+      "date": "2026-08-19T14:14:17+00:00",
+      "ts": 1787148857.0
+    },
+    {
+      "title": "Astrolight Advances Open-Standard Lasercom Architecture for Multi-Vendor Space Networks",
+      "link": "https://satnews.com/2026/08/19/astrolight-advances-open-standard-lasercom-architecture-for-multi-vendor-space-networks/",
+      "summary": "Targeting the vendor lock-in and closed ecosystem limitations of proprietary mega-constellations like SpaceX’s Starlink, Lithuanian optical communications developer Astrolight is scaling an open-standard, interoperable laser communication architecture across space, ground, […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-08-19T13:50:48+00:00",
+      "ts": 1787147448.0
+    },
     {
       "title": "LG brings latest telematics specs to EU vehicles",
       "link": "https://www.mobileworldlive.com/industry/lg-brings-latest-telematics-specs-to-eu-vehicles/",
@@ -363,39 +470,6 @@
       "relevance": 58,
       "date": "2026-08-19T05:32:54+00:00",
       "ts": 1787117574.0
-    },
-    {
-      "title": "Telecom news: SLT-Mobitel, Ericsson, MediaTek, SK Telecom",
-      "link": "https://telecomlead.com/news/telecom-news-slt-mobitel-ericsson-mediatek-sk-telecom-127359",
-      "summary": "Today’s telecom news includes announcements on SLT-Mobitel, Ericsson, MediaTek, SK Telecom, among others. Sri Lanka Telecom Accelerates Fiber, 5G and AI Expansion Sri Lanka Telecom and its SLT-Mobitel business are accelerating investments in nationwide fiber connectivity, data infrastructure, 5G and artificial...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 47,
-      "date": "2026-08-19T05:23:14+00:00",
-      "ts": 1787116994.0
-    },
-    {
-      "title": "Telecom news: RAN market, Nokia China job, e& UAE",
-      "link": "https://telecomlead.com/news/telecom-news-ran-market-nokia-china-job-e-uae-127357",
-      "summary": "Today’s telecom news includes announcements on RAN market size, Nokia China jobs, e& UAE, and others. Huawei, Ericsson, Nokia, ZTE and Samsung Control 96 Percent of Global RAN Market The worldwide Radio Access Network market recorded its third consecutive quarter of year-over-year growth in Q2 2026, signalling...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 46,
-      "date": "2026-08-19T05:19:07+00:00",
-      "ts": 1787116747.0
     },
     {
       "title": "M-QAM MIMO Maximum-Likelihood Detection with QAOA: ML-Rate Offline Angle Design and Correlated Infinite-Size Spin-Glass Models",
@@ -957,20 +1031,20 @@
       "ts": 1787055647.0
     },
     {
-      "title": "Softbank digs into pockets to back construction player",
-      "link": "https://www.mobileworldlive.com/industry/softbank-digs-into-pockets-to-back-construction-player/",
-      "summary": "SoftBank Group invested $200 million in construction automation specialist Gravis Robotics, cash it plans to use to accelerate the global rollout of its AI-aided products. The post Softbank digs into pockets to back construction player appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
+      "title": "Eurobites: UK to support 'next-gen' satellite projects",
+      "link": "https://www.lightreading.com/satellite/eurobites-uk-to-support-next-gen-satellite-projects",
+      "summary": "Also in today's EMEA regional roundup: Ericsson uses 5G for positioning; Orange Belgium launches cyber defense tool for businesses; VodafoneThree adds AI to non-emergency police call routing.",
+      "source": "Light Reading",
       "themes": [
-        "geral"
+        "moveis",
+        "satelite",
+        "radar_militar"
       ],
       "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 31,
-      "date": "2026-08-18T11:08:05+00:00",
-      "ts": 1787051285.0
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-08-18T11:55:00+00:00",
+      "ts": 1787054100.0
     },
     {
       "title": "SES deepens Elveo Mobile bet as direct-to-device race narrows to three",
@@ -1107,6 +1181,21 @@
       "ts": 1786971235.0
     },
     {
+      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
+      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
+      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-17T12:00:00+00:00",
+      "ts": 1786968000.0
+    },
+    {
       "title": "Lynk, Omnispace complete docking for D2D challenge",
       "link": "https://www.mobileworldlive.com/network-tech/lynk-omnispace-complete-docking-for-d2d-challenge/",
       "summary": "Satellite players Lynk Global and Omnispace finalised a merger initially announced last year, with the combined SES-backed entity Elveo Mobile promoting itself as being positioned to move faster and further than direct-to-device rivals. The post Lynk, Omnispace complete docking for D2D challenge appeared first on...",
@@ -1147,20 +1236,6 @@
       "relevance": 48,
       "date": "2026-08-17T04:30:00+00:00",
       "ts": 1786941000.0
-    },
-    {
-      "title": "Space Force Awards Space Data Network Contracts to Five Satellite Manufacturers",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/14/space-force-awards-space-data-network-contracts-to-five-satellite-manufacturers/",
-      "summary": "The U.S Space Force has awarded a series of contracts to five companies as it looks to reap the benefits of a a more diverse multi-vendor architecture approach related to […] The post Space Force Awards Space Data Network Contracts to Five Satellite Manufacturers appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-14T15:01:53+00:00",
-      "ts": 1786719713.0
     },
     {
       "title": "Study pours more cold water on SpaceX's small cell plan",
@@ -1222,6 +1297,20 @@
       "ts": 1786630009.0
     },
     {
+      "title": "Eurobites: Vodafone calls on EU to simplify its DNA",
+      "link": "https://www.lightreading.com/regulatory-politics/eurobites-vodafone-calls-on-eu-to-simplify-its-dna",
+      "summary": "Also in today's EMEA regional roundup: Vodafone Business teams up with Tata consultants; NCSC calls for private 5G partners; AO tries its hand at telecom.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-08-13T12:47:04+00:00",
+      "ts": 1786625224.0
+    },
+    {
       "title": "East Longmeadow approves fiber funding against Spectrum's objections",
       "link": "https://www.lightreading.com/broadband/east-longmeadow-approves-fiber-funding-against-spectrum-s-objections",
       "summary": "A Massachusetts town council voted to approve $43.5 million to fund a municipal fiber broadband network despite a plea from Spectrum to 'slow down' the process to advance the project.",
@@ -1267,22 +1356,6 @@
       "ts": 1786544938.0
     },
     {
-      "title": "Indian telcos need compelling use cases to invest in 6G – COAI",
-      "link": "https://www.lightreading.com/6g/indian-telcos-need-compelling-use-cases-to-invest-in-6g-coai",
-      "summary": "India's telcos will invest in 6G only when compelling use cases emerge, COAI says, as the industry continues struggling to recover the billions invested in 5G.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 53,
-      "date": "2026-08-12T10:26:53+00:00",
-      "ts": 1786530413.0
-    },
-    {
       "title": "Telefónica incorporates AI for businesses voice communications vs. 3GPP/ITU specifications",
       "link": "https://techblog.comsoc.org/2026/08/11/telefonica-incorporates-ai-into-its-businesses-voice-communications-portfolio/",
       "summary": "Executive Summary: Telefónica España made an announcement this week which indicates that Voice could be an important AI monetization opportunity for telcos. The Spain based telecom group is positioning its business voice portfolio around a key differentiator: the ability to embed AI-enabled capabilities directly into...",
@@ -1324,34 +1397,6 @@
       "relevance": 53,
       "date": "2026-08-11T15:35:00+00:00",
       "ts": 1786462500.0
-    },
-    {
-      "title": "Open RAN, cloud RAN and multi-vendor RAN set to follow diverging paths – Dell'Oro",
-      "link": "https://www.lightreading.com/open-ran/open-ran-cloud-ran-and-multi-vendor-ran-set-to-follow-diverging-paths-dell-oro",
-      "summary": "Open Fronthaul continues to gain traction and is expected to become the preferred interface across next-generation RAN platforms. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-11T14:36:17+00:00",
-      "ts": 1786458977.0
-    },
-    {
-      "title": "T-Mobile, Grain complete spectrum swap",
-      "link": "https://www.lightreading.com/5g/t-mobile-grain-complete-spectrum-swap",
-      "summary": "T-Mobile has transferred its 800MHz spectrum portfolio to Grain Management in exchange for $2.9 billion in cash and all of Grain's 600MHz spectrum licenses. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-11T14:20:13+00:00",
-      "ts": 1786458013.0
     },
     {
       "title": "Dell’Oro: Enterprise PON Deployments expected to increase 844% year-over-year",
@@ -1599,6 +1644,22 @@
       "ts": 0
     },
     {
+      "title": "Nokia’s China retreat signals bigger bet on AI and optical networks",
+      "link": "https://www.fierce-network.com/wireless/nokias-china-retreat-signals-bigger-bet-ai-and-optical-networks",
+      "summary": "Nokia's AI and cloud segment sales increases 105% year-on-year to $446 million Euros, 9% of total sales for the quarter.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Lightyear launches agentic AI platform for enterprise telecom procurement",
       "link": "https://www.fierce-network.com/cloud/lightyear-launches-agentic-ai-platform-enterprise-telecom-procurement",
       "summary": "Lightyear's AI agents automate quoting and installing enterprise network services.",
@@ -1644,48 +1705,6 @@
       "title": "Opinion: Nvidia’s $500B private equity AI funding deal isn’t a good sign",
       "link": "https://www.fierce-network.com/cloud/opinion-nvidias-500b-private-equity-ai-funding-deal-isnt-good-sign",
       "summary": "Nvidia’s $500B AI financing push is fueling fresh bubble fears, exposing how much of the AI infrastructure boom may depend on circular deals, shaky demand and scarce power.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "IBM partners with OpenAI to secure enterprise AI deployment",
-      "link": "https://www.fierce-network.com/newswire/ibm-partners-openai-secure-enterprise-ai-deployment",
-      "summary": "The partnership includes joint-go-to market initiatives and creating industry-specific solutions for financial services, government, telecommunication, retail and more.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Utilities embrace private networks. Attackers are embracing them too.",
-      "link": "https://www.fierce-network.com/wireless/utilities-embrace-private-networks-attackers-are-embracing-them-too",
-      "summary": "The same private wireless and remote connectivity technologies that enable digital transformation can also create new pathways into critical systems.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile shrinks by more than 4,500 jobs in 2026",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-shrinks-more-4500-jobs-2026",
-      "summary": "T-Mobile’s U.S. headcount stood at 65,365 as of June 30, 2026, a 6.7% reduction from the December 31, 2025, total of 70,036.",
       "source": "Fierce Network",
       "themes": [
         "geral"
