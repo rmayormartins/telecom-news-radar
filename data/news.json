@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-20T12:23:53.008902+00:00",
-  "count": 101,
+  "generated_at": "2026-08-20T18:21:27.159711+00:00",
+  "count": 99,
   "theme_counts": {
-    "moveis": 42,
+    "moveis": 44,
     "fibra": 12,
     "antenas": 9,
     "iot": 3,
-    "satelite": 30,
-    "radar_militar": 15,
-    "radiocom": 2,
+    "satelite": 24,
+    "radar_militar": 14,
+    "radiocom": 1,
     "tv": 1,
-    "geral": 20
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 2,
     "jp": 5,
     "kr": 3,
-    "cn": 8
+    "cn": 7
   },
   "research_count": 25,
   "sources": [
@@ -66,12 +66,12 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Telecoms Tech News",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "Ericsson Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,105 @@
     }
   ],
   "items": [
+    {
+      "title": "Charter-Cox deal is a wrap, with 'Spectrum' brand to take over within a year",
+      "link": "https://www.lightreading.com/cable-technology/charter-cox-deal-is-a-wrap-with-spectrum-brand-to-take-over-within-a-year",
+      "summary": "Charter and Cox have closed a merger that creates the world's largest cable operator, with more than 70 million locations passed and about 37 million customers. Cox Communications will become the corporate name, with Charter's Spectrum branding.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-20T16:41:20+00:00",
+      "ts": 1787244080.0
+    },
+    {
+      "title": "EE introduces premium ‘Fast Lane’ 5G network slicing service",
+      "link": "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/",
+      "summary": "The service will ensure that Fast Lane users continue to receive high-quality mobile service even in busy areas like concerts and sporting events The post EE introduces premium ‘Fast Lane’ 5G network slicing service appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-08-20T15:20:01+00:00",
+      "ts": 1787239201.0
+    },
+    {
+      "title": "Zayo secures Corning fibre supply for AI expansion",
+      "link": "https://www.mobileworldlive.com/network-tech/zayo-secures-corning-fibre-supply-for-ai-expansion/",
+      "summary": "Zayo expanded its strategic supply agreement with Corning to secure a significant portion of the fibre optic cable it expects to need through the rest of the decade, as the digital infrastructure provider works to stay ahead of surging AI-driven demand. The post Zayo secures Corning fibre supply for AI expansion...",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-20T14:44:26+00:00",
+      "ts": 1787237066.0
+    },
+    {
+      "title": "EE launches 'Fast Lane' commercial network slicing service in UK",
+      "link": "https://www.datacenterdynamics.com/en/news/ee-launches-fast-lane-commercial-network-slicing-service-in-uk/",
+      "summary": "The service has been introduced to guarantee coverage for those who need it during network's busier moments",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-20T14:30:27+00:00",
+      "ts": 1787236227.0
+    },
+    {
+      "title": "Comsol Targets South Africa Home Broadband With 2,000-Site 5G-Advanced Network, 1 Million Gauteng Homes Already Covered",
+      "link": "https://telecomlead.com/broadband/comsol-targets-south-africa-home-broadband-with-2000-site-5g-advanced-network-1-million-gauteng-homes-already-covered-127408",
+      "summary": "South African fixed wireless and private network operator Comsol is expanding into the home broadband market with a wholesale 5G-Advanced fixed wireless access (FWA) network, targeting nationwide coverage through around 2,000 base stations. The nearly three-decade-old connectivity company has already started building...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 68,
+      "date": "2026-08-20T12:50:54+00:00",
+      "ts": 1787230254.0
+    },
+    {
+      "title": "Why the first AI-native 6G cores will run on 5G foundations",
+      "link": "https://www.lightreading.com/6g/why-the-first-ai-native-6g-cores-will-run-on-5g-foundations",
+      "summary": "The 3GPP decides the shape of the 6G core in September, and the industry wants it to be AI-native from the ground up. Omdia's Gabriel Brown and Ruth Brown (no relation) argue the supplier ecosystem can't deliver that by 2030 and operators can't afford it.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-20T11:51:37+00:00",
+      "ts": 1787226697.0
+    },
+    {
+      "title": "Eurobites: EE puts 5G in fast lane with network slicing",
+      "link": "https://www.lightreading.com/5g/eurobites-ee-puts-5g-in-fast-lane-with-network-slicing",
+      "summary": "Also in today's EMEA regional roundup: VMO2's 5G SA expansion; Ericsson infuses AI into the RAN; African smartphone shipments fall.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-08-20T11:49:56+00:00",
+      "ts": 1787226596.0
+    },
     {
       "title": "SKT lets the sun go down on 3G",
       "link": "https://www.mobileworldlive.com/operators/skt-lets-the-sun-go-down-on-3g/",
@@ -247,20 +346,6 @@
       "relevance": 57,
       "date": "2026-08-20T10:21:21+00:00",
       "ts": 1787221281.0
-    },
-    {
-      "title": "Openreach plots XGS-PON full fiber expansion in UK",
-      "link": "https://www.datacenterdynamics.com/en/news/openreach-plots-xgs-pon-full-fiber-expansion-in-uk/",
-      "summary": "Claims that this will deliver speeds of up to 8.5Gbps",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-20T10:11:34+00:00",
-      "ts": 1787220694.0
     },
     {
       "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
@@ -850,20 +935,6 @@
       "ts": 1787148857.0
     },
     {
-      "title": "Astrolight Advances Open-Standard Lasercom Architecture for Multi-Vendor Space Networks",
-      "link": "https://satnews.com/2026/08/19/astrolight-advances-open-standard-lasercom-architecture-for-multi-vendor-space-networks/",
-      "summary": "Targeting the vendor lock-in and closed ecosystem limitations of proprietary mega-constellations like SpaceX’s Starlink, Lithuanian optical communications developer Astrolight is scaling an open-standard, interoperable laser communication architecture across space, ground, […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-19T13:50:48+00:00",
-      "ts": 1787147448.0
-    },
-    {
       "title": "LG brings latest telematics specs to EU vehicles",
       "link": "https://www.mobileworldlive.com/industry/lg-brings-latest-telematics-specs-to-eu-vehicles/",
       "summary": "LG Electronics drove home its advantage in the 5G telematics sector after stealing a march in providing European vehicle manufacturers with a set-up employing the latest 3GPP specifications. The post LG brings latest telematics specs to EU vehicles appeared first on Mobile World Live .",
@@ -980,21 +1051,6 @@
       "relevance": 60,
       "date": "2026-08-19T00:29:12+00:00",
       "ts": 1787099352.0
-    },
-    {
-      "title": "Integrasys Awarded €2.89 Million in Luxembourg Defense R&D Projects",
-      "link": "https://satnews.com/2026/08/18/integrasys-awarded-e2-89-million-in-luxembourg-defense-rd-projects/",
-      "summary": "On August 18, 2026, satellite communications and network software vendor Integrasys announced it was awarded two defense research and development contracts in Luxembourg valued at €2.89 million combined. Funded through […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-18T21:17:30+00:00",
-      "ts": 1787087850.0
     },
     {
       "title": "Viasat Taps Rocket Lab to Build Small GEO for PTS-G Program",
@@ -1192,20 +1248,6 @@
       "ts": 1787000713.0
     },
     {
-      "title": "T-Mobile Polska bulks up on fibre",
-      "link": "https://www.mobileworldlive.com/deutsche-telekom/t-mobile-polska-bulks-up-on-fibre/",
-      "summary": "Deutsche Telekom arranged acquisitions worth €1 billion to boost its fibre holdings in Poland, a nation where government figures indicate the connectivity option is the dominant fixed-line broadband technology. The post T-Mobile Polska bulks up on fibre appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-17T14:19:54+00:00",
-      "ts": 1786976394.0
-    },
-    {
       "title": "Starlink goes live in Vietnam as SpaceX signs VinSpace launch contract",
       "link": "https://www.lightreading.com/satellite/starlink-goes-live-in-vietnam-as-spacex-signs-vinspace-launch-contract",
       "summary": "SpaceX reached a couple of milestones in Vietnam as Starlink went live and the company closed a satellite launch deal with VinSpace, a local satellite startup.",
@@ -1218,35 +1260,6 @@
       "relevance": 52,
       "date": "2026-08-17T12:53:55+00:00",
       "ts": 1786971235.0
-    },
-    {
-      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
-      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
-      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-17T12:00:00+00:00",
-      "ts": 1786968000.0
-    },
-    {
-      "title": "Lynk and Omnispace merger creates D2D challenger Elveo Mobile",
-      "link": "https://www.lightreading.com/satellite/lynk-and-omnispace-merger-creates-d2d-challenger-elveo-mobile",
-      "summary": "D2D satellite operators Lynk and Omnispace complete their merger and rebrand as Elveo Mobile, with plans for 320 LEO satellites and services starting in early 2028.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-08-17T04:31:00+00:00",
-      "ts": 1786941060.0
     },
     {
       "title": "Study pours more cold water on SpaceX's small cell plan",
@@ -1336,22 +1349,6 @@
       "ts": 1786622400.0
     },
     {
-      "title": "Trump's latest 6G alliance features some big Huawei users",
-      "link": "https://www.lightreading.com/6g/trump-s-latest-6g-alliance-features-some-big-huawei-users",
-      "summary": "The US looks past 5G disappointment and starts hyping the next gen, but major countries in its new coalition are on a 6G path with China's Huawei.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 56,
-      "date": "2026-08-13T07:30:00+00:00",
-      "ts": 1786606200.0
-    },
-    {
       "title": "Huge Risks for the proposed $500B AI Investments from Giant Wall Street firms",
       "link": "https://techblog.comsoc.org/2026/08/12/huge-risks-for-the-proposed-500b-ai-investments-from-giant-wall-street-firms/",
       "summary": "Disclaimer: Perplexity.ai was used for research and analysis in this article. …………………………………………………………………………………………………………………….. Executive Summary: This past Monday, six giant Wall Street asset managers, private-equity firms and banks announced an effort to raise $500 billion to keep fueling the A.I. boom by financing...",
@@ -1378,21 +1375,6 @@
       "relevance": 39,
       "date": "2026-08-11T18:11:04+00:00",
       "ts": 1786471864.0
-    },
-    {
-      "title": "AI Is Straining 5G Uplink: What Ookla’s Research Means for Your Network Architecture",
-      "link": "https://tecknexus.com/ai-workloads-5g-uplink-capacity-architecture/",
-      "summary": "Most 5G networks were designed for downlink-heavy traffic. AI workloads invert that assumption - and Ookla's research shows the mismatch is already creating capacity and latency constraints most site plans haven't accounted for. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-08-11T16:57:55+00:00",
-      "ts": 1786467475.0
     },
     {
       "title": "From 300 to 150,000+: What MTN Nigeria’s FTTH Journey Teaches Us About Scaling Connectivity",
@@ -1554,44 +1536,30 @@
       "ts": 1783591203.0
     },
     {
-      "title": "VHF Propagation: What Every RF Engineer Should Know",
-      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
-      "summary": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 35,
-      "date": "2026-07-06T13:54:01+00:00",
-      "ts": 1783346041.0
-    },
-    {
-      "title": "What’s so great about 5G SA? Hint: It’s not network slicing",
-      "link": "https://www.fierce-network.com/wireless/whats-so-great-about-5g-sa-hint-its-not-network-slicing",
-      "summary": "More than Peanuts: The really big deal about 5G SA isn't network slicing. It’s about spectral efficiency, according to Signals Research Group President Mike Thelander.",
+      "title": "GSMA warns telcos against outsourcing AI future to hyperscalers",
+      "link": "https://www.fierce-network.com/wireless/gsma-warns-telcos-against-outsourcing-ai-future-hyperscalers",
+      "summary": "GSMA says today’s top AI models still don’t understand telecom well enough — and open telco models could be the key to closing the gap.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 64,
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
     {
-      "title": "Helium CEO: SpaceX validates our mobile playbook",
-      "link": "https://www.fierce-network.com/wireless/helium-ceo-sees-spacex-validating-its-mobile-playbook",
-      "summary": "Helium CEO Mario Di Dio sees SpaceX’s emerging mobile strategy as validation of Helium’s long-running demand-driven approach to wireless.",
+      "title": "Broadcom sees hyperscalers sidelining telcos for some scale across projects",
+      "link": "https://www.fierce-network.com/wireless/broadcom-sees-hyperscalers-sidelining-telcos-some-scale-across-projects",
+      "summary": "Telcos want to bring together fiber, optical line systems, switches and services needed to connect massive GPU clusters in disparate data centers.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 34,
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1640,12 +1608,12 @@
       "ts": 0
     },
     {
-      "title": "Why AI readiness is becoming an enterprise priority",
-      "link": "https://www.fierce-network.com/sponsored/why-ai-readiness-becoming-enterprise-priority",
-      "summary": "As AI adoption expands, organizations are focusing on the infrastructure, processes and skills needed for deployment at scale.",
+      "title": "The Evolution of Fiber Protection and Capacity",
+      "link": "https://www.fierce-network.com/sponsored/evolution-fiber-protection-and-capacity",
+      "summary": "From higher-density designs to easier deployments, learn how fiber closure innovations are helping operators prepare for future network demands.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "fibra"
       ],
       "research": false,
       "countries": [],
@@ -1654,12 +1622,12 @@
       "ts": 0
     },
     {
-      "title": "The Evolution of Fiber Protection and Capacity",
-      "link": "https://www.fierce-network.com/sponsored/evolution-fiber-protection-and-capacity",
-      "summary": "From higher-density designs to easier deployments, learn how fiber closure innovations are helping operators prepare for future network demands.",
+      "title": "Why AI readiness is becoming an enterprise priority",
+      "link": "https://www.fierce-network.com/sponsored/why-ai-readiness-becoming-enterprise-priority",
+      "summary": "As AI adoption expands, organizations are focusing on the infrastructure, processes and skills needed for deployment at scale.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
