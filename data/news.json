@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-20T06:25:05.839967+00:00",
-  "count": 99,
+  "generated_at": "2026-08-20T12:23:53.008902+00:00",
+  "count": 101,
   "theme_counts": {
-    "moveis": 39,
-    "fibra": 11,
+    "moveis": 42,
+    "fibra": 12,
     "antenas": 9,
-    "iot": 4,
-    "satelite": 31,
+    "iot": 3,
+    "satelite": 30,
     "radar_militar": 15,
     "radiocom": 2,
-    "tv": 0,
+    "tv": 1,
     "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 1,
     "il": 0,
-    "in": 0,
+    "in": 2,
     "jp": 5,
-    "kr": 2,
-    "cn": 7
+    "kr": 3,
+    "cn": 8
   },
   "research_count": 25,
   "sources": [
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,99 @@
     }
   ],
   "items": [
+    {
+      "title": "SKT lets the sun go down on 3G",
+      "link": "https://www.mobileworldlive.com/operators/skt-lets-the-sun-go-down-on-3g/",
+      "summary": "SK Telecom put its 3G service into sunset mode by halting subscriber additions, commencing the process of closing the network after 23-years of operation. The post SKT lets the sun go down on 3G appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 37,
+      "date": "2026-08-20T11:01:09+00:00",
+      "ts": 1787223669.0
+    },
+    {
+      "title": "EE touts commercial 5G network slicing",
+      "link": "https://www.mobileworldlive.com/bt/ee-touts-commercial-5g-network-slicing/",
+      "summary": "EE launched what it claimed is the UK's first commercial 5G network slice offering for consumers and small businesses, aimed at maintaining connectivity during periods of high network demand. The post EE touts commercial 5G network slicing appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-20T10:45:05+00:00",
+      "ts": 1787222705.0
+    },
+    {
+      "title": "Podcast: COAI on India’s AI race, 6G, IMC and China competition",
+      "link": "https://www.mobileworldlive.com/regulation/podcast-coai-on-indias-ai-race-6g-imc-and-china-competition/",
+      "summary": "This month Kavit sits down with Lt. Gen. Dr. S.P. Kochhar, director general of the Cellular Operators Association of India, to discuss the state of the country's telecoms landscape, navigating huge OTT traffic, the road to 6G, competition with China and the upcoming India Mobile Congress. The post Podcast: COAI on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "tv"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 57,
+      "date": "2026-08-20T10:21:21+00:00",
+      "ts": 1787221281.0
+    },
+    {
+      "title": "Openreach plots XGS-PON full fiber expansion in UK",
+      "link": "https://www.datacenterdynamics.com/en/news/openreach-plots-xgs-pon-full-fiber-expansion-in-uk/",
+      "summary": "Claims that this will deliver speeds of up to 8.5Gbps",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-20T10:11:34+00:00",
+      "ts": 1787220694.0
+    },
+    {
+      "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
+      "link": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
+      "summary": "SAN FRANCISCO / PERTH, 20 AUGUST 2026: LatConnect 60 (LC60) has signed a commercial contract with Transcelestial for an optical communications terminal on its SWIRSAT-1 mission, plus access to Transcelestial’s […] The post LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation...",
+      "source": "SpaceNews",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-20T10:00:00+00:00",
+      "ts": 1787220000.0
+    },
+    {
+      "title": "iQOO Z11 5G Launched in India at ₹34,999 With Dimensity 7500 Turbo, 7,050mAh Battery and AI Features",
+      "link": "https://telecomlead.com/smart-phone/iqoo-z11-5g-launched-in-india-at-%e2%82%b934999-with-dimensity-7500-turbo-7050mah-battery-and-ai-features-127404",
+      "summary": "iQOO has launched the iQOO Z11 5G in India, targeting students and performance-focused smartphone users with a combination of AI productivity tools, a 144Hz AMOLED display, MediaTek’s new Dimensity 7500 Turbo processor, a 7,050mAh battery and a 50 MP Sony camera. The iQOO Z11 5G starts at ₹34,999, while the net...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-08-20T08:18:43+00:00",
+      "ts": 1787213923.0
+    },
     {
       "title": "SoftBank and Ericsson AI-Native RAN Boosts 5G Downlink Throughput by Up to 50% in Japan",
       "link": "https://telecomlead.com/5g/softbank-and-ericsson-ai-native-ran-boosts-5g-downlink-throughput-by-up-to-50-in-japan-127398",
@@ -1005,20 +1098,6 @@
       "ts": 1787068170.0
     },
     {
-      "title": "Netscout warns of consumer IoT threats",
-      "link": "https://www.mobileworldlive.com/industry/netscout-warns-of-consumer-iot-threats/",
-      "summary": "Cyber safety specialist Netscout warned everyday connected consumer goods are being weaponised by powerful botnets to the detriment of service providers which face resulting network disruption. The post Netscout warns of consumer IoT threats appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-18T14:02:11+00:00",
-      "ts": 1787061731.0
-    },
-    {
       "title": "NTT Docomo expands Starlink deal for mobile broadband upgrade",
       "link": "https://www.lightreading.com/satellite/ntt-docomo-expands-starlink-deal-for-mobile-broadband-upgrade",
       "summary": "NTT Docomo has signed a contract for the use of Starlink Mobile V2 satellites, which will allow the operator to add voice calls and high-speed Internet browsing to its direct-to-cell service in 2028.",
@@ -1156,46 +1235,18 @@
       "ts": 1786968000.0
     },
     {
-      "title": "Lynk, Omnispace complete docking for D2D challenge",
-      "link": "https://www.mobileworldlive.com/network-tech/lynk-omnispace-complete-docking-for-d2d-challenge/",
-      "summary": "Satellite players Lynk Global and Omnispace finalised a merger initially announced last year, with the combined SES-backed entity Elveo Mobile promoting itself as being positioned to move faster and further than direct-to-device rivals. The post Lynk, Omnispace complete docking for D2D challenge appeared first on...",
-      "source": "Mobile World Live",
+      "title": "Lynk and Omnispace merger creates D2D challenger Elveo Mobile",
+      "link": "https://www.lightreading.com/satellite/lynk-and-omnispace-merger-creates-d2d-challenger-elveo-mobile",
+      "summary": "D2D satellite operators Lynk and Omnispace complete their merger and rebrand as Elveo Mobile, with plans for 320 LEO satellites and services starting in early 2028.",
+      "source": "Light Reading",
       "themes": [
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 43,
-      "date": "2026-08-17T10:36:21+00:00",
-      "ts": 1786962981.0
-    },
-    {
-      "title": "US FCC approves broadband progress report",
-      "link": "https://www.mobileworldlive.com/fcc/us-fcc-approves-broadband-progress-report/",
-      "summary": "The US Federal Communications Commission concluded advanced telecommunications capability is being deployed to citizens in a reasonable and timely fashion in its first assessment of the market under the current presidency of Donald Trump. The post US FCC approves broadband progress report appeared first on Mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-08-17T08:44:56+00:00",
-      "ts": 1786956296.0
-    },
-    {
-      "title": "Lynk and Omnispace form Elveo Mobile to advance D2D services",
-      "link": "https://spacenews.com/lynk-and-omnispace-form-elveo-mobile-to-advance-d2d-services/",
-      "summary": "Lynk Global has completed its merger with Omnispace and rebranded as Elveo Mobile, adding globally coordinated S-band spectrum to expand direct-to-device satellite services beyond basic messaging. The post Lynk and Omnispace form Elveo Mobile to advance D2D services appeared first on SpaceNews .",
-      "source": "SpaceNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-17T04:30:00+00:00",
-      "ts": 1786941000.0
+      "relevance": 44,
+      "date": "2026-08-17T04:31:00+00:00",
+      "ts": 1786941060.0
     },
     {
       "title": "Study pours more cold water on SpaceX's small cell plan",
@@ -1313,21 +1364,6 @@
       "relevance": 24,
       "date": "2026-08-12T21:12:31+00:00",
       "ts": 1786569151.0
-    },
-    {
-      "title": "Celona expands private 5G to meet the rise of physical AI",
-      "link": "https://www.lightreading.com/private-networks/celona-expands-private-5g-to-meet-the-rise-of-physical-ai",
-      "summary": "Celona adds Wi-Fi, satellite and public support to private 5G along with agentic AI to manage connectivity across technologies and physical AI workloads.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-08-12T14:28:58+00:00",
-      "ts": 1786544938.0
     },
     {
       "title": "Telefónica incorporates AI for businesses voice communications vs. 3GPP/ITU specifications",
