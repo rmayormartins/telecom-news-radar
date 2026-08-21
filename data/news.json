@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T12:22:48.926369+00:00",
-  "count": 99,
+  "generated_at": "2026-08-21T18:20:37.750003+00:00",
+  "count": 97,
   "theme_counts": {
-    "moveis": 43,
-    "fibra": 13,
+    "moveis": 41,
+    "fibra": 11,
     "antenas": 10,
     "iot": 1,
-    "satelite": 26,
+    "satelite": 27,
     "radar_militar": 11,
     "radiocom": 2,
     "tv": 4,
@@ -16,10 +16,10 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
-    "jp": 7,
-    "kr": 3,
-    "cn": 6
+    "in": 4,
+    "jp": 6,
+    "kr": 2,
+    "cn": 4
   },
   "research_count": 29,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Telecoms.com",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -201,18 +201,50 @@
   ],
   "items": [
     {
-      "title": "Macquarie Asset Management divests stakes in Poland’s Fiberhost and INEA",
-      "link": "https://www.datacenterdynamics.com/en/news/macquarie-asset-management-divests-stakes-in-polands-fiberhost-and-inea/",
-      "summary": "The FTTH network provider and telecommunications services firm will become part of T-Mobile Polska",
-      "source": "DataCenterDynamics",
+      "title": "AST SpaceMobile’s 800MHz tests ‘milestone’ for D2D, says AT&T",
+      "link": "https://www.lightreading.com/satellite/ast-spacemobile-s-800mhz-tests-milestone-for-d2d-says-at-t",
+      "summary": "AST SpaceMobile won the FCC's temporary approval to test satellite direct-to-device in 800MHz spectrum, with AT&T's Jeff McElfresh calling it a 'milestone' to fill 'connectivity gaps.'",
+      "source": "Light Reading",
       "themes": [
-        "fibra"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 40,
-      "date": "2026-08-21T09:51:07+00:00",
-      "ts": 1787305867.0
+      "relevance": 50,
+      "date": "2026-08-21T16:23:32+00:00",
+      "ts": 1787329412.0
+    },
+    {
+      "title": "Japan consortium wins ITU-T photonic network standard",
+      "link": "https://www.mobileworldlive.com/asia-pacific/japan-consortium-wins-itu-t-photonic-network-standard/",
+      "summary": "The ITU Telecommunication Standardization Sector (ITU-T) approved a framework for low-latency, energy-efficient networks designed to support the AI era, developed by seven Japanese telecoms and technology companies. The post Japan consortium wins ITU-T photonic network standard appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 51,
+      "date": "2026-08-21T15:50:38+00:00",
+      "ts": 1787327438.0
+    },
+    {
+      "title": "Musk pitches Starlink to address rural gap",
+      "link": "https://www.mobileworldlive.com/network-tech/musk-pitches-starlink-to-address-rural-gap/",
+      "summary": "Elon Musk touted Starlink’s potential to serve underserved rural areas of India, as the satellite operator continues to grapple with regulators over securing a licence to operate in the country. The post Musk pitches Starlink to address rural gap appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 54,
+      "date": "2026-08-21T15:04:48+00:00",
+      "ts": 1787324688.0
     },
     {
       "title": "EE joins Europe's growing 5G slicing cohort with consumer offer",
@@ -1009,20 +1041,6 @@
       "ts": 1787167081.0
     },
     {
-      "title": "Nvidia plays matchmaker as Nordic AI deals boom",
-      "link": "https://www.mobileworldlive.com/network-tech/nvidia-plays-matchmaker-as-nordic-ai-data-centre-deals-boom/",
-      "summary": "Nvidia reportedly is connecting companies seeking access to its GPUs with data centre operators across the Nordics, as the chipmaker seeks to deepen its influence across the AI infrastructure ecosystem. The post Nvidia plays matchmaker as Nordic AI deals boom appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-19T15:50:18+00:00",
-      "ts": 1787154618.0
-    },
-    {
       "title": "Wi-Fi 7 Adoption Is Accelerating",
       "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
       "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
@@ -1035,41 +1053,6 @@
       "relevance": 47,
       "date": "2026-08-19T15:22:00+00:00",
       "ts": 1787152920.0
-    },
-    {
-      "title": "Huawei Leads Global Core Network Market in 2025 as Ericsson, ZTE, Nokia, NEC and Samsung Compete for 5G Deals",
-      "link": "https://telecomlead.com/telecom-equipment/huawei-leads-global-core-network-market-in-2025-as-ericsson-zte-nokia-nec-and-samsung-compete-for-5g-deals-127385",
-      "summary": "Huawei maintained its leadership in the global mobile core network market in 2025, ahead of Ericsson, ZTE, Nokia, NEC and Samsung Electronics, as competition intensified around 5G core contracts, new operator wins and emerging-market expansion. Market concentration among the largest suppliers remained high, although...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "kr",
-        "cn"
-      ],
-      "relevance": 62,
-      "date": "2026-08-19T14:27:44+00:00",
-      "ts": 1787149664.0
-    },
-    {
-      "title": "Omdia 2026 Mobile Core Vendor Ranking: Huawei Leads Business Performance, Nokia Tops Portfolio as ZTE Leads 5G Deals",
-      "link": "https://telecomlead.com/telecom-equipment/omdia-2026-mobile-core-vendor-ranking-huawei-leads-business-performance-nokia-tops-portfolio-as-zte-leads-5g-deals-127383",
-      "summary": "Competition in the global 4G and 5G mobile core market is intensifying as Huawei, Ericsson, Nokia and ZTE defend their leadership positions while Mavenir, Oracle, NEC, Samsung, IPLOOK, AxyomCore, ENEA and Viettel expand their capabilities and commercial footprints. Omdia’s Market Landscape: Core Vendors 2026 evaluates...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "cn"
-      ],
-      "relevance": 61,
-      "date": "2026-08-19T14:16:47+00:00",
-      "ts": 1787149007.0
     },
     {
       "title": "LG brings latest telematics specs to EU vehicles",
@@ -1234,20 +1217,6 @@
       "ts": 1787070676.0
     },
     {
-      "title": "RAN market growth streak continues",
-      "link": "https://www.mobileworldlive.com/ranvendors/ran-market-continues-growth-streak/",
-      "summary": "Research by Dell’Oro Group found worldwide RAN revenue grew modestly year-on-year in Q2, marking a third consecutive quarter of growth following more than two years of contraction. The post RAN market growth streak continues appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-18T15:49:30+00:00",
-      "ts": 1787068170.0
-    },
-    {
       "title": "NTT Docomo expands Starlink deal for mobile broadband upgrade",
       "link": "https://www.lightreading.com/satellite/ntt-docomo-expands-starlink-deal-for-mobile-broadband-upgrade",
       "summary": "NTT Docomo has signed a contract for the use of Starlink Mobile V2 satellites, which will allow the operator to add voice calls and high-speed Internet browsing to its direct-to-cell service in 2028.",
@@ -1336,21 +1305,6 @@
       "relevance": 52,
       "date": "2026-08-17T12:53:55+00:00",
       "ts": 1786971235.0
-    },
-    {
-      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
-      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
-      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-17T12:00:00+00:00",
-      "ts": 1786968000.0
     },
     {
       "title": "Study pours more cold water on SpaceX's small cell plan",
@@ -1556,6 +1510,34 @@
       "ts": 1783591203.0
     },
     {
+      "title": "Ericsson: Telco edge was early, not wrong — AI may finally make it real",
+      "link": "https://www.fierce-network.com/cloud/ericsson-telco-edge-was-early-not-wrong-ai-may-finally-make-it-real",
+      "summary": "The telco edge’s first act flopped, but Ericsson says AI inferencing, robotics and new network capabilities could finally give the edge the oomph it was missing.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "NGMN: Agentic AI needs guardrails before it can run telco networks",
+      "link": "https://www.fierce-network.com/cloud/ngmn-agentic-ai-needs-guardrails-it-can-run-telco-networks",
+      "summary": "NGMN says agentic AI could help operators move toward Level 4 autonomous networks, but only if the industry tackles identity, governance, interoperability, security and cost controls first.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "GSMA warns telcos against outsourcing AI future to hyperscalers",
       "link": "https://www.fierce-network.com/wireless/gsma-warns-telcos-against-outsourcing-ai-future-hyperscalers",
       "summary": "GSMA says today’s top AI models still don’t understand telecom well enough — and open telco models could be the key to closing the gap.",
@@ -1598,6 +1580,20 @@
       "ts": 0
     },
     {
+      "title": "Zayo inks long-term fiber supply deal with Corning",
+      "link": "https://www.fierce-network.com/newswire/zayo-inks-long-term-fiber-supply-deal-corning",
+      "summary": "The deal secures most of the fiber Zayo needs for its planned expansion.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Nokia’s China retreat signals bigger bet on AI and optical networks",
       "link": "https://www.fierce-network.com/wireless/nokias-china-retreat-signals-bigger-bet-ai-and-optical-networks",
       "summary": "Nokia's AI and cloud segment sales increases 105% year-on-year to $446 million Euros, 9% of total sales for the quarter.",
@@ -1620,34 +1616,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Why AI readiness is becoming an enterprise priority",
-      "link": "https://www.fierce-network.com/sponsored/why-ai-readiness-becoming-enterprise-priority",
-      "summary": "As AI adoption expands, organizations are focusing on the infrastructure, processes and skills needed for deployment at scale.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "The Evolution of Fiber Protection and Capacity",
-      "link": "https://www.fierce-network.com/sponsored/evolution-fiber-protection-and-capacity",
-      "summary": "From higher-density designs to easier deployments, learn how fiber closure innovations are helping operators prepare for future network demands.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
