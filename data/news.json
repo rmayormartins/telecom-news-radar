@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T06:25:40.014740+00:00",
+  "generated_at": "2026-08-21T12:22:48.926369+00:00",
   "count": 99,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 12,
+    "moveis": 43,
+    "fibra": 13,
     "antenas": 10,
     "iot": 1,
-    "satelite": 25,
-    "radar_militar": 12,
+    "satelite": 26,
+    "radar_militar": 11,
     "radiocom": 2,
     "tv": 4,
     "geral": 24
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,49 @@
     }
   ],
   "items": [
+    {
+      "title": "Macquarie Asset Management divests stakes in Poland’s Fiberhost and INEA",
+      "link": "https://www.datacenterdynamics.com/en/news/macquarie-asset-management-divests-stakes-in-polands-fiberhost-and-inea/",
+      "summary": "The FTTH network provider and telecommunications services firm will become part of T-Mobile Polska",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-08-21T09:51:07+00:00",
+      "ts": 1787305867.0
+    },
+    {
+      "title": "EE joins Europe's growing 5G slicing cohort with consumer offer",
+      "link": "https://www.lightreading.com/5g/ee-joins-europe-s-growing-5g-slicing-cohort-with-consumer-offer",
+      "summary": "EE has jumped into the 5G network slicing race with its Fast Lane offer, available for both consumers and small businesses.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-21T09:37:10+00:00",
+      "ts": 1787305030.0
+    },
+    {
+      "title": "Test shows uplink boost on Verizon's 5G SA but most telcos still hold back",
+      "link": "https://www.lightreading.com/5g/test-shows-uplink-boost-on-verizon-s-5g-sa-but-most-telcos-still-hold-back",
+      "summary": "A test on Verizon's 5G network with Ericsson radios shows 2.2-times better upstream spectral efficiency on 5G standalone compared to non-standalone.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-08-21T07:30:00+00:00",
+      "ts": 1787297400.0
+    },
     {
       "title": "Self-Directed Spectrum Allocation Framework for Integrated TN-NTN 6G Networks",
       "link": "https://arxiv.org/abs/2607.17561",
@@ -737,20 +780,6 @@
       "relevance": 31,
       "date": "2026-08-20T14:44:26+00:00",
       "ts": 1787237066.0
-    },
-    {
-      "title": "EE launches 'Fast Lane' commercial network slicing service in UK",
-      "link": "https://www.datacenterdynamics.com/en/news/ee-launches-fast-lane-commercial-network-slicing-service-in-uk/",
-      "summary": "The service has been introduced to guarantee coverage for those who need it during network's busier moments",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-20T14:30:27+00:00",
-      "ts": 1787236227.0
     },
     {
       "title": "Comsol Targets South Africa Home Broadband With 2,000-Site 5G-Advanced Network, 1 Million Gauteng Homes Already Covered",
@@ -1366,35 +1395,6 @@
       "relevance": 50,
       "date": "2026-08-13T15:02:00+00:00",
       "ts": 1786633320.0
-    },
-    {
-      "title": "Lockheed Martin preps drone detection service using Verizon 5G",
-      "link": "https://www.lightreading.com/5g/lockheed-martin-preps-drone-detection-service-via-verizon-5g",
-      "summary": "Lockheed Martin plans to offer a 5G drone detection service next year using Verizon's network and tech from Nvidia, ODC, Keysight and subsidiary Astris AI.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-08-13T14:06:49+00:00",
-      "ts": 1786630009.0
-    },
-    {
-      "title": "Eurobites: Vodafone calls on EU to simplify its DNA",
-      "link": "https://www.lightreading.com/regulatory-politics/eurobites-vodafone-calls-on-eu-to-simplify-its-dna",
-      "summary": "Also in today's EMEA regional roundup: Vodafone Business teams up with Tata consultants; NCSC calls for private 5G partners; AO tries its hand at telecom.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-13T12:47:04+00:00",
-      "ts": 1786625224.0
     },
     {
       "title": "Huge Risks for the proposed $500B AI Investments from Giant Wall Street firms",
