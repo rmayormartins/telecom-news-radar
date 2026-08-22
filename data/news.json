@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-22T12:16:49.113203+00:00",
-  "count": 65,
+  "generated_at": "2026-08-22T18:13:24.963707+00:00",
+  "count": 64,
   "theme_counts": {
-    "moveis": 34,
+    "moveis": 33,
     "fibra": 10,
     "antenas": 1,
-    "iot": 1,
+    "iot": 2,
     "satelite": 21,
     "radar_militar": 5,
     "radiocom": 1,
@@ -17,7 +17,7 @@
     "ru": 0,
     "il": 0,
     "in": 4,
-    "jp": 6,
+    "jp": 5,
     "kr": 2,
     "cn": 4
   },
@@ -71,11 +71,11 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -125,8 +125,8 @@
     },
     {
       "source": "One6G",
-      "status": "ok (10 itens)",
-      "kept": 2
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "kept": 0
     },
     {
       "source": "6G-IA",
@@ -200,6 +200,21 @@
     }
   ],
   "items": [
+    {
+      "title": "Utility Private Networks Are Growing Faster Than Their Security Models",
+      "link": "https://tecknexus.com/utility-private-network-security-attack-surface/",
+      "summary": "As utilities scale private LTE, 5G, and industrial IoT across operational technology environments, the attack surface is scaling with them. TeckNexus examines the security gap documented across the sector this August, the UK NCSC's identity-based access recommendations, and what a Tampa Electric private LTE deployment...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-22T15:10:27+00:00",
+      "ts": 1787411427.0
+    },
     {
       "title": "AST SpaceMobile's 800MHz tests 'milestone' for D2D, says AT&T",
       "link": "https://www.lightreading.com/satellite/ast-spacemobile-s-800mhz-tests-milestone-for-d2d-says-at-t",
@@ -971,36 +986,6 @@
       "relevance": 51,
       "date": "2026-07-22T15:06:00+00:00",
       "ts": 1784732760.0
-    },
-    {
-      "title": "5G-ACIA and one6G Joint Webinar Explored the Future of 6G for Industrial Automation",
-      "link": "https://one6g.org/5g-acia-and-one6g-joint-webinar-explored-the-future-of-6g-for-industrial-automation/",
-      "summary": "On 15 July 2026, 5G-ACIA and one6G jointly hosted the webinar “6G Use Cases for Industrial Automation,” bringing together experts from industry and research to discuss how next-generation wireless technologies will support the future of manufacturing, robotics, […] The post 5G-ACIA and one6G Joint Webinar Explored the...",
-      "source": "One6G",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-07-17T11:20:43+00:00",
-      "ts": 1784287243.0
-    },
-    {
-      "title": "one6G and 5G-ACIA Strengthen Partnership for the Future of Industrial Wireless Communications",
-      "link": "https://one6g.org/one6g-and-5g-acia-strengthen-partnership-for-the-future-of-industrial-wireless-communications/",
-      "summary": "The one6G Association (one6G) and the 5G Alliance for Connected Industries and Automation (5G-ACIA) signed a Memorandum of Understanding (MoU) at the 5G-ACIA Plenary in Tokyo in December 2025, establishing a formal framework for strategic collaboration. Building […] The post one6G and 5G-ACIA Strengthen Partnership...",
-      "source": "One6G",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 56,
-      "date": "2026-07-14T12:06:12+00:00",
-      "ts": 1784030772.0
     },
     {
       "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
