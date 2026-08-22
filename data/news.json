@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T00:35:06.507112+00:00",
-  "count": 94,
+  "generated_at": "2026-08-22T06:19:47.051859+00:00",
+  "count": 65,
   "theme_counts": {
-    "moveis": 41,
-    "fibra": 11,
-    "antenas": 9,
+    "moveis": 34,
+    "fibra": 10,
+    "antenas": 1,
     "iot": 1,
-    "satelite": 24,
-    "radar_militar": 9,
-    "radiocom": 2,
-    "tv": 4,
-    "geral": 24
+    "satelite": 21,
+    "radar_militar": 5,
+    "radiocom": 1,
+    "tv": 1,
+    "geral": 10
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 2,
     "cn": 4
   },
-  "research_count": 29,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (27 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (12 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (27 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (34 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -274,424 +274,6 @@
       "relevance": 65,
       "date": "2026-08-21T07:30:00+00:00",
       "ts": 1787297400.0
-    },
-    {
-      "title": "Self-Directed Spectrum Allocation Framework for Integrated TN-NTN 6G Networks",
-      "link": "https://arxiv.org/abs/2607.17561",
-      "summary": "arXiv:2607.17561v2 Announce Type: replace Abstract: This paper proposes a self-adaptive channel assignment framework based on Q-learning, where agents learn optimal policies by observing network load, interference conditions, and temporal traffic dynamics within a Markov decision process (MDP). A multi-objective...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 71,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Recursive Flow: A Generative Framework for MIMO Channel Estimation",
-      "link": "https://arxiv.org/abs/2601.15767",
-      "summary": "arXiv:2601.15767v3 Announce Type: replace Abstract: Channel estimation is a fundamental challenge in massive multiple-input multiple-output systems, where estimation accuracy governs the spectral efficiency and link reliability. In this work, we introduce Recursive Flow (RC-Flow), a novel solver that leverages...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 70,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Untangling Dense Crowds with mmWave Radar: From Crowd Semantics to Individual Spatial Behaviors",
-      "link": "https://arxiv.org/abs/2608.19357",
-      "summary": "arXiv:2608.19357v1 Announce Type: new Abstract: In this paper, we present a novel framework for recovering individual footprints and pedestrian spatial behaviors in dense crowds. This is a highly challenging problem, as pedestrians can merge or block one another often and for prolonged periods in crowded areas,...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Differential Privacy in Feature Reconstruction Aided Federated Learning for Agent's Semantic Communication Model Update",
-      "link": "https://arxiv.org/abs/2608.19649",
-      "summary": "arXiv:2608.19649v1 Announce Type: new Abstract: This paper proposes a differentially private federated learning (FL) framework built upon an FL algorithm with semantic feature reconstruction (FedSFR) for training semantic communication modules for image transmission. By allowing clients with unfavorable uplink...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Secure OFDM-IM ISAC With Artificial-Noise-Aided Index Deception",
-      "link": "https://arxiv.org/abs/2607.19068",
-      "summary": "arXiv:2607.19068v2 Announce Type: replace Abstract: We propose an artificial noise (AN)-aided, secure OFDM with index modulation (OFDM-IM) framework for integrated sensing and communication (ISAC). Consider a security-critical scenario, where the sensing target is also a potential eavesdropper. Instead of suppressing...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Holographic Beamforming for Range-Doppler Sidelobe Suppression in OFDM-ISAC",
-      "link": "https://arxiv.org/abs/2608.19431",
-      "summary": "arXiv:2608.19431v1 Announce Type: new Abstract: This paper investigates range--Doppler (RD) sidelobe suppression in an integrated sensing and communications system with a reconfigurable holographic surface (RHS). We jointly design the digital feed precoders and RHS amplitudes to minimize the integrated RD sidelobe...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Secrecy Rate Maximization for UAV-Mounted Six-Dimensional Movable IRS-Assisted ISAC Systems",
-      "link": "https://arxiv.org/abs/2608.20278",
-      "summary": "arXiv:2608.20278v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) is a key enabling technology for 6G wireless networks, but its broadcast nature raises a physical-layer security concern when the sensing target can act as a potential eavesdropper. Although intelligent reflecting surfaces...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar",
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Tri-Hybrid Beamforming for T-RIS-Enabled Base Station",
-      "link": "https://arxiv.org/abs/2608.19736",
-      "summary": "arXiv:2608.19736v1 Announce Type: new Abstract: Transmissive reconfigurable intelligent surfaces (T-RISs) integrated into the transmitter provide a viable realization of tri-hybrid multiple-input multiple-output (MIMO), where spatial processing is distributed across the digital, analog radio-frequency (RF), and...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Synchronization and Channel Estimation of OTFS with RF Impairments",
-      "link": "https://arxiv.org/abs/2608.20257",
-      "summary": "arXiv:2608.20257v1 Announce Type: new Abstract: Orthogonal Time Frequency Space (OTFS) modulation is a promising waveform for future wireless networks. However, its resilience to RF impairments remains relatively understudied. Low-cost RF front ends are crucial for next-generation wireless systems, yet their...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Near-optimal Reconfigurable Intelligent Surface Configuration: Blind Beamforming with Sensing",
-      "link": "https://arxiv.org/abs/2511.05132",
-      "summary": "arXiv:2511.05132v2 Announce Type: replace Abstract: Blind beamforming has emerged as a promising approach to configure reconfigurable intelligent surfaces (RISs) without relying on channel state information (CSI) or geometric models, making it directly compatible with commodity hardware. In this paper, we propose a...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "A 39pJ/b 7.3Gbps 1.3mm$^2$ Multi-Subcarrier Massive MU-MIMO-OFDM Detector Exploiting Beamspace Sparsity and Frequency-Domain Correlation in 22FDX",
-      "link": "https://arxiv.org/abs/2608.19865",
-      "summary": "arXiv:2608.19865v1 Announce Type: new Abstract: We present the first multi-subcarrier massive multi-user (MU) multiple-input multiple-output (MIMO) orthogonal frequency-division multiplexing (OFDM) data detector reported in the open literature. By exploiting the channel's beamspace sparsity and frequency-domain (FD)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Velocity Index Modulation for Movable Antenna Systems",
-      "link": "https://arxiv.org/abs/2608.20059",
-      "summary": "arXiv:2608.20059v1 Announce Type: new Abstract: In movable antenna (MA) systems, antenna movement induces Doppler frequency shifts that are conventionally treated as an impairment requiring mitigation. In this paper, we propose \\emph{Velocity Index Modulation for Movable Antennas} (VIM-MA), which reframes this Doppler...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "A Layered Simplex Architecture for Large Alphabets",
-      "link": "https://arxiv.org/abs/2608.19908",
-      "summary": "arXiv:2608.19908v1 Announce Type: new Abstract: Probability estimation over large alphabets under log loss is a well-studied problem, with celebrated methods such as the Good-Turing estimator. We introduce and study a new Bayesian estimator with four notable properties. First, its construction is exceptionally simple:...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Real Interference Alignment for Active IRS-Aided Systems: A Rate-Profile Learning-Based Approach",
-      "link": "https://arxiv.org/abs/2608.20007",
-      "summary": "arXiv:2608.20007v1 Announce Type: new Abstract: With additional spatial degrees of freedom provided by the active intelligent reflecting surface (IRS), interference alignment (IA) can be achieved at low cost. In this letter, we propose a real IA scheme for an active IRS-aided system. The proposed scheme only requires...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Empirical Evaluation of Cross-Carrier MCPTT & OTT MCX Interoperability in High-Density Environments",
-      "link": "https://arxiv.org/abs/2608.19554",
-      "summary": "arXiv:2608.19554v1 Announce Type: new Abstract: Deploying broadband Mission-Critical Push-To-Talk (MCPTT) services over shared commercial infrastructures introduces resource contention during multi-agency responses in mass-crowd events. This study evaluates cross-carrier interoperability and standard versus...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "fibra",
-        "radiocom",
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "The Verification Gap in Networked Physical AI: A Post-Semantic Communication Framework",
-      "link": "https://arxiv.org/abs/2608.19593",
-      "summary": "arXiv:2608.19593v1 Announce Type: cross Abstract: A task-effective proposal is not yet a justified physical action. In networked Physical AI, a proposal may be understood while valid, timely, proposal-bound evidence or the authority required to finalize an action remains unavailable. We call this mismatch the...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Robust stability of event-triggered nonlinear moving horizon estimation",
-      "link": "https://arxiv.org/abs/2510.04814",
-      "summary": "arXiv:2510.04814v5 Announce Type: replace Abstract: In this work, we propose an event-triggered moving horizon estimation (ET-MHE) scheme for the remote state estimation of general nonlinear systems. In the presented method, whenever an event is triggered, a single measurement is transmitted and the nonlinear MHE...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "RFWM: Physics-Guided World Model for Dynamic Wireless Radiance Field Generation",
-      "link": "https://arxiv.org/abs/2608.19709",
-      "summary": "arXiv:2608.19709v1 Announce Type: new Abstract: Radio-frequency (RF) radiance-field modeling is essential for wireless network optimization and sensing, yet remains challenging in dynamic and unseen environments. Existing learning-based methods synthesize RF fields from sparse measurements, but most struggle to...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Proper Sea Surface Roughness Enhances the Performance of Near-Shore Maritime Networks",
-      "link": "https://arxiv.org/abs/2608.19730",
-      "summary": "arXiv:2608.19730v1 Announce Type: new Abstract: Accurate performance analysis for near-shore maritime wireless communication is essential for ensuring robust and reliable operations. However, existing analytical models often rely on oversimplified propagation assumptions, such as a perfectly smooth sea surface, which...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel",
-      "link": "https://arxiv.org/abs/2608.19869",
-      "summary": "arXiv:2608.19869v1 Announce Type: new Abstract: Marton's inner bound, the best-known achievable region for a general discrete memoryless broadcast channel, was proposed by Katalin Marton in 1979, and whether it always achieves the capacity region has remained open since then. In this paper, we establish its strict...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Online Scheduling for Throughput Maximization of Time-varying Markovian Channels with Unknown Statistics",
-      "link": "https://arxiv.org/abs/2608.19398",
-      "summary": "arXiv:2608.19398v1 Announce Type: new Abstract: We consider a wireless scheduling problem in downlink wireless networks with unknown channel statistics, where a Base Station (BS) sends data to multiple users. The scheduling performance relies heavily on accurate Channel State Information (CSI), which is often costly...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Fixed-structure Gaussian Mixture Filtering with Robust Measurement Updates under Outliers",
-      "link": "https://arxiv.org/abs/2608.19895",
-      "summary": "arXiv:2608.19895v1 Announce Type: new Abstract: Bayesian state estimation for discrete-time nonlinear stochastic systems is considered in the presence of measurement outliers. Building on a fixed-structure Gaussian mixture filtering framework, this paper proposes a robust measurement-update variant in which the...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Spike-based Belief Propagation in Nonlinear Dynamical Systems",
-      "link": "https://arxiv.org/abs/2608.19907",
-      "summary": "arXiv:2608.19907v1 Announce Type: cross Abstract: This paper presents a Bayesian control framework that integrates spike-based dynamics with probabilistic inference for adaptive control. Bayesian inference is widely regarded as a core computational principle of brain function, providing a normative framework for...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Vorticity Dissipation Based Routing: A Fluid-Kinetic Framework for Loop-Free Transport in Ultra-Dense Networks",
-      "link": "https://arxiv.org/abs/2608.19630",
-      "summary": "arXiv:2608.19630v1 Announce Type: new Abstract: Discrete routing protocols in ultra-dense wireless networks are constrained by signaling overhead and transient routing loops that degrade radio-resource efficiency. While continuum modeling provides a scalable alternative, existing scalar density approaches lack the...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Digital Tides: A Fluid-Dynamic Framework for Flux-Aware Infrastructure Provisioning in UAV Logistics Networks",
-      "link": "https://arxiv.org/abs/2608.19638",
-      "summary": "arXiv:2608.19638v1 Announce Type: new Abstract: The emergence of high-frequency pulsating logistics unmanned aerial vehicle (UAV) swarms gives rise to ``Digital Tides'', i.e., complex traffic dynamics that challenge sustainable resource provisioning in mobile computing networks. Conventional infrastructure...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "The Honeycomb Framework for Code Bounds",
-      "link": "https://arxiv.org/abs/2608.20287",
-      "summary": "arXiv:2608.20287v1 Announce Type: new Abstract: We introduce the honeycomb hierarchy, a representation-theoretic framework that gives new asymptotic upper bounds on $R_2(\\delta)$. Its first level is the two-row hyperoctahedral representation graph associated with type $S^{(n-k,k)}$. Retaining every two-row irreducible...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Weak arcs and applications to the DNA-based storage access problem",
-      "link": "https://arxiv.org/abs/2608.19550",
-      "summary": "arXiv:2608.19550v1 Announce Type: cross Abstract: Weak arcs are point sets in PG$(n-1,q)$ meeting every general hyperplane (those are the hyperplanes not going through one of the points given by the standard basis vectors) in at most $n-1$ points. In this paper, we study weak arcs together with balanced variants which...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "Validation of a driver model for energy consumption simulations of road vehicles",
-      "link": "https://arxiv.org/abs/2608.19980",
-      "summary": "arXiv:2608.19980v1 Announce Type: new Abstract: The energy performance of road vehicles has traditionally been evaluated using driving cycles, in which a prescribed speed profile is tracked either in simulation or by a physical vehicle. Recent research has proposed an alternative framework based on operating...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
-    },
-    {
-      "title": "On the Value Function of Infinite-Horizon Optimal Control of Piecewise Affine Systems",
-      "link": "https://arxiv.org/abs/2608.19530",
-      "summary": "arXiv:2608.19530v1 Announce Type: cross Abstract: In this paper, we study the structure of the value function in constrained infinite-time optimal control (CITOC) problems of piecewise affine (PWA) systems, with $\\ell_1$ or $\\ell_\\infty$ stage cost. Existing works, such as [1], establish that the resulting value...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-21T04:00:00+00:00",
-      "ts": 1787284800.0
     },
     {
       "title": "800+ aircraft using OneWeb",
