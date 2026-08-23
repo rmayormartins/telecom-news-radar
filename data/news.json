@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T12:16:52.137158+00:00",
-  "count": 61,
+  "generated_at": "2026-08-23T18:13:18.722250+00:00",
+  "count": 62,
   "theme_counts": {
     "moveis": 32,
-    "fibra": 10,
+    "fibra": 11,
     "antenas": 1,
     "iot": 2,
     "satelite": 19,
-    "radar_militar": 4,
+    "radar_militar": 5,
     "radiocom": 0,
     "tv": 1,
     "geral": 9
@@ -19,7 +19,7 @@
     "in": 4,
     "jp": 5,
     "kr": 2,
-    "cn": 4
+    "cn": 5
   },
   "research_count": 0,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (20 itens)",
+      "status": "ok (19 itens)",
       "kept": 1
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,38 @@
     }
   ],
   "items": [
+    {
+      "title": "Inside a Working Blueprint for Intelligent Mining",
+      "link": "https://tecknexus.com/intelligent-mining-private-5g-ai-architecture/",
+      "summary": "A blueprint presented at Huawei South Africa Connect 2026 lays out a layered mining connectivity and AI architecture in unusual technical detail: private 5G for open-pit operations, Wi-Fi Mesh underground, distributed fibre sensing for perimeter and conveyor monitoring, edge computer vision on existing CCTV, and a...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 52,
+      "date": "2026-08-23T15:04:03+00:00",
+      "ts": 1787497443.0
+    },
+    {
+      "title": "Sovereign Satellite Strategy Expands AST SpaceMobile Backlog Amid Constellation Deployment Risks",
+      "link": "https://satnews.com/2026/08/23/sovereign-satellite-strategy-expands-ast-spacemobile-backlog-amid-constellation-deployment-risks/",
+      "summary": "On August 23, 2026, market analysis highlighted how AST SpaceMobile’s sovereign contract strategy is driving revenue growth across defense and national security sectors, even as the operator navigates launch cadence […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-08-23T13:31:54+00:00",
+      "ts": 1787491914.0
+    },
     {
       "title": "Utility Private Networks Are Growing Faster Than Their Security Models",
       "link": "https://tecknexus.com/utility-private-network-security-attack-surface/",
@@ -737,21 +769,6 @@
       "relevance": 61,
       "date": "2026-08-18T16:40:47+00:00",
       "ts": 1787071247.0
-    },
-    {
-      "title": "Celona’s Orion Signals the Convergence of Private 5G, Wi-Fi, Cellular, and Satellite",
-      "link": "https://tecknexus.com/private-5g-wifi-cellular-satellite-convergence-enterprise/",
-      "summary": "Celona's launch of Orion — unifying private 5G, Wi-Fi, public cellular, and satellite under a single deterministic fabric with an added AI orchestration layer — is a useful case study in where converged wireless architecture is heading. TeckNexus examines why multi-technology convergence is a meaningful architectural...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-08-18T16:31:16+00:00",
-      "ts": 1787070676.0
     },
     {
       "title": "NTT Docomo expands Starlink deal for mobile broadband upgrade",
