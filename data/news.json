@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-24T12:24:18.385915+00:00",
-  "count": 84,
+  "generated_at": "2026-08-24T18:22:51.762110+00:00",
+  "count": 87,
   "theme_counts": {
-    "moveis": 39,
-    "fibra": 11,
+    "moveis": 37,
+    "fibra": 13,
     "antenas": 6,
     "iot": 3,
-    "satelite": 21,
-    "radar_militar": 9,
+    "satelite": 20,
+    "radar_militar": 10,
     "radiocom": 0,
     "tv": 2,
-    "geral": 19
+    "geral": 23
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
+    "in": 5,
     "jp": 6,
-    "kr": 2,
+    "kr": 1,
     "cn": 5
   },
   "research_count": 20,
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 9
+      "kept": 11
     },
     {
       "source": "Telecoms.com",
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Telecoms Tech News",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (20 itens)",
+      "status": "ok (21 itens)",
       "kept": 1
     },
     {
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
@@ -201,6 +201,65 @@
   ],
   "items": [
     {
+      "title": "India Just Set a Precedent for Enforcing Network Slice SLAs",
+      "link": "https://tecknexus.com/network-slicing-sla-tariff-regulation-india/",
+      "summary": "India's telecom regulator now requires operators to treat each 5G eMBB network slice as its own tariff, with mandated disclosure of measured — not advertised — speeds, and defined non-compliance. TeckNexus examines what this regulatory precedent means for network slicing as a commercial product, how it differs from...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-08-24T15:45:23+00:00",
+      "ts": 1787586323.0
+    },
+    {
+      "title": "Verizon taps Google Cloud for enterprise-wide AI push",
+      "link": "https://www.mobileworldlive.com/google/verizon-taps-google-cloud-for-enterprise-wide-ai-push/",
+      "summary": "Google Cloud unveiled a strategic partnership with Verizon centred on deploying AI across the operator's customer experience, network operations and internal functions, with Gemini Enterprise positioned as a core pillar of the effort. The post Verizon taps Google Cloud for enterprise-wide AI push appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-24T15:13:56+00:00",
+      "ts": 1787584436.0
+    },
+    {
+      "title": "Carriers Are Becoming the Vendor for Site Security AI, Not Just Connectivity",
+      "link": "https://tecknexus.com/telecom-managed-ai-security-drone-video/",
+      "summary": "Lockheed Martin's upcoming 5G drone detection service on Verizon's network, and AT&T's cloud-managed Video Intelligence platform, both point at physical security AI capabilities moving from owned, standalone systems toward managed services delivered over carrier 5G networks. TeckNexus examines what that delivery shift...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-08-24T15:05:05+00:00",
+      "ts": 1787583905.0
+    },
+    {
+      "title": "Cell C launches 5G network in South Africa",
+      "link": "https://www.datacenterdynamics.com/en/news/cell-c-launches-5g-network-in-south-africa/",
+      "summary": "The operator has quietly launched its 5G network",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-24T14:27:06+00:00",
+      "ts": 1787581626.0
+    },
+    {
       "title": "Swiss pair eye infrastructure pact for rural areas",
       "link": "https://www.mobileworldlive.com/europe/swiss-pair-eye-infrastructure-pact-for-rural-areas/",
       "summary": "Sunrise and Salt plan to assess the viability of collaborating on network infrastructure in rural and less densely populated parts of Switzerland. The post Swiss pair eye infrastructure pact for rural areas appeared first on Mobile World Live .",
@@ -213,6 +272,20 @@
       "relevance": 31,
       "date": "2026-08-24T10:53:14+00:00",
       "ts": 1787568794.0
+    },
+    {
+      "title": "Telefonica Spain wins rural video surveillance deal",
+      "link": "https://www.mobileworldlive.com/telefonica/telefonica-spain-wins-rural-video-surveillance-deal/",
+      "summary": "Telefonica’s unit in its home market is set to provide the infrastructure for a video surveillance project in Guadalajara Province intended to improve safety and security in the Spanish region. The post Telefonica Spain wins rural video surveillance deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-24T08:21:35+00:00",
+      "ts": 1787559695.0
     },
     {
       "title": "AT&T becomes connectivity partner for US Open tennis",
@@ -516,20 +589,6 @@
       "ts": 1787544000.0
     },
     {
-      "title": "Vodafone vows coverage with AST SpaceMobile in Portugal",
-      "link": "https://www.advanced-television.com/2026/08/24/vodafone-vows-coverage-with-ast-spacemobile-in-portugal/",
-      "summary": "Vodafone Portugal’s partnership with the European satellite communications joint venture (Satellite Connect Europe) positions Vodafone to be the first operator to provide this universal connectivity service in the country by 2027. Vodafone Portugal and Satellite Connect Europe (a joint venture between Vodafone and AST...",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-24T00:24:10+00:00",
-      "ts": 1787531050.0
-    },
-    {
       "title": "Inside a Working Blueprint for Intelligent Mining",
       "link": "https://tecknexus.com/intelligent-mining-private-5g-ai-architecture/",
       "summary": "A blueprint presented at Huawei South Africa Connect 2026 lays out a layered mining connectivity and AI architecture in unusual technical detail: private 5G for open-pit operations, Wi-Fi Mesh underground, distributed fibre sensing for perimeter and conveyor monitoring, edge computer vision on existing CCTV, and a...",
@@ -744,6 +803,20 @@
       "ts": 1787239201.0
     },
     {
+      "title": "Zayo secures Corning fibre supply for AI expansion",
+      "link": "https://www.mobileworldlive.com/network-tech/zayo-secures-corning-fibre-supply-for-ai-expansion/",
+      "summary": "Zayo expanded its strategic supply agreement with Corning to secure a significant portion of the fibre optic cable it expects to need through the rest of the decade, as the digital infrastructure provider works to stay ahead of surging AI-driven demand. The post Zayo secures Corning fibre supply for AI expansion...",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-20T14:44:26+00:00",
+      "ts": 1787237066.0
+    },
+    {
       "title": "Comsol Targets South Africa Home Broadband With 2,000-Site 5G-Advanced Network, 1 Million Gauteng Homes Already Covered",
       "link": "https://telecomlead.com/broadband/comsol-targets-south-africa-home-broadband-with-2000-site-5g-advanced-network-1-million-gauteng-homes-already-covered-127408",
       "summary": "South African fixed wireless and private network operator Comsol is expanding into the home broadband market with a wholesale 5G-Advanced fixed wireless access (FWA) network, targeting nationwide coverage through around 2,000 base stations. The nearly three-decade-old connectivity company has already started building...",
@@ -883,20 +956,6 @@
       "ts": 1787206418.0
     },
     {
-      "title": "Disaggregated RAN Transport Study (DARTs) Tool",
-      "link": "https://tecknexus.com/intelligence/disaggregated-ran-transport-study-darts-tool/",
-      "summary": "The Small Cell Forum DARTs calculator helps deployers evaluate and compare transport bandwidth requirements across Disaggregated RAN split architectures and deployment scenarios. TeckNexus - TeckNexus: Navigating the Future of Tech and Connectivity",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-08-20T06:00:32+00:00",
-      "ts": 1787205632.0
-    },
-    {
       "title": "Wi-Fi 7 Adoption Is Accelerating",
       "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
       "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
@@ -909,50 +968,6 @@
       "relevance": 47,
       "date": "2026-08-19T15:22:00+00:00",
       "ts": 1787152920.0
-    },
-    {
-      "title": "LG brings latest telematics specs to EU vehicles",
-      "link": "https://www.mobileworldlive.com/industry/lg-brings-latest-telematics-specs-to-eu-vehicles/",
-      "summary": "LG Electronics drove home its advantage in the 5G telematics sector after stealing a march in providing European vehicle manufacturers with a set-up employing the latest 3GPP specifications. The post LG brings latest telematics specs to EU vehicles appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-08-19T11:46:04+00:00",
-      "ts": 1787139964.0
-    },
-    {
-      "title": "LG Uplus tackles physical AI handoff",
-      "link": "https://www.mobileworldlive.com/industry/lg-uplus-tackles-physical-ai-handoff/",
-      "summary": "LG Uplus highlighted handoff challenges associated with physical AI as it detailed work with academics to connect a RAN based on the technology to 5G. The post LG Uplus tackles physical AI handoff appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 33,
-      "date": "2026-08-19T11:01:28+00:00",
-      "ts": 1787137288.0
-    },
-    {
-      "title": "AI, 5G tipped to fuel gains at geothermal plants",
-      "link": "https://www.mobileworldlive.com/industry/ai-5g-tipped-to-fuel-gains-at-geothermal-plants/",
-      "summary": "Jieyuan Energy unveiled ambitions for a range of smart applications in geothermal power plants relying on private 5G and AI, as it discussed trials taking place at one of its sites with Taiwan Mobile. The post AI, 5G tipped to fuel gains at geothermal plants appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-08-19T10:57:19+00:00",
-      "ts": 1787137039.0
     },
     {
       "title": "Two Perth subsea cable faults test Australia’s bid to be the Indo-Pacific’s safest landing point",
@@ -1134,19 +1149,19 @@
       "ts": 1786971235.0
     },
     {
-      "title": "Study pours more cold water on SpaceX's small cell plan",
-      "link": "https://www.lightreading.com/satellite/study-pours-more-cold-water-on-spacex-s-small-cell-plan",
-      "summary": "Research firm MoffettNathanson flags a host of challenges for SpaceX's small cell plan, arguing the 'bull case' hinges on SpaceX locking down an MVNO deal.",
+      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
+      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
+      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
       "source": "Light Reading",
       "themes": [
-        "moveis",
+        "fibra",
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 63,
-      "date": "2026-08-14T13:00:00+00:00",
-      "ts": 1786712400.0
+      "relevance": 46,
+      "date": "2026-08-17T12:00:00+00:00",
+      "ts": 1786968000.0
     },
     {
       "title": "Shared Rural Network rollout extends to UK national parks with over 150 4G masts live",
@@ -1388,6 +1403,34 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Verizon cozies up to Google Cloud even more with Gemini integration",
+      "link": "https://www.fierce-network.com/wireless/verizon-cozies-google-cloud-even-more-gemini-integration",
+      "summary": "Verizon is deepening its Google Cloud ties with Gemini Enterprise, betting AI can clean up customer care, network issues and marketing workflows.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile’s rock star status gets Wall Street remix",
+      "link": "https://www.fierce-network.com/wireless/t-mobiles-rock-star-status-gets-wall-street-remix",
+      "summary": "Does one Wall Street analyst’s downgrade mean T-Mobile is toast? Not quite, but Big Magenta’s longstanding “value” proposition is clearly under pressure.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
