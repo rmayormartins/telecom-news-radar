@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T06:26:02.049645+00:00",
-  "count": 98,
+  "generated_at": "2026-08-25T12:24:34.420461+00:00",
+  "count": 99,
   "theme_counts": {
-    "moveis": 43,
+    "moveis": 45,
     "fibra": 13,
-    "antenas": 9,
+    "antenas": 10,
     "iot": 7,
-    "satelite": 22,
+    "satelite": 21,
     "radar_militar": 8,
     "radiocom": 0,
     "tv": 2,
@@ -16,7 +16,7 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
+    "in": 5,
     "jp": 4,
     "kr": 1,
     "cn": 5
@@ -86,12 +86,12 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Telecom Lead",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (22 itens)",
+      "status": "ok (20 itens)",
       "kept": 1
     },
     {
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -200,6 +200,65 @@
     }
   ],
   "items": [
+    {
+      "title": "Starlink shows its ambitions in India go beyond satellite broadband",
+      "link": "https://www.lightreading.com/satellite/starlink-shows-its-ambitions-in-india-go-beyond-satellite-broadband",
+      "summary": "Starlink's renewed Gen 2 application in India points to its direct-to-device (D2D) ambitions even as it awaits final approval to launch commercial services in the country.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-08-25T11:51:14+00:00",
+      "ts": 1787658674.0
+    },
+    {
+      "title": "UK, Ukraine strike deal to power battlefield with AI",
+      "link": "https://www.mobileworldlive.com/ai-cloud/uk-ukraine-strike-deal-to-power-battlefield-with-ai/",
+      "summary": "The UK and Ukraine partnered to jointly develop AI tools for defence and security, cooperating across government, industry and academia on model development, secure data and compute, autonomy and cybersecurity. The post UK, Ukraine strike deal to power battlefield with AI appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-25T10:46:44+00:00",
+      "ts": 1787654804.0
+    },
+    {
+      "title": "Ericsson, Nokia and Samsung clash over 6G's need for Nvidia",
+      "link": "https://www.lightreading.com/6g/ericsson-nokia-and-samsung-clash-over-6g-s-need-for-nvidia",
+      "summary": "The technical strategies of the main RAN vendors are diverging radically, with Nokia championing GPUs as a 6G essential and its rivals arguing otherwise.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-08-25T09:29:52+00:00",
+      "ts": 1787650192.0
+    },
+    {
+      "title": "Could a tiny ‘rainbow’ chip be the key to faster 6G communications?",
+      "link": "https://www.datacenterdynamics.com/en/news/could-a-tiny-rainbow-chip-be-the-key-to-faster-6g-communications/",
+      "summary": "Scientists develop rice-sized chip for next-gen millimeter-wave connectivity",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-08-25T08:14:41+00:00",
+      "ts": 1787645681.0
+    },
     {
       "title": "Telecom news: Telecom Policy in Nepal, T-Mobile, Ericsson, MTN Group",
       "link": "https://telecomlead.com/news/telecom-news-telecom-policy-in-nepal-t-mobile-ericsson-mtn-group-127440",
@@ -693,6 +752,23 @@
       "ts": 1787615151.0
     },
     {
+      "title": "Bank: SpaceX’s cellular goals unconvincing",
+      "link": "https://www.advanced-television.com/2026/08/25/bank-spacexs-cellular-goals-unconvincing/",
+      "summary": "Elon Musk’s SpaceX has made no secret of its ambitions to provide a US terrestrial cellular service using its Starlink broadband dishes as mini antennas. But analysts at investment bank UBS express considerable doubt over whether the deployment can be achieved, especially given the role of the three prominent US...",
+      "source": "Advanced Television",
+      "themes": [
+        "moveis",
+        "fibra",
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-08-24T23:28:52+00:00",
+      "ts": 1787614132.0
+    },
+    {
       "title": "Kepler Launches Service on its New Optical Data Relay Constellation",
       "link": "https://www.satellitetoday.com/technology/2026/08/24/kepler-launches-service-on-its-new-optical-data-relay-constellation/",
       "summary": "Kepler Communications is now offering service from the next-generation optical data relay network constellation to global commercial and government customers, the operator announced Monday. With service now active following SpaceX’s […] The post Kepler Launches Service on its New Optical Data Relay Constellation...",
@@ -897,9 +973,9 @@
       "ts": 1787329412.0
     },
     {
-      "title": "Japan consortium wins ITU-T photonic network standard",
+      "title": "Japanese consortium wins ITU-T photonic network standard",
       "link": "https://www.mobileworldlive.com/asia-pacific/japan-consortium-wins-itu-t-photonic-network-standard/",
-      "summary": "The ITU Telecommunication Standardization Sector (ITU-T) approved a framework for low-latency, energy-efficient networks designed to support the AI era, developed by seven Japanese telecoms and technology companies. The post Japan consortium wins ITU-T photonic network standard appeared first on Mobile World Live .",
+      "summary": "The ITU Telecommunication Standardisation Sector approved a framework for low-latency, energy-efficient networks designed for the AI era developed by seven Japanese telecoms and technology companies. The post Japanese consortium wins ITU-T photonic network standard appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "geral"
@@ -1016,20 +1092,6 @@
       "relevance": 57,
       "date": "2026-08-20T15:20:01+00:00",
       "ts": 1787239201.0
-    },
-    {
-      "title": "Zayo secures Corning fibre supply for AI expansion",
-      "link": "https://www.mobileworldlive.com/network-tech/zayo-secures-corning-fibre-supply-for-ai-expansion/",
-      "summary": "Zayo expanded its strategic supply agreement with Corning to secure a significant portion of the fibre optic cable it expects to need through the rest of the decade, as the digital infrastructure provider works to stay ahead of surging AI-driven demand. The post Zayo secures Corning fibre supply for AI expansion...",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-20T14:44:26+00:00",
-      "ts": 1787237066.0
     },
     {
       "title": "Why the first AI-native 6G cores will run on 5G foundations",
@@ -1243,36 +1305,6 @@
       "ts": 1787055647.0
     },
     {
-      "title": "Eurobites: UK to support 'next-gen' satellite projects",
-      "link": "https://www.lightreading.com/satellite/eurobites-uk-to-support-next-gen-satellite-projects",
-      "summary": "Also in today's EMEA regional roundup: Ericsson uses 5G for positioning; Orange Belgium launches cyber defense tool for businesses; VodafoneThree adds AI to non-emergency police call routing.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-18T11:55:00+00:00",
-      "ts": 1787054100.0
-    },
-    {
-      "title": "SES deepens Elveo Mobile bet as direct-to-device race narrows to three",
-      "link": "https://capacityglobal.com/news/ses-deepens-elveo-mobile-bet/",
-      "summary": "SES has expanded its strategic investment in Elveo Mobile, the direct-to-device operator formed this week from the completed merger of Lynk Global and Omnispace, giving the satellite race for standard smartphones a clearer three-way shape. The post SES deepens Elveo Mobile bet as direct-to-device race narrows to three...",
-      "source": "Capacity Media",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-18T10:51:02+00:00",
-      "ts": 1787050262.0
-    },
-    {
       "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
       "link": "https://europeanspaceflight.com/spacex-reverses-starlink-roaming-decision-for-polish-customers/",
       "summary": "SpaceX has agreed to keep Poland within Starlink’s European roaming region after the country’s foreign minister threatened to reconsider roughly $50 million in annual payments to the company. The dispute began on 12 Aug. when Polish Deputy Prime Minister and Digital Affairs Minister Krzysztof Gawkowski said Poland had...",
@@ -1314,21 +1346,6 @@
       "relevance": 52,
       "date": "2026-08-17T12:53:55+00:00",
       "ts": 1786971235.0
-    },
-    {
-      "title": "Shentel devotes web page to Starlink's 'hidden costs'",
-      "link": "https://www.lightreading.com/fttx/shentel-devotes-web-page-to-starlink-s-hidden-costs-",
-      "summary": "Shentel, which operates Glo Fiber, highlights Starlink's 'hidden costs' in a dedicated post on its website but also assured investors on its Q2 earnings call that it's seeing less impact than before from satellite competitors.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-17T12:00:00+00:00",
-      "ts": 1786968000.0
     },
     {
       "title": "Shared Rural Network rollout extends to UK national parks with over 150 4G masts live",
