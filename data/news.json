@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T18:22:11.218859+00:00",
-  "count": 96,
+  "generated_at": "2026-08-26T00:37:06.782452+00:00",
+  "count": 99,
   "theme_counts": {
     "moveis": 40,
-    "fibra": 12,
+    "fibra": 13,
     "antenas": 9,
     "iot": 8,
-    "satelite": 18,
-    "radar_militar": 7,
+    "satelite": 22,
+    "radar_militar": 8,
     "radiocom": 0,
     "tv": 1,
     "geral": 30
@@ -19,7 +19,7 @@
     "in": 3,
     "jp": 5,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (19 itens)",
+      "status": "ok (20 itens)",
       "kept": 1
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,63 @@
     }
   ],
   "items": [
+    {
+      "title": "Google Cloud and Verizon Expand Strategic Partnership to Scale Enterprise AI and Autonomous Network Operations",
+      "link": "https://techblog.comsoc.org/2026/08/25/google-cloud-and-verizon-expand-strategic-partnership-to-scale-enterprise-ai-and-autonomous-network-operations/",
+      "summary": "Executive Summary: Google Cloud and Verizon have announced a new strategic partnership agreement to deploy full-stack AI across the carrier’s customer experience, network operations, marketing, and enterprise data platforms — a step that signals how deeply hyperscaler AI infrastructure is now embedded in the telco...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-08-25T23:34:54+00:00",
+      "ts": 1787700894.0
+    },
+    {
+      "title": "Lyntris Targets Faster Delivery Timelines in Smallsat Interview With Madison Dye",
+      "link": "https://www.satellitetoday.com/partner-content/2026/08/25/lyntris-targets-faster-delivery-timelines-in-smallsat-interview-with-madison-dye/",
+      "summary": "Lyntris was formed earlier this year when Vitesse Systems combined with Accelint to form a new defense tech company. The combined company supports defense and national security missions across space, […] The post Lyntris Targets Faster Delivery Timelines in Smallsat Interview With Madison Dye appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-25T21:48:49+00:00",
+      "ts": 1787694529.0
+    },
+    {
+      "title": "Impulse Space Scales Rideshare Program to GEO With Increased Demand",
+      "link": "https://www.satellitetoday.com/launch/2026/08/25/impulse-space-scales-rideshare-program-to-geo-with-increased-demand/",
+      "summary": "SALT LAKE CITY, UTAH – Impulse Space has three rideshare missions to Geostationary Orbit (GEO) fully booked through 2028 and is looking at increasing the rideshare missions to twice as a […] The post Impulse Space Scales Rideshare Program to GEO With Increased Demand appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-25T21:36:01+00:00",
+      "ts": 1787693761.0
+    },
+    {
+      "title": "TrustPoint Aces C-band GNSS Interference Demo for U.S. Naval Air Systems Command",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/25/trustpoint-aces-c-band-gnss-interference-demo-for-u-s-naval-air-systems-command/",
+      "summary": "Space-based positioning and navigation solutions firm TrustPoint successfully demonstrated its C-band signals in the presence of GNSS interference, a milestone listed under its contract with U.S. Naval Air Systems Command […] The post TrustPoint Aces C-band GNSS Interference Demo for U.S. Naval Air Systems Command...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-25T20:01:35+00:00",
+      "ts": 1787688095.0
+    },
     {
       "title": "Telefonica prepares for heavy weekends at Oktoberfest",
       "link": "https://www.mobileworldlive.com/telefonica/telefonica-prepares-for-heavy-weekends-at-oktoberfest/",
@@ -1271,20 +1328,6 @@
       "ts": 1787040109.0
     },
     {
-      "title": "5G in Europe: Broad coverage but 5G SA cloud native core network lags other major markets (Table)",
-      "link": "https://techblog.comsoc.org/2026/08/17/5g-in-europe-broad-coverage-but-5g-sa-and-cloud-native-core-network-lag-other-major-markets-table/",
-      "summary": "Europe’s 5G market status appears increasingly uneven. The region has achieved broad 5G population coverage, but its transition to the 5G Standalone (SA) core network—and the cloud-native 5G Core required to realize 5G features and capabilities—remains materially behind several major markets. A recent workshop report...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-08-17T23:32:05+00:00",
-      "ts": 1787009525.0
-    },
-    {
       "title": "Shared Rural Network rollout extends to UK national parks with over 150 4G masts live",
       "link": "https://totaltele.com/shared-rural-network-rollout-extends-to-uk-national-parks-with-over-150-4g-masts-live/",
       "summary": "Over 150 4G mast upgrades are now live across the UK’s national parks, including the Yorkshire Dales and Eryri, Snowdonia, as part of the continued rollout of the Shared Rural Network. The post Shared Rural Network rollout extends to UK national parks with over 150 4G masts live appeared first on Total Telecom .",
@@ -1444,6 +1487,22 @@
       "ts": 0
     },
     {
+      "title": "NTIA signs off on Illinois BEAD final proposal — the last of 56 proposals",
+      "link": "https://www.fierce-network.com/broadband/ntia-signs-illinois-bead-final-proposal-last-56-proposals",
+      "summary": "In the approved Illinois final proposal, fiber will account for 68.1% of locations; FWA will account for 23.6%; and LEO satellite will snag 8.1% of locations.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Ciena: CSPs expect AI services and MOFN for revenue growth but they need network upgrades",
       "link": "https://www.fierce-network.com/newswire/ciena-csps-expect-ai-services-and-mofn-revenue-growth-they-need-network-upgrades",
       "summary": "A Ciena survey of CSPs underscores the revenue potential of AI-driven networking.",
@@ -1579,22 +1638,6 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Nokia’s China retreat signals bigger bet on AI and optical networks",
-      "link": "https://www.fierce-network.com/wireless/nokias-china-retreat-signals-bigger-bet-ai-and-optical-networks",
-      "summary": "Nokia's AI and cloud segment sales increases 105% year-on-year to $446 million Euros, 9% of total sales for the quarter.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
       "relevance": 23,
       "date": null,
       "ts": 0
