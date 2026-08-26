@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-26T12:26:59.426341+00:00",
-  "count": 98,
+  "generated_at": "2026-08-26T19:29:44.702624+00:00",
+  "count": 96,
   "theme_counts": {
-    "moveis": 33,
+    "moveis": 32,
     "fibra": 12,
     "antenas": 4,
-    "iot": 6,
+    "iot": 5,
     "satelite": 22,
-    "radar_militar": 7,
+    "radar_militar": 6,
     "radiocom": 0,
     "tv": 0,
-    "geral": 34
+    "geral": 35
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
+    "in": 2,
     "jp": 4,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -75,13 +75,13 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "DataCenterDynamics",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Ericsson Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,49 @@
     }
   ],
   "items": [
+    {
+      "title": "Private 5G Network Deployment: Architecture, Spectrum, Costs and Rollout in 2026",
+      "link": "https://tecknexus.com/private-5g-network-deployment-architecture-spectrum-costs-rollout/",
+      "summary": "Private 5G has become mainstream industrial infrastructure, but the decisions behind a deployment — architecture ownership, spectrum access, vendor selection, cost modelling, and rollout planning — are still frequently evaluated in isolation. This pillar guide lays out how the five core decisions fit together, giving...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-08-26T17:12:13+00:00",
+      "ts": 1787764333.0
+    },
+    {
+      "title": "Starlink’s Unconventional Approach to Cellular",
+      "link": "https://circleid.com/posts/starlinks-unconventional-approach-to-cellular",
+      "summary": "SpaceX is considering a terrestrial cellular network powered by Starlink satellite backhaul, but scarce spectrum, enormous capacity demands and entrenched rivals could make its boldest telecommunications gambit yet far harder to execute profitably at scale.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-08-26T14:35:00+00:00",
+      "ts": 1787754900.0
+    },
+    {
+      "title": "Mavenir, Sanas add voice AI to networks",
+      "link": "https://www.mobileworldlive.com/mavenir/mavenir-sanas-add-voice-ai-to-networks/",
+      "summary": "Mavenir joined forces with speech AI platform Sanas to integrate real-time voice intelligence directly into mobile operators’ network infrastructure to meet sovereign AI requirements. The post Mavenir, Sanas add voice AI to networks appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-26T13:01:00+00:00",
+      "ts": 1787749260.0
+    },
     {
       "title": "T-Mobile Leads US 5G Home Internet at 223 Mbps as AT&T Overtakes Verizon in FWA Performance",
       "link": "https://telecomlead.com/broadband/t-mobile-leads-us-5g-home-internet-at-223-mbps-as-att-overtakes-verizon-in-fwa-performance-127462",
@@ -228,6 +271,20 @@
       "relevance": 47,
       "date": "2026-08-26T10:38:55+00:00",
       "ts": 1787740735.0
+    },
+    {
+      "title": "SpaceX fuels mobile ambition with another helping of spectrum",
+      "link": "https://www.lightreading.com/satellite/spacex-feuls-mobile-ambition-with-another-helping-of-spectrum",
+      "summary": "SpaceX applied to FCC to acquire three unpaired AWS-3 licenses from Tristar License Group and add more spectrum for its mobile satellite service plan.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-08-26T10:25:16+00:00",
+      "ts": 1787739916.0
     },
     {
       "title": "Huawei, HP strike Wi-Fi patent licensing deal",
@@ -959,20 +1016,6 @@
       "ts": 1787613665.0
     },
     {
-      "title": "SDA Director Says Constellation’s Tranche 1 Checkouts Progressing Faster After a Slow Start",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/24/sda-director-says-constellations-tranche-1-checkouts-progressing-faster-after-a-slow-start/",
-      "summary": "SALT LAKE CITY, UTAH — On-orbit checkouts of the Tranche 1 Space Development Agency (SDA) satellites launched in July are progressing much faster than previous plane launches, SDA Director Dr. Gurpartap […] The post SDA Director Says Constellation’s Tranche 1 Checkouts Progressing Faster After a Slow Start appeared...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-24T19:28:00+00:00",
-      "ts": 1787599680.0
-    },
-    {
       "title": "India Just Set a Precedent for Enforcing Network Slice SLAs",
       "link": "https://tecknexus.com/network-slicing-sla-tariff-regulation-india/",
       "summary": "India's telecom regulator now requires operators to treat each 5G eMBB network slice as its own tariff, with mandated disclosure of measured — not advertised — speeds, and defined non-compliance. TeckNexus examines what this regulatory precedent means for network slicing as a commercial product, how it differs from...",
@@ -1035,21 +1078,6 @@
       "ts": 1787497443.0
     },
     {
-      "title": "Utility Private Networks Are Growing Faster Than Their Security Models",
-      "link": "https://tecknexus.com/utility-private-network-security-attack-surface/",
-      "summary": "As utilities scale private LTE, 5G, and industrial IoT across operational technology environments, the attack surface is scaling with them. TeckNexus examines the security gap documented across the sector this August, the UK NCSC's identity-based access recommendations, and what a Tampa Electric private LTE deployment...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-22T15:10:27+00:00",
-      "ts": 1787411427.0
-    },
-    {
       "title": "Japanese consortium wins ITU-T photonic network standard",
       "link": "https://www.mobileworldlive.com/asia-pacific/japan-consortium-wins-itu-t-photonic-network-standard/",
       "summary": "The ITU Telecommunication Standardisation Sector approved a framework for low-latency, energy-efficient networks designed for the AI era developed by seven Japanese telecoms and technology companies. The post Japanese consortium wins ITU-T photonic network standard appeared first on Mobile World Live .",
@@ -1064,22 +1092,6 @@
       "relevance": 51,
       "date": "2026-08-21T15:50:38+00:00",
       "ts": 1787327438.0
-    },
-    {
-      "title": "Musk pitches Starlink to address rural gap",
-      "link": "https://www.mobileworldlive.com/network-tech/musk-pitches-starlink-to-address-rural-gap/",
-      "summary": "Elon Musk touted Starlink’s potential to serve underserved rural areas of India, as the satellite operator continues to grapple with regulators over securing a licence to operate in the country. The post Musk pitches Starlink to address rural gap appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 54,
-      "date": "2026-08-21T15:04:48+00:00",
-      "ts": 1787324688.0
     },
     {
       "title": "EE joins Europe's growing 5G slicing cohort with consumer offer",
@@ -1226,22 +1238,6 @@
       "ts": 1787128200.0
     },
     {
-      "title": "Ericsson and Nokia shed thousands of China jobs at likely 6G cost",
-      "link": "https://www.lightreading.com/6g/ericsson-and-nokia-shed-thousands-of-china-jobs-at-likely-6g-cost",
-      "summary": "The retreat of Ericsson and Nokia from China, with 8,500 job cuts since 2021 and more ahead, is a further step toward 6G fragmentation.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 52,
-      "date": "2026-08-19T07:30:00+00:00",
-      "ts": 1787124600.0
-    },
-    {
       "title": "Omdia’s 2025 Mobile Core Network Leaders: Huawei #1 in market share; Nokia #1 for portfolio competitiveness",
       "link": "https://techblog.comsoc.org/2026/08/18/omdias-2025-mobile-core-network-leaders-huawei-1-in-market-share-nokia-1-for-competitiveness/",
       "summary": "Highlights of Omdia’s “Market Landscape: Core Vendors” Report: 1. Market Share: Five vendors control the 4G and 5G core market with a combined market share of 86.1% in 2025, down from 87.4% in 2024. The top three players collectively captured 70.9% of total revenue. With such a concentration of market power, each...",
@@ -1300,20 +1296,6 @@
       "relevance": 46,
       "date": "2026-08-18T08:01:49+00:00",
       "ts": 1787040109.0
-    },
-    {
-      "title": "Shared Rural Network rollout extends to UK national parks with over 150 4G masts live",
-      "link": "https://totaltele.com/shared-rural-network-rollout-extends-to-uk-national-parks-with-over-150-4g-masts-live/",
-      "summary": "Over 150 4G mast upgrades are now live across the UK’s national parks, including the Yorkshire Dales and Eryri, Snowdonia, as part of the continued rollout of the Shared Rural Network. The post Shared Rural Network rollout extends to UK national parks with over 150 4G masts live appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-08-14T11:33:18+00:00",
-      "ts": 1786707198.0
     },
     {
       "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
@@ -1430,20 +1412,6 @@
       "relevance": 29,
       "date": "2026-07-13T13:00:01+00:00",
       "ts": 1783947601.0
-    },
-    {
-      "title": "Quantum Sensor Sniffs Out Radio Signals in 3D",
-      "link": "https://spectrum.ieee.org/quantum-sensor-radio-signal-direction",
-      "summary": "Modern battlefields are bathed in radio waves for communications, radar , remote control of drones, and signal jamming to disrupt those functions. The ability to rapidly locate their source could provide considerable tactical advantage, and a new quantum sensor the size of a paper clip promises to work as an...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-07-12T13:00:01+00:00",
-      "ts": 1783861201.0
     },
     {
       "title": "Opinion: Fiber’s next act: From broadband to the infrastructure of the physical AI economy",
@@ -1575,40 +1543,40 @@
       "ts": 0
     },
     {
+      "title": "Mediacom preps fiber buildouts to unserved and underserved Indiana communities",
+      "link": "https://www.fierce-network.com/newswire/mediacom-preps-fiber-buildouts-unserved-and-underserved-indiana-communities",
+      "summary": "Nearly $2.4 million in projects to be completed in partnership with Indiana Broadband Office",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Cisco rides 'Mythos effect' as AI threats age out old gear",
+      "link": "https://www.fierce-network.com/cloud/cisco-rides-mythos-effect-ai-threats-age-out-old-gear",
+      "summary": "Cisco's new services find end-of-life network systems, patch what's still supported and plan replacement of the rest as AI attack fears mount.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Verizon cozies up to Google Cloud even more with Gemini integration",
       "link": "https://www.fierce-network.com/wireless/verizon-cozies-google-cloud-even-more-gemini-integration",
       "summary": "Verizon is deepening its Google Cloud ties with Gemini Enterprise, betting AI can clean up customer care, network issues and marketing workflows.",
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile’s rock star status gets Wall Street remix",
-      "link": "https://www.fierce-network.com/wireless/t-mobiles-rock-star-status-gets-wall-street-remix",
-      "summary": "Does one Wall Street analyst’s downgrade mean T-Mobile is toast? Not quite, but Big Magenta’s longstanding “value” proposition is clearly under pressure.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Zayo inks long-term fiber supply deal with Corning",
-      "link": "https://www.fierce-network.com/newswire/zayo-inks-long-term-fiber-supply-deal-corning",
-      "summary": "The deal secures most of the fiber Zayo needs for its planned expansion.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
