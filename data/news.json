@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-27T05:35:33.494839+00:00",
-  "count": 92,
+  "generated_at": "2026-08-27T17:01:37.939866+00:00",
+  "count": 94,
   "theme_counts": {
-    "moveis": 36,
+    "moveis": 42,
     "fibra": 10,
-    "antenas": 8,
+    "antenas": 9,
     "iot": 6,
-    "satelite": 22,
+    "satelite": 20,
     "radar_militar": 11,
     "radiocom": 0,
     "tv": 0,
-    "geral": 27
+    "geral": 25
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 2,
-    "jp": 4,
-    "kr": 1,
-    "cn": 3
+    "jp": 3,
+    "kr": 2,
+    "cn": 5
   },
   "research_count": 29,
   "sources": [
@@ -66,12 +66,12 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Telecoms Tech News",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "3G4G Blog",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ericsson Blog",
@@ -175,8 +175,8 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (20 itens)",
-      "kept": 1
+      "status": "ERRO: HTTP Error 429: Too Many Requests",
+      "kept": 0
     },
     {
       "source": "Via Satellite",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,138 @@
     }
   ],
   "items": [
+    {
+      "title": "LeoLabs Awarded $20.7 Million U.S. Space Force Contract for Mobile Scout-S Surveillance Radar",
+      "link": "https://satnews.com/2026/08/27/leolabs-awarded-20-7-million-u-s-space-force-contract-for-mobile-scout-s-surveillance-radar/",
+      "summary": "On Wednesday, August 26, 2026, commercial radar analytics operator LeoLabs announced it secured a $20.7 million contract from the U.S. Space Force to supply mobile radar hardware for Space Domain […]",
+      "source": "SatNews",
+      "themes": [
+        "radar_militar",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-08-27T16:47:23+00:00",
+      "ts": 1787849243.0
+    },
+    {
+      "title": "Boldyn Networks’ 5G RedCap to support smart livestock monitoring in West Sussex",
+      "link": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring-in-west-sussex/",
+      "summary": "Growing Sussex milestone gives farmers near real-time insight into livestock-building conditions, supporting animal welfare and farm resilience The post Boldyn Networks’ 5G RedCap to support smart livestock monitoring in West Sussex appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-08-27T15:38:37+00:00",
+      "ts": 1787845117.0
+    },
+    {
+      "title": "5G FWA has rural-urban performance gap in US – Ookla",
+      "link": "https://www.lightreading.com/fixed-wireless-access/5g-fwa-has-rural-urban-performance-gap-in-us-ookla",
+      "summary": "Ookla's latest Speedtest data for 5G FWA in the US shows urban users get better performance than rural users, T-Mobile leads on speed and summer slows service.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-08-27T15:27:14+00:00",
+      "ts": 1787844434.0
+    },
+    {
+      "title": "Private 5G Spectrum: CBRS, Licensed, Shared and Leased Models Compared",
+      "link": "https://tecknexus.com/private-5g-spectrum-cbrs-licensed-shared-leased-compared/",
+      "summary": "Spectrum access shapes cost, control, and deployment speed more than almost any other private 5G decision. This guide compares directly licensed spectrum, CBRS-style shared access, other national shared frameworks, and the emerging leased spectrum model, including how a 2026 port authority procurement proved the...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-08-27T15:15:42+00:00",
+      "ts": 1787843742.0
+    },
+    {
+      "title": "GSMA, ITU to co-locate events in Doha",
+      "link": "https://www.mobileworldlive.com/gsma/gsma-itu-to-co-locate-events-in-doha/",
+      "summary": "The GSMA teamed up with the ITU to co-locate its MWC26 Doha event with the Plenipotentiary Conference (PP-26), a move the pair stated provides a global platform bringing industry and policy makers together. The post GSMA, ITU to co-locate events in Doha appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-27T15:11:04+00:00",
+      "ts": 1787843464.0
+    },
+    {
+      "title": "China Broadnet misses 5G subscriptions target as growth levels out",
+      "link": "https://www.lightreading.com/5g/china-broadnet-misses-5g-subscriptions-target-as-growth-levels-out",
+      "summary": "China's small fourth operator, China Broadnet, has failed to reach its 5G subscriber target and doesn't have a path to profitability.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 52,
+      "date": "2026-08-27T14:31:26+00:00",
+      "ts": 1787841086.0
+    },
+    {
+      "title": "SKT heralds new horizon with AI data centre spin-off",
+      "link": "https://www.mobileworldlive.com/asia-pacific/skt-heralds-new-horizon-with-ai-data-centre-spin-off/",
+      "summary": "SK Telecom unveiled plans to form a new business named SK Horizon out of assets spun-off from its Broadband arm and sell KRW3.1 trillion ($2.2 billion) worth of equity in it to investment partners. The post SKT heralds new horizon with AI data centre spin-off appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 31,
+      "date": "2026-08-27T13:33:41+00:00",
+      "ts": 1787837621.0
+    },
+    {
+      "title": "New Zealand pair eye RAN sharing move",
+      "link": "https://www.mobileworldlive.com/operators/new-zealand-pair-eye-ran-sharing-move/",
+      "summary": "One NZ and 2degrees set out a plan to create an infrastructure business comprising their respective RAN assets, citing the opportunity for efficiency benefits, faster rollout of new technology and improved resilience. The post New Zealand pair eye RAN sharing move appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-08-27T10:21:14+00:00",
+      "ts": 1787826074.0
+    },
+    {
+      "title": "Balls don't lie: Ericsson and Nokia's big 5G bet meets multibeam threat",
+      "link": "https://www.lightreading.com/5g/balls-don-t-lie-ericsson-and-nokia-s-big-5g-bet-meets-multibeam-threat",
+      "summary": "Lens-based technologies from Amphenol and MatSing are getting passive aggressive with the massive MIMO products from Ericsson and Nokia.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-08-27T07:30:00+00:00",
+      "ts": 1787815800.0
+    },
     {
       "title": "Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation",
       "link": "https://arxiv.org/abs/2607.27778",
@@ -676,6 +808,20 @@
       "ts": 1787749260.0
     },
     {
+      "title": "T-Mobile Leads US 5G Home Internet at 223 Mbps as AT&T Overtakes Verizon in FWA Performance",
+      "link": "https://telecomlead.com/broadband/t-mobile-leads-us-5g-home-internet-at-223-mbps-as-att-overtakes-verizon-in-fwa-performance-127462",
+      "summary": "T-Mobile maintained a lead in the US 5G FWA (fixed wireless access) market during the second quarter of 2026, delivering faster download and upload speeds and lower latency than AT&T Internet Air and Verizon 5G Home Internet. Ookla Speedtest Intelligence data shows that T-Mobile Home Internet achieved a download speed...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-08-26T11:55:07+00:00",
+      "ts": 1787745307.0
+    },
+    {
       "title": "Lite Coms cleared for sovereign satellite defence roles",
       "link": "https://www.mobileworldlive.com/industry/lite-coms-cleared-for-sovereign-satellite-defence-roles/",
       "summary": "Tactical satellite communications terminal maker Lite Coms believes it is ready to take a key role in future military and state operations after achieving a pivotal certification covering network sovereignty. The post Lite Coms cleared for sovereign satellite defence roles appeared first on Mobile World Live .",
@@ -689,20 +835,6 @@
       "relevance": 47,
       "date": "2026-08-26T10:38:55+00:00",
       "ts": 1787740735.0
-    },
-    {
-      "title": "SpaceX fuels mobile ambition with another helping of spectrum",
-      "link": "https://www.lightreading.com/satellite/spacex-feuls-mobile-ambition-with-another-helping-of-spectrum",
-      "summary": "SpaceX applied to FCC to acquire three unpaired AWS-3 licenses from Tristar License Group and add more spectrum for its mobile satellite service plan.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-08-26T10:25:16+00:00",
-      "ts": 1787739916.0
     },
     {
       "title": "Huawei, HP strike Wi-Fi patent licensing deal",
@@ -926,20 +1058,6 @@
       "ts": 1787658674.0
     },
     {
-      "title": "UK, Ukraine strike deal to power battlefield with AI",
-      "link": "https://www.mobileworldlive.com/ai-cloud/uk-ukraine-strike-deal-to-power-battlefield-with-ai/",
-      "summary": "The UK and Ukraine partnered to jointly develop AI tools for defence and security, cooperating across government, industry and academia on model development, secure data and compute, autonomy and cybersecurity. The post UK, Ukraine strike deal to power battlefield with AI appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-08-25T10:46:44+00:00",
-      "ts": 1787654804.0
-    },
-    {
       "title": "Ericsson, Nokia and Samsung clash over 6G's need for Nvidia",
       "link": "https://www.lightreading.com/6g/ericsson-nokia-and-samsung-clash-over-6g-s-need-for-nvidia",
       "summary": "The technical strategies of the main RAN vendors are diverging radically, with Nokia championing GPUs as a 6G essential and its rivals arguing otherwise.",
@@ -1014,20 +1132,6 @@
       "ts": 1787583905.0
     },
     {
-      "title": "AT&T becomes connectivity partner for US Open tennis",
-      "link": "https://www.mobileworldlive.com/att/att-becomes-connectivity-partner-for-us-open-tennis/",
-      "summary": "AT&T has been named the official connectivity partner of the US Open under a new five-year agreement with the United States Tennis Association, with the operator detailing network upgrades built to handle tens of thousands of fans streaming, scanning tickets and staying connected across the tournament grounds. The...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-08-24T08:16:59+00:00",
-      "ts": 1787559419.0
-    },
-    {
       "title": "Inside a Working Blueprint for Intelligent Mining",
       "link": "https://tecknexus.com/intelligent-mining-private-5g-ai-architecture/",
       "summary": "A blueprint presented at Huawei South Africa Connect 2026 lays out a layered mining connectivity and AI architecture in unusual technical detail: private 5G for open-pit operations, Wi-Fi Mesh underground, distributed fibre sensing for perimeter and conveyor monitoring, edge computer vision on existing CCTV, and a...",
@@ -1043,22 +1147,6 @@
       "relevance": 52,
       "date": "2026-08-23T15:04:03+00:00",
       "ts": 1787497443.0
-    },
-    {
-      "title": "Japanese consortium wins ITU-T photonic network standard",
-      "link": "https://www.mobileworldlive.com/asia-pacific/japan-consortium-wins-itu-t-photonic-network-standard/",
-      "summary": "The ITU Telecommunication Standardisation Sector approved a framework for low-latency, energy-efficient networks designed for the AI era developed by seven Japanese telecoms and technology companies. The post Japanese consortium wins ITU-T photonic network standard appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 51,
-      "date": "2026-08-21T15:50:38+00:00",
-      "ts": 1787327438.0
     },
     {
       "title": "EE joins Europe's growing 5G slicing cohort with consumer offer",
@@ -1106,20 +1194,6 @@
       "ts": 1787261638.0
     },
     {
-      "title": "Charter-Cox deal is a wrap, with 'Spectrum' brand to take over in mid-September",
-      "link": "https://www.lightreading.com/cable-technology/charter-cox-deal-is-a-wrap-with-spectrum-brand-to-take-over-within-a-year",
-      "summary": "Charter and Cox have closed a merger that creates the world's largest cable operator, with more than 70 million locations passed and about 37 million customers. Cox Communications will become the corporate name, with Charter's Spectrum branding.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-20T16:41:20+00:00",
-      "ts": 1787244080.0
-    },
-    {
       "title": "EE introduces premium ‘Fast Lane’ 5G network slicing service",
       "link": "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/",
       "summary": "The service will ensure that Fast Lane users continue to receive high-quality mobile service even in busy areas like concerts and sporting events The post EE introduces premium ‘Fast Lane’ 5G network slicing service appeared first on Total Telecom .",
@@ -1162,21 +1236,6 @@
       "ts": 1787226596.0
     },
     {
-      "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
-      "link": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
-      "summary": "SAN FRANCISCO / PERTH, 20 AUGUST 2026: LatConnect 60 (LC60) has signed a commercial contract with Transcelestial for an optical communications terminal on its SWIRSAT-1 mission, plus access to Transcelestial’s […] The post LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation...",
-      "source": "SpaceNews",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-20T10:00:00+00:00",
-      "ts": 1787220000.0
-    },
-    {
       "title": "Wi-Fi 7 Adoption Is Accelerating",
       "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
       "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
@@ -1189,20 +1248,6 @@
       "relevance": 47,
       "date": "2026-08-19T15:22:00+00:00",
       "ts": 1787152920.0
-    },
-    {
-      "title": "Satellite D2D dealmaking: SpaceX, Amazon, Rocket Lab and the spectrum they're after",
-      "link": "https://www.lightreading.com/satellite/satellite-d2d-dealmaking-spacex-amazon-rocket-lab-and-the-spectrum-they-re-after",
-      "summary": "Mobile satellite spectrum with potential to connect directly to smartphones is at the heart of recent M&A moves following SpaceX's EchoStar spectrum buy.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-08-19T08:30:00+00:00",
-      "ts": 1787128200.0
     },
     {
       "title": "Omdia’s 2025 Mobile Core Network Leaders: Huawei #1 in market share; Nokia #1 for portfolio competitiveness",
@@ -1352,20 +1397,6 @@
       "ts": 1784030772.0
     },
     {
-      "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
-      "link": "https://spectrum.ieee.org/nokia-phones-history",
-      "summary": "In 2005, Nokia sold its billionth mobile phone , a budget-friendly device that went to a customer in Nigeria. By then, the company, based in Espoo, Finland, was making one of every three cellphones globally. But just nine years later, the mobile-device maker offloaded its entire handset division to Microsoft for...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 29,
-      "date": "2026-07-13T13:00:01+00:00",
-      "ts": 1783947601.0
-    },
-    {
       "title": "Opinion: Fiber’s next act: From broadband to the infrastructure of the physical AI economy",
       "link": "https://www.fierce-network.com/broadband/opinion-fibers-next-act-broadband-infrastructure-physical-ai-economy",
       "summary": "As AI moves into the physical world, Cityside Fiber, of Southern California, sees broadband networks evolving into the distributed infrastructure layer for edge computing, smart cities and machine intelligence.",
@@ -1377,6 +1408,22 @@
       "research": false,
       "countries": [],
       "relevance": 48,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Qualcomm keeps China in its 6G sights",
+      "link": "https://www.fierce-network.com/wireless/qualcomm-keeps-china-its-6g-sights-0",
+      "summary": "Qualcomm executives were asked to comment on China’s role in the 6G standardization process. Their answer was predictable.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 47,
       "date": null,
       "ts": 0
     },
@@ -1470,20 +1517,6 @@
       "title": "NGMN: Agentic AI needs guardrails before it can run telco networks",
       "link": "https://www.fierce-network.com/cloud/ngmn-agentic-ai-needs-guardrails-it-can-run-telco-networks",
       "summary": "NGMN says agentic AI could help operators move toward Level 4 autonomous networks, but only if the industry tackles identity, governance, interoperability, security and cost controls first.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "GSMA warns telcos against outsourcing AI future to hyperscalers",
-      "link": "https://www.fierce-network.com/wireless/gsma-warns-telcos-against-outsourcing-ai-future-hyperscalers",
-      "summary": "GSMA says today’s top AI models still don’t understand telecom well enough — and open telco models could be the key to closing the gap.",
       "source": "Fierce Network",
       "themes": [
         "geral"
