@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27T17:01:37.939866+00:00",
+  "generated_at": "2026-08-28T01:52:12.951726+00:00",
   "count": 94,
   "theme_counts": {
-    "moveis": 42,
-    "fibra": 10,
+    "moveis": 43,
+    "fibra": 12,
     "antenas": 9,
-    "iot": 6,
-    "satelite": 20,
+    "iot": 5,
+    "satelite": 21,
     "radar_militar": 11,
     "radiocom": 0,
     "tv": 0,
-    "geral": 25
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
@@ -18,7 +18,7 @@
     "il": 0,
     "in": 2,
     "jp": 3,
-    "kr": 2,
+    "kr": 3,
     "cn": 5
   },
   "research_count": 29,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -175,8 +175,8 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ERRO: HTTP Error 429: Too Many Requests",
-      "kept": 0
+      "status": "ok (21 itens)",
+      "kept": 1
     },
     {
       "source": "Via Satellite",
@@ -200,6 +200,49 @@
     }
   ],
   "items": [
+    {
+      "title": "Lite Coms Adds SES MEO Compatibility, Comtech WGS-Certified Modem to Lite Sat 1.3A Terminal",
+      "link": "https://www.satellitetoday.com/technology/2026/08/27/lite-coms-adds-ses-meo-compatibility-comtech-wgs-certified-modem-to-lite-sat-1-3a-terminal/",
+      "summary": "U.S. satcom terminal manufacturer Lite Coms is now selling its Lite Sat 1.3A terminal in a validated remote-terminal configuration for SES O3b mPOWER Sovereign Services and Hybrid Sovereign Gateway architectures. […] The post Lite Coms Adds SES MEO Compatibility, Comtech WGS-Certified Modem to Lite Sat 1.3A Terminal...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-08-27T20:31:02+00:00",
+      "ts": 1787862662.0
+    },
+    {
+      "title": "Kepler Enters Optical Tech Partnership, Hosted Payload Agreement with NorthStar",
+      "link": "https://www.satellitetoday.com/technology/2026/08/27/kepler-enters-optical-tech-partnership-hosted-payload-agreement-with-northstar/",
+      "summary": "Kepler Communications will combine its optical data relay infrastructure with NorthStar’s Space Domain Awareness (SDA) services under the terms of a new strategic partnership the two companies announced Thursday. The deal […] The post Kepler Enters Optical Tech Partnership, Hosted Payload Agreement with NorthStar...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-27T20:26:10+00:00",
+      "ts": 1787862370.0
+    },
+    {
+      "title": "Ookla: U.S. Fixed Wireless Access Crosses 17 Million Connections as Adoption Shifts from Rural to Urban",
+      "link": "https://techblog.comsoc.org/2026/08/27/ookla-u-s-fixed-wireless-access-crosses-17-million-connections-as-adoption-shifts-from-rural-to-urban/",
+      "summary": "According to Ookla, Fixed Wireless Access (FWA) has solidified its position as a structural component of the U.S. residential broadband market. In Q1 2026, combined FWA connections across Verizon, T-Mobile, and AT&T surpassed 17 million, representing 13.74% of the nation’s 123.75 million home broadband subscriptions,...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 68,
+      "date": "2026-08-27T18:40:29+00:00",
+      "ts": 1787856029.0
+    },
     {
       "title": "LeoLabs Awarded $20.7 Million U.S. Space Force Contract for Mobile Scout-S Surveillance Radar",
       "link": "https://satnews.com/2026/08/27/leolabs-awarded-20-7-million-u-s-space-force-contract-for-mobile-scout-s-surveillance-radar/",
@@ -808,20 +851,6 @@
       "ts": 1787749260.0
     },
     {
-      "title": "T-Mobile Leads US 5G Home Internet at 223 Mbps as AT&T Overtakes Verizon in FWA Performance",
-      "link": "https://telecomlead.com/broadband/t-mobile-leads-us-5g-home-internet-at-223-mbps-as-att-overtakes-verizon-in-fwa-performance-127462",
-      "summary": "T-Mobile maintained a lead in the US 5G FWA (fixed wireless access) market during the second quarter of 2026, delivering faster download and upload speeds and lower latency than AT&T Internet Air and Verizon 5G Home Internet. Ookla Speedtest Intelligence data shows that T-Mobile Home Internet achieved a download speed...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-08-26T11:55:07+00:00",
-      "ts": 1787745307.0
-    },
-    {
       "title": "Lite Coms cleared for sovereign satellite defence roles",
       "link": "https://www.mobileworldlive.com/industry/lite-coms-cleared-for-sovereign-satellite-defence-roles/",
       "summary": "Tactical satellite communications terminal maker Lite Coms believes it is ready to take a key role in future military and state operations after achieving a pivotal certification covering network sovereignty. The post Lite Coms cleared for sovereign satellite defence roles appeared first on Mobile World Live .",
@@ -922,20 +951,6 @@
       "relevance": 24,
       "date": "2026-08-25T21:36:01+00:00",
       "ts": 1787693761.0
-    },
-    {
-      "title": "TrustPoint Aces C-band GNSS Interference Demo for U.S. Naval Air Systems Command",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/25/trustpoint-aces-c-band-gnss-interference-demo-for-u-s-naval-air-systems-command/",
-      "summary": "Space-based positioning and navigation solutions firm TrustPoint successfully demonstrated its C-band signals in the presence of GNSS interference, a milestone listed under its contract with U.S. Naval Air Systems Command […] The post TrustPoint Aces C-band GNSS Interference Demo for U.S. Naval Air Systems Command...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-08-25T20:01:35+00:00",
-      "ts": 1787688095.0
     },
     {
       "title": "Telefonica prepares for heavy weekends at Oktoberfest",
@@ -1070,20 +1085,6 @@
       "relevance": 58,
       "date": "2026-08-25T09:29:52+00:00",
       "ts": 1787650192.0
-    },
-    {
-      "title": "SSC Space Execs Talk Ground Service and Lunar Mission Growth at Smallsat",
-      "link": "https://www.satellitetoday.com/partner-content/2026/08/25/ssc-space-execs-talk-ground-service-and-lunar-mission-growth-at-smallsat/",
-      "summary": "To kick off the Small Satellite Conference, Via Satellite interviews SSC Space executives Erwin Mercado, head of market region Americas, and Greg Johnson, business development director, about the company’s offerings […] The post SSC Space Execs Talk Ground Service and Lunar Mission Growth at Smallsat appeared first on...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-25T04:03:34+00:00",
-      "ts": 1787630614.0
     },
     {
       "title": "Omdia: LEO Satellite IoT to grow at 88.6% CAGR; comparison with other forecasts",
@@ -1236,6 +1237,21 @@
       "ts": 1787226596.0
     },
     {
+      "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
+      "link": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
+      "summary": "SAN FRANCISCO / PERTH, 20 AUGUST 2026: LatConnect 60 (LC60) has signed a commercial contract with Transcelestial for an optical communications terminal on its SWIRSAT-1 mission, plus access to Transcelestial’s […] The post LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation...",
+      "source": "SpaceNews",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-08-20T10:00:00+00:00",
+      "ts": 1787220000.0
+    },
+    {
       "title": "Wi-Fi 7 Adoption Is Accelerating",
       "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
       "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
@@ -1264,20 +1280,6 @@
       "relevance": 60,
       "date": "2026-08-19T00:29:12+00:00",
       "ts": 1787099352.0
-    },
-    {
-      "title": "Applying Zero Trust at the Wireless Edge: Securing Mixed WPA2 and WPA3 IoT Fleets",
-      "link": "https://techblog.comsoc.org/2026/08/18/applying-zero-trust-at-the-wireless-edge-securing-mixed-wpa2-and-wpa3-iot-fleets/",
-      "summary": "By Iftikhar Javed khan with Ajay Lotan Thakur Abstract Zero-trust architecture is a security model that eliminates implicit trust based on network location and instead requires every access request to be continuously authenticated, authorized, and validated before it is granted (NIST SP 800-207), Yet while zero-trust...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-08-18T19:17:05+00:00",
-      "ts": 1787080625.0
     },
     {
       "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
@@ -1444,6 +1446,36 @@
       "ts": 0
     },
     {
+      "title": "Urban people like FWA, but cities might run low on availability",
+      "link": "https://www.fierce-network.com/broadband/urban-people-fwa-cities-might-run-low-availability",
+      "summary": "According to Ookla Speedtest data, roughly 70% of second quarter 2026 FWA test samples originated from urban users, compared to 30% from rural areas.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 42,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "SK Telecom launches dedicated data center infrastructure company",
+      "link": "https://www.fierce-network.com/newswire/sk-telecom-launches-dedicated-data-center-infrastructure-company",
+      "summary": "The creation of SK Horizon builds on the operator's earlier launch of a dedicated AI data center business unit called SK Hyper.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Opinion: What if AI ends up being good for telcos — but bad for telco workers?",
       "link": "https://www.fierce-network.com/modernization/opinion-what-if-ai-ends-being-good-telcos-bad-telco-workers",
       "summary": "As telecom operators invest in agentic AI, autonomous networking and automated customer care, the industry faces a question that folks are afraid to ask.",
@@ -1489,34 +1521,6 @@
       "title": "AT&T moves video up the stack with EdgeVis Cloud",
       "link": "https://www.fierce-network.com/broadband/att-moves-video-stack-edgevis-cloud",
       "summary": "AT&T's new EdgeVis Cloud service moves video monitoring to a managed cloud and helps the carrier move beyond mere connectivity.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Ericsson: Telco edge was early, not wrong — AI may finally make it real",
-      "link": "https://www.fierce-network.com/cloud/ericsson-telco-edge-was-early-not-wrong-ai-may-finally-make-it-real",
-      "summary": "The telco edge’s first act flopped, but Ericsson says AI inferencing, robotics and new network capabilities could finally give the edge the oomph it was missing.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "NGMN: Agentic AI needs guardrails before it can run telco networks",
-      "link": "https://www.fierce-network.com/cloud/ngmn-agentic-ai-needs-guardrails-it-can-run-telco-networks",
-      "summary": "NGMN says agentic AI could help operators move toward Level 4 autonomous networks, but only if the industry tackles identity, governance, interoperability, security and cost controls first.",
       "source": "Fierce Network",
       "themes": [
         "geral"
