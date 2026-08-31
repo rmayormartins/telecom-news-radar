@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-31T12:03:49.350861+00:00",
-  "count": 96,
+  "generated_at": "2026-08-31T22:08:59.792110+00:00",
+  "count": 85,
   "theme_counts": {
-    "moveis": 42,
-    "fibra": 14,
+    "moveis": 31,
+    "fibra": 11,
     "antenas": 7,
     "iot": 3,
     "satelite": 23,
-    "radar_militar": 6,
+    "radar_militar": 4,
     "radiocom": 0,
     "tv": 0,
-    "geral": 30
+    "geral": 29
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 5,
-    "jp": 3,
-    "kr": 3,
+    "in": 3,
+    "jp": 2,
+    "kr": 2,
     "cn": 3
   },
   "research_count": 27,
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -70,8 +70,8 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ok (10 itens)",
-      "kept": 8
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Telecoms Tech News",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -135,7 +135,7 @@
     },
     {
       "source": "6GWorld",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (20 itens)",
+      "status": "ok (21 itens)",
       "kept": 1
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -191,15 +191,100 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
-      "status": "ok (10 itens)",
-      "kept": 1
+      "status": "ERRO: <urlopen error timed out>",
+      "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "ViaSat-3 F3 Satellite Enters Service",
+      "link": "https://www.satellitetoday.com/connectivity/2026/08/31/viasat-3-f3-satellite-enters-service/",
+      "summary": "Viasat’s third ViaSat-3 satellite (F3) has officially entered service over the Asia-Pacific region, the operator confirmed Monday. The F3 satellite will add 1 terabit per second of capacity to Viasat’s […] The post ViaSat-3 F3 Satellite Enters Service appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-31T19:39:02+00:00",
+      "ts": 1788205142.0
+    },
+    {
+      "title": "All.Space Wins DIU Award Focused on Increasing Production Rate",
+      "link": "https://www.satellitetoday.com/government-military/2026/08/31/all-space-wins-diu-award-focused-on-increasing-production-rate/",
+      "summary": "All.Space has received a contract from the Defense Innovation Unit (DIU) for its Hydra satcom terminal under a contract focused on increasing production rates in the U.S. defense supply chain. […] The post All.Space Wins DIU Award Focused on Increasing Production Rate appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-31T19:36:16+00:00",
+      "ts": 1788204976.0
+    },
+    {
+      "title": "NorthStar to Lead ESA Consortium on Uncontrolled Reentry",
+      "link": "https://www.satellitetoday.com/sustainability/2026/08/31/northstar-to-lead-esa-consortium-on-uncontrolled-reentry/",
+      "summary": "The European Space Agency (ESA) has selected NorthStar Earth & Space to lead a study on uncontrolled atmospheric re-entry. NorthStar’s European subsidiary will lead a consortium for ESA’s Forecasting of […] The post NorthStar to Lead ESA Consortium on Uncontrolled Reentry appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-08-31T19:32:44+00:00",
+      "ts": 1788204764.0
+    },
+    {
+      "title": "OHB to Build 18 MEO Satellites for IRIS² in Nearly €1B Award",
+      "link": "https://www.satellitetoday.com/connectivity/2026/08/31/ohb-to-build-18-meo-satellites-for-iris%c2%b2-in-nearly-e1b-award/",
+      "summary": "SES awarded a contract to OHB to manufacture 18 Medium-Earth Orbit (MEO) satellites for Europe’s IRIS² constellation in a deal announced Monday. OHB said the contract is worth nearly 1 […] The post OHB to Build 18 MEO Satellites for IRIS² in Nearly €1B Award appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-31T19:29:36+00:00",
+      "ts": 1788204576.0
+    },
+    {
+      "title": "SpaceX Petitions FCC to Block Viasat Satellite Authorization Over Starlink Interference Concerns",
+      "link": "https://satnews.com/2026/08/31/spacex-petitions-fcc-to-block-viasat-satellite-authorization-over-starlink-interference-concerns/",
+      "summary": "On August 31, 2026, SpaceX submitted a petition to the Federal Communications Commission (FCC) requesting that regulators block or attach strict operational conditions to a proposed satellite deployment by geostationary […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-08-31T18:45:14+00:00",
+      "ts": 1788201914.0
+    },
+    {
+      "title": "Structured Error Analysis: The Missing Pre-Deployment Step for Machine Learning in Telecom Operations",
+      "link": "https://techblog.comsoc.org/2026/08/31/structured-error-analysis-the-missing-pre-deployment-step-for-machine-learning-in-telecom-operations/",
+      "summary": "By Priyank Jain with Alan J Weissberger Introduction: Machine learning now sits inside telecom operations. Models predict equipment failures before they become outages, forecast traffic for capacity planning, flag telemetry anomalies, and estimate quality of experience from indirect signals—decisions that carry real...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-08-31T14:37:36+00:00",
+      "ts": 1788187056.0
+    },
     {
       "title": "If CBRS is wasted spectrum, what do you call rural 5G?",
       "link": "https://www.lightreading.com/regulatory-politics/if-cbrs-is-wasted-spectrum-what-do-you-call-rural-5g-",
@@ -213,22 +298,6 @@
       "relevance": 60,
       "date": "2026-08-31T12:00:00+00:00",
       "ts": 1788177600.0
-    },
-    {
-      "title": "Telecom Jobs 2026: T-Mobile, Verizon, Jio, Vodafone Idea and Deutsche Telekom Are Hiring",
-      "link": "https://telecomlead.com/telecom-services/telecom-jobs-2026-t-mobile-verizon-jio-vodafone-idea-and-deutsche-telekom-are-hiring-127516",
-      "summary": "The telecom job market remains active in 2026 despite major operators simultaneously using automation and restructuring to reduce employment in selected functions. Current recruitment data shows that operators are continuing to hire heavily for network engineering, 5G, cloud, cybersecurity, software, data, enterprise...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 50,
-      "date": "2026-08-31T05:42:40+00:00",
-      "ts": 1788154960.0
     },
     {
       "title": "Novel Double-Chirp Preamble Design for Multiuser Asynchronous Massive MIMO LoRa Networks",
@@ -647,51 +716,6 @@
       "ts": 1788136196.0
     },
     {
-      "title": "Telecom Test and Measurement: Customer Cases Show Faster Testing and Lower Costs",
-      "link": "https://telecomlead.com/telecom-equipment/telecom-test-and-measurement-customer-cases-show-faster-testing-and-lower-costs-127509",
-      "summary": "Mobile operators, smartphone makers, network-equipment manufacturers and semiconductor companies are seeking measurable returns from test and measurement investments. Customer examples highlight lower radio power consumption, shorter semiconductor design cycles, improved 5G throughput and more efficient fiber...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-08-30T05:35:32+00:00",
-      "ts": 1788068132.0
-    },
-    {
-      "title": "Reliance Jio Ranks No. 2 in 11 Circles Despite Leading India Telecom Market with 506 Million Subscribers",
-      "link": "https://telecomlead.com/4g-lte/reliance-jio-ranks-no-2-in-11-circles-despite-leading-india-telecom-market-with-506-million-subscribers-127506",
-      "summary": "Reliance Jio remains India’s largest mobile operator with 506.03 million subscriptions, but national leadership does not translate into dominance across every telecom circle. July 2026 wireless subscriber figures show Jio ranks second in 11 of India’s 22 telecom service areas, trailing Bharti Airtel in 10 and Vodafone...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 49,
-      "date": "2026-08-30T05:17:13+00:00",
-      "ts": 1788067033.0
-    },
-    {
-      "title": "Private 5G vs Public 5G vs Wi-Fi 7 – Where Each Model Actually Fits",
-      "link": "https://tecknexus.com/private-5g-vs-public-5g-vs-wifi7-comparison/",
-      "summary": "Public 5G, private 5G, and Wi-Fi 7 each fit a genuinely different set of connectivity needs, and the right choice depends on the specific application's mobility, density, and reliability requirements rather than organisational habit. This guide sets out a practical decision framework for choosing between the three,...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-08-29T15:30:25+00:00",
-      "ts": 1788017425.0
-    },
-    {
       "title": "NASA’s Nancy Grace Roman Telescope Launches on Falcon Heavy Rocket",
       "link": "https://www.satellitetoday.com/launch/2026/08/28/nasas-nancy-grace-roman-telescope-set-for-falcon-heavy-launch-on-sunday/",
       "summary": "NASA’s Nancy Grace Roman Telescope lifted off on Sunday morning on a SpaceX Falcon Heavy mission. The telescope, named after NASA’s first chief of astronomy, will orbit 1 million miles […] The post NASA’s Nancy Grace Roman Telescope Launches on Falcon Heavy Rocket appeared first on Via Satellite .",
@@ -749,20 +773,6 @@
       "ts": 1787931691.0
     },
     {
-      "title": "Private 5G Providers and Vendor Categories – Who Does What Across RAN, Core, Edge and Integration",
-      "link": "https://tecknexus.com/private-5g-providers-vendor-landscape-ran-core-edge-integration/",
-      "summary": "Private 5G deployments are built from four distinct vendor layers — RAN, core, edge, and systems integration — each with its own specialist vendor landscape and evaluation criteria. This guide breaks down what each layer covers and who operates in it, as a foundation for structured, comparable vendor evaluation rather...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-08-28T15:20:44+00:00",
-      "ts": 1787930444.0
-    },
-    {
       "title": "KDDI gets robot job with Osaka Metro",
       "link": "https://www.mobileworldlive.com/industry/kddi-gets-robot-job-with-osaka-metro/",
       "summary": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport system in the Japanese city of Osaka. The post KDDI gets robot job with Osaka Metro appeared first on Mobile World Live .",
@@ -779,21 +789,6 @@
       "ts": 1787914080.0
     },
     {
-      "title": "Italy Launches 26 GHz Spectrum Auction with Base Price of €180 Million for 5G and Fixed Wireless Networks",
-      "link": "https://telecomlead.com/5g/italy-launches-26-ghz-spectrum-auction-with-base-price-of-e180-million-for-5g-and-fixed-wireless-networks-127498",
-      "summary": "Italy has launched a new spectrum auction covering the lower 26 GHz frequency band as the country seeks to accelerate investment in 5G, fixed wireless access, private networks and ultra-high-capacity broadband services. The Ministry of Enterprises and Made in Italy published the auction notice in Italy’s Official...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-08-28T09:41:19+00:00",
-      "ts": 1787910079.0
-    },
-    {
       "title": "COAI chief bullish India will have edge on rivals in 6G era",
       "link": "https://www.mobileworldlive.com/5g/coai-chief-bullish-india-will-have-edge-on-rivals-in-6g-era/",
       "summary": "INTERVIEW: The director general of the Cellular Operators Association of India argued the country is better placed than some global rivals to become a 6G leader, but conceded there could be some “slippages” on the road to a commercial launch in 2030. The post COAI chief bullish India will have edge on rivals in 6G era...",
@@ -808,34 +803,6 @@
       "relevance": 47,
       "date": "2026-08-28T08:42:34+00:00",
       "ts": 1787906554.0
-    },
-    {
-      "title": "Lite Coms Adds SES MEO Compatibility, Comtech WGS-Certified Modem to Lite Sat 1.3A Terminal",
-      "link": "https://www.satellitetoday.com/technology/2026/08/27/lite-coms-adds-ses-meo-compatibility-comtech-wgs-certified-modem-to-lite-sat-1-3a-terminal/",
-      "summary": "U.S. satcom terminal manufacturer Lite Coms is now selling its Lite Sat 1.3A terminal in a validated remote-terminal configuration for SES O3b mPOWER Sovereign Services and Hybrid Sovereign Gateway architectures. […] The post Lite Coms Adds SES MEO Compatibility, Comtech WGS-Certified Modem to Lite Sat 1.3A Terminal...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-08-27T20:31:02+00:00",
-      "ts": 1787862662.0
-    },
-    {
-      "title": "Kepler Enters Optical Tech Partnership, Hosted Payload Agreement with NorthStar",
-      "link": "https://www.satellitetoday.com/technology/2026/08/27/kepler-enters-optical-tech-partnership-hosted-payload-agreement-with-northstar/",
-      "summary": "Kepler Communications will combine its optical data relay infrastructure with NorthStar’s Space Domain Awareness (SDA) services under the terms of a new strategic partnership the two companies announced Thursday. The deal […] The post Kepler Enters Optical Tech Partnership, Hosted Payload Agreement with NorthStar...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-27T20:26:10+00:00",
-      "ts": 1787862370.0
     },
     {
       "title": "Ookla: U.S. Fixed Wireless Access Crosses 17 Million Connections as Adoption Shifts from Rural to Urban",
@@ -879,20 +846,6 @@
       "relevance": 59,
       "date": "2026-08-27T15:27:14+00:00",
       "ts": 1787844434.0
-    },
-    {
-      "title": "Private 5G Spectrum: CBRS, Licensed, Shared and Leased Models Compared",
-      "link": "https://tecknexus.com/private-5g-spectrum-cbrs-licensed-shared-leased-compared/",
-      "summary": "Spectrum access shapes cost, control, and deployment speed more than almost any other private 5G decision. This guide compares directly licensed spectrum, CBRS-style shared access, other national shared frameworks, and the emerging leased spectrum model, including how a 2026 port authority procurement proved the...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-08-27T15:15:42+00:00",
-      "ts": 1787843742.0
     },
     {
       "title": "GSMA, ITU to co-locate events in Doha",
@@ -968,35 +921,6 @@
       "relevance": 64,
       "date": "2026-08-27T07:30:00+00:00",
       "ts": 1787815800.0
-    },
-    {
-      "title": "LeoLabs to Provide Space Force With Surveillance Radar",
-      "link": "https://www.satellitetoday.com/government-military/2026/08/26/leolabs-to-provide-space-force-with-surveillance-radar/",
-      "summary": "LeoLabs on Wednesday said the Space Force has awarded the company a $20.7 million contract to deliver a modified version of its Scout containerized space surveillance radar for a “new […] The post LeoLabs to Provide Space Force With Surveillance Radar appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-08-26T22:53:36+00:00",
-      "ts": 1787784816.0
-    },
-    {
-      "title": "Private 5G Network Deployment: Architecture, Spectrum, Costs and Rollout in 2026",
-      "link": "https://tecknexus.com/private-5g-network-deployment-architecture-spectrum-costs-rollout/",
-      "summary": "Private 5G has become mainstream industrial infrastructure, but the decisions behind a deployment — architecture ownership, spectrum access, vendor selection, cost modelling, and rollout planning — are still frequently evaluated in isolation. This pillar guide lays out how the five core decisions fit together, giving...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-08-26T17:12:13+00:00",
-      "ts": 1787764333.0
     },
     {
       "title": "Starlink’s Unconventional Approach to Cellular",
@@ -1101,22 +1025,6 @@
       "ts": 1787700894.0
     },
     {
-      "title": "The Telecom Capital Stack Is Being Rebuilt Around AI",
-      "link": "https://tecknexus.com/telecom-ai-infrastructure-capital-reallocation/",
-      "summary": "Telecom operators cutting headcount while pouring capital into AI infrastructure, and chipmakers financing fabs at infrastructure scale, are two sides of the same reallocation. TeckNexus traces the connections across SK Telecom, KT, LG Uplus, T-Mobile, AT&T, Verizon, Nvidia, SK hynix, and SpaceX to show how the AI...",
-      "source": "TeckNexus",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 48,
-      "date": "2026-08-25T15:47:25+00:00",
-      "ts": 1787672845.0
-    },
-    {
       "title": "Freshwave telegrams latest small cell deployment",
       "link": "https://www.mobileworldlive.com/network-tech/freshwave-telegrams-latest-small-cell-deployment/",
       "summary": "Freshwave detailed its latest neutral host network deployment, configuring a building once associated with receiving information by telegraph to access all UK mobile networks using small cells. The post Freshwave telegrams latest small cell deployment appeared first on Mobile World Live .",
@@ -1131,18 +1039,20 @@
       "ts": 1787672824.0
     },
     {
-      "title": "Carriers Are Quietly Replacing SMS Passcodes With the SIM Itself",
-      "link": "https://tecknexus.com/sim-based-authentication-enterprise-device-identity/",
-      "summary": "Glide.id's MagicalAuth, launched in public beta with AT&T, T-Mobile US, and Verizon, replaces SMS one-time passcodes with hardware-rooted authentication anchored in the SIM or eSIM itself, verified through open network APIs. TeckNexus examines how this differs structurally from SMS OTP, why the three-carrier coverage...",
-      "source": "TeckNexus",
+      "title": "Tata Communications, Tata Motors Passenger Vehicles join forces to accelerate software-defined vehicle deployment in India",
+      "link": "https://www.lightreading.com/iot/tata-communications-tata-motors-passenger-vehicles-join-forces-to-accelerate-software-defined-vehicle-deployment-in-india",
+      "summary": "Introduces in-built 5G cellular connectivity in the Sierra.ev. #pressrelease",
+      "source": "Light Reading",
       "themes": [
-        "geral"
+        "moveis"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-08-25T15:46:43+00:00",
-      "ts": 1787672803.0
+      "countries": [
+        "in"
+      ],
+      "relevance": 50,
+      "date": "2026-08-25T14:56:36+00:00",
+      "ts": 1787669796.0
     },
     {
       "title": "Lightcurve gives DOCSIS 3.1+ a go, but fiber is the goal",
@@ -1222,80 +1132,18 @@
       "ts": 1787615151.0
     },
     {
-      "title": "India Just Set a Precedent for Enforcing Network Slice SLAs",
-      "link": "https://tecknexus.com/network-slicing-sla-tariff-regulation-india/",
-      "summary": "India's telecom regulator now requires operators to treat each 5G eMBB network slice as its own tariff, with mandated disclosure of measured — not advertised — speeds, and defined non-compliance. TeckNexus examines what this regulatory precedent means for network slicing as a commercial product, how it differs from...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-08-24T15:45:23+00:00",
-      "ts": 1787586323.0
-    },
-    {
-      "title": "Carriers Are Becoming the Vendor for Site Security AI, Not Just Connectivity",
-      "link": "https://tecknexus.com/telecom-managed-ai-security-drone-video/",
-      "summary": "Lockheed Martin's upcoming 5G drone detection service on Verizon's network, and AT&T's cloud-managed Video Intelligence platform, both point at physical security AI capabilities moving from owned, standalone systems toward managed services delivered over carrier 5G networks. TeckNexus examines what that delivery shift...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-24T15:05:05+00:00",
-      "ts": 1787583905.0
-    },
-    {
-      "title": "EE joins Europe's growing 5G slicing cohort with consumer offer",
-      "link": "https://www.lightreading.com/5g/ee-joins-europe-s-growing-5g-slicing-cohort-with-consumer-offer",
-      "summary": "EE has jumped into the 5G network slicing race with its Fast Lane offer, available for both consumers and small businesses.",
+      "title": "AST SpaceMobile's 800MHz tests 'milestone' for D2D, says AT&T",
+      "link": "https://www.lightreading.com/satellite/ast-spacemobile-s-800mhz-tests-milestone-for-d2d-says-at-t",
+      "summary": "AST SpaceMobile won the FCC's temporary approval to test satellite direct-to-device in 800MHz spectrum, with AT&T's Jeff McElfresh calling it a 'milestone' to fill 'connectivity gaps.'",
       "source": "Light Reading",
       "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-21T09:37:10+00:00",
-      "ts": 1787305030.0
-    },
-    {
-      "title": "Test shows uplink boost on Verizon's 5G SA but most telcos still hold back",
-      "link": "https://www.lightreading.com/5g/test-shows-uplink-boost-on-verizon-s-5g-sa-but-most-telcos-still-hold-back",
-      "summary": "A test on Verizon's 5G network with Ericsson radios shows 2.2-times better upstream spectral efficiency on 5G standalone compared to non-standalone.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 65,
-      "date": "2026-08-21T07:30:00+00:00",
-      "ts": 1787297400.0
-    },
-    {
-      "title": "Palo Alto Networks: Frontier AI Critical Defense Program + Collaboration with NTT DATA for secure AI adoption",
-      "link": "https://techblog.comsoc.org/2026/08/20/palo-alto-networks-frontier-ai-critical-defense-program-collaboration-with-ntt-data/",
-      "summary": "Palo Alto Networks Introduces Frontier AI Critical Defense Program: Yesterday, cybersecurity leader Palo Alto Networks joined Nvidia and Anthropic in assembling a high-profile coalition focused on defending critical infrastructure against AI-enabled cyberattacks. Gartner defines AI in cybersecurity as: “The...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 39,
-      "date": "2026-08-20T21:33:58+00:00",
-      "ts": 1787261638.0
+      "relevance": 50,
+      "date": "2026-08-21T16:23:32+00:00",
+      "ts": 1787329412.0
     },
     {
       "title": "EE introduces premium ‘Fast Lane’ 5G network slicing service",
@@ -1339,21 +1187,6 @@
       "relevance": 47,
       "date": "2026-08-19T15:22:00+00:00",
       "ts": 1787152920.0
-    },
-    {
-      "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
-      "link": "https://europeanspaceflight.com/spacex-reverses-starlink-roaming-decision-for-polish-customers/",
-      "summary": "SpaceX has agreed to keep Poland within Starlink’s European roaming region after the country’s foreign minister threatened to reconsider roughly $50 million in annual payments to the company. The dispute began on 12 Aug. when Polish Deputy Prime Minister and Digital Affairs Minister Krzysztof Gawkowski said Poland had...",
-      "source": "European Spaceflight",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-08-18T08:01:49+00:00",
-      "ts": 1787040109.0
     },
     {
       "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
@@ -1428,6 +1261,20 @@
       "ts": 1784732760.0
     },
     {
+      "title": "Optimum will start using T-Mobile’s 5G SA core for mobile services",
+      "link": "https://www.fierce-network.com/broadband/optimum-will-start-using-t-mobiles-5g-sa-core-mobile-services",
+      "summary": "This will give Optimum customers the ability to use their mobile service with a broader portfolio of devices and improved international roaming.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Qualcomm keeps China in its 6G sights",
       "link": "https://www.fierce-network.com/wireless/qualcomm-keeps-china-its-6g-sights-0",
       "summary": "Qualcomm executives were asked to comment on China’s role in the 6G standardization process. Their answer was predictable.",
@@ -1440,22 +1287,6 @@
         "cn"
       ],
       "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "NTIA signs off on Illinois BEAD final proposal — the last of 56 proposals",
-      "link": "https://www.fierce-network.com/broadband/ntia-signs-illinois-bead-final-proposal-last-56-proposals",
-      "summary": "In the approved Illinois final proposal, fiber will account for 68.1% of locations; FWA will account for 23.6%; and LEO satellite will snag 8.1% of locations.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
       "date": null,
       "ts": 0
     },
@@ -1532,44 +1363,45 @@
       "ts": 0
     },
     {
-      "title": "Ciena: CSPs expect AI services and MOFN for revenue growth but they need network upgrades",
-      "link": "https://www.fierce-network.com/newswire/ciena-csps-expect-ai-services-and-mofn-revenue-growth-they-need-network-upgrades",
-      "summary": "A Ciena survey of CSPs underscores the revenue potential of AI-driven networking.",
+      "title": "HUMAIN taps AMD, Cisco and Together AI for Saudi Arabia AI infrastructure push",
+      "link": "https://www.fierce-network.com/newswire/humain-taps-amd-cisco-and-together-ai-saudi-arabia-ai-infrastructure-push",
+      "summary": "Saudi Arabia’s AI ambitions are getting a boost from HUMAIN deals with AMD, Cisco and Together AI.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
     {
-      "title": "T-Mobile says open AI models aren’t just about cost — they’re about fit",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-says-open-ai-models-arent-just-about-cost-theyre-about-fit",
-      "summary": "T-Mobile is experimenting with open and smaller AI models, but don’t expect the carrier to ditch frontier models just yet.",
+      "title": "Robotics could give telcos their best shot at winning in AI",
+      "link": "https://www.fierce-network.com/cloud/robotics-could-give-telcos-their-best-shot-winning-ai",
+      "summary": "Telcos may have missed the first AI wave, but roaming robots could put them back in the game — if SpaceX doesn’t get there first.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "moveis",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
     {
-      "title": "AT&T moves video up the stack with EdgeVis Cloud",
-      "link": "https://www.fierce-network.com/broadband/att-moves-video-stack-edgevis-cloud",
-      "summary": "AT&T's new EdgeVis Cloud service moves video monitoring to a managed cloud and helps the carrier move beyond mere connectivity.",
+      "title": "How industry decides which network technologies survive",
+      "link": "https://www.fierce-network.com/sponsored/how-industry-decides-which-network-technologies-survive",
+      "summary": "Industry is networking’s toughest customer, testing which technologies can keep factories, utilities, and AI-powered operations running.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
