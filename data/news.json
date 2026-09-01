@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-31T22:08:59.792110+00:00",
-  "count": 85,
+  "generated_at": "2026-09-01T02:29:02.200481+00:00",
+  "count": 96,
   "theme_counts": {
-    "moveis": 31,
-    "fibra": 11,
+    "moveis": 40,
+    "fibra": 14,
     "antenas": 7,
     "iot": 3,
-    "satelite": 23,
+    "satelite": 24,
     "radar_militar": 4,
     "radiocom": 0,
     "tv": 0,
@@ -16,9 +16,9 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
+    "in": 6,
     "jp": 2,
-    "kr": 2,
+    "kr": 3,
     "cn": 3
   },
   "research_count": 27,
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -70,12 +70,12 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 7
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -135,7 +135,7 @@
     },
     {
       "source": "6GWorld",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (21 itens)",
+      "status": "ok (20 itens)",
       "kept": 1
     },
     {
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
@@ -195,8 +195,8 @@
     },
     {
       "source": "European Spaceflight",
-      "status": "ERRO: <urlopen error timed out>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     }
   ],
   "items": [
@@ -298,6 +298,22 @@
       "relevance": 60,
       "date": "2026-08-31T12:00:00+00:00",
       "ts": 1788177600.0
+    },
+    {
+      "title": "Telecom Jobs 2026: T-Mobile, Verizon, Jio, Vodafone Idea and Deutsche Telekom Are Hiring",
+      "link": "https://telecomlead.com/telecom-services/telecom-jobs-2026-t-mobile-verizon-jio-vodafone-idea-and-deutsche-telekom-are-hiring-127516",
+      "summary": "The telecom job market remains active in 2026 despite major operators simultaneously using automation and restructuring to reduce employment in selected functions. Current recruitment data shows that operators are continuing to hire heavily for network engineering, 5G, cloud, cybersecurity, software, data, enterprise...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 50,
+      "date": "2026-08-31T05:42:40+00:00",
+      "ts": 1788154960.0
     },
     {
       "title": "Novel Double-Chirp Preamble Design for Multiuser Asynchronous Massive MIMO LoRa Networks",
@@ -687,21 +703,6 @@
       "ts": 1788148800.0
     },
     {
-      "title": "AST SpaceMobile updates on progress",
-      "link": "https://www.advanced-television.com/2026/08/31/ast-spacemobile-updates-on-progress/",
-      "summary": "Would-be global cellular satellite communications operator AST SpaceMobile says its latest launched satellites, BlueBirds 12 and 13, have had their giant 2,400 sq. ft. solar arrays successfully deployed. AST adds that it now has six more satellites in production (up from 42 to 48 craft) as at August 26th. SpaceX...",
-      "source": "Advanced Television",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-08-31T00:34:42+00:00",
-      "ts": 1788136482.0
-    },
-    {
       "title": "After Bell Labs: Telecom Industry Funds Only a Fraction of the Innovation Needed",
       "link": "https://techblog.comsoc.org/2026/08/30/after-bell-labs-telecom-industry-funds-only-a-fraction-of-the-innovation-needed/",
       "summary": "Many telecom analysts have noted former Bell Labs CTO and President Marcus Weldon scathing linkedin post, sharply criticizing deep staff cuts and warnings of “erasure” at the iconic research division. Weldon said he believes Bell Labs staffing has been cut to nearly half of the 1,200 strong workforce that was in place...",
@@ -714,6 +715,51 @@
       "relevance": 32,
       "date": "2026-08-31T00:29:56+00:00",
       "ts": 1788136196.0
+    },
+    {
+      "title": "Telecom Test and Measurement: Customer Cases Show Faster Testing and Lower Costs",
+      "link": "https://telecomlead.com/telecom-equipment/telecom-test-and-measurement-customer-cases-show-faster-testing-and-lower-costs-127509",
+      "summary": "Mobile operators, smartphone makers, network-equipment manufacturers and semiconductor companies are seeking measurable returns from test and measurement investments. Customer examples highlight lower radio power consumption, shorter semiconductor design cycles, improved 5G throughput and more efficient fiber...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-08-30T05:35:32+00:00",
+      "ts": 1788068132.0
+    },
+    {
+      "title": "Reliance Jio Ranks No. 2 in 11 Circles Despite Leading India Telecom Market with 506 Million Subscribers",
+      "link": "https://telecomlead.com/4g-lte/reliance-jio-ranks-no-2-in-11-circles-despite-leading-india-telecom-market-with-506-million-subscribers-127506",
+      "summary": "Reliance Jio remains India’s largest mobile operator with 506.03 million subscriptions, but national leadership does not translate into dominance across every telecom circle. July 2026 wireless subscriber figures show Jio ranks second in 11 of India’s 22 telecom service areas, trailing Bharti Airtel in 10 and Vodafone...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-08-30T05:17:13+00:00",
+      "ts": 1788067033.0
+    },
+    {
+      "title": "Private 5G vs Public 5G vs Wi-Fi 7 – Where Each Model Actually Fits",
+      "link": "https://tecknexus.com/private-5g-vs-public-5g-vs-wifi7-comparison/",
+      "summary": "Public 5G, private 5G, and Wi-Fi 7 each fit a genuinely different set of connectivity needs, and the right choice depends on the specific application's mobility, density, and reliability requirements rather than organisational habit. This guide sets out a practical decision framework for choosing between the three,...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-08-29T15:30:25+00:00",
+      "ts": 1788017425.0
     },
     {
       "title": "NASA’s Nancy Grace Roman Telescope Launches on Falcon Heavy Rocket",
@@ -773,6 +819,20 @@
       "ts": 1787931691.0
     },
     {
+      "title": "Private 5G Providers and Vendor Categories – Who Does What Across RAN, Core, Edge and Integration",
+      "link": "https://tecknexus.com/private-5g-providers-vendor-landscape-ran-core-edge-integration/",
+      "summary": "Private 5G deployments are built from four distinct vendor layers — RAN, core, edge, and systems integration — each with its own specialist vendor landscape and evaluation criteria. This guide breaks down what each layer covers and who operates in it, as a foundation for structured, comparable vendor evaluation rather...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-08-28T15:20:44+00:00",
+      "ts": 1787930444.0
+    },
+    {
       "title": "KDDI gets robot job with Osaka Metro",
       "link": "https://www.mobileworldlive.com/industry/kddi-gets-robot-job-with-osaka-metro/",
       "summary": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport system in the Japanese city of Osaka. The post KDDI gets robot job with Osaka Metro appeared first on Mobile World Live .",
@@ -787,6 +847,21 @@
       "relevance": 31,
       "date": "2026-08-28T10:48:00+00:00",
       "ts": 1787914080.0
+    },
+    {
+      "title": "Italy Launches 26 GHz Spectrum Auction with Base Price of €180 Million for 5G and Fixed Wireless Networks",
+      "link": "https://telecomlead.com/5g/italy-launches-26-ghz-spectrum-auction-with-base-price-of-e180-million-for-5g-and-fixed-wireless-networks-127498",
+      "summary": "Italy has launched a new spectrum auction covering the lower 26 GHz frequency band as the country seeks to accelerate investment in 5G, fixed wireless access, private networks and ultra-high-capacity broadband services. The Ministry of Enterprises and Made in Italy published the auction notice in Italy’s Official...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-08-28T09:41:19+00:00",
+      "ts": 1787910079.0
     },
     {
       "title": "COAI chief bullish India will have edge on rivals in 6G era",
@@ -846,6 +921,20 @@
       "relevance": 59,
       "date": "2026-08-27T15:27:14+00:00",
       "ts": 1787844434.0
+    },
+    {
+      "title": "Private 5G Spectrum: CBRS, Licensed, Shared and Leased Models Compared",
+      "link": "https://tecknexus.com/private-5g-spectrum-cbrs-licensed-shared-leased-compared/",
+      "summary": "Spectrum access shapes cost, control, and deployment speed more than almost any other private 5G decision. This guide compares directly licensed spectrum, CBRS-style shared access, other national shared frameworks, and the emerging leased spectrum model, including how a 2026 port authority procurement proved the...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-08-27T15:15:42+00:00",
+      "ts": 1787843742.0
     },
     {
       "title": "GSMA, ITU to co-locate events in Doha",
@@ -921,6 +1010,20 @@
       "relevance": 64,
       "date": "2026-08-27T07:30:00+00:00",
       "ts": 1787815800.0
+    },
+    {
+      "title": "Private 5G Network Deployment: Architecture, Spectrum, Costs and Rollout in 2026",
+      "link": "https://tecknexus.com/private-5g-network-deployment-architecture-spectrum-costs-rollout/",
+      "summary": "Private 5G has become mainstream industrial infrastructure, but the decisions behind a deployment — architecture ownership, spectrum access, vendor selection, cost modelling, and rollout planning — are still frequently evaluated in isolation. This pillar guide lays out how the five core decisions fit together, giving...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-08-26T17:12:13+00:00",
+      "ts": 1787764333.0
     },
     {
       "title": "Starlink’s Unconventional Approach to Cellular",
@@ -1025,6 +1128,22 @@
       "ts": 1787700894.0
     },
     {
+      "title": "The Telecom Capital Stack Is Being Rebuilt Around AI",
+      "link": "https://tecknexus.com/telecom-ai-infrastructure-capital-reallocation/",
+      "summary": "Telecom operators cutting headcount while pouring capital into AI infrastructure, and chipmakers financing fabs at infrastructure scale, are two sides of the same reallocation. TeckNexus traces the connections across SK Telecom, KT, LG Uplus, T-Mobile, AT&T, Verizon, Nvidia, SK hynix, and SpaceX to show how the AI...",
+      "source": "TeckNexus",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 48,
+      "date": "2026-08-25T15:47:25+00:00",
+      "ts": 1787672845.0
+    },
+    {
       "title": "Freshwave telegrams latest small cell deployment",
       "link": "https://www.mobileworldlive.com/network-tech/freshwave-telegrams-latest-small-cell-deployment/",
       "summary": "Freshwave detailed its latest neutral host network deployment, configuring a building once associated with receiving information by telegraph to access all UK mobile networks using small cells. The post Freshwave telegrams latest small cell deployment appeared first on Mobile World Live .",
@@ -1037,6 +1156,20 @@
       "relevance": 54,
       "date": "2026-08-25T15:47:04+00:00",
       "ts": 1787672824.0
+    },
+    {
+      "title": "Carriers Are Quietly Replacing SMS Passcodes With the SIM Itself",
+      "link": "https://tecknexus.com/sim-based-authentication-enterprise-device-identity/",
+      "summary": "Glide.id's MagicalAuth, launched in public beta with AT&T, T-Mobile US, and Verizon, replaces SMS one-time passcodes with hardware-rooted authentication anchored in the SIM or eSIM itself, verified through open network APIs. TeckNexus examines how this differs structurally from SMS OTP, why the three-carrier coverage...",
+      "source": "TeckNexus",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-08-25T15:46:43+00:00",
+      "ts": 1787672803.0
     },
     {
       "title": "Tata Communications, Tata Motors Passenger Vehicles join forces to accelerate software-defined vehicle deployment in India",
@@ -1132,6 +1265,22 @@
       "ts": 1787615151.0
     },
     {
+      "title": "India Just Set a Precedent for Enforcing Network Slice SLAs",
+      "link": "https://tecknexus.com/network-slicing-sla-tariff-regulation-india/",
+      "summary": "India's telecom regulator now requires operators to treat each 5G eMBB network slice as its own tariff, with mandated disclosure of measured — not advertised — speeds, and defined non-compliance. TeckNexus examines what this regulatory precedent means for network slicing as a commercial product, how it differs from...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-08-24T15:45:23+00:00",
+      "ts": 1787586323.0
+    },
+    {
       "title": "AST SpaceMobile's 800MHz tests 'milestone' for D2D, says AT&T",
       "link": "https://www.lightreading.com/satellite/ast-spacemobile-s-800mhz-tests-milestone-for-d2d-says-at-t",
       "summary": "AST SpaceMobile won the FCC's temporary approval to test satellite direct-to-device in 800MHz spectrum, with AT&T's Jeff McElfresh calling it a 'milestone' to fill 'connectivity gaps.'",
@@ -1187,6 +1336,21 @@
       "relevance": 47,
       "date": "2026-08-19T15:22:00+00:00",
       "ts": 1787152920.0
+    },
+    {
+      "title": "SpaceX Reverses Starlink Roaming Decision for Polish Customers",
+      "link": "https://europeanspaceflight.com/spacex-reverses-starlink-roaming-decision-for-polish-customers/",
+      "summary": "SpaceX has agreed to keep Poland within Starlink’s European roaming region after the country’s foreign minister threatened to reconsider roughly $50 million in annual payments to the company. The dispute began on 12 Aug. when Polish Deputy Prime Minister and Digital Affairs Minister Krzysztof Gawkowski said Poland had...",
+      "source": "European Spaceflight",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-08-18T08:01:49+00:00",
+      "ts": 1787040109.0
     },
     {
       "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
@@ -1363,6 +1527,20 @@
       "ts": 0
     },
     {
+      "title": "Charter’s CFO departs; AT&T sues Charter for false advertising",
+      "link": "https://www.fierce-network.com/broadband/charters-cfo-departs-att-sues-charter-false-advertising",
+      "summary": "AT&T's lawsuit claims that Charter’s advertising for its broadband service uses words such as “fiber powered” to deceptively suggest a fiber-to-the-home service.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 27,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "HUMAIN taps AMD, Cisco and Together AI for Saudi Arabia AI infrastructure push",
       "link": "https://www.fierce-network.com/newswire/humain-taps-amd-cisco-and-together-ai-saudi-arabia-ai-infrastructure-push",
       "summary": "Saudi Arabia’s AI ambitions are getting a boost from HUMAIN deals with AMD, Cisco and Together AI.",
@@ -1412,20 +1590,6 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Cisco rides 'Mythos effect' as AI threats age out old gear",
-      "link": "https://www.fierce-network.com/cloud/cisco-rides-mythos-effect-ai-threats-age-out-old-gear",
-      "summary": "Cisco's new services find end-of-life network systems, patch what's still supported and plan replacement of the rest as AI attack fears mount.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
