@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-03T20:15:21.417986+00:00",
-  "count": 101,
+  "generated_at": "2026-09-04T01:50:51.631248+00:00",
+  "count": 102,
   "theme_counts": {
-    "moveis": 50,
-    "fibra": 10,
+    "moveis": 48,
+    "fibra": 11,
     "antenas": 9,
     "iot": 2,
-    "satelite": 27,
+    "satelite": 25,
     "radar_militar": 15,
     "radiocom": 1,
     "tv": 0,
-    "geral": 21
+    "geral": 23
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 1,
     "jp": 5,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -121,7 +121,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "One6G",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (15 itens)",
+      "status": "ok (14 itens)",
       "kept": 0
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,48 @@
     }
   ],
   "items": [
+    {
+      "title": "PwC: Global AI data center spending to hit $31.6tn by 2050; Role of full stack orchestration layer explained",
+      "link": "https://techblog.comsoc.org/2026/09/03/pwc-global-ai-data-center-spending-to-hit-31-6tn-by-2050-role-of-full-stack-orchestration-layer/",
+      "summary": "The AI infrastructure boom is set to continue as per most market research firms. AI chip and compute server upgrade cycles will necessitate the continued spending of many hundreds of billions of dollars on AI compute infrastructure for the foreseeable future. Global data center spending is set to reach US$31.6...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-04T01:05:15+00:00",
+      "ts": 1788483915.0
+    },
+    {
+      "title": "Telecom news: Quectel, VodafoneThree, Elliott, Deutsche Telekom, T-Mobile",
+      "link": "https://telecomlead.com/news/telecom-news-quectel-vodafonethree-elliott-deutsche-telekom-t-mobile-127601",
+      "summary": "Today’s telecom news includes announcements on Quectel, VodafoneThree, Elliott, Deutsche Telekom, T-Mobile, among others. Quectel Advances 5G Rail Communications With FRMCS-Ready Module Quectel has introduced an LGA version of its RG660Qx Sub-6GHz 5G module series with support for frequency bands associated with the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-09-04T00:51:50+00:00",
+      "ts": 1788483110.0
+    },
+    {
+      "title": "SES Wins Peruvian Navy Deal",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/03/ses-wins-peruvian-navy-deal/",
+      "summary": "SES has signed a new government deal in Latin America, extending its collaboration with the Peruvian Navy (Marina de Guerra del Perú) to deliver sovereign, multi-orbit satellite connectivity. This will […] The post SES Wins Peruvian Navy Deal appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-03T20:53:31+00:00",
+      "ts": 1788468811.0
+    },
     {
       "title": "From Ground to Orbit: KSAT Exec Details Plans for Hyper Relay Network",
       "link": "https://www.satellitetoday.com/connectivity/2026/09/03/from-ground-to-orbit-ksat-exec-details-plans-for-hyper-relay-network/",
@@ -962,52 +1004,6 @@
       "ts": 1788372535.0
     },
     {
-      "title": "Telecom news: ST Engineering iDirect, QuantalRF, Silicom",
-      "link": "https://telecomlead.com/news/telecom-news-st-engineering-idirect-quantalrf-silicom-127583",
-      "summary": "Today’s telecom news includes announcements on ST Engineering iDirect, QuantalRF, Silicom, 5G NR-NTN user-equipment modem, among others. ST Engineering iDirect Advances 5G Satellite Networks With INT3000 NR-NTN Modem ST Engineering iDirect demonstrated a pilot of its INT3000 multi-waveform 5G NR-NTN user-equipment...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-09-02T18:06:05+00:00",
-      "ts": 1788372365.0
-    },
-    {
-      "title": "Telecom news: stc Group, Ericsson, Starlink Mobile, 4iG Group, SpaceX, Movandi, ACES",
-      "link": "https://telecomlead.com/news/telecom-news-stc-group-ericsson-starlink-mobile-4ig-group-spacex-movandi-aces-127581",
-      "summary": "Today’s telecom news includes announcements on stc Group, Ericsson, Starlink Mobile, 4iG Group, SpaceX, Movandi, ACES, among others. stc and Ericsson Sign Multi-Year Deal to Accelerate Saudi 5G Expansion Saudi Arabia’s stc Group and Ericsson have signed a multi-year agreement to expand 5G connectivity across the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-09-02T18:01:16+00:00",
-      "ts": 1788372076.0
-    },
-    {
-      "title": "Telecom news: Comcast, MSSA, NTN, Huawei, ZTE",
-      "link": "https://telecomlead.com/news/telecom-news-comcast-mssa-ntn-huawei-zte-127577",
-      "summary": "Today’s telecom news includes announcements on Comcast, MSSA, NTN, Huawei, ZTE, among others. Comcast Expansion Passes 50 Percent Mark, Targeting 7,400 More Michigan Connections Comcast has surpassed the halfway point in a major network expansion across Michigan’s Jackson County, with the project set to connect more...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 52,
-      "date": "2026-09-02T17:56:48+00:00",
-      "ts": 1788371808.0
-    },
-    {
       "title": "From Pilot to Production: Why Most Private 5G Networks Stall After the Technical Trial",
       "link": "https://tecknexus.com/private-5g-pilot-to-production-why-networks-stall/",
       "summary": "Private 5G pilots frequently succeed on their technical terms and then fail to progress to production, not because the technology failed, but because of gaps in business case evidence, stakeholder engagement, integration planning, and commercial structure. This guide breaks down the four most common reasons pilots...",
@@ -1526,6 +1522,20 @@
       "ts": 0
     },
     {
+      "title": "AI agents expose 5G core security risks for telecom operators",
+      "link": "https://www.fierce-network.com/wireless/ai-agents-expose-5g-core-security-risks-telecom-operators",
+      "summary": "AI agents found dozens of previously unknown flaws in 4G and 5G cores, underscoring why telecom operators and vendors can no longer treat internal network interfaces as automatically trusted.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Engineers craft 6G. It’s marketers' job to sell it",
       "link": "https://www.fierce-network.com/wireless/opinion-engineers-craft-6g-its-marketers-job-sell-it",
       "summary": "Can the wireless industry separate the standards from a consumer-facing approach and quit its reliance on the next “G” to shape its messaging?",
@@ -1540,16 +1550,45 @@
       "ts": 0
     },
     {
-      "title": "Optimum will start using T-Mobile’s 5G SA core for mobile services",
-      "link": "https://www.fierce-network.com/broadband/optimum-will-start-using-t-mobiles-5g-sa-core-mobile-services",
-      "summary": "This will give Optimum customers the ability to use their mobile service with a broader portfolio of devices and improved international roaming.",
+      "title": "NTIA decides BEAD non-deployment funds can be used for deployment",
+      "link": "https://www.fierce-network.com/broadband/ntia-decides-bead-non-deployment-funds-can-be-used-deployment",
+      "summary": "After NTIA favored cheap satellite technology over fiber broadband, the BEAD fund of $42.5 billion was left with $21 billion in left-over monies.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "fibra",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 54,
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Elliott pushes Deutsche Telekom to prioritize buybacks over T-Mobile US mega-merger",
+      "link": "https://www.fierce-network.com/wireless/dt-gets-pushback-elliott-over-t-mobile-merger-plans-reports",
+      "summary": "Elliott Investment Management is urging Germany’s Deutsche Telekom (DT) to back off a potential mega-merger plan with DT’s U.S.-based T-Mobile, according to reports.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile taps former Shell CFO Jessica Uhl to help steer next phase of AI and enterprise growth",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-names-jessica-uhl-next-cfo",
+      "summary": "Uhl's background in large-scale infrastructure investments, corporate development and AI initiatives could prove valuable as T-Mobile pursues opportunities across enterprise and emerging AI-driven services.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1629,35 +1668,6 @@
       "title": "HUMAIN taps AMD, Cisco and Together AI for Saudi Arabia AI infrastructure push",
       "link": "https://www.fierce-network.com/newswire/humain-taps-amd-cisco-and-together-ai-saudi-arabia-ai-infrastructure-push",
       "summary": "Saudi Arabia’s AI ambitions are getting a boost from HUMAIN deals with AMD, Cisco and Together AI.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Robotics could give telcos their best shot at winning in AI",
-      "link": "https://www.fierce-network.com/cloud/robotics-could-give-telcos-their-best-shot-winning-ai",
-      "summary": "Telcos may have missed the first AI wave, but roaming robots could put them back in the game — if SpaceX doesn’t get there first.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "How industry decides which network technologies survive",
-      "link": "https://www.fierce-network.com/sponsored/how-industry-decides-which-network-technologies-survive",
-      "summary": "Industry is networking’s toughest customer, testing which technologies can keep factories, utilities, and AI-powered operations running.",
       "source": "Fierce Network",
       "themes": [
         "geral"
