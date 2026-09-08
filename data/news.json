@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-07T20:53:17.195786+00:00",
+  "generated_at": "2026-09-08T01:54:39.039705+00:00",
   "count": 97,
   "theme_counts": {
-    "moveis": 34,
+    "moveis": 35,
     "fibra": 11,
     "antenas": 7,
     "iot": 1,
-    "satelite": 23,
+    "satelite": 24,
     "radar_militar": 9,
     "radiocom": 0,
     "tv": 1,
-    "geral": 32
+    "geral": 31
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 1,
     "jp": 5,
     "kr": 1,
-    "cn": 4
+    "cn": 5
   },
   "research_count": 28,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -200,6 +200,35 @@
     }
   ],
   "items": [
+    {
+      "title": "European network operators in talks to form consortium to bid for EU satellite spectrum and provide D2M service",
+      "link": "https://techblog.comsoc.org/2026/09/07/european-network-operators-in-talks-to-form-consortium-to-bid-for-spectrum-provide-d2m-service/",
+      "summary": "Introduction: Four of Europe’s largest mobile network operators—Deutsche Telekom, Orange, Vodafone Group, and Telefónica—are in preliminary discussions to form a consortium that would jointly bid for EU-reserved satellite spectrum and launch a direct-to-mobile (D2M) service, according to a Bloomberg report cited by...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-09-08T00:31:11+00:00",
+      "ts": 1788827471.0
+    },
+    {
+      "title": "Isar Aerospace Reaches Orbit with Spectrum Rocket Maiden Launch from Norway",
+      "link": "https://satnews.com/2026/09/07/isar-aerospace-reaches-orbit-with-spectrum-rocket-maiden-launch-from-norway/",
+      "summary": "On Saturday, September 5, 2026, Munich-based launch service provider Isar Aerospace successfully achieved orbital insertion with its Spectrum launch vehicle during its inaugural test flight, designated “Onward and Upward.” Liftoff […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-09-07T22:56:00+00:00",
+      "ts": 1788821760.0
+    },
     {
       "title": "Malaysia weighs Huawei tech for sovereign AI",
       "link": "https://www.mobileworldlive.com/ranvendors/malaysia-weighs-huawei-tech-for-sovereign-ai/",
@@ -691,20 +720,6 @@
       "relevance": 61,
       "date": "2026-09-07T03:16:05+00:00",
       "ts": 1788750965.0
-    },
-    {
-      "title": "Isar Aerospace Reaches Orbit with Spectrum Rocket Maiden Launch from Norway",
-      "link": "https://satnews.com/2026/09/06/isar-aerospace-reaches-orbit-with-spectrum-rocket-maiden-launch-from-norway/",
-      "summary": "On Saturday, September 5, 2026, Munich-based launch service provider Isar Aerospace successfully achieved orbital insertion with its Spectrum launch vehicle during its inaugural test flight, designated “Onward and Upward.” Liftoff […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-09-06T19:56:32+00:00",
-      "ts": 1788724592.0
     },
     {
       "title": "Open RAN Market Reality Check 2026: Commercial Deployments, Vendor Contracts and Cost Savings",
@@ -1342,20 +1357,6 @@
       "ts": 1787754900.0
     },
     {
-      "title": "Google Cloud and Verizon Expand Strategic Partnership to Scale Enterprise AI and Autonomous Network Operations",
-      "link": "https://techblog.comsoc.org/2026/08/25/google-cloud-and-verizon-expand-strategic-partnership-to-scale-enterprise-ai-and-autonomous-network-operations/",
-      "summary": "Executive Summary: Google Cloud and Verizon have announced a new strategic partnership agreement to deploy full-stack AI across the carrier’s customer experience, network operations, marketing, and enterprise data platforms — a step that signals how deeply hyperscaler AI infrastructure is now embedded in the telco...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-08-25T23:34:54+00:00",
-      "ts": 1787700894.0
-    },
-    {
       "title": "Wi-Fi 7 Adoption Is Accelerating",
       "link": "https://circleid.com/posts/wi-fi-7-adoption-is-accelerating",
       "summary": "Wi-Fi 7 is spreading rapidly across America, promising faster speeds, greater capacity and fewer connectivity headaches. With big internet providers driving adoption, the technology is reshaping home broadband even as Wi-Fi 8 approaches.",
@@ -1501,6 +1502,22 @@
       "ts": 0
     },
     {
+      "title": "Opinion: Huawei trial opens in Brooklyn as DOJ drops some charges",
+      "link": "https://www.fierce-network.com/broadband/opinion-huawei-trial-opens-brooklyn-doj-drops-some-charges",
+      "summary": "Huawei's landmark RICO trial opens with the DOJ quietly trimming parts of its case, as a U.S. victory could disrupt communications and financial infrastructure across the developing world.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Elliott pushes Deutsche Telekom to prioritize buybacks over T-Mobile US mega-merger",
       "link": "https://www.fierce-network.com/wireless/dt-gets-pushback-elliott-over-t-mobile-merger-plans-reports",
       "summary": "Elliott Investment Management is urging Germany’s Deutsche Telekom (DT) to back off a potential mega-merger plan with DT’s U.S.-based T-Mobile, according to reports.",
@@ -1579,20 +1596,6 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AWS and Microsoft launch multicloud networking in preview",
-      "link": "https://www.fierce-network.com/newswire/aws-and-microsoft-launch-multicloud-networking-preview",
-      "summary": "AWS to Azure connectivity is now available in preview in four Microsoft cloud regions, with plans to expand.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
       ],
       "research": false,
       "countries": [],
