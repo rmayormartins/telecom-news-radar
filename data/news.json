@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-09T15:29:35.668082+00:00",
-  "count": 96,
+  "generated_at": "2026-09-09T20:09:47.295469+00:00",
+  "count": 97,
   "theme_counts": {
-    "moveis": 40,
-    "fibra": 16,
+    "moveis": 38,
+    "fibra": 15,
     "antenas": 11,
     "iot": 4,
-    "satelite": 32,
-    "radar_militar": 9,
+    "satelite": 34,
+    "radar_militar": 10,
     "radiocom": 1,
     "tv": 0,
-    "geral": 24
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 3,
     "jp": 3,
     "kr": 1,
-    "cn": 2
+    "cn": 1
   },
   "research_count": 29,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "3G4G Blog",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (9 itens)",
+      "status": "ok (8 itens)",
       "kept": 0
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 7
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,64 @@
     }
   ],
   "items": [
+    {
+      "title": "New Eclipse Satellite Platforms Target D2D, Broadband, and Computing",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/09/new-eclipse-satellite-platforms-target-d2d-broadband-and-computing/",
+      "summary": "Eclipse Space, a new megaconstellation startup, announced a lineup of satellite platforms on Wednesday geared toward direct-to-device (D2D), broadband, and on-orbit computing. Eclipse Space was founded by a group of […] The post New Eclipse Satellite Platforms Target D2D, Broadband, and Computing appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-09T19:25:33+00:00",
+      "ts": 1788981933.0
+    },
+    {
+      "title": "Loft Orbital, Marlan Space to Build AI Constellation to Serve France, Europe and UAE",
+      "link": "https://www.satellitetoday.com/earth-observation/2026/09/09/loft-orbital-marlan-space-to-build-ai-constellation-to-serve-france-europe-and-uae/",
+      "summary": "Loft Orbital, Marlan Space, and partners are investing $1 billion to build an artificial intelligence satellite constellation to serve customers across France, Europe, the UAE, and the rest of the […] The post Loft Orbital, Marlan Space to Build AI Constellation to Serve France, Europe and UAE appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-09T19:20:02+00:00",
+      "ts": 1788981602.0
+    },
+    {
+      "title": "Amazon Leo Orders 6 More Ariane 64 Launches from Arianespace",
+      "link": "https://www.satellitetoday.com/launch/2026/09/09/amazon-leo-orders-6-more-ariane-64-launches-from-arianespace/",
+      "summary": "Amazon Leo is increasing its work with Arianespace, ordering six more Ariane 64 launches to deploy its constellation. Arianespace is a key launch provider for Amazon Leo, which has faced […] The post Amazon Leo Orders 6 More Ariane 64 Launches from Arianespace appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-09T19:16:06+00:00",
+      "ts": 1788981366.0
+    },
+    {
+      "title": "ST Engineering iDirect Sr. Technical Director Dave Davis Talks Government, Defense Market in Thursday Morning Conversation",
+      "link": "https://www.satellitetoday.com/partner-content/2026/09/09/st-engineering-idirect-sr-technical-director-dave-davis-talks-government-defense-market-in-thursday-morning-conversation/",
+      "summary": "Just ahead of World Space Business Week (WSBW), ST Engineering iDirect Senior Technical Director of Global Government Dave Davis joins Via Satellite for a Thursday Morning Conversation about the company’s […] The post ST Engineering iDirect Sr. Technical Director Dave Davis Talks Government, Defense Market in Thursday...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-09T15:54:54+00:00",
+      "ts": 1788969294.0
+    },
     {
       "title": "Data centre component revenue surges in Q2",
       "link": "https://www.mobileworldlive.com/ai-cloud/delloro-finds-q2-data-centre-component-revenue-jumps-182/",
@@ -761,6 +819,20 @@
       "ts": 1788915991.0
     },
     {
+      "title": "Qualcomm and Amazon connect on AI silicon",
+      "link": "https://www.lightreading.com/ai-machine-learning/qualcomm-and-amazon-connect-on-ai-silicon",
+      "summary": "Qualcomm and Amazon are working together on customized silicon for AWS's AI infrastructure, including optical connectivity up to 1.6Tbit/s. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-09-08T20:59:18+00:00",
+      "ts": 1788901158.0
+    },
+    {
       "title": "FCC sizes up spectrum for satellite broadband, AI sensing",
       "link": "https://www.lightreading.com/satellite/fcc-sizes-up-spectrum-for-satellite-broadband-ai-sensing",
       "summary": "Among items up for vote, the FCC wants to unlock spectrum in the 12GHz and 42GHz bands for satellite connectivity and to 'modernize' unlicensed ultra-wideband spectrum for AI-based sensing and other emerging applications.",
@@ -835,20 +907,6 @@
       "ts": 1788888969.0
     },
     {
-      "title": "Verizon Secures 80+ Million Miles of Corning Fiber in Multi-Billion-Dollar Deal, Targets 40–50 Million Passings",
-      "link": "https://telecomlead.com/broadband/verizon-secures-80-million-miles-of-corning-fiber-in-multi-billion-dollar-deal-targets-40-50-million-passings-127653",
-      "summary": "Verizon is significantly expanding its fiber business through a multi-billion-dollar supply agreement with Corning covering more than 80 million miles of high-density optical fiber and connectivity solutions. The agreement, running from 2027 through 2032, will support Verizon’s expansion toward 40–50 million broadband...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-08T16:55:40+00:00",
-      "ts": 1788886540.0
-    },
-    {
       "title": "Verizon loads up on Corning's fiber for network expansion and AI infrastructure",
       "link": "https://www.lightreading.com/data-centers/verizon-loads-up-on-corning-s-fiber-for-network-expansion-and-ai-infrastructure",
       "summary": "Verizon has struck a multi-billion-dollar supply deal with Corning that will provide Verizon with more than 80 million miles of fiber from 2027 to 2032 to support network expansion and AI infrastructure initiatives.",
@@ -917,20 +975,6 @@
       "relevance": 51,
       "date": "2026-09-08T14:50:47+00:00",
       "ts": 1788879047.0
-    },
-    {
-      "title": "AT&T, Verizon, Comcast and Charter Drive 2026 Broadband Upgrade as Wi-Fi 7 Shipments Jump 62%",
-      "link": "https://telecomlead.com/broadband/att-verizon-comcast-and-charter-drive-2026-broadband-upgrade-as-wi-fi-7-shipments-jump-62-127650",
-      "summary": "North America is emerging as the growth engine of the global broadband equipment market in 2026 as AT&T, Verizon, Comcast and Charter accelerate investments in fiber, DOCSIS 4.0, multi-gigabit broadband and Wi-Fi 7. Worldwide Broadband Access equipment revenue reached $4.5 billion in Q2 2026, down 3 percent year over...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-09-08T14:40:30+00:00",
-      "ts": 1788878430.0
     },
     {
       "title": "Indian telcos push back against proposed 5G slicing rules",
@@ -1066,21 +1110,6 @@
       "ts": 1788648527.0
     },
     {
-      "title": "ST Engineering iDirect Demonstrates 5G NR-NTN User Equipment Modem",
-      "link": "https://www.satellitetoday.com/technology/2026/09/04/st-engineering-idirect-demonstrates-5g-nr-ntn-user-equipment-modem/",
-      "summary": "ST Engineering iDirect reports it has demonstrated a pilot version of a multi-waveform 5G New Radio Non-Terrestrial Network (NR-NTN) user equipment modem. iDirect describes this technology as “the foundation” for […] The post ST Engineering iDirect Demonstrates 5G NR-NTN User Equipment Modem appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-09-04T18:09:12+00:00",
-      "ts": 1788545352.0
-    },
-    {
       "title": "PwC: Global AI data center spending to hit $31.6tn by 2050; Role of full stack orchestration layer explained",
       "link": "https://techblog.comsoc.org/2026/09/03/pwc-global-ai-data-center-spending-to-hit-31-6tn-by-2050-role-of-full-stack-orchestration-layer/",
       "summary": "The AI infrastructure boom is set to continue as per most market research firms. AI chip and compute server upgrade cycles will necessitate the continued spending of many hundreds of billions of dollars on AI compute infrastructure for the foreseeable future. Global data center spending is set to reach US$31.6...",
@@ -1211,22 +1240,6 @@
       "relevance": 60,
       "date": "2026-09-02T15:27:00+00:00",
       "ts": 1788362820.0
-    },
-    {
-      "title": "China makes another run at deregulating private 5G",
-      "link": "https://www.lightreading.com/private-networks/china-makes-another-run-at-deregulating-private-5g",
-      "summary": "China's government agencies have come up with another plan to deploy private 5G in industrial settings – but there's no sign of spectrum.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 60,
-      "date": "2026-09-02T13:55:25+00:00",
-      "ts": 1788357325.0
     },
     {
       "title": "Analysis: Nvidia–MediaTek Deepen AI Platform Collaboration -What it Means for AI RAN & DCI",
@@ -1529,6 +1542,20 @@
       "ts": 0
     },
     {
+      "title": "T-Mobile CTO: AI is making disaster response faster, smarter",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-cto-ai-making-disaster-response-faster-smarter",
+      "summary": "T-Mobile CTO John Saw said AI is helping his network adapt faster when disasters strike so that customers will be able to use the network when they need it most.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Opinion: Huawei trial opens in Brooklyn as DOJ drops some charges",
       "link": "https://www.fierce-network.com/broadband/opinion-huawei-trial-opens-brooklyn-doj-drops-some-charges",
       "summary": "Huawei's landmark RICO trial opens with the DOJ quietly trimming parts of its case, as a U.S. victory could disrupt communications and financial infrastructure across the developing world.",
@@ -1584,20 +1611,6 @@
       "countries": [
         "kr"
       ],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Studies say: Mobile carriers can chill – satellites can’t go it alone",
-      "link": "https://www.fierce-network.com/wireless/studies-say-mobile-carriers-can-chill-satellites-cant-go-it-alone",
-      "summary": "Based on recent studies and a WIA panel discussion, one could reasonably conclude that terrestrial mobile networks will survive – even though popular perception says Elon Musk’s SpaceX will obliterate them.",
-      "source": "Fierce Network",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 31,
       "date": null,
       "ts": 0
