@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-09T20:09:47.295469+00:00",
-  "count": 97,
+  "generated_at": "2026-09-10T01:56:40.536973+00:00",
+  "count": 96,
   "theme_counts": {
-    "moveis": 38,
-    "fibra": 15,
+    "moveis": 39,
+    "fibra": 16,
     "antenas": 11,
     "iot": 4,
-    "satelite": 34,
-    "radar_militar": 10,
+    "satelite": 32,
+    "radar_militar": 11,
     "radiocom": 1,
     "tv": 0,
-    "geral": 26
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
@@ -18,7 +18,7 @@
     "il": 0,
     "in": 3,
     "jp": 3,
-    "kr": 1,
+    "kr": 0,
     "cn": 1
   },
   "research_count": 29,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Optical Symposium",
+      "link": "https://www.lightreading.com/light-reading-webinars/optical-symposium",
+      "summary": "Session 1: Building out metro, long haul and subsea networks with 200+Gbaud coherent connections Session 2: Managing Coherent Optics in IP over DWDM",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-09-10T15:00:00+00:00",
+      "ts": 1789052400.0
+    },
+    {
+      "title": "Telecom news: Ethio Telecom, Ericsson, Suyog Telematics, Vodafone Idea",
+      "link": "https://telecomlead.com/news/telecom-news-ethio-telecom-ericsson-suyog-telematics-vodafone-idea-127684",
+      "summary": "Today’s telecom news includes announcements on Ethio Telecom, Ericsson, Ghana’s National Communications Authority, Suyog Telematics, Vodafone Idea, among others. Ethio Telecom Plans Major Expansion to 11,014 4G Sites Ethio Telecom plans a 4G network expansion in 2026/27, increasing LTE sites from 6,924 to 11,014 under...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 51,
+      "date": "2026-09-10T01:12:28+00:00",
+      "ts": 1789002748.0
+    },
+    {
+      "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
+      "link": "https://circleid.com/posts/fcc-moves-to-open-1050-mhz-of-spectrum-to-satellite-broadband",
+      "summary": "The FCC plans to open 1,050 MHz in the 12.7 GHz and 42 GHz bands to expanded satellite use, adding capacity for broadband, mobile connectivity, inter-satellite links and ground networks.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-09-09T20:26:00+00:00",
+      "ts": 1788985560.0
+    },
+    {
+      "title": "UK Government Releases Latest Space Strategy, With Heavy Emphasis on Defense",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/09/uk-government-releases-latest-space-strategy-with-heavy-emphasis-on-defense/",
+      "summary": "The U.K. Government has published its latest national space strategy as it looks to bring space investment and activity under one plan. The aim is to drive growth, strengthen security […] The post UK Government Releases Latest Space Strategy, With Heavy Emphasis on Defense appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-09T20:18:20+00:00",
+      "ts": 1788985100.0
+    },
     {
       "title": "New Eclipse Satellite Platforms Target D2D, Broadband, and Computing",
       "link": "https://www.satellitetoday.com/connectivity/2026/09/09/new-eclipse-satellite-platforms-target-d2d-broadband-and-computing/",
@@ -454,7 +514,7 @@
     {
       "title": "Passive AoA Estimation of COTS 5G NR Handsets from Uplink SRS: A Practical USRP-B210 Implementation",
       "link": "https://arxiv.org/abs/2608.00080",
-      "summary": "arXiv:2608.00080v2 Announce Type: replace Abstract: This paper presents a passive network-side framework for estimating the uplink angle of arrival (AoA) of unmodified commercial 5G handsets from native Sounding Reference Signal (SRS) transmissions. The proposed system operates on an srsRAN Project gNB and estimates...",
+      "summary": "arXiv:2608.00080v3 Announce Type: replace Abstract: This paper presents a passive network-side framework for estimating the uplink angle of arrival (AoA) of unmodified commercial 5G handsets from native Sounding Reference Signal (SRS) transmissions. The proposed system operates on an srsRAN Project gNB and estimates...",
       "source": "arXiv eess.SP",
       "themes": [
         "moveis",
@@ -803,36 +863,6 @@
       "ts": 1788917006.0
     },
     {
-      "title": "Telecom news: JSW Group, Vodafone Idea, Starlink, Eutelsat OneWeb, Jio Satellite Communications, Amazon Leo, DoT",
-      "link": "https://telecomlead.com/news/telecom-news-jsw-group-vodafone-idea-starlink-eutelsat-oneweb-jio-satellite-communications-amazon-leo-dot-127657",
-      "summary": "Today’s telecom news includes announcements on JSW Group, Vodafone Idea, Starlink, Eutelsat OneWeb, Jio Satellite Communications, Amazon Leo, DoT, among others. JSW Group Considers ₹60,000 Crore Investment in Vodafone Idea Revival JSW Group is reportedly considering an investment of ₹45,000 crore to ₹60,000 crore in...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 59,
-      "date": "2026-09-09T01:06:31+00:00",
-      "ts": 1788915991.0
-    },
-    {
-      "title": "Qualcomm and Amazon connect on AI silicon",
-      "link": "https://www.lightreading.com/ai-machine-learning/qualcomm-and-amazon-connect-on-ai-silicon",
-      "summary": "Qualcomm and Amazon are working together on customized silicon for AWS's AI infrastructure, including optical connectivity up to 1.6Tbit/s. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-09-08T20:59:18+00:00",
-      "ts": 1788901158.0
-    },
-    {
       "title": "FCC sizes up spectrum for satellite broadband, AI sensing",
       "link": "https://www.lightreading.com/satellite/fcc-sizes-up-spectrum-for-satellite-broadband-ai-sensing",
       "summary": "Among items up for vote, the FCC wants to unlock spectrum in the 12GHz and 42GHz bands for satellite connectivity and to 'modernize' unlicensed ultra-wideband spectrum for AI-based sensing and other emerging applications.",
@@ -876,35 +906,6 @@
       "relevance": 34,
       "date": "2026-09-08T19:22:53+00:00",
       "ts": 1788895373.0
-    },
-    {
-      "title": "Eutelsat Wins Further Connectivity Business in Greenland",
-      "link": "https://www.satellitetoday.com/connectivity/2026/09/08/eutelsat-wins-further-connectivity-business-in-greenland/",
-      "summary": "Eutelsat is going to help to bring better connectivity to Greenland. Alongside the European Union, the government of Greenland and the government of Denmark, Eutelsat will play a key role […] The post Eutelsat Wins Further Connectivity Business in Greenland appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-08T19:17:42+00:00",
-      "ts": 1788895062.0
-    },
-    {
-      "title": "AT&T and Amazon Leo Advance Strategic Fiber-to-Space Alliance to Challenge SpaceX Starlink",
-      "link": "https://satnews.com/2026/09/08/att-and-amazon-leo-advance-strategic-fiber-to-space-alliance-to-challenge-spacex-starlink/",
-      "summary": "Telecommunications carrier AT&T and Amazon are deepening operational integration across their joint commercial broadband infrastructure. This aligns with Amazon’s recent FCC application for 5,105 next-generation satellite constellation designed for direct-to-device […]",
-      "source": "SatNews",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-09-08T17:36:09+00:00",
-      "ts": 1788888969.0
     },
     {
       "title": "Verizon loads up on Corning's fiber for network expansion and AI infrastructure",
@@ -1427,21 +1428,6 @@
       "ts": 1785758401.0
     },
     {
-      "title": "SpaceX Wants to Handle the World’s Broadband - Here’s Why That’s Unlikely",
-      "link": "https://circleid.com/posts/spacex-wants-to-handle-the-worlds-broadband-heres-why-thats-unlikely",
-      "summary": "SpaceX wants to expand Starlink to 100,000 satellites and eventually carry most of the world's internet traffic. Ambition is not the problem. Market competition, geopolitics and the resilience of fiber networks make that goal implausible.",
-      "source": "CircleID (Telecom)",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 42,
-      "date": "2026-07-27T20:03:00+00:00",
-      "ts": 1785182580.0
-    },
-    {
       "title": "MasOrange, Ericsson test 6 GHz spectrum in early step toward 6G future",
       "link": "https://www.fierce-network.com/newswire/masorange-ericsson-test-6-ghz-spectrum-early-step-toward-6g-future",
       "summary": "MasOrange and Ericsson successfully tested the 6 GHz band, a leading candidate for future 6G networks, validating advanced antenna technologies that could quadruple network capacity while supporting AI-driven services, digital twins and next-generation automation.",
@@ -1542,6 +1528,20 @@
       "ts": 0
     },
     {
+      "title": "Fierce Network Innovation Awards open for entries: Showcase real-world impact across telecom",
+      "link": "https://www.fierce-network.com/wireless/fierce-network-innovation-awards-open-entries-showcase-real-world-impact-across-telecom",
+      "summary": "The Fierce Network Innovation Awards are accepting entries through Sept. 11 at Early Bird rates, recognizing deployments, technologies and partnerships that are delivering measurable results across telecom, broadband, cloud and AI.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "T-Mobile CTO: AI is making disaster response faster, smarter",
       "link": "https://www.fierce-network.com/wireless/t-mobile-cto-ai-making-disaster-response-faster-smarter",
       "summary": "T-Mobile CTO John Saw said AI is helping his network adapt faster when disasters strike so that customers will be able to use the network when they need it most.",
@@ -1595,22 +1595,6 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "SK Telecom's AI model push offers a blueprint for telcos seeking sovereignty",
-      "link": "https://www.fierce-network.com/cloud/sk-telecoms-ai-model-strategy-puts-sovereignty-first",
-      "summary": "SK Telecom’s approach shows how telcos can use models to gain more control over AI deployments and put model ownership at the center of their AI strategy.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
       "relevance": 31,
       "date": null,
       "ts": 0
