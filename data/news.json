@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-11T10:09:11.047820+00:00",
-  "count": 101,
+  "generated_at": "2026-09-11T15:27:20.479256+00:00",
+  "count": 99,
   "theme_counts": {
-    "moveis": 37,
+    "moveis": 34,
     "fibra": 17,
-    "antenas": 6,
+    "antenas": 5,
     "iot": 4,
     "satelite": 34,
-    "radar_militar": 11,
+    "radar_militar": 10,
     "radiocom": 1,
     "tv": 1,
     "geral": 27
@@ -16,10 +16,10 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
-    "jp": 3,
+    "in": 3,
+    "jp": 2,
     "kr": 0,
-    "cn": 2
+    "cn": 3
   },
   "research_count": 25,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -126,7 +126,7 @@
     {
       "source": "One6G",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 3
     },
     {
       "source": "6G-IA",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "SatNews",
@@ -200,6 +200,62 @@
     }
   ],
   "items": [
+    {
+      "title": "one6G WG2 releases the 6th edition of the “6G Technology Overview” White Paper at the one6G Summit 2026",
+      "link": "https://one6g.org/one6g-wg2-releases-the-6th-edition-of-the-6g-technology-overview-white-paper-at-the-one6g-summit-2026/",
+      "summary": "The one6G Working Group 2 (WG2) has announced the release of the latest edition of its flagship White Paper, titled “6G Technology Overview” (Sixth Edition), during the one6G Summit 2026 in London, UK. The publication updates and […] The post one6G WG2 releases the 6th edition of the “6G Technology Overview” White...",
+      "source": "One6G",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-09-11T15:20:19+00:00",
+      "ts": 1789140019.0
+    },
+    {
+      "title": "one6G WG2 releases a new position paper on Agentic AI and Foundation Models at the one6G Summit 2026",
+      "link": "https://one6g.org/one6g-wg2-releases-a-new-position-paper-on-agentic-ai-and-foundation-models-at-the-one6g-summit-2026/",
+      "summary": "one6G Work Item 220 has published its latest position paper, titled “Agentic AI and Foundation Models in Mobile Communication Systems,” during the one6G Summit 2026 in London, UK. The paper outlines a transformative shift away from connection-centric […] The post one6G WG2 releases a new position paper on Agentic AI...",
+      "source": "One6G",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 29,
+      "date": "2026-09-11T14:45:46+00:00",
+      "ts": 1789137946.0
+    },
+    {
+      "title": "White Paper “6G and eHealth: Use Cases and Potential Service Requirements – Vol. 2” released at the one6G Summit 2026",
+      "link": "https://one6g.org/white-paper-6g-and-ehealth-use-cases-and-potential-service-requirements-vol-2-released-at-the-one6g-summit-2026/",
+      "summary": "During the one6G Summit 2026, held in London, UK, on September 10–11, the one6G Association’s Working Group 1 released Vol. 2 of the White Paper on eHealth, titled “6G and eHealth: Use Cases and Potential Service Requirements.” […] The post White Paper “6G and eHealth: Use Cases and Potential Service Requirements –...",
+      "source": "One6G",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-09-11T14:00:25+00:00",
+      "ts": 1789135225.0
+    },
+    {
+      "title": "The Friday File: Apple; AI; Amazon",
+      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-apple-ai-amazon/",
+      "summary": "Mobile World Live brings you our top three picks of the week as Apple debuted its long-awaited foldable iPhone Duo, concerns over the risks of frontier AI intensified and Qualcomm sealed a custom silicon deal with Amazon. The post The Friday File: Apple; AI; Amazon appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-09-11T10:30:37+00:00",
+      "ts": 1789122637.0
+    },
     {
       "title": "United Internet to cut jobs across 2 businesses",
       "link": "https://www.mobileworldlive.com/operators/united-internet-to-cut-jobs-across-2-businesses/",
@@ -229,6 +285,23 @@
       "relevance": 62,
       "date": "2026-09-11T09:59:54+00:00",
       "ts": 1789120794.0
+    },
+    {
+      "title": "India approves 5% spectrum charge for satellite players – report",
+      "link": "https://www.lightreading.com/satellite/india-approves-5-spectrum-charge-for-satellite-players-report",
+      "summary": "India seeks to levy a 5% spectrum usage charge on satellite operators, resolving a major regulatory hurdle which could accelerate the launch of LEO and MEO broadband services in the country.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-09-11T09:31:16+00:00",
+      "ts": 1789119076.0
     },
     {
       "title": "OpenAI targets bank employees with services tool",
@@ -691,35 +764,6 @@
       "ts": 1789099200.0
     },
     {
-      "title": "Report: Wi-Fi 7 surpasses 50% of market",
-      "link": "https://www.advanced-television.com/2026/09/11/report-wi-fi-7-surpasses-50-of-market/",
-      "summary": "According to a report from Dell’Oro Group, a source for market information about the telco, security, networks, and data centre industries, vendors sold over 10 billion Access Points (APs) in Q2 2026, setting an industry-wide record for the volume of AP shipments. “WLAN average selling prices (ASPs) increased only...",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-09-11T01:00:23+00:00",
-      "ts": 1789088423.0
-    },
-    {
-      "title": "Eutelsat procures another 229 OneWeb LEO satellites from Airbus",
-      "link": "https://www.advanced-television.com/2026/09/11/eutelsat-procures-another-229-oneweb-leo-satellites-from-airbus/",
-      "summary": "Eutelsat has announced at the International Space Summit in Paris a significant step in enhancing service continuity of its OneWeb constellation, with plans to procure 229 additional OneWeb Low Earth Orbit (LEO) satellites from Airbus Defence and Space. Eutelsat has signed an Authorisation to Proceed (ATP) with Airbus...",
-      "source": "Advanced Television",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-09-11T00:41:03+00:00",
-      "ts": 1789087263.0
-    },
-    {
       "title": "MaiaSpace Wins First Long-Term Asia Customer Deal",
       "link": "https://www.satellitetoday.com/launch/2026/09/10/maiaspace-wins-first-long-term-asia-customer-deal/",
       "summary": "Institute for Q-shu Pioneers of Space (iQPS) has tapped MaiaSpace, the up-and-coming French launch provider, to launch a range of SAR (synthetic aperture radar) satellites starting in 2029. This is […] The post MaiaSpace Wins First Long-Term Asia Customer Deal appeared first on Via Satellite .",
@@ -811,7 +855,7 @@
     {
       "title": "EC awards major deals for IRIS2 buildout",
       "link": "https://www.mobileworldlive.com/network-tech/ec-awards-major-deals-for-iris2-buildout/",
-      "summary": "The European Commission (EC) handed contracts to Thales Alenia Space and Aerospacelab for the buildout of the IRIS2 constellation, as EC president Ursula von der Leyen set out the bloc’s priorities for the space sector. The post EC awards major deals for IRIS2 buildout appeared first on Mobile World Live .",
+      "summary": "The European Commission handed contracts to Thales Alenia Space and Aerospacelab for the buildout of the IRIS2 constellation, as EC president Ursula von der Leyen set out the bloc’s priorities for the space sector. The post EC awards major deals for IRIS2 buildout appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -837,20 +881,6 @@
       "ts": 1789050919.0
     },
     {
-      "title": "Ericsson deploys private 5G network at Minneapolis-St. Paul International Airport",
-      "link": "https://www.datacenterdynamics.com/en/news/ericsson-deploys-private-5g-network-at-minneapolis-st-paul-international-airport/",
-      "summary": "Supports critical operations at the airport with dedicated wireless infrastructure",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-10T13:50:28+00:00",
-      "ts": 1789048228.0
-    },
-    {
       "title": "AT&T CEO not a big fan of SpaceX's small cell mobile plan",
       "link": "https://www.lightreading.com/satellite/at-t-ceo-not-a-big-fan-of-spacex-s-small-cell-mobile-plan",
       "summary": "In an apparent rebuff to a SpaceX mobile initiative, AT&T CEO John Stankey said that relying on a network comprising a bunch of small cells is not enough to overcome the steep requirements of a terrestrial mobile network.",
@@ -866,46 +896,18 @@
       "ts": 1789045486.0
     },
     {
-      "title": "VodafoneThree, Nokia make progress on advanced 5G site rollout in UK",
-      "link": "https://www.datacenterdynamics.com/en/news/vodafonethree-nokia-make-progress-on-advanced-5g-site-rollout-in-uk/",
-      "summary": "After signing a long-term partnership last year, VodafoneThree has activated the first 100 advanced 5G radio sites supported by Nokia",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-09-10T12:45:58+00:00",
-      "ts": 1789044358.0
-    },
-    {
-      "title": "GSMA cautions APAC operators on net zero challenge",
-      "link": "https://www.mobileworldlive.com/gsma/gsma-cautions-apac-operators-on-net-zero-challenge/",
-      "summary": "The GSMA warned access to renewable energy is emerging as a key constraint for operators in hitting their net zero targets in Asia-Pacific, despite headway being made on cutting carbon emissions. The post GSMA cautions APAC operators on net zero challenge appeared first on Mobile World Live .",
+      "title": "Eutelsat et Skynopy lancent une coentreprise de stations sol",
+      "link": "https://www.mobileworldlive.com/french/eutelsat-et-skynopy-lancent-une-coentreprise-de-stations-sol/",
+      "summary": "Eutelsat et la start-up française Skynopy ont officiellement lancé ce que les deux partenaires présentent comme l’une des plus grandes Read more... The post Eutelsat et Skynopy lancent une coentreprise de stations sol appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
-        "geral"
+        "satelite"
       ],
       "research": false,
       "countries": [],
       "relevance": 23,
-      "date": "2026-09-10T11:15:04+00:00",
-      "ts": 1789038904.0
-    },
-    {
-      "title": "Vodafone provides the UME with a private 5G network for emergencies",
-      "link": "https://www.datacenterdynamics.com/en/news/vodafone-delivers-a-private-5g-mobile-network-to-the-ume-for-emergencies/",
-      "summary": "The solution enables the deployment of a Mobile Private Network (MPN) in the field that can provide a dedicated, secure, high-capacity network",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-09-10T11:09:00+00:00",
-      "ts": 1789038540.0
+      "date": "2026-09-10T13:03:48+00:00",
+      "ts": 1789045428.0
     },
     {
       "title": "Huawei gets lobbying boost from European pals after open RAN fail",
@@ -1115,6 +1117,20 @@
       "ts": 1788966369.0
     },
     {
+      "title": "AT&T mise sur Amazon Leo pour son offre satellitaire destinée aux entreprises",
+      "link": "https://www.mobileworldlive.com/french/att-mise-sur-amazon-leo-pour-son-offre-satellitaire-destinee-aux-entreprises/",
+      "summary": "AT&T Business et Amazon Leo ont conclu un accord en vue de proposer le haut débit par satellite aux entreprises Read more... The post AT&T mise sur Amazon Leo pour son offre satellitaire destinée aux entreprises appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-09T13:08:23+00:00",
+      "ts": 1788959303.0
+    },
+    {
       "title": "UK unveils £7.8bn Space Strategy, with satellite connectivity central to reducing reliance on Starlink",
       "link": "https://capacityglobal.com/news/uk-unveils-7-8bn-space-strategy-with-satellite-connectivity-central-to-reducing-reliance-on-starlink/",
       "summary": "The UK government has launched a new Space Strategy backed by £7.8 billion of funding through 2030, replacing the 2021 National Space Strategy. The post UK unveils £7.8bn Space Strategy, with satellite connectivity central to reducing reliance on Starlink appeared first on Capacity .",
@@ -1127,36 +1143,6 @@
       "relevance": 47,
       "date": "2026-09-09T09:18:02+00:00",
       "ts": 1788945482.0
-    },
-    {
-      "title": "AT&T taps Amazon Leo for business satellite play",
-      "link": "https://www.mobileworldlive.com/att/att-taps-amazon-leo-for-business-satellite-play/",
-      "summary": "AT&T Business and Amazon Leo reached a deal to bring satellite broadband to enterprise and public sector customers, with the company becoming the first major US operator to employ the low Earth orbit network in a bundled set-up including fibre and 5G. The post AT&T taps Amazon Leo for business satellite play appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-09-09T08:52:32+00:00",
-      "ts": 1788943952.0
-    },
-    {
-      "title": "FCC eyes spectrum vote for space-based services",
-      "link": "https://www.mobileworldlive.com/fcc/fcc-eyes-spectrum-vote-for-space-based-services/",
-      "summary": "The US Federal Communications Commission (FCC) will vote later this month on two items intended to free up spectrum for next-generation connectivity, according to chair Brendan Carr (pictured). The post FCC eyes spectrum vote for space-based services appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-09-09T08:44:35+00:00",
-      "ts": 1788943475.0
     },
     {
       "title": "FCC sizes up spectrum for satellite broadband, AI sensing",
@@ -1288,22 +1274,6 @@
       "relevance": 32,
       "date": "2026-09-04T01:05:15+00:00",
       "ts": 1788483915.0
-    },
-    {
-      "title": "SoftBank completes stratospheric HAPS trial, eyes 2027 deployment",
-      "link": "https://www.lightreading.com/satellite/softbank-completes-stratospheric-haps-trial-eyes-2027-deployment",
-      "summary": "The trial, conducted off Cape Muroto in Kochi Prefecture, included comprehensive testing to validate seamless connectivity between drones and edge computing systems through the HAPS platform.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 46,
-      "date": "2026-09-03T14:20:31+00:00",
-      "ts": 1788445231.0
     },
     {
       "title": "Slicing Goes Regulatory, Satellites Multiply: Advanced Connectivity Insights, August 2026",
@@ -1494,21 +1464,6 @@
       "ts": 1785758401.0
     },
     {
-      "title": "MasOrange, Ericsson test 6 GHz spectrum in early step toward 6G future",
-      "link": "https://www.fierce-network.com/newswire/masorange-ericsson-test-6-ghz-spectrum-early-step-toward-6g-future",
-      "summary": "MasOrange and Ericsson successfully tested the 6 GHz band, a leading candidate for future 6G networks, validating advanced antenna technologies that could quadruple network capacity while supporting AI-driven services, digital twins and next-generation automation.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "AT&T Business expands enterprise, public sector connectivity with Amazon Leo",
       "link": "https://www.fierce-network.com/newswire/att-business-expands-enterprise-public-sector-connectivity-amazon-leo",
       "summary": "AT&T Business is offering Amazon Leo broadband satellite services, extending its fiber and 5G architecture with a new layer of resilient connectivity.",
@@ -1660,6 +1615,22 @@
       ],
       "research": false,
       "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Opinion: Huawei trial opens in Brooklyn as DOJ drops some charges",
+      "link": "https://www.fierce-network.com/broadband/opinion-huawei-trial-opens-brooklyn-doj-drops-some-charges",
+      "summary": "Huawei's landmark RICO trial opens with the DOJ quietly trimming parts of its case, as a U.S. victory could disrupt communications and financial infrastructure across the developing world.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
       "relevance": 31,
       "date": null,
       "ts": 0
