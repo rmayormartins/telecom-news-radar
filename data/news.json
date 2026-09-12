@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-12T01:59:55.978196+00:00",
-  "count": 97,
+  "generated_at": "2026-09-12T09:43:46.748314+00:00",
+  "count": 72,
   "theme_counts": {
-    "moveis": 34,
-    "fibra": 15,
-    "antenas": 5,
-    "iot": 5,
-    "satelite": 34,
-    "radar_militar": 10,
+    "moveis": 25,
+    "fibra": 13,
+    "antenas": 1,
+    "iot": 4,
+    "satelite": 32,
+    "radar_militar": 7,
     "radiocom": 1,
-    "tv": 2,
-    "geral": 26
+    "tv": 1,
+    "geral": 15
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 0,
     "cn": 3
   },
-  "research_count": 25,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (42 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (15 itens)",
-      "kept": 4
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (29 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (47 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (6 itens)",
+      "status": "ok (5 itens)",
       "kept": 0
     },
     {
@@ -449,364 +449,6 @@
       "relevance": 41,
       "date": "2026-09-11T04:45:39+00:00",
       "ts": 1789101939.0
-    },
-    {
-      "title": "Joint Detection and Velocity Estimation in OFDM-ISAC Cell-Free Massive MIMO Networks",
-      "link": "https://arxiv.org/abs/2604.18056",
-      "summary": "arXiv:2604.18056v2 Announce Type: replace Abstract: This paper develops a sensing framework for cell-free massive MIMO (CF-mMIMO) networks operating under orthogonal frequency division multiplexing (OFDM)-based integrated sensing and communication (ISAC). The framework explicitly incorporates the 3D bistatic Doppler...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 80,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
-      "link": "https://arxiv.org/abs/2609.11894",
-      "summary": "arXiv:2609.11894v1 Announce Type: cross Abstract: Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Comparative Performance Analysis of OTFS and OFDM Modulations for Mobile Wireless Communications",
-      "link": "https://arxiv.org/abs/2609.11623",
-      "summary": "arXiv:2609.11623v1 Announce Type: new Abstract: This paper provides a quantitative performance comparison between Orthogonal Time Frequency Space (OTFS) and Orthogonal Frequency-Division Multiplexing (OFDM) modulation schemes, focusing on mobile wireless communication scenarios. We evaluate and compare both schemes...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "From Open RAN to Open Spectrum: A Programmable, Intelligent Architecture for Multi-Service Spectrum Coexistence",
-      "link": "https://arxiv.org/abs/2609.11843",
-      "summary": "arXiv:2609.11843v1 Announce Type: cross Abstract: Considering sharing or coexistence from the perspective of spectrum alone fails to recognize that any spectrum-enabled service also requires (i) radio and processing infrastructure and (ii) a protocol stack, including waveforms and signal processing pipelines. The...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Load Balancing in Multi-Shell LEO Satellite Networks with Successive Interference Cancellation",
-      "link": "https://arxiv.org/abs/2609.11033",
-      "summary": "arXiv:2609.11033v1 Announce Type: new Abstract: Multi-shell low Earth orbit (LEO) networks can increase service opportunities, but altitude-dependent propagation can concentrate traffic on lower shells and create strong inter-shell interference under full frequency reuse. This paper develops a mathematical framework...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "X-RACE: XAI-assisted Recurrent neural network Attribution for Channel Estimation",
-      "link": "https://arxiv.org/abs/2609.11211",
-      "summary": "arXiv:2609.11211v1 Announce Type: new Abstract: Deep learning models, notably Long Short-Term Memory (LSTM), have demonstrated promising performance in channel estimation for high-mobility vehicular environments. However, their black-box nature and architectural overhead limit trustworthiness and efficiency. Classical...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Quantifying the Reality Gap for RL-Based UAV Placement at mmWave and Sub-THz",
-      "link": "https://arxiv.org/abs/2609.11121",
-      "summary": "arXiv:2609.11121v1 Announce Type: new Abstract: Reinforcement learning (RL) policies for unmanned aerial vehicle (UAV) placement in mmWave and sub-terahertz networks are typically trained on simplified analytical channels. We quantify the resulting sim-to-real gap on a real urban map of Doha, Qatar, at carriers {28,...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "From Semantic to Token Communication: The Next Paradigm for Large-Model-Driven 6G Intelligent Connectivity",
-      "link": "https://arxiv.org/abs/2609.10714",
-      "summary": "arXiv:2609.10714v1 Announce Type: new Abstract: The ambitious requirements of sixth-generation (6G) networks are driving communication systems from reliable bit delivery toward meaning-aware and task-oriented connectivity. Large models (LMs), with strong multimodal understanding and generation capabilities, have...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Tensor Decomposition Based Mixed-Field Sensing for XL-MIMO AFDM Systems",
-      "link": "https://arxiv.org/abs/2609.11051",
-      "summary": "arXiv:2609.11051v1 Announce Type: new Abstract: Integrated sensing and communications enabled by extremely large-scale MIMO (XL-MIMO) and affine frequency division multiplexing (AFDM) is a highly promising paradigm for vehicular networks. However, the near-field spherical wavefront distortions induce severe non-linear...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Trellis-Based Noise Modulation with Soft-Decision Viterbi Detection",
-      "link": "https://arxiv.org/abs/2609.11184",
-      "summary": "arXiv:2609.11184v1 Announce Type: new Abstract: Noise modulation conveys information through the statistical properties of noise rather than conventional deterministic signal parameters. This paper investigates a trellis-based noise modulation framework that exploits temporal dependencies between successive...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Fundamentals of Energy-Efficient Hardware Configurations for Wireless Links with Sleep Modes",
-      "link": "https://arxiv.org/abs/2609.11474",
-      "summary": "arXiv:2609.11474v1 Announce Type: new Abstract: In this paper, we examine the energy efficiency (EE) of a base station (BS) with multiple antennas. We use a state-of-the-art power consumption (PC) model that captures the passive and active parts of the transceiver circuitry, including the effects of radiated power,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models",
-      "link": "https://arxiv.org/abs/2609.11615",
-      "summary": "arXiv:2609.11615v1 Announce Type: cross Abstract: This paper presents a novel approach for data-driven self-learning control of highly flexible, modular manufacturing systems. Specifically, we employ a novel framework for model-based reinforcement learning which introduces approximate inverse process models within the...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Joint Spectrum and Airspace Resource Optimization for Low-altitude Wireless Network",
-      "link": "https://arxiv.org/abs/2608.26830",
-      "summary": "arXiv:2608.26830v2 Announce Type: replace Abstract: Low-altitude wireless networks have emerged as a promising platform for enabling the safe and efficient operation of unmanned aerial vehicles (UAVs). However, due to the limited spectrum and airspace resources, it is challenging to efficiently accomplish UAV flight...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Exact PID and PI Gain Regions for Uncertain Non-Affine MIMO Systems",
-      "link": "https://arxiv.org/abs/2609.11130",
-      "summary": "arXiv:2609.11130v1 Announce Type: new Abstract: Characterizing all PID gains that guarantee uniform exponential regulation of uncertain nonlinear systems remains a fundamental problem. Most existing results provide only sufficient conditions derived from a particular Lyapunov construction. This paper gives exact gain...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Predefined-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Fully Data-Driven Approach",
-      "link": "https://arxiv.org/abs/2609.11815",
-      "summary": "arXiv:2609.11815v1 Announce Type: new Abstract: This paper investigates optimal control for nonlinear systems with unknown dynamics, input constraints, disturbances, and adversarial signals. The objective is to develop a learning-based control method that allows the designer to prescribe the desired convergence time...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "A Mathematical Theory of Pragmatic Information",
-      "link": "https://arxiv.org/abs/2609.10986",
-      "summary": "arXiv:2609.10986v1 Announce Type: new Abstract: We propose a pragmatic information theory unifying communication, control, and decision-making. Its core is the isoteleia mapping, formalizing equifinality: distinct semantic paths leading to the same optimal action are pragmatically equivalent. This induces a three-tier...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Large-Scale Network Utility Maximization via GPU-Accelerated Proximal Message Passing",
-      "link": "https://arxiv.org/abs/2509.10722",
-      "summary": "arXiv:2509.10722v2 Announce Type: replace-cross Abstract: We present a GPU-accelerated proximal message passing algorithm for large-scale network utility maximization (NUM). NUM is a fundamental problem in resource allocation, where resources are allocated across various streams in a network to maximize total utility...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "A Time-Frequency Framework for GKP Codes",
-      "link": "https://arxiv.org/abs/2609.10802",
-      "summary": "arXiv:2609.10802v1 Announce Type: cross Abstract: We develop a time--frequency framework for lattice GKP codes in which ideal codewords are realized in the modulation space $M^\\infty$ and identified, through a vector-valued Zak transform, with a finite logical fibre over the continuous syndrome torus. Multi-window...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "fibra"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "The Towers Were Standing: A Cause Decomposition of Cellular Outages During Hurricane Helene",
-      "link": "https://arxiv.org/abs/2609.10944",
-      "summary": "arXiv:2609.10944v1 Announce Type: new Abstract: Hurricane Helene produced the largest absolute cell-site outage in the public FCC record, peaking at 4562 sites. The conventional model is physical: towers destroyed. Helene did destroy over 1700 miles of fibre, but almost none of it was cell sites. We present the first...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Physics of Information Geometry - Part II: Small-Step Active Inference on the Probability Simplex",
-      "link": "https://arxiv.org/abs/2609.11187",
-      "summary": "arXiv:2609.11187v1 Announce Type: new Abstract: This paper is the second in a two-part investigation of the physics of information geometry. While Part I develops a physical foundation for distributional motion on the probability simplex, the present paper studies how that framework manifests in active inference. The...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Geometric Analysis of Doppler-Based Navigation with Low Earth Orbit Satellites",
-      "link": "https://arxiv.org/abs/2609.11296",
-      "summary": "arXiv:2609.11296v1 Announce Type: new Abstract: The increasing vulnerability of Global Navigation Satellite Systems has motivated renewed interest in Doppler-based navigation using low Earth orbit satellites, which can determine position, velocity, clock bias, and clock drift from carrier Doppler measurements....",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "A machine-checked proof of the Dong-Yang classification of optimal (n,4) binary codes for BSCs",
-      "link": "https://arxiv.org/abs/2609.10579",
-      "summary": "arXiv:2609.10579v1 Announce Type: cross Abstract: We present a machine-checked Lean~4 formalization of Dong and Yang's classification of optimal finite-length $(n,4)$ binary block codes for binary symmetric channels. The formalization was developed mainly by feeding the paper's proofs to an AI tool. To establish...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Risk-Averse Decision Making with Multi-Level Reliability Guarantees",
-      "link": "https://arxiv.org/abs/2609.11524",
-      "summary": "arXiv:2609.11524v1 Announce Type: cross Abstract: Many applications in engineering, including wireless broadcasting, require designs that provide performance certificates at different target outage levels. This paper studies the problem of maximizing the weighted average of such certificates in the presence of...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "Formalizing building-up constructions of self-dual codes through isotropic lines in Lean",
-      "link": "https://arxiv.org/abs/2604.08485",
-      "summary": "arXiv:2604.08485v2 Announce Type: replace Abstract: The purpose of this paper is two-fold. First, we show that, after a specified form isometry, the two-coordinate reduction in the binary Hilbert-symbol realization of Chinburg and Zhang is inverse to Kim's building-up construction, up to permutation equivalence....",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
-    },
-    {
-      "title": "ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics",
-      "link": "https://arxiv.org/abs/2609.07020",
-      "summary": "arXiv:2609.07020v2 Announce Type: replace Abstract: Real-time video analytics is crucial for smart city applications and cloud-connected vehicle control. To improve analytics accuracy, it is desirable to process the video at the highest resolution and frame rate. However, due to limited resources, streaming and...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-11T04:00:00+00:00",
-      "ts": 1789099200.0
     },
     {
       "title": "MaiaSpace Wins First Long-Term Asia Customer Deal",
