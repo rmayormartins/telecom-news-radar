@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T20:10:48.626033+00:00",
+  "generated_at": "2026-09-12T01:59:55.978196+00:00",
   "count": 97,
   "theme_counts": {
     "moveis": 34,
-    "fibra": 16,
+    "fibra": 15,
     "antenas": 5,
     "iot": 5,
-    "satelite": 33,
-    "radar_militar": 9,
+    "satelite": 34,
+    "radar_militar": 10,
     "radiocom": 1,
-    "tv": 1,
-    "geral": 27
+    "tv": 2,
+    "geral": 26
   },
   "country_counts": {
     "br": 0,
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -200,6 +200,36 @@
     }
   ],
   "items": [
+    {
+      "title": "NATO Invests for the New Era of Space Defense: Interview with NCIA GM Dylan Browne",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/11/nato-invests-for-the-new-era-of-space-defense-interview-with-ncia-gm-dylan-browne/",
+      "summary": "The era of space defense has well and truly arrived. NATO, one of the key organizations focused on space and defense, has made a number of signature announcements over the […] The post NATO Invests for the New Era of Space Defense: Interview with NCIA GM Dylan Browne appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-11T21:52:59+00:00",
+      "ts": 1789163579.0
+    },
+    {
+      "title": "SES Brings New Platform to Media and Broadcast Partners",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/11/ses-brings-new-platform-to-media-and-broadcast-partners/",
+      "summary": "SES is launching a new platform designed for next generating broadcasting. SES CORE will be a content orchestration and hybrid delivery platform, designed to enable broadcasters and media customers to […] The post SES Brings New Platform to Media and Broadcast Partners appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-09-11T21:33:37+00:00",
+      "ts": 1789162417.0
+    },
     {
       "title": "Iridium Sends Voice Message from Toyota Vehicle With Deutsche Telekom IoT",
       "link": "https://www.satellitetoday.com/connectivity/2026/09/11/iridium-sends-voice-message-from-toyota-vehicle-with-deutsche-telekom-iot/",
@@ -1060,35 +1090,6 @@
       "ts": 1788985100.0
     },
     {
-      "title": "New Eclipse Satellite Platforms Target D2D, Broadband, and Computing",
-      "link": "https://www.satellitetoday.com/connectivity/2026/09/09/new-eclipse-satellite-platforms-target-d2d-broadband-and-computing/",
-      "summary": "Eclipse Space, a new megaconstellation startup, announced a lineup of satellite platforms on Wednesday geared toward direct-to-device (D2D), broadband, and on-orbit computing. Eclipse Space was founded by a group of […] The post New Eclipse Satellite Platforms Target D2D, Broadband, and Computing appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-09T19:25:33+00:00",
-      "ts": 1788981933.0
-    },
-    {
-      "title": "Loft Orbital, Marlan Space to Build AI Constellation to Serve France, Europe and UAE",
-      "link": "https://www.satellitetoday.com/earth-observation/2026/09/09/loft-orbital-marlan-space-to-build-ai-constellation-to-serve-france-europe-and-uae/",
-      "summary": "Loft Orbital, Marlan Space, and partners are investing $1 billion to build an artificial intelligence satellite constellation to serve customers across France, Europe, the UAE, and the rest of the […] The post Loft Orbital, Marlan Space to Build AI Constellation to Serve France, Europe and UAE appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-09T19:20:02+00:00",
-      "ts": 1788981602.0
-    },
-    {
       "title": "ATIS presents 'blueprint' for 6G spectrum requirements",
       "link": "https://www.lightreading.com/6g/atis-presents-blueprint-for-6g-spectrum-requirements",
       "summary": "ATIS has published a Next G Alliance whitepaper that recommends what spectrum will be needed by 2030 to support the commercial rollout of 6G. #pressrelease",
@@ -1522,6 +1523,20 @@
       "ts": 0
     },
     {
+      "title": "T-Mobile and SpaceX at odds? Not at this panel discussion",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-and-spacex-odds-not-panel-discussion",
+      "summary": "Despite all the ruckus about SpaceX obliterating wireless carriers, the satellite behemoth and T-Mobile got along splendidly during a panel discussion on Thursday.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Nokia selected by Planters Broadband for fiber network in Georgia",
       "link": "https://www.fierce-network.com/newswire/nokia-selected-planters-broadband-fiber-network-georgia",
       "summary": "The deal, partially funded through the U.S. BEAD program, will bring fast, secure, and reliable connectivity to underserved communities in southeast Georgia.",
@@ -1589,20 +1604,6 @@
       "countries": [
         "cn"
       ],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Telco AI cost savings could become an opex trap, Bain warns",
-      "link": "https://www.fierce-network.com/cloud/telco-ai-cost-savings-could-become-opex-trap-bain-warns",
-      "summary": "New Bain research warns telcos could swap legacy opex for AI and token costs unless they redesign workflows — not just bolt agents onto existing operations.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 31,
       "date": null,
       "ts": 0
