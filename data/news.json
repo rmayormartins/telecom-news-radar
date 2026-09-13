@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-12T19:49:29.497509+00:00",
-  "count": 72,
+  "generated_at": "2026-09-13T01:54:11.221148+00:00",
+  "count": 65,
   "theme_counts": {
-    "moveis": 24,
-    "fibra": 14,
+    "moveis": 22,
+    "fibra": 11,
     "antenas": 1,
-    "iot": 4,
-    "satelite": 32,
+    "iot": 2,
+    "satelite": 30,
     "radar_militar": 6,
     "radiocom": 1,
     "tv": 1,
-    "geral": 15
+    "geral": 13
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 3,
     "jp": 2,
     "kr": 0,
-    "cn": 3
+    "cn": 2
   },
   "research_count": 0,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 6
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -121,7 +121,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "One6G",
@@ -213,20 +213,6 @@
       "relevance": 39,
       "date": "2026-09-12T16:20:28+00:00",
       "ts": 1789230028.0
-    },
-    {
-      "title": "Telecom news: Rightfiber, XKL optical-transport platforms, Wi-Fi 7",
-      "link": "https://telecomlead.com/news/telecom-news-rightfiber-xkl-optical-transport-platforms-wi-fi-7-127710",
-      "summary": "The latest telecom news includes announcements from Ritter Communications, Great Plains Communications, Rightfiber, XKL, Wi-Fi 7, and others. Rightfiber Launches With $1.6 Billion Credit Facility and 28,000-Mile Fiber Network Grain Management has completed the combination of Ritter Communications and Great Plains...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-12T10:16:19+00:00",
-      "ts": 1789208179.0
     },
     {
       "title": "NATO Invests for the New Era of Space Defense: Interview with NCIA GM Dylan Browne",
@@ -389,65 +375,6 @@
       "relevance": 31,
       "date": "2026-09-11T08:07:45+00:00",
       "ts": 1789114065.0
-    },
-    {
-      "title": "Telecom news: Kyivstar, Solve Networks, IoT eSIM Connectivity",
-      "link": "https://telecomlead.com/news/telecom-news-kyivstar-solve-networks-iot-esim-connectivity-127706",
-      "summary": "Today’s telecom news includes announcements on Kyivstar, Nigeria telecom regulator, Solve Networks, IoT eSIM Connectivity, among others. Kyivstar Begins 5G Testing in Odesa as Ukraine Expands Network Ukraine’s Kyivstar has begun testing its 5G network in Odesa, marking another step in the operator’s rollout of...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-11T06:16:20+00:00",
-      "ts": 1789107380.0
-    },
-    {
-      "title": "Telecom news: Eutelsat, OneWeb, Starlink, Djibouti Telecom, Sudatel Group",
-      "link": "https://telecomlead.com/news/telecom-news-eutelsat-oneweb-starlink-djibouti-telecom-sudatel-group-127702",
-      "summary": "Today’s telecom news includes announcements on Eutelsat, OneWeb, Starlink, Ethio telecom, Djibouti Telecom, Sudatel Group, Horizon Fiber, VodafoneThree, Nokia, among others. Eutelsat Bets €1 Billion on OneWeb Expansion to Challenge Starlink Eutelsat is planning a major expansion of its OneWeb low Earth orbit satellite...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-09-11T06:09:45+00:00",
-      "ts": 1789106985.0
-    },
-    {
-      "title": "Telecom news: Data Traffic of US Wireless Operators, AT&T, Ribbon Communications, TNS",
-      "link": "https://telecomlead.com/news/telecom-news-data-traffic-of-us-wireless-operators-att-ribbon-communications-tns-127700",
-      "summary": "Today’s telecom news includes announcements on Data Traffic of US Wireless Operators, AT&T, Ribbon Communications, TNS, among others. US Wireless Operators Invest Nearly $30 Billion as Data Traffic Hits 159.3 Trillion MB US mobile operators invested nearly $30 billion in wireless network infrastructure during 2025 as...",
-      "source": "Telecom Lead",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-11T06:06:20+00:00",
-      "ts": 1789106780.0
-    },
-    {
-      "title": "Telecom news: Iridium, Deutsche Telekom IoT, Wavsys, MidWave Wireless",
-      "link": "https://telecomlead.com/news/telecom-news-iridium-deutsche-telekom-iot-wavsys-midwave-wireless-127698",
-      "summary": "Today’s telecom news includes announcements on Iridium, Deutsche Telekom IoT, Wavsys, MidWave Wireless, High-End Router Market, among others. Iridium, Deutsche Telekom IoT and Toyota Demonstrate Satellite Voice Messaging Over NTN Direct Iridium Communications, Deutsche Telekom IoT and Toyota have successfully...",
-      "source": "Telecom Lead",
-      "themes": [
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-09-11T06:03:46+00:00",
-      "ts": 1789106626.0
     },
     {
       "title": "SES launches SES CORE platform",
@@ -682,23 +609,6 @@
       "relevance": 60,
       "date": "2026-09-10T09:29:15+00:00",
       "ts": 1789032555.0
-    },
-    {
-      "title": "5G FWA CPE Shipments to Hit 16 Million in 2026 as Nokia, ZTE, Huawei and Inseego Target Growth",
-      "link": "https://telecomlead.com/broadband/5g-fwa-cpe-shipments-to-hit-16-million-in-2026-as-nokia-zte-huawei-and-inseego-target-growth-127691",
-      "summary": "Global Fixed Wireless Access CPE shipments are forecast to grow 16 percent to 23 million units in 2026, driven by rising 5G adoption, 5G Standalone networks and demand for wireless alternatives to fibre broadband. The GSA 2026 Fixed Wireless Access CPE Market Survey expects 5G FWA CPE shipments to rise from 12 million...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 65,
-      "date": "2026-09-10T09:27:41+00:00",
-      "ts": 1789032461.0
     },
     {
       "title": "Lessons from a war zone: how Ukraine's Kyivstar harnesses Starlink to keep users online",
@@ -990,20 +900,6 @@
       "relevance": 39,
       "date": "2026-08-31T14:37:36+00:00",
       "ts": 1788187056.0
-    },
-    {
-      "title": "After Bell Labs: Telecom Industry Funds Only a Fraction of the Innovation Needed",
-      "link": "https://techblog.comsoc.org/2026/08/30/after-bell-labs-telecom-industry-funds-only-a-fraction-of-the-innovation-needed/",
-      "summary": "Many telecom analysts have noted former Bell Labs CTO and President Marcus Weldon scathing linkedin post, sharply criticizing deep staff cuts and warnings of “erasure” at the iconic research division. Weldon said he believes Bell Labs staffing has been cut to nearly half of the 1,200 strong workforce that was in place...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-08-31T00:29:56+00:00",
-      "ts": 1788136196.0
     },
     {
       "title": "Starlink’s Unconventional Approach to Cellular",
