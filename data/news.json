@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-15T10:37:57.615880+00:00",
+  "generated_at": "2026-09-15T15:51:31.469458+00:00",
   "count": 101,
   "theme_counts": {
-    "moveis": 47,
-    "fibra": 9,
+    "moveis": 49,
+    "fibra": 10,
     "antenas": 7,
-    "iot": 5,
-    "satelite": 32,
-    "radar_militar": 14,
+    "iot": 4,
+    "satelite": 31,
+    "radar_militar": 15,
     "radiocom": 1,
     "tv": 3,
     "geral": 16
@@ -17,9 +17,9 @@
     "ru": 0,
     "il": 0,
     "in": 4,
-    "jp": 5,
+    "jp": 3,
     "kr": 2,
-    "cn": 5
+    "cn": 6
   },
   "research_count": 29,
   "sources": [
@@ -86,12 +86,12 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (6 itens)",
+      "status": "ok (7 itens)",
       "kept": 0
     },
     {
@@ -201,6 +201,95 @@
   ],
   "items": [
     {
+      "title": "US Broadband Performance 2026: Connecticut Leads Fixed Broadband as Starlink Speeds Improve",
+      "link": "https://telecomlead.com/broadband/us-broadband-performance-2026-connecticut-leads-fixed-broadband-as-starlink-speeds-improve-127740",
+      "summary": "Connecticut, New Jersey and North Dakota are leading U.S. fixed broadband performance in 2026, while Starlink has recorded a major improvement in delivering 100 Mbps download and 20 Mbps upload speeds, according to the latest Ookla Speedtest Intelligence data. Broadband performance across the United States improved...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-09-15T15:17:46+00:00",
+      "ts": 1789485466.0
+    },
+    {
+      "title": "Private 5G Spending to Hit $84.7 Billion by 2031 as AI and Industry 4.0 Drive Enterprise Networks",
+      "link": "https://telecomlead.com/5g/private-5g-spending-to-hit-84-7-billion-by-2031-as-ai-and-industry-4-0-drive-enterprise-networks-127738",
+      "summary": "Global spending on private LTE and 5G networks is forecast to surge from $17.3 billion in 2026 to $84.7 billion by 2031, as manufacturers, ports, mines, energy companies and other enterprises deploy dedicated cellular networks for AI, automation and mission-critical operations. The Juniper Research forecast represents...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-09-15T13:05:15+00:00",
+      "ts": 1789477515.0
+    },
+    {
+      "title": "US trade agency to fund study for Thailand-US subsea cable",
+      "link": "https://www.datacenterdynamics.com/en/news/us-trade-agency-to-fund-study-for-thailand-us-subsea-cable/",
+      "summary": "THUS cable would be an existing \"aging\" cable linking the two countries",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-09-15T12:56:59+00:00",
+      "ts": 1789477019.0
+    },
+    {
+      "title": "Top 10 Mobile Operators in Africa 2026: MTN, Airtel Africa and Vodacom Lead Network Expansion",
+      "link": "https://telecomlead.com/telecom-services/top-10-mobile-operators-in-africa-2026-mtn-airtel-africa-and-vodacom-lead-network-expansion-127732",
+      "summary": "Africa’s largest mobile operators are entering a new investment phase as subscriber growth is increasingly complemented by spending on 4G, 5G, fiber, AI, mobile data and digital services. MTN, Airtel Africa and Vodacom operate the continent’s biggest mobile businesses by customer scale, while Ethio Telecom, Maroc...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 51,
+      "date": "2026-09-15T12:51:22+00:00",
+      "ts": 1789476682.0
+    },
+    {
+      "title": "Juniper Research expects private network spending surge",
+      "link": "https://www.mobileworldlive.com/industry/juniper-research-expects-private-network-spending-surge/",
+      "summary": "Juniper Research predicted a bright future for private mobile network spending due to heightened demand for infrastructure capable of extracting the full benefits of AI in business operations. The post Juniper Research expects private network spending surge appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-09-15T11:22:54+00:00",
+      "ts": 1789471374.0
+    },
+    {
+      "title": "Samsung and Verizon launch integrated sensing trial in Dallas, Texas",
+      "link": "https://www.datacenterdynamics.com/en/news/samsung-and-verizon-launch-integrated-sensing-trial-in-dallas-texas/",
+      "summary": "As operators continue to push software-driven network architectures ahead of 6G",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-09-15T10:57:36+00:00",
+      "ts": 1789469856.0
+    },
+    {
       "title": "Telefonica seals 5-year football broadcast deal",
       "link": "https://www.mobileworldlive.com/operators/telefonica-seals-5-year-football-broadcast-deal/",
       "summary": "Telefonica agreed a five-year deal worth around €1.7 billion with sports streamer Dazn to broadcast Spanish football matches, in line with the operator’s pay-TV strategy. The post Telefonica seals 5-year football broadcast deal appeared first on Mobile World Live .",
@@ -217,7 +306,7 @@
     {
       "title": "US operator taps Ericsson for rural 5G overhaul",
       "link": "https://www.mobileworldlive.com/5g/us-operator-taps-ericsson-for-rural-5g-overhaul/",
-      "summary": "US regional mobile operator Nex-Tech Wireless signed a four-year agreement with Ericsson to modernise around 85 per cent of its RAN footprint across rural Kansas and expand its existing cloud-native core deployment to support standalone 5G. The post US operator taps Ericsson for rural 5G overhaul appeared first on...",
+      "summary": "US regional mobile operator Nex-Tech Wireless signed a four-year agreement with Ericsson to modernise around 85% of its RAN footprint across rural Kansas and expand its existing cloud-native core deployment to support standalone (SA) 5G. The post US operator taps Ericsson for rural 5G overhaul appeared first on Mobile...",
       "source": "Mobile World Live",
       "themes": [
         "moveis"
@@ -807,22 +896,6 @@
       "ts": 1789400834.0
     },
     {
-      "title": "Telecom Capex 2026: Operators Shift Billions from Coverage to Spectrum, Fiber and AI Networks",
-      "link": "https://telecomlead.com/telecom-equipment/telecom-capex-2026-operators-shift-billions-from-coverage-to-spectrum-fiber-and-ai-networks-127716",
-      "summary": "AT&T, NTT, Deutsche Telekom, Verizon and T-Mobile continue to invest billions of dollars in telecom infrastructure in 2026, but the biggest change is not how much operators are spending. It is where the money is going. Global telecom capital expenditure is becoming more selective in 2026 as operators move away from...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 62,
-      "date": "2026-09-14T15:43:51+00:00",
-      "ts": 1789400631.0
-    },
-    {
       "title": "AWS, Nvidia among new recruits for Verizon's 6G Innovation Forum",
       "link": "https://www.lightreading.com/6g/aws-nvidia-among-new-recruits-for-verizon-s-6g-innovation-forum",
       "summary": "Verizon said AWS, Cisco, Intel, Keysight Technologies, MediaTek, Nvidia, Palo Alto Networks, Rohde & Schwarz and Viavi have joined the 6G Innovation Forum (6GIF). #pressrelease",
@@ -835,22 +908,6 @@
       "relevance": 58,
       "date": "2026-09-14T15:32:43+00:00",
       "ts": 1789399963.0
-    },
-    {
-      "title": "Villagers tie 5G technician to pole in protest over poor cellular coverage in India",
-      "link": "https://www.datacenterdynamics.com/en/news/villagers-tie-5g-technician-to-pole-in-protest-over-poor-cellular-coverage-in-india/",
-      "summary": "As locals decide that poor mobile coverage means it's ok to restrain technicians looking to fix it",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 46,
-      "date": "2026-09-14T15:30:31+00:00",
-      "ts": 1789399831.0
     },
     {
       "title": "Verizon adds members to 6G Innovation Forum",
@@ -1065,20 +1122,6 @@
       "ts": 1789230028.0
     },
     {
-      "title": "Telecom news: Rightfiber, XKL optical-transport platforms, Wi-Fi 7",
-      "link": "https://telecomlead.com/news/telecom-news-rightfiber-xkl-optical-transport-platforms-wi-fi-7-127710",
-      "summary": "The latest telecom news includes announcements from Ritter Communications, Great Plains Communications, Rightfiber, XKL, Wi-Fi 7, and others. Rightfiber Launches With $1.6 Billion Credit Facility and 28,000-Mile Fiber Network Grain Management has completed the combination of Ritter Communications and Great Plains...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-12T10:16:19+00:00",
-      "ts": 1789208179.0
-    },
-    {
       "title": "NATO Invests for the New Era of Space Defense: Interview with NCIA GM Dylan Browne",
       "link": "https://www.satellitetoday.com/government-military/2026/09/11/nato-invests-for-the-new-era-of-space-defense-interview-with-ncia-gm-dylan-browne/",
       "summary": "The era of space defense has well and truly arrived. NATO, one of the key organizations focused on space and defense, has made a number of signature announcements over the […] The post NATO Invests for the New Era of Space Defense: Interview with NCIA GM Dylan Browne appeared first on Via Satellite .",
@@ -1199,37 +1242,6 @@
       "ts": 1789119076.0
     },
     {
-      "title": "Docomo enciende una estación base Open RAN de Nokia en Japón",
-      "link": "https://www.mobileworldlive.com/spanish/docomo-enciende-una-estacion-base-open-ran-de-nokia-en-japon/",
-      "summary": "NTT Docomo ha reforzado su posición en el mercado al poner en funcionamiento equipos de Nokia en una configuración de Read more... The post Docomo enciende una estación base Open RAN de Nokia en Japón appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 54,
-      "date": "2026-09-11T08:02:09+00:00",
-      "ts": 1789113729.0
-    },
-    {
-      "title": "Telecom news: Kyivstar, Solve Networks, IoT eSIM Connectivity",
-      "link": "https://telecomlead.com/news/telecom-news-kyivstar-solve-networks-iot-esim-connectivity-127706",
-      "summary": "Today’s telecom news includes announcements on Kyivstar, Nigeria telecom regulator, Solve Networks, IoT eSIM Connectivity, among others. Kyivstar Begins 5G Testing in Odesa as Ukraine Expands Network Ukraine’s Kyivstar has begun testing its 5G network in Odesa, marking another step in the operator’s rollout of...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-11T06:16:20+00:00",
-      "ts": 1789107380.0
-    },
-    {
       "title": "CTIA: Americans used more wireless data in 2025 than in the entire 4G decade, but growth slowed from 2023-2024",
       "link": "https://techblog.comsoc.org/2026/09/10/ctia-americans-used-more-wireless-data-in-2025-than-in-the-entire-4g-decade-but-growth-slowed-from-2023-2024/",
       "summary": "Executive Summary: U.S. wireless data consumption reached 159.3 trillion megabytes in 2025—20% year-over-year growth and nearly 60% higher than two years prior—surpassing total usage across the entire 4G decade, according to CTIA’s 2026 Annual Survey. The results highlight accelerating demand on RAN and transport...",
@@ -1257,6 +1269,22 @@
       "relevance": 57,
       "date": "2026-09-10T13:04:46+00:00",
       "ts": 1789045486.0
+    },
+    {
+      "title": "Huawei gets lobbying boost from European pals after open RAN fail",
+      "link": "https://www.lightreading.com/regulatory-politics/huawei-gets-lobbying-boost-from-european-pals-after-open-ran-fail",
+      "summary": "A new report from Connect Europe urges the European Union not to ban Huawei while acknowledging that open RAN has gone nowhere.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 48,
+      "date": "2026-09-10T11:00:10+00:00",
+      "ts": 1789038010.0
     },
     {
       "title": "T-Mobile rips into Starlink's mobile 'threat'",
@@ -1303,20 +1331,6 @@
       "ts": 1788966369.0
     },
     {
-      "title": "UK unveils £7.8bn Space Strategy, with satellite connectivity central to reducing reliance on Starlink",
-      "link": "https://capacityglobal.com/news/uk-unveils-7-8bn-space-strategy-with-satellite-connectivity-central-to-reducing-reliance-on-starlink/",
-      "summary": "The UK government has launched a new Space Strategy backed by £7.8 billion of funding through 2030, replacing the 2021 National Space Strategy. The post UK unveils £7.8bn Space Strategy, with satellite connectivity central to reducing reliance on Starlink appeared first on Capacity .",
-      "source": "Capacity Media",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-09T09:18:02+00:00",
-      "ts": 1788945482.0
-    },
-    {
       "title": "FCC sizes up spectrum for satellite broadband, AI sensing",
       "link": "https://www.lightreading.com/satellite/fcc-sizes-up-spectrum-for-satellite-broadband-ai-sensing",
       "summary": "Among items up for vote, the FCC wants to unlock spectrum in the 12GHz and 42GHz bands for satellite connectivity and to 'modernize' unlicensed ultra-wideband spectrum for AI-based sensing and other emerging applications.",
@@ -1330,20 +1344,6 @@
       "relevance": 55,
       "date": "2026-09-08T20:45:00+00:00",
       "ts": 1788900300.0
-    },
-    {
-      "title": "EU telcos close ranks against Starlink in bid for satellite spectrum – report",
-      "link": "https://www.lightreading.com/satellite/eu-telcos-close-ranks-against-starlink-in-joint-bid-for-satellite-spectrum-report",
-      "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone are in talks to form a consortium to bid for EU mobile satellite spectrum for D2D, reports Bloomberg.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-09-08T15:04:10+00:00",
-      "ts": 1788879850.0
     },
     {
       "title": "European network operators in talks to form consortium to bid for EU satellite spectrum and provide D2M service",
