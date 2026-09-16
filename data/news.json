@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-16T15:43:00.059659+00:00",
-  "count": 89,
+  "generated_at": "2026-09-16T20:35:08.649945+00:00",
+  "count": 96,
   "theme_counts": {
-    "moveis": 42,
-    "fibra": 9,
+    "moveis": 44,
+    "fibra": 11,
     "antenas": 6,
-    "iot": 2,
-    "satelite": 28,
-    "radar_militar": 10,
-    "radiocom": 1,
-    "tv": 0,
-    "geral": 23
+    "iot": 3,
+    "satelite": 31,
+    "radar_militar": 8,
+    "radiocom": 0,
+    "tv": 1,
+    "geral": 25
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
-    "jp": 4,
-    "kr": 2,
+    "in": 3,
+    "jp": 5,
+    "kr": 1,
     "cn": 3
   },
   "research_count": 28,
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: HTTP Error 408: Request Time-out",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (5 itens)",
+      "status": "ok (4 itens)",
       "kept": 0
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,110 @@
     }
   ],
   "items": [
+    {
+      "title": "European MNOs Disagree on the Value of Satellite D2D",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/16/european-mnos-disagree-on-the-value-of-satellite-d2d/",
+      "summary": "PARIS — How important will direct-to-device services be to mobile network operator offerings? The jury is out as European MNO execs disagreed on the value proposition and what they’re willing to […] The post European MNOs Disagree on the Value of Satellite D2D appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-09-16T19:49:51+00:00",
+      "ts": 1789588191.0
+    },
+    {
+      "title": "Top 10 Telecom Network Trends 2027: 5G-Advanced, AI-RAN, 6G and Satellite Investment",
+      "link": "https://telecomlead.com/5g/top-10-telecom-network-trends-2027-5g-advanced-ai-ran-6g-and-satellite-investment-127764",
+      "summary": "Telecom network investment will enter a major transition in 2027 as operators shift capital from nationwide 5G coverage toward 5G-Advanced, AI-native RAN, autonomous networks, satellite connectivity, 5G Standalone and preparations for 6G. Global mobile infrastructure spending is expected to peak at approximately $92...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-09-16T19:35:53+00:00",
+      "ts": 1789587353.0
+    },
+    {
+      "title": "Starlink vs AST SpaceMobile vs Amazon Leo 2026: Investment, Satellites and Direct-to-Phone Battle",
+      "link": "https://telecomlead.com/satellite/starlink-vs-ast-spacemobile-vs-amazon-leo-2026-investment-satellites-and-direct-to-phone-battle-127761",
+      "summary": "The satellite-to-phone market is turning into a multibillion-dollar investment battle as Starlink, AST SpaceMobile and Amazon Leo compete to connect ordinary smartphones directly to satellites. Starlink enters the race with the largest existing satellite constellation and commercial Direct to Cell services. AST...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-09-16T19:32:12+00:00",
+      "ts": 1789587132.0
+    },
+    {
+      "title": "Top 10 Mobile Operators in Europe 2026: Revenue, Subscribers, Capex and 5G Investment",
+      "link": "https://telecomlead.com/telecom-services/top-10-mobile-operators-in-europe-2026-revenue-subscribers-capex-and-5g-investment-127763",
+      "summary": "Europe’s largest telecom operators are investing billions of euros in 5G, fiber, spectrum, cloud infrastructure and network modernization as mobile data consumption and demand for high-speed connectivity continue to increase. Deutsche Telekom, Vodafone and Orange have the greatest international scale, while...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-09-16T19:28:48+00:00",
+      "ts": 1789586928.0
+    },
+    {
+      "title": "Huawei Chairman: Strategic Focus on AI Computing & Connectivity Infrastructure",
+      "link": "https://techblog.comsoc.org/2026/09/16/huawei-chairman-ai-computing-connectivity-infrastructure-focus/",
+      "summary": "Note: Perplexity.ai was use to research this article. According to Chairman Guo Ping, Huawei aims to position itself as a full-stack provider of AI-era computing and connectivity infrastructure—effectively a Chinese counterpart to Nvidia in the infrastructure layer rather than in foundation-model development. In...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 49,
+      "date": "2026-09-16T17:42:45+00:00",
+      "ts": 1789580565.0
+    },
+    {
+      "title": "AT&T's Cricket launches 5G Home Internet",
+      "link": "https://www.lightreading.com/fixed-wireless-access/at-t-s-cricket-launches-5g-home-internet",
+      "summary": "AT&T subsidiary Cricket Wireless has launched a 5G-powered fixed wireless access service. It starts at $45 per month as a standalone or can be bundled with mobile for a total of $75 per month. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-09-16T16:52:57+00:00",
+      "ts": 1789577577.0
+    },
+    {
+      "title": "LTE dominates growing IoT module shipments",
+      "link": "https://www.mobileworldlive.com/industry/lte-dominates-growing-iot-module-shipments/",
+      "summary": "Analyst figures showed cellular IoT modules remained resilient in the face of memory component shortages which are hammering the smartphone sector, with shipments of the specialised units up 15% year-on-year in H1. The post LTE dominates growing IoT module shipments appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-09-16T15:59:39+00:00",
+      "ts": 1789574379.0
+    },
     {
       "title": "Ericsson adapts wireless WAN control to sovereign shift",
       "link": "https://www.mobileworldlive.com/ericsson/ericsson-adapts-wireless-wan-control-to-sovereign-shift/",
@@ -272,6 +376,20 @@
       "ts": 1789562910.0
     },
     {
+      "title": "Vodafone to take €1B hit from Drahi OXG deal",
+      "link": "https://www.mobileworldlive.com/vodafone/vodafone-to-take-e1b-hit-from-drahi-oxg-deal/",
+      "summary": "Vodafone Group will reportedly miss out on more than €1.1 billion in deferred payments from German broadband venture OXG, after its partner Patrick Drahi's Altice agreed a deal to sell its stake. The post Vodafone to take €1B hit from Drahi OXG deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-16T11:18:44+00:00",
+      "ts": 1789557524.0
+    },
+    {
       "title": "Japanese operators explore mmWave 5G expansion",
       "link": "https://www.mobileworldlive.com/5g/japanese-operators-explore-mmwave-5g-expansion/",
       "summary": "Japanese operators hope to make inroads to improving the reach of mmWave 5G and signed a memorandum of understanding covering joint exploration of ways to do so. The post Japanese operators explore mmWave 5G expansion appeared first on Mobile World Live .",
@@ -286,6 +404,65 @@
       "relevance": 55,
       "date": "2026-09-16T10:46:41+00:00",
       "ts": 1789555601.0
+    },
+    {
+      "title": "BT floats drone benefits after police deployment",
+      "link": "https://www.mobileworldlive.com/bt/bt-floats-drone-benefits-after-police-deployment/",
+      "summary": "BT Business highlighted the impact of a drone system used by the British Transport Police intended to cut disruption caused by trespassers and other issues on the country’s rail network, a deployment set to be expanded over the next two years. The post BT floats drone benefits after police deployment appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-16T10:29:18+00:00",
+      "ts": 1789554558.0
+    },
+    {
+      "title": "How Gulf Operators Are Investing to Improve Mobile Network Performance",
+      "link": "https://telecomlead.com/4g-lte/how-gulf-operators-are-investing-to-improve-mobile-network-performance-127756",
+      "summary": "Mobile networks across the Gulf remain among the world’s strongest, supported by extensive 5G deployment and continued investment in network capacity. Ookla’s 2026 analysis on mobile network performance of Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the UAE shows, however, that even high-performing networks...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-09-16T06:40:10+00:00",
+      "ts": 1789540810.0
+    },
+    {
+      "title": "Telecom news: U Mobile, Tencent Cloud, Xtremis Spectrum Automation, ServicePower, Vision AI, Ericsson",
+      "link": "https://telecomlead.com/news/telecom-news-u-mobile-tencent-cloud-xtremis-spectrum-automation-servicepower-vision-ai-ericsson-127753",
+      "summary": "Today’s telecom news includes announcements on U Mobile, Tencent Cloud, Xtremis Spectrum Automation, ServicePower, Vision AI, Ericsson, among others. U Mobile and Tencent Cloud Target Enterprise 5G and AI Services in Malaysia Malaysia’s U Mobile and Tencent Cloud have signed a strategic memorandum of understanding to...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-09-16T04:49:02+00:00",
+      "ts": 1789534142.0
+    },
+    {
+      "title": "Telecom news: Enablence, Starlink, Eutelsat, OneWeb, Jio Satellite, NTT DoCoMo, Nokia",
+      "link": "https://telecomlead.com/news/telecom-news-enablence-starlink-eutelsat-oneweb-jio-satellite-ntt-docomo-nokia-127751",
+      "summary": "Today’s telecom news includes announcements on Enablence Technologies, Starlink, Eutelsat, OneWeb, Reliance Industries, Jio Satellite Communications, NTT DoCoMo, Nokia, among others. Enablence Secures C$25 Million Strategic Investment to Expand Photonics Capacity Enablence Technologies has entered an agreement with...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "jp"
+      ],
+      "relevance": 61,
+      "date": "2026-09-16T04:40:27+00:00",
+      "ts": 1789533627.0
     },
     {
       "title": "Environment-Aware Diffusion Model for Massive MIMO-OFDM Channel Estimation",
@@ -852,6 +1029,20 @@
       "ts": 1789471374.0
     },
     {
+      "title": "Telefonica seals 5-year football broadcast deal",
+      "link": "https://www.mobileworldlive.com/operators/telefonica-seals-5-year-football-broadcast-deal/",
+      "summary": "Telefonica agreed a five-year deal worth around €1.7 billion with sports streamer Dazn to broadcast Spanish football matches, in line with the operator’s pay-TV strategy. The post Telefonica seals 5-year football broadcast deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-09-15T10:32:07+00:00",
+      "ts": 1789468327.0
+    },
+    {
       "title": "US operator taps Ericsson for rural 5G overhaul",
       "link": "https://www.mobileworldlive.com/5g/us-operator-taps-ericsson-for-rural-5g-overhaul/",
       "summary": "US regional mobile operator Nex-Tech Wireless signed a four-year agreement with Ericsson to modernise around 85% of its RAN footprint across rural Kansas and expand its existing cloud-native core deployment to support standalone (SA) 5G. The post US operator taps Ericsson for rural 5G overhaul appeared first on Mobile...",
@@ -894,34 +1085,6 @@
       "ts": 1789399963.0
     },
     {
-      "title": "Verizon adds members to 6G Innovation Forum",
-      "link": "https://www.mobileworldlive.com/verizon/verizon-adds-members-to-6g-innovation-forum/",
-      "summary": "Verizon expanded its 6G Innovation Forum with nine new members, broadening the industry group it launched in 2025 to support development of an open and diverse 6G ecosystem. The post Verizon adds members to 6G Innovation Forum appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-14T14:38:07+00:00",
-      "ts": 1789396687.0
-    },
-    {
-      "title": "SES completes O3b mPOWER MEO constellation",
-      "link": "https://www.mobileworldlive.com/industry/ses-completes-o3b-mpower-meo-constellation/",
-      "summary": "SES launched the final three birds in its 13-satellite O3b mPOWER medium Earth orbit constellation, adding thrust to its connectivity play for enterprise, cloud service providers, governments and mobile operators. The post SES completes O3b mPOWER MEO constellation appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-14T14:15:04+00:00",
-      "ts": 1789395304.0
-    },
-    {
       "title": "Samsung and Verizon test ISAC capabilities in Dallas",
       "link": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
       "summary": "Showcasing the industry’s first AI-powered ISAC trial on vRAN, the companies proved how sensing networks enable real-time intelligence for large-scale events The post Samsung and Verizon test ISAC capabilities in Dallas appeared first on Total Telecom .",
@@ -935,23 +1098,6 @@
       "relevance": 48,
       "date": "2026-09-14T13:35:25+00:00",
       "ts": 1789392925.0
-    },
-    {
-      "title": "Verizon, Samsung kick-off venue management with ISAC trial",
-      "link": "https://www.mobileworldlive.com/verizon/verizon-samsung-kick-off-venue-management-with-isac-trial/",
-      "summary": "Samsung Electronics and Verizon turned live 5G radio signals into real-time crowd heatmaps during a large international football fan event, marking a major field trial for 6G-ready Integrated Sensing and Communication on commercial virtualised RAN. The post Verizon, Samsung kick-off venue management with ISAC trial...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 63,
-      "date": "2026-09-14T13:15:00+00:00",
-      "ts": 1789391700.0
     },
     {
       "title": "Samsung comes out against 6G overhaul for sensing",
@@ -985,21 +1131,6 @@
       "relevance": 52,
       "date": "2026-09-14T12:20:30+00:00",
       "ts": 1789388430.0
-    },
-    {
-      "title": "MobileX powers hybrid retail model for CallSign Mobile",
-      "link": "https://www.mobileworldlive.com/5g/mobilex-powers-hybrid-retail-model-for-callsign-mobile/",
-      "summary": "MobileX launched its first hybrid retail wireless model with CallSign Mobile, a network specifically built for US military veterans and the veteran community. The post MobileX powers hybrid retail model for CallSign Mobile appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "radar_militar",
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-14T12:02:00+00:00",
-      "ts": 1789387320.0
     },
     {
       "title": "Comsol at ZTE Global Summit 2026: Charting a 5G-Powered Path from Connectivity Provider to Digital Infrastructure Partner",
@@ -1136,22 +1267,6 @@
       "ts": 1789045486.0
     },
     {
-      "title": "Huawei gets lobbying boost from European pals after open RAN fail",
-      "link": "https://www.lightreading.com/regulatory-politics/huawei-gets-lobbying-boost-from-european-pals-after-open-ran-fail",
-      "summary": "A new report from Connect Europe urges the European Union not to ban Huawei while acknowledging that open RAN has gone nowhere.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 48,
-      "date": "2026-09-10T11:00:10+00:00",
-      "ts": 1789038010.0
-    },
-    {
       "title": "T-Mobile rips into Starlink's mobile 'threat'",
       "link": "https://www.lightreading.com/satellite/t-mobile-rips-into-starlink-s-mobile-threat-",
       "summary": "T-Mobile CFO Peter Osvaldik says SpaceX's Starlink is not a competitive threat in wireless and lambasted the company's various mobile network plans.",
@@ -1257,20 +1372,6 @@
       "ts": 1788362820.0
     },
     {
-      "title": "Analysis: Nvidia–MediaTek Deepen AI Platform Collaboration -What it Means for AI RAN & DCI",
-      "link": "https://techblog.comsoc.org/2026/09/01/analysis-nvidia-mediatek-deepen-ai-platform-collaboration-what-it-means-for-ai-ran-dci/",
-      "summary": "Executive Summary: Nvidia has expanded its partnership with Taiwan based semiconductor firm MediaTek, committing $3.5 billion to a bond investment the two companies describe as a deepening of their “longstanding collaboration to build the next generations of AI computing platforms.” The move extends Nvidia’s pattern...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-01T22:39:02+00:00",
-      "ts": 1788302342.0
-    },
-    {
       "title": "Starlink’s Unconventional Approach to Cellular",
       "link": "https://circleid.com/posts/starlinks-unconventional-approach-to-cellular",
       "summary": "SpaceX is considering a terrestrial cellular network powered by Starlink satellite backhaul, but scarce spectrum, enormous capacity demands and entrenched rivals could make its boldest telecommunications gambit yet far harder to execute profitably at scale.",
@@ -1358,22 +1459,6 @@
       "ts": 0
     },
     {
-      "title": "AT&T Business expands enterprise, public sector connectivity with Amazon Leo",
-      "link": "https://www.fierce-network.com/newswire/att-business-expands-enterprise-public-sector-connectivity-amazon-leo",
-      "summary": "AT&T Business is offering Amazon Leo broadband satellite services, extending its fiber and 5G architecture with a new layer of resilient connectivity.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Verizon adds more firepower to its 6G Innovation Forum",
       "link": "https://www.fierce-network.com/wireless/verizon-adds-more-firepower-its-6g-innovation-forum",
       "summary": "Amazon Web Services (AWS), Cisco, Intel, Keysight Technologies, MediaTek, Nvidia, Palo Alto Networks, Rohde & Schwarz and Viavi Solutions are joining the Verizon 6G Innovation Forum.",
@@ -1388,12 +1473,13 @@
       "ts": 0
     },
     {
-      "title": "6G is more than another ‘G,’ says T-Mobile CTO John Saw",
-      "link": "https://www.fierce-network.com/wireless/6g-more-another-g-says-t-mobile-cto-john-saw",
-      "summary": "Carriers have assets that hyperscalers can’t easily replicate – including network reach and distribution, says T-Mobile CTO John Saw.",
+      "title": "While Illinois lags on closing its digital divide, its citizens pick Starlink",
+      "link": "https://www.fierce-network.com/broadband/while-illinois-lags-closing-its-digital-divide-its-citizens-pick-starlink",
+      "summary": "With a few exceptions, nearly every state is narrowing the gap between broadband performance in cities compared to rural areas, according to new research from Ookla.",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "fibra",
+        "satelite"
       ],
       "research": false,
       "countries": [],
@@ -1472,16 +1558,30 @@
       "ts": 0
     },
     {
-      "title": "Nokia selected by Planters Broadband for fiber network in Georgia",
-      "link": "https://www.fierce-network.com/newswire/nokia-selected-planters-broadband-fiber-network-georgia",
-      "summary": "The deal, partially funded through the U.S. BEAD program, will bring fast, secure, and reliable connectivity to underserved communities in southeast Georgia.",
+      "title": "The optical network is becoming part of the AI machine",
+      "link": "https://www.fierce-network.com/sponsored/optical-network-becoming-part-ai-machine",
+      "summary": "As AI clusters grow larger, the connections between processors increasingly determine the performance of the entire system. Near-packaged optics (NPO) offers a practical way to bring optical connectivity closer to the silicon without sacrificing maintainability or supply-chain flexibility.",
       "source": "Fierce Network",
       "themes": [
         "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 43,
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nokia accelerates AI-RAN adoption as global operators embrace AI-native network evolution on NVIDIA platforms",
+      "link": "https://www.fierce-network.com/newswire/nokia-accelerates-ai-ran-adoption-global-operators-embrace-ai-native-network-evolution",
+      "summary": "A1 Group, Chunghwa Telecom, du, e&, Mobily, stc, TPG Telecom and Zain Saudi are among a growing number of operators advancing AI-RAN proofs of concept and live trials with Nokia, using NVIDIA Aerial RAN Computer.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
       "date": null,
       "ts": 0
     },
