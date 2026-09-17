@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-16T20:35:08.649945+00:00",
+  "generated_at": "2026-09-17T02:15:50.233449+00:00",
   "count": 96,
   "theme_counts": {
-    "moveis": 44,
+    "moveis": 45,
     "fibra": 11,
     "antenas": 6,
     "iot": 3,
-    "satelite": 31,
+    "satelite": 29,
     "radar_militar": 8,
     "radiocom": 0,
     "tv": 1,
@@ -19,7 +19,7 @@
     "in": 3,
     "jp": 5,
     "kr": 1,
-    "cn": 3
+    "cn": 4
   },
   "research_count": 28,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,34 @@
     }
   ],
   "items": [
+    {
+      "title": "Top 10 Spectrum Auctions 2026: Prices, Operators, MHz and 5G Investment",
+      "link": "https://telecomlead.com/telecom-services/top-10-spectrum-auctions-2026-prices-operators-mhz-and-5g-investment-127762",
+      "summary": "Global telecom operators are spending billions of dollars on spectrum in 2026 as regulators release frequencies for 5G capacity, rural coverage, fixed wireless access and future network expansion. The U.S. AWS-3 auction alone raised $3.57 billion, while Pakistan sold 480 MHz for about $510 million. Canada collected...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-09-17T01:06:06+00:00",
+      "ts": 1789607166.0
+    },
+    {
+      "title": "Dell’Oro: Data Center capex grew 92% in 2Q-2026 (caveats galore)",
+      "link": "https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/",
+      "summary": "According to a new report by Dell’Oro Group, the global data center capital expenditures strongly accelerated in 2Q 2026. Continued AI infrastructure investment supported growth across compute, storage, networking, and physical infrastructure, while rising memory and storage prices significantly increased server...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-17T00:18:40+00:00",
+      "ts": 1789604320.0
+    },
     {
       "title": "European MNOs Disagree on the Value of Satellite D2D",
       "link": "https://www.satellitetoday.com/connectivity/2026/09/16/european-mnos-disagree-on-the-value-of-satellite-d2d/",
@@ -923,20 +951,6 @@
       "ts": 1789501468.0
     },
     {
-      "title": "Eutelsat Targets 1,300 OneWeb Satellites in Orbit by 2030 Ahead of IRIS² Transition",
-      "link": "https://satnews.com/2026/09/15/eutelsat-targets-1300-oneweb-satellites-in-orbit-by-2030-ahead-of-iris%c2%b2-transition/",
-      "summary": "On Sept. 15, 2026, Eutelsat Group Chief Executive Officer Jean-François Fallacher outlined the company’s long-term Low Earth Orbit constellation roadmap during an executive session at World Space Business Week in […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-15T18:02:38+00:00",
-      "ts": 1789495358.0
-    },
-    {
       "title": "Starlink’s Other Network",
       "link": "https://circleid.com/posts/starlinks-other-network",
       "summary": "Starshield gives SpaceX a separate military satellite network, raising a broader question about whether Starlink could dedicate satellites to cellular and business backhaul without reducing broadband capacity for residential customers.",
@@ -1267,19 +1281,20 @@
       "ts": 1789045486.0
     },
     {
-      "title": "T-Mobile rips into Starlink's mobile 'threat'",
-      "link": "https://www.lightreading.com/satellite/t-mobile-rips-into-starlink-s-mobile-threat-",
-      "summary": "T-Mobile CFO Peter Osvaldik says SpaceX's Starlink is not a competitive threat in wireless and lambasted the company's various mobile network plans.",
+      "title": "Huawei gets lobbying boost from European pals after open RAN fail",
+      "link": "https://www.lightreading.com/regulatory-politics/huawei-gets-lobbying-boost-from-european-pals-after-open-ran-fail",
+      "summary": "A new report from Connect Europe urges the European Union not to ban Huawei while acknowledging that open RAN has gone nowhere.",
       "source": "Light Reading",
       "themes": [
-        "moveis",
-        "satelite"
+        "moveis"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-09-10T05:58:35+00:00",
-      "ts": 1789019915.0
+      "countries": [
+        "cn"
+      ],
+      "relevance": 48,
+      "date": "2026-09-10T11:00:10+00:00",
+      "ts": 1789038010.0
     },
     {
       "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
@@ -1324,20 +1339,6 @@
       "relevance": 50,
       "date": "2026-09-05T22:48:47+00:00",
       "ts": 1788648527.0
-    },
-    {
-      "title": "PwC: Global AI data center spending to hit $31.6tn by 2050; Role of full stack orchestration layer explained",
-      "link": "https://techblog.comsoc.org/2026/09/03/pwc-global-ai-data-center-spending-to-hit-31-6tn-by-2050-role-of-full-stack-orchestration-layer/",
-      "summary": "The AI infrastructure boom is set to continue as per most market research firms. AI chip and compute server upgrade cycles will necessitate the continued spending of many hundreds of billions of dollars on AI compute infrastructure for the foreseeable future. Global data center spending is set to reach US$31.6...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-04T01:05:15+00:00",
-      "ts": 1788483915.0
     },
     {
       "title": "Slicing Goes Regulatory, Satellites Multiply: Advanced Connectivity Insights, August 2026",
