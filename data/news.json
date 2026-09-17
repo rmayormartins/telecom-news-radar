@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T10:35:56.460726+00:00",
-  "count": 96,
+  "generated_at": "2026-09-17T15:49:30.066681+00:00",
+  "count": 97,
   "theme_counts": {
-    "moveis": 48,
-    "fibra": 12,
-    "antenas": 9,
+    "moveis": 46,
+    "fibra": 10,
+    "antenas": 11,
     "iot": 3,
-    "satelite": 26,
+    "satelite": 27,
     "radar_militar": 10,
     "radiocom": 1,
     "tv": 0,
@@ -14,11 +14,11 @@
   },
   "country_counts": {
     "br": 0,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
-    "in": 2,
+    "in": 1,
     "jp": 4,
-    "kr": 1,
+    "kr": 2,
     "cn": 4
   },
   "research_count": 29,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Ericsson Blog",
@@ -175,8 +175,8 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (4 itens)",
-      "kept": 0
+      "status": "ok (9 itens)",
+      "kept": 1
     },
     {
       "source": "Via Satellite",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,140 @@
     }
   ],
   "items": [
+    {
+      "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
+      "link": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
+      "summary": "PARIS — South Korean company Satrec Initiative is working with parent company Hanwha Systems to provide high-resolution Earth imagery for the synthetic-aperture-radar (SAR) constellation announced in July. Satrec Initiative, acquires 25-centimeter optical […] The post Satrec Initiative to build 10-centimeter-class...",
+      "source": "SpaceNews",
+      "themes": [
+        "antenas",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 48,
+      "date": "2026-09-17T15:05:15+00:00",
+      "ts": 1789657515.0
+    },
+    {
+      "title": "Russian Satellite Imagery Assists Iranian Targeting of U.S. Military Facilities",
+      "link": "https://satnews.com/2026/09/17/russian-satellite-imagery-assists-iranian-targeting-of-u-s-military-facilities/",
+      "summary": "On Sept. 17, 2026, defense intelligence assessments revealed that Russian Earth observation and synthetic aperture radar (SAR) satellite constellations are actively providing high-resolution imagery to Iranian military forces to assist […]",
+      "source": "SatNews",
+      "themes": [
+        "antenas",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 42,
+      "date": "2026-09-17T14:44:17+00:00",
+      "ts": 1789656257.0
+    },
+    {
+      "title": "Nokia, Microsoft target AI automation boost for operators",
+      "link": "https://www.mobileworldlive.com/ai-cloud/nokia-microsoft-target-ai-automation-boost-for-operators/",
+      "summary": "Nokia partnered with Microsoft to develop an agentic, unified data foundation supporting what the pair claimed will be faster, more reliable AI-driven operations for telecoms providers. The post Nokia, Microsoft target AI automation boost for operators appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-17T14:26:23+00:00",
+      "ts": 1789655183.0
+    },
+    {
+      "title": "Verizon seeks FCC approval to test 6G use cases in 4GHz",
+      "link": "https://www.lightreading.com/6g/verizon-seeks-fcc-approval-to-test-6g-use-cases-in-4ghz",
+      "summary": "Verizon applies for experimental spectrum license to use part of 4GHz band to demo 5G sensing use cases with Ericsson and Samsung as a 'precursor' to 6G.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-09-17T13:04:49+00:00",
+      "ts": 1789650289.0
+    },
+    {
+      "title": "Next Starship flight test to put first 'V3' Starlink satellites into orbit",
+      "link": "https://www.lightreading.com/satellite/next-starship-flight-test-to-put-first-v3-starlink-satellites-into-orbit",
+      "summary": "The next Starship test flight, set for early next week, is poised to be the first to deploy Starlink's high-capacity V3 satellites into orbit and place them into service.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-09-17T13:00:00+00:00",
+      "ts": 1789650000.0
+    },
+    {
+      "title": "Kymeta Kestrel u5 Terminal Now Certified for Rail Industry",
+      "link": "https://www.satellitetoday.com/technology/2026/09/17/kymeta-kestrel-u5-terminal-now-certified-for-rail-industry/",
+      "summary": "Kymeta’s Kestrel u5 terminal has received certification for compliance with railway standards ahead of connectivity trials with some of Europe’s largest rail operators. The Kestrel u5 is a flat panel […] The post Kymeta Kestrel u5 Terminal Now Certified for Rail Industry appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-17T12:07:12+00:00",
+      "ts": 1789646832.0
+    },
+    {
+      "title": "SatPort to Build Landing Stations for Telesat Lightspeed",
+      "link": "https://www.satellitetoday.com/technology/2026/09/17/satport-to-build-landing-stations-for-telesat-lightspeed/",
+      "summary": "SatPort Infrastructure will develop, build, and host landing stations for the Telesat Lightspeed constellation, to connect Lightspeed to terrestrial networks. The two companies announced a master services agreement on Sept. […] The post SatPort to Build Landing Stations for Telesat Lightspeed appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-17T12:05:21+00:00",
+      "ts": 1789646721.0
+    },
+    {
+      "title": "Eurobites: Ericsson's 5G core goes live at VodafoneThree",
+      "link": "https://www.lightreading.com/5g/eurobites-ericsson-s-5g-core-goes-live-at-vodafonethree",
+      "summary": "Also in today's EMEA regional roundup: copper migration in the UK; VodafoneThree slams London's planning regs; EU gets kids off social media.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-09-17T11:40:52+00:00",
+      "ts": 1789645252.0
+    },
+    {
+      "title": "The Era of Cheap, Price-Per-Kilo Launch is Over, Launchers Say",
+      "link": "https://www.satellitetoday.com/launch/2026/09/17/the-era-of-cheap-price-per-kilo-launch-is-over-launchers-say/",
+      "summary": "PARIS — Space launch competitors think it’s time for a new model of pricing in the launch market. Against the backdrop of SpaceX winding down the Falcon 9 launch program, […] The post The Era of Cheap, Price-Per-Kilo Launch is Over, Launchers Say appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-17T10:59:51+00:00",
+      "ts": 1789642791.0
+    },
     {
       "title": "Ericsson, VodafoneThree laud core upgrade progress",
       "link": "https://www.mobileworldlive.com/vodafone/ericsson-vodafonethree-laud-core-upgrade-progress/",
@@ -914,20 +1048,6 @@
       "ts": 1789567390.0
     },
     {
-      "title": "Iowa's cornfields just became a spectrum laboratory",
-      "link": "https://www.lightreading.com/6g/iowa-s-cornfields-just-became-a-spectrum-laboratory-",
-      "summary": "The FCC's new Innovation Zone at Iowa State University arrives just as John Deere's machines start producing more data than any rural network can carry.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-09-16T13:00:00+00:00",
-      "ts": 1789563600.0
-    },
-    {
       "title": "USTDA funds Thailand-US subsea cable study",
       "link": "https://www.lightreading.com/cable-technology/ustda-funds-thailand-us-subsea-cable-study",
       "summary": "The study will assess the commercial, technical, financial and regulatory viability of a new Thailand-US subsea cable link.",
@@ -940,20 +1060,6 @@
       "relevance": 52,
       "date": "2026-09-16T12:48:30+00:00",
       "ts": 1789562910.0
-    },
-    {
-      "title": "Vodafone to take €1B hit from Drahi OXG deal",
-      "link": "https://www.mobileworldlive.com/vodafone/vodafone-to-take-e1b-hit-from-drahi-oxg-deal/",
-      "summary": "Vodafone Group will reportedly miss out on more than €1.1 billion in deferred payments from German broadband venture OXG, after its partner Patrick Drahi's Altice agreed a deal to sell its stake. The post Vodafone to take €1B hit from Drahi OXG deal appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-09-16T11:18:44+00:00",
-      "ts": 1789557524.0
     },
     {
       "title": "Japanese operators explore mmWave 5G expansion",
@@ -1000,36 +1106,6 @@
       "ts": 1789507351.0
     },
     {
-      "title": "Sovereign EO Space Capabilities Are Ready to Go to the Next Level",
-      "link": "https://www.satellitetoday.com/government-military/2026/09/15/sovereign-eo-space-capabilities-are-ready-to-go-to-the-next-level/",
-      "summary": "PARIS — Executives from BlackSky, Planet, Iceye and HawkEye 360 assessed the changing dynamics of the sovereign Earth Observation (EO) satellite market at the Space Defense and Security (SDSS) summit […] The post Sovereign EO Space Capabilities Are Ready to Go to the Next Level appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-15T19:45:36+00:00",
-      "ts": 1789501536.0
-    },
-    {
-      "title": "Satellite-Mobile Partnerships for D2D Multiply, But Key Questions Remain Unresolved",
-      "link": "https://www.satellitetoday.com/connectivity/2026/09/15/satellite-mobile-partnerships-for-d2d-multiply-but-key-questions-remain-unresolved/",
-      "summary": "Direct-to-device was heralded as a win for mobile network operators as a way to expand their networks without building infrastructure in remote places. Many MNOs have struck partnerships with satellite […] The post Satellite-Mobile Partnerships for D2D Multiply, But Key Questions Remain Unresolved appeared first on...",
-      "source": "Via Satellite",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-09-15T19:44:28+00:00",
-      "ts": 1789501468.0
-    },
-    {
       "title": "Starlink’s Other Network",
       "link": "https://circleid.com/posts/starlinks-other-network",
       "summary": "Starshield gives SpaceX a separate military satellite network, raising a broader question about whether Starlink could dedicate satellites to cellular and business backhaul without reducing broadband capacity for residential customers.",
@@ -1059,22 +1135,6 @@
       "relevance": 48,
       "date": "2026-09-15T16:07:04+00:00",
       "ts": 1789488424.0
-    },
-    {
-      "title": "SES, Elveo Mobile Expand Strategic Partnership to Develop Mobile Roaming, Manufacturing Capabilities",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/09/15/ses-elveo-mobile-expand-strategic-partnership-to-develop-mobile-roaming-manufacturing-capabilities/",
-      "summary": "European satellite operator SES will utilize Elveo Mobile’s D2D technology to enable mobile roaming capabilities for European consumers, businesses, governments, institutional, and defense users under the terms of a partnership […] The post SES, Elveo Mobile Expand Strategic Partnership to Develop Mobile Roaming,...",
-      "source": "Via Satellite",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-09-15T16:04:17+00:00",
-      "ts": 1789488257.0
     },
     {
       "title": "Juniper Research expects private network spending surge",
@@ -1255,23 +1315,6 @@
       "ts": 1789135225.0
     },
     {
-      "title": "India approves 5% spectrum charge for satellite players – report",
-      "link": "https://www.lightreading.com/satellite/india-approves-5-spectrum-charge-for-satellite-players-report",
-      "summary": "India seeks to levy a 5% spectrum usage charge on satellite operators, resolving a major regulatory hurdle which could accelerate the launch of LEO and MEO broadband services in the country.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 52,
-      "date": "2026-09-11T09:31:16+00:00",
-      "ts": 1789119076.0
-    },
-    {
       "title": "CTIA: Americans used more wireless data in 2025 than in the entire 4G decade, but growth slowed from 2023-2024",
       "link": "https://techblog.comsoc.org/2026/09/10/ctia-americans-used-more-wireless-data-in-2025-than-in-the-entire-4g-decade-but-growth-slowed-from-2023-2024/",
       "summary": "Executive Summary: U.S. wireless data consumption reached 159.3 trillion megabytes in 2025—20% year-over-year growth and nearly 60% higher than two years prior—surpassing total usage across the entire 4G decade, according to CTIA’s 2026 Annual Survey. The results highlight accelerating demand on RAN and transport...",
@@ -1284,21 +1327,6 @@
       "relevance": 52,
       "date": "2026-09-10T17:41:35+00:00",
       "ts": 1789062095.0
-    },
-    {
-      "title": "AT&T CEO not a big fan of SpaceX's small cell mobile plan",
-      "link": "https://www.lightreading.com/satellite/at-t-ceo-not-a-big-fan-of-spacex-s-small-cell-mobile-plan",
-      "summary": "In an apparent rebuff to a SpaceX mobile initiative, AT&T CEO John Stankey said that relying on a network comprising a bunch of small cells is not enough to overcome the steep requirements of a terrestrial mobile network.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-10T13:04:46+00:00",
-      "ts": 1789045486.0
     },
     {
       "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
@@ -1419,20 +1447,6 @@
       "relevance": 53,
       "date": "2026-08-11T15:35:00+00:00",
       "ts": 1786462500.0
-    },
-    {
-      "title": "The Real Question for AI for 6G Isn’t Whether—It’s Where",
-      "link": "https://spectrum.ieee.org/ai-ran-6g",
-      "summary": "Today’s advanced 5G networks, and tomorrow’s 6G networks, are now moving toward an increasingly AI-centered future. This September in Madrid , the global telecommunications standards body, the 3GPP , will meet to decide how present-day 5G networks migrate to the emerging 6G standard, slated to begin rolling out by...",
-      "source": "IEEE Spectrum (Telecom)",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-08-03T12:00:01+00:00",
-      "ts": 1785758401.0
     },
     {
       "title": "Opinion: You’re thinking about 6G wrong",
