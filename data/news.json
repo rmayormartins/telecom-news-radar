@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-19T02:06:00.830553+00:00",
-  "count": 97,
+  "generated_at": "2026-09-19T09:53:33.949343+00:00",
+  "count": 69,
   "theme_counts": {
-    "moveis": 38,
-    "fibra": 12,
-    "antenas": 11,
-    "iot": 5,
-    "satelite": 29,
-    "radar_militar": 12,
+    "moveis": 27,
+    "fibra": 11,
+    "antenas": 2,
+    "iot": 3,
+    "satelite": 23,
+    "radar_militar": 8,
     "radiocom": 1,
     "tv": 1,
-    "geral": 24
+    "geral": 18
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 2,
     "cn": 5
   },
-  "research_count": 29,
+  "research_count": 1,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (26 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (13 itens)",
-      "kept": 7
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (40 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (58 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -389,409 +389,6 @@
       "ts": 1789727798.0
     },
     {
-      "title": "4D Radar Perception Algorithms for Autonomous Driving: A Review",
-      "link": "https://arxiv.org/abs/2609.19216",
-      "summary": "arXiv:2609.19216v1 Announce Type: cross Abstract: Research on 4D millimeter-wave radar perception algorithms has flourished in recent years, extending from signal processing and object detection to semantic segmentation, motion estimation, occupancy prediction, and dynamic scene reconstruction. This review organizes...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "RUN-O-RAN: An O-RAN-Native Architecture Enabling Cooperative Uplink Localization",
-      "link": "https://arxiv.org/abs/2609.20640",
-      "summary": "arXiv:2609.20640v1 Announce Type: new Abstract: Accurate positioning is increasingly required in indoor and dense urban environments; nonetheless, satellite-based systems are not always available, and standardized 5G localization solutions remain difficult to deploy with commercial devices. This paper presents...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Phase-Coherent Doppler-Only Sensing for D-MIMO ISAC",
-      "link": "https://arxiv.org/abs/2609.19401",
-      "summary": "arXiv:2609.19401v1 Announce Type: new Abstract: This paper studies phase-coherent Doppler-only sensing for bandwidth-limited sub-6 GHz D-MIMO ISAC. We consider a multistatic system with one transmitter and multiple synchronized single-antenna receivers, and develop noncoherent and coherent maximum-likelihood...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Tri-Hybrid Beamforming Design for Large-Scale MIMO ISAC Systems",
-      "link": "https://arxiv.org/abs/2609.20092",
-      "summary": "arXiv:2609.20092v1 Announce Type: new Abstract: Tri-hybrid multiple-input multiple-output (MIMO) architectures have been proposed as a promising solution for enabling energy-efficient communications systems in large-scale antenna arrays by replacing conventional antenna arrays in hybrid beamforming (HBF) systems with...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "LEO Satellite Internet of Things: Architecture, Technology, and On-Orbit Verification",
-      "link": "https://arxiv.org/abs/2609.20165",
-      "summary": "arXiv:2609.20165v1 Announce Type: new Abstract: Low Earth orbit (LEO) satellite constellations are poised to become a cornerstone of the sixth-generation (6G) Internet of Things (IoT), providing truly global coverage and ubiquitous connectivity. This article presents a holistic two-dimensional system architecture for...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "iot",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 63,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Scalable High-Precision Near-Field Channel Parameter Estimation via Spatial Chirp Structure",
-      "link": "https://arxiv.org/abs/2609.19626",
-      "summary": "arXiv:2609.19626v1 Announce Type: new Abstract: This paper presents a scalable framework for high-precision near-field multipath channel parameter estimation in extremely large antenna array (ELAA) systems, enabling joint recovery of path number, path gains, angles, and ranges from a single noisy observation. The key...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "NS3Learn: Transferring 5G NR Mode-2 Reception Realism from ns-3 to the Veins/SUMO Stack for Connected-Vehicle Safety Assessment",
-      "link": "https://arxiv.org/abs/2609.20578",
-      "summary": "arXiv:2609.20578v1 Announce Type: new Abstract: Connected-vehicle safety evaluations rely on coupled traffic and network simulations, but standard channel models ignore radio resource competition in 5G NR sidelink Mode-2, reporting unrealistically high message delivery in dense traffic. This study introduces...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Application-Integrated Slicing towards 6G: The Musical Metaverse Use Case",
-      "link": "https://arxiv.org/abs/2609.20163",
-      "summary": "arXiv:2609.20163v1 Announce Type: new Abstract: Emerging immersive applications are expected to support heterogeneous groups of users with fundamentally different communication and computation requirements. Using the Musical Metaverse (MM) as a representative example, we show how such applications expose limitations...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Data-Driven Unknown Input Reconstruction for MIMO Systems with Convergence Guarantees",
-      "link": "https://arxiv.org/abs/2604.08018",
-      "summary": "arXiv:2604.08018v2 Announce Type: replace Abstract: In this paper, we consider data-driven reconstruction of unknown inputs for deterministic, linear time-invariant (LTI) multiple-input multiple-output (MIMO) systems. We propose a novel autoregressive estimator based on a constrained least-squares formulation over...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold",
-      "link": "https://arxiv.org/abs/2609.19405",
-      "summary": "arXiv:2609.19405v1 Announce Type: new Abstract: We prove that exact block recovery in the square Gaussian binary MIMO model can be achieved in polynomial time at the same first-order SNR threshold as exhaustive maximum-likelihood detection. Specifically, for $y=\\sqrt{\\rho/N}Hx^\\star+w, \\; x^\\star\\in\\{\\pm1\\}^N,$ and...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Demystifying Linear Operator Learning for Control Systems",
-      "link": "https://arxiv.org/abs/2609.19428",
-      "summary": "arXiv:2609.19428v1 Announce Type: new Abstract: This paper proposes a structured approach to learning linear operators for control systems from data. We address both structural and learning-theoretic aspects of the problem. To derive structural assumptions, we propose using the well-established framework of...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Online Material-Labeled Environment Reconstruction via Bayesian Multipath Attribution for Low-Altitude ISAC",
-      "link": "https://arxiv.org/abs/2609.19819",
-      "summary": "arXiv:2609.19819v1 Announce Type: new Abstract: Environment reconstruction for low-altitude integrated sensing and communications (ISAC) has largely focused on geometry-centric maps, overlooking material-dependent propagation effects. Material-labeled reconstruction is therefore a key step toward propagation-aware...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "MAGRPO: Accelerated MARL Training for Fluid Antenna-Assisted Wireless Network Optimization",
-      "link": "https://arxiv.org/abs/2604.17379",
-      "summary": "arXiv:2604.17379v3 Announce Type: replace Abstract: Fluid antenna systems (FASs) improve wireless links by repositioning antenna elements to exploit favorable spatial channel variations. Jointly optimizing fluid antenna (FA) positions, beamforming, and transmit power in a multi-cell network is challenging because the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "AI-Driven Real-Time Relay Optimisation in Smart Urban NR-V2X Networks via Learning-to-Optimise Graph Neural Networks",
-      "link": "https://arxiv.org/abs/2609.20271",
-      "summary": "arXiv:2609.20271v1 Announce Type: cross Abstract: Reliable and low-latency communication is a fundamental requirement for smart city services and Industry 4.0 applications enabled by NR-V2X networks. However, limited Road-Side Unit (RSU) deployment and complex urban propagation conditions often prevent Connected and...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Adversarial Water-Filling: Theory, Algorithms, and a Domain-Specific Wireless Foundation Model",
-      "link": "https://arxiv.org/abs/2605.26163",
-      "summary": "arXiv:2605.26163v2 Announce Type: replace Abstract: Competitive resource allocation problems over frequency and space can be formulated as minimax interaction between transmit power and worst-case interference. This formulation naturally arises in multi-operator low Earth orbit (LEO) satellite spectrum sharing, where...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Optimal Design of Distributed Inexact Gradient Tracking: Exact Worst-case Convergence Rate and Explicit Parameters",
-      "link": "https://arxiv.org/abs/2609.20265",
-      "summary": "arXiv:2609.20265v1 Announce Type: cross Abstract: This paper addresses the problem of designing distributed optimization algorithms. Different to existing methods that usually give sufficient conditions and conservative convergence rates, we propose a framework for determining the exact worst-case convergence rate....",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Conflict-Free Color-Clustered Sequential Belief-Propagation Decoding of Quantum LDPC Codes via Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2609.20236",
-      "summary": "arXiv:2609.20236v1 Announce Type: new Abstract: Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is attractive due to its low complexity and low latency, but it is often limited by short cycles, degeneracy, and convergence failures. Reinforcement-learning-based sequential BP decoding...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "A Bi-Objective Routing Framework for Hybrid Terrestrial-Satellite Quantum Networks",
-      "link": "https://arxiv.org/abs/2609.19561",
-      "summary": "arXiv:2609.19561v1 Announce Type: cross Abstract: Hybrid terrestrial-satellite quantum networks combine terrestrial fiber infrastructure with free-space links to enable long-distance entanglement distribution. Entanglement can be routed over different combinations of terrestrial and satellite links, resulting in paths...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Weather Data Spoofing Attacks on Rain-Adaptive Millimeter-Wave Frequency Selection in V2X Communication Networks",
-      "link": "https://arxiv.org/abs/2609.20601",
-      "summary": "arXiv:2609.20601v1 Announce Type: cross Abstract: Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "R2DN: Scalable Parameterization of Contracting and Lipschitz Recurrent Deep Networks",
-      "link": "https://arxiv.org/abs/2504.01250",
-      "summary": "arXiv:2504.01250v3 Announce Type: replace-cross Abstract: This paper presents the Robust Recurrent Deep Network (R2DN), a scalable parameterization of stable and robust recurrent neural networks for machine learning and data-driven control. We construct R2DNs as the feedback interconnection of a linear time-invariant...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Common Randomness: A Key Enabler of Trustworthy 6G Communication Systems",
-      "link": "https://arxiv.org/abs/2609.18574",
-      "summary": "arXiv:2609.18574v2 Announce Type: replace Abstract: Common randomness (CR) is a valuable resource for enhancing the trustworthiness of 6G communication systems. This article highlights the role of CR in improving scalability, security, and resilience in distributed 6G architectures. It provides an overview of...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Fourier Domain Synthesis Imaging Using A Wirelessly Coordinated Distributed Antenna Array",
-      "link": "https://arxiv.org/abs/2609.19562",
-      "summary": "arXiv:2609.19562v1 Announce Type: new Abstract: In this work we present an experimental demonstration of one-dimensional Fourier-domain imaging using a fully-digital wirelessly coordinated coherent distributed antenna array (CDA) receiver. The nodes consist of two software-defined radios (SDRs) operating with...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "RIS-Aided Wireless Multiport Sensing: Multiplexed De-Embedding of an RIS-Programmable Over-the-Air Fixture",
-      "link": "https://arxiv.org/abs/2609.20243",
-      "summary": "arXiv:2609.20243v1 Announce Type: new Abstract: Wireless multiport sensing aims to remotely retrieve the scattering matrix of a multiport device under test (DUT) connected to not-directly-accessible (NDA) antennas, based on scattering parameters measured with remotely located accessible antennas that couple over the...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "MAGNETAR: Multipath-Guided Spatial Posteriors for Transmitter Pose Inference in the Upper Mid-Band",
-      "link": "https://arxiv.org/abs/2609.20670",
-      "summary": "arXiv:2609.20670v1 Announce Type: cross Abstract: Robots that localize a radio transmitter need more than a point estimate: in cluttered rooms, one measurement is often consistent with several transmitter locations and, because upper-mid-band antennas are directional, several headings. We present MAGNETAR, which...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Statistical Characterization of Wind-Induced Beam Refraction and UAV Instability in Water-to-Air Optical Channels",
-      "link": "https://arxiv.org/abs/2605.22861",
-      "summary": "arXiv:2605.22861v2 Announce Type: replace Abstract: Direct water-to-air (W2A) optical communications experience strong beam refraction at the dynamic sea surface and unmanned aerial vehicle (UAV) instability. This letter proposes a novel and tractable statistical channel model for a vertical W2A link between an...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Strong Duality in Risk-Constrained Nonconvex Functional Programming",
-      "link": "https://arxiv.org/abs/2206.11948",
-      "summary": "arXiv:2206.11948v5 Announce Type: replace-cross Abstract: We show that a wide class of risk-constrained nonconvex functional optimization problems exhibit strong duality, regardless of nonconvexity. We develop two novel results under distinct sets of assumptions, establishing strong duality over both decomposable...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "Traffic Engineering in Large-scale Networks with Generalizable Graph Neural Networks",
-      "link": "https://arxiv.org/abs/2503.24203",
-      "summary": "arXiv:2503.24203v3 Announce Type: replace Abstract: Traffic Engineering (TE) in large-scale networks like cloud Wide Area Networks (WANs) and Low Earth Orbit (LEO) satellite constellations is a critical challenge. Although learning-based approaches have been proposed to address the scalability of traditional TE...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
-      "title": "STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks",
-      "link": "https://arxiv.org/abs/2609.20347",
-      "summary": "arXiv:2609.20347v1 Announce Type: new Abstract: LEO satellite networks feature dynamic topologies, time-varying links, and diverse service requirements, which make conventional routing schemes difficult to support fine-grained quality-of-service (QoS) provisioning. Existing studies mainly optimize routing over network...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-18T04:00:00+00:00",
-      "ts": 1789704000.0
-    },
-    {
       "title": "Telecom news: Comtrend, SIMSY, Lyntris, XKL",
       "link": "https://telecomlead.com/news/telecom-news-comtrend-simsy-lyntris-xkl-127799",
       "summary": "Today’s telecom news includes announcements on Comtrend, SIMSY, Lyntris, Wi-Fi 7 XGS-PON Gateways, Atombeam’s Neurpac technology, XKL, among others. Comtrend Wi-Fi 7 XGS-PON Gateways Clear Key FCC Regulatory Hurdle Comtrend has received conditional approval from the US Federal Communications Commission for its new...",
@@ -868,7 +465,7 @@
     {
       "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
       "link": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
-      "summary": "PARIS — South Korean company Satrec Initiative is working with parent company Hanwha Systems to provide high-resolution Earth imagery for the synthetic-aperture-radar (SAR) constellation announced in July. Satrec Initiative, acquires 25-centimeter optical […] The post Satrec Initiative to build 10-centimeter-class...",
+      "summary": "PARIS — South Korean company Satrec Initiative is working with parent company Hanwha Aerospace to provide high-resolution Earth imagery for the synthetic-aperture-radar (SAR) constellation announced in July. Satrec Initiative, acquires 25-centimeter optical […] The post Satrec Initiative to build 10-centimeter-class...",
       "source": "SpaceNews",
       "themes": [
         "antenas",
