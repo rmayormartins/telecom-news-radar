@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T20:06:43.545443+00:00",
-  "count": 96,
+  "generated_at": "2026-09-19T02:06:00.830553+00:00",
+  "count": 97,
   "theme_counts": {
-    "moveis": 40,
+    "moveis": 38,
     "fibra": 12,
     "antenas": 11,
     "iot": 5,
     "satelite": 29,
     "radar_militar": 12,
     "radiocom": 1,
-    "tv": 0,
-    "geral": 22
+    "tv": 1,
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 0,
     "jp": 3,
     "kr": 2,
-    "cn": 3
+    "cn": 5
   },
   "research_count": 29,
   "sources": [
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,37 @@
     }
   ],
   "items": [
+    {
+      "title": "Huawei’s Ascend Silicon Roadmap Extends From AI Chips to Cluster-Scale Infrastructure",
+      "link": "https://techblog.comsoc.org/2026/09/18/huaweis-ascend-silicon-roadmap-extends-from-ai-chips-to-cluster-scale-infrastructure/",
+      "summary": "Note: Perplexity.ai was use to research this article. …………………………………………………………………………………….. Executive Summary: Huawei is accelerating development of an indigenous AI-computing platform intended to reduce China’s reliance on U.S.-supplied accelerators, networking technologies, and associated software ecosystems. The...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 44,
+      "date": "2026-09-19T01:26:38+00:00",
+      "ts": 1789781198.0
+    },
+    {
+      "title": "SiriusXM Commissions SXM-11 Satellite into Commercial Service as Fleet’s Most Powerful Broadcast Platform",
+      "link": "https://satnews.com/2026/09/18/siriusxm-commissions-sxm-11-satellite-into-commercial-service-as-fleets-most-powerful-broadcast-platform/",
+      "summary": "On Sept. 15, 2026, satellite audio operator SiriusXM confirmed that its SXM-11 geostationary communications satellite completed in-orbit testing and entered full commercial service. Built by Intuitive Machines on its IM […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-09-18T21:30:34+00:00",
+      "ts": 1789767034.0
+    },
     {
       "title": "Ericsson pushes ISAC drone abilities in Finland",
       "link": "https://www.mobileworldlive.com/5g/ericsson-pushes-isac-drone-abilities-in-finland/",
@@ -1353,21 +1384,6 @@
       "ts": 1788985560.0
     },
     {
-      "title": "European network operators in talks to form consortium to bid for EU satellite spectrum and provide D2M service",
-      "link": "https://techblog.comsoc.org/2026/09/07/european-network-operators-in-talks-to-form-consortium-to-bid-for-spectrum-provide-d2m-service/",
-      "summary": "Introduction: Four of Europe’s largest mobile network operators—Deutsche Telekom, Orange, Vodafone Group, and Telefónica—are in preliminary discussions to form a consortium that would jointly bid for EU-reserved satellite spectrum and launch a direct-to-mobile (D2M) service, according to a Bloomberg report cited by...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-09-08T00:31:11+00:00",
-      "ts": 1788827471.0
-    },
-    {
       "title": "4iG and SpaceX Plan Starlink Mobile Rollout Across Hungary and Western Balkans",
       "link": "https://circleid.com/posts/4ig-and-spacex-plan-starlink-mobile-rollout-across-hungary-and-western-balkans",
       "summary": "4iG and SpaceX plan direct-to-device Starlink services across four European markets, alongside secured government communications, but national spectrum approvals and key details of the proposed sovereign infrastructure remain unresolved.",
@@ -1485,20 +1501,6 @@
       "ts": 0
     },
     {
-      "title": "Nex-Tech Wireless selects Ericsson in modernize rural Kansas network and launch 5GSA",
-      "link": "https://www.fierce-network.com/newswire/nex-tech-wireless-selects-ericsson-modernize-rural-kansas-network-and-launch-5gsa",
-      "summary": "Agreement includes updating 85% of Nex-Tech Wireless’ RAN footprint across Kansas, deploy a cloud-native 5G SA Core, and enable new network hosting capabilities for other mobile operators.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Samsung eyes regional carriers to boost its US game in wireless",
       "link": "https://www.fierce-network.com/wireless/samsung-eyes-regional-carriers-boost-its-us-game-wireless",
       "summary": "Samsung is making inroads in the Tier 1 and 2 operator space, a market dominated by Ericsson and Nokia in their post-Huawei era.",
@@ -1581,6 +1583,22 @@
       "research": false,
       "countries": [],
       "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Huawei Cloud Stack powers new era of intelligence",
+      "link": "https://www.fierce-network.com/newswire/huawei-cloud-stack-powers-new-era-intelligence",
+      "summary": "Huawei Cloud introduced an AI agent-ready hybrid cloud architecture at its Huawei Cloud event today.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
