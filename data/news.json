@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T17:20:38.349203+00:00",
-  "count": 97,
+  "generated_at": "2026-09-21T21:20:47.927323+00:00",
+  "count": 109,
   "theme_counts": {
-    "moveis": 31,
-    "fibra": 10,
+    "moveis": 35,
+    "fibra": 14,
     "antenas": 9,
     "iot": 3,
-    "satelite": 22,
-    "radar_militar": 8,
+    "satelite": 32,
+    "radar_militar": 13,
     "radiocom": 2,
     "tv": 2,
     "geral": 32
@@ -65,12 +65,12 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "TeckNexus",
-      "status": "ok (10 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -80,8 +80,8 @@
     },
     {
       "source": "CircleID (Telecom)",
-      "status": "ERRO: HTTP Error 503: Service Unavailable",
-      "kept": 0
+      "status": "ok (15 itens)",
+      "kept": 6
     },
     {
       "source": "DataCenterDynamics",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 10
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,122 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom Equipment Market Extends Recovery as AI Infrastructure Spending Accelerates",
+      "link": "https://techblog.comsoc.org/2026/09/21/telecom-equipment-market-extends-recovery-as-ai-infrastructure-spending-accelerates/",
+      "summary": "Executive Summary: Global telecom equipment revenues have been in a state of steady decline until last year. While there was an increase in spending for 5G FWA & 5G SA core networks, the main revenue driver was strong growth in fiber-optic-based network gear needed for connectivity inside and between AI data centers....",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-09-21T21:16:09+00:00",
+      "ts": 1790025369.0
+    },
+    {
+      "title": "Final ViaSat-3 Satellite Enters Service, Completing High-Capacity Trio",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/21/final-viasat-3-satellite-enters-service-completing-high-capacity-trio/",
+      "summary": "The final ViaSat-3 satellite entered service late last week, completing deployment of Viasat’s high-capacity satellite trio. This satellite, ViaSat-3 F2, was actually the second satellite to launch, and it launched […] The post Final ViaSat-3 Satellite Enters Service, Completing High-Capacity Trio appeared first on...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-21T20:00:54+00:00",
+      "ts": 1790020854.0
+    },
+    {
+      "title": "True Anomaly and Northrop Grumman Aiming to Build GHOST-R Prototypes to Reduce RG-XX Costs",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/21/true-anomaly-and-northrop-grumman-aiming-to-build-ghost-r-prototypes-to-reduce-rg-xx-costs/",
+      "summary": "The Defense Innovation Unit and U.S. Space Force’s Space Systems Command (SSC) have awarded True Anomaly and Northrop Grumman Geosynchronous High-Resolution Optical Space-Based Tactical Reconnaissance (GHOST-R) prototype contracts to deliver “lower-cost” reconnaissance satellites […] The post True Anomaly and Northrop...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-09-21T19:59:43+00:00",
+      "ts": 1790020783.0
+    },
+    {
+      "title": "Intellian to Develop Multi-Band WGS Terminals With Network Innovations",
+      "link": "https://www.satellitetoday.com/technology/2026/09/21/intellian-to-develop-multi-band-wgs-terminals-with-network-innovations/",
+      "summary": "Intellian Technologies and Network Innovations plan to jointly develop and distribute multi-band Wideband Global Satcom (WGS) flyaway terminals for military and government customers under a new strategic partnership announced last […] The post Intellian to Develop Multi-Band WGS Terminals With Network Innovations...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-21T19:54:28+00:00",
+      "ts": 1790020468.0
+    },
+    {
+      "title": "Europe Grapples With Faster Procurement Amid Space Defense Push",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/21/europe-grapples-with-faster-procurement-amid-space-defense-push/",
+      "summary": "As Europe works to move faster in its space defense capabilities, leaders at the Space and Defense & Security Summit say Ukraine accelerated a shift in institutional urgency yet challenges […] The post Europe Grapples With Faster Procurement Amid Space Defense Push appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-21T19:51:59+00:00",
+      "ts": 1790020319.0
+    },
+    {
+      "title": "Katalyst to Demo Space-Based Power Beaming for Pentagon Energy Investment Program",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/21/katalyst-to-demo-space-based-power-beaming-for-pentagon-energy-investment-program/",
+      "summary": "Katalyst Space has been selected by a Pentagon energy investment program to take part in a space-based power beaming to remote locations, working with the U.S. Naval Research Laboratory (NRL). […] The post Katalyst to Demo Space-Based Power Beaming for Pentagon Energy Investment Program appeared first on Via Satellite...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-21T19:47:29+00:00",
+      "ts": 1790020049.0
+    },
+    {
+      "title": "FCC Projects $100 Billion Spectrum Auction Revenue Target Across Upcoming Multi-Year Sales",
+      "link": "https://satnews.com/2026/09/21/fcc-projects-100-billion-spectrum-auction-revenue-target-across-upcoming-multi-year-sales/",
+      "summary": "On Sept. 21, 2026, Federal Communications Commission (FCC) Chairman Brendan Carr confirmed that the regulatory agency projects raising over $100 billion (€87.1 billion) for the U.S. Treasury through a series […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-09-21T19:32:11+00:00",
+      "ts": 1790019131.0
+    },
+    {
+      "title": "Commercial Geostationary Satellite Orders Rebound to 14 in 2026 Driven by Spectrum Transitions",
+      "link": "https://satnews.com/2026/09/21/commercial-geostationary-satellite-orders-rebound-to-14-in-2026-driven-by-spectrum-transitions/",
+      "summary": "On Sept. 21, 2026, space market intelligence firm Novaspace released market data confirming that commercial geostationary (GEO) communications satellite orders reached 14 spacecraft announced year-to-date. The figure marks a recovery […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-09-21T17:34:15+00:00",
+      "ts": 1790012055.0
+    },
     {
       "title": "Flag to deploy Ciena's Waveserver platform on Echo subsea cable",
       "link": "https://www.datacenterdynamics.com/en/news/flag-to-deploy-cienas-waveserver-platform-on-echo-subsea-cable/",
@@ -1170,20 +1286,6 @@
       "ts": 1789645252.0
     },
     {
-      "title": "The Era of Cheap, Price-Per-Kilo Launch is Over, Launchers Say",
-      "link": "https://www.satellitetoday.com/launch/2026/09/17/the-era-of-cheap-price-per-kilo-launch-is-over-launchers-say/",
-      "summary": "PARIS — Space launch competitors think it’s time for a new model of pricing in the launch market. Against the backdrop of SpaceX winding down the Falcon 9 launch program, […] The post The Era of Cheap, Price-Per-Kilo Launch is Over, Launchers Say appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-17T10:59:51+00:00",
-      "ts": 1789642791.0
-    },
-    {
       "title": "Ericsson, VodafoneThree laud core upgrade progress",
       "link": "https://www.mobileworldlive.com/vodafone/ericsson-vodafonethree-laud-core-upgrade-progress/",
       "summary": "VodafoneThree and Ericsson activated the UK operator’s upgraded cloud-native 5G core network, a move described by the vendor as a significant milestone in a SEK12.5 billion project being undertaken by the pair. The post Ericsson, VodafoneThree laud core upgrade progress appeared first on Mobile World Live .",
@@ -1210,20 +1312,6 @@
       "relevance": 51,
       "date": "2026-09-17T10:12:33+00:00",
       "ts": 1789639953.0
-    },
-    {
-      "title": "EnduroSat and CACI to Build Vantor’s Pulse Smallsat Fleet",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/09/17/endurosat-and-caci-to-build-vantors-pulse-smallsat-fleet/",
-      "summary": "Vantor has selected EnduroSat and CACI to provide the satellite bus and payloads for its upcoming Pulse fleet, the company’s move into the smallsat imaging market. Bulgaria-based EnduroSat will build […] The post EnduroSat and CACI to Build Vantor’s Pulse Smallsat Fleet appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-17T08:26:54+00:00",
-      "ts": 1789633614.0
     },
     {
       "title": "D2D blurs boundaries between satellite and terrestrial 5G spectrum – panel",
@@ -1327,6 +1415,23 @@
       "ts": 1789507351.0
     },
     {
+      "title": "Starlink’s Other Network",
+      "link": "https://circleid.com/posts/starlinks-other-network",
+      "summary": "Starshield gives SpaceX a separate military satellite network, raising a broader question about whether Starlink could dedicate satellites to cellular and business backhaul without reducing broadband capacity for residential customers.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-09-15T16:16:00+00:00",
+      "ts": 1789488960.0
+    },
+    {
       "title": "6G is shaping up to be a big multivendor letdown",
       "link": "https://www.lightreading.com/6g/6g-is-shaping-up-to-be-a-big-multivendor-letdown",
       "summary": "Operators look increasingly set to deploy 6G with the same spectrum, the same hardware and the same vendors they used for 5G.",
@@ -1353,6 +1458,21 @@
       "relevance": 58,
       "date": "2026-09-14T15:32:43+00:00",
       "ts": 1789399963.0
+    },
+    {
+      "title": "Samsung and Verizon test ISAC capabilities in Dallas",
+      "link": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
+      "summary": "Showcasing the industry’s first AI-powered ISAC trial on vRAN, the companies proved how sensing networks enable real-time intelligence for large-scale events The post Samsung and Verizon test ISAC capabilities in Dallas appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-09-14T13:35:25+00:00",
+      "ts": 1789392925.0
     },
     {
       "title": "Key take-aways: “16th Smart City and Intelligent Economy Expo” for Huawei, Alibaba & China’s three state backed carriers",
@@ -1413,18 +1533,77 @@
       "ts": 1789135225.0
     },
     {
-      "title": "CTIA: Americans used more wireless data in 2025 than in the entire 4G decade, but growth slowed from 2023-2024",
-      "link": "https://techblog.comsoc.org/2026/09/10/ctia-americans-used-more-wireless-data-in-2025-than-in-the-entire-4g-decade-but-growth-slowed-from-2023-2024/",
-      "summary": "Executive Summary: U.S. wireless data consumption reached 159.3 trillion megabytes in 2025—20% year-over-year growth and nearly 60% higher than two years prior—surpassing total usage across the entire 4G decade, according to CTIA’s 2026 Annual Survey. The results highlight accelerating demand on RAN and transport...",
-      "source": "IEEE ComSoc Tech Blog",
+      "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
+      "link": "https://circleid.com/posts/fcc-moves-to-open-1050-mhz-of-spectrum-to-satellite-broadband",
+      "summary": "The FCC plans to open 1,050 MHz in the 12.7 GHz and 42 GHz bands to expanded satellite use, adding capacity for broadband, mobile connectivity, inter-satellite links and ground networks.",
+      "source": "CircleID (Telecom)",
       "themes": [
-        "moveis"
+        "fibra",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 52,
-      "date": "2026-09-10T17:41:35+00:00",
-      "ts": 1789062095.0
+      "relevance": 53,
+      "date": "2026-09-09T20:26:00+00:00",
+      "ts": 1788985560.0
+    },
+    {
+      "title": "4iG and SpaceX Plan Starlink Mobile Rollout Across Hungary and Western Balkans",
+      "link": "https://circleid.com/posts/4ig-and-spacex-plan-starlink-mobile-rollout-across-hungary-and-western-balkans",
+      "summary": "4iG and SpaceX plan direct-to-device Starlink services across four European markets, alongside secured government communications, but national spectrum approvals and key details of the proposed sovereign infrastructure remain unresolved.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-09-02T15:27:00+00:00",
+      "ts": 1788362820.0
+    },
+    {
+      "title": "Starlink’s Unconventional Approach to Cellular",
+      "link": "https://circleid.com/posts/starlinks-unconventional-approach-to-cellular",
+      "summary": "SpaceX is considering a terrestrial cellular network powered by Starlink satellite backhaul, but scarce spectrum, enormous capacity demands and entrenched rivals could make its boldest telecommunications gambit yet far harder to execute profitably at scale.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-08-26T14:35:00+00:00",
+      "ts": 1787754900.0
+    },
+    {
+      "title": "Poland Excluded from Starlink’s European Region: What Musk Dispute Reveals About Digital Sovereignty",
+      "link": "https://circleid.com/posts/poland-excluded-from-starlinks-european-region",
+      "summary": "Poland's exclusion from Starlink's new European roaming region has triggered a dispute with Warsaw, exposing how private infrastructure providers can shape cross-border connectivity and raising questions about digital sovereignty, accountability, and internet governance in Europe.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-08-13T15:02:00+00:00",
+      "ts": 1786633320.0
+    },
+    {
+      "title": "From 300 to 150,000+: What MTN Nigeria’s FTTH Journey Teaches Us About Scaling Connectivity",
+      "link": "https://circleid.com/posts/from-300-to-150000-what-mtn-nigerias-ftth-journey-teaches-us-about-scaling-connectivity",
+      "summary": "MTN Nigeria’s FTTH network has grown from barely 300 home connections to more than 150,000, showing how infrastructure, skilled people, vendor coordination and disciplined operating systems must evolve as connectivity moves from deployment to scale.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-08-11T15:35:00+00:00",
+      "ts": 1786462500.0
     },
     {
       "title": "Ericsson lands private 5G CBRS network at Minneapolis airport",
