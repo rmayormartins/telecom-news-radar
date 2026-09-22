@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T15:53:59.847936+00:00",
-  "count": 108,
+  "generated_at": "2026-09-22T20:37:04.389211+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 14,
+    "moveis": 44,
+    "fibra": 13,
     "antenas": 14,
     "iot": 4,
     "satelite": 31,
-    "radar_militar": 14,
+    "radar_militar": 15,
     "radiocom": 3,
     "tv": 2,
-    "geral": 22
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 6,
     "jp": 1,
     "kr": 1,
-    "cn": 5
+    "cn": 4
   },
   "research_count": 30,
   "sources": [
@@ -65,8 +65,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ok (10 itens)",
-      "kept": 1
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "Capacity Media",
@@ -201,6 +201,35 @@
   ],
   "items": [
     {
+      "title": "Boeing Taps Lite Coms for Terminals for Australian BLOS Program",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/22/boeing-taps-lite-coms-for-terminals-for-australian-blos-program/",
+      "summary": "Boeing Defence Australia selected New York-based Lite Coms to provide tactical satellite terminals for a beyond-line of sight (BLOS) satcom program for the Australian Defence Force (ADF). Under the award […] The post Boeing Taps Lite Coms for Terminals for Australian BLOS Program appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-09-22T18:45:23+00:00",
+      "ts": 1790102723.0
+    },
+    {
+      "title": "Eutelsat Trials LEO Rail Connectivity in Poland",
+      "link": "https://www.satellitetoday.com/mobility/2026/09/22/eutelsat-trials-leo-rail-connectivity-in-poland/",
+      "summary": "Eutelsat tested OneWeb Low-Earth Orbit (LEO) connectivity in Poland for the first time in a recent demonstration on PKP Intercity’s live rail network with a Kymeta terminal. The Kymeta Kestrel […] The post Eutelsat Trials LEO Rail Connectivity in Poland appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-09-22T18:39:21+00:00",
+      "ts": 1790102361.0
+    },
+    {
       "title": "Anterix expands private wireless reach with iPhone Duo",
       "link": "https://www.mobileworldlive.com/apple/anterix-expands-private-wireless-reach-with-iphone-duo/",
       "summary": "US-based Anterix revealed the new iPhone 18 Pro and iPhone Duo became the first Apple models to support dedicated private LTE networks operating on its licensed 900MHz spectrum. The post Anterix expands private wireless reach with iPhone Duo appeared first on Mobile World Live .",
@@ -213,20 +242,6 @@
       "relevance": 49,
       "date": "2026-09-22T15:15:25+00:00",
       "ts": 1790090125.0
-    },
-    {
-      "title": "Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
-      "link": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
-      "summary": "Vodafone and Ericsson have successfully demonstrated two AI-powered voice services, real-time noise cancellation and language translation, running directly within the mobile network. The post Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-22T15:15:18+00:00",
-      "ts": 1790090118.0
     },
     {
       "title": "OCUDU Ecosystem Foundation welcomes GNU Radio to accelerate open source wireless innovation",
@@ -975,34 +990,6 @@
       "ts": 1790012055.0
     },
     {
-      "title": "Flag to deploy Ciena's Waveserver platform on Echo subsea cable",
-      "link": "https://www.datacenterdynamics.com/en/news/flag-to-deploy-cienas-waveserver-platform-on-echo-subsea-cable/",
-      "summary": "This will enable Flag to launch new 400GbE and 800GbE services along the route",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-21T16:18:24+00:00",
-      "ts": 1790007504.0
-    },
-    {
-      "title": "The new 5G SA blueprint that is enabling telecom operators to provide the network backbone 24/7 industries need",
-      "link": "https://www.datacenterdynamics.com/en/opinions/the-new-5g-sa-blueprint-that-is-enabling-telecom-operators-to-provide-the-network-backbone-247-industries-need/",
-      "summary": "It’s time for telecoms to move digital infrastructure closer to the user",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-09-21T16:01:04+00:00",
-      "ts": 1790006464.0
-    },
-    {
       "title": "Oktoberfest attendees soak up DT data",
       "link": "https://www.mobileworldlive.com/network-tech/oktoberfest-attendees-soak-up-dt-data/",
       "summary": "Deutsche Telekom raised a glass to the volume of data consumed in the opening weekend of the annual Oktoberfest beer festival in Munich, Germany, highlighting big increases over the comparable period of 2025 along with significant 5G traffic. The post Oktoberfest attendees soak up DT data appeared first on Mobile...",
@@ -1329,34 +1316,6 @@
       "ts": 1789650289.0
     },
     {
-      "title": "Kymeta Kestrel u5 Terminal Now Certified for Rail Industry",
-      "link": "https://www.satellitetoday.com/technology/2026/09/17/kymeta-kestrel-u5-terminal-now-certified-for-rail-industry/",
-      "summary": "Kymeta’s Kestrel u5 terminal has received certification for compliance with railway standards ahead of connectivity trials with some of Europe’s largest rail operators. The Kestrel u5 is a flat panel […] The post Kymeta Kestrel u5 Terminal Now Certified for Rail Industry appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-17T12:07:12+00:00",
-      "ts": 1789646832.0
-    },
-    {
-      "title": "SatPort to Build Landing Stations for Telesat Lightspeed",
-      "link": "https://www.satellitetoday.com/technology/2026/09/17/satport-to-build-landing-stations-for-telesat-lightspeed/",
-      "summary": "SatPort Infrastructure will develop, build, and host landing stations for the Telesat Lightspeed constellation, to connect Lightspeed to terrestrial networks. The two companies announced a master services agreement on Sept. […] The post SatPort to Build Landing Stations for Telesat Lightspeed appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-17T12:05:21+00:00",
-      "ts": 1789646721.0
-    },
-    {
       "title": "Eurobites: Ericsson's 5G core goes live at VodafoneThree",
       "link": "https://www.lightreading.com/5g/eurobites-ericsson-s-5g-core-goes-live-at-vodafonethree",
       "summary": "Also in today's EMEA regional roundup: copper migration in the UK; VodafoneThree slams London's planning regs; EU gets kids off social media.",
@@ -1636,47 +1595,16 @@
       "ts": 0
     },
     {
-      "title": "Ooma’s StarDial provides voice add-on for Starlink broadband subscribers",
-      "link": "https://www.fierce-network.com/broadband/oomas-stardial-provides-voice-add-starlink-broadband-subscribers",
-      "summary": "Ooma’ StarDial is targeted to Starlink internet users in rural, remote or off-grid locations who may want to also tap their satellite broadband service for voice.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Samsung eyes regional carriers to boost its US game in wireless",
-      "link": "https://www.fierce-network.com/wireless/samsung-eyes-regional-carriers-boost-its-us-game-wireless",
-      "summary": "Samsung is making inroads in the Tier 1 and 2 operator space, a market dominated by Ericsson and Nokia in their post-Huawei era.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Airspan wins UK funding to develop digital twin for high-altitude wireless networks",
-      "link": "https://www.fierce-network.com/modernization/airspan-wins-uk-funding-develop-digital-twin-high-altitude-wireless-networks",
-      "summary": "Airspan has secured £2.3 million in funding from the UK's Advanced Research + Invention Agency (ARIA) to develop an AI-enabled digital twin platform aimed at modeling, testing and evaluating high-altitude platform station (HAPS) communications networks before deployment.",
+      "title": "AT&T pursues 3.45 GHz through N Squared leases",
+      "link": "https://www.fierce-network.com/wireless/att-pursues-345-ghz-through-n-squared-leases",
+      "summary": "AT&T is asking for the Federal Communications Commission (FCC) for permission to access even more 3.45 GHz spectrum to bolster its network.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 43,
+      "relevance": 44,
       "date": null,
       "ts": 0
     },
@@ -1709,6 +1637,20 @@
       "ts": 0
     },
     {
+      "title": "Opinion: A SpaceX terrestrial wireless network could be challenging",
+      "link": "https://www.fierce-network.com/wireless/opinion-spacex-terrestrial-wireless-network-could-be-challenging",
+      "summary": "Building a fourth, nationwide U.S. wireless network would require massive time, capital, and execution, while other routes may be more practical.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Huawei Cloud Stack powers new era of intelligence",
       "link": "https://www.fierce-network.com/newswire/huawei-cloud-stack-powers-new-era-intelligence",
       "summary": "Huawei Cloud introduced an AI agent-ready hybrid cloud architecture at its Huawei Cloud event today.",
@@ -1725,12 +1667,12 @@
       "ts": 0
     },
     {
-      "title": "How carriers make every deployment easier than the last",
-      "link": "https://www.fierce-network.com/sponsored/extensibility-scale",
-      "summary": "Scaling carrier networks takes more than automation. Discover how repeatable architectures turn successful deployments into scalable growth.",
+      "title": "Fiber sensing may have helped prevent fiber cut that caused massive flight delays",
+      "link": "https://www.fierce-network.com/broadband/massive-flight-delays-caused-fiber-cut-fiber-sensing-might-have-helped",
+      "summary": "The problems began when a communications circuit at a flight control center failed. But the backup solution, a fiber optic cable, had been cut.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "fibra"
       ],
       "research": false,
       "countries": [],
@@ -1745,6 +1687,20 @@
       "source": "Fierce Network",
       "themes": [
         "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "How carriers make every deployment easier than the last",
+      "link": "https://www.fierce-network.com/sponsored/extensibility-scale",
+      "summary": "Scaling carrier networks takes more than automation. Discover how repeatable architectures turn successful deployments into scalable growth.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
       ],
       "research": false,
       "countries": [],
