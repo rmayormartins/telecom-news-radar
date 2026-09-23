@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-22T20:37:04.389211+00:00",
-  "count": 105,
+  "generated_at": "2026-09-23T02:16:36.611639+00:00",
+  "count": 104,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 13,
+    "moveis": 45,
+    "fibra": 11,
     "antenas": 14,
     "iot": 4,
-    "satelite": 31,
-    "radar_militar": 15,
+    "satelite": 30,
+    "radar_militar": 14,
     "radiocom": 3,
     "tv": 2,
-    "geral": 21
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 6,
+    "in": 7,
     "jp": 1,
     "kr": 1,
-    "cn": 4
+    "cn": 5
   },
   "research_count": 30,
   "sources": [
@@ -65,12 +65,12 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "TeckNexus",
-      "status": "ok (10 itens)",
+      "status": "ERRO: <urlopen error timed out>",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 10
+      "kept": 9
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: Nepal Telecom, U Mobile, ZTE",
+      "link": "https://telecomlead.com/news/telecom-news-nepal-telecom-u-mobile-zte-127826",
+      "summary": "Today’s telecom news includes announcements on Nepal Telecom, U Mobile, ZTE, Green-Energy 5G Trial, among others. Nepal Telecom Adds 13 New 2G and 4G Mobile Sites Nepal Telecom has brought 13 new mobile sites into operation across 11 districts, expanding its network coverage in multiple locations. The newly deployed...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 48,
+      "date": "2026-09-23T01:07:40+00:00",
+      "ts": 1790125660.0
+    },
+    {
+      "title": "Telecom news: Quectel Wireless, MediaTek, TRAI, Eutelsat, OneWeb",
+      "link": "https://telecomlead.com/news/telecom-news-quectel-wireless-mediatek-trai-eutelsat-oneweb-127822",
+      "summary": "Today’s telecom news includes announcements on Quectel Wireless Solutions, MediaTek, TRAI, Eutelsat, OneWeb, among others. Quectel Launches New Smart Modules for On-Device AI Quectel Wireless Solutions has launched three new smart modules based on MediaTek’s Genio platform, targeting connected products and on-device...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-09-23T01:02:39+00:00",
+      "ts": 1790125359.0
+    },
+    {
+      "title": "Sept 2026 3GPP meeting updates for 5G Advanced and 6G planning (with timeline for submisson to ITU-R WP 5D via ATIS)",
+      "link": "https://techblog.comsoc.org/2026/09/22/sept-2026-3gpp-meeting-updates-for-5g-advanced-and-6g-planning-with-timeline-for-submisson-to-itu-r-wp-5d/",
+      "summary": "Introduction: The 3GPP Plenary #113 meetings (comprising TSG RAN, TSG SA, and TSG CT) concluded with the RAN Plenary from September 15 to 17, 2026 in Madrid, Spain. There were major updates for both 5G Advanced (Release 20) and foundational 6G planning (Release 21). The first normative 6G document will be in Release...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-09-23T00:08:51+00:00",
+      "ts": 1790122131.0
+    },
+    {
+      "title": "Estonian Company CybExer to Play Key Role in Testing IRIS² Security",
+      "link": "https://www.satellitetoday.com/cybersecurity/2026/09/22/estonian-company-cybexer-to-play-key-role-in-testing-iris%c2%b2-security/",
+      "summary": "CybExer, an Estonian cybersecurity company, is to play a key role in helping keep the EU’s future secure satellite connectivity system, IRIS² secure. It will lead a ten-company European consortium […] The post Estonian Company CybExer to Play Key Role in Testing IRIS² Security appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-22T21:12:19+00:00",
+      "ts": 1790111539.0
+    },
     {
       "title": "Boeing Taps Lite Coms for Terminals for Australian BLOS Program",
       "link": "https://www.satellitetoday.com/government-military/2026/09/22/boeing-taps-lite-coms-for-terminals-for-australian-blos-program/",
@@ -242,6 +302,20 @@
       "relevance": 49,
       "date": "2026-09-22T15:15:25+00:00",
       "ts": 1790090125.0
+    },
+    {
+      "title": "Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
+      "link": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
+      "summary": "Vodafone and Ericsson have successfully demonstrated two AI-powered voice services, real-time noise cancellation and language translation, running directly within the mobile network. The post Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-22T15:15:18+00:00",
+      "ts": 1790090118.0
     },
     {
       "title": "OCUDU Ecosystem Foundation welcomes GNU Radio to accelerate open source wireless innovation",
@@ -1137,35 +1211,6 @@
       "ts": 1789746024.0
     },
     {
-      "title": "NigComSat Buys Jupiter Gateway Access from Hughes for Upcoming 2A, 2B Satellites",
-      "link": "https://www.satellitetoday.com/connectivity/2026/09/18/nigcomsat-buys-jupiter-gateway-access-from-hughes-for-upcoming-2a-2b-satellites/",
-      "summary": "Nigerian Communications Satellite Limited (NigComSat) signed a contract with Hughes Network Systems earlier this week to utilize its Jupiter scalable gateway system in support of the operator’s NIGCOMSAT-2A and NIGCOMSAT-2B […] The post NigComSat Buys Jupiter Gateway Access from Hughes for Upcoming 2A, 2B Satellites...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-09-18T15:21:44+00:00",
-      "ts": 1789744904.0
-    },
-    {
-      "title": "Iceye-led ARISE Consortium to Conduct Space Intelligence Architecture Study for ESA",
-      "link": "https://www.satellitetoday.com/government-military/2026/09/18/iceye-led-arise-consortium-to-conduct-space-intelligence-architecture-study-for-esa/",
-      "summary": "The Architecture for Resilient and Federated ISR in Sovereign Europe (ARISE), a European sovereign intelligence consortium led by Iceye, will conduct an architecture design study for the European Space Agency […] The post Iceye-led ARISE Consortium to Conduct Space Intelligence Architecture Study for ESA appeared...",
-      "source": "Via Satellite",
-      "themes": [
-        "radar_militar",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-09-18T15:12:47+00:00",
-      "ts": 1789744367.0
-    },
-    {
       "title": "$44M subsea cable secures Taiwan-Matsu digital lifeline",
       "link": "https://www.lightreading.com/cable-technology/-44m-subsea-cable-secures-taiwan-matsu-digital-lifeline",
       "summary": "The new Taiwan-Matsu No. 4 submarine cable officially enters service, providing Taiwan's outlying islands with added redundancy.",
@@ -1208,50 +1253,6 @@
       "relevance": 37,
       "date": "2026-09-18T10:36:38+00:00",
       "ts": 1789727798.0
-    },
-    {
-      "title": "Telecom news: Comtrend, SIMSY, Lyntris, XKL",
-      "link": "https://telecomlead.com/news/telecom-news-comtrend-simsy-lyntris-xkl-127799",
-      "summary": "Today’s telecom news includes announcements on Comtrend, SIMSY, Lyntris, Wi-Fi 7 XGS-PON Gateways, Atombeam’s Neurpac technology, XKL, among others. Comtrend Wi-Fi 7 XGS-PON Gateways Clear Key FCC Regulatory Hurdle Comtrend has received conditional approval from the US Federal Communications Commission for its new...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-09-18T00:53:09+00:00",
-      "ts": 1789692789.0
-    },
-    {
-      "title": "Telecom news: Ericsson, VodafoneThree, Verizon, 6G Sensing Trials in 4GHz, FCC",
-      "link": "https://telecomlead.com/news/telecom-news-ericsson-vodafonethree-verizon-6g-sensing-trials-in-4ghz-fcc-127795",
-      "summary": "Today’s telecom news includes announcements on Ericsson, VodafoneThree, Verizon, 6G Sensing Trials in 4GHz, FCC, among others. Ericsson 5G Core Goes Live on VodafoneThree Network Ericsson’s dual-mode 5G core has gone live on VodafoneThree’s UK network, supporting the operator’s plans for differentiated connectivity...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-09-18T00:46:46+00:00",
-      "ts": 1789692406.0
-    },
-    {
-      "title": "Telecom news: O2, Orange, Telesat, telMAX",
-      "link": "https://telecomlead.com/news/telecom-news-o2-orange-telesat-telmax-127793",
-      "summary": "Today’s telecom news includes announcements on O2, Orange, Telesat, telMAX, fiber network expansion in Ontario, among others. O2 Activates Five 4G and 5G Small Cells in Tonbridge O2 has activated five outdoor small cells in Tonbridge town centre as part of an investment to increase mobile network capacity and improve...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-18T00:44:23+00:00",
-      "ts": 1789692263.0
     },
     {
       "title": "4.8 GHz to 4.9 GHz frequency band uses & Verizon Wireless experimental license for testing ISAC with Ericsson",
@@ -1343,20 +1344,6 @@
       "relevance": 62,
       "date": "2026-09-17T07:30:00+00:00",
       "ts": 1789630200.0
-    },
-    {
-      "title": "Dell’Oro: Data Center capex grew 92% in 2Q-2026 (caveats galore)",
-      "link": "https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/",
-      "summary": "According to a new report by Dell’Oro Group, the global data center capital expenditures strongly accelerated in 2Q 2026. Continued AI infrastructure investment supported growth across compute, storage, networking, and physical infrastructure, while rising memory and storage prices significantly increased server...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-17T00:18:40+00:00",
-      "ts": 1789604320.0
     },
     {
       "title": "Huawei Chairman: Strategic Focus on AI Computing & Connectivity Infrastructure",
