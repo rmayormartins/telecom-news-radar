@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-25T16:04:58.192922+00:00",
-  "count": 97,
+  "generated_at": "2026-09-25T20:50:34.526932+00:00",
+  "count": 98,
   "theme_counts": {
-    "moveis": 40,
-    "fibra": 14,
+    "moveis": 41,
+    "fibra": 15,
     "antenas": 8,
     "iot": 5,
-    "satelite": 29,
-    "radar_militar": 9,
+    "satelite": 27,
+    "radar_militar": 8,
     "radiocom": 4,
     "tv": 2,
-    "geral": 20
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
@@ -18,8 +18,8 @@
     "il": 0,
     "in": 2,
     "jp": 2,
-    "kr": 2,
-    "cn": 6
+    "kr": 3,
+    "cn": 7
   },
   "research_count": 26,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 9
+      "kept": 11
     },
     {
       "source": "Telecoms.com",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -896,21 +896,6 @@
       "ts": 1790260368.0
     },
     {
-      "title": "ESA Seeks Funding Increase to €350 Million for European Military ISR Satellite Constellation",
-      "link": "https://satnews.com/2026/09/24/esa-seeks-funding-increase-to-e350-million-for-european-military-isr-satellite-constellation/",
-      "summary": "On Sept. 23, 2026, the European Space Agency (ESA) initiated the selection phase for in-orbit demonstration missions supporting the European Union’s planned military Intelligence, Surveillance, and Reconnaissance (ISR) satellite network. […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-09-24T14:22:23+00:00",
-      "ts": 1790259743.0
-    },
-    {
       "title": "6G connections tipped to hit 2.4B in 2035",
       "link": "https://www.mobileworldlive.com/5g/6g-connections-tipped-to-hit-2-4b-in-2035/",
       "summary": "GSMA Intelligence forecast global 6G connections would reach 2.4 billion in 2035, a steady rise from approximately 50 million at the end of 2030 after initial launches. The post 6G connections tipped to hit 2.4B in 2035 appeared first on Mobile World Live .",
@@ -1488,6 +1473,22 @@
       "ts": 1786633320.0
     },
     {
+      "title": "Opinion: China Mobile takes the express train to 5G revenue",
+      "link": "https://www.fierce-network.com/wireless/china-mobile-takes-express-train-5g-revenue",
+      "summary": "China Mobile and Huawei use AI on the Beijing–Shanghai high-speed rail line to sell premium 5G service, turning network control into revenue.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 57,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "As Cambium folds, Airspan snaps up FWA products",
       "link": "https://www.fierce-network.com/wireless/cambium-folds-airspan-snaps-fwa-products",
       "summary": "Airspan adds to its industrial 5G FWA portfolio as Cambium looks to sell off its enterprise business.",
@@ -1558,7 +1559,21 @@
       "ts": 0
     },
     {
-      "title": "Model skew is a hidden pitfall for telco AI, experts warn",
+      "title": "Enter the 2026 Fierce Network Innovation Awards before the Oct. 2 deadline",
+      "link": "https://www.fierce-network.com/broadband/enter-2026-fierce-network-innovation-awards-oct-2-deadline",
+      "summary": "The final deadline to enter the 2026 Fierce Network Innovation Awards is Oct. 2, giving telecom, broadband, cloud and AI infrastructure innovators one last opportunity to earn industry recognition and showcase their impact before an independent panel of judges.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Model skew is a hidden pitfall for telco AI, experts from AT&T, Boost and GSMA warn",
       "link": "https://www.fierce-network.com/cloud/boost-mobile-data-scientist-train-serve-skew-can-quietly-derail-telco-ai",
       "summary": "Boost Mobile Data Scientist Priyank Jain, GSMA’s Director of AI Technologies Louis Powell and AT&T's Mark Austin say the industry needs to pay closer attention to data problems that determine whether models keep working in production.",
       "source": "Fierce Network",
@@ -1572,16 +1587,18 @@
       "ts": 0
     },
     {
-      "title": "Opinion: A SpaceX terrestrial wireless network could be challenging",
-      "link": "https://www.fierce-network.com/wireless/opinion-spacex-terrestrial-wireless-network-could-be-challenging",
-      "summary": "Building a fourth, nationwide U.S. wireless network would require massive time, capital, and execution, while other routes may be more practical.",
+      "title": "KT, SK Telecom tap Samsung for AI-RAN projects",
+      "link": "https://www.fierce-network.com/wireless/kt-sk-telecom-tap-samsung-ai-ran-projects",
+      "summary": "Samsung Electronics is well on its way to providing KT and SK Telecom with AI-RAN solutions to advance physical AI.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "geral"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 31,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
