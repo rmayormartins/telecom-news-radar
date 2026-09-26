@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T15:18:38.109039+00:00",
-  "count": 73,
+  "generated_at": "2026-09-26T20:19:02.184845+00:00",
+  "count": 67,
   "theme_counts": {
-    "moveis": 33,
-    "fibra": 14,
+    "moveis": 32,
+    "fibra": 12,
     "antenas": 1,
     "iot": 1,
-    "satelite": 25,
+    "satelite": 21,
     "radar_militar": 6,
     "radiocom": 3,
     "tv": 1,
@@ -16,8 +16,8 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 3,
-    "jp": 3,
+    "in": 1,
+    "jp": 0,
     "kr": 3,
     "cn": 6
   },
@@ -71,11 +71,11 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ok (10 itens)",
-      "kept": 7
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "kept": 0
     },
     {
       "source": "3G4G Blog",
@@ -201,6 +201,21 @@
   ],
   "items": [
     {
+      "title": "Private 5G at the Data Centre Edge: Extending Compute Connectivity to Enterprise Sites",
+      "link": "https://tecknexus.com/private-5g-data-centre-edge-enterprise-sites/",
+      "summary": "Private 5G and edge computing deliver most when planned as one system. This analysis explains how UPF placement, uplink capacity and traffic steering determine where inference runs, and why multi-site enterprises are splitting radio, core and compute between their sites and metro edge data centres. TeckNexus -...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-09-26T15:20:27+00:00",
+      "ts": 1790436027.0
+    },
+    {
       "title": "Tiny Flaws in Glass Fiber Can Help Reveal Undersea Cable Threats",
       "link": "https://spectrum.ieee.org/undersea-cables-acoustic-sensing",
       "summary": "In early August, two subsea cables off the coast of Australia, Indigo West and Indigo Central , failed a few hours apart from one another. What caused the two outages is still uncertain. An emerging technology that allows a cable to sense threats in advance could help pinpoint cause and location of future cable...",
@@ -213,38 +228,6 @@
       "relevance": 22,
       "date": "2026-09-26T10:00:07+00:00",
       "ts": 1790416807.0
-    },
-    {
-      "title": "Telecom news: Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO",
-      "link": "https://telecomlead.com/news/telecom-news-rakuten-mobile-open-ran-telmex-telnor-exfo-127874",
-      "summary": "The latest telecom news includes announcements from Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO, and others. Rakuten Mobile Scales Open RAN to 152,000 Sites and 330,000 Cells Rakuten Mobile says its cloud-native Open RAN network has expanded to more than 152,000 sites and over 330,000 cells, providing the software...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 49,
-      "date": "2026-09-26T00:47:04+00:00",
-      "ts": 1790383624.0
-    },
-    {
-      "title": "Telecom news: Airtel Uganda, Starlink, Jazz, Vocus",
-      "link": "https://telecomlead.com/news/telecom-news-airtel-uganda-starlink-jazz-vocus-127872",
-      "summary": "The latest telecom news includes announcements from Airtel Uganda, Starlink, Jazz, Vocus, and others. Airtel Uganda Launches Starlink Direct-to-Cell Satellite Service Airtel Uganda has launched Starlink Direct-to-Cell, becoming the second African market after the Democratic Republic of Congo to introduce the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 49,
-      "date": "2026-09-26T00:44:37+00:00",
-      "ts": 1790383477.0
     },
     {
       "title": "Verizon offers free online AI training tailored to your interests!",
@@ -401,83 +384,6 @@
       "relevance": 56,
       "date": "2026-09-25T07:00:00+00:00",
       "ts": 1790319600.0
-    },
-    {
-      "title": "Telecom news: GSMA, MTN Nigeria, Amazon Kuiper, Opus Broadband, TalkTalk",
-      "link": "https://telecomlead.com/news/telecom-news-gsma-mtn-nigeria-amazon-kuiper-opus-broadband-talktalk-127865",
-      "summary": "Today’s telecom news includes announcements on GSMA, MTN Nigeria, Amazon Kuiper, Opus Broadband, TalkTalk, among others. Africa’s $76 Billion Telecom Investment Faces Infrastructure Challenges African mobile operators have committed $76 billion to network infrastructure through 2030, but GSMA says investment could...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-09-25T04:53:33+00:00",
-      "ts": 1790312013.0
-    },
-    {
-      "title": "Telecom news: GCF, MSSA, NTN technologies, Qualcomm, Apple",
-      "link": "https://telecomlead.com/news/telecom-news-gcf-mssa-ntn-technologies-qualcomm-apple-127863",
-      "summary": "Today’s telecom news includes announcements on GCF, MSSA, NTN technologies, Qualcomm, Apple, among others. GCF and MSSA Advance Global NTN Certification and Interoperability The Global Certification Forum (GCF) and Mobile Satellite Services Association (MSSA) have signed a memorandum of understanding to advance...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-09-25T04:51:31+00:00",
-      "ts": 1790311891.0
-    },
-    {
-      "title": "Telecom news: Sony Wireless, AT&T, Verizon, T-Mobile",
-      "link": "https://telecomlead.com/news/telecom-news-sony-wireless-att-verizon-t-mobile-127861",
-      "summary": "Today’s telecom news includes announcements on Sony Wireless, AT&T, Verizon, T-Mobile, N Squared II, among others. Sony Deploys Private 5G at 17,000-Capacity Yokohama Arena Sony Wireless Communications has deployed its MOREVE private 5G service at Yokohama Arena, one of Japan’s largest indoor entertainment venues with...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 56,
-      "date": "2026-09-25T04:48:49+00:00",
-      "ts": 1790311729.0
-    },
-    {
-      "title": "Telecom news: NTT, Cailabs, Iridium, Deutsche Telekom, Vodafone Idea",
-      "link": "https://telecomlead.com/news/telecom-news-ntt-cailabs-iridium-deutsche-telekom-vodafone-idea-127859",
-      "summary": "Today’s telecom news includes announcements on NTT, Cailabs, Iridium, Deutsche Telekom, Vodafone Idea, among others. NTT and Cailabs Develop Optical Links Between Satellites and Terrestrial Networks NTT and Cailabs have signed an agreement to develop direct optical communications between satellite networks and...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in",
-        "jp"
-      ],
-      "relevance": 49,
-      "date": "2026-09-25T04:46:08+00:00",
-      "ts": 1790311568.0
-    },
-    {
-      "title": "Telecom news: Digital Realty, Globalstar, Orange, Telesat, Nokia, Microsoft",
-      "link": "https://telecomlead.com/news/telecom-news-digital-realty-globalstar-orange-telesat-nokia-microsoft-127857",
-      "summary": "Today’s telecom news includes announcements on Digital Realty, Globalstar, Orange, Telesat, Nokia, Microsoft, among others. Digital Realty Plans New Los Angeles Subsea Cable Landing Station Digital Realty and Assured Communications plan to build a new submarine cable landing station at Digital Realty’s LAX12...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-25T04:43:17+00:00",
-      "ts": 1790311397.0
     },
     {
       "title": "The ITU’s Outgoing Spectrum Chief Expects WRC-27 to Find Room for Direct-to-Device. 151 Mobile Operators Are Already Building Toward It.",
