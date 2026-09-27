@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-26T20:19:02.184845+00:00",
-  "count": 67,
+  "generated_at": "2026-09-27T02:21:35.972514+00:00",
+  "count": 74,
   "theme_counts": {
-    "moveis": 32,
-    "fibra": 12,
+    "moveis": 35,
+    "fibra": 14,
     "antenas": 1,
     "iot": 1,
-    "satelite": 21,
+    "satelite": 27,
     "radar_militar": 6,
     "radiocom": 3,
     "tv": 1,
-    "geral": 10
+    "geral": 8
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 1,
-    "jp": 0,
+    "in": 3,
+    "jp": 3,
     "kr": 3,
     "cn": 6
   },
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -201,6 +201,36 @@
   ],
   "items": [
     {
+      "title": "Google’s Project Suncatcher: Satellite Orbit Validation of AI Accelerator Compute and Thermal Management",
+      "link": "https://techblog.comsoc.org/2026/09/26/googles-project-suncatcher-satellite-orbit-validation-of-ai-accelerator-compute-and-thermal-management/",
+      "summary": "Executive Summary: On Thursday, October 1st, Google plans to launch an experimental satellite designed to assess whether AI inference workloads can operate correctly in low Earth orbit. The spacecraft, designated MVP, is a technology demonstrator for Project Suncatcher, Google’s research initiative exploring...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-09-27T02:00:18+00:00",
+      "ts": 1790474418.0
+    },
+    {
+      "title": "China Mobile and Huawei Turn High-Speed Railway 5G-A into a Premium Service",
+      "link": "https://techblog.comsoc.org/2026/09/26/china-mobile-and-huawei-turn-high-speed-railway-5g-a-into-a-premium-service/",
+      "summary": "Introduction: China Mobile may have found a credible way to monetize 5G which has been one of the most persistent commercial problems for mobile network operators. The China state backed carrier aims to turn a 5G Advanced network into a consumer service Chinese people will pay for. On China’s Beijing–Shanghai...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 71,
+      "date": "2026-09-26T22:46:45+00:00",
+      "ts": 1790462805.0
+    },
+    {
       "title": "Private 5G at the Data Centre Edge: Extending Compute Connectivity to Enterprise Sites",
       "link": "https://tecknexus.com/private-5g-data-centre-edge-enterprise-sites/",
       "summary": "Private 5G and edge computing deliver most when planned as one system. This analysis explains how UPF placement, uplink capacity and traffic steering determine where inference runs, and why multi-site enterprises are splitting radio, core and compute between their sites and metro edge data centres. TeckNexus -...",
@@ -228,6 +258,38 @@
       "relevance": 22,
       "date": "2026-09-26T10:00:07+00:00",
       "ts": 1790416807.0
+    },
+    {
+      "title": "Telecom news: Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO",
+      "link": "https://telecomlead.com/news/telecom-news-rakuten-mobile-open-ran-telmex-telnor-exfo-127874",
+      "summary": "The latest telecom news includes announcements from Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO, and others. Rakuten Mobile Scales Open RAN to 152,000 Sites and 330,000 Cells Rakuten Mobile says its cloud-native Open RAN network has expanded to more than 152,000 sites and over 330,000 cells, providing the software...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 49,
+      "date": "2026-09-26T00:47:04+00:00",
+      "ts": 1790383624.0
+    },
+    {
+      "title": "Telecom news: Airtel Uganda, Starlink, Jazz, Vocus",
+      "link": "https://telecomlead.com/news/telecom-news-airtel-uganda-starlink-jazz-vocus-127872",
+      "summary": "The latest telecom news includes announcements from Airtel Uganda, Starlink, Jazz, Vocus, and others. Airtel Uganda Launches Starlink Direct-to-Cell Satellite Service Airtel Uganda has launched Starlink Direct-to-Cell, becoming the second African market after the Democratic Republic of Congo to introduce the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-09-26T00:44:37+00:00",
+      "ts": 1790383477.0
     },
     {
       "title": "Verizon offers free online AI training tailored to your interests!",
@@ -384,6 +446,83 @@
       "relevance": 56,
       "date": "2026-09-25T07:00:00+00:00",
       "ts": 1790319600.0
+    },
+    {
+      "title": "Telecom news: GSMA, MTN Nigeria, Amazon Kuiper, Opus Broadband, TalkTalk",
+      "link": "https://telecomlead.com/news/telecom-news-gsma-mtn-nigeria-amazon-kuiper-opus-broadband-talktalk-127865",
+      "summary": "Today’s telecom news includes announcements on GSMA, MTN Nigeria, Amazon Kuiper, Opus Broadband, TalkTalk, among others. Africa’s $76 Billion Telecom Investment Faces Infrastructure Challenges African mobile operators have committed $76 billion to network infrastructure through 2030, but GSMA says investment could...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-09-25T04:53:33+00:00",
+      "ts": 1790312013.0
+    },
+    {
+      "title": "Telecom news: GCF, MSSA, NTN technologies, Qualcomm, Apple",
+      "link": "https://telecomlead.com/news/telecom-news-gcf-mssa-ntn-technologies-qualcomm-apple-127863",
+      "summary": "Today’s telecom news includes announcements on GCF, MSSA, NTN technologies, Qualcomm, Apple, among others. GCF and MSSA Advance Global NTN Certification and Interoperability The Global Certification Forum (GCF) and Mobile Satellite Services Association (MSSA) have signed a memorandum of understanding to advance...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-09-25T04:51:31+00:00",
+      "ts": 1790311891.0
+    },
+    {
+      "title": "Telecom news: Sony Wireless, AT&T, Verizon, T-Mobile",
+      "link": "https://telecomlead.com/news/telecom-news-sony-wireless-att-verizon-t-mobile-127861",
+      "summary": "Today’s telecom news includes announcements on Sony Wireless, AT&T, Verizon, T-Mobile, N Squared II, among others. Sony Deploys Private 5G at 17,000-Capacity Yokohama Arena Sony Wireless Communications has deployed its MOREVE private 5G service at Yokohama Arena, one of Japan’s largest indoor entertainment venues with...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 56,
+      "date": "2026-09-25T04:48:49+00:00",
+      "ts": 1790311729.0
+    },
+    {
+      "title": "Telecom news: NTT, Cailabs, Iridium, Deutsche Telekom, Vodafone Idea",
+      "link": "https://telecomlead.com/news/telecom-news-ntt-cailabs-iridium-deutsche-telekom-vodafone-idea-127859",
+      "summary": "Today’s telecom news includes announcements on NTT, Cailabs, Iridium, Deutsche Telekom, Vodafone Idea, among others. NTT and Cailabs Develop Optical Links Between Satellites and Terrestrial Networks NTT and Cailabs have signed an agreement to develop direct optical communications between satellite networks and...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "jp"
+      ],
+      "relevance": 49,
+      "date": "2026-09-25T04:46:08+00:00",
+      "ts": 1790311568.0
+    },
+    {
+      "title": "Telecom news: Digital Realty, Globalstar, Orange, Telesat, Nokia, Microsoft",
+      "link": "https://telecomlead.com/news/telecom-news-digital-realty-globalstar-orange-telesat-nokia-microsoft-127857",
+      "summary": "Today’s telecom news includes announcements on Digital Realty, Globalstar, Orange, Telesat, Nokia, Microsoft, among others. Digital Realty Plans New Los Angeles Subsea Cable Landing Station Digital Realty and Assured Communications plan to build a new submarine cable landing station at Digital Realty’s LAX12...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-09-25T04:43:17+00:00",
+      "ts": 1790311397.0
     },
     {
       "title": "The ITU’s Outgoing Spectrum Chief Expects WRC-27 to Find Room for Direct-to-Device. 151 Mobile Operators Are Already Building Toward It.",
@@ -841,36 +980,6 @@
       "relevance": 42,
       "date": "2026-09-17T14:52:12+00:00",
       "ts": 1789656732.0
-    },
-    {
-      "title": "Huawei Chairman: Strategic Focus on AI Computing & Connectivity Infrastructure",
-      "link": "https://techblog.comsoc.org/2026/09/16/huawei-chairman-ai-computing-connectivity-infrastructure-focus/",
-      "summary": "Note: Perplexity.ai was use to research this article. According to Chairman Guo Ping, Huawei aims to position itself as a full-stack provider of AI-era computing and connectivity infrastructure—effectively a Chinese counterpart to Nvidia in the infrastructure layer rather than in foundation-model development. In...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 49,
-      "date": "2026-09-16T17:42:45+00:00",
-      "ts": 1789580565.0
-    },
-    {
-      "title": "Bain: AI to greatly increase network operator expenses; network re-engineering needed!",
-      "link": "https://techblog.comsoc.org/2026/09/15/bain-ai-to-greatly-increase-network-operator-expenses-network-re-engineering-needed/",
-      "summary": "Introduction by Bain: “Over the next three to five years, the operating cost structure used by telecom operators is likely to undergo one of the most significant shifts in decades. As AI agents become embedded across customer care, network operations, software engineering, and enterprise functions, tokens will account...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-15T21:22:31+00:00",
-      "ts": 1789507351.0
     },
     {
       "title": "Starlink’s Other Network",
