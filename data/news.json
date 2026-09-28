@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-28T12:16:03.311275+00:00",
-  "count": 97,
+  "generated_at": "2026-09-28T22:43:11.006766+00:00",
+  "count": 101,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 13,
+    "moveis": 48,
+    "fibra": 17,
     "antenas": 7,
     "iot": 1,
-    "satelite": 25,
-    "radar_militar": 12,
-    "radiocom": 3,
-    "tv": 1,
-    "geral": 23
+    "satelite": 23,
+    "radar_militar": 9,
+    "radiocom": 2,
+    "tv": 0,
+    "geral": 25
   },
   "country_counts": {
     "br": 0,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
-    "in": 1,
-    "jp": 0,
-    "kr": 3,
+    "in": 2,
+    "jp": 2,
+    "kr": 5,
     "cn": 6
   },
   "research_count": 28,
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 9
     },
     {
       "source": "Telecoms.com",
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Telecoms Tech News",
@@ -95,8 +95,8 @@
     },
     {
       "source": "Telecom Lead",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (14 itens)",
+      "status": "ok (15 itens)",
       "kept": 1
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "European Spaceflight",
@@ -201,19 +201,193 @@
   ],
   "items": [
     {
-      "title": "Aurora Networks, Ziggo achieve large-scale deployment of Unified DOCSIS 4.0 nodes in a live network",
-      "link": "https://www.advanced-television.com/2026/09/28/aurora-networks-ziggo-achieve-large-scale-deployment-of-unified-docsis-4-0-nodes-in-a-live-network/",
-      "summary": "Aurora Networks, a business of Vistance Networks and provider of intelligent network solutions, has announced Europe’s first large-scale deployment of Unified DOCSIS 4.0 nodes in a live network. Ziggo is the first operator in Europe to bring unified DOCSIS 4.0 nodes into a live network at large scale, setting the pace...",
-      "source": "Advanced Television",
+      "title": "Ericsson signs MoU’s with Murata and Sumitomo to progress next-gen mobile network infrastructure",
+      "link": "https://techblog.comsoc.org/2026/09/28/ericsson-signs-mous-with-murata-and-sumitomo-to-progress-next-gen-mobile-network-infrastructure/",
+      "summary": "Introduction: Ericsson has signed separate memoranda of understanding with Murata Manufacturing and Sumitomo Electric Industries to investigate component, radio, and network technologies for next-generation mobile infrastructure. The collaborations are intended to link Japanese component and materials expertise with...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 44,
+      "date": "2026-09-28T21:34:53+00:00",
+      "ts": 1790631293.0
+    },
+    {
+      "title": "MaxLinear intros 'AI-ready' Puma 9 DOCSIS chipset",
+      "link": "https://www.lightreading.com/cable-technology/maxlinear-intros-ai-ready-puma-9-docsis-chipset",
+      "summary": "MaxLinear aims to slash costs with the Puma 9, a new DOCSIS chip for DOCSIS 4.0, D.3.1+ and D3.0 modems and gateways. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T18:13:13+00:00",
+      "ts": 1790619193.0
+    },
+    {
+      "title": "SpaceX’s Starship Reaches Orbit, Cuts 10-Hour Mission Short After Engine Issue",
+      "link": "https://www.satellitetoday.com/launch/2026/09/28/spacexs-starship-reaches-orbit-cuts-10-hour-mission-short-after-engine-issue/",
+      "summary": "SpaceX successfully launched its massive Starship rocket into orbit for the first time and and deployed 26 V3 Starlink satellites during Monday’s Starship Flight 14 mission. However, the company was […] The post SpaceX’s Starship Reaches Orbit, Cuts 10-Hour Mission Short After Engine Issue appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-09-28T18:01:02+00:00",
+      "ts": 1790618462.0
+    },
+    {
+      "title": "CableLabs supercharges DOCSIS 4.0 with 25-Gig 'annex'",
+      "link": "https://www.lightreading.com/cable-technology/cablelabs-supercharges-docsis-4-0-with-25-gig-annex-",
+      "summary": "A year after announcing the initiative, CableLabs has completed the specifications for an 'optional annex' to DOCSIS 4.0 that pushes spectrum to 3GHz and downstream speeds to 25 Gbit/s.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-09-28T17:00:00+00:00",
+      "ts": 1790614800.0
+    },
+    {
+      "title": "Starship reaches orbit, releases 26 high-capacity 'V3' Starlink satellites",
+      "link": "https://www.lightreading.com/satellite/starship-reaches-orbit-releases-26-high-capacity-v3-starlink-satellites",
+      "summary": "SpaceX's Starship program took a big step forward today as the upper-stage vehicle successfully achieved orbit and deployed 26 'V3' Starlink broadband satellites.",
+      "source": "Light Reading",
       "themes": [
         "fibra",
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 50,
-      "date": "2026-09-28T11:59:34+00:00",
-      "ts": 1790596774.0
+      "relevance": 55,
+      "date": "2026-09-28T16:40:36+00:00",
+      "ts": 1790613636.0
+    },
+    {
+      "title": "Spectrum touts AI edge progress at TechExpo",
+      "link": "https://www.lightreading.com/cable-technology/spectrum-touts-ai-edge-progress-at-techexpo",
+      "summary": "Tied into its AI edge strategy, Spectrum announced partnerships and demos for this week's SCTE TechExpo in Atlanta. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T16:17:56+00:00",
+      "ts": 1790612276.0
+    },
+    {
+      "title": "5G is Not a Destination: Adapting to the NTN Landscape with Comtech’s Daniel Gizinski",
+      "link": "https://www.satellitetoday.com/partner-content/2026/09/28/5g-is-not-a-destination-adapting-to-the-ntn-landscape-with-comtechs-daniel-gizinski/",
+      "summary": "The evolution of satellite being incorporated into 3GPP standards has been one of the key issues in the industry over the last few years, but it comes with important considerations […] The post 5G is Not a Destination: Adapting to the NTN Landscape with Comtech’s Daniel Gizinski appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-09-28T16:14:51+00:00",
+      "ts": 1790612091.0
+    },
+    {
+      "title": "Impinj expands mobile RFID ecosystem with Qualcomm, MediaTek",
+      "link": "https://www.mobileworldlive.com/network-tech/impinj-expands-mobile-rfid-ecosystem-with-qualcomm-mediatek/",
+      "summary": "US technology company Impinj aims to bring RAIN RFID to more handhelds, rugged tablets and other enterprise devices, backed by chipset support from Qualcomm Technologies and MediaTek. The post Impinj expands mobile RFID ecosystem with Qualcomm, MediaTek appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-28T16:01:00+00:00",
+      "ts": 1790611260.0
+    },
+    {
+      "title": "Top 10 Telecom AI Projects in 2026: How Operators Are Cutting Network Costs",
+      "link": "https://telecomlead.com/telecom-services/top-10-telecom-ai-projects-in-2026-how-operators-are-cutting-network-costs-127893",
+      "summary": "Artificial intelligence is moving from telecom trials into commercial networks in 2026 as operators use AI to cut energy consumption, automate network operations, improve spectrum efficiency and reduce operating costs. The results are becoming measurable. Deutsche Telekom has demonstrated up to 65 percent lower 5G...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-09-28T15:59:03+00:00",
+      "ts": 1790611143.0
+    },
+    {
+      "title": "Network Slicing vs Dedicated Private 5G: Choosing the Right Route to Guaranteed Performance",
+      "link": "https://tecknexus.com/network-slicing-vs-dedicated-private-5g/",
+      "summary": "Network slicing and dedicated private 5G both promise guaranteed performance, but through different mechanisms. This analysis compares isolation, control, coverage, spectrum and operating models, explains where each fits, and sets out the hybrid architectures that let enterprises combine wide-area predictability with...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": "2026-09-28T15:40:35+00:00",
+      "ts": 1790610035.0
+    },
+    {
+      "title": "Kazakhstan Population Gets Access to Starlink Connectivity Through Beeline",
+      "link": "https://www.satellitetoday.com/connectivity/2026/09/28/kazakhstan-population-gets-access-to-starlink-connectivity-through-beeline/",
+      "summary": "Satellite mobile connectivity is coming to Kazakhstan thanks to a partnership between Beeline Kazakhstan and Starlink Mobile. The introduction of Starlink Mobile is the result of agreements reached during Kazakhstan’s […] The post Kazakhstan Population Gets Access to Starlink Connectivity Through Beeline appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-09-28T15:38:10+00:00",
+      "ts": 1790609890.0
+    },
+    {
+      "title": "Hana Financial Group banks on private 5G from Samsung and SK Telecom",
+      "link": "https://www.lightreading.com/5g/hana-financial-group-banks-on-private-5g-from-samsung-and-sk-telecom",
+      "summary": "Samsung and SK Telekom deploy private 5G 'smart office' for Hana Financial Group headquarters in Incheon, South Korea, claiming the first of its kind in the country's financial sector. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 59,
+      "date": "2026-09-28T14:23:57+00:00",
+      "ts": 1790605437.0
+    },
+    {
+      "title": "Sky Italia Expands Telecom Strategy with MVNO Push as TV, Broadband and Mobile Converge",
+      "link": "https://telecomlead.com/5g/sky-italia-expands-telecom-strategy-with-mvno-push-as-tv-broadband-and-mobile-converge-127890",
+      "summary": "Sky Italia is deepening its push into telecommunications by taking greater control of its mobile business, positioning broadband and mobile connectivity as strategic tools to strengthen customer loyalty and complement its core pay-TV operation. The company, which launched Sky Wifi fixed broadband in 2020 and entered...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T10:43:11+00:00",
+      "ts": 1790592191.0
     },
     {
       "title": "KT parades 5G, satellite NATO ambitions",
@@ -276,6 +450,35 @@
       "ts": 1790587233.0
     },
     {
+      "title": "AWS keynote and Topic Panel: Private networks in transport hubs – what’s working at scale?",
+      "link": "https://www.mobileworldlive.com/old_latest-stories/aws-keynote-and-topic-panel-private-networks-in-transport-hubs-whats-working-at-scale/",
+      "summary": "Justin Springham begins another Connecting Transport and Logistics Hubs session with a keynote interview with Mauro Matteo, Senior Manager Solutions Architecture - Telecom Vendors at AWS, before Chris Donkin is joined by David O'Byrne from Druid Software, Andy Conway from Boldyn Networks and Chris Bridgeman from...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-09-28T09:13:47+00:00",
+      "ts": 1790586827.0
+    },
+    {
+      "title": "Ofcom bans Openreach FTTH deal",
+      "link": "https://www.advanced-television.com/2026/09/28/ofcom-bans-openreach-ftth-deal/",
+      "summary": "Ofcom has told Openreach to withdraw its ‘Incremental New to Openreach’ offer, stating the deal is unfair and could hurt competition between broadband networks. The media regulator said Openreach has to give Ofcom – and the wider industry – advance notice of certain types of commercial offers. The ‘Incremental New to...",
+      "source": "Advanced Television",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-09-28T07:38:04+00:00",
+      "ts": 1790581084.0
+    },
+    {
       "title": "Nokia puts new open RAN tech in 5G revival bid as Ericsson demurs",
       "link": "https://www.lightreading.com/open-ran/nokia-puts-new-open-ran-tech-in-5g-revival-bid-as-ericsson-demurs",
       "summary": "Nokia is supporting a new open RAN interface it hopes will make its offer look far more competitive in the 5G battle against Ericsson and Samsung.",
@@ -304,6 +507,55 @@
       "relevance": 44,
       "date": "2026-09-28T06:05:22+00:00",
       "ts": 1790575522.0
+    },
+    {
+      "title": "India Telecom Market 2026: Jio vs Airtel vs Vi vs BSNL on Subscribers, ARPU, 5G and Capex",
+      "link": "https://telecomlead.com/4g-lte/india-telecom-market-2026-jio-vs-airtel-vs-vi-vs-bsnl-on-subscribers-arpu-5g-and-capex-127881",
+      "summary": "India’s telecom market is becoming a two-leader contest between Reliance Jio and Bharti Airtel, but the operators are winning on different metrics. Jio leads in total wireless connections, 5G subscribers and data consumption, while Airtel commands the industry’s highest average revenue per user (ARPU) and has recently...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-09-28T05:18:23+00:00",
+      "ts": 1790572703.0
+    },
+    {
+      "title": "Telecom news: Eutelsat, OneWeb LEO Broadband, MTS, MegaFon, Beeline, Mafab, MTN Nigeria",
+      "link": "https://telecomlead.com/news/telecom-news-eutelsat-oneweb-leo-broadband-mts-megafon-beeline-mafab-mtn-nigeria-127879",
+      "summary": "The latest telecom news includes announcements from Eutelsat, OneWeb LEO Broadband, MTS, MegaFon, Beeline, Mafab, MTN Nigeria, and others. Eutelsat Tests OneWeb LEO Broadband on Polish Train at 160 km/h Eutelsat has completed a live OneWeb low-Earth-orbit satellite connectivity trial aboard a PKP Intercity passenger...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 54,
+      "date": "2026-09-28T04:59:32+00:00",
+      "ts": 1790571572.0
+    },
+    {
+      "title": "Telecom news: U Mobile, ZTE, Nepal Telecom, US Air Traffic Network Upgrade",
+      "link": "https://telecomlead.com/news/telecom-news-u-mobile-zte-nepal-telecom-us-air-traffic-network-upgrade-127877",
+      "summary": "The latest telecom news includes announcements from U Mobile, ZTE, Nepal Telecom, US Air Traffic Network Upgrade, and others. U Mobile and ZTE Test 100% Green-Energy Portable 5G Site in Malaysia U Mobile and ZTE have completed a proof-of-concept for a portable, fully off-grid 5G network site powered entirely by...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 40,
+      "date": "2026-09-28T04:55:50+00:00",
+      "ts": 1790571350.0
     },
     {
       "title": "CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADCs",
@@ -765,18 +1017,36 @@
       "ts": 1790416807.0
     },
     {
-      "title": "Verizon offers free online AI training tailored to your interests!",
-      "link": "https://techblog.comsoc.org/2026/09/25/verizon-offers-free-online-ai-training-tailored-to-your-interests/",
-      "summary": "Verizon has launched an online portal that curates AI training content from several tech giants, including IBM, Google, Microsoft, Anthropic, OpenAI, and online course provider Coursera. The U.S.’ largest wireless carrier by subscriber count says that the type of courses on offer normally cost in the region of $700...",
-      "source": "IEEE ComSoc Tech Blog",
+      "title": "Telecom news: Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO",
+      "link": "https://telecomlead.com/news/telecom-news-rakuten-mobile-open-ran-telmex-telnor-exfo-127874",
+      "summary": "The latest telecom news includes announcements from Rakuten Mobile, Open RAN, Telmex, Telnor, EXFO, and others. Rakuten Mobile Scales Open RAN to 152,000 Sites and 330,000 Cells Rakuten Mobile says its cloud-native Open RAN network has expanded to more than 152,000 sites and over 330,000 cells, providing the software...",
+      "source": "Telecom Lead",
       "themes": [
         "moveis"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-09-25T20:54:43+00:00",
-      "ts": 1790369683.0
+      "countries": [
+        "jp"
+      ],
+      "relevance": 49,
+      "date": "2026-09-26T00:47:04+00:00",
+      "ts": 1790383624.0
+    },
+    {
+      "title": "Telecom news: Airtel Uganda, Starlink, Jazz, Vocus",
+      "link": "https://telecomlead.com/news/telecom-news-airtel-uganda-starlink-jazz-vocus-127872",
+      "summary": "The latest telecom news includes announcements from Airtel Uganda, Starlink, Jazz, Vocus, and others. Airtel Uganda Launches Starlink Direct-to-Cell Satellite Service Airtel Uganda has launched Starlink Direct-to-Cell, becoming the second African market after the Democratic Republic of Congo to introduce the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-09-26T00:44:37+00:00",
+      "ts": 1790383477.0
     },
     {
       "title": "AWS underscores barriers to private network rollout",
@@ -893,64 +1163,6 @@
       "ts": 1790319600.0
     },
     {
-      "title": "The ITU’s Outgoing Spectrum Chief Expects WRC-27 to Find Room for Direct-to-Device. 151 Mobile Operators Are Already Building Toward It.",
-      "link": "https://satnews.com/2026/09/24/the-itus-outgoing-spectrum-chief-expects-wrc-27-to-find-room-for-direct-to-device-151-mobile-operators-are-already-building-toward-it/",
-      "summary": "The outgoing director of the ITU Radiocommunication Bureau said at World Space Business Week in Paris that he expects the 2027 World Radiocommunication Conference to produce a regulatory framework for direct-to-device services in mobile bands. The GSMA counts 151 operators with satellite services live, in testing or...",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-09-24T18:57:14+00:00",
-      "ts": 1790276234.0
-    },
-    {
-      "title": "Eutelsat to Bring LEO Services to Portugal’s MEO Telco",
-      "link": "https://www.satellitetoday.com/connectivity/2026/09/24/eutelsat-to-bring-leo-services-to-portugals-meo-telco/",
-      "summary": "Eutelsat has signed a deal with MEO, one of Portugal’s biggest telecoms operators to bring LEO services to customers in Portugal. The two companies announced the deal, Sept. 23. MEO […] The post Eutelsat to Bring LEO Services to Portugal’s MEO Telco appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-09-24T14:57:33+00:00",
-      "ts": 1790261853.0
-    },
-    {
-      "title": "U.K. Launches Dedicated Squadron to Protect Space Assets",
-      "link": "https://www.satellitetoday.com/government-military/2026/09/24/u-k-launches-dedicated-squadron-to-protect-space-assets/",
-      "summary": "The U.K. Government has made a major new space defense initiative by launching its first ever dedicated squadron to protect its satellites. The No. 3 Space Effects Squadron (SES) will […] The post U.K. Launches Dedicated Squadron to Protect Space Assets appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-09-24T14:47:10+00:00",
-      "ts": 1790261230.0
-    },
-    {
-      "title": "U.K. Defense Secretary Calls For Investment in Satellites Intelligence Gathering Capabilities",
-      "link": "https://www.satellitetoday.com/government-military/2026/09/24/u-k-defense-secretary-calls-for-investment-in-satellites-intelligence-gathering-capabilities/",
-      "summary": "(London) U.K. Defense Secretary Wes Streeting said that the U.K. government considers satellites critical to intelligence gathering and missile warnings, and that they now underpin almost a fifth of the […] The post U.K. Defense Secretary Calls For Investment in Satellites Intelligence Gathering Capabilities appeared...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-09-24T14:42:51+00:00",
-      "ts": 1790260971.0
-    },
-    {
       "title": "How is AI traffic reshaping subsea cable networks?",
       "link": "https://capacityglobal.com/news/how-is-ai-traffic-reshaping-subsea-cable-networks/",
       "summary": "The digital infrastructure sector has traditionally cited reasons like general internet growth and streaming as reasons for new builds – the subsea cable industry was no exception. The post How is AI traffic reshaping subsea cable networks? appeared first on Capacity .",
@@ -963,20 +1175,6 @@
       "relevance": 44,
       "date": "2026-09-24T14:32:48+00:00",
       "ts": 1790260368.0
-    },
-    {
-      "title": "6G connections tipped to hit 2.4B in 2035",
-      "link": "https://www.mobileworldlive.com/5g/6g-connections-tipped-to-hit-2-4b-in-2035/",
-      "summary": "GSMA Intelligence forecast global 6G connections would reach 2.4 billion in 2035, a steady rise from approximately 50 million at the end of 2030 after initial launches. The post 6G connections tipped to hit 2.4B in 2035 appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-09-24T13:09:25+00:00",
-      "ts": 1790255365.0
     },
     {
       "title": "Eurobites: MEO taps Eutelsat for satellite assist in Portugal",
@@ -994,21 +1192,6 @@
       "ts": 1790248318.0
     },
     {
-      "title": "UK forges satellite defence squad",
-      "link": "https://www.mobileworldlive.com/network-tech/uk-forges-satellite-defence-squad/",
-      "summary": "The UK declared space the next frontier in online security and defence as it announced plans to establish its first satellite protection league to safeguard what it regards as critical communications infrastructure. The post UK forges satellite defence squad appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-24T11:07:24+00:00",
-      "ts": 1790248044.0
-    },
-    {
       "title": "Network slicing and APIs are on ever shakier ground",
       "link": "https://www.lightreading.com/5g/network-slicing-and-apis-are-on-ever-shakier-ground",
       "summary": "There are serious problems with the idea that slicing and API offers from BT and Vodafone can reinvigorate the telco business model.",
@@ -1021,20 +1204,6 @@
       "relevance": 55,
       "date": "2026-09-24T07:30:00+00:00",
       "ts": 1790235000.0
-    },
-    {
-      "title": "SES VP David Mathewson Explains meoSphere Strategy in Thursday Morning Conversation",
-      "link": "https://www.satellitetoday.com/partner-content/2026/09/23/ses-vp-david-mathewson-explains-meosphere-strategy-in-thursday-morning-conversation/",
-      "summary": "In our latest Thursday Morning Conversation, we talk to SES Vice President of Product Development Engineering David Mathewson about SES’s latest plans around developing satellites, the advantages of having a […] The post SES VP David Mathewson Explains meoSphere Strategy in Thursday Morning Conversation appeared first...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-23T19:39:04+00:00",
-      "ts": 1790192344.0
     },
     {
       "title": "Hitron launches portable DOCSIS 4.0 field meter",
@@ -1121,81 +1290,6 @@
       "relevance": 43,
       "date": "2026-09-22T15:15:18+00:00",
       "ts": 1790090118.0
-    },
-    {
-      "title": "OCUDU Ecosystem Foundation welcomes GNU Radio to accelerate open source wireless innovation",
-      "link": "https://www.lightreading.com/6g/ocudu-ecosystem-foundation-welcomes-gnu-radio-to-accelerate-open-source-wireless-innovation",
-      "summary": "The addition of the project expands opportunities for physical-layer experimentation, RF emulation, channel modeling and 5G-Advanced and 6G research. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-09-22T14:40:37+00:00",
-      "ts": 1790088037.0
-    },
-    {
-      "title": "Boston low-power TV station owner seeks FCC rule on 5G Broadcast",
-      "link": "https://www.lightreading.com/5g/boston-low-power-tv-station-owner-seeks-fcc-rule-on-5g-broadcast",
-      "summary": "Companies linked to WCRN, a low-power TV station in Boston, is asking the FCC to allow it and others like it to deploy 5G Broadcast on a 'voluntary, elective basis.'",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "tv"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-09-22T13:07:17+00:00",
-      "ts": 1790082437.0
-    },
-    {
-      "title": "Eurobites: Vodafone, Ericsson combine on instant-translation AI for voice calls",
-      "link": "https://www.lightreading.com/ai-machine-learning/eurobites-vodafone-ericsson-combine-on-instant-translation-ai-for-voice-calls",
-      "summary": "Also in today's EMEA regional roundup: Eutelsat completes rail connectivity trial in Poland; increasing digital participation in Africa; EU proposes rating scheme for data centers.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-09-22T11:54:52+00:00",
-      "ts": 1790078092.0
-    },
-    {
-      "title": "T-Mobile, Jio claim world's first 5G SA roaming connection",
-      "link": "https://www.lightreading.com/5g/t-mobile-jio-claim-world-s-first-5g-sa-roaming-connection",
-      "summary": "T-Mobile and Jio claim to have made a breakthrough with 5G SA international roaming connection, enabled through Syniverse's mediation platform.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 55,
-      "date": "2026-09-22T08:17:07+00:00",
-      "ts": 1790065027.0
-    },
-    {
-      "title": "Equatys has 'cure' for MNOs' dropped calls, says Space42 exec",
-      "link": "https://www.lightreading.com/satellite/equatys-has-cure-for-mnos-dropped-calls-says-space42-ceo",
-      "summary": "Space42 and Viasat seek more partners to join Equatys, their shared satellite infrastructure venture for direct-to-device to fill mobile network coverage gaps.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-09-22T07:00:00+00:00",
-      "ts": 1790060400.0
     },
     {
       "title": "Telecom Equipment Market Extends Recovery as AI Infrastructure Spending Accelerates",
@@ -1451,6 +1545,22 @@
       "ts": 1787152920.0
     },
     {
+      "title": "SKT, Samsung fete private 5G for Korean financial sector",
+      "link": "https://www.fierce-network.com/wireless/skt-samsung-fete-private-5g-korean-financial-sector",
+      "summary": "Samsung and SK Telecom launched Korea’s first private 5G smart office for finance at Hana’s headquarters – and it’s impressive.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 58,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Opinion: China Mobile takes the express train to 5G revenue",
       "link": "https://www.fierce-network.com/wireless/china-mobile-takes-express-train-5g-revenue",
       "summary": "China Mobile and Huawei use AI on the Beijing–Shanghai high-speed rail line to sell premium 5G service, turning network control into revenue.",
@@ -1463,62 +1573,6 @@
         "cn"
       ],
       "relevance": 57,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "As Cambium folds, Airspan snaps up FWA products",
-      "link": "https://www.fierce-network.com/wireless/cambium-folds-airspan-snaps-fwa-products",
-      "summary": "Airspan adds to its industrial 5G FWA portfolio as Cambium looks to sell off its enterprise business.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "OpenVault tackles broadband need for better upstream optimization",
-      "link": "https://www.fierce-network.com/newswire/openvault-tackles-broadband-need-better-upstream-optimization",
-      "summary": "As the industry shifts from DOCSIS 3.1 to DOCSIS 4.0, the need to manage channels, carriers, service groups and network activity has risen exponentially.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon, T-Mobile kick the tires on 4 GHz",
-      "link": "https://www.fierce-network.com/wireless/verizon-t-mobile-kick-tires-4-ghz",
-      "summary": "Spectrum policy decisions are still up in the air, but Verizon and T-Mobile are already lining up experiments for the 4 GHz band.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AT&T pursues 3.45 GHz through N Squared leases",
-      "link": "https://www.fierce-network.com/wireless/att-pursues-345-ghz-through-n-squared-leases",
-      "summary": "AT&T is asking for the Federal Communications Commission (FCC) for permission to access even more 3.45 GHz spectrum to bolster its network.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
       "date": null,
       "ts": 0
     },
@@ -1565,6 +1619,49 @@
       "ts": 0
     },
     {
+      "title": "Impinj aims to build momentum in RFID ecosystem",
+      "link": "https://www.fierce-network.com/wireless/impinj-aims-build-momentum-rfid-ecosystem",
+      "summary": "Impinj is building momentum for RAIN RFID in enterprise mobile devices with support from Zebra, Qualcomm and MediaTek.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Moving From Reactive to Proactive Broadband Management",
+      "link": "https://www.fierce-network.com/sponsored/moving-reactive-proactive-broadband-management",
+      "summary": "Can AI help broadband operators improve reliability without adding complexity? Discover how Harmonic's cOS SensAI turns network data into actionable insights to simplify operations and enhance the subscriber experience.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Deterministic Networks by Design: Why Telecom Operators Can't Afford to Guess",
+      "link": "https://www.fierce-network.com/sponsored/deterministic-networks-design-why-telecom-operators-cant-afford-guess",
+      "summary": "Why can't AI touch the live network yet? Because \"probably right\" isn't enough when a wrong guess has no undo button.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "KT, SK Telecom tap Samsung for AI-RAN projects",
       "link": "https://www.fierce-network.com/wireless/kt-sk-telecom-tap-samsung-ai-ran-projects",
       "summary": "Samsung Electronics is well on its way to providing KT and SK Telecom with AI-RAN solutions to advance physical AI.",
@@ -1576,36 +1673,6 @@
       "countries": [
         "kr"
       ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Huawei Takes NPO From the Lab Into the AI Machine",
-      "link": "https://www.fierce-network.com/sponsored/huawei-takes-npo-lab-ai-machine",
-      "summary": "Huawei has built its 7.2T Hi-ONE near-packaged optical engine into the new Atlas 960E SuperPoD. NPO has moved remarkably quickly from an architectural argument to standards work, functioning hardware and now an AI computing system.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Fiber sensing may have helped prevent fiber cut that caused massive flight delays",
-      "link": "https://www.fierce-network.com/broadband/massive-flight-delays-caused-fiber-cut-fiber-sensing-might-have-helped",
-      "summary": "The problems began when a communications circuit at a flight control center failed. But the backup solution, a fiber optic cable, had been cut.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 23,
       "date": null,
       "ts": 0
