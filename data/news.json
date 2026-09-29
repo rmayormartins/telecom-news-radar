@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-29T17:12:06.794721+00:00",
-  "count": 104,
+  "generated_at": "2026-09-29T21:36:57.789892+00:00",
+  "count": 103,
   "theme_counts": {
-    "moveis": 49,
-    "fibra": 19,
-    "antenas": 16,
+    "moveis": 47,
+    "fibra": 20,
+    "antenas": 17,
     "iot": 2,
-    "satelite": 21,
-    "radar_militar": 14,
+    "satelite": 20,
+    "radar_militar": 15,
     "radiocom": 1,
     "tv": 0,
-    "geral": 19
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 4,
     "jp": 3,
     "kr": 5,
-    "cn": 9
+    "cn": 7
   },
   "research_count": 29,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (13 itens)",
+      "status": "ok (15 itens)",
       "kept": 1
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Umbra Promotes Ashley Durmer to Role of COO",
+      "link": "https://www.satellitetoday.com/people/2026/09/29/umbra-promotes-ashley-durmer-to-role-of-coo/",
+      "summary": "Umbra has named Ashely Durmer as the company’s new COO to lead the company’s day-to-day operations as the synthetic aperture radar (SAR) and space services company looks to grow. Durmer […] The post Umbra Promotes Ashley Durmer to Role of COO appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "antenas",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-09-29T19:48:57+00:00",
+      "ts": 1790711337.0
+    },
+    {
+      "title": "21 Tranche 1, Transport Layer Satellites Delivered to Vandenberg, Northrop Grumman Says",
+      "link": "https://www.satellitetoday.com/government-military/2026/09/29/21-tranche-1-transport-layer-satellites-delivered-to-vandenberg-northrop-grumman-says/",
+      "summary": "Northrop Grumman said on Monday that it has delivered 21 satellites to Vandenberg Space Force Base, Calif., for Tranche 1 of the U.S. Space Force Space Development Agency’s Transport Layer […] The post 21 Tranche 1, Transport Layer Satellites Delivered to Vandenberg, Northrop Grumman Says appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-29T19:40:39+00:00",
+      "ts": 1790710839.0
+    },
     {
       "title": "Europe May Give Telcos More Time to Replace Huawei as €40 Billion Cost Threatens 5G and 6G Investment",
       "link": "https://telecomlead.com/telecom-services/europe-may-give-telcos-more-time-to-replace-huawei-as-e40-billion-cost-threatens-5g-and-6g-investment-127920",
@@ -916,6 +946,20 @@
       "ts": 1790631293.0
     },
     {
+      "title": "MaxLinear intros 'AI-ready' Puma 9 DOCSIS chipset",
+      "link": "https://www.lightreading.com/cable-technology/maxlinear-intros-ai-ready-puma-9-docsis-chipset",
+      "summary": "MaxLinear aims to slash costs with the Puma 9, a new DOCSIS chip for DOCSIS 4.0, D.3.1+ and D3.0 modems and gateways. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T18:13:13+00:00",
+      "ts": 1790619193.0
+    },
+    {
       "title": "SpaceX’s Starship Reaches Orbit, Cuts 10-Hour Mission Short After Engine Issue",
       "link": "https://www.satellitetoday.com/launch/2026/09/28/spacexs-starship-reaches-orbit-cuts-10-hour-mission-short-after-engine-issue/",
       "summary": "SpaceX successfully launched its massive Starship rocket into orbit for the first time and and deployed 26 V3 Starlink satellites during Monday’s Starship Flight 14 mission. However, the company was […] The post SpaceX’s Starship Reaches Orbit, Cuts 10-Hour Mission Short After Engine Issue appeared first on Via...",
@@ -943,6 +987,20 @@
       "relevance": 55,
       "date": "2026-09-28T16:40:36+00:00",
       "ts": 1790613636.0
+    },
+    {
+      "title": "Spectrum touts AI edge progress at TechExpo",
+      "link": "https://www.lightreading.com/cable-technology/spectrum-touts-ai-edge-progress-at-techexpo",
+      "summary": "Tied into its AI edge strategy, Spectrum announced partnerships and demos for this week's SCTE TechExpo in Atlanta. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T16:17:56+00:00",
+      "ts": 1790612276.0
     },
     {
       "title": "5G is Not a Destination: Adapting to the NTN Landscape with Comtech’s Daniel Gizinski",
@@ -1165,50 +1223,6 @@
       "ts": 1790416807.0
     },
     {
-      "title": "Starfish Space’s Debut Otter Vehicle Hitches a Ride on SpaceX’s Transporter-18 Launch",
-      "link": "https://www.satellitetoday.com/sustainability/2026/09/25/starfish-spaces-debut-otter-vehicle-hitches-a-ride-on-spacexs-transporter-18-launch/",
-      "summary": "Starfish Space will launch its first Otter satellite servicing vehicle next month aboard SpaceX’s Transporter-18 rideshare mission, the company announced Thursday. Starfish Space designed Otter vehicles with a flexible architecture […] The post Starfish Space’s Debut Otter Vehicle Hitches a Ride on SpaceX’s...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-09-25T13:09:56+00:00",
-      "ts": 1790341796.0
-    },
-    {
-      "title": "Vast Launches Lunar Programs Division",
-      "link": "https://www.satellitetoday.com/space-economy/2026/09/25/vast-launches-lunar-programs-division/",
-      "summary": "Vast, a next-generation space infrastructure company is launching a Lunar Programs division in a major strategic move for the company. Vast Lunar Programs will be dedicated to helping advance NASA’s […] The post Vast Launches Lunar Programs Division appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-09-25T13:02:37+00:00",
-      "ts": 1790341357.0
-    },
-    {
-      "title": "Arabsat Reveals Details of 50-Year Anniversary Satellite",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/09/25/arabsat-reveals-details-of-50-year-anniversary-satellite/",
-      "summary": "Arabsat announced Thursday that contracted China Great Wall Industry Corporation (CGWIC) to build and launch a new satellite named ARABSAT-50. The new satellite coincides with the regional operator’s 50th anniversary. […] The post Arabsat Reveals Details of 50-Year Anniversary Satellite appeared first on Via Satellite...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 24,
-      "date": "2026-09-25T12:50:53+00:00",
-      "ts": 1790340653.0
-    },
-    {
       "title": "6G talks raise more questions about 5G migration options",
       "link": "https://www.lightreading.com/6g/6g-talks-raise-more-questions-about-5g-migration",
       "summary": "At its plenary meetings in Madrid last week, 3GPP postponed its decision on 5G-to-6G migration after the group could not agree on which options or how many to allow.",
@@ -1250,36 +1264,6 @@
       "relevance": 55,
       "date": "2026-09-24T07:30:00+00:00",
       "ts": 1790235000.0
-    },
-    {
-      "title": "T-Mobile requests to test 2.7GHz and 4GHz in 6G spectrum pipeline",
-      "link": "https://www.lightreading.com/6g/t-mobile-requests-to-test-2.7ghz-and-4ghz-in-6g-spectrum-pipeline",
-      "summary": "T-Mobile applies for FCC experimental licenses to test prototype equipment in 2.7GHz and 4GHz as the 6G spectrum pipeline gets prepped for auctions.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-09-23T14:22:59+00:00",
-      "ts": 1790173379.0
-    },
-    {
-      "title": "U Mobile trials solar 5G for remote regions",
-      "link": "https://www.lightreading.com/sustainability/u-mobile-trials-solar-5g-for-remote-regions",
-      "summary": "U Mobile and technology partner ZTE have successfully tested a portable solar-powered 5G site in Sarawak and Sabah.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 52,
-      "date": "2026-09-23T12:51:55+00:00",
-      "ts": 1790167915.0
     },
     {
       "title": "Scaling industrial 5G from technical capability to measurable business value",
