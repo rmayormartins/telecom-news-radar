@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T22:43:11.006766+00:00",
+  "generated_at": "2026-09-29T03:08:53.031106+00:00",
   "count": 101,
   "theme_counts": {
-    "moveis": 48,
-    "fibra": 17,
+    "moveis": 47,
+    "fibra": 18,
     "antenas": 7,
     "iot": 1,
     "satelite": 23,
-    "radar_militar": 9,
-    "radiocom": 2,
+    "radar_militar": 8,
+    "radiocom": 1,
     "tv": 0,
     "geral": 25
   },
@@ -140,12 +140,12 @@
     },
     {
       "source": "3GPP News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
       "source": "ETSI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Meta’s Petal Subsea Cable to Bring Petabit-Class Optics to the Atlantic",
+      "link": "https://techblog.comsoc.org/2026/09/28/metas-petal-subsea-cable-to-bring-petabit-class-optics-to-the-atlantic/",
+      "summary": "Executive Summary: Meta has announced Petal, a 7,000-km subsea cable connecting the U.S. and France that is designed to carry 1 petabit per second, or 1,000 Tbps, which is roughly twice the capacity Meta attributes to the current top transoceanic systems. If delivered as announced, it would be the first ocean-spanning...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-09-28T22:51:53+00:00",
+      "ts": 1790635913.0
+    },
     {
       "title": "Ericsson signs MoU’s with Murata and Sumitomo to progress next-gen mobile network infrastructure",
       "link": "https://techblog.comsoc.org/2026/09/28/ericsson-signs-mous-with-murata-and-sumitomo-to-progress-next-gen-mobile-network-infrastructure/",
@@ -1364,22 +1378,6 @@
       "relevance": 44,
       "date": "2026-09-18T16:51:00+00:00",
       "ts": 1789750260.0
-    },
-    {
-      "title": "4.8 GHz to 4.9 GHz frequency band uses & Verizon Wireless experimental license for testing ISAC with Ericsson",
-      "link": "https://techblog.comsoc.org/2026/09/17/4-8-ghz-to-4-9-ghz-frequency-band-uses-verizon-wireless-experimental-license-for-testing-with-ericsson/",
-      "summary": "Introduction: The 4.8 GHz to 4.9 GHz frequency band is a critical slice of mid-band spectrum located within the larger IEEE C-band (4.0 to 8.0 GHz) and the ITU Ultra High Frequency (UHF)/Super High Frequency (SHF) boundary. It is currently used primarily for public safety operations (especially the 4.9 GHz portion...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "radar_militar",
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-09-17T22:09:44+00:00",
-      "ts": 1789682984.0
     },
     {
       "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
