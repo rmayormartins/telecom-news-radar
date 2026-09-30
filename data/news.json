@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-30T11:31:13.902058+00:00",
-  "count": 111,
+  "generated_at": "2026-09-30T17:10:05.515355+00:00",
+  "count": 108,
   "theme_counts": {
-    "moveis": 49,
-    "fibra": 21,
+    "moveis": 42,
+    "fibra": 18,
     "antenas": 14,
-    "iot": 4,
-    "satelite": 24,
-    "radar_militar": 11,
+    "iot": 5,
+    "satelite": 25,
+    "radar_militar": 10,
     "radiocom": 1,
-    "tv": 0,
-    "geral": 19
+    "tv": 1,
+    "geral": 23
   },
   "country_counts": {
     "br": 1,
-    "ru": 1,
+    "ru": 0,
     "il": 0,
-    "in": 4,
+    "in": 2,
     "jp": 7,
-    "kr": 5,
-    "cn": 5
+    "kr": 4,
+    "cn": 4
   },
   "research_count": 29,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (15 itens)",
+      "status": "ok (17 itens)",
       "kept": 1
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -201,9 +201,156 @@
   ],
   "items": [
     {
+      "title": "AT&T Chief Challenges Economics of SpaceX’s Mobile-Network Strategy",
+      "link": "https://circleid.com/posts/att-chief-challenges-economics-of-spacexs-mobile-network-strategy",
+      "summary": "AT&T CEO John Stankey questions the economics of SpaceX's expanding mobile strategy as regulatory filings and independent measurements show the spectrum, satellite capacity and terrestrial infrastructure involved in scaling direct-to-device service.",
+      "source": "CircleID (Telecom)",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-09-30T16:39:00+00:00",
+      "ts": 1790786340.0
+    },
+    {
+      "title": "EC plots regional emergency service network",
+      "link": "https://www.mobileworldlive.com/network-tech/ec-plots-regional-emergency-service-network/",
+      "summary": "Emergency services in Europe could soon gain access to a dedicated, universal communications system under plans lodged by the European Commission The post EC plots regional emergency service network appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-30T16:07:25+00:00",
+      "ts": 1790784445.0
+    },
+    {
+      "title": "Private 5G and Wi-Fi Convergence at Airports and Large Venues",
+      "link": "https://tecknexus.com/private-5g-wi-fi-convergence-airports-venues/",
+      "summary": "Airports and large venues are running private 5G alongside Wi-Fi rather than choosing between them. This analysis examines deployments at Minneapolis-St. Paul, Frankfurt and the Paris airports, sets out how operators divide workloads between the two technologies, and explains the identity, interworking, spectrum and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-09-30T16:05:47+00:00",
+      "ts": 1790784347.0
+    },
+    {
+      "title": "Starship launch reignites rocket shortage worries for Starlink rivals",
+      "link": "https://www.lightreading.com/satellite/starship-launch-reignites-rocket-shortage-worries-for-starlink-rivals",
+      "summary": "SpaceX's Starship launch and Falcon 9's reported wind down refuel concerns about launch capacity shortages for planned mobile and broadband satellites.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-09-30T16:02:56+00:00",
+      "ts": 1790784176.0
+    },
+    {
+      "title": "SES and Sky Extend Direct-to-Home Satellite Capacity Agreement Across UK and Ireland",
+      "link": "https://satnews.com/2026/09/30/ses-and-sky-extend-direct-to-home-satellite-capacity-agreement-across-uk-and-ireland/",
+      "summary": "Luxembourg — On Wednesday, September 30, 2026, satellite fleet operator SES announced a multi-year extension of its direct-to-home (DTH) satellite capacity agreement with European media and connectivity provider Sky. The […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-09-30T15:51:29+00:00",
+      "ts": 1790783489.0
+    },
+    {
+      "title": "DeepSeek, Huawei team on AI chip software",
+      "link": "https://www.mobileworldlive.com/ai-cloud/deepseek-huawei-team-on-ai-chip-software/",
+      "summary": "AI start-up DeepSeek partnered with Huawei to launch an open-source programming software toolkit optimised for the vendor’s Ascend chips, as the Chinese companies up efforts to expand the AI market beyond Nvidia’s technology. The post DeepSeek, Huawei team on AI chip software appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 31,
+      "date": "2026-09-30T14:23:31+00:00",
+      "ts": 1790778211.0
+    },
+    {
+      "title": "5G Monetization Strategies 2026: How Jio, Airtel, T-Mobile, Verizon, MTN and China Mobile Make Money from Data",
+      "link": "https://telecomlead.com/5g/5g-monetization-strategies-2026-how-jio-airtel-t-mobile-verizon-mtn-and-china-mobile-make-money-from-data-127941",
+      "summary": "Telecom operators are discovering that 5G monetization is not simply about selling more gigabytes. The leading strategies in 2026 range from premium mobile plans and fixed wireless access to convergence, enterprise services, AI, cloud and financial services. Reliance Jio has 285 million 5G customers consuming 43.7 GB...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 62,
+      "date": "2026-09-30T13:35:29+00:00",
+      "ts": 1790775329.0
+    },
+    {
+      "title": "AI Network Infrastructure 2026: Why Telecom Operators Are Rebuilding Fiber, Data Centers and AI-RAN",
+      "link": "https://telecomlead.com/telecom-services/ai-network-infrastructure-2026-why-telecom-operators-are-rebuilding-fiber-data-centers-and-ai-ran-127939",
+      "summary": "Telecom operators are rebuilding networks for the AI era as GPU clusters, distributed inference, cloud applications and AI data centers create new requirements for fiber capacity, optical transport, computing and low-latency connectivity. The shift is changing telecom Capex. Operators are no longer investing only in...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-09-30T13:32:39+00:00",
+      "ts": 1790775159.0
+    },
+    {
+      "title": "Telecom Network Cost per GB in 2026: How 5G, AI and Energy Efficiency Are Cutting Data Costs",
+      "link": "https://telecomlead.com/5g/telecom-network-cost-per-gb-in-2026-how-5g-ai-and-energy-efficiency-are-cutting-data-costs-127937",
+      "summary": "Global mobile data traffic has crossed 220 exabytes per month, but telecom operators are not increasing network spending at the same rate. The result is one of the most important changes in telecom economics: the cost of carrying each additional gigabyte is falling as networks become more efficient and traffic scales....",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-09-30T13:29:21+00:00",
+      "ts": 1790774961.0
+    },
+    {
+      "title": "Eurobites: Deutsche Telekom connects with Cloudflare",
+      "link": "https://www.lightreading.com/security/eurobites-deutsche-telekom-connects-with-cloudflare",
+      "summary": "Also in today's EMEA regional roundup: Vodafone and Nokia trial multi-PON approach; KPN adds AI to mobile interactions; DNA enters the AI translation game.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-09-30T11:24:14+00:00",
+      "ts": 1790767454.0
+    },
+    {
       "title": "Verizon brings financial expert on board",
       "link": "https://www.mobileworldlive.com/operators/verizon-brings-financial-expert-on-board/",
-      "summary": "Verizon took its board to ten members with the appointment of private equity guru Charles Phillips, a move framed as being about his financial leadership at a time when some shareholders are concerned about the operator’s management structure. The post Verizon brings financial expert on board appeared first on Mobile...",
+      "summary": "Verizon took its board to 10 members with the appointment of private equity guru Charles Phillips, a move framed as being about his financial leadership at a time when some shareholders are concerned about the operator’s management structure. The post Verizon brings financial expert on board appeared first on Mobile...",
       "source": "Mobile World Live",
       "themes": [
         "geral"
@@ -392,20 +539,6 @@
       "relevance": 60,
       "date": "2026-09-30T05:21:51+00:00",
       "ts": 1790745711.0
-    },
-    {
-      "title": "Red Dog Mine Advances Mining 4.0 with Private LTE Connectivity",
-      "link": "https://tecknexus.com/star-solutions-private-lte-red-dog-mine/",
-      "summary": "Star Solutions delivered a complete private 4G LTE network for Teck Alaska's Red Dog Mine, covering the mine site, a 50-mile highway corridor, and port facilities as a single-vendor, end-to-end deployment in a region with no commercial network coverage. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-09-30T05:13:31+00:00",
-      "ts": 1790745211.0
     },
     {
       "title": "Efficient Transmit Waveform Design for MIMO-OFDM DFRC Systems with 1-Bit DACS",
@@ -824,6 +957,20 @@
       "ts": 1790740800.0
     },
     {
+      "title": "Bain & Co: AI Infrastructure Buildout Will Require $6 Trillion Revenue by 2031 to Support Massive CAPEX",
+      "link": "https://techblog.comsoc.org/2026/09/29/bain-co-ai-infrastructure-buildout-will-require-6-trillion-revenue-by-2031-to-support-massive-capex/",
+      "summary": "Introduction: Bain & Company estimates that the AI industry will need to generate approximately $6 trillion in annual revenue by 2031 to support the capital intensity (CAPEX) of the global AI infrastructure buildout, including investment in data centers, accelerated computing, memory, networking and power systems. In...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-09-29T23:21:07+00:00",
+      "ts": 1790724067.0
+    },
+    {
       "title": "Umbra Promotes Ashley Durmer to Role of COO",
       "link": "https://www.satellitetoday.com/people/2026/09/29/umbra-promotes-ashley-durmer-to-role-of-coo/",
       "summary": "Umbra has named Ashely Durmer as the company’s new COO to lead the company’s day-to-day operations as the synthetic aperture radar (SAR) and space services company looks to grow. Durmer […] The post Umbra Promotes Ashley Durmer to Role of COO appeared first on Via Satellite .",
@@ -854,37 +1001,6 @@
       "ts": 1790710839.0
     },
     {
-      "title": "Europe May Give Telcos More Time to Replace Huawei as €40 Billion Cost Threatens 5G and 6G Investment",
-      "link": "https://telecomlead.com/telecom-services/europe-may-give-telcos-more-time-to-replace-huawei-as-e40-billion-cost-threatens-5g-and-6g-investment-127920",
-      "summary": "European telecom operators could get more time to remove network equipment supplied by companies classified as high risk, as the industry warns that an accelerated replacement programme could cost as much as €40 billion ($45 billion) and divert investment from fibre, 5G and future 6G networks. The development could...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 57,
-      "date": "2026-09-29T16:34:25+00:00",
-      "ts": 1790699665.0
-    },
-    {
-      "title": "Ericsson to support Cellnex's 5G RAN upgrades in Poland",
-      "link": "https://www.datacenterdynamics.com/en/news/ericsson-to-support-cellnexs-5g-ran-upgrades-in-poland/",
-      "summary": "Will support Cellnex's sustainability ambitions",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-29T15:49:00+00:00",
-      "ts": 1790696940.0
-    },
-    {
       "title": "NTT, STC partner on Komatsu IoT platform",
       "link": "https://www.mobileworldlive.com/middle-east-and-north-africa/ntt-stc-partner-on-komatsu-iot-platform/",
       "summary": "Construction and heavy machinery manufacturer Komatsu launched a telematics system for its kit in Saudi Arabia using technology from NTT Docomo Business and STC Group. The post NTT, STC partner on Komatsu IoT platform appeared first on Mobile World Live .",
@@ -901,22 +1017,6 @@
       "ts": 1790696212.0
     },
     {
-      "title": "T2, MegaFon expand 5G rollout to key metro stations in Russia",
-      "link": "https://www.datacenterdynamics.com/en/news/t2-megafon-expand-5g-rollout-to-key-metro-stations-in-russia/",
-      "summary": "Russian telcos only launched 5G earlier this month",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "ru"
-      ],
-      "relevance": 43,
-      "date": "2026-09-29T15:22:30+00:00",
-      "ts": 1790695350.0
-    },
-    {
       "title": "Corning inks $3B fibre deal with AT&T",
       "link": "https://www.mobileworldlive.com/old_latest-stories/corning-inks-3b-fibre-deal-with-att/",
       "summary": "AT&T agreed a multi-year fibre and cable deal valued at more than $3 billion with glass-specialist Corning to advance its converged strategy of mobile and broadband services. The post Corning inks $3B fibre deal with AT&T appeared first on Mobile World Live .",
@@ -929,71 +1029,6 @@
       "relevance": 43,
       "date": "2026-09-29T14:46:59+00:00",
       "ts": 1790693219.0
-    },
-    {
-      "title": "Global Telecom Revenue 2026: Which Operators Are Growing Fastest?",
-      "link": "https://telecomlead.com/telecom-services/global-telecom-revenue-2026-which-operators-are-growing-fastest-127917",
-      "summary": "Vodafone, e&, VEON, América Móvil, Jio and Orange are among the telecom operators showing strong revenue momentum in 2026 as 5G, broadband, enterprise connectivity, financial services and digital platforms create new growth engines. Global telecom revenue increased 2.5 percent year over year to $472.5 billion in Q2...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 44,
-      "date": "2026-09-29T14:01:41+00:00",
-      "ts": 1790690501.0
-    },
-    {
-      "title": "Telecom ARPU 2026: Verizon, T-Mobile, Airtel, Jio and Telefonica Show the Value of Premium Customers",
-      "link": "https://telecomlead.com/telecom-services/telecom-arpu-2026-verizon-t-mobile-airtel-jio-and-telefonica-show-the-value-of-premium-customers-127914",
-      "summary": "Verizon and T-Mobile report postpaid ARPA above $150, Telefónica España generates €91.1 ARPU, while Airtel, Jio, Vi and China Telecom demonstrate very different approaches to monetizing mobile customers. Telecom operators are focusing on ARPU, ARPA, customer mix, convergence and data consumption as subscriber growth...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in",
-        "cn"
-      ],
-      "relevance": 43,
-      "date": "2026-09-29T13:55:58+00:00",
-      "ts": 1790690158.0
-    },
-    {
-      "title": "Telecom Churn Rate 2026: How Operators Are Retaining Customers Through Convergence and Better Networks",
-      "link": "https://telecomlead.com/telecom-services/telecom-churn-rate-2026-how-operators-are-retaining-customers-through-convergence-and-better-networks-127911",
-      "summary": "AT&T, Verizon, T-Mobile, Deutsche Telekom, Orange, Telefónica and Vodafone are using convergence, network quality, loyalty programs and higher-value customer relationships to reduce churn in 2026. Customer retention is becoming a bigger growth lever for telecom operators as mature mobile markets make it more expensive...",
-      "source": "Telecom Lead",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-09-29T13:49:19+00:00",
-      "ts": 1790689759.0
-    },
-    {
-      "title": "Telecom Subscriber Growth 2026: Which Operators Added the Most Customers?",
-      "link": "https://telecomlead.com/telecom-services/telecom-subscriber-growth-2026-which-operators-added-the-most-customers-127908",
-      "summary": "Global telecom subscriber growth remains substantial in 2026, but the strongest operators are expanding through very different models. Bharti Airtel and Reliance Jio are adding large numbers of wireless subscribers in India, China Telecom and China Mobile continue to expand enormous mobile bases, Telefonica is growing...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in",
-        "cn"
-      ],
-      "relevance": 49,
-      "date": "2026-09-29T13:46:19+00:00",
-      "ts": 1790689579.0
     },
     {
       "title": "Tarana eyes UK expansion in 6GHz for gigabit FWA",
@@ -1009,20 +1044,6 @@
       "relevance": 52,
       "date": "2026-09-29T13:00:51+00:00",
       "ts": 1790686851.0
-    },
-    {
-      "title": "MaxLinear claims new 'Puma 9' DOCSIS chip is a big cost-cutter",
-      "link": "https://www.lightreading.com/cable-technology/maxlinear-claims-new-puma-9-docsis-chip-is-a-big-cost-cutter",
-      "summary": "MaxLinear's new Puma 9 silicon provides a baseline platform for DOCSIS 3.1, D3.1+ and D4.0, and is designed to reduce CPE costs by up to 50%, the chipmaker claims.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-29T12:00:00+00:00",
-      "ts": 1790683200.0
     },
     {
       "title": "Samsung pledges $1B to AI infrastructure player",
@@ -1041,6 +1062,21 @@
       "ts": 1790676035.0
     },
     {
+      "title": "Telit Cinterion picks advisers for defensive push",
+      "link": "https://www.mobileworldlive.com/industry/telit-cinterion-picks-advisers-for-defensive-push/",
+      "summary": "IoT systems provider Telit Cinterion geared up for a deepening role in defence and robotics sectors with the appointment of four advisers deemed to bring the requisite skills to its board. The post Telit Cinterion picks advisers for defensive push appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "iot",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-29T09:50:29+00:00",
+      "ts": 1790675429.0
+    },
+    {
       "title": "FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
       "link": "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/",
       "summary": "Investments in MIST, I2SEA and ECHO in line with its Vision 2030 strategy to provide multiple paths for resilient connectivity The post FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes appeared first on Total Telecom .",
@@ -1055,6 +1091,20 @@
       "relevance": 48,
       "date": "2026-09-29T09:19:34+00:00",
       "ts": 1790673574.0
+    },
+    {
+      "title": "Anthropic, OpenAI execs call for oversight on self-improving AI",
+      "link": "https://www.mobileworldlive.com/ai-cloud/anthropic-openai-execs-call-for-oversight-on-self-improving-ai/",
+      "summary": "Research leaders from OpenAI, Anthropic, Microsoft and Meta Platforms are urging policymakers to intervene as AI systems increasingly automate their own development. The post Anthropic, OpenAI execs call for oversight on self-improving AI appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-29T08:26:20+00:00",
+      "ts": 1790670380.0
     },
     {
       "title": "Massive MIMO attacked as Galtronics bets on multibeam 5G growth",
@@ -1100,20 +1150,6 @@
       "relevance": 44,
       "date": "2026-09-28T21:34:53+00:00",
       "ts": 1790631293.0
-    },
-    {
-      "title": "MaxLinear intros 'AI-ready' Puma 9 DOCSIS chipset",
-      "link": "https://www.lightreading.com/cable-technology/maxlinear-intros-ai-ready-puma-9-docsis-chipset",
-      "summary": "MaxLinear aims to slash costs with the Puma 9, a new DOCSIS chip for DOCSIS 4.0, D.3.1+ and D3.0 modems and gateways. #pressrelease",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-28T18:13:13+00:00",
-      "ts": 1790619193.0
     },
     {
       "title": "SpaceX’s Starship Reaches Orbit, Cuts 10-Hour Mission Short After Engine Issue",
@@ -1174,6 +1210,20 @@
       "ts": 1790611298.0
     },
     {
+      "title": "Impinj expands mobile RFID ecosystem with Qualcomm, MediaTek",
+      "link": "https://www.mobileworldlive.com/network-tech/impinj-expands-mobile-rfid-ecosystem-with-qualcomm-mediatek/",
+      "summary": "US technology company Impinj aims to bring RAIN RFID to more handhelds, rugged tablets and other enterprise devices, backed by chipset support from Qualcomm Technologies and MediaTek. The post Impinj expands mobile RFID ecosystem with Qualcomm, MediaTek appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-09-28T16:01:00+00:00",
+      "ts": 1790611260.0
+    },
+    {
       "title": "Kazakhstan Population Gets Access to Starlink Connectivity Through Beeline",
       "link": "https://www.satellitetoday.com/connectivity/2026/09/28/kazakhstan-population-gets-access-to-starlink-connectivity-through-beeline/",
       "summary": "Satellite mobile connectivity is coming to Kazakhstan thanks to a partnership between Beeline Kazakhstan and Starlink Mobile. The introduction of Starlink Mobile is the result of agreements reached during Kazakhstan’s […] The post Kazakhstan Population Gets Access to Starlink Connectivity Through Beeline appeared...",
@@ -1202,80 +1252,6 @@
       "relevance": 59,
       "date": "2026-09-28T14:23:57+00:00",
       "ts": 1790605437.0
-    },
-    {
-      "title": "KT parades 5G, satellite NATO ambitions",
-      "link": "https://www.mobileworldlive.com/industry/kt-parades-5g-satellite-nato-ambitions/",
-      "summary": "KT executive Kim Won-tae called for private companies and military chiefs to work closely to steer development of mobile technologies for defence purposes, arguing 5G and future 6G systems will play a vital role in national protection. The post KT parades 5G, satellite NATO ambitions appeared first on Mobile World...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-09-28T10:38:46+00:00",
-      "ts": 1790591926.0
-    },
-    {
-      "title": "Nokia webinar: From AI ambition to operational reality – what enterprise leaders need from their networks",
-      "link": "https://www.mobileworldlive.com/old_latest-stories/nokia-webinar-from-ai-ambition-to-operational-reality-what-enterprise-leaders-need-from-their-networks/",
-      "summary": "Eric Yu, Nokia’s Head of Marketing Strategy, Mission Critical Enterprise and Defense, alongside GSMA Intelligence’s Christina Patsioura and Boldyn Networks’ Read more... The post Nokia webinar: From AI ambition to operational reality – what enterprise leaders need from their networks appeared first on Mobile World...",
-      "source": "Mobile World Live",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-09-28T10:23:33+00:00",
-      "ts": 1790591013.0
-    },
-    {
-      "title": "Korean financial services player banks on private 5G",
-      "link": "https://www.mobileworldlive.com/asia-pacific/korean-financial-services-player-banks-on-private-5g/",
-      "summary": "SK Telecom and Samsung Electronics partnered on a private 5G network for Hana Financial Group’s new headquarters in Incheon, South Korea, infrastructure expected to provide the foundation for the company’s AI transformation. The post Korean financial services player banks on private 5G appeared first on Mobile World...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 64,
-      "date": "2026-09-28T10:11:51+00:00",
-      "ts": 1790590311.0
-    },
-    {
-      "title": "Sateliot keynote and Topic Panel: Beyond the Tower – Satellite’s Role in Industrial Outdoor Connectivity",
-      "link": "https://www.mobileworldlive.com/old_latest-stories/sateliot-keynote-and-topic-panel-beyond-the-tower-satellites-role-in-industrial-outdoor-connectivity/",
-      "summary": "Mobile World Live‘s Justin Springham opens another Connecting Outdoors session with a keynote interview with Marco Guadalupi - Co-founder & CTO of Sateliot, before Kavit Majithia is joined by Sridhar Rajagopal from Ennoia Technologies, Viasat executive Tim Daly and Orange Business specialist Benjamin Vigouroux to...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-09-28T09:20:33+00:00",
-      "ts": 1790587233.0
-    },
-    {
-      "title": "AWS keynote and Topic Panel: Private networks in transport hubs – what’s working at scale?",
-      "link": "https://www.mobileworldlive.com/old_latest-stories/aws-keynote-and-topic-panel-private-networks-in-transport-hubs-whats-working-at-scale/",
-      "summary": "Justin Springham begins another Connecting Transport and Logistics Hubs session with a keynote interview with Mauro Matteo, Senior Manager Solutions Architecture - Telecom Vendors at AWS, before Chris Donkin is joined by David O'Byrne from Druid Software, Andy Conway from Boldyn Networks and Chris Bridgeman from...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-09-28T09:13:47+00:00",
-      "ts": 1790586827.0
     },
     {
       "title": "Nokia puts new open RAN tech in 5G revival bid as Ericsson demurs",
@@ -1463,34 +1439,6 @@
       "relevance": 35,
       "date": "2026-09-21T13:00:04+00:00",
       "ts": 1789995604.0
-    },
-    {
-      "title": "FCC plans 6G spectrum auctions before IMT 2030 frequencies have been identified and without a 6G frequency arrangement standard",
-      "link": "https://techblog.comsoc.org/2026/09/19/fcc-plans-6g-spectrum-auctions-before-imt-2030-frequencies-have-been-identified-and-without-a-6g-frequency-arrangement-standard/",
-      "summary": "Executive Summary: Federal Communications Commission (FCC) Chairman Brendan Carr said Wednesday that a series of planned wireless-spectrum auctions could generate more than $100 billion in proceeds over the next several years. In July, the FCC voted to conduct a 2027 auction of 160 megahertz of mid-band spectrum in...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-09-19T23:45:39+00:00",
-      "ts": 1789861539.0
-    },
-    {
-      "title": "Candle Submarine Cable Reaches Indonesia on Route Across Six Asian Markets",
-      "link": "https://circleid.com/posts/candle-submarine-cable-reaches-indonesia-on-route-across-six-asian-markets",
-      "summary": "The 8,000-kilometre Candle submarine cable has landed in Batam, advancing a six-market Asian system designed for 570 Tbps capacity, 24 fiber pairs and geographically diverse routes ahead of commercial service in 2028.",
-      "source": "CircleID (Telecom)",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-09-18T16:51:00+00:00",
-      "ts": 1789750260.0
     },
     {
       "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
@@ -1746,20 +1694,6 @@
       "ts": 0
     },
     {
-      "title": "Enter the 2026 Fierce Network Innovation Awards before the Oct. 2 deadline",
-      "link": "https://www.fierce-network.com/broadband/enter-2026-fierce-network-innovation-awards-oct-2-deadline",
-      "summary": "The final deadline to enter the 2026 Fierce Network Innovation Awards is Oct. 2, giving telecom, broadband, cloud and AI infrastructure innovators one last opportunity to earn industry recognition and showcase their impact before an independent panel of judges.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Corning bags $3B fiber supply deal with AT&T",
       "link": "https://www.fierce-network.com/broadband/corning-bags-3b-fiber-supply-deal-att",
       "summary": "Corning just landed another mega fiber deal — this time with AT&T, which is racing to double its U.S. fiber footprint by 2030.",
@@ -1820,6 +1754,20 @@
       "title": "It’s T-Mobile Tuesday, so … another price hike?",
       "link": "https://www.fierce-network.com/wireless/t-mobile-says-next-regulatory-fee-increase-coming-oct-12",
       "summary": "T-Mobile is raising regulatory fees for most postpaid customers, risking further customer frustration over expanding “junk fees.”",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Deterministic Networks by Design: Why Telecom Operators Can't Afford to Guess",
+      "link": "https://www.fierce-network.com/sponsored/deterministic-networks-design-why-telecom-operators-cant-afford-guess",
+      "summary": "Why can't AI touch the live network yet? Because \"probably right\" isn't enough when a wrong guess has no undo button.",
       "source": "Fierce Network",
       "themes": [
         "geral"
