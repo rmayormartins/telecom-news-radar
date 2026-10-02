@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-02T11:31:27.474445+00:00",
+  "generated_at": "2026-10-02T16:58:48.916650+00:00",
   "count": 111,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 19,
+    "moveis": 43,
+    "fibra": 20,
     "antenas": 11,
     "iot": 4,
-    "satelite": 39,
+    "satelite": 40,
     "radar_militar": 12,
     "radiocom": 2,
     "tv": 1,
-    "geral": 22
+    "geral": 21
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 2,
-    "jp": 4,
+    "jp": 5,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 27,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -200,6 +200,48 @@
     }
   ],
   "items": [
+    {
+      "title": "CMA sounds alarm on £2B UK fibre deal",
+      "link": "https://www.mobileworldlive.com/regulation/cma-sounds-alarm-on-2b-uk-fibre-deal/",
+      "summary": "The UK’s Competition and Markets Authority raised antitrust concerns around Nexfibre’s planned takeover of fellow broadband player Netomnia, in provisional findings from a probe which could derail the tie-up. The post CMA sounds alarm on £2B UK fibre deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-10-02T14:24:47+00:00",
+      "ts": 1790951087.0
+    },
+    {
+      "title": "Malaysia's DNB raises $1.27B for next phase of 5G growth",
+      "link": "https://www.lightreading.com/finance/malaysia-s-dnb-raises-1-27b-for-next-phase-of-5g-growth",
+      "summary": "DNB says it now has access to sustainable, long-term funding through the $1.27 billion loan, positioning the company for future growth.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-02T13:48:57+00:00",
+      "ts": 1790948937.0
+    },
+    {
+      "title": "AI and edge computing step into the cable spotlight",
+      "link": "https://www.lightreading.com/ai-machine-learning/ai-and-edge-computing-step-into-the-cable-spotlight",
+      "summary": "At SCTE TechExpo, Charter and Spectrum explained how they are repurposing space, power and cooling at hubs and headends to serve up AI and high-bandwidth, low-latency services at the edge.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-02T13:00:00+00:00",
+      "ts": 1790946000.0
+    },
     {
       "title": "The Friday File: High risk vendors; Nvidia; TIM",
       "link": "https://www.mobileworldlive.com/regulation/the-friday-file-high-risk-vendors-nvidia-tim/",
@@ -981,20 +1023,6 @@
       "ts": 1790842538.0
     },
     {
-      "title": "Cellnex UK boss banks on VodafoneThree spurring 5G buildout",
-      "link": "https://www.lightreading.com/5g/cellnex-uk-boss-banks-on-vodafonethree-spurring-5g-buildout",
-      "summary": "Steve Cray, Cellnex UK's managing director, hopes for new 'densification' business with BT and Virgin Media O2 in response to the VodafoneThree merger.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-01T07:30:00+00:00",
-      "ts": 1790839800.0
-    },
-    {
       "title": "Trusted Computing Group Creates Key New Working Group Focusing on Aerospace Security",
       "link": "https://www.satellitetoday.com/technology/2026/09/30/trusted-computing-group-creates-key-new-working-group-focusing-on-aerospace-security/",
       "summary": "The Trusted Computing Group (TCG) has created a new Aerospace and Non-Terrestrial Systems Solutions Working Group (AERO-SWG) as it looks to play a key role in keeping satellite systems secure. […] The post Trusted Computing Group Creates Key New Working Group Focusing on Aerospace Security appeared first on Via...",
@@ -1109,22 +1137,6 @@
       "ts": 1790784176.0
     },
     {
-      "title": "DeepSeek, Huawei team on AI chip software",
-      "link": "https://www.mobileworldlive.com/ai-cloud/deepseek-huawei-team-on-ai-chip-software/",
-      "summary": "AI start-up DeepSeek partnered with Huawei to launch an open-source programming software toolkit optimised for the vendor’s Ascend chips, as the Chinese companies up efforts to expand the AI market beyond Nvidia’s technology. The post DeepSeek, Huawei team on AI chip software appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 31,
-      "date": "2026-09-30T14:23:31+00:00",
-      "ts": 1790778211.0
-    },
-    {
       "title": "Eurobites: Deutsche Telekom connects with Cloudflare",
       "link": "https://www.lightreading.com/security/eurobites-deutsche-telekom-connects-with-cloudflare",
       "summary": "Also in today's EMEA regional roundup: Vodafone and Nokia trial multi-PON approach; KPN adds AI to mobile interactions; DNA enters the AI translation game.",
@@ -1195,6 +1207,22 @@
       "ts": 1790746815.0
     },
     {
+      "title": "Cargill Modernizes Global Manufacturing Operations with NTT DATA Private 5G",
+      "link": "https://tecknexus.com/ntt-data-cargill-ai-powered-private-5g/",
+      "summary": "NTT DATA scaled a fully managed, AI-powered private 5G network across more than 50 Cargill manufacturing and processing sites worldwide, built on Celona's 5G LAN platform, supporting connected workers, SAP modernization, and physical AI applications including Boston Dynamics' Spot robot conducting autonomous...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 53,
+      "date": "2026-09-30T05:36:04+00:00",
+      "ts": 1790746564.0
+    },
+    {
       "title": "Zero Trust for Private Cellular: OneLayer’s Device-Centric Security Platform for Enterprise 5G/LTE Networks",
       "link": "https://tecknexus.com/onelayer-zero-trust-private-cellular-security/",
       "summary": "OneLayer's device-centric security platform brings Zero Trust visibility and threat detection to private LTE and 5G networks, deployed across Evergy, WEC Energy Group, Southern Linc, and a Fortune 100 global manufacturer, with vendor-agnostic integrations spanning Ericsson, Nokia, Palo Alto Networks, Fortinet, Check...",
@@ -1223,20 +1251,6 @@
       "relevance": 56,
       "date": "2026-09-30T05:31:23+00:00",
       "ts": 1790746283.0
-    },
-    {
-      "title": "Eiffage Energie Systèmes & Nokia for SNCF’s Private 5G Network: Transforming Rail Maintenance Connectivity at Scale",
-      "link": "https://tecknexus.com/nokia-sncf-private-5g-rail-maintenance/",
-      "summary": "SNCF Group is deploying a private 5G network across its industrial technicentres, led by Nokia's radio access technology alongside e.SNCF Solutions, Eiffage, Hub One, and HPE, covering large metal-dense maintenance buildings including a 19,000 m² site at Rennes, with a national rollout to ten maintenance centres...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-09-30T05:26:42+00:00",
-      "ts": 1790746002.0
     },
     {
       "title": "Bain & Co: AI Infrastructure Buildout Will Require $6 Trillion Revenue by 2031 to Support Massive CAPEX",
@@ -1388,20 +1402,6 @@
       "relevance": 59,
       "date": "2026-09-28T14:23:57+00:00",
       "ts": 1790605437.0
-    },
-    {
-      "title": "Nokia puts new open RAN tech in 5G revival bid as Ericsson demurs",
-      "link": "https://www.lightreading.com/open-ran/nokia-puts-new-open-ran-tech-in-5g-revival-bid-as-ericsson-demurs",
-      "summary": "Nokia is supporting a new open RAN interface it hopes will make its offer look far more competitive in the 5G battle against Ericsson and Samsung.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-09-28T07:00:49+00:00",
-      "ts": 1790578849.0
     },
     {
       "title": "Google’s Project Suncatcher: Satellite Orbit Validation of AI Accelerator Compute and Thermal Management",
@@ -1680,16 +1680,16 @@
       "ts": 0
     },
     {
-      "title": "Opinion: America's private 5G opportunity is hiding in shared spectrum",
-      "link": "https://www.fierce-network.com/broadband/opinion-americas-private-5g-opportunity-hiding-shared-spectrum",
-      "summary": "Manufacturers need regulatory certainty, not subsidies, to control their own private wireless networks, says John Puskar of the American Made 5G Coalition.",
+      "title": "The Five Nine: AI-RAN, 6G and the future of mobile networks",
+      "link": "https://www.fierce-network.com/wireless/five-nine-ai-ran-6g-and-future-mobile-networks",
+      "summary": "Ericsson, Samsung and Mobile Experts' Joe Madden unpack AI-RAN, Open RAN and 6G — and whether smarter networks can finally help operators escape the dumb pipe trap.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 61,
+      "relevance": 60,
       "date": null,
       "ts": 0
     },
@@ -1750,16 +1750,16 @@
       "ts": 0
     },
     {
-      "title": "Charter Spectrum wraps rural expansion in Somerset County, Maryland",
-      "link": "https://www.fierce-network.com/newswire/charter-spectrum-wraps-rural-expansion-somerset-county-maryland",
-      "summary": "It connected more than 1,300 homes as part of a multi-year initiative.",
+      "title": "AT&T, T-Mobile and Verizon make satellite JV official",
+      "link": "https://www.fierce-network.com/wireless/att-t-mobile-and-verizon-make-satellite-jv-official",
+      "summary": "AT&T, T-Mobile and Verizon will continue their individual efforts in the D2D space but collaborate to eliminate dead zones.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 42,
+      "relevance": 43,
       "date": null,
       "ts": 0
     },
@@ -1778,16 +1778,16 @@
       "ts": 0
     },
     {
-      "title": "EU taps Orange Business for sovereign comms backbone",
-      "link": "https://www.fierce-network.com/newswire/eu-taps-orange-business-sovereign-comms-backbone",
-      "summary": "Orange Business will help the EU build a secure, sovereign backbone for government communications as cyber threats mount.",
+      "title": "Samsung’s $1B AI infrastructure bet: Who else can match it?",
+      "link": "https://www.fierce-network.com/modernization/samsungs-1-billion-ai-infrastructure-bet-who-else-can-match-it",
+      "summary": "Samsung’s $1 billion Helix investment makes it a rare end-to-end AI infrastructure player.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
