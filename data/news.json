@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-07T12:14:44.339949+00:00",
-  "count": 106,
+  "generated_at": "2026-10-07T22:24:00.787357+00:00",
+  "count": 103,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 19,
+    "moveis": 39,
+    "fibra": 15,
     "antenas": 6,
     "iot": 3,
-    "satelite": 30,
+    "satelite": 32,
     "radar_militar": 10,
-    "radiocom": 2,
-    "tv": 0,
-    "geral": 23
+    "radiocom": 1,
+    "tv": 1,
+    "geral": 24
   },
   "country_counts": {
     "br": 2,
-    "ru": 0,
-    "il": 0,
-    "in": 4,
+    "ru": 1,
+    "il": 1,
+    "in": 3,
     "jp": 0,
     "kr": 0,
-    "cn": 7
+    "cn": 6
   },
   "research_count": 29,
   "sources": [
@@ -71,11 +71,11 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 5
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (17 itens)",
+      "status": "ok (16 itens)",
       "kept": 1
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,156 @@
     }
   ],
   "items": [
+    {
+      "title": "Eutelsat Signs Broadcast Renewal With Algeria’s National Operator",
+      "link": "https://www.satellitetoday.com/connectivity/2026/10/07/eutelsat-signs-broadcast-renewal-with-algerias-national-operator/",
+      "summary": "Eutelsat signed a capacity renewal for the Eutelsat 7 West A satellite with Télédiffusion d’Algérie (TDA), Algeria’s national broadcasting network operator. TDA has been a long-time customer of Eutelsat and […] The post Eutelsat Signs Broadcast Renewal With Algeria’s National Operator appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "tv"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-10-07T19:49:34+00:00",
+      "ts": 1791402574.0
+    },
+    {
+      "title": "FCC OKs SpaceX to deploy 15K D2D satellites, and nine years to complete it",
+      "link": "https://www.lightreading.com/satellite/fcc-oks-spacex-to-deploy-15k-d2d-satellites-and-nine-years-to-complete-it",
+      "summary": "The FCC has given SpaceX the green light to deploy a D2D constellation of 15,000 LEO satellites. SpaceX has until October 2035 to complete the rollout.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-10-07T19:45:00+00:00",
+      "ts": 1791402300.0
+    },
+    {
+      "title": "Gilat Reports $38M in Recent Contracts for SkyEdge and Peru Connectivity",
+      "link": "https://www.satellitetoday.com/technology/2026/10/07/gilat-reports-38m-in-recent-contracts-for-skyedge-and-peru-connectivity/",
+      "summary": "Gilat Satellite Networks reports recent contract wins totalling $38 million for its SkyEdge system and connectivity projects in Peru. Wednesday, Gilat announced $10 million in orders from an unnamed satellite […] The post Gilat Reports $38M in Recent Contracts for SkyEdge and Peru Connectivity appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "il"
+      ],
+      "relevance": 24,
+      "date": "2026-10-07T19:44:22+00:00",
+      "ts": 1791402262.0
+    },
+    {
+      "title": "FCC Grants SpaceX Approval for 15,000 Direct-to-Device Satellites in MSS Spectrum",
+      "link": "https://www.satellitetoday.com/connectivity/2026/10/07/fcc-grants-spacex-approval-for-15000-direct-to-device-satellites-in-mss-spectrum/",
+      "summary": "The FCC approved SpaceX’s request to deploy 15,000 satellites for direct-to-device (D2D) services, while deferring some of SpaceX’s requests. This 15,000-satellite system is designed to provide both mobile satellite services […] The post FCC Grants SpaceX Approval for 15,000 Direct-to-Device Satellites in MSS Spectrum...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-07T19:42:06+00:00",
+      "ts": 1791402126.0
+    },
+    {
+      "title": "Silicon Valley Space Week Speaker Focus: Dr. Tim Farrar, TMF Associates",
+      "link": "https://satnews.com/2026/10/07/silicon-valley-space-week-speaker-focus-dr-tim-farrar-tmf-associates/",
+      "summary": "Last year at Silicon Valley Space Week, Tim Farrar chaired a panel that asked whether direct-to-device was overhyped. Since then SpaceX has agreed to take more EchoStar spectrum for Starlink Direct to Cell and Amazon has filed for a constellation of its own. Farrar returns with a solo market brief on what Starlink's...",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-07T16:55:26+00:00",
+      "ts": 1791392126.0
+    },
+    {
+      "title": "Quantum-Safe Telecom Networks in 2026: PQC Services, Migration Plans and QKD Trials",
+      "link": "https://telecomlead.com/5g/quantum-safe-telecom-networks-in-2026-pqc-services-migration-plans-and-qkd-trials-128052",
+      "summary": "Telefonica, AT&T and Orange are introducing post-quantum enterprise connectivity, while Vodafone’s migration programme and quantum-networking projects show the different stages of operator readiness. Quantum-safe security is becoming a telecom modernization issue in 2026. Operators are developing enterprise services,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-07T16:16:07+00:00",
+      "ts": 1791389767.0
+    },
+    {
+      "title": "Ghana awards 5G licenses to Telecel, MTN after slow rollout woes",
+      "link": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
+      "summary": "Telecel plans to launch 5G in December",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-07T16:12:45+00:00",
+      "ts": 1791389565.0
+    },
+    {
+      "title": "Russia’s LEO Advances Put New Pressure on Europe to Bolster its Space Security",
+      "link": "https://www.satellitetoday.com/government-military/2026/10/07/russias-leo-advances-put-new-pressure-on-europe-to-bolster-its-space-security/",
+      "summary": "As Russia begins deploying its military RASSVET constellation, internal political fractures and slow-moving bureaucracy are leaving Europe completely reliant on the U.S. for security in orbit. And things won’t change […] The post Russia’s LEO Advances Put New Pressure on Europe to Bolster its Space Security appeared...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 24,
+      "date": "2026-10-07T15:50:22+00:00",
+      "ts": 1791388222.0
+    },
+    {
+      "title": "A Decade in Space Cybersecurity: From Security Through Obscurity to Whole-of-System Defense",
+      "link": "https://www.satellitetoday.com/cybersecurity/2026/10/07/a-decade-in-space-cybersecurity-from-security-through-obscurity-to-whole-of-system-defense/",
+      "summary": "A decade is a long time in the space industry. In 2017 there was no Starlink or Amazon Leo; no commercial synthetic aperture radar constellations; and U.S. astronauts had to […] The post A Decade in Space Cybersecurity: From Security Through Obscurity to Whole-of-System Defense appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "antenas",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-07T15:49:29+00:00",
+      "ts": 1791388169.0
+    },
+    {
+      "title": "5G Data Monetization in 2026: Why Mobile Data Traffic Is Growing Faster Than Revenue",
+      "link": "https://telecomlead.com/5g/5g-data-monetization-in-2026-why-mobile-data-traffic-is-growing-faster-than-revenue-128046",
+      "summary": "Jio, Airtel and Airtel Africa report rapid growth in data consumption, but their results show why additional gigabytes do not translate into proportional revenue — and why profitability matters as much as traffic. Mobile data consumption is expanding rapidly in 2026, while operators face a more complex challenge:...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 43,
+      "date": "2026-10-07T15:32:40+00:00",
+      "ts": 1791387160.0
+    },
     {
       "title": "Chunghwa opens fresh vein for drone delivery",
       "link": "https://www.mobileworldlive.com/industry/chunghwa-opens-fresh-vein-for-drone-delivery/",
@@ -685,21 +835,6 @@
       "ts": 1791333412.0
     },
     {
-      "title": "DoD Contracts Kymeta for u8 Terminal Upgrade",
-      "link": "https://www.satellitetoday.com/government-military/2026/10/06/dod-contracts-kymeta-for-u8-terminal-upgrade/",
-      "summary": "Kymeta won further U.S. government business in the form of a development contract. The U.S. Department of Defense (DoD) has tapped Kymeta to develop an enhanced cartridge that integrates compute, […] The post DoD Contracts Kymeta for u8 Terminal Upgrade appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-06T20:25:53+00:00",
-      "ts": 1791318353.0
-    },
-    {
       "title": "Open Cosmos Seeks One-Year ITU Regulatory Extension After Missing Constellation Deployment Milestones",
       "link": "https://satnews.com/2026/10/06/open-cosmos-seeks-one-year-itu-regulatory-extension-after-missing-constellation-deployment-milestones/",
       "summary": "On October 6, 2026, satellite manufacturer and operator Open Cosmos requested a one-year extension from the International Telecommunication Union (ITU) Radio Regulations Board after missing 50% fleet deployment deadlines across […]",
@@ -714,38 +849,9 @@
       "ts": 1791316930.0
     },
     {
-      "title": "Northrop Grumman Selects ThinKom Antenna for US Navy TACAMO Aircraft",
-      "link": "https://www.satellitetoday.com/government-military/2026/10/06/northrop-grumman-selects-thinkom-antenna-for-us-navy-tacamo-aircraft/",
-      "summary": "Northrop Grumman has selected a ThinKom antenna to provide satcom for the U.S. Navy’s E-130J Phoenix II aircraft, which will assume the Navy’s TACAMO mission. Northrop Grumman is developing the […] The post Northrop Grumman Selects ThinKom Antenna for US Navy TACAMO Aircraft appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-06T19:42:04+00:00",
-      "ts": 1791315724.0
-    },
-    {
-      "title": "How 4 Airlines Size Up IFC Offerings from LEO, GEO, to Multi-Orbit",
-      "link": "https://www.satellitetoday.com/mobility/2026/10/06/how-4-airlines-size-up-ifc-offerings-from-leo-geo-to-multi-orbit/",
-      "summary": "The in-flight connectivity (IFC) market is at an inflection point as airlines have embraced the free model and Starlink has made deep inroads into the market over the last two […] The post How 4 Airlines Size Up IFC Offerings from LEO, GEO, to Multi-Orbit appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-10-06T19:30:40+00:00",
-      "ts": 1791315040.0
-    },
-    {
       "title": "AI-Native 6G RAN in Practice: Research and Validation Insights from 6G-MIRAI-HARMONY",
       "link": "https://techblog.comsoc.org/2026/10/06/ai-native-6g-ran-in-practice-research-and-validation-insights-from-6g-mirai-harmony/",
-      "summary": "By Shammi Thakur, Research Director, MarkNtel Advisors with Shazia Hasnie Introduction: A wireless AI model can perform well in the laboratory and still face a very different test once the radio environment changes. However, propagation conditions shift as users move. Traffic loads vary. Devices and carrier...",
+      "summary": "By Shammi Thakur, Research Director, MarkNtel Advisors with Shazia Hasnie, PhD Introduction: A wireless AI model can perform well in the laboratory and still face a very different test once the radio environment changes. However, propagation conditions shift as users move. Traffic loads vary. Devices and carrier...",
       "source": "IEEE ComSoc Tech Blog",
       "themes": [
         "moveis"
@@ -755,20 +861,6 @@
       "relevance": 63,
       "date": "2026-10-06T18:29:52+00:00",
       "ts": 1791311392.0
-    },
-    {
-      "title": "Virgin Media O2 launches 5G Standalone service in Bristol, UK",
-      "link": "https://www.datacenterdynamics.com/en/news/virgin-media-o2-launches-5g-standalone-service-in-bristol-uk/",
-      "summary": "As carrier further expands 5G+ footprint",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-10-06T15:25:10+00:00",
-      "ts": 1791300310.0
     },
     {
       "title": "Omdia lifts lid on edge IoT deployments",
@@ -797,39 +889,6 @@
       "relevance": 47,
       "date": "2026-10-06T14:38:10+00:00",
       "ts": 1791297490.0
-    },
-    {
-      "title": "India Wireline Market Grows 30% as Fiber and 5G FWA Reshape Fixed Broadband Competition",
-      "link": "https://telecomlead.com/broadband/india-wireline-market-grows-30-as-fiber-and-5g-fwa-reshape-fixed-broadband-competition-128023",
-      "summary": "India’s fixed broadband market is entering a new growth phase as telecom operators expand fiber-to-the-home (FTTH) networks while simultaneously using 5G Fixed Wireless Access (FWA) to connect homes and businesses without waiting for fiber deployment. The latest TRAI annual performance report shows that India’s...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 68,
-      "date": "2026-10-06T10:09:32+00:00",
-      "ts": 1791281372.0
-    },
-    {
-      "title": "India’s Mobile Data Paradox: Traffic Jumps 25% but Revenue per GB Falls 11% as 5G Usage Surges",
-      "link": "https://telecomlead.com/5g/indias-mobile-data-paradox-traffic-jumps-25-but-revenue-per-gb-falls-11-as-5g-usage-surges-128020",
-      "summary": "India’s telecom industry is carrying substantially more mobile data, but operators are generating less revenue from every gigabyte delivered — highlighting one of the biggest monetization challenges facing Reliance Jio, Bharti Airtel, Vodafone Idea and BSNL as 5G traffic expands. Wireless data consumption increased...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 56,
-      "date": "2026-10-06T09:59:13+00:00",
-      "ts": 1791280753.0
     },
     {
       "title": "AST SpaceMobile, Telus advance D2D testing",
@@ -910,50 +969,6 @@
       "ts": 1791243845.0
     },
     {
-      "title": "Airbus Completes First 32 OneWeb Replenishment Satellites for Eutelsat Fleet Refresh",
-      "link": "https://satnews.com/2026/10/05/airbus-completes-first-32-oneweb-replenishment-satellites-for-eutelsat-fleet-refresh/",
-      "summary": "On October 5, 2026, Airbus Defence and Space completed manufacturing of the first 32 OneWeb refresh satellites for satellite operator Eutelsat. Rolling off the production line at Airbus’s assembly facility […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-05T21:24:24+00:00",
-      "ts": 1791235464.0
-    },
-    {
-      "title": "Open Cosmos Targets 192 Satellites for ConnectedCosmos LEO Constellation",
-      "link": "https://www.satellitetoday.com/connectivity/2026/10/05/open-cosmos-targets-192-satellites-for-connectedcosmos-leo-constellation/",
-      "summary": "Open Cosmos’ is targeting 192 satellites for its ConnectedCosmos Low-Earth Orbit (LEO). The company is building toward more than 96 satellites in orbit by the end of 2028, putting it […] The post Open Cosmos Targets 192 Satellites for ConnectedCosmos LEO Constellation appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-05T20:44:56+00:00",
-      "ts": 1791233096.0
-    },
-    {
-      "title": "York to Integrate Space Force Tetra 3 and 4 Missions on GEO Spacecraft",
-      "link": "https://www.satellitetoday.com/government-military/2026/10/05/york-to-integrate-space-force-tetra-3-and-4-missions-on-geo-spacecraft/",
-      "summary": "York Space Systems will integrate a government space domain awareness (SDA) into a spacecraft headed to Geostationary Orbit (GEO), marking the first time the company has integrated a satellite for […] The post York to Integrate Space Force Tetra 3 and 4 Missions on GEO Spacecraft appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radiocom"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-05T20:02:00+00:00",
-      "ts": 1791230520.0
-    },
-    {
       "title": "Huawei–Qualcomm Patent Deal: a reset for 5G, AI, and Networked Computing IP",
       "link": "https://techblog.comsoc.org/2026/10/05/huawei-qualcomm-patent-deal-a-reset-for-5g-ai-and-networked-computing-ip/",
       "summary": "Executive Summary: On October 5th, Huawei and Qualcomm announced a multi-year, broad patent-license agreement spanning 5G, computing, artificial intelligence, and networking. The agreement provides cross-licenses to the two companies’ patent portfolios and includes Qualcomm’s purchase of certain Huawei U.S. patents in...",
@@ -970,20 +985,32 @@
       "ts": 1791228546.0
     },
     {
-      "title": "TELUS and AST SpaceMobile Complete In-Orbit Network Integration Testing for Canadian Direct-to-Smartphone Broadband",
-      "link": "https://satnews.com/2026/10/05/telus-and-ast-spacemobile-complete-in-orbit-network-integration-testing-for-canadian-direct-to-smartphone-broadband/",
-      "summary": "On October 5, 2026, Canadian telecommunications provider TELUS and space-based cellular operator AST SpaceMobile announced the successful completion of their initial end-to-end network integration test. Executed directly between TELUS’ terrestrial […]",
-      "source": "SatNews",
+      "title": "Deutsche Telekom mise sur l’IA souveraine pour doper ses revenus",
+      "link": "https://www.mobileworldlive.com/french/deutsche-telekom-mise-sur-lia-souveraine-pour-doper-ses-revenus/",
+      "summary": "Deutsche Telekom a détaillé une série d’initiatives destinées à tirer parti de la demande croissante de services d’IA souveraine en Read more... The post Deutsche Telekom mise sur l’IA souveraine pour doper ses revenus appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
       "themes": [
-        "moveis",
-        "fibra",
         "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 44,
-      "date": "2026-10-05T16:34:19+00:00",
-      "ts": 1791218059.0
+      "relevance": 31,
+      "date": "2026-10-05T15:48:29+00:00",
+      "ts": 1791215309.0
+    },
+    {
+      "title": "La GSMA prépare son conseil pour l’ère de l’IA et de la 6G",
+      "link": "https://www.mobileworldlive.com/french/la-gsma-prepare-son-conseil-pour-lere-de-lia-et-de-la-6g/",
+      "summary": "La GSMA a constitué le conseil d’administration qui guidera l’organisation à travers des décisions clés sur la 6G, la connectivité Read more... The post La GSMA prépare son conseil pour l’ère de l’IA et de la 6G appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-05T15:46:08+00:00",
+      "ts": 1791215168.0
     },
     {
       "title": "Huawei, Qualcomm agree to broad patent license deal",
@@ -1061,34 +1088,6 @@
       "relevance": 59,
       "date": "2026-10-05T10:48:54+00:00",
       "ts": 1791197334.0
-    },
-    {
-      "title": "Ghana splits 5G licences between Telecel, MTN",
-      "link": "https://www.mobileworldlive.com/sub-saharan-africa/ghana-splits-5g-licences-between-telecel-mtn-after-jv-falters/",
-      "summary": "Ghana awarded 5G spectrum licences to Telecel Group and MTN's local unit, ending the exclusive wholesale-network model previously used for the country's 5G rollout, Bloomberg reported. The post Ghana splits 5G licences between Telecel, MTN appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-05T08:23:42+00:00",
-      "ts": 1791188622.0
-    },
-    {
-      "title": "La GSMA renueva su consejo de cara a las eras de la IA y el 6G",
-      "link": "https://www.mobileworldlive.com/spanish/la-gsma-renueva-su-consejo-de-cara-a-las-eras-de-la-ia-y-el-6g/",
-      "summary": "La GSMA ha definido la junta directiva que guiará a la organización en las decisiones sobre 6G, conectividad por satélite Read more... The post La GSMA renueva su consejo de cara a las eras de la IA y el 6G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-05T07:56:20+00:00",
-      "ts": 1791186980.0
     },
     {
       "title": "Private Network Intelligence Report, Q3 2026: What Private Networks Deliver",
@@ -1176,6 +1175,34 @@
       "relevance": 53,
       "date": "2026-10-02T13:00:00+00:00",
       "ts": 1790946000.0
+    },
+    {
+      "title": "The Buildout: LiveOak grows in Georgia",
+      "link": "https://www.lightreading.com/broadband/the-buildout-liveoak-grows-in-georgia",
+      "summary": "This week in broadband builds: LiveOak Fiber to expand in Chatham County, Georgia; Comcast comes to more Floridians and Pennsylvanians; Spectrum marks rural milestones; Kinetic connects Concord, North Carolina – and more.",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-10-02T12:00:00+00:00",
+      "ts": 1790942400.0
+    },
+    {
+      "title": "Inseego finalizes Nokia FWA buy",
+      "link": "https://www.lightreading.com/fixed-wireless-access/inseego-finalizes-nokia-fwa-buy",
+      "summary": "Inseego completes acquisition of Nokia's FWA business, adding international reach and expectations for doubling revenue. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-10-01T15:23:54+00:00",
+      "ts": 1790868234.0
     },
     {
       "title": "ICEYE taps Nokia to deveop satellite comms systems",
@@ -1279,20 +1306,6 @@
       "ts": 1790839800.0
     },
     {
-      "title": "Managed Private Networks: How the Managed Services Model Is Changing Enterprise Deployment",
-      "link": "https://tecknexus.com/managed-private-networks-enterprise-deployment/",
-      "summary": "Enterprises are moving private 5G from owned projects to managed services. This analysis explains what a managed private network includes, how operator, vendor, integrator and specialist delivery models differ, and how to structure pricing, responsibilities, service levels, security and exit terms for production...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-30T17:56:27+00:00",
-      "ts": 1790790987.0
-    },
-    {
       "title": "AT&T Chief Challenges Economics of SpaceX’s Mobile-Network Strategy",
       "link": "https://circleid.com/posts/att-chief-challenges-economics-of-spacexs-mobile-network-strategy",
       "summary": "AT&T CEO John Stankey questions the economics of SpaceX's expanding mobile strategy as regulatory filings and independent measurements show the spectrum, satellite capacity and terrestrial infrastructure involved in scaling direct-to-device service.",
@@ -1305,63 +1318,6 @@
       "relevance": 44,
       "date": "2026-09-30T16:39:00+00:00",
       "ts": 1790786340.0
-    },
-    {
-      "title": "Private 5G and Wi-Fi Convergence at Airports and Large Venues",
-      "link": "https://tecknexus.com/private-5g-wi-fi-convergence-airports-venues/",
-      "summary": "Airports and large venues are running private 5G alongside Wi-Fi rather than choosing between them. This analysis examines deployments at Minneapolis-St. Paul, Frankfurt and the Paris airports, sets out how operators divide workloads between the two technologies, and explains the identity, interworking, spectrum and...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-09-30T16:05:47+00:00",
-      "ts": 1790784347.0
-    },
-    {
-      "title": "Starship launch reignites rocket shortage worries for Starlink rivals",
-      "link": "https://www.lightreading.com/satellite/starship-launch-reignites-rocket-shortage-worries-for-starlink-rivals",
-      "summary": "SpaceX's Starship launch and Falcon 9's reported wind down refuel concerns about launch capacity shortages for planned mobile and broadband satellites.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-09-30T16:02:56+00:00",
-      "ts": 1790784176.0
-    },
-    {
-      "title": "Eurobites: Deutsche Telekom connects with Cloudflare",
-      "link": "https://www.lightreading.com/security/eurobites-deutsche-telekom-connects-with-cloudflare",
-      "summary": "Also in today's EMEA regional roundup: Vodafone and Nokia trial multi-PON approach; KPN adds AI to mobile interactions; DNA enters the AI translation game.",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-30T11:24:14+00:00",
-      "ts": 1790767454.0
-    },
-    {
-      "title": "Ericsson and Nokia face 6G teething troubles and telco pushback",
-      "link": "https://www.lightreading.com/6g/ericsson-and-nokia-face-6g-teething-troubles-and-telco-pushback",
-      "summary": "Many operators are in no mood for generational upheaval when they introduce 6G, but hardware replacement may be difficult to avoid.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-09-30T07:30:00+00:00",
-      "ts": 1790753400.0
     },
     {
       "title": "Bain & Co: AI Infrastructure Buildout Will Require $6 Trillion Revenue by 2031 to Support Massive CAPEX",
@@ -1582,16 +1538,17 @@
       "ts": 0
     },
     {
-      "title": "Ekinops powers Bluebird Fiber’s Midwest network",
-      "link": "https://www.fierce-network.com/newswire/ekinops-powers-bluebird-fibers-midwest-network",
-      "summary": "Bluebird Fiber will use Ekinops DWDM Optical Networking solutions to deploy the latest generation coherent technology to increase capacity and flexibility, enabling 100G – 400G services across its network.",
+      "title": "Indoor cellular experts ponder SpaceX’s entry into wireless",
+      "link": "https://www.fierce-network.com/wireless/indoor-cellular-experts-ponder-spacexs-entry-wireless",
+      "summary": "SpaceX may shake up wireless with a hybrid satellite-terrestrial network, but indoor connectivity remains a challenge.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "moveis",
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 48,
+      "relevance": 47,
       "date": null,
       "ts": 0
     },
@@ -1599,22 +1556,6 @@
       "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
       "link": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
       "summary": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 44,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Qualcomm, Huawei strike multi-year patent deal",
-      "link": "https://www.fierce-network.com/wireless/qualcomm-huawei-strike-multi-year-patent-deal",
-      "summary": "Huawei and Qualcomm agreed to a multi-year patent license deal that addresses 5G, compute, AI and networking.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
@@ -1638,6 +1579,34 @@
       "research": false,
       "countries": [],
       "relevance": 39,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "SpaceX scores 15K-satellite win as FCC doubles down on D2D",
+      "link": "https://www.fierce-network.com/wireless/spacex-scores-15k-satellite-win-fcc-doubles-down-d2d",
+      "summary": "SpaceX is getting a lot more support from the Federal Communications Commission (FCC) for Elon Musk's quest to more aggressively challenge the Big 3 mobile carriers in the U.S.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
+      "link": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
+      "summary": "Connectivity gets operators into the game, but compute, security and control could move them up the stack.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
       "date": null,
       "ts": 0
     },
@@ -1672,6 +1641,34 @@
       "ts": 0
     },
     {
+      "title": "Vodafone selects CUJO AI to detect quality of outcome in its broadband networks",
+      "link": "https://www.fierce-network.com/broadband/vodafone-selects-cujo-ai-detect-quality-outcome-its-broadband-networks",
+      "summary": "Rather than assessing a network primarily through technical measures, QoO evaluates how well network conditions support the outcomes users expect from specific applications.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Telstra lights Perth-Sydney fiber route to bolster Australia’s digital backbone",
+      "link": "https://www.fierce-network.com/newswire/telstra-lights-perth-sydney-fiber-route-bolster-australias-digital-backbone",
+      "summary": "Telstra’s Aura Network just got a major east-west boost, giving AI, cloud and data center players another high-capacity path across Australia.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "T-Mobile showcases AI wins at DT’s investor event",
       "link": "https://www.fierce-network.com/wireless/t-mobile-showcases-ai-wins-dts-investor-event",
       "summary": "T-Mobile showed how DT’s AI ambitions are already delivering gains in customer care, network automation and cost savings.",
@@ -1686,54 +1683,12 @@
       "ts": 0
     },
     {
-      "title": "Vecima: AI traffic, reliability concerns are driving a new wave of cable network upgrades",
-      "link": "https://www.fierce-network.com/broadband/vecima-bets-ai-cable-upgrades-and-fiber-evolution-will-drive-next-growth-wave",
-      "summary": "Vecima is pushing deeper into AI-driven network operations, virtualized cable infrastructure and next-generation fiber. President and COO Clay McCreery says operators are focused on reliability, capacity and preparing networks for an AI-driven future.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Etisalat launches project to expand digital infrastructure",
-      "link": "https://www.fierce-network.com/newswire/etisalat-launches-project-expand-digital-infrastructure",
-      "summary": "Etisalat launches project to expand digital infrastructure within the UAE and abroad to increase international connectivity to more than 500 Tbps by 2030.",
+      "title": "UK's Openreach taps Ciena's WaveLogic 6 to deliver 800G",
+      "link": "https://www.fierce-network.com/newswire/uks-openreach-taps-cienas-wavelogic-6-deliver-800g",
+      "summary": "Openreach is using Ciena’s newest optical tech to bring national 800G services to UK wholesale customers chasing more capacity for AI, cloud, data centers and subsea traffic.",
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Cisco builds the control layer for quantum networks",
-      "link": "https://www.fierce-network.com/broadband/cisco-builds-control-layer-quantum-networks",
-      "summary": "Cisco debuted a quantum network controller designed to make entanglement distribution look less like hand-built lab work and more like something operators can eventually run at scale.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Hitachi Vantara sees AI infrastructure cycle echoing the fiber boom",
-      "link": "https://www.fierce-network.com/cloud/hitachi-vantara-sees-ai-infrastructure-cycle-echoing-fiber-boom",
-      "summary": "Enterprises want AI, but Hitachi Vantara argued trust, governance and data sovereignty will decide who actually gets it into production.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
       ],
       "research": false,
       "countries": [],
