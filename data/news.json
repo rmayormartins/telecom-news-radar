@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T21:58:31.534294+00:00",
+  "generated_at": "2026-10-10T03:11:33.326195+00:00",
   "count": 118,
   "theme_counts": {
     "moveis": 48,
-    "fibra": 15,
+    "fibra": 14,
     "antenas": 9,
     "iot": 5,
     "satelite": 54,
@@ -19,7 +19,7 @@
     "in": 9,
     "jp": 1,
     "kr": 1,
-    "cn": 5
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 415: Unsupported Media Type",
       "kept": 0
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Perspective & Analysis of ITU-R Workshop on IMT-2030 (6G) terrestrial radio interfaces: February 10, 2027 in Geneva, Switzerland",
+      "link": "https://techblog.comsoc.org/2026/10/09/itu-r-workshop-imt-2030-6g-terrestrial-radio-interfaces-february-10-2027-in-geneva-switzerland/",
+      "summary": "Executive Summary: ITU-R WP 5D will hold a one-day IMT‑2030 Workshop in February 2027 during its 54th meeting (February 9-18, 2027 in Geneva, Switzerland). The tentative date of the workshop is February 10, 2027. There will be presentations from independent evaluation groups, potential IMT-2030 terrestrial radio...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-10T01:15:47+00:00",
+      "ts": 1791594947.0
+    },
     {
       "title": "SpaceX Acquires Grain Management’s 800 MHz Spectrum Portfolio to Launch Standalone Starlink Mobile Carrier",
       "link": "https://satnews.com/2026/10/09/spacex-acquires-grain-managements-800-mhz-spectrum-portfolio-to-launch-standalone-starlink-mobile-carrier/",
@@ -1495,23 +1509,6 @@
       "ts": 1790983982.0
     },
     {
-      "title": "China’s 2030 ICT Plan focus: 50G-PON, AI Traffic and Satellite–Terrestrial Networks",
-      "link": "https://techblog.comsoc.org/2026/10/02/chinas-2030-ict-plan-focus-50g-pon-ai-traffic-and-satellite-terrestrial-networks/",
-      "summary": "Executive Summary: China’s Ministry of Industry and Information Technology (MIIT) has issued its 15th Five-Year Plan for the Development of the Information and Communication Industry, setting a 2030 target for a next-generation communications infrastructure with nationwide coverage, high performance, and a foundation...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 39,
-      "date": "2026-10-02T17:33:33+00:00",
-      "ts": 1790962413.0
-    },
-    {
       "title": "ICEYE taps Nokia to deveop satellite comms systems",
       "link": "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
       "summary": "Built on trusted European technology, the jointly developed satellite communications systems will give nations ownership and control of the satellites, ground segment and terminals. The post ICEYE taps Nokia to deveop satellite comms systems appeared first on Total Telecom .",
@@ -1802,18 +1799,16 @@
       "ts": 0
     },
     {
-      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-      "link": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
-      "summary": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents.",
+      "title": "T-Mobile CTO welcomes competition from SpaceX",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-cto-welcomes-competition-spacex",
+      "summary": "“If this is truly the beginning of a new wireless provider in America, we welcome competition,\" said T-Mobile CTO John Saw in a LinkedIn post about SpaceX. \"It's good for innovation, good for the industry, and most importantly, good for customers.\"",
       "source": "Fierce Network",
       "themes": [
-        "moveis"
+        "satelite"
       ],
       "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 44,
+      "countries": [],
+      "relevance": 37,
       "date": null,
       "ts": 0
     },
