@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-12T13:48:00.092453+00:00",
+  "generated_at": "2026-10-12T23:55:21.636663+00:00",
   "count": 109,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 14,
+    "moveis": 44,
+    "fibra": 15,
     "antenas": 9,
-    "iot": 3,
-    "satelite": 43,
-    "radar_militar": 8,
+    "iot": 4,
+    "satelite": 41,
+    "radar_militar": 7,
     "radiocom": 1,
     "tv": 1,
-    "geral": 22
+    "geral": 24
   },
   "country_counts": {
-    "br": 0,
+    "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 6,
+    "in": 7,
     "jp": 0,
-    "kr": 1,
+    "kr": 2,
     "cn": 2
   },
   "research_count": 29,
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,113 @@
     }
   ],
   "items": [
+    {
+      "title": "Microsoft Maia 300 Accelerator Chip: Co-Designing AI Inference for Improved Performance per Watt",
+      "link": "https://techblog.comsoc.org/2026/10/12/microsoft-maia-300-accelerator-chip-co-designing-ai-inference-for-performance-per-watt/",
+      "summary": "Microsoft’s third-generation custom AI accelerator silicon (made by TSMC) combines a multi-process-node chiplet architecture with higher-density racks, targeting improved compute efficiency and lower infrastructure costs. Executive Summary: Microsoft announced its Maia 300 AI accelerator on October 12, 2026, outlining...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-10-12T23:21:43+00:00",
+      "ts": 1791847303.0
+    },
+    {
+      "title": "floLIVE and Skylo Partner to Deliver Integrated Cellular and Satellite IoT Connectivity Across Brazil",
+      "link": "https://satnews.com/2026/10/12/flolive-and-skylo-partner-to-deliver-integrated-cellular-and-satellite-iot-connectivity-across-brazil/",
+      "summary": "During the Futurecom 2026 conference in São Paulo, global connectivity provider floLIVE and non-terrestrial network (NTN) operator Skylo Technologies announced an integrated cellular and satellite IoT connectivity service across Brazil. […]",
+      "source": "SatNews",
+      "themes": [
+        "moveis",
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "br"
+      ],
+      "relevance": 54,
+      "date": "2026-10-12T22:29:17+00:00",
+      "ts": 1791844157.0
+    },
+    {
+      "title": "York Space Systems to Support Interoperability Demonstration for Space Data Network",
+      "link": "https://www.satellitetoday.com/government-military/2026/10/12/york-space-systems-to-support-interoperability-demonstration-for-space-data-network/",
+      "summary": "York Space Systems will support a multi-vendor interoperability demonstration as part of a recent U.S. Space Force award for the Space Data Network (SDN). York Space was one of five […] The post York Space Systems to Support Interoperability Demonstration for Space Data Network appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-12T19:52:16+00:00",
+      "ts": 1791834736.0
+    },
+    {
+      "title": "Kratos OpenSpace Used for KT SAT 5G NR NTN Demonstration",
+      "link": "https://www.satellitetoday.com/technology/2026/10/12/kratos-openspace-used-for-kt-sat-5g-nr-ntn-demonstration/",
+      "summary": "Kratos’ OpenSpace ground system platform was used in a recent KT SAT demonstration that showed end-to-end connectivity across a native, multi-vendor 5G New Radio (5G NR) non-terrestrial network (NTN). Kratos […] The post Kratos OpenSpace Used for KT SAT 5G NR NTN Demonstration appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 64,
+      "date": "2026-10-12T19:49:46+00:00",
+      "ts": 1791834586.0
+    },
+    {
+      "title": "Banglalink Partners with SpaceX to Launch South Asia’s First Direct-to-Device Starlink Mobile Service in Bangladesh",
+      "link": "https://satnews.com/2026/10/12/banglalink-partners-with-spacex-to-launch-south-asias-first-direct-to-device-starlink-mobile-service-in-bangladesh/",
+      "summary": "On Friday, October 9, 2026, telecommunications operator Banglalink—a subsidiary of global digital operator VEON Ltd.—announced an agreement with SpaceX to introduce Starlink Mobile direct-to-device (D2D) satellite connectivity across Bangladesh. The […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-10-12T16:56:57+00:00",
+      "ts": 1791824217.0
+    },
+    {
+      "title": "Cablenet taps Harmonic's 'cOS' platform to beef up broadband speeds",
+      "link": "https://www.lightreading.com/cable-technology/cablenet-taps-harmonic-s-cos-platform-to-beef-up-broadband-speeds",
+      "summary": "Cablenet, a fixed and wireless operator in Cyprus, is deploying Harmonic's 'cOS' tech to virtualize its access network as part of a broader DOCSIS network upgrade. #pressrelease",
+      "source": "Light Reading",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-10-12T16:34:17+00:00",
+      "ts": 1791822857.0
+    },
+    {
+      "title": "Musk takes fresh swipe at Ambani as Jio IPO looms",
+      "link": "https://www.mobileworldlive.com/network-tech/musk-takes-fresh-swipe-at-ambani-as-jio-ipo-looms/",
+      "summary": "Elon Musk pledged to make Starlink affordable in India as he renewed his attack on billionaire Mukesh Ambani’s (pictured) telecoms dominance, days before Jio Platforms launches a record-breaking IPO. The post Musk takes fresh swipe at Ambani as Jio IPO looms appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 29,
+      "date": "2026-10-12T14:37:16+00:00",
+      "ts": 1791815836.0
+    },
     {
       "title": "Midgard Infra to build Sweden-Finland subsea cable",
       "link": "https://www.datacenterdynamics.com/en/news/midgard-infra-to-build-sweden-finland-subsea-cable/",
@@ -705,21 +812,6 @@
       "ts": 1791730012.0
     },
     {
-      "title": "SpaceX Acquires Grain Management’s 800 MHz Spectrum Portfolio to Launch Standalone Starlink Mobile Carrier",
-      "link": "https://satnews.com/2026/10/11/spacex-acquires-grain-managements-800-mhz-spectrum-portfolio-to-launch-standalone-starlink-mobile-carrier/",
-      "summary": "On October 8, 2026, satellite network operator SpaceX announced a definitive agreement to acquire the nationwide 800 MHz low-band spectrum portfolio held by digital infrastructure investment firm Grain Management. The […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-10-11T13:00:00+00:00",
-      "ts": 1791723600.0
-    },
-    {
       "title": "Telecom news: T-Mobile AI, FCC, SpaceX, Vodacom",
       "link": "https://telecomlead.com/news/telecom-news-t-mobile-ai-fcc-spacex-vodacom-128099",
       "summary": "The latest telecom news includes announcements on T-Mobile AI, FCC, SpaceX, Vodacom, Western Cape 5G Expansion, and others. T-Mobile Uses AI for 30,000 Antenna Adjustments and 11,000 World Cup Network Optimizations T-Mobile US has disclosed new operating results from artificial intelligence systems used to plan and...",
@@ -942,20 +1034,6 @@
       "ts": 1791535408.0
     },
     {
-      "title": "Dell’Oro: Global telecom capex increased ~5% YoY; other reports show uneven telco capex",
-      "link": "https://techblog.comsoc.org/2026/10/08/delloro-global-telecom-capex-increased-5-yoy-other-reports-show-uneven-telco-capex/",
-      "summary": "According to a recently published report from Dell’Oro Group, worldwide telecom capex increased about 5% year-over-year (YoY) in the first half of 2026. The stronger-than-expected start to the year follows several years of declining investment and marks an improvement relative to expectations at the beginning of 2026....",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-10-08T22:56:05+00:00",
-      "ts": 1791500165.0
-    },
-    {
       "title": "SpaceX Moves to Acquire Nationwide 800 MHz Spectrum for Starlink Mobile D2D Service",
       "link": "https://techblog.comsoc.org/2026/10/08/spacex-moves-to-acquire-nationwide-800-mhz-spectrum-for-starlink-mobile-d2d-service/",
       "summary": "Introduction: SpaceX announced an agreement on Thursday to acquire Grain Management’s nationwide 800 MHz spectrum portfolio, expanding the spectrum resources available for its Starlink Mobile direct satellite-to-device (D2D) service [1.]. The transaction would give SpaceX a low-band complement to its existing global 2...",
@@ -998,48 +1076,6 @@
       "ts": 1791491700.0
     },
     {
-      "title": "On-Orbit Security Startup Fortastra Raises $30M in Series A",
-      "link": "https://www.satellitetoday.com/finance/2026/10/08/on-orbit-security-startup-fortastra-raises-30m-in-series-a/",
-      "summary": "Startup Fortastra raised a $30 million Series A round as the company aims to establish “persistent, multi-orbit security coverage” in orbit. Founder Mike Smayda, a SpaceX alum who also co-founded […] The post On-Orbit Security Startup Fortastra Raises $30M in Series A appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-10-08T19:57:15+00:00",
-      "ts": 1791489435.0
-    },
-    {
-      "title": "Amazon Hits 1,000 Sat Milestone; Blue Origin Bolsters Sat Manufacturing",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/10/08/amazon-hits-1000-sat-milestone-blue-origin-bolsters-sat-manufacturing/",
-      "summary": "Amazon and Blue Origin — two companies owned by Jeff Bezos with separate satellite constellation plans — reached new manufacturing milestones. Amazon reached the milestone of manufacturing 1,000 Amazon Leo […] The post Amazon Hits 1,000 Sat Milestone; Blue Origin Bolsters Sat Manufacturing appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-10-08T19:44:10+00:00",
-      "ts": 1791488650.0
-    },
-    {
-      "title": "American Airlines to Adopt Starlink for Full Mainline Fleet",
-      "link": "https://www.satellitetoday.com/mobility/2026/10/08/american-airlines-to-adopt-starlink-for-full-mainline-fleet/",
-      "summary": "American Airlines is expanding its planned rollout with SpaceX’s Starlink for in-flight connectivity to now include its full mainline fleet of both Airbus and Boeing aircraft. The rollout, targeted to […] The post American Airlines to Adopt Starlink for Full Mainline Fleet appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-10-08T19:39:28+00:00",
-      "ts": 1791488368.0
-    },
-    {
       "title": "OCUDU 26.10 brings satellite connectivity and new 5G capabilities to open source RAN",
       "link": "https://www.lightreading.com/satellite/ocudu-26-10-brings-satellite-connectivity-and-new-5g-capabilities-to-open-source-ran",
       "summary": "OCUDU Ecosystem Foundation's latest release expands network performance, deployment flexibility, and positioning and security for open source software for CU/DU. #pressrelease",
@@ -1067,6 +1103,20 @@
       "relevance": 31,
       "date": "2026-10-08T15:54:06+00:00",
       "ts": 1791474846.0
+    },
+    {
+      "title": "Inmarsat Maritime gives ENPASA ships digital touch",
+      "link": "https://www.mobileworldlive.com/industry/inmarsat-maritime-gives-enpasa-ships-digital-touch/",
+      "summary": "Shipping company Empresa Naviera Petrolera Atlantica reported various operational improvements after deploying a digital connectivity system from Viasat company Inmarsat Maritime, offering a further example of the sector’s growing connectivity needs. The post Inmarsat Maritime gives ENPASA ships digital touch appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-10-08T15:24:49+00:00",
+      "ts": 1791473089.0
     },
     {
       "title": "Eurobites: VodafoneThree eyes more synergy savings",
@@ -1112,35 +1162,6 @@
       "relevance": 54,
       "date": "2026-10-08T08:24:54+00:00",
       "ts": 1791447894.0
-    },
-    {
-      "title": "SpaceX-backed spectrum push draws aerospace opposition",
-      "link": "https://www.mobileworldlive.com/starlink/spacex-backed-spectrum-push-draws-aerospace-opposition/",
-      "summary": "Aerospace and defence groups are reportedly pushing back against a SpaceX-backed effort to overhaul wireless spectrum coordination for rocket launches. The post SpaceX-backed spectrum push draws aerospace opposition appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-08T08:19:53+00:00",
-      "ts": 1791447593.0
-    },
-    {
-      "title": "La WBA defiende el wifi como pieza central de la 6G",
-      "link": "https://www.mobileworldlive.com/spanish/la-wba-defiende-el-wifi-como-pieza-central-de-la-6g/",
-      "summary": "La Alianza de Banda Ancha Inalámbrica (WBA) sostiene que la amplia disponibilidad del wifi lo convierte en candidato para incorporarse Read more... The post La WBA defiende el wifi como pieza central de la 6G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-08T07:59:42+00:00",
-      "ts": 1791446382.0
     },
     {
       "title": "Ericsson and Nokia battle Huawei in 6G core clash over AI",
@@ -1201,21 +1222,6 @@
       "relevance": 39,
       "date": "2026-10-07T19:45:00+00:00",
       "ts": 1791402300.0
-    },
-    {
-      "title": "OpenVault CEO: As uplink usage keeps rising, cable operators will be unable to rest",
-      "link": "https://www.lightreading.com/wireless/openvault-ceo-as-uplink-usage-keeps-rising-cable-operators-will-be-unable-to-rest",
-      "summary": "Network management firm aims to bring its analytical toolkit to fixed wireless services.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 38,
-      "date": "2026-10-07T12:00:00+00:00",
-      "ts": 1791374400.0
     },
     {
       "title": "Ericsson's 6G talk puts AT&T in a tight spot",
@@ -1641,17 +1647,16 @@
       "ts": 0
     },
     {
-      "title": "Indoor cellular experts ponder SpaceX’s entry into wireless",
-      "link": "https://www.fierce-network.com/wireless/indoor-cellular-experts-ponder-spacexs-entry-wireless",
-      "summary": "SpaceX may shake up wireless with a hybrid satellite-terrestrial network, but indoor connectivity remains a challenge.",
+      "title": "Harmonic helps Cablenet push gigabit broadband higher in Cyprus",
+      "link": "https://www.fierce-network.com/newswire/harmonic-helps-cablenet-push-gigabit-broadband-higher-cyprus",
+      "summary": "Cablenet is tapping Harmonic’s virtualized broadband platform to modernize its DOCSIS network, boost gigabit speeds and cut operating costs.",
       "source": "Fierce Network",
       "themes": [
-        "moveis",
-        "satelite"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 47,
+      "relevance": 44,
       "date": null,
       "ts": 0
     },
@@ -1684,30 +1689,30 @@
       "ts": 0
     },
     {
-      "title": "Telekom Malaysia bets on agentic AI to meet surging infrastructure demand",
-      "link": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
-      "summary": "Telekom Malaysia, the country’s incumbent operator and its largest fixed-line broadband provider, may be using AI to improve efficiency across its network operations but says AI-led revenue opportunities have yet to emerge.",
+      "title": "gFiber scores early access to Qualcomm chips for new 20 Gig Wi-Fi 8 router",
+      "link": "https://www.fierce-network.com/broadband/gfibers-new-ai-router-will-be-pretty-enough-living-room-centerpiece",
+      "summary": "gFiber’s new gateway will embed Qualcomm’s penta-core CPU, dedicated NPU, and an open agentic AI framework.",
       "source": "Fierce Network",
       "themes": [
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
     {
-      "title": "SpaceX scores 15K-satellite win as FCC doubles down on D2D",
-      "link": "https://www.fierce-network.com/wireless/spacex-scores-15k-satellite-win-fcc-doubles-down-d2d",
-      "summary": "SpaceX is getting a lot more support from the Federal Communications Commission (FCC) for Elon Musk's quest to more aggressively challenge the Big 3 mobile carriers in the U.S.",
+      "title": "NVIDIA and Cisco intro pluggable optics form factor for AI factories",
+      "link": "https://www.fierce-network.com/newswire/nvidia-and-cisco-intro-pluggable-optics-form-factor-ai-factories",
+      "summary": "NVIDIA and Cisco are working with TE Connectivity and Amphenol to build a multi-source hardware ecosystem around USFP.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1754,16 +1759,16 @@
       "ts": 0
     },
     {
-      "title": "24% of telcos use spreadsheets and paper to track physical network assets: IQGeo",
-      "link": "https://www.fierce-network.com/broadband/24-telcos-use-spreadsheets-and-paper-track-physical-network-assets",
-      "summary": "An IQGeo survey found that 50% of operators keep records across multiple systems. Only 25% said they use a single, integrated geospatial system.",
+      "title": "HPE's self-driving network fixes 70–80% of issues on its own: Rahim",
+      "link": "https://www.fierce-network.com/cloud/hpes-self-driving-network-fixes-70-80-issues-its-own-rahim",
+      "summary": "HPE networking chief Rami Rahim said the network resolves most issues autonomously, but security and compliance changes still need humans.",
       "source": "Fierce Network",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 31,
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
