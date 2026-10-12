@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-11T21:11:10.432858+00:00",
+  "generated_at": "2026-10-12T03:07:20.525893+00:00",
   "count": 88,
   "theme_counts": {
     "moveis": 36,
-    "fibra": 13,
+    "fibra": 14,
     "antenas": 2,
     "iot": 2,
-    "satelite": 48,
+    "satelite": 49,
     "radar_militar": 4,
     "radiocom": 1,
-    "tv": 2,
-    "geral": 10
+    "tv": 1,
+    "geral": 9
   },
   "country_counts": {
     "br": 0,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -186,12 +186,12 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,21 @@
     }
   ],
   "items": [
+    {
+      "title": "Amazon Leo Plans Prime Subscription Bundling to Challenge Starlink in Consumer Satellite Broadband Market",
+      "link": "https://satnews.com/2026/10/11/amazon-leo-plans-prime-subscription-bundling-to-challenge-starlink-in-consumer-satellite-broadband-market/",
+      "summary": "On October 11, 2026, Amazon disclosed details regarding its commercial strategy for Amazon Leo, outlining plans to bundle satellite broadband internet with Amazon Prime subscriptions and consumer ecosystem services to […]",
+      "source": "SatNews",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-11T23:21:45+00:00",
+      "ts": 1791760905.0
+    },
     {
       "title": "Kratos Defense Demonstrates Multi-Vendor 5G Satellite Connectivity Using Virtualized OpenSpace Ground Platform",
       "link": "https://satnews.com/2026/10/11/kratos-defense-demonstrates-multi-vendor-5g-satellite-connectivity-using-virtualized-openspace-ground-platform/",
@@ -558,21 +573,6 @@
       "ts": 1791521345.0
     },
     {
-      "title": "ATSC approves Candidate Standard for B2X",
-      "link": "https://www.advanced-television.com/2026/10/09/atsc-approves-candidate-standard-for-b2x/",
-      "summary": "ATSC, the Broadcast Standards Association, has announced what it has called “an important milestone” in the development of Broadcast-to-Everything (B2X), with the approval of a new Candidate Standard that establishes a critical foundation for the emerging B2X platform. The Candidate Standard is a first step toward...",
-      "source": "Advanced Television",
-      "themes": [
-        "tv",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-10-09T00:14:36+00:00",
-      "ts": 1791504876.0
-    },
-    {
       "title": "Dell’Oro: Global telecom capex increased ~5% YoY; other reports show uneven telco capex",
       "link": "https://techblog.comsoc.org/2026/10/08/delloro-global-telecom-capex-increased-5-yoy-other-reports-show-uneven-telco-capex/",
       "summary": "According to a recently published report from Dell’Oro Group, worldwide telecom capex increased about 5% year-over-year (YoY) in the first half of 2026. The stronger-than-expected start to the year follows several years of declining investment and marks an improvement relative to expectations at the beginning of 2026....",
@@ -732,6 +732,20 @@
       "ts": 1791474846.0
     },
     {
+      "title": "Inmarsat Maritime gives ENPASA ships digital touch",
+      "link": "https://www.mobileworldlive.com/industry/inmarsat-maritime-gives-enpasa-ships-digital-touch/",
+      "summary": "Shipping company Empresa Naviera Petrolera Atlantica reported various operational improvements after deploying a digital connectivity system from Viasat company Inmarsat Maritime, offering a further example of the sector’s growing connectivity needs. The post Inmarsat Maritime gives ENPASA ships digital touch appeared...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-10-08T15:24:49+00:00",
+      "ts": 1791473089.0
+    },
+    {
       "title": "Eurobites: VodafoneThree eyes more synergy savings",
       "link": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
       "summary": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs.",
@@ -880,20 +894,6 @@
       "relevance": 39,
       "date": "2026-10-07T19:45:00+00:00",
       "ts": 1791402300.0
-    },
-    {
-      "title": "Chunghwa opens fresh vein for drone delivery",
-      "link": "https://www.mobileworldlive.com/industry/chunghwa-opens-fresh-vein-for-drone-delivery/",
-      "summary": "Chunghwa Telecom lined up an unusual deal to use drones to transport blood, in turn offering insight into how unmanned aerial vehicle connectivity could be used to advance smart healthcare. The post Chunghwa opens fresh vein for drone delivery appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-07T09:02:15+00:00",
-      "ts": 1791363735.0
     },
     {
       "title": "Ericsson's 6G talk puts AT&T in a tight spot",
