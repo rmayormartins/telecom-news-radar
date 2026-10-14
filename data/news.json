@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T10:47:50.420290+00:00",
+  "generated_at": "2026-10-14T16:07:10.245925+00:00",
   "count": 107,
   "theme_counts": {
     "moveis": 54,
     "fibra": 19,
-    "antenas": 13,
+    "antenas": 14,
     "iot": 3,
-    "satelite": 42,
+    "satelite": 41,
     "radar_militar": 9,
     "radiocom": 1,
     "tv": 1,
@@ -14,9 +14,9 @@
   },
   "country_counts": {
     "br": 1,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
-    "in": 5,
+    "in": 4,
     "jp": 2,
     "kr": 1,
     "cn": 2
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (13 itens)",
+      "status": "ok (14 itens)",
       "kept": 1
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "Two Turkish nationals arrested over Russian-linked arson attack against Starlink ground station in Poland",
+      "link": "https://www.datacenterdynamics.com/en/news/two-turkish-nationals-arrested-over-russian-linked-arson-attack-against-starlink-ground-station-in-poland/",
+      "summary": "Starlink ground station site was attacked last month in Mazovia",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 43,
+      "date": "2026-10-14T15:30:43+00:00",
+      "ts": 1791991843.0
+    },
+    {
+      "title": "Telus Digital becomes integration partner for Parloa AI agents",
+      "link": "https://www.mobileworldlive.com/ai-cloud/telus-digital-becomes-integration-partner-for-parloa-ai-agents/",
+      "summary": "elus Digital is now a deployment partner for Germany-founded AI customer service specialist Parloa, expanding its enterprise services portfolio with support for the latter’s AI agents. The post Telus Digital becomes integration partner for Parloa AI agents appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-10-14T15:06:35+00:00",
+      "ts": 1791990395.0
+    },
+    {
+      "title": "TrustPoint and Calian Deliver Industry’s First Mass-Market Ready C-band GNSS Antenna",
+      "link": "https://satnews.com/2026/10/14/trustpoint-and-calian-deliver-industrys-first-mass-market-ready-c-band-gnss-antenna/",
+      "summary": "WASHINGTON, October 14, 2026–(BUSINESS WIRE) — TrustPoint, the world leader in C-band GNSS building the most advanced satellite navigation system in low earth orbit, today announced that Calian has successfully demonstrated the […]",
+      "source": "SatNews",
+      "themes": [
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-10-14T14:05:19+00:00",
+      "ts": 1791986719.0
+    },
+    {
+      "title": "Orange and Equitix join Pisces subsea cable consortium",
+      "link": "https://www.datacenterdynamics.com/en/news/orange-and-equitix-join-pisces-subsea-cable-consortium/",
+      "summary": "Telco and infrastructure investor join in on Irish cable project",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-10-14T13:19:28+00:00",
+      "ts": 1791983968.0
+    },
+    {
+      "title": "U Mobile partners with HLGY Energy to deploy 5G-supported smart solar farms across Malaysia",
+      "link": "https://www.datacenterdynamics.com/en/news/u-mobile-partners-with-hlgy-energy-to-deploy-5g-supported-smart-solar-farms-across-malaysia/",
+      "summary": "Inks MoU to set parameters of deployment",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-14T13:00:49+00:00",
+      "ts": 1791982849.0
+    },
     {
       "title": "Docomo, Abside team on AI for HAPS communications",
       "link": "https://www.mobileworldlive.com/docomo/docomo-abside-team-on-ai-for-haps-communications/",
@@ -233,7 +306,7 @@
     {
       "title": "Verizon CTO: 6G needs a breakthrough for AI uplink demand",
       "link": "https://www.lightreading.com/6g/verizon-cto-6g-needs-a-breakthrough-for-ai-uplink-demand",
-      "summary": "Verizon CTO Yago Tenorio says industry is \"missing a breakthrough\" in 6G for uplink capacity as future AI applications change network traffic patterns.",
+      "summary": "Verizon CTO Yago Tenorio says industry is 'missing a breakthrough' in 6G for uplink capacity as future AI applications change network traffic patterns.",
       "source": "Light Reading",
       "themes": [
         "moveis",
@@ -897,22 +970,6 @@
       "ts": 1791899614.0
     },
     {
-      "title": "Microscan plans Rs 3.5bn subsea cable landing station in Alibaug, India",
-      "link": "https://www.datacenterdynamics.com/en/news/microscan-plans-rs-35bn-subsea-cable-landing-station-in-alibaug-india/",
-      "summary": "Fiber networking service provider in talks with companies looking to land cables in the area",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 46,
-      "date": "2026-10-13T13:01:06+00:00",
-      "ts": 1791896466.0
-    },
-    {
       "title": "Eurobites: Nokia sells private wireless unit to Aurelius",
       "link": "https://www.lightreading.com/private-networks/eurobites-nokia-sells-private-wireless-unit-to-aurelius",
       "summary": "Also in today's EMEA regional roundup: arrests made over Starlink fire in Poland; Space Norway chooses Ciena for cable upgrade; BT's soap strategy.",
@@ -925,20 +982,6 @@
       "relevance": 46,
       "date": "2026-10-13T11:25:14+00:00",
       "ts": 1791890714.0
-    },
-    {
-      "title": "Nokia offloads Enterprise Campus Edge unit",
-      "link": "https://www.mobileworldlive.com/ranvendors/nokia-offloads-enterprise-campus-edge-unit/",
-      "summary": "Nokia signed an agreement to sell its Enterprise Campus Edge business to investment company Aurelius Group, a move the Finnish vendor stated sharpens its portfolio and directs capital to areas earmarked for long-term value. The post Nokia offloads Enterprise Campus Edge unit appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-10-13T10:43:22+00:00",
-      "ts": 1791888202.0
     },
     {
       "title": "AT&T is flying with Amazon Leo instead of Starlink",
@@ -955,21 +998,6 @@
       "relevance": 64,
       "date": "2026-10-13T10:06:06+00:00",
       "ts": 1791885966.0
-    },
-    {
-      "title": "Telecom Equipment Reuse in 2026: How Operators Extend Hardware Life to Control Procurement Costs",
-      "link": "https://telecomlead.com/telecom-equipment/telecom-equipment-reuse-in-2026-how-operators-extend-hardware-life-to-control-procurement-costs-128147",
-      "summary": "Telecom operators are making equipment repair, refurbishment and reuse a greater part of network procurement as they continue investing in 5G and fiber infrastructure. Recovering usable hardware can reduce replacement purchases, provide spare parts and extract value from equipment removed during modernization....",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-10-13T10:01:56+00:00",
-      "ts": 1791885716.0
     },
     {
       "title": "La GSMA se centra en la 6G, las amenazas de la IA y la inclusión digital",
@@ -1077,20 +1105,6 @@
       "ts": 1791834586.0
     },
     {
-      "title": "Banglalink Partners with SpaceX to Launch South Asia’s First Direct-to-Device Starlink Mobile Service in Bangladesh",
-      "link": "https://satnews.com/2026/10/12/banglalink-partners-with-spacex-to-launch-south-asias-first-direct-to-device-starlink-mobile-service-in-bangladesh/",
-      "summary": "On Friday, October 9, 2026, telecommunications operator Banglalink—a subsidiary of global digital operator VEON Ltd.—announced an agreement with SpaceX to introduce Starlink Mobile direct-to-device (D2D) satellite connectivity across Bangladesh. The […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-12T16:56:57+00:00",
-      "ts": 1791824217.0
-    },
-    {
       "title": "Cablenet taps Harmonic's 'cOS' platform to beef up broadband speeds",
       "link": "https://www.lightreading.com/cable-technology/cablenet-taps-harmonic-s-cos-platform-to-beef-up-broadband-speeds",
       "summary": "Cablenet, a fixed and wireless operator in Cyprus, is deploying Harmonic's 'cOS' tech to virtualize its access network as part of a broader DOCSIS network upgrade. #pressrelease",
@@ -1161,20 +1175,6 @@
       "relevance": 48,
       "date": "2026-10-10T01:15:47+00:00",
       "ts": 1791594947.0
-    },
-    {
-      "title": "Astrolight Delivers Space-to-Ground Laser Communications Links",
-      "link": "https://www.satellitetoday.com/technology/2026/10/09/astrolight-delivers-space-to-ground-laser-communications-links/",
-      "summary": "Astrolight has reached a key technology milestone as it looks to bring laser communications more into the satellite mainstream. For the first time, it established end-to-end optical communication links from […] The post Astrolight Delivers Space-to-Ground Laser Communications Links appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-09T18:38:07+00:00",
-      "ts": 1791571087.0
     },
     {
       "title": "SpaceX: Grain's lowband spectrum is our ticket to becoming 'major mobile carrier'",
@@ -1631,16 +1631,16 @@
       "ts": 0
     },
     {
-      "title": "SpaceX’s 800 MHz spectrum grab threatens Big 3 mobile carriers even more",
-      "link": "https://www.fierce-network.com/wireless/spacexs-800-mhz-spectrum-grab-threatens-big-3-mobile-carriers",
-      "summary": "SpaceX just inked a deal to buy 14 megahertz of paired 800 MHz spectrum from Grain Management, giving Starlink Mobile a means to more aggressively challenge the Big 3 U.S. mobile carriers on the ground.",
+      "title": "Orange, Equitix and MDM plan subsea cable route linking Ireland and Europe",
+      "link": "https://www.fierce-network.com/newswire/orange-equitix-and-mdm-plan-subsea-cable-route-linking-ireland-and-europe",
+      "summary": "The direct high-capacity, open-access and scalable connection will run between Ireland, France, Spain and Portugal, expanding connectivity and offering new commercial opportunities.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 58,
+      "relevance": 51,
       "date": null,
       "ts": 0
     },
