@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-13T22:03:15.426264+00:00",
-  "count": 81,
+  "generated_at": "2026-10-14T02:33:32.275771+00:00",
+  "count": 77,
   "theme_counts": {
-    "moveis": 34,
-    "fibra": 18,
+    "moveis": 32,
+    "fibra": 16,
     "antenas": 0,
-    "iot": 2,
-    "satelite": 37,
+    "iot": 1,
+    "satelite": 34,
     "radar_militar": 4,
     "radiocom": 1,
     "tv": 1,
-    "geral": 10
+    "geral": 11
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 8,
+    "in": 7,
     "jp": 0,
     "kr": 1,
     "cn": 1
@@ -65,8 +65,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "2026 OCP Summit: Full-Stack AI Networking Silicon from Nvidia/Cisco and Broadcom; Ethernet vs InfiniBand Interconnects",
+      "link": "https://techblog.comsoc.org/2026/10/13/2026-ocp-summit-full-stack-ai-networking-silicon-from-nvidia-cisco-ethernet-vs-infiniband-interconnects/",
+      "summary": "Executive Summary: At the 2026 Open Compute Project (OCP) Global Summit in San Jose, CA this week, the multi-vendor push for open, gigawatt-scale AI networks reached a critical tipping point as Cisco and Broadcom deployed massive 102.4 Tbps Ethernet fabrics to challenge Nvidia’s proprietary grip. These and other...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-10-14T00:22:20+00:00",
+      "ts": 1791937340.0
+    },
     {
       "title": "SES Taps Lyntris for PTS-G Satellite Payload",
       "link": "https://www.satellitetoday.com/government-military/2026/10/13/ses-taps-lyntris-for-pts-g-satellite-payload/",
@@ -628,21 +642,6 @@
       "ts": 1791788400.0
     },
     {
-      "title": "Amazon Leo Plans Prime Subscription Bundling to Challenge Starlink in Consumer Satellite Broadband Market",
-      "link": "https://satnews.com/2026/10/11/amazon-leo-plans-prime-subscription-bundling-to-challenge-starlink-in-consumer-satellite-broadband-market/",
-      "summary": "On October 11, 2026, Amazon disclosed details regarding its commercial strategy for Amazon Leo, outlining plans to bundle satellite broadband internet with Amazon Prime subscriptions and consumer ecosystem services to […]",
-      "source": "SatNews",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-11T23:21:45+00:00",
-      "ts": 1791760905.0
-    },
-    {
       "title": "Perspective & Analysis of ITU-R Workshop on IMT-2030 (6G) terrestrial radio interfaces: February 10, 2027 in Geneva, Switzerland",
       "link": "https://techblog.comsoc.org/2026/10/09/itu-r-workshop-imt-2030-6g-terrestrial-radio-interfaces-february-10-2027-in-geneva-switzerland/",
       "summary": "Executive Summary: ITU-R WP 5D will hold a one-day IMT‑2030 Workshop in February 2027 during its 54th meeting (February 9-18, 2027 in Geneva, Switzerland). The tentative date of the workshop is February 10, 2027. There will be presentations from independent evaluation groups, potential IMT-2030 terrestrial radio...",
@@ -938,36 +937,6 @@
       "ts": 1791268597.0
     },
     {
-      "title": "Warning: 6G core network must not repeat the 5G SA 3GPP architecture specs vs lack of interoperable standards",
-      "link": "https://techblog.comsoc.org/2026/10/05/warning-6g-core-network-must-not-repeat-the-5g-sa-3gpp-architecture-specs-vs-lack-of-interoperable-standards/",
-      "summary": "Introduction: As the global telecom ecosystem pivots from 5G/IMT 2020 towards normative studies for IMT-2030 (6G) in 3GPP Release 20 and Release 21, the air interface (IMT 2030 RIT/SRITs forthcoming recommendation) naturally commands the spotlight. Discussions are dominated by IMT 2030 Technical Performance...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-05T23:44:05+00:00",
-      "ts": 1791243845.0
-    },
-    {
-      "title": "Sateliot launches five new satellites for 5G NTN IoT",
-      "link": "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/",
-      "summary": "With this mission, the company brings the total number of satellites launched since its foundation to 11 and advances the commercial deployment of a technology that has already been validated. The post Sateliot launches five new satellites for 5G NTN IoT appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "moveis",
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-10-05T10:48:54+00:00",
-      "ts": 1791197334.0
-    },
-    {
       "title": "Private Network Intelligence Report, Q3 2026: What Private Networks Deliver",
       "link": "https://tecknexus.com/intelligence/private-network-intelligence-report-q3-2026-what-private-networks-deliver/",
       "summary": "The Q3 2026 TeckNexus Private Network Intelligence Report covers July to September: what private 5G, LTE and CBRS networks delivered, how long they took and what they cost, with every figure sourced. Download the free edition, or get the members' edition with a company licence. TeckNexus - INTELLIGENCE FOR TELECOM, AI...",
@@ -980,20 +949,6 @@
       "relevance": 66,
       "date": "2026-10-05T06:52:10+00:00",
       "ts": 1791183130.0
-    },
-    {
-      "title": "ICEYE taps Nokia to deveop satellite comms systems",
-      "link": "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
-      "summary": "Built on trusted European technology, the jointly developed satellite communications systems will give nations ownership and control of the satellites, ground segment and terminals. The post ICEYE taps Nokia to deveop satellite comms systems appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-01T15:13:45+00:00",
-      "ts": 1790867625.0
     },
     {
       "title": "Autonomous Operations for Private Networks: What Enterprise Networks Can Borrow From Telco Autonomy",
@@ -1037,22 +992,6 @@
       "relevance": 44,
       "date": "2026-09-30T16:39:00+00:00",
       "ts": 1790786340.0
-    },
-    {
-      "title": "FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
-      "link": "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/",
-      "summary": "Investments in MIST, I2SEA and ECHO in line with its Vision 2030 strategy to provide multiple paths for resilient connectivity The post FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 48,
-      "date": "2026-09-29T09:19:34+00:00",
-      "ts": 1790673574.0
     },
     {
       "title": "Tiny Flaws in Glass Fiber Can Help Reveal Undersea Cable Threats",
