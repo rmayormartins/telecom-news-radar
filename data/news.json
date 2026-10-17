@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-17T01:59:12.339365+00:00",
-  "count": 106,
+  "generated_at": "2026-10-17T09:51:24.250508+00:00",
+  "count": 81,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 20,
-    "antenas": 7,
-    "iot": 2,
-    "satelite": 29,
-    "radar_militar": 7,
+    "moveis": 34,
+    "fibra": 19,
+    "antenas": 1,
+    "iot": 1,
+    "satelite": 28,
+    "radar_militar": 3,
     "radiocom": 1,
     "tv": 1,
-    "geral": 23
+    "geral": 13
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 1,
     "cn": 2
   },
-  "research_count": 25,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (48 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (14 itens)",
-      "kept": 4
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (55 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (45 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -494,364 +494,6 @@
       "relevance": 47,
       "date": "2026-10-16T04:28:02+00:00",
       "ts": 1792124882.0
-    },
-    {
-      "title": "Orientation-Aware Deep Learning Framework for RSSI-Based Indoor Localization in RIS-Aided mmWave Systems",
-      "link": "https://arxiv.org/abs/2610.21043",
-      "summary": "arXiv:2610.21043v1 Announce Type: cross Abstract: Reconfigurable intelligent surface (RIS)-aided millimeter wave (mmWave) systems provide directional measurements of received power for indoor localization, but device orientation changes the fingerprints. This work proposes an orientation-aware dual-stream gated...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Sensing-Assisted OFDM with Index Modulation: A Waveform for Optical Wireless Integrated Communication and Localisation",
-      "link": "https://arxiv.org/abs/2610.21753",
-      "summary": "arXiv:2610.21753v1 Announce Type: new Abstract: This paper proposes sensing-assisted OFDM with index modulation (SA-OFDM-IM) for joint communication and localisation over optical wireless systems. In SA-OFDM-IM, a multilayer frequency-domain architecture partitions each layer's admissible subcarriers into disjoint...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 70,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Statistical Ambiguity-Function-Aware Joint Beamforming and Subcarrier Allocation for MIMO-OFDM ISAC under Random Symbols",
-      "link": "https://arxiv.org/abs/2610.21888",
-      "summary": "arXiv:2610.21888v1 Announce Type: new Abstract: Ambiguity function (AF) characterizes the delay--Doppler sidelobe structure that governs target resolution and masking in radar sensing. In ISAC, however, random communication symbols make the AF data-dependent, complicating its characterization and incorporation into...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "A Unified Two-Stage Generative Diffusion Framework for Channel Estimation and Port Selection in Multiuser MIMO-FAS",
-      "link": "https://arxiv.org/abs/2605.29679",
-      "summary": "arXiv:2605.29679v2 Announce Type: replace-cross Abstract: Fluid antenna systems (FAS) have emerged as a promising technology for next-generation wireless systems. However, practical multiuser multiple-input multiple-output FAS (MIMO-FAS) faces two inherently coupled challenges: acquiring accurate high-dimensional...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "3GPP-Compatible Long-Range Sensing for LEO-ISAC: A Window-Grid Processing Framework",
-      "link": "https://arxiv.org/abs/2609.30653",
-      "summary": "arXiv:2609.30653v4 Announce Type: replace Abstract: This paper addresses long-range sensing in bistatic low-Earth-orbit integrated sensing and communication (LEO-ISAC). Conventional OFDM sensing fails in LEO-ISAC because millisecond-scale propagation delays destroy the transmitter--receiver symbol alignment and, with...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Seeing Through Sparse Signals: CS-Enhanced Sensing With QoS Guarantees for 6G ISAC",
-      "link": "https://arxiv.org/abs/2610.21905",
-      "summary": "arXiv:2610.21905v1 Announce Type: new Abstract: In integrated sensing and communication (ISAC) systems, communication and sensing share time-frequency resources, creating a fundamental trade-off between communication quality of service (QoS) and quality of sensing (QoSe). Reusing 5G new radio (NR) reference signals...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "LWM-TF: A Wireless Foundation Model on 5G NR Time-Frequency Resource Grids",
-      "link": "https://arxiv.org/abs/2610.21013",
-      "summary": "arXiv:2610.21013v1 Announce Type: cross Abstract: Received OFDM grids preserve both pilot and payload observations, yet wireless foundation models are rarely pre-trained on them. We introduce LWM-TF, a 9.58M-parameter factorized masked autoencoder pre-trained on complex 5G NR uplink grids taken after the FFT and...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Hybrid Resource Allocation Scheme for Bistatic ISAC with Data Channels",
-      "link": "https://arxiv.org/abs/2601.11110",
-      "summary": "arXiv:2601.11110v2 Announce Type: replace Abstract: Bistatic integrated sensing and communication (ISAC) enables efficient reuse of the existing cellular infrastructure and is likely to play an important role in future sensing networks. In this context, ISAC using the data channel is a promising approach to improve...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Direction-Shift Keying for High-Mobility mmWave Communications: Geometry-Based Resilience to Short Channel Coherence Times and Phase Noise",
-      "link": "https://arxiv.org/abs/2509.01103",
-      "summary": "arXiv:2509.01103v2 Announce Type: replace Abstract: Communication reliability in high-mobility millimeter-wave (mmWave) systems is fundamentally challenged by rapid channel variations, manifested in short channel coherence times, and phase noise, which necessitate frequent channel estimation and phase tracking. To...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Probability of Error Analysis for NOMA Systems in Rayleigh Fading Channels: Enabling IoT in Civil Engineering",
-      "link": "https://arxiv.org/abs/2411.01977",
-      "summary": "arXiv:2411.01977v2 Announce Type: replace Abstract: In the realm of digital communication, understanding and mitigating the probability of error is crucial, particularly in Rayleigh fading channels where signal impairments are common. This paper presents a unified approach to derive the probability of error...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "How Feasible are Passive Network Attacks on 5G Networks and Beyond? A Survey",
-      "link": "https://arxiv.org/abs/2512.20622",
-      "summary": "arXiv:2512.20622v3 Announce Type: replace Abstract: Privacy concerns around 5G, the latest generation of mobile networks, are growing, with fears that its deployment may increase exposure to privacy risks. This perception is largely driven by the use of denser deployments of small antenna systems, which enable highly...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Robustness of quantum spectrum estimation: weak Schur sampling under noisy inputs",
-      "link": "https://arxiv.org/abs/2610.03582",
-      "summary": "arXiv:2610.03582v3 Announce Type: replace-cross Abstract: We initiate the study of weak Schur sampling (WSS) under noisy inputs. Many optimal quantum learning algorithms rely on this measurement, for instance in quantum spectrum estimation (QSE) and quantum state tomography (QST). The standard analysis of WSS, QSE and...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Uncertainty-Aware Federated Learning for Joint Communication and Computation in XR Systems",
-      "link": "https://arxiv.org/abs/2610.21969",
-      "summary": "arXiv:2610.21969v1 Announce Type: new Abstract: The convergence of communication and computation, empowered by artificial intelligence (AI) enhanced capabilities, emerges as a key enabler for realizing the promising functionalities of the sixth-generation of communication systems (6G). To this end, this paper...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Objective-Aware Policy Orchestration for O-RAN Service Provisioning",
-      "link": "https://arxiv.org/abs/2610.20949",
-      "summary": "arXiv:2610.20949v1 Announce Type: new Abstract: O-RAN enables the deployment of heterogeneous control and provisioning algorithms through open interfaces and programmable intelligent controllers. However, most existing intelligent O-RAN solutions rely on a single optimization strategy designed for a fixed operational...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Practical wavelength selection for quantum-augmented networks over shared optical fiber",
-      "link": "https://arxiv.org/abs/2610.20987",
-      "summary": "arXiv:2610.20987v1 Announce Type: cross Abstract: In a quantum augmented network, sharing optical fiber with classical traffic requires quantum wavelength selection to balance logical fidelity, block acceptance, and classical data reception. Here we develop a wavelength-selection framework for an error-corrected...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "fibra"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Navigation by Skylight Polarization via Rayleigh Model Optimization on a Road Vehicle",
-      "link": "https://arxiv.org/abs/2610.20797",
-      "summary": "arXiv:2610.20797v1 Announce Type: cross Abstract: Reliable absolute heading estimation is critical for road-vehicle navigation, particularly when magnetic, inertial, or GNSS-based references are degraded. This paper presents a skylight polarization navigation method that estimates vehicle heading by globally...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Performance Analysis of Pinching Antenna Systems Enabled NOMA Communications",
-      "link": "https://arxiv.org/abs/2604.25285",
-      "summary": "arXiv:2604.25285v4 Announce Type: replace Abstract: Pinching antenna systems (PASS) have the advantages in the perspective of flexible antenna reconfiguration, line-of-sight (LoS) creation, and scalability features. To highlight the ascendancy of PASS, we survey the integration of PASS into non-orthogonal multiple...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "AirPASS: Over-the-Air Federated Learning via Pinching Antenna Systems",
-      "link": "https://arxiv.org/abs/2607.06768",
-      "summary": "arXiv:2607.06768v2 Announce Type: replace Abstract: This paper investigates over-the-air federated learning (AirFL) in wireless systems where the access point is equipped with a multi-waveguide pinching antenna system (PASS). We adopt the widely studied learning-oriented AirFL formulation, which seeks to maximize the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Multiplicative Semidefinite Programming Upper Bounds on Quantum No-Signalling-Assisted Zero-Error Capacity",
-      "link": "https://arxiv.org/abs/2610.21071",
-      "summary": "arXiv:2610.21071v1 Announce Type: cross Abstract: We study zero-error communication and exact simulation of quantum channels assisted by quantum no-signalling correlations. For a channel with Kraus operator space $K$, we introduce a semidefinite programming parameter $\\Gamma(K)$ that is exactly multiplicative under...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Optimal Demand Response-Based Energy Management for Campus Buildings with Battery Energy Storage Systems: A Case Study of the ELB Building",
-      "link": "https://arxiv.org/abs/2610.20777",
-      "summary": "arXiv:2610.20777v1 Announce Type: new Abstract: Buildings account for a significant portion of global electricity consumption, making demand response (DR) an effective strategy for reducing energy costs and improving grid flexibility. This paper presents an optimal energy management framework for a campus building...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Optimal energy conversion -- A port-Hamiltonian approach",
-      "link": "https://arxiv.org/abs/2610.21790",
-      "summary": "arXiv:2610.21790v1 Announce Type: new Abstract: This paper studies optimal energy conversion in port-Hamiltonian systems. We analyze state- and control-constrained finite-horizon optimal control problems that maximize energy conversion efficiencies. Under suitable reachability conditions, we show that the asymptotic...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective",
-      "link": "https://arxiv.org/abs/2610.22334",
-      "summary": "arXiv:2610.22334v1 Announce Type: cross Abstract: Emotions affect how we think and perceive information. Motivated by this, we present a novel framework for modeling emotions, and study its impact in social networks. We represent emotions on a circle by utilizing the circumplex model. These emotions spread in a group...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Minimizing Age of Incorrect Information in Pull-Based Remote Estimation of a Markov Source",
-      "link": "https://arxiv.org/abs/2610.22265",
-      "summary": "arXiv:2610.22265v1 Announce Type: cross Abstract: In this paper, we consider a discrete-time pull-based remote estimation system involving an information source and a remote monitor where the information source is a finite-state irreducible discrete-time Markov chain (DTMC) process. In this system, the remote monitor...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Four-Level Quantized Soft Information Aided Hard-Decision Decoder for Product-like Codes",
-      "link": "https://arxiv.org/abs/2610.21187",
-      "summary": "arXiv:2610.21187v1 Announce Type: new Abstract: We propose a novel low-complexity soft-aided hard-decision decoding scheme for product-like codes, termed iterative bounded-distance decoding (iBDD) with graded scaled reliability and bit-flipping (GSRF). This scheme operates on four-level quantized soft information. It...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
-    },
-    {
-      "title": "Coverage-Preserving Self-Healing in Partially Observable 3D UAV Swarm Networks via an Advection-Diffusion Graph Transformer",
-      "link": "https://arxiv.org/abs/2610.22085",
-      "summary": "arXiv:2610.22085v1 Announce Type: new Abstract: This paper investigates the resilience and self-healing of unmanned aerial vehicle swarm communication networks under severe network partitioning in complex and adversarial environments. To address limited global observability after damage, we develop a damage-state...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-16T04:00:00+00:00",
-      "ts": 1792123200.0
     },
     {
       "title": "Private 5G’s Business Model Shifts: Ericsson’s Move Signals a Market Reset",
