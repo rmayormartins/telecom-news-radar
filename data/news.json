@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-19T11:28:34.166526+00:00",
-  "count": 110,
+  "generated_at": "2026-10-19T17:54:17.460837+00:00",
+  "count": 111,
   "theme_counts": {
-    "moveis": 47,
-    "fibra": 21,
+    "moveis": 42,
+    "fibra": 20,
     "antenas": 8,
     "iot": 3,
-    "satelite": 32,
-    "radar_militar": 10,
+    "satelite": 36,
+    "radar_militar": 11,
     "radiocom": 2,
     "tv": 1,
-    "geral": 22
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
-    "ru": 0,
+    "ru": 1,
     "il": 0,
     "in": 8,
     "jp": 3,
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Capacity Media",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (10 itens)",
+      "status": "ok (11 itens)",
       "kept": 0
     },
     {
@@ -186,12 +186,12 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -201,9 +201,167 @@
   ],
   "items": [
     {
+      "title": "Authorities in Lithuania foil arson plot against Starlink satellite gateway station",
+      "link": "https://www.datacenterdynamics.com/en/news/authorities-in-lithuania-foil-arson-plot-against-starlink-satellite-gateway-station/",
+      "summary": "Comes after recent attacks against Starlink infrastructure in Poland and Bulgaria",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-19T16:32:32+00:00",
+      "ts": 1792427552.0
+    },
+    {
+      "title": "European Telco Consortium Signs Letter of Intent to Pursue Joint MSS Spectrum Allocation",
+      "link": "https://satnews.com/2026/10/19/european-telco-consortium-signs-letter-of-intent-to-pursue-joint-mss-spectrum-allocation/",
+      "summary": "On Monday, October 19, 2026, four of Europe’s largest telecommunications operators—Deutsche Telekom, Orange, Telefónica, and Vodafone—announced the signing of a Letter of Intent to explore a joint bid for upcoming […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-19T16:19:17+00:00",
+      "ts": 1792426757.0
+    },
+    {
+      "title": "Europe's big telcos explore joint satellite spectrum bid to rival Starlink",
+      "link": "https://www.lightreading.com/satellite/europe-s-big-telcos-explore-joint-satellite-spectrum-bid-to-rival-starlink",
+      "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone consider joint bid for mobile satellite spectrum next year to build European alternative to Starlink.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-19T15:54:15+00:00",
+      "ts": 1792425255.0
+    },
+    {
+      "title": "Former Boingo exec Peterson boards AST as CTO",
+      "link": "https://www.mobileworldlive.com/ast-spacemobile/former-boingo-exec-peterson-boards-ast-as-cto/",
+      "summary": "Long time Boingo Wireless executive Derek Peterson revealed on LinkedIn he has joined AST SpaceMobile as CTO, Enterprise & Platforms while also leading the satellite player’s CIO and CSO functions. Peterson The post Former Boingo exec Peterson boards AST as CTO appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-10-19T15:52:26+00:00",
+      "ts": 1792425146.0
+    },
+    {
+      "title": "Russian Military Satellite Shadows Finnish ICEYE Radar Craft Amid Heightened Orbital Defense Concerns",
+      "link": "https://satnews.com/2026/10/19/russian-military-satellite-shadows-finnish-iceye-radar-craft-amid-heightened-orbital-defense-concerns/",
+      "summary": "On Saturday, October 17, 2026, space tracking data and defense reports revealed that Russian military satellite Kosmos 2612 executed a sequence of synchronized orbital maneuvers to shadow ICEYE-X36, a commercial […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "ru"
+      ],
+      "relevance": 50,
+      "date": "2026-10-19T15:49:24+00:00",
+      "ts": 1792424964.0
+    },
+    {
+      "title": "PLD Space updates on reusable rocket",
+      "link": "https://www.mobileworldlive.com/industry/pld-space-updates-on-reusable-rocket/",
+      "summary": "PLD Space kept the focus on European satellite communication ambitions, revealing progress in developing its reusable launcher a matter of hours after major operators outlined plans involving spectrum access. The post PLD Space updates on reusable rocket appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-10-19T15:46:15+00:00",
+      "ts": 1792424775.0
+    },
+    {
+      "title": "Evaluating T-Mobile’s SuperBroadband – Has it Been a Commercial Success?",
+      "link": "https://techblog.comsoc.org/2026/10/19/evaluating-t-mobiles-superbroadband-has-it-been-a-commercial-success/",
+      "summary": "Disclaimer: Perplexity.ai & Google Gemini were used to research and help write this article. …………………………………………………………………………………………………………….. Introduction: The enterprise wide-area network (WAN) edge has historically treated terrestrial cellular and low-Earth-orbit (LEO) satellite networks as isolated, mutually exclusive...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-19T15:41:52+00:00",
+      "ts": 1792424512.0
+    },
+    {
+      "title": "US hoops leagues score connectivity deal with AT&T",
+      "link": "https://www.mobileworldlive.com/att/us-hoops-leagues-score-connectivity-deal-with-att/",
+      "summary": "The National Basketball Association (NBA), Women’s National Basketball Association (WNBA) and AT&T revealed the launch of the fourth generation of the High-Speed Arena Network (HSAN), the latest iteration of the leagues’ connectivity platform built to transport live game content, highlights, replays, in-arena...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-10-19T15:22:09+00:00",
+      "ts": 1792423329.0
+    },
+    {
+      "title": "stc sets AI-native targets",
+      "link": "https://www.mobileworldlive.com/operators/stc-sets-ai-native-targets/",
+      "summary": "stc Group seized the initiative on AI-native networking, setting a target of employing the technology directly in its core infrastructure by 2030. The post stc sets AI-native targets appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-10-19T15:16:47+00:00",
+      "ts": 1792423007.0
+    },
+    {
+      "title": "European telco heavyweights explore joint MSS spectrum bid for D2D services",
+      "link": "https://www.datacenterdynamics.com/en/news/european-telco-heavyweights-explore-joint-mss-spectrum-bid-for-d2d-services/",
+      "summary": "In effort to boost Europe's sovereignty",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-19T15:12:51+00:00",
+      "ts": 1792422771.0
+    },
+    {
+      "title": "KKR faces accusation of misleading EC over TIM deal",
+      "link": "https://www.mobileworldlive.com/europe/kkr-faces-accusation-of-misleading-ec-over-tim-deal/",
+      "summary": "The European Commission (EC) flagged concerns KKR may have provided incorrect or misleading information during its investigation into a deal for Telecom Italia’s fixed network assets led by the company in 2024. The post KKR faces accusation of misleading EC over TIM deal appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-10-19T14:15:12+00:00",
+      "ts": 1792419312.0
+    },
+    {
       "title": "European operators confirm satellite spectrum move",
       "link": "https://www.mobileworldlive.com/network-tech/european-operators-confirm-satellite-spectrum-move/",
-      "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone Group signed a letter of intent to explore to explore a joint bid for a future allocation of spectrum for Mobile Satellite Services, as part of efforts to advance direct-to-device capabilities in Europe. The post European operators confirm satellite spectrum move...",
+      "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone Group signed a letter of intent to explore a joint bid for a future allocation of spectrum for Mobile Satellite Services, as part of efforts to advance direct-to-device capabilities in Europe. The post European operators confirm satellite spectrum move appeared first...",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -784,21 +942,6 @@
       "ts": 1792382400.0
     },
     {
-      "title": "Starlink adding 18,700 subs per day",
-      "link": "https://www.advanced-television.com/2026/10/19/starlink-adding-18700-subs-per-day/",
-      "summary": "SpaceX will release its Q3 numbers on October 20th, and analysts are expecting the rocket-to-broadband-to AI business to declare around another 1.7 million net new Starlink subscribers, to the 12 million announced at the end of Q2. The service is currently adding around 18,700 new subscribers per day. Starlink...",
-      "source": "Advanced Television",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-19T00:37:15+00:00",
-      "ts": 1792370235.0
-    },
-    {
       "title": "India Reinforces Security and Spectrum Safeguards, Restricting Unmonitored Starlink and NTN Entry",
       "link": "https://satnews.com/2026/10/18/india-reinforces-security-and-spectrum-safeguards-restricting-unmonitored-starlink-and-ntn-entry/",
       "summary": "Amid escalating debates over orbital market access and direct-to-device connectivity, the Indian government has reinforced strict regulatory and national security barriers that continue to hold foreign mega-constellations—most notably SpaceX’s Starlink—at […]",
@@ -857,34 +1000,6 @@
       "ts": 1792174110.0
     },
     {
-      "title": "Report finds telco jobs fall as labour costs rise",
-      "link": "https://www.mobileworldlive.com/operators/report-finds-telco-jobs-fall-as-labour-costs-rise/",
-      "summary": "Global telecom employment fell 2.1% year-on-year in Q2 2026, extending a decline dating to 2016, according to a report by MTN Consulting. The post Report finds telco jobs fall as labour costs rise appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-10-16T16:11:58+00:00",
-      "ts": 1792167118.0
-    },
-    {
-      "title": "Elisa to switch off Estonian 2G network in 2028",
-      "link": "https://www.datacenterdynamics.com/en/news/elisa-to-switch-off-estonian-2g-network-in-2028/",
-      "summary": "As the carrier favors 4G and 5G instead",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-10-16T15:49:58+00:00",
-      "ts": 1792165798.0
-    },
-    {
       "title": "Port authority in India bags private 5G licence",
       "link": "https://www.mobileworldlive.com/industry/port-authority-in-india-bags-private-5g-licence/",
       "summary": "Mormugao Port Authority became the first body of its kind in India to get the nod for a private 5G network, as it eyes smart operations, cargo tracking and general digital transformation benefits. The post Port authority in India bags private 5G licence appeared first on Mobile World Live .",
@@ -914,34 +1029,6 @@
       "relevance": 43,
       "date": "2026-10-16T12:54:52+00:00",
       "ts": 1792155292.0
-    },
-    {
-      "title": "Podcast: Testing the connectivity waters",
-      "link": "https://www.mobileworldlive.com/industry/podcast-testing-the-connectivity-waters/",
-      "summary": "In the third episode of our special series focused on digital industries, Mobile World Live’s Michael Carroll is joined by experts from Shipsider, Kaiko Systems and GSMA Intelligence to explore the role of connectivity in operating ships at sea and in port. The post Podcast: Testing the connectivity waters appeared...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-10-16T11:11:47+00:00",
-      "ts": 1792149107.0
-    },
-    {
-      "title": "The Friday File: Apple HomeView; AT&T Mexico; Nokia ECE",
-      "link": "https://www.mobileworldlive.com/att/the-friday-file-apple-homeview-att-mexico-nokia-ece/",
-      "summary": "Mobile World Live (MWL) brings you our top three picks of the week as Apple ramped up its smart home ambitions, AT&T agreed a $2 billion sale of its Mexican business and Nokia offloaded its Enterprise Campus Edge unit. The post The Friday File: Apple HomeView; AT&T Mexico; Nokia ECE appeared first on Mobile World Live...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-10-16T10:54:51+00:00",
-      "ts": 1792148091.0
     },
     {
       "title": "Reliance snaps back at Musk over Ambani claims",
@@ -1063,20 +1150,6 @@
       "ts": 1792097477.0
     },
     {
-      "title": "Viasat Named Connected Car Innovation of the Year for Satellite NTN Automotive Integration",
-      "link": "https://satnews.com/2026/10/15/viasat-named-connected-car-innovation-of-the-year-for-satellite-ntn-automotive-integration/",
-      "summary": "On Thursday, October 15, 2026, satellite communications operator Viasat, Inc. was named the recipient of the “Connected Car Innovation of the Year” award in the 7th annual AutoTech Breakthrough Awards […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-10-15T15:56:32+00:00",
-      "ts": 1792079792.0
-    },
-    {
       "title": "AT&T expands guarantee offer to cut wait times, transfers",
       "link": "https://www.mobileworldlive.com/att/att-expands-guarantee-offer-to-cut-wait-times-transfers/",
       "summary": "AT&T moved to tackle customer pain points such as phone transfers and long customer wait times by refreshing its America’s Best Guarantee programme, in a bid to win subscribers from rivals Verizon and T-Mobile US. The post AT&T expands guarantee offer to cut wait times, transfers appeared first on Mobile World Live .",
@@ -1161,34 +1234,6 @@
       "relevance": 29,
       "date": "2026-10-15T10:00:04+00:00",
       "ts": 1792058404.0
-    },
-    {
-      "title": "Verizon y Ericsson presumen de la primera llamada de campo en 6G a 7 GHz",
-      "link": "https://www.mobileworldlive.com/spanish/verizon-y-ericsson-presumen-de-la-primera-llamada-de-campo-en-6g-a-7-ghz/",
-      "summary": "Verizon y Ericsson han anunciado la primera llamada de campo 6G preestándar en la banda de 7 GHz, con la Read more... The post Verizon y Ericsson presumen de la primera llamada de campo en 6G a 7 GHz appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-15T08:37:23+00:00",
-      "ts": 1792053443.0
-    },
-    {
-      "title": "El tráfico de datos 5G sube un 61% en España mientras los ingresos del sector no varían",
-      "link": "https://www.mobileworldlive.com/spanish/el-trafico-de-datos-5g-sube-un-61-en-espana-mientras-los-ingresos-del-sector-no-varian/",
-      "summary": "Según los datos de la CNMC referidos al segundo trimestre de 2026, el 5G supone ya casi una cuarta parte Read more... The post El tráfico de datos 5G sube un 61% en España mientras los ingresos del sector no varían appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-15T08:26:06+00:00",
-      "ts": 1792052766.0
     },
     {
       "title": "Nokia faces difficulty of selling unwanted businesses",
@@ -1365,21 +1410,6 @@
       "ts": 1791910038.0
     },
     {
-      "title": "SpaceX move into mobile not replicable in Europe – Vodafone",
-      "link": "https://www.lightreading.com/satellite/spacex-move-into-mobile-not-replicable-in-europe-vodafone",
-      "summary": "As SpaceX's push to become a mobile operator continues to raise eyebrows, Vodafone's Tim Boddy argues the move would be hard to replicate in Europe.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-10-13T13:53:34+00:00",
-      "ts": 1791899614.0
-    },
-    {
       "title": "Microsoft Maia 300 Accelerator Chip: Co-Designing AI Inference for Improved Performance per Watt",
       "link": "https://techblog.comsoc.org/2026/10/12/microsoft-maia-300-accelerator-chip-co-designing-ai-inference-for-performance-per-watt/",
       "summary": "Microsoft’s third-generation custom AI accelerator silicon (made by TSMC) combines a multi-process-node chiplet architecture with higher-density racks, targeting improved compute efficiency and lower infrastructure costs. Executive Summary: Microsoft announced its Maia 300 AI accelerator on October 12, 2026, outlining...",
@@ -1392,20 +1422,6 @@
       "relevance": 32,
       "date": "2026-10-12T23:21:43+00:00",
       "ts": 1791847303.0
-    },
-    {
-      "title": "Perspective & Analysis of ITU-R Workshop on IMT-2030 (6G) terrestrial radio interfaces: February 10, 2027 in Geneva, Switzerland",
-      "link": "https://techblog.comsoc.org/2026/10/09/itu-r-workshop-imt-2030-6g-terrestrial-radio-interfaces-february-10-2027-in-geneva-switzerland/",
-      "summary": "Executive Summary: ITU-R WP 5D will hold a one-day IMT‑2030 Workshop in February 2027 during its 54th meeting (February 9-18, 2027 in Geneva, Switzerland). The tentative date of the workshop is February 10, 2027. There will be presentations from independent evaluation groups, potential IMT-2030 terrestrial radio...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-10T01:15:47+00:00",
-      "ts": 1791594947.0
     },
     {
       "title": "SpaceX Agrees to Acquire Nationwide 800 MHz Spectrum for Starlink Mobile",
@@ -1631,20 +1647,6 @@
       "ts": 1788956470.0
     },
     {
-      "title": "Nokia to sell private 5G ECE unit to Aurelius",
-      "link": "https://www.fierce-network.com/wireless/nokia-sell-private-5g-ece-unit-private-equity-firm-aurelius",
-      "summary": "Nokia is selling its Enterprise Campus Edge (ECE) private 5G wireless business to private equity firm Aurelius. Terms were not disclosed.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Verizon, Ericsson dial up 6G in 7 GHz field test",
       "link": "https://www.fierce-network.com/wireless/verizon-ericsson-dial-6g-7-ghz-field-test",
       "summary": "Verizon and Ericsson claimed a global first with the completion of a pre-standard 6G field call in the 7 GHz band.",
@@ -1769,6 +1771,20 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Securing the AI-Powered Connected Home",
+      "link": "https://www.fierce-network.com/sponsored/securing-ai-powered-connected-home",
+      "summary": "The next user of your network may not be human. As AI agents move into the home, ISPs need connectivity that stays reliable and cybersecure. See how Plume combines AI, real-time network intelligence and cybersecurity to protect devices from threats and fix problems before customers notice. Watch the full interview.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
