@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-19T02:15:41.824769+00:00",
-  "count": 79,
+  "generated_at": "2026-10-19T11:28:34.166526+00:00",
+  "count": 110,
   "theme_counts": {
-    "moveis": 34,
-    "fibra": 19,
-    "antenas": 0,
-    "iot": 1,
-    "satelite": 25,
-    "radar_militar": 3,
-    "radiocom": 1,
+    "moveis": 47,
+    "fibra": 21,
+    "antenas": 8,
+    "iot": 3,
+    "satelite": 32,
+    "radar_militar": 10,
+    "radiocom": 2,
     "tv": 1,
-    "geral": 13
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 7,
-    "jp": 4,
-    "kr": 1,
-    "cn": 2
+    "in": 8,
+    "jp": 3,
+    "kr": 0,
+    "cn": 1
   },
-  "research_count": 0,
+  "research_count": 29,
   "sources": [
     {
       "source": "Light Reading",
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 8
     },
     {
       "source": "3G4G Blog",
@@ -140,7 +140,7 @@
     },
     {
       "source": "3GPP News",
-      "status": "ERRO: The read operation timed out",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (48 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (16 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (33 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (37 itens)",
+      "kept": 5
     },
     {
       "source": "FCC Headlines",
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 2
     },
     {
       "source": "SatNews",
@@ -200,6 +200,604 @@
     }
   ],
   "items": [
+    {
+      "title": "European operators confirm satellite spectrum move",
+      "link": "https://www.mobileworldlive.com/network-tech/european-operators-confirm-satellite-spectrum-move/",
+      "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone Group signed a letter of intent to explore to explore a joint bid for a future allocation of spectrum for Mobile Satellite Services, as part of efforts to advance direct-to-device capabilities in Europe. The post European operators confirm satellite spectrum move...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-19T10:40:31+00:00",
+      "ts": 1792406431.0
+    },
+    {
+      "title": "Deutsche Telekom, Orange, Telefonica and Vodafone Plan Joint Satellite Spectrum Bid to Expand Direct-to-Device Services in Europe",
+      "link": "https://telecomlead.com/satellite/deutsche-telekom-orange-telefonica-and-vodafone-plan-joint-satellite-spectrum-bid-to-expand-direct-to-device-services-in-europe-128237",
+      "summary": "Four of Europe’s leading telecom operators — Deutsche Telekom, Orange, Telefónica and Vodafone — have signed a Letter of Intent (LoI) to explore a joint bid for Mobile Satellite Services (MSS) spectrum in Europe, aiming to accelerate Direct-to-Device (D2D) satellite connectivity, improve mobile coverage and strengthen...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-10-19T09:19:24+00:00",
+      "ts": 1792401564.0
+    },
+    {
+      "title": "Virgin Media O2 feels highs and lows of Starlink in Wales",
+      "link": "https://www.lightreading.com/satellite/virgin-media-o2-feels-highs-and-lows-of-starlink-in-wales",
+      "summary": "In a remote part of the UK, Virgin Media O2 shows off its Starlink-based satellite service and looks forward to some big improvements.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-19T09:00:00+00:00",
+      "ts": 1792400400.0
+    },
+    {
+      "title": "Euro telcos explore mobile satellite, D2D opportunities",
+      "link": "https://www.advanced-television.com/2026/10/19/euro-telcos-explore-mobile-satellite-d2d-opportunities/",
+      "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone have signed a Letter of Intent to explore a potential joint bid for the future allocation of spectrum for Mobile Satellite Services (MSS) in Europe. The initiative supports the European Commission’s ambition to strengthen Europe’s sovereignty, security and resilience...",
+      "source": "Advanced Television",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-10-19T08:00:44+00:00",
+      "ts": 1792396844.0
+    },
+    {
+      "title": "6G faces a spectrum-sharing future",
+      "link": "https://www.lightreading.com/6g/6g-faces-a-spectrum-sharing-future",
+      "summary": "A 6G Forum panel sees spectrum sharing as essential for 6G, but interference and testing complexity pose challenges.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-19T08:00:00+00:00",
+      "ts": 1792396800.0
+    },
+    {
+      "title": "India 5G Monetization in 2026: Jio, Airtel and Vodafone Idea Target Higher ARPU as 5G Users Reach 653 Million",
+      "link": "https://telecomlead.com/5g/india-5g-monetization-in-2026-jio-airtel-and-vodafone-idea-target-higher-arpu-as-5g-users-reach-653-million-128234",
+      "summary": "India’s telecom industry is entering a new phase of 5G monetization in 2026, with Reliance Jio, Bharti Airtel and Vodafone Idea seeking higher revenue from premium smartphones, postpaid subscriptions, digital entertainment, artificial intelligence, cloud gaming and enterprise connectivity. India recorded 653 million...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 54,
+      "date": "2026-10-19T06:47:55+00:00",
+      "ts": 1792392475.0
+    },
+    {
+      "title": "Telecom news: Charter Communications, EarthLink Broadband, Spectrum, Ohio Fiber Expansion",
+      "link": "https://telecomlead.com/news/telecom-news-charter-communications-earthlink-broadband-spectrum-ohio-fiber-expansion-128232",
+      "summary": "Today’s telecom news includes announcements on Charter Communications, EarthLink Broadband, Spectrum, Ohio Fiber Expansion, and others. Spectrum Completes Ohio Fiber Expansion Covering 13,600 Homes and Businesses with 2 Gbps Broadband Charter Communications has completed a fiber broadband expansion covering more than...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-19T06:34:41+00:00",
+      "ts": 1792391681.0
+    },
+    {
+      "title": "Telecom news: NewSpace India, XLSMART, Ooredoo Qatar",
+      "link": "https://telecomlead.com/news/telecom-news-newspace-india-xlsmart-ooredoo-qatar-128230",
+      "summary": "Today’s telecom news includes announcements on NewSpace India, XLSMART, Ooredoo Qatar, 5G+ mobile network, and others. India Awards ₹2,563 Crore GSAT-7C Communications Satellite Contract to NewSpace India India’s Ministry of Defence has awarded a ₹2,563 crore contract to NewSpace India Limited for the GSAT-7C...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 50,
+      "date": "2026-10-19T06:31:57+00:00",
+      "ts": 1792391517.0
+    },
+    {
+      "title": "Telecom news: Fidium Fiber, TDS Telecom, Kinetic",
+      "link": "https://telecomlead.com/news/telecom-news-fidium-fiber-tds-telecom-kinetic-128226",
+      "summary": "Today’s telecom news includes announcements on Fidium Fiber, TDS Telecom, Kinetic, FTTH in Dodgeville, Wisconsin, and others. Fidium Completes Maine Fiber Expansion Covering 3,200 Homes and Businesses Fidium Fiber has announced the commercial availability of its FTTH network in Fort Kent, Maine, extending broadband...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-10-19T06:20:35+00:00",
+      "ts": 1792390835.0
+    },
+    {
+      "title": "Telecom news: Millicom, Tigo, Movistar, Fidium Fiber, FTTH network",
+      "link": "https://telecomlead.com/news/telecom-news-millicom-tigo-movistar-fidium-fiber-ftth-network-128224",
+      "summary": "Today’s telecom news includes announcements on Millicom, Tigo, Movistar, Fidium Fiber, FTTH network, and others. Millicom Announces $2.7 Billion Colombia Telecom Network Investment with 5,000 Capacity Upgrades Millicom has announced plans to invest approximately COP 8.5 trillion ($2.7 billion) in Colombia over four...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-10-19T06:17:13+00:00",
+      "ts": 1792390633.0
+    },
+    {
+      "title": "Telecom news: Fidium Fiber, Verizon, Ericsson, Vodafone",
+      "link": "https://telecomlead.com/news/telecom-news-fidium-fiber-verizon-ericsson-vodafone-128222",
+      "summary": "Today’s telecom news includes announcements on Fidium Fiber, Verizon, Ericsson, Vodafone, Outdoor 6G Field Call, and others. Fidium Expands New Hampshire FTTH Network to 7,400 Locations in Somersworth Fidium Fiber has completed a fiber broadband expansion in Somersworth, New Hampshire, making symmetrical multi-gigabit...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-19T06:14:01+00:00",
+      "ts": 1792390441.0
+    },
+    {
+      "title": "Integrated Sensing and Communication in 3GPP: Standardization, Performance Evaluation, and Experimental Validation Toward 6G",
+      "link": "https://arxiv.org/abs/2610.22995",
+      "summary": "arXiv:2610.22995v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) is evolving from a primarily physical-layer research into a standardized cellular-network capability spanning channel modeling, radio procedures, network architecture, and the delivery of sensing services. We review this...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 74,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Grouped Sparse Bayesian Estimation for Near-Field Massive MIMO Channels",
+      "link": "https://arxiv.org/abs/2610.16195",
+      "summary": "arXiv:2610.16195v2 Announce Type: replace Abstract: This paper studies near-field massive MIMO channel estimation based on an electromagnetic channel model with limited pilots. Starting from Maxwell's equations, we derive the homogeneous background response and the scattering response in the spatial and wavenumber...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 72,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Opportunities for Direct-to-Cell Polarization MIMO in the Downlink of a LEO Satellite Footprint",
+      "link": "https://arxiv.org/abs/2610.20296",
+      "summary": "arXiv:2610.20296v2 Announce Type: replace Abstract: A single low Earth orbit (LEO) satellite offers almost no spatial degrees of freedom, but its two polarizations can carry a second layer to the handset. The downlink spectral efficiency is mapped over the footprint of a satellite at 330 km altitude above Munich. The...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 69,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Robust Design of Sensing-Assisted Secure Transmission for RIS-Aided ISAC System under Eavesdropper 3D Positioning Uncertainty",
+      "link": "https://arxiv.org/abs/2610.23139",
+      "summary": "arXiv:2610.23139v1 Announce Type: new Abstract: Localization errors in estimating the position of a potential eavesdropper (Eve) pose a critical challenge to secure transmission in reconfigurable intelligent surface (RIS)-assisted integrated sensing and communication (ISAC) systems. To address this issue, this paper...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "A Traffic-Aware QoS-Energy Consumption Tradeoff Study for Integrated 6G TN & NTNs",
+      "link": "https://arxiv.org/abs/2609.22288",
+      "summary": "arXiv:2609.22288v2 Announce Type: replace Abstract: Motivated by the Hypercell concept, we extend BLASTER to investigate the trade-off between network quality of service (QoS) and terrestrial energy consumption in integrated terrestrial and non-terrestrial networks. We compare one low Earth orbit (LEO) satellite at...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Radar-Only Long-Term Beam Prediction in mmWave Vehicular Networks: An Empirical Study of Doppler Input and Cross-Modal Distillation",
+      "link": "https://arxiv.org/abs/2610.20185",
+      "summary": "arXiv:2610.20185v2 Announce Type: replace Abstract: Sensing-aided beam prediction could cut the beam-training overhead of millimeter-wave vehicular links, and two design choices could strengthen a radar-only predictor: a Doppler-resolved input and knowledge distilled from a camera during training. We measure what each...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Joint User Association and Resource Allocation for Adaptive Semantic Communication in 5G and Beyond Networks",
+      "link": "https://arxiv.org/abs/2312.01049",
+      "summary": "arXiv:2312.01049v4 Announce Type: replace Abstract: Semantic communication (SemCom) has emerged as a promising paradigm that leverages Deep Neural Networks (DNNs) to extract task-relevant information, thereby substantially reducing the volume of transmitted data. In existing implementations, the semantic transceiver...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "A Smaller Subspace is All You Need: Efficient ISAC Beamforming via Dimensionality Reduction",
+      "link": "https://arxiv.org/abs/2610.23462",
+      "summary": "arXiv:2610.23462v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) has been recognized as a critical technology for the sixth generation (6G) wireless networks. Under monostatic sensing mode, achieving a balance between communication and sensing performance via optimal beamforming is a...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Federated Multiagent Soft Actor Critic for IRS Assisted Cognitive Radio Networks under Partial Observability",
+      "link": "https://arxiv.org/abs/2610.22884",
+      "summary": "arXiv:2610.22884v1 Announce Type: new Abstract: Intelligent reflecting surfaces (IRSs) can improve spectrum efficiency and interference control in cognitive radio networks (CRNs) by reconfiguring the propagation environment. This paper presents FMASAC, a federated multi-agent soft actor-critic framework for...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Decomposing URLLC Deadline Failures in Beam-Managed 6G Networks: Implications for Mission-Critical Wireless Systems",
+      "link": "https://arxiv.org/abs/2610.22411",
+      "summary": "arXiv:2610.22411v1 Announce Type: new Abstract: Mission-critical wireless systems require ultra-reliable low-latency communications (URLLC), which sixth-generation (6G) millimeter-wave (mmWave) beam-managed networks are designed to provide. However, the reported URLLC deadline miss rate often masks the specific causes...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Continuous-Phase Frequency-Hopping MIMO Signaling and Processing for ISAC",
+      "link": "https://arxiv.org/abs/2610.22956",
+      "summary": "arXiv:2610.22956v1 Announce Type: new Abstract: Frequency-hopping MIMO integrated sensing and communications (FH-MIMO-ISAC) supports agile multidimensional signaling but faces challenges in phase-continuous transmission, demodulation without channel-phase information, and coherent processing of multi-frequency echoes....",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "LLM-Guided Dual-Stage Latency Optimization for Closed-Loop 6G V2I Digital Twins",
+      "link": "https://arxiv.org/abs/2610.22848",
+      "summary": "arXiv:2610.22848v1 Announce Type: new Abstract: Wireless Digital Twins are emerging as a key enabler for predictive network control in 6G Vehicle-to-Infrastructure (V2I) systems. However, closed-loop V2I DTs face two dual-stage communication bottlenecks arising from model parameter exchange for V2I DT reconstruction...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "GPU-Accelerated Robust MA--RIS Pre-Optimization for Communication and Target Illumination",
+      "link": "https://arxiv.org/abs/2610.22431",
+      "summary": "arXiv:2610.22431v1 Announce Type: new Abstract: Movable antennas (MAs) and reconfigurable intelligent surfaces (RISs) offer strong spatial control for integrated sensing and communication (ISAC), but repeatedly adapting MA positions and RIS phases to each channel realization can be impractical. This letter develops a...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Gaussian Identification in MIMO Channels",
+      "link": "https://arxiv.org/abs/2610.22931",
+      "summary": "arXiv:2610.22931v1 Announce Type: new Abstract: We study the identification capacity of discrete-time Gaussian multiple-input multiple-output (MIMO) channels under per-antenna, per-symbol peak-amplitude constraints. We establish upper and lower bounds on the identification capacity that scale linearly with the channel...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Spatial Distribution of Mean PAoI in LEO Satellite-enabled IoT Networks",
+      "link": "https://arxiv.org/abs/2610.23597",
+      "summary": "arXiv:2610.23597v1 Announce Type: new Abstract: Non-terrestrial networks (NTNs), such as Low Earth Orbit (LEO) satellites, can provide consistent coverage for Internet of Things (IoT) nodes, particularly in rural areas where cellular coverage is lacking. These IoT nodes are used to monitor and record their...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "iot",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Net-Zero Power UAVs: Facilitating Quantum HRLLC in Multi-Hop UAV Repeaters",
+      "link": "https://arxiv.org/abs/2610.23540",
+      "summary": "arXiv:2610.23540v1 Announce Type: new Abstract: In this paper, we propose a novel joint optimization framework for autonomous, quantum-enabled UAV repeater networks designed to support hyper-reliable low-latency communications (HRLLC) in challenging environments such as post-explosion chemical plant operations. The...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "radiocom"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Regularization in Data-driven Predictive Control: A Convex Relaxation Perspective",
+      "link": "https://arxiv.org/abs/2509.09027",
+      "summary": "arXiv:2509.09027v3 Announce Type: replace-cross Abstract: This paper explores the role of regularization in data-driven predictive control (DDPC) through the lens of convex relaxation. Using a bi-level optimization framework, we model system identification as an inner problem and predictive control as an outer...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Polar Complexity: A New Descriptive Complexity with Applications to Source and Joint Source-Channel Coding",
+      "link": "https://arxiv.org/abs/2605.11826",
+      "summary": "arXiv:2605.11826v3 Announce Type: replace Abstract: This paper first presents a new approach to evaluating the descriptive complexity of finite-length binary sequences. Specifically, we investigate the sequence-wise recovery behavior induced by polar compression and successive cancellation decoding (SCD), and define...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "The optimal information complexity of VC learning",
+      "link": "https://arxiv.org/abs/2610.10600",
+      "summary": "arXiv:2610.10600v2 Announce Type: replace-cross Abstract: Steinke and Zakynthinou(2020) introduces the Conditional Mutual Information (CMI) framework of analyzing the information complexity of learning algorithms based on algorithm-dependent information-theoretic quantities. We study one of these quantities, the...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Preventing Data Hallucinations in Agentic AI for Optical Network Troubleshooting",
+      "link": "https://arxiv.org/abs/2610.23252",
+      "summary": "arXiv:2610.23252v1 Announce Type: new Abstract: An agentic AI system for automated troubleshooting in optical communication networks is demonstrated that integrates data references into the agent architecture to prevent data hallucinations, improving the interpretability and trustworthiness of root-cause...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "fibra"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Lipschitz Bounds for Neural Networks Using a Two-Copy Linear Fractional Transformation",
+      "link": "https://arxiv.org/abs/2610.22692",
+      "summary": "arXiv:2610.22692v1 Announce Type: new Abstract: This paper proposes a new method to bound the global Lipschitz constant of a neural network (NN). Our formulation uses a two-copy linear fractional transformation (LFT) representation of the NN with stacked signals. We use biased quadratic constraints (QCs) to bound the...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Online Constraint Optimization-Based Indirect-Adaptive Robust Control for Autonomous Vehicles with Unknown Friction",
+      "link": "https://arxiv.org/abs/2610.22675",
+      "summary": "arXiv:2610.22675v1 Announce Type: new Abstract: Friction uncertainty is a significant challenge for autonomous vehicle control, undermining feasibility and performance. This paper proposes a novel two-layer control framework to achieve vehicle motion control under large friction uncertainty by combining...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "A Polynomial-Time Algorithm for the Minimal Input/Output Node Cardinality Disturbance Decoupling Problem via Output Feedback",
+      "link": "https://arxiv.org/abs/2610.22735",
+      "summary": "arXiv:2610.22735v1 Announce Type: new Abstract: In this paper, we propose an algorithm that solves, in polynomial-time, the minimal input/output node cardinality disturbance decoupling problem via output feedback. The optimal solution, intended as a minimal-cardinality pair of sets of control inputs and measurement...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "On the Length of Maximum Sum-Rank Distance Codes",
+      "link": "https://arxiv.org/abs/2610.23633",
+      "summary": "arXiv:2610.23633v1 Announce Type: new Abstract: The classical theory of arcs in finite projective spaces provides a powerful geometric framework for studying maximum distance separable (MDS) codes and their possible lengths. In this paper, we investigate how this perspective extends to maximum sum-rank distance (MSRD)...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Sorted Mutability as an Entropic Functional: Theory and Two Applications",
+      "link": "https://arxiv.org/abs/2610.22383",
+      "summary": "arXiv:2610.22383v1 Announce Type: cross Abstract: We investigate sorted mutability, $\\zeta_S$, as an information-based quantity with an explicit entropic character. We show that $\\zeta_S$ is directly proportional to the diversity of a data sequence and can therefore be expressed in terms of Shannon entropies,...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Structuring and Merging Deletion Demands on Crowdsourced Channel Knowledge Maps",
+      "link": "https://arxiv.org/abs/2610.22589",
+      "summary": "arXiv:2610.22589v1 Announce Type: new Abstract: A base station can build a channel knowledge map (CKM) from the uplink pilots of its terminals and sweep only the beams that the map ranks highest. A fault at a terminal or at the base station corrupts the measurements taken while it lasts, and the map must then forget...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Fluid-Spatiotemporal Stochastic Geometry for Information Flow in Non-Stationary Fields: Kinematics and Field Reconstruction",
+      "link": "https://arxiv.org/abs/2610.23277",
+      "summary": "arXiv:2610.23277v1 Announce Type: new Abstract: Classical stochastic geometry primarily addresses forward analysis by prescribing spatial point-process laws and mobility models. It does not directly address the inverse problem of recovering directional macroscopic transport from aggregate density evolution in...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Adaptive Lightweight Security for Performance Efficiency in Critical Healthcare Monitoring",
+      "link": "https://arxiv.org/abs/2406.03786",
+      "summary": "arXiv:2406.03786v2 Announce Type: cross Abstract: The healthcare infrastructure requires robust security procedures, technologies, and policies due to its critical nature. Since the Internet of Things (IoT) with its diverse technologies has become an integral component of future healthcare systems, its security...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "iot"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "OTS-PC: OTS-based Payment Channels for the Lightning Network",
+      "link": "https://arxiv.org/abs/2511.04021",
+      "summary": "arXiv:2511.04021v3 Announce Type: replace-cross Abstract: We present a new type of bidirectional payment channel based on One-Time Signatures on state sequence numbers. This new construction is simpler than the Poon-Dryja construction, but provides a number of benefits such as $O(1)$ storage per channel, minimal...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-19T04:00:00+00:00",
+      "ts": 1792382400.0
+    },
+    {
+      "title": "Starlink adding 18,700 subs per day",
+      "link": "https://www.advanced-television.com/2026/10/19/starlink-adding-18700-subs-per-day/",
+      "summary": "SpaceX will release its Q3 numbers on October 20th, and analysts are expecting the rocket-to-broadband-to AI business to declare around another 1.7 million net new Starlink subscribers, to the 12 million announced at the end of Q2. The service is currently adding around 18,700 new subscribers per day. Starlink...",
+      "source": "Advanced Television",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-19T00:37:15+00:00",
+      "ts": 1792370235.0
+    },
     {
       "title": "India Reinforces Security and Spectrum Safeguards, Restricting Unmonitored Starlink and NTN Entry",
       "link": "https://satnews.com/2026/10/18/india-reinforces-security-and-spectrum-safeguards-restricting-unmonitored-starlink-and-ntn-entry/",
@@ -301,20 +899,6 @@
       "relevance": 58,
       "date": "2026-10-16T15:27:10+00:00",
       "ts": 1792164430.0
-    },
-    {
-      "title": "SpaceX’s Starlink encourages every satellite operator to share data with Stargaze platform, for safety",
-      "link": "https://www.datacenterdynamics.com/en/news/spacexs-starlink-encourages-every-satellite-operator-to-share-data-with-stargaze-platform-for-safety/",
-      "summary": "Musk company proposes international cooperation on satellite tracking in a one-way street relationship with SpaceX",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-16T14:39:46+00:00",
-      "ts": 1792161586.0
     },
     {
       "title": "UK to Award £25M Space Surveillance Radar Contract in July 2027",
@@ -435,66 +1019,6 @@
       "relevance": 59,
       "date": "2026-10-16T04:55:32+00:00",
       "ts": 1792126532.0
-    },
-    {
-      "title": "Telecom news: Telikom PNG and Digicel, Orange Botswana, Spectrum",
-      "link": "https://telecomlead.com/news/telecom-news-telikom-png-and-digicel-orange-botswana-spectrum-128217",
-      "summary": "Today’s telecom news includes announcements on Telikom PNG and Digicel, Orange Botswana, Spectrum, Ohio FTTH Network, among others. Telikom PNG and Digicel Sign Tower-Sharing Agreement Covering More Than 1,800 Existing Sites Digicel Papua New Guinea and state-owned Telikom PNG have signed a telecommunications...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-16T04:52:36+00:00",
-      "ts": 1792126356.0
-    },
-    {
-      "title": "Telecom news: KT, MTN, Huawei, Malaysia’s RM2 Billion SALAM Subsea Cable",
-      "link": "https://telecomlead.com/news/telecom-news-kt-mtn-huawei-malaysias-rm2-billion-salam-subsea-cable-128215",
-      "summary": "Today’s telecom news includes announcements on KT, MTN, Huawei, Malaysia’s RM2 Billion SALAM Subsea Cable, 5G-Advanced Trial in South Africa, among others. KT Launches 800 Gbps Optical Network Service for AI Data Centers in South Korea KT Corporation has introduced dedicated optical connectivity services supporting...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "kr",
-        "cn"
-      ],
-      "relevance": 64,
-      "date": "2026-10-16T04:44:43+00:00",
-      "ts": 1792125883.0
-    },
-    {
-      "title": "Telecom news: Orange, Equitix, AmpliTech, SUBCO",
-      "link": "https://telecomlead.com/news/telecom-news-orange-equitix-amplitech-subco-128213",
-      "summary": "Today’s telecom news includes announcements on Orange, Equitix, AmpliTech, SUBCO, Pisces Subsea Cable, Sydney–Melbourne Fiber Network, among others. Orange, Equitix and MDM Launch 3,125-km Pisces Subsea Cable Connecting Four European Countries Orange, infrastructure investor Equitix and Irish submarine cable developer...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-16T04:38:46+00:00",
-      "ts": 1792125526.0
-    },
-    {
-      "title": "Telecom news: Ooredoo Qatar, Telikom PNG, Digicel PNG, RailTel, SBI",
-      "link": "https://telecomlead.com/news/telecom-news-ooredoo-qatar-telikom-png-digicel-png-railtel-sbi-128209",
-      "summary": "Today’s telecom news includes announcements on Ooredoo Qatar, Telikom PNG, Digicel PNG, RailTel Corporation, SBI, among others. Ooredoo Qatar Launches Country’s First 5G+ Network Ooredoo Qatar has launched the country’s first 5G+ mobile network, building on its earlier deployment of 5G standalone technology. The new...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-16T04:28:02+00:00",
-      "ts": 1792124882.0
     },
     {
       "title": "Private 5G’s Business Model Shifts: Ericsson’s Move Signals a Market Reset",
@@ -623,23 +1147,6 @@
       "relevance": 51,
       "date": "2026-10-15T13:48:54+00:00",
       "ts": 1792072134.0
-    },
-    {
-      "title": "Jio Platforms Capex Falls 23% to ₹34,184 Crore in FY2026 as Software Investment Rises",
-      "link": "https://telecomlead.com/5g/jio-platforms-capex-falls-23-to-%e2%82%b934184-crore-in-fy2026-as-software-investment-rises-128203",
-      "summary": "Jio Platforms, India’s #1 telecom operator, reduced its cash capital expenditure by 22.8% to ₹34,184.3 crore in FY2026, while increasing investment in software and network capacity rights. Its technology priorities span mobile network infrastructure, AI systems, broadband equipment and proprietary digital platforms,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-10-15T13:03:06+00:00",
-      "ts": 1792069386.0
     },
     {
       "title": "Compact Analog Signal Generators for Fast RF Testing",
@@ -799,22 +1306,6 @@
       "ts": 1791992459.0
     },
     {
-      "title": "Docomo, Abside team on AI for HAPS communications",
-      "link": "https://www.mobileworldlive.com/docomo/docomo-abside-team-on-ai-for-haps-communications/",
-      "summary": "NTT Docomo and US-based network equipment manufacturer Abside Networks signed an agreement to explore next-generation, AI-driven networks using high-altitude platform stations (HAPS), as operators look to extend networks beyond terrestrial infrastructure. The post Docomo, Abside team on AI for HAPS communications...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 37,
-      "date": "2026-10-14T10:38:42+00:00",
-      "ts": 1791974322.0
-    },
-    {
       "title": "Verizon CTO: 6G needs a breakthrough for AI uplink demand",
       "link": "https://www.lightreading.com/6g/verizon-cto-6g-needs-a-breakthrough-for-ai-uplink-demand",
       "summary": "Verizon CTO Yago Tenorio says industry is 'missing a breakthrough' in 6G for uplink capacity as future AI applications change network traffic patterns.",
@@ -887,34 +1378,6 @@
       "relevance": 44,
       "date": "2026-10-13T13:53:34+00:00",
       "ts": 1791899614.0
-    },
-    {
-      "title": "Eurobites: Nokia sells private wireless unit to Aurelius",
-      "link": "https://www.lightreading.com/private-networks/eurobites-nokia-sells-private-wireless-unit-to-aurelius",
-      "summary": "Also in today's EMEA regional roundup: arrests made over Starlink fire in Poland; Space Norway chooses Ciena for cable upgrade; BT's soap strategy.",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-10-13T11:25:14+00:00",
-      "ts": 1791890714.0
-    },
-    {
-      "title": "VodafoneThree airs £1B savings plan that's a bad ad for open RAN",
-      "link": "https://www.lightreading.com/open-ran/vodafonethree-airs-1b-savings-plan-that-s-a-bad-ad-for-open-ran",
-      "summary": "VodafoneThree's acknowledgement that open RAN would not have allowed it to hit targets looks awkward for other parts of Vodafone Group.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-13T07:30:00+00:00",
-      "ts": 1791876600.0
     },
     {
       "title": "Microsoft Maia 300 Accelerator Chip: Co-Designing AI Inference for Improved Performance per Watt",
@@ -1021,20 +1484,6 @@
       "relevance": 59,
       "date": "2026-10-05T10:48:54+00:00",
       "ts": 1791197334.0
-    },
-    {
-      "title": "ICEYE taps Nokia to deveop satellite comms systems",
-      "link": "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
-      "summary": "Built on trusted European technology, the jointly developed satellite communications systems will give nations ownership and control of the satellites, ground segment and terminals. The post ICEYE taps Nokia to deveop satellite comms systems appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-01T15:13:45+00:00",
-      "ts": 1790867625.0
     },
     {
       "title": "AT&T Chief Challenges Economics of SpaceX’s Mobile-Network Strategy",
