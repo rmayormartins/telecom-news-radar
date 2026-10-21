@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21T16:15:21.842465+00:00",
-  "count": 110,
+  "generated_at": "2026-10-21T20:59:12.210647+00:00",
+  "count": 112,
   "theme_counts": {
-    "moveis": 48,
-    "fibra": 15,
+    "moveis": 49,
+    "fibra": 13,
     "antenas": 7,
     "iot": 0,
-    "satelite": 34,
-    "radar_militar": 7,
+    "satelite": 36,
+    "radar_militar": 8,
     "radiocom": 1,
     "tv": 1,
-    "geral": 30
+    "geral": 29
   },
   "country_counts": {
     "br": 0,
@@ -18,7 +18,7 @@
     "il": 0,
     "in": 6,
     "jp": 4,
-    "kr": 0,
+    "kr": 1,
     "cn": 3
   },
   "research_count": 29,
@@ -65,8 +65,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (15 itens)",
+      "status": "ok (14 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,79 @@
     }
   ],
   "items": [
+    {
+      "title": "Atombeam Raises $18.3M for Networking Technology",
+      "link": "https://www.satellitetoday.com/finance/2026/10/21/atombeam-raises-18-3m-for-networking-technology/",
+      "summary": "AI networking technology startup Atombeam has raised $18.3 million to accelerate adoption of its software targeted for satellite, defense, and commercial links. Atombeam announced the round on Tuesday, increasing the […] The post Atombeam Raises $18.3M for Networking Technology appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-10-21T20:01:00+00:00",
+      "ts": 1792612860.0
+    },
+    {
+      "title": "Starlink Growth Slows as AI Takes the Lead at SpaceX in Q3 Results",
+      "link": "https://www.satellitetoday.com/finance/2026/10/21/starlink-growth-slows-as-ai-takes-the-lead-at-spacex-in-q3-results/",
+      "summary": "SpaceX’s AI business drove the story in its third quarter results as the AI segment, now renamed “Super Intelligence” (SI), surpassed Starlink connectivity revenue. The Starlink business continued growing, but […] The post Starlink Growth Slows as AI Takes the Lead at SpaceX in Q3 Results appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-21T19:52:53+00:00",
+      "ts": 1792612373.0
+    },
+    {
+      "title": "AI-RAN Push: NVIDIA, Nokia, and Operators Drive Towards Distributed Compute Platforms",
+      "link": "https://techblog.comsoc.org/2026/10/21/ai-ran-nvidia-nokia-and-operators-drive-toward-distributed-compute-platforms/",
+      "summary": "Introduction: A massive industry consortium spearheaded by NVIDIA, Nokia, and leading global telecom operators has announced an expanded ecosystem initiative aimed at transforming traditional radio access network (RAN) sites into converged, distributed intelligence platforms. While vendor marketing frequently leans on...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-10-21T16:49:55+00:00",
+      "ts": 1792601395.0
+    },
+    {
+      "title": "BT bolsters 5G Standalone footprint, confirms AI-RAN trials with Nokia, Nvidia",
+      "link": "https://www.datacenterdynamics.com/en/news/bt-bolsters-5g-standalone-footprint-confirms-ai-ran-trials-with-nokia-nvidia/",
+      "summary": "The AI-RAN trials are set to take place in the UK's second city next year",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-10-21T16:19:00+00:00",
+      "ts": 1792599540.0
+    },
+    {
+      "title": "Korea eyes wider rollout of 5G-based Wi-Fi on trains",
+      "link": "https://www.mobileworldlive.com/asia-pacific/korea-eyes-wider-rollout-of-5g-based-wi-fi-on-trains/",
+      "summary": "South Korea’s ICT authority pledged to support mobile operators and transit providers to ensure 5G-based Wi-Fi would be available on underground railway networks across the country, following a deployment on two lines in Incheon. The post Korea eyes wider rollout of 5G-based Wi-Fi on trains appeared first on Mobile...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 54,
+      "date": "2026-10-21T16:18:08+00:00",
+      "ts": 1792599488.0
+    },
     {
       "title": "T-Mobile makes first AI-RAN call with Nokia and Nvidia",
       "link": "https://www.lightreading.com/ai-machine-learning/t-mobile-makes-first-ai-ran-call-with-nokia-and-nvidia",
@@ -259,20 +332,6 @@
       "ts": 1792592813.0
     },
     {
-      "title": "Nvidia, Nokia claim AI-RAN hype is justified as momentum grows",
-      "link": "https://www.mobileworldlive.com/ai-cloud/nvidia-nokia-claim-ai-ran-hype-is-justified-as-momentum-grows/",
-      "summary": "INTERVIEW: Nokia chief technology and AI officer Pallavi Mahajan and Nvidia VP of telco Ronnie Vasishta told the Mobile World Live Podcast their AI-RAN partnership is showing tangible operator progress, announcing close to 20 operators are lined up for lab and commercial trials of the technology. The post Nvidia,...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-21T13:59:57+00:00",
-      "ts": 1792591197.0
-    },
-    {
       "title": "Telecom Wholesale Revenue 2026: How Verizon, BT, Orange, Deutsche Telekom and Tata Communications Monetize Fiber and Network Access",
       "link": "https://telecomlead.com/broadband/telecom-wholesale-revenue-2026-how-verizon-bt-orange-deutsche-telekom-and-tata-communications-monetize-fiber-and-network-access-128295",
       "summary": "Telecom operators are expanding wholesale network services beyond traditional mobile roaming to generate revenue from fiber infrastructure, data-center connectivity, enterprise networks and mobile virtual network operator (MVNO) agreements. Verizon secured a dark-fiber agreement worth more than $1 billion with Google,...",
@@ -288,6 +347,20 @@
       "relevance": 59,
       "date": "2026-10-21T13:12:51+00:00",
       "ts": 1792588371.0
+    },
+    {
+      "title": "Connected Car Revenue 2026: How GM, Verizon, Vodafone, AT&T and T-Mobile Monetize Vehicle Connectivity",
+      "link": "https://telecomlead.com/5g/connected-car-revenue-2026-how-gm-verizon-vodafone-att-and-t-mobile-monetize-vehicle-connectivity-128292",
+      "summary": "Connected vehicles are emerging as a recurring revenue opportunity for telecom operators and automakers, driven by embedded SIM connectivity, vehicle software subscriptions, fleet management, over-the-air updates and connected safety services. General Motors expects more than $3 billion in OnStar revenue during 2026,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-21T13:09:07+00:00",
+      "ts": 1792588147.0
     },
     {
       "title": "AI Predictive Maintenance in Telecom 2026: AT&T, NTT DOCOMO, China Mobile and Deutsche Telekom Cut Network Repair Time and Costs",
@@ -400,21 +473,6 @@
       "relevance": 56,
       "date": "2026-10-21T11:57:34+00:00",
       "ts": 1792583854.0
-    },
-    {
-      "title": "AT&T Q3 2026 Revenue Rises 5.3% to $32.3 Billion as Fiber, 5G and Broadband Growth Drives Earnings",
-      "link": "https://telecomlead.com/5g/att-q3-2026-revenue-rises-5-3-to-32-3-billion-as-fiber-5g-and-broadband-growth-drives-earnings-128270",
-      "summary": "AT&T reported third-quarter 2026 revenue of $32.3 billion, up 5.3 percent year over year, supported by expanding fiber broadband, wireless services and customer additions. The US telecom operator recorded more than one million advanced connectivity customer additions for the second consecutive quarter, while...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-21T11:01:23+00:00",
-      "ts": 1792580483.0
     },
     {
       "title": "SpaceX targets early 2028 for own D2D service launch",
@@ -1045,6 +1103,20 @@
       "ts": 1792493217.0
     },
     {
+      "title": "European telcos consider joint bid for satellite spectrum",
+      "link": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
+      "summary": "The move comes as the European Union grows increasingly wary of its reliance on Elon Musk’s Starlink The post European telcos consider joint bid for satellite spectrum appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-20T10:04:36+00:00",
+      "ts": 1792490676.0
+    },
+    {
       "title": "Telefónica y NOS apuntan a usos militares y defensivos de la 5G",
       "link": "https://www.mobileworldlive.com/spanish/telefonica-y-nos-apuntan-a-usos-militares-y-defensivos-de-la-5g/",
       "summary": "Telefónica ha demostrado las capacidades militares de su infraestructura 5G en un ejercicio con drones y vehículos no tripulados, uno Read more... The post Telefónica y NOS apuntan a usos militares y defensivos de la 5G appeared first on Mobile World Live .",
@@ -1100,21 +1172,6 @@
       "relevance": 50,
       "date": "2026-10-19T19:42:01+00:00",
       "ts": 1792438921.0
-    },
-    {
-      "title": "European MNOs Team Up for MSS D2D Spectrum in Europe",
-      "link": "https://www.satellitetoday.com/connectivity/2026/10/19/european-mnos-team-up-for-mss-d2d-spectrum-in-europe/",
-      "summary": "Four of Europe’s top mobile network operators confirmed they are working together on a plan for mobile satellite service (MSS) spectrum in Europe, announcing a letter of intent on Monday. […] The post European MNOs Team Up for MSS D2D Spectrum in Europe appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-10-19T19:36:16+00:00",
-      "ts": 1792438576.0
     },
     {
       "title": "US broadcaster group outs 'major progress' toward affordable ATSC 3.0 converters",
@@ -1214,20 +1271,6 @@
       "relevance": 53,
       "date": "2026-10-19T08:00:00+00:00",
       "ts": 1792396800.0
-    },
-    {
-      "title": "Arqiva Makes New Inroads into Middle East Satellite Market With GulfSat Deal",
-      "link": "https://www.satellitetoday.com/connectivity/2026/10/16/arqiva-makes-new-inroads-into-middle-east-satellite-market-with-gulfsat-deal/",
-      "summary": "Arqiva is expanding its presence in the Middle East satellite market thanks to a new deal with Kuwaiti communications company Gulfsat. The three-year agreement will see Arqiva provide Gulfsat with […] The post Arqiva Makes New Inroads into Middle East Satellite Market With GulfSat Deal appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-10-16T19:07:27+00:00",
-      "ts": 1792177647.0
     },
     {
       "title": "UK to Award £25M Space Surveillance Radar Contract in July 2027",
@@ -1403,20 +1446,6 @@
       "relevance": 47,
       "date": "2026-10-14T16:59:00+00:00",
       "ts": 1791997140.0
-    },
-    {
-      "title": "2026 OCP Summit: Full-Stack AI Networking Silicon from Nvidia/Cisco and Broadcom; Ethernet vs InfiniBand Interconnects",
-      "link": "https://techblog.comsoc.org/2026/10/13/2026-ocp-summit-full-stack-ai-networking-silicon-from-nvidia-cisco-ethernet-vs-infiniband-interconnects/",
-      "summary": "Executive Summary: At the 2026 Open Compute Project (OCP) Global Summit in San Jose, CA this week, the multi-vendor push for open, gigawatt-scale AI networks reached a critical tipping point as Cisco and Broadcom deployed massive 102.4 Tbps Ethernet fabrics to challenge Nvidia’s proprietary grip. These and other...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-10-14T00:22:20+00:00",
-      "ts": 1791937340.0
     },
     {
       "title": "SpaceX Agrees to Acquire Nationwide 800 MHz Spectrum for Starlink Mobile",
@@ -1626,23 +1655,23 @@
       "ts": 1788956470.0
     },
     {
-      "title": "Singtel and Ericsson deepen partnership to scale 5G innovation in Singapore",
-      "link": "https://www.fierce-network.com/newswire/singtel-and-ericsson-deepen-partnership-scale-5g-innovation-and-build-ai-native-networks",
-      "summary": "The two companies announced a five-year strategic partnership to advance Singapore's 5G capabilities, accelerate the adoption of AI-native applications and deliver more reliable, intelligent connectivity for businesses and consumers.",
+      "title": "6G monetization plans start with fixing the mistakes of 5G",
+      "link": "https://www.fierce-network.com/wireless/6g-monetization-plans-start-fixing-mistakes-5g",
+      "summary": "Swisscom and Singtel say the path to making money from 6G starts well before 6G arrives, with 5G SA, differentiated connectivity and billing systems that can eventually sell services dynamically to machines and AI agents.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
       ],
       "research": false,
       "countries": [],
-      "relevance": 51,
+      "relevance": 55,
       "date": null,
       "ts": 0
     },
     {
-      "title": "Verizon, Ericsson dial up 6G in 7 GHz field test",
-      "link": "https://www.fierce-network.com/wireless/verizon-ericsson-dial-6g-7-ghz-field-test",
-      "summary": "Verizon and Ericsson claimed a global first with the completion of a pre-standard 6G field call in the 7 GHz band.",
+      "title": "Singtel and Ericsson deepen partnership to scale 5G innovation in Singapore",
+      "link": "https://www.fierce-network.com/newswire/singtel-and-ericsson-deepen-partnership-scale-5g-innovation-and-build-ai-native-networks",
+      "summary": "The two companies announced a five-year strategic partnership to advance Singapore's 5G capabilities, accelerate the adoption of AI-native applications and deliver more reliable, intelligent connectivity for businesses and consumers.",
       "source": "Fierce Network",
       "themes": [
         "moveis"
@@ -1698,6 +1727,34 @@
       "ts": 0
     },
     {
+      "title": "IQGeo’s new CEO wants to move operators from paper records to AI",
+      "link": "https://www.fierce-network.com/cloud/iqgeos-new-ceo-wants-move-operators-paper-records-ai",
+      "summary": "New CEO Mike Woods wants to get operators’ physical network records ready for AI, but IQGeo’s research shows how much work remains.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 34,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AT&T beats Q3 estimates but SpaceX threat looms",
+      "link": "https://www.fierce-network.com/wireless/att-beats-q3-estimates-spacex-threat-looms",
+      "summary": "Elon Musk's plans in the terrestrial mobile space hover over this quarter's financial results – and AT&T is feeling it.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Ericsson, Telstra push autonomous networks beyond automation with ‘knowledge’ layer",
       "link": "https://www.fierce-network.com/broadband/ericsson-telstra-push-autonomous-networks-beyond-automation-knowledge-layer",
       "summary": "The partners are extending their autonomous networks collaboration to tackle a harder question: How can operators safely hand network decisions to AI without keeping a human in the loop?",
@@ -1740,20 +1797,6 @@
       "ts": 0
     },
     {
-      "title": "Opinion: America is closing broadband gaps. Where is the bigger plan?",
-      "link": "https://www.fierce-network.com/fierce-network-tv/opinion-america-closing-broadband-gaps-where-bigger-plan",
-      "summary": "The hard question is whether progress on connectivity will deliver the coordinated infrastructure needed for its next industrial economy.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Nokia and SoftBank agree to conduct commercial AI-RAN field trial in Japan",
       "link": "https://www.fierce-network.com/newswire/nokia-and-softbank-agree-conduct-commercial-ai-ran-field-trial-japan",
       "summary": "Nokia today announced an agreement with SoftBank Corp. to conduct a commercial AI-RAN field trial in Japan in 2027.",
@@ -1773,20 +1816,6 @@
       "title": "Verizon pushes autonomous networks toward the customer",
       "link": "https://www.fierce-network.com/broadband/verizon-pushes-autonomous-networks-toward-customer",
       "summary": "Network autonomy will depend on faster data, cleaner telemetry and tighter coordination between network operations and customer systems.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Securing the AI-Powered Connected Home",
-      "link": "https://www.fierce-network.com/sponsored/securing-ai-powered-connected-home",
-      "summary": "The next user of your network may not be human. As AI agents move into the home, ISPs need connectivity that stays reliable and cybersecure. See how Plume combines AI, real-time network intelligence and cybersecurity to protect devices from threats and fix problems before customers notice. Watch the full interview.",
       "source": "Fierce Network",
       "themes": [
         "geral"
