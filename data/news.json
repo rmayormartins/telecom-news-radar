@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T10:46:32.069924+00:00",
-  "count": 109,
+  "generated_at": "2026-10-21T16:15:21.842465+00:00",
+  "count": 110,
   "theme_counts": {
-    "moveis": 44,
-    "fibra": 12,
-    "antenas": 6,
+    "moveis": 48,
+    "fibra": 15,
+    "antenas": 7,
     "iot": 0,
-    "satelite": 36,
-    "radar_militar": 6,
+    "satelite": 34,
+    "radar_militar": 7,
     "radiocom": 1,
     "tv": 1,
     "geral": 30
@@ -16,10 +16,10 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
+    "in": 6,
     "jp": 4,
-    "kr": 1,
-    "cn": 1
+    "kr": 0,
+    "cn": 3
   },
   "research_count": 29,
   "sources": [
@@ -65,8 +65,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ok (10 itens)",
-      "kept": 1
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 8
     },
     {
       "source": "3G4G Blog",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (11 itens)",
+      "status": "ok (15 itens)",
       "kept": 0
     },
     {
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,222 @@
     }
   ],
   "items": [
+    {
+      "title": "T-Mobile makes first AI-RAN call with Nokia and Nvidia",
+      "link": "https://www.lightreading.com/ai-machine-learning/t-mobile-makes-first-ai-ran-call-with-nokia-and-nvidia",
+      "summary": "T-Mobile takes strides in AI-RAN with the first call with Nokia and Nvidia, and performance gains with Ericsson's AI beamforming.",
+      "source": "Light Reading",
+      "themes": [
+        "antenas"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-21T16:13:58+00:00",
+      "ts": 1792599238.0
+    },
+    {
+      "title": "Agile Robots, Nvidia target up to 2,000 humanoids in 2027",
+      "link": "https://www.mobileworldlive.com/nvidia/agile-robots-nvidia-target-up-to-2000-humanoids-in-2027/",
+      "summary": "Germany-based robotics firm Agile Robots reportedly plans to produce up to 2,000 humanoid robots next year through a fresh partnership with Nvidia, targeting universities and corporate research labs. The post Agile Robots, Nvidia target up to 2,000 humanoids in 2027 appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": "2026-10-21T16:03:00+00:00",
+      "ts": 1792598580.0
+    },
+    {
+      "title": "AT&T CEO Stankey argues scale matters in satellite debate",
+      "link": "https://www.mobileworldlive.com/att/att-ceo-stankey-argues-scale-matters-in-satellite-debate/",
+      "summary": "AT&T CEO John Stankey outlined the advantages he sees over the potential threat of a direct-to-device (D2D) service by SpaceX during a Q3 earnings call, which included much more low-band spectrum, a scaled network and the ability to penetrate buildings with its mobile service. The post AT&T CEO Stankey argues scale...",
+      "source": "Mobile World Live",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": "2026-10-21T15:03:22+00:00",
+      "ts": 1792595002.0
+    },
+    {
+      "title": "Starlink Surges to 13.6 Million Subscribers as GSMA Assesses TAM Penetration and Telco Defense",
+      "link": "https://satnews.com/2026/10/21/starlink-surges-to-13-6-million-subscribers-as-gsma-assesses-tam-penetration-and-telco-defense/",
+      "summary": "On Tuesday, October 20, 2026, SpaceX released its third-quarter financial results, reporting that Starlink’s global subscriber base reached 13.6 million customers following a quarterly net addition of 1.6 million users. […]",
+      "source": "SatNews",
+      "themes": [
+        "moveis",
+        "satelite",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-21T14:26:53+00:00",
+      "ts": 1792592813.0
+    },
+    {
+      "title": "Nvidia, Nokia claim AI-RAN hype is justified as momentum grows",
+      "link": "https://www.mobileworldlive.com/ai-cloud/nvidia-nokia-claim-ai-ran-hype-is-justified-as-momentum-grows/",
+      "summary": "INTERVIEW: Nokia chief technology and AI officer Pallavi Mahajan and Nvidia VP of telco Ronnie Vasishta told the Mobile World Live Podcast their AI-RAN partnership is showing tangible operator progress, announcing close to 20 operators are lined up for lab and commercial trials of the technology. The post Nvidia,...",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-21T13:59:57+00:00",
+      "ts": 1792591197.0
+    },
+    {
+      "title": "Telecom Wholesale Revenue 2026: How Verizon, BT, Orange, Deutsche Telekom and Tata Communications Monetize Fiber and Network Access",
+      "link": "https://telecomlead.com/broadband/telecom-wholesale-revenue-2026-how-verizon-bt-orange-deutsche-telekom-and-tata-communications-monetize-fiber-and-network-access-128295",
+      "summary": "Telecom operators are expanding wholesale network services beyond traditional mobile roaming to generate revenue from fiber infrastructure, data-center connectivity, enterprise networks and mobile virtual network operator (MVNO) agreements. Verizon secured a dark-fiber agreement worth more than $1 billion with Google,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 59,
+      "date": "2026-10-21T13:12:51+00:00",
+      "ts": 1792588371.0
+    },
+    {
+      "title": "AI Predictive Maintenance in Telecom 2026: AT&T, NTT DOCOMO, China Mobile and Deutsche Telekom Cut Network Repair Time and Costs",
+      "link": "https://telecomlead.com/telecom-services/ai-predictive-maintenance-in-telecom-2026-att-ntt-docomo-china-mobile-and-deutsche-telekom-cut-network-repair-time-and-costs-128289",
+      "summary": "Telecom operators are deploying artificial intelligence (AI) to predict network failures, automate fault diagnosis and reduce maintenance costs as 5G, fiber broadband and cloud infrastructure expand. AT&T avoided 3.1 million unnecessary technician dispatches, NTT DOCOMO reduced complex-fault response time by more than...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "jp",
+        "cn"
+      ],
+      "relevance": 57,
+      "date": "2026-10-21T13:05:14+00:00",
+      "ts": 1792587914.0
+    },
+    {
+      "title": "Telecom Network Sharing 2026: TIM, VodafoneThree, Orange, MTN and Airtel Cut Rural 4G and 5G Costs",
+      "link": "https://telecomlead.com/telecom-services/telecom-network-sharing-2026-tim-vodafonethree-orange-mtn-and-airtel-cut-rural-4g-and-5g-costs-128286",
+      "summary": "Telecom operators are accelerating rural network-sharing agreements in 2026 to reduce the cost of expanding 4G and 5G coverage, particularly in areas where low population density makes independent network construction expensive. TIM and Fastweb + Vodafone could save €250 million–€300 million each over 10 years, while...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 57,
+      "date": "2026-10-21T13:00:05+00:00",
+      "ts": 1792587605.0
+    },
+    {
+      "title": "SpaceX eyes full Starship recovery as Starlink subs miss estimates",
+      "link": "https://www.lightreading.com/satellite/spacex-eyes-full-starship-recovery-as-starlink-subs-miss-estimates",
+      "summary": "Musk says catching Starship's upper stage is 'more likely than not' on the next flight. Starlink, meanwhile, added 1.6M subs, short of forecasts, as ARPU fell to $69.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-21T13:00:00+00:00",
+      "ts": 1792587600.0
+    },
+    {
+      "title": "Telecom Network Cost Efficiency 2026: How Jio, Airtel, China Mobile, T-Mobile and Vodafone Control 5G Costs",
+      "link": "https://telecomlead.com/5g/telecom-network-cost-efficiency-2026-how-jio-airtel-china-mobile-t-mobile-and-vodafone-control-5g-costs-128283",
+      "summary": "Telecom operators are under pressure to reduce network operating costs as 5G traffic expands, energy expenses rise and infrastructure investments continue. In 2026, Reliance Jio carried 69.4 billion GB of quarterly data traffic, Bharti Airtel reported 34.4 GB monthly usage per customer, and China Mobile incurred RMB...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 62,
+      "date": "2026-10-21T12:56:07+00:00",
+      "ts": 1792587367.0
+    },
+    {
+      "title": "Telecom Capex 2026: 25 Major Operators Investing Billions in 5G, Fiber, AI and Data Centers",
+      "link": "https://telecomlead.com/telecom-services/telecom-capex-2026-25-major-operators-investing-billions-in-5g-fiber-ai-and-data-centers-128280",
+      "summary": "Global telecom capital expenditure increased 5 percent in the first half of 2026, driven by investments in 5G networks, fiber broadband, artificial intelligence (AI), cloud computing and data centers. According to Dell’Oro Group’s telecom capex assessment, global telecom equipment revenue also increased approximately...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-10-21T12:50:57+00:00",
+      "ts": 1792587057.0
+    },
+    {
+      "title": "Telecom Debt and Free Cash Flow Rankings 2026: Verizon, AT&T, Deutsche Telekom, China Mobile and T-Mobile Compared",
+      "link": "https://telecomlead.com/telecom-services/telecom-debt-and-free-cash-flow-rankings-2026-verizon-att-deutsche-telekom-china-mobile-and-t-mobile-compared-128274",
+      "summary": "Global telecom operators face a major investment challenge in 2026: financing 5G Advanced, fiber broadband, AI infrastructure and network modernization while managing debt and shareholder returns. Verizon generated $10.2 billion in first-half free cash flow, Deutsche Telekom delivered €10.7 billion, and China Mobile...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 63,
+      "date": "2026-10-21T12:42:12+00:00",
+      "ts": 1792586532.0
+    },
+    {
+      "title": "Elisa and Deutsche Telekom Partner with Nokia and NVIDIA on AI-RAN: 15% Faster 5G Uplink and 2027 Commercial Plans",
+      "link": "https://telecomlead.com/telecom-equipment/elisa-and-deutsche-telekom-partner-with-nokia-and-nvidia-on-ai-ran-15-faster-5g-uplink-and-2027-commercial-plans-128272",
+      "summary": "European telecom operators Elisa and Deutsche Telekom are advancing artificial intelligence-powered radio access networks (AI-RAN) through separate collaborations with Nokia and NVIDIA, demonstrating how AI can improve 5G performance and create opportunities for distributed AI computing. Elisa has completed...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-10-21T11:57:34+00:00",
+      "ts": 1792583854.0
+    },
+    {
+      "title": "AT&T Q3 2026 Revenue Rises 5.3% to $32.3 Billion as Fiber, 5G and Broadband Growth Drives Earnings",
+      "link": "https://telecomlead.com/5g/att-q3-2026-revenue-rises-5-3-to-32-3-billion-as-fiber-5g-and-broadband-growth-drives-earnings-128270",
+      "summary": "AT&T reported third-quarter 2026 revenue of $32.3 billion, up 5.3 percent year over year, supported by expanding fiber broadband, wireless services and customer additions. The US telecom operator recorded more than one million advanced connectivity customer additions for the second consecutive quarter, while...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-21T11:01:23+00:00",
+      "ts": 1792580483.0
+    },
     {
       "title": "SpaceX targets early 2028 for own D2D service launch",
       "link": "https://www.mobileworldlive.com/starlink/spacex-targets-early-2028-for-own-d2d-service-launch/",
@@ -213,20 +429,6 @@
       "relevance": 53,
       "date": "2026-10-21T08:48:05+00:00",
       "ts": 1792572485.0
-    },
-    {
-      "title": "Amazon readies €16B German investment",
-      "link": "https://www.mobileworldlive.com/europe/amazon-readies-e16b-german-investment/",
-      "summary": "Amazon outlined plans to invest more than €16 billion in its German operations in 2027 to expand its AI infrastructure, cloud computing and satellite connectivity. The post Amazon readies €16B German investment appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-21T08:32:41+00:00",
-      "ts": 1792571561.0
     },
     {
       "title": "Why VMO2 isn't afraid of VodafoneThree's monster 5G footprint",
@@ -657,55 +859,6 @@
       "ts": 1792555200.0
     },
     {
-      "title": "Telecom news: OPTAGE, Optus, Vodafone Australia",
-      "link": "https://telecomlead.com/news/telecom-news-optage-optus-vodafone-australia-128263",
-      "summary": "The latest telecom news includes announcements from OPTAGE, Optus 5G Site in Australia, Vodafone Australia, and others. Japan’s OPTAGE Deploys DriveNets White-Box Routers to Modernize IP Edge Network Japanese telecommunications operator OPTAGE has deployed white-box routers powered by DriveNets Network Operating...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 44,
-      "date": "2026-10-21T03:32:17+00:00",
-      "ts": 1792553537.0
-    },
-    {
-      "title": "Telecom news: Singtel, Ericsson, Asiacell, Samsung, VEON, Rubicon Wireless",
-      "link": "https://telecomlead.com/news/telecom-news-singtel-ericsson-asiacell-samsung-veon-rubicon-wireless-128261",
-      "summary": "Today’s telecom news includes announcements on AST SpaceMobile, Singtel, Ericsson, Asiacell, Samsung Electronics, VEON, Rubicon Wireless, among others. Singtel and Ericsson Sign Five-Year Partnership to Advance AI-Native 5G Networks Singtel and Ericsson have announced a five-year strategic partnership to advance...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-10-21T03:23:47+00:00",
-      "ts": 1792553027.0
-    },
-    {
-      "title": "Telecom news: Reliance Jio, Bharti Airtel, Vodafone Idea, Transaction Network Services",
-      "link": "https://telecomlead.com/news/telecom-news-reliance-jio-bharti-airtel-vodafone-idea-transaction-network-services-128259",
-      "summary": "Today’s telecom news includes announcements on Reliance Jio, Bharti Airtel, Vodafone Idea, Transaction Network Services (TNS), among others. Jio Combines 5G and Wi-Fi 6 to Improve Indoor Connectivity Reliance Jio has introduced an integrated indoor small cell combining 5G New Radio (NR) and Wi-Fi 6 in a single device,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 58,
-      "date": "2026-10-21T03:21:32+00:00",
-      "ts": 1792552892.0
-    },
-    {
       "title": "US threatens Europe over Starlink rival",
       "link": "https://www.advanced-television.com/2026/10/21/us-threatens-europe-over-starlink-rival/",
       "summary": "The US has threatened “devastating” measures over any potential threats to Elon Musk’s SpaceX and Starlink broadband-by-satellite system. The US Ambassador to the European Union, Andrew Pazder, has warned that European companies could face harsh countermeasures from Washington, according to a report in the FT. The...",
@@ -792,20 +945,6 @@
       "ts": 1792525438.0
     },
     {
-      "title": "Cox broadband sub losses were worse than expected – analyst",
-      "link": "https://www.lightreading.com/cable-technology/cox-broadband-sub-losses-were-worse-than-expected-analyst",
-      "summary": "Cox's broadband sub losses were higher than expected in recent quarters, according to New Street Research. That presents a challenge to new Spectrum COO Nick Jeffery as he tries to engineer 'The Great Cable Comeback.'",
-      "source": "Light Reading",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-10-20T19:15:00+00:00",
-      "ts": 1792523700.0
-    },
-    {
       "title": "Europe’s Largest Operators Bid to Shape Direct-to-Device: What a Joint MSS Spectrum Move Really Changes",
       "link": "https://tecknexus.com/european-operators-joint-mss-spectrum-bid-direct-to-device/",
       "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone have signed a Letter of Intent to explore a joint bid for Europe's 2 GHz Mobile Satellite Services spectrum, with open wholesale access for every operator. TeckNexus analyses why the move shifts operators from satellite tenants to spectrum holders, how it fits existing...",
@@ -877,23 +1016,6 @@
       "ts": 1792504860.0
     },
     {
-      "title": "China Mobile Q3 2026 Results: Revenue Falls 1.8%, Profit Drops 7.9% as 5G Users Reach 702 Million and Broadband Hits 342 Million",
-      "link": "https://telecomlead.com/5g/china-mobile-q3-2026-results-revenue-falls-1-8-profit-drops-7-9-as-5g-users-reach-702-million-and-broadband-hits-342-million-128254",
-      "summary": "China Mobile has reported a 1.8 percent decline in revenue to RMB780.3 billion and a 7.9 percent fall in net profit to RMB106.2 billion during the first nine months of 2026, despite growth in 5G subscribers and broadband connections. The telecom operator added 8.89 million mobile customers and 13.05 million integrated...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 54,
-      "date": "2026-10-20T13:38:26+00:00",
-      "ts": 1792503506.0
-    },
-    {
       "title": "Veon beefs Uzbek presence with $200M deal",
       "link": "https://www.mobileworldlive.com/operators/veon-strikes-207m-deal-for-uzbek-operator/",
       "summary": "Veon agreed a deal to acquire Uzbekistan mobile operator Perfectum for around $207 million, in a move designed to boost its spectrum holdings and accelerate 5G deployment in the country. The post Veon beefs Uzbek presence with $200M deal appeared first on Mobile World Live .",
@@ -906,20 +1028,6 @@
       "relevance": 51,
       "date": "2026-10-20T11:00:12+00:00",
       "ts": 1792494012.0
-    },
-    {
-      "title": "Ericsson expands work with Singtel, Telstra",
-      "link": "https://www.mobileworldlive.com/ericsson/ericsson-expands-work-with-singtel-telstra/",
-      "summary": "Ericsson unveiled extended partnerships with Singtel and Telstra in two of several announcements made this week based on developing advanced network technologies and automation. The post Ericsson expands work with Singtel, Telstra appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-20T10:47:33+00:00",
-      "ts": 1792493253.0
     },
     {
       "title": "Telefonica, NOS target military, defensive 5G uses",
@@ -937,20 +1045,6 @@
       "ts": 1792493217.0
     },
     {
-      "title": "European telcos consider joint bid for satellite spectrum",
-      "link": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
-      "summary": "The move comes as the European Union grows increasingly wary of its reliance on Elon Musk’s Starlink The post European telcos consider joint bid for satellite spectrum appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-20T10:04:36+00:00",
-      "ts": 1792490676.0
-    },
-    {
       "title": "Telefónica y NOS apuntan a usos militares y defensivos de la 5G",
       "link": "https://www.mobileworldlive.com/spanish/telefonica-y-nos-apuntan-a-usos-militares-y-defensivos-de-la-5g/",
       "summary": "Telefónica ha demostrado las capacidades militares de su infraestructura 5G en un ejercicio con drones y vehículos no tripulados, uno Read more... The post Telefónica y NOS apuntan a usos militares y defensivos de la 5G appeared first on Mobile World Live .",
@@ -963,20 +1057,6 @@
       "relevance": 47,
       "date": "2026-10-20T07:37:42+00:00",
       "ts": 1792481862.0
-    },
-    {
-      "title": "Tele2 Q3 2026 Revenue Rises to SEK 7.6 Billion, Profit Hits SEK 1.4 Billion as Capex Falls 9% and 5G, AI Drive Strategy",
-      "link": "https://telecomlead.com/5g/tele2-q3-2026-revenue-rises-to-sek-7-6-billion-profit-hits-sek-1-4-billion-as-capex-falls-9-and-5g-ai-drive-strategy-128252",
-      "summary": "Tele2 reported revenue of SEK 7.60 billion in the third quarter of 2026, supported by growth in enterprise connectivity, mobile postpaid, digital television and Baltic operations. The Swedish telecom operator generated SEK 1.41 billion in net profit and record quarterly equity free cash flow of SEK 2.30 billion while...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-20T06:10:56+00:00",
-      "ts": 1792476656.0
     },
     {
       "title": "IMT-2030/6G Spectrum Sharing: The Roles of WRC-27, NTIA and ITU-R WP 5D",
@@ -1065,34 +1145,6 @@
       "ts": 1792435327.0
     },
     {
-      "title": "U.S. Ambassador Warns EU of Retaliation Over Satellite Spectrum Reservations",
-      "link": "https://satnews.com/2026/10/19/u-s-ambassador-warns-eu-of-retaliation-over-satellite-spectrum-reservations/",
-      "summary": "In an interview published Sunday, October 18, 2026, U.S. Ambassador to the European Union (EU) Andrew Puzder warned that Brussels will face severe American retaliation if it proceeds with proposals […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-10-19T18:37:56+00:00",
-      "ts": 1792435076.0
-    },
-    {
-      "title": "European Telco Consortium Signs Letter of Intent to Pursue Joint MSS Spectrum Allocation",
-      "link": "https://satnews.com/2026/10/19/european-telco-consortium-signs-letter-of-intent-to-pursue-joint-mss-spectrum-allocation/",
-      "summary": "On Monday, October 19, 2026, four of Europe’s largest telecommunications operators—Deutsche Telekom, Orange, Telefónica, and Vodafone—announced the signing of a Letter of Intent to explore a joint bid for upcoming […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-19T16:19:17+00:00",
-      "ts": 1792426757.0
-    },
-    {
       "title": "Europe's big telcos explore joint satellite spectrum bid to rival Starlink",
       "link": "https://www.lightreading.com/satellite/europe-s-big-telcos-explore-joint-satellite-spectrum-bid-to-rival-starlink",
       "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone consider joint bid for mobile satellite spectrum next year to build European alternative to Starlink.",
@@ -1134,20 +1186,6 @@
       "relevance": 53,
       "date": "2026-10-19T15:41:52+00:00",
       "ts": 1792424512.0
-    },
-    {
-      "title": "European operators confirm satellite spectrum move",
-      "link": "https://www.mobileworldlive.com/network-tech/european-operators-confirm-satellite-spectrum-move/",
-      "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone Group signed a letter of intent to explore a joint bid for a future allocation of spectrum for Mobile Satellite Services, as part of efforts to advance direct-to-device capabilities in Europe. The post European operators confirm satellite spectrum move appeared first...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-10-19T10:40:31+00:00",
-      "ts": 1792406431.0
     },
     {
       "title": "Virgin Media O2 feels highs and lows of Starlink in Wales",
@@ -1337,20 +1375,6 @@
       "relevance": 29,
       "date": "2026-10-15T10:00:04+00:00",
       "ts": 1792058404.0
-    },
-    {
-      "title": "Nokia faces difficulty of selling unwanted businesses",
-      "link": "https://www.lightreading.com/private-networks/nokia-faces-difficulty-of-selling-unwanted-businesses",
-      "summary": "Nokia has found buyers for FWA and private network assets, but its site implementation and microwave units are still mired in uncertainty.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-15T07:30:00+00:00",
-      "ts": 1792049400.0
     },
     {
       "title": "AT&T Exits Mexico in $2B Deal with Televisa and Fintech Holdings",
@@ -1630,6 +1654,20 @@
       "ts": 0
     },
     {
+      "title": "Nokia and Nvidia keep AI-RAN momentum going as they edge closer to commercial reality",
+      "link": "https://www.fierce-network.com/wireless/nokia-nvidia-keep-ai-ran-train-moving-toward-commercial-deployment",
+      "summary": "Nearly a year after Nvidia's $1 billion investment, Nokia is bringing AI deeper into 5G radio processing and moving AI-RAN toward commercial deployment.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "DOCOMO and Abside Networks sign MOU and join study on HAPS",
       "link": "https://www.fierce-network.com/newswire/docomo-and-abside-networks-sign-mou-and-join-study-haps",
       "summary": "The two companies will conduct joint studies toward on wide-area, high-capacity and massive-connectivity communications using HAPS, network control and data utilization.",
@@ -1749,20 +1787,6 @@
       "title": "Securing the AI-Powered Connected Home",
       "link": "https://www.fierce-network.com/sponsored/securing-ai-powered-connected-home",
       "summary": "The next user of your network may not be human. As AI agents move into the home, ISPs need connectivity that stays reliable and cybersecure. See how Plume combines AI, real-time network intelligence and cybersecurity to protect devices from threats and fix problems before customers notice. Watch the full interview.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "The Five Nine: Why AI’s next bottleneck is memory, not GPUs",
-      "link": "https://www.fierce-network.com/cloud/five-nine-memory-squeeze",
-      "summary": "As AI shifts from training to inference, Nvidia and WEKA explain why the next infrastructure crunch may be memory — not compute — and what it means for GPUs, agents and the economics of AI.",
       "source": "Fierce Network",
       "themes": [
         "geral"
