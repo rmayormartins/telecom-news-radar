@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-22T02:19:17.468369+00:00",
-  "count": 111,
+  "generated_at": "2026-10-22T10:47:48.473933+00:00",
+  "count": 108,
   "theme_counts": {
-    "moveis": 49,
-    "fibra": 13,
-    "antenas": 7,
-    "iot": 0,
-    "satelite": 36,
-    "radar_militar": 9,
+    "moveis": 51,
+    "fibra": 11,
+    "antenas": 12,
+    "iot": 2,
+    "satelite": 32,
+    "radar_militar": 10,
     "radiocom": 1,
-    "tv": 1,
-    "geral": 27
+    "tv": 2,
+    "geral": 24
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 6,
-    "jp": 3,
+    "in": 4,
+    "jp": 2,
     "kr": 1,
-    "cn": 3
+    "cn": 1
   },
   "research_count": 29,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 5
     },
     {
       "source": "3G4G Blog",
@@ -150,22 +150,22 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (38 itens)",
-      "kept": 8
-    },
-    {
-      "source": "arXiv cs.NI",
-      "status": "ok (24 itens)",
-      "kept": 8
-    },
-    {
-      "source": "arXiv cs.IT",
       "status": "ok (36 itens)",
       "kept": 8
     },
     {
-      "source": "arXiv eess.SY",
+      "source": "arXiv cs.NI",
+      "status": "ok (21 itens)",
+      "kept": 8
+    },
+    {
+      "source": "arXiv cs.IT",
       "status": "ok (41 itens)",
+      "kept": 8
+    },
+    {
+      "source": "arXiv eess.SY",
+      "status": "ok (43 itens)",
       "kept": 5
     },
     {
@@ -200,6 +200,503 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: Spectrum, Korda, GlobalConnect, SpaceX",
+      "link": "https://telecomlead.com/news/telecom-news-spectrum-korda-globalconnect-spacex-128317",
+      "summary": "Today’s telecom news includes announcements on Charter Communications, Spectrum, Korda, GlobalConnect, SpaceX, among others. Spectrum Activates Gigabit Fiber Network for 2,900 Additional Warrick County Locations Charter Communications has completed another rural broadband expansion in Indiana, making Spectrum fiber...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-22T07:10:50+00:00",
+      "ts": 1792653050.0
+    },
+    {
+      "title": "Telecom news: AT&T, Spectrum, Indiana fiber network, broadband infrastructure in Michigan",
+      "link": "https://telecomlead.com/news/telecom-news-att-spectrum-indiana-fiber-network-broadband-infrastructure-in-michigan-128315",
+      "summary": "Today’s telecom news includes announcements on AT&T, Spectrum, Indiana fiber broadband network, broadband infrastructure in Michigan, among others. AT&T Maintains 60 Million Fiber Location Target While Reducing Planned Capital Investment AT&T has reaffirmed its target of reaching more than 60 million fiber locations...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-10-22T07:06:34+00:00",
+      "ts": 1792652794.0
+    },
+    {
+      "title": "Telecom news: Orange, Vodafone Idea, ZTE, Kazakhtelecom",
+      "link": "https://telecomlead.com/news/telecom-news-orange-vodafone-idea-zte-kazakhtelecom-128307",
+      "summary": "Today’s telecom news includes announcements on Orange, Vodafone Idea, ZTE, Kazakhtelecom, among others. Orange Reports Major Mobile Network Disruption Across France French telecommunications operator Orange reported a network incident on October 21 that caused major disruptions to mobile services across France. The...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in",
+        "cn"
+      ],
+      "relevance": 49,
+      "date": "2026-10-22T05:50:58+00:00",
+      "ts": 1792648258.0
+    },
+    {
+      "title": "Telia Q3 2026 Revenue Rises to SEK 21.3 Billion as Profit, Broadband and AI Adoption Grow",
+      "link": "https://telecomlead.com/5g/telia-q3-2026-revenue-rises-to-sek-21-3-billion-as-profit-broadband-and-ai-adoption-grow-128305",
+      "summary": "Telia reported revenue of SEK 21.3 billion in Q3 2026, up 7.3 percent, supported by growth in Sweden, Norway and the Baltic markets. The Nordic telecom operator also delivered stronger profitability, increased free cash flow and expanded its broadband customer base while accelerating investments in 5G, fiber,...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 40,
+      "date": "2026-10-22T05:31:27+00:00",
+      "ts": 1792647087.0
+    },
+    {
+      "title": "Telecom news: NVIDIA, Nokia, T-Mobile, BTRC, Vodacom Mpumalanga",
+      "link": "https://telecomlead.com/news/telecom-news-nvidia-nokia-t-mobile-btrc-vodacom-mpumalanga-128300",
+      "summary": "Today’s telecom news includes announcements on NVIDIA, Nokia, T-Mobile, BTRC, Vodacom Mpumalanga, among others. T-Mobile, Nokia and NVIDIA Complete First AI-RAN Call on Live US Commercial 5G Network T-Mobile US, Nokia and NVIDIA have completed an AI-RAN call at a commercial mobile-network site in Bellevue, Washington....",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-22T04:48:44+00:00",
+      "ts": 1792644524.0
+    },
+    {
+      "title": "Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation",
+      "link": "https://arxiv.org/abs/2607.27778",
+      "summary": "arXiv:2607.27778v3 Announce Type: replace Abstract: In this paper, we develop a cross-layer end-to-end (E2E) resource orchestration framework for green cell-free massive multiple-input multiple-output (CF-mMIMO) integrated sensing and communication (ISAC) systems with distributed multi-target detection. We propose a...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 78,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Pilot Decontamination via Data-aided Channel Tracking in Cell-free Massive MIMO",
+      "link": "https://arxiv.org/abs/2610.29883",
+      "summary": "arXiv:2610.29883v1 Announce Type: new Abstract: As cell-free massive MIMO emerges as a promising technology for future wireless networks, robust channel estimation becomes increasingly important. Channel estimation relies on pilot transmissions, and with increasing number of users, pilot reuse inevitably introduces...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 71,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Precision Coexistence: Angular-Spectral Region Constrained Waveform Design for MIMO-ISAC",
+      "link": "https://arxiv.org/abs/2610.29364",
+      "summary": "arXiv:2610.29364v1 Announce Type: new Abstract: In this paper, we develop a dual-function waveform design framework for multiple-input multiple-output integrated sensing and communication (MIMO-ISAC) systems operating in congested electromagnetic environments. In such environments, the dual-function waveform must...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 71,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Unsupervised Learning for Scalable Downlink Power Control in Cell-Free Massive MIMO",
+      "link": "https://arxiv.org/abs/2605.26301",
+      "summary": "arXiv:2605.26301v2 Announce Type: replace Abstract: In cell-free massive multiple-input multiple-output systems, downlink power control is essential to ensure uniformly high service quality across users. Existing solutions range from computationally demanding centralized optimization to scalable distributed schemes...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 68,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Training-Efficient Channel Estimation for the Multiuser Uplink Relying on Generalized Flexible Intelligent Metasurfaces",
+      "link": "https://arxiv.org/abs/2610.29658",
+      "summary": "arXiv:2610.29658v1 Announce Type: new Abstract: We consider uplink multiuser channel estimation for a generalized flexible intelligent metasurface at the base station, under narrowband far-field propagation and a twin-time-scale mechanical protocol: on the slow time-scale the panel translates rigidly over a planar...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond",
+      "link": "https://arxiv.org/abs/2610.29155",
+      "summary": "arXiv:2610.29155v1 Announce Type: new Abstract: In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones). 5uGUE combines multi-step reasoning with tool-assisted interaction and integrates into the...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 66,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Wave Processing Unit: Closed-Form Matrix Synthesis for Wave Computing in Multiuser MIMO Communications",
+      "link": "https://arxiv.org/abs/2610.29687",
+      "summary": "arXiv:2610.29687v1 Announce Type: new Abstract: Wave computing offers a compelling route to bypass the latency and energy bottlenecks of digital baseband processing. However, existing wave-domain processors rely on task-specific, non-convex iterative optimization, which incurs substantial configuration overhead and...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Broadcasting in Centimeter-Wave Gigantic MIMO Systems: Beam Shaping is All You Need",
+      "link": "https://arxiv.org/abs/2610.29542",
+      "summary": "arXiv:2610.29542v1 Announce Type: new Abstract: Beamforming is a key enabling technology for centimeter-wave Gigantic MIMO (G-MIMO) systems, using antenna arrays to generate wide beams for cell-wide broadcasting or narrow beams for data transmission. This paper presents a novel \\emph{beam shaping technology} for...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "antenas",
+        "tv"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 64,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Computational and Effective Degrees of Freedom for Spatially Stationary HMIMO Channel Modeling",
+      "link": "https://arxiv.org/abs/2607.23487",
+      "summary": "arXiv:2607.23487v2 Announce Type: replace Abstract: This paper establishes a comprehensive theoretical framework for the continuous-to-discrete modeling of spatially stationary holographic MIMO (HMIMO) channels utilizing the Nystrom method with Gauss-Legendre quadrature (NGLQ). Starting with an operator-theoretic...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Precision-Aware Hierarchical Spectrum Search for Finite-Precision MUSIC DOA Estimation",
+      "link": "https://arxiv.org/abs/2610.29059",
+      "summary": "arXiv:2610.29059v1 Announce Type: new Abstract: Dense-grid spectrum search is computationally costly for multiple signal classification (MUSIC) direction-of-arrival (DOA) estimation, and low-precision evaluation can introduce numerical errors that distort candidate selection. This paper proposes precision-aware...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Deep Reinforcement Learning Assistance for Resilient Haptic Teleoperation over a 5G Network",
+      "link": "https://arxiv.org/abs/2610.29511",
+      "summary": "arXiv:2610.29511v1 Announce Type: new Abstract: Haptic teleoperation requires low-latency and reliable communication to preserve stable and responsive interaction between a human operator and a remote environment. However, network congestion can strongly degrade teleoperation performance, particularly when haptic...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Multiuser Channel Estimation in FIM Systems: A Structured Block Term Decomposition Approach",
+      "link": "https://arxiv.org/abs/2610.30000",
+      "summary": "arXiv:2610.30000v1 Announce Type: new Abstract: Flexible intelligent metasurfaces (FIMs) create geometry-dependent array responses that provide spatial diversity but complicate multiuser channel estimation. This paper studies uplink estimation using pilot observations collected under multiple prescribed and calibrated...",
+      "source": "arXiv eess.SP",
+      "themes": [
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Hybrid PPO-Based Multi-Objective Optimization for UAV-mounted STAR-RIS with Energy Harvesting",
+      "link": "https://arxiv.org/abs/2610.28807",
+      "summary": "arXiv:2610.28807v1 Announce Type: new Abstract: This paper investigates a multi-objective optimiza tion framework for UAV-mounted reconfigurable intelligent sur face (STAR-RIS)-assisted Sixth Generation (6G)-enabled Internet of Things (IoT) systems. The considered framework jointly supports communication enhancement...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "moveis",
+        "antenas",
+        "iot"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 62,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Energy-Efficient Timely Relevant IoT Data Retrieval with Wireless Memory Approximation",
+      "link": "https://arxiv.org/abs/2610.29236",
+      "summary": "arXiv:2610.29236v1 Announce Type: new Abstract: Collecting relevant data from Internet of Things devices under freshness and energy constraints is a key challenge in 6G edge networks. A lightweight neural network on the device filters irrelevant observations, but storing it in dynamic random access memory consumes...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis",
+        "iot"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "A Novel Schur Decomposition-Based Weight Projection Method for Stable State-Space Neural-Network Architectures",
+      "link": "https://arxiv.org/abs/2605.14489",
+      "summary": "arXiv:2605.14489v3 Announce Type: replace-cross Abstract: Building black-box models for dynamical systems from data is a challenging problem in machine learning, especially when asymptotic stability guarantees are required. In this paper, we introduce a novel stability-ensuring and backpropagation-compatible...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "CellTwin: Reproducible Cellular Network Emulation via High Resolution, in situ Measurement-Driven ML",
+      "link": "https://arxiv.org/abs/2604.26080",
+      "summary": "arXiv:2604.26080v2 Announce Type: replace Abstract: Current and future applications demand ultra-low latency and consistent throughput, yet frequently traverse 5G cellular networks, so cope with volatile packet dynamics, as 5G base station schedulers dynamically react to user workloads and wireless channel conditions....",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Exploiting Pinching Antenna Systems in NOMA Covert Communication Networks",
+      "link": "https://arxiv.org/abs/2610.29433",
+      "summary": "arXiv:2610.29433v1 Announce Type: new Abstract: Pinching antenna systems (PASS) provide flexible transmitter-side radiation reconfiguration for high-frequency wireless communications. This paper applies PASS to non-orthogonal multiple access (NOMA) covert communication networks, where activated pinching antennas (PAs)...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "antenas"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Some Results on the Weight Spectrum of Binary Reed-Muller Codes $RM(m-7,m)$",
+      "link": "https://arxiv.org/abs/2610.29807",
+      "summary": "arXiv:2610.29807v1 Announce Type: new Abstract: We study the set of weights occurring in the high-order binary Reed-Muller codes $RM(m-7,m)$. For every $m\\geq 14$, we prove that the weight spectrum contains all even weights in $[336,2^m-336]$, together with an explicit finite set of low weights and their complements....",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Certified Neural Approximation of Robust Nonlinear Model Predictive Control",
+      "link": "https://arxiv.org/abs/2610.29559",
+      "summary": "arXiv:2610.29559v1 Announce Type: new Abstract: Model predictive control is a high-performance control method, but it incurs comparatively high online computational costs across many control tasks and is challenging to realize in low-level hardware settings. To address this, we present a framework for generating...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Moment Ambiguity and the Limits of Robust Stochastic Optimization",
+      "link": "https://arxiv.org/abs/2609.31090",
+      "summary": "arXiv:2609.31090v3 Announce Type: replace Abstract: We study fundamental information-theoretic limits of robust stochastic optimization when the distribution is known only through its exact moment sequence. We develop a unified framework that produces families of distinct distributions sharing all moments yet inducing...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Agent AI Zarz\\k{a}dzaj\\k{a}cy Sieci\\k{a} Open RAN Zorientowana na U\\.zytkownika",
+      "link": "https://arxiv.org/abs/2610.28860",
+      "summary": "arXiv:2610.28860v1 Announce Type: new Abstract: Jednym z najwa\\.zniejszych wyzwa\\'n zwi\\k{a}zanych z implementacj\\k{a} sieci Open RAN o architekturze zorientowanej na u\\.zytkownika jest odpowiednie formowanie tzw. klastr\\'ow obs{\\l}uguj\\k{a}cych. Problem ten mo\\.ze by\\'c efektywnie rozwi\\k{a}zany za pomoc\\k{a}...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "moveis"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Grid-Supervised Flow Refinement for Wireless Localization",
+      "link": "https://arxiv.org/abs/2510.14111",
+      "summary": "arXiv:2510.14111v2 Announce Type: replace Abstract: This paper introduces FlowLoc, a framework for high-accuracy user equipment positioning from channel state information observed at multiple base stations. The input is a magnitude channel impulse response fingerprint derived from channel estimates. FlowLoc combines a...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Machine Learning-Enabled Wireless Power Transfer: A Task-Oriented Review of Structural Optimization, State and Parameter Estimation, and Adaptive Control",
+      "link": "https://arxiv.org/abs/2610.30101",
+      "summary": "arXiv:2610.30101v1 Announce Type: new Abstract: Wireless power transfer (WPT) systems must maintain efficient and safe energy delivery under variations in geometry, coupling, load, alignment, and operating conditions. Machine-learning methods are increasingly applied to accelerate structural design, estimate operating...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Traffic State Prediction and Control Using a Koopman Operator Framework with Polynomial Observables",
+      "link": "https://arxiv.org/abs/2610.19442",
+      "summary": "arXiv:2610.19442v2 Announce Type: replace Abstract: In this paper, we develop a Koopman operator framework for modeling and control of traffic flow governed by the Lighthill--Whitham--Richards (LWR) conservation law. We show that the nonlinear dynamics induced by the Greenshields flow--density relation naturally...",
+      "source": "arXiv eess.SY",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "RadioDreamer: A World Model for Radio Map Forecasting and Imagination-Based Optimization",
+      "link": "https://arxiv.org/abs/2610.29382",
+      "summary": "arXiv:2610.29382v1 Announce Type: new Abstract: Radio maps characterize the spatial distribution of wireless conditions and are fundamental to network planning and optimization. However, existing learning-based methods reconstruct isolated radio-map snapshots and do not model how network actions drive the evolution of...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "MASAR: Multi-stage Attack Surface Analysis and Reasoning Framework for Telecom Networks",
+      "link": "https://arxiv.org/abs/2610.29343",
+      "summary": "arXiv:2610.29343v1 Announce Type: cross Abstract: The increasing complexity of modern telecommunications networks introduces security challenges that require systematic threat analysis. However, a gap remains between architectural threat modeling frameworks, such as Spoofing, Tampering, Repudiation, Information...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+      "link": "https://arxiv.org/abs/2610.30090",
+      "summary": "arXiv:2610.30090v1 Announce Type: cross Abstract: Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models...",
+      "source": "arXiv cs.NI",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "A Matroidal Framework for Random Access in Linear Codes",
+      "link": "https://arxiv.org/abs/2610.28820",
+      "summary": "arXiv:2610.28820v1 Announce Type: new Abstract: We study random access in linear codes when codeword symbols are sampled independently and uniformly with replacement. A code is recovery balanced if the expected number of samples required to recover a codeword coordinate is the same for every coordinate. We express the...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
+    {
+      "title": "Diffusion Sensitivity Geometry and Strong Duality for Optimal Privacy-Utility Tradeoffs",
+      "link": "https://arxiv.org/abs/2610.28991",
+      "summary": "arXiv:2610.28991v1 Announce Type: new Abstract: Existing approaches to differential privacy in diffusion models rely on loose sensitivity bounds and isotropic Gaussian noise, leading to unnecessary estimation error. We develop a framework for the optimal privacy-utility tradeoff of ideal diffusion denoisers, replacing...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "geral"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 45,
+      "date": "2026-10-22T04:00:00+00:00",
+      "ts": 1792641600.0
+    },
     {
       "title": "Deep Dive – AT&T Fiber vs. Verizon Fios: Fiber Deployments, Footprints and Convergence Strategies",
       "link": "https://techblog.comsoc.org/2026/10/21/deep-dive-att-fiber-vs-verizon-fios-fiber-deployments-footprints-and-convergence-strategies/",
@@ -375,69 +872,18 @@
       "ts": 1792592813.0
     },
     {
-      "title": "Telecom Wholesale Revenue 2026: How Verizon, BT, Orange, Deutsche Telekom and Tata Communications Monetize Fiber and Network Access",
-      "link": "https://telecomlead.com/broadband/telecom-wholesale-revenue-2026-how-verizon-bt-orange-deutsche-telekom-and-tata-communications-monetize-fiber-and-network-access-128295",
-      "summary": "Telecom operators are expanding wholesale network services beyond traditional mobile roaming to generate revenue from fiber infrastructure, data-center connectivity, enterprise networks and mobile virtual network operator (MVNO) agreements. Verizon secured a dark-fiber agreement worth more than $1 billion with Google,...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 59,
-      "date": "2026-10-21T13:12:51+00:00",
-      "ts": 1792588371.0
-    },
-    {
-      "title": "Connected Car Revenue 2026: How GM, Verizon, Vodafone, AT&T and T-Mobile Monetize Vehicle Connectivity",
-      "link": "https://telecomlead.com/5g/connected-car-revenue-2026-how-gm-verizon-vodafone-att-and-t-mobile-monetize-vehicle-connectivity-128292",
-      "summary": "Connected vehicles are emerging as a recurring revenue opportunity for telecom operators and automakers, driven by embedded SIM connectivity, vehicle software subscriptions, fleet management, over-the-air updates and connected safety services. General Motors expects more than $3 billion in OnStar revenue during 2026,...",
-      "source": "Telecom Lead",
+      "title": "Nvidia, Nokia claim AI-RAN hype is justified as momentum grows",
+      "link": "https://www.mobileworldlive.com/ai-cloud/nvidia-nokia-claim-ai-ran-hype-is-justified-as-momentum-grows/",
+      "summary": "INTERVIEW: Nokia chief technology and AI officer Pallavi Mahajan and Nvidia SVP of telco Ronnie Vasishta told the Mobile World Live Podcast their AI-RAN partnership is showing tangible progress, announcing close to 20 operators are lined up for lab and commercial trials of the technology. The post Nvidia, Nokia claim...",
+      "source": "Mobile World Live",
       "themes": [
         "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 43,
-      "date": "2026-10-21T13:09:07+00:00",
-      "ts": 1792588147.0
-    },
-    {
-      "title": "AI Predictive Maintenance in Telecom 2026: AT&T, NTT DOCOMO, China Mobile and Deutsche Telekom Cut Network Repair Time and Costs",
-      "link": "https://telecomlead.com/telecom-services/ai-predictive-maintenance-in-telecom-2026-att-ntt-docomo-china-mobile-and-deutsche-telekom-cut-network-repair-time-and-costs-128289",
-      "summary": "Telecom operators are deploying artificial intelligence (AI) to predict network failures, automate fault diagnosis and reduce maintenance costs as 5G, fiber broadband and cloud infrastructure expand. AT&T avoided 3.1 million unnecessary technician dispatches, NTT DOCOMO reduced complex-fault response time by more than...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "cn"
-      ],
-      "relevance": 57,
-      "date": "2026-10-21T13:05:14+00:00",
-      "ts": 1792587914.0
-    },
-    {
-      "title": "Telecom Network Sharing 2026: TIM, VodafoneThree, Orange, MTN and Airtel Cut Rural 4G and 5G Costs",
-      "link": "https://telecomlead.com/telecom-services/telecom-network-sharing-2026-tim-vodafonethree-orange-mtn-and-airtel-cut-rural-4g-and-5g-costs-128286",
-      "summary": "Telecom operators are accelerating rural network-sharing agreements in 2026 to reduce the cost of expanding 4G and 5G coverage, particularly in areas where low population density makes independent network construction expensive. TIM and Fastweb + Vodafone could save €250 million–€300 million each over 10 years, while...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 57,
-      "date": "2026-10-21T13:00:05+00:00",
-      "ts": 1792587605.0
+      "relevance": 37,
+      "date": "2026-10-21T13:59:57+00:00",
+      "ts": 1792591197.0
     },
     {
       "title": "SpaceX eyes full Starship recovery as Starlink subs miss estimates",
@@ -454,68 +900,18 @@
       "ts": 1792587600.0
     },
     {
-      "title": "Telecom Network Cost Efficiency 2026: How Jio, Airtel, China Mobile, T-Mobile and Vodafone Control 5G Costs",
-      "link": "https://telecomlead.com/5g/telecom-network-cost-efficiency-2026-how-jio-airtel-china-mobile-t-mobile-and-vodafone-control-5g-costs-128283",
-      "summary": "Telecom operators are under pressure to reduce network operating costs as 5G traffic expands, energy expenses rise and infrastructure investments continue. In 2026, Reliance Jio carried 69.4 billion GB of quarterly data traffic, Bharti Airtel reported 34.4 GB monthly usage per customer, and China Mobile incurred RMB...",
-      "source": "Telecom Lead",
+      "title": "Podcast: Exclusive – Nokia, Nvidia advance AI-RAN at GTC",
+      "link": "https://www.mobileworldlive.com/network-tech/podcast-exclusive-nokia-nvidia-advance-ai-ran-at-gtc/",
+      "summary": "With Nvidia's GTC Berlin event in full swing, the company's telecoms boss Ronnie Vasishta and Nokia chief technology and AI officer Pallavi Mahajan sit down with the Mobile World Live Podcast in an exclusive interview to reveal the next stage of the pair's AI-RAN journey. The post Podcast: Exclusive – Nokia, Nvidia...",
+      "source": "Mobile World Live",
       "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in",
-        "cn"
-      ],
-      "relevance": 62,
-      "date": "2026-10-21T12:56:07+00:00",
-      "ts": 1792587367.0
-    },
-    {
-      "title": "Telecom Capex 2026: 25 Major Operators Investing Billions in 5G, Fiber, AI and Data Centers",
-      "link": "https://telecomlead.com/telecom-services/telecom-capex-2026-25-major-operators-investing-billions-in-5g-fiber-ai-and-data-centers-128280",
-      "summary": "Global telecom capital expenditure increased 5 percent in the first half of 2026, driven by investments in 5G networks, fiber broadband, artificial intelligence (AI), cloud computing and data centers. According to Dell’Oro Group’s telecom capex assessment, global telecom equipment revenue also increased approximately...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 49,
-      "date": "2026-10-21T12:50:57+00:00",
-      "ts": 1792587057.0
-    },
-    {
-      "title": "Telecom Debt and Free Cash Flow Rankings 2026: Verizon, AT&T, Deutsche Telekom, China Mobile and T-Mobile Compared",
-      "link": "https://telecomlead.com/telecom-services/telecom-debt-and-free-cash-flow-rankings-2026-verizon-att-deutsche-telekom-china-mobile-and-t-mobile-compared-128274",
-      "summary": "Global telecom operators face a major investment challenge in 2026: financing 5G Advanced, fiber broadband, AI infrastructure and network modernization while managing debt and shareholder returns. Verizon generated $10.2 billion in first-half free cash flow, Deutsche Telekom delivered €10.7 billion, and China Mobile...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 63,
-      "date": "2026-10-21T12:42:12+00:00",
-      "ts": 1792586532.0
-    },
-    {
-      "title": "Elisa and Deutsche Telekom Partner with Nokia and NVIDIA on AI-RAN: 15% Faster 5G Uplink and 2027 Commercial Plans",
-      "link": "https://telecomlead.com/telecom-equipment/elisa-and-deutsche-telekom-partner-with-nokia-and-nvidia-on-ai-ran-15-faster-5g-uplink-and-2027-commercial-plans-128272",
-      "summary": "European telecom operators Elisa and Deutsche Telekom are advancing artificial intelligence-powered radio access networks (AI-RAN) through separate collaborations with Nokia and NVIDIA, demonstrating how AI can improve 5G performance and create opportunities for distributed AI computing. Elisa has completed...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-10-21T11:57:34+00:00",
-      "ts": 1792583854.0
+      "relevance": 37,
+      "date": "2026-10-21T11:31:08+00:00",
+      "ts": 1792582268.0
     },
     {
       "title": "SpaceX targets early 2028 for own D2D service launch",
@@ -544,420 +940,6 @@
       "relevance": 48,
       "date": "2026-10-21T07:30:00+00:00",
       "ts": 1792567800.0
-    },
-    {
-      "title": "Beam-Domain Channel Estimation for mmWave MIMO using Sub-6 GHz Out-of-Band Information",
-      "link": "https://arxiv.org/abs/2607.24227",
-      "summary": "arXiv:2607.24227v2 Announce Type: replace Abstract: Future wireless multiple-input multiple-output (MIMO) systems will integrate sub-6 GHz and millimeter wave (mmWave) bands to support high data rates for latency-critical applications. The coexistence of these bands enables the use of reliable out-of-band sub-6 GHz...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "RIS Configuration with Low-Overhead Measurements via Physics-Guided Neural Networks",
-      "link": "https://arxiv.org/abs/2610.27972",
-      "summary": "arXiv:2610.27972v1 Announce Type: new Abstract: This paper studies reconfigurable intelligent surface (RIS) configuration for a single-input single-output (SISO) communication link using a two-stage estimate-then-optimize procedure. Within this framework, two common approaches to the estimation stage are pilot-based...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 68,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "6G: From Connectivity Infrastructure to Guaranteed Digital Services",
-      "link": "https://arxiv.org/abs/2607.24185",
-      "summary": "arXiv:2607.24185v4 Announce Type: replace Abstract: Sixth-generation (6G) mobile networks offer an opportunity to align network architecture with operator control, verifiable service outcomes, and governed automation. This article develops four complementary contributions. The Control Compact allocates ownership and...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Learning-Based Spectrum Cartography in Low Earth Orbit Satellite Networks: A Survey",
-      "link": "https://arxiv.org/abs/2605.10359",
-      "summary": "arXiv:2605.10359v2 Announce Type: replace Abstract: Low earth orbit (LEO) satellite networks are emerging as important infrastructure for global connectivity and space-based sensing, while their rapidly varying geometry, heterogeneous measurements, and dynamic propagation environments create challenges for acquiring...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Revolutionizing 6G Wireless Networks with RISs: Enhancements in Sensing and Communications",
-      "link": "https://arxiv.org/abs/2610.27695",
-      "summary": "arXiv:2610.27695v1 Announce Type: new Abstract: Reconfigurable intelligent surfaces (RISs) have emerged as one of the most promising technologies for the next-generation wireless networks, offering advantages such as cost efficiency, low power consumption, flexible deployment, and large effective aperture. Extensive...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 62,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Structured PARAFAC Channel Estimation for Flexible Intelligent Metasurface Receivers",
-      "link": "https://arxiv.org/abs/2610.27445",
-      "summary": "arXiv:2610.27445v1 Announce Type: new Abstract: Flexible intelligent metasurfaces (FIMs) create geometric diversity through aperture morphing, but their configuration-dependent responses complicate uplink channel estimation. This letter considers multiple users sharing a common angular response and develops a...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "A Hierarchical Space-Ground Collaborative Network: Architecture Design and Deployment",
-      "link": "https://arxiv.org/abs/2610.28459",
-      "summary": "arXiv:2610.28459v1 Announce Type: new Abstract: The sixth-generation (6G) landscape demands a profound architectural evolution toward a unified, collaborative ecosystem that integrates satellite and terrestrial segments to provide ubiquitous global connectivity. Nevertheless, conventional independent management...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Sionna Bench: Towards Benchmarks in Wireless Communications",
-      "link": "https://arxiv.org/abs/2610.27174",
-      "summary": "arXiv:2610.27174v1 Announce Type: cross Abstract: Academic research in wireless communications has no tradition of benchmarks so far. Remarkable progress in benchmark-oriented fields like machine learning suggests that the adoption of benchmarks could benefit our field. In the absence of benchmarks, however, a...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Handover-Aware Power Minimization for Networked LEO Satellite Communications: Joint Cooperative Beamforming and Scheduling",
-      "link": "https://arxiv.org/abs/2603.07434",
-      "summary": "arXiv:2603.07434v2 Announce Type: replace Abstract: Networked low Earth orbit (LEO) satellite constellations enabled by inter-satellite links offer a promising path toward ubiquitous broadband non-terrestrial services, as cooperative transmission increases the received power and suppresses interference. However, fast...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "fibra",
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Unsupervised Head Network Personalization for Split Computing via Federated Learning",
-      "link": "https://arxiv.org/abs/2610.27952",
-      "summary": "arXiv:2610.27952v1 Announce Type: cross Abstract: Split Computing (SC) is a distributed inference method designed for balancing computational load and reducing latency by partitioning a neural network into head and tail networks and deploying them across both a mobile device and a server, respectively. Due to the...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "NVIDIA Spectrum-X: Hardware-Accelerated Multiplane Networking for Large-Scale AI Training",
-      "link": "https://arxiv.org/abs/2605.21187",
-      "summary": "arXiv:2605.21187v2 Announce Type: replace Abstract: As distributed model training scales to span hundreds of thousands of GPUs, scale-out networks face unprecedented performance and efficiency demands. NVIDIA Spectrum-X Ethernet has been designed from the ground up to achieve predictable and stable network performance...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Analysis and Optimization of Age of Information in Large-Scale Random Access Networks",
-      "link": "https://arxiv.org/abs/2610.27612",
-      "summary": "arXiv:2610.27612v1 Announce Type: new Abstract: We consider a large-scale network where multiple nodes transmit time-sensitive information via a shared channel to a wireless base station using a Carrier-Sense Multiple Access (CSMA) protocol. In this network, packet transmissions from different nodes are...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Toward Agentic AI for the 6G Physical Layer: From Algorithm Discovery to Verified Baseband Silicon",
-      "link": "https://arxiv.org/abs/2610.27797",
-      "summary": "arXiv:2610.27797v1 Announce Type: cross Abstract: 6G will be designed faster than it can be built: AI-driven search already proposes physical-layer algorithms at machine speed, while carrying a single one onto embedded baseband silicon remains specialist work. That silicon imposes hard memory and numeric limits, but...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Evict Early, Decode Efficiently: Lightweight Decoding Strategies for Low-Delay Sliding Window RLNC",
-      "link": "https://arxiv.org/abs/2610.28097",
-      "summary": "arXiv:2610.28097v1 Announce Type: new Abstract: Random Linear Network Coding (RLNC), and in particular Sliding Window RLNC (SW-RLNC), is a promising approach for reliable, low-latency communication in dynamic environments such as 6G and non-terrestrial networks. While prior work has largely focused on encoder-side...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Generative Diffusion Models for Secure UAV-ISAC with Real-Time Target Tracking",
-      "link": "https://arxiv.org/abs/2610.28309",
-      "summary": "arXiv:2610.28309v1 Announce Type: new Abstract: Unmanned aerial vehicle (UAV) platforms with integrated sensing and communication (ISAC) are prime candidates for surveillance missions, in which a dual-function drone tracks a mobile target and alerts a ground station when the target enters a protected region. Such...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Certified Non-Degenerate Maximum-Likelihood Benchmarking of Quantum LDPC Decoders",
-      "link": "https://arxiv.org/abs/2610.28008",
-      "summary": "arXiv:2610.28008v1 Announce Type: new Abstract: The measured logical error rate of a quantum low-density parity-check (QLDPC) code depends on the decoding algorithm. We develop a framework that certifies non-degenerate maximum-likelihood (ML) decoding outcomes on individual sampled shots under circuit-level noise,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "CorteXforge: Scenario-Based RF Dataset Generation on Real Testbeds",
-      "link": "https://arxiv.org/abs/2610.26999",
-      "summary": "arXiv:2610.26999v1 Announce Type: cross Abstract: Deep learning for radio frequency (RF) signal analysis relies on large annotated datasets, yet synthetic datasets trade physical realism for controllability, while uncontrolled over-theair measurements offer realism but limited reproducibility. We present CorteXforge,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Moment Ambiguity and the Limits of Robust Stochastic Optimization",
-      "link": "https://arxiv.org/abs/2609.31090",
-      "summary": "arXiv:2609.31090v2 Announce Type: replace Abstract: We study fundamental information-theoretic limits of robust stochastic optimization when the distribution is known only through its exact moment sequence. We develop a unified framework that produces families of distinct distributions sharing all moments yet inducing...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Semantic Communications: Principles, Architectures and Applications",
-      "link": "https://arxiv.org/abs/2610.27544",
-      "summary": "arXiv:2610.27544v1 Announce Type: new Abstract: Conventional communication systems are designed to transmit data reliably, focusing on metrics such as bit error rate, throughput, and channel capacity. However, these traditional measures do not evaluate whether the received information is actually useful for a specific...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "From Partitioning to Provisioning: Co-Designing DNN Deployment and Infrastructure Capacity",
-      "link": "https://arxiv.org/abs/2610.27749",
-      "summary": "arXiv:2610.27749v1 Announce Type: new Abstract: Deep neural network (DNN) partitioning enables distributed inference by dividing model computation across interconnected devices. Existing approaches have largely focused on optimizing DNN deployment over infrastructure with fixed computing and communication capacities....",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Data-Driven Minimum Energy Control for Stochastic Linear Systems with Finite Sample Guarantees",
-      "link": "https://arxiv.org/abs/2610.27599",
-      "summary": "arXiv:2610.27599v1 Announce Type: new Abstract: The open-loop minimum-energy control (MEC) problem asks for control inputs that minimize the control energy while ensuring the terminal state reaches a desired value. In this paper, we study the open-loop MEC problem for stochastic linear time-invariant systems. We...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "NANO: A Unified Optimization Framework for Nonlinear Gaussian Filtering",
-      "link": "https://arxiv.org/abs/2610.16576",
-      "summary": "arXiv:2610.16576v2 Announce Type: replace Abstract: Conventional Gaussian filtering typically approximates nonlinear models or their statistical moments and retains the Kalman update structure. The resulting approximation errors can affect both state estimates and their uncertainty. This paper presents the Natural...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "AoI-Aware Polar Code Blind Rate Adaptation",
-      "link": "https://arxiv.org/abs/2610.27593",
-      "summary": "arXiv:2610.27593v1 Announce Type: new Abstract: We study adaptive prefix-length selection for reliability-ordered coded transmission over $N$ coordinates, using only the $K$ most reliable, to balance age of information (AoI) against throughput. An additive-increase/decrease (AID) prefix-walk controller updates the...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Certified Adaptive List Decoding for Error-Correcting Codes",
-      "link": "https://arxiv.org/abs/2610.27805",
-      "summary": "arXiv:2610.27805v1 Announce Type: new Abstract: Maximum-likelihood (ML) decoding of linear block codes is NP-hard, so neural decoders are evaluated by how closely they approach it. We observe that proving a candidate optimal can be far easier than finding it, and build a decoder that does both. We cast decoding as a...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "infomeasure-rs: A High-Performance Rust Library for Information-Theoretic Measures and Estimators",
-      "link": "https://arxiv.org/abs/2610.27951",
-      "summary": "arXiv:2610.27951v1 Announce Type: new Abstract: Information theory has become a standard tool across the natural and social sciences, yet practical use is limited by estimator choice, fragmented software, reproducibility, and computational cost. We present infomeasure-rs, an open-source Rust library that brings a...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Robust Latent Variable Graphical Models: Exact Recovery and Fundamental Limits",
-      "link": "https://arxiv.org/abs/2610.27010",
-      "summary": "arXiv:2610.27010v1 Announce Type: cross Abstract: We study robust estimation of a Gaussian precision matrix that decomposes as a sparse matrix minus a symmetric, possibly indefinite, low-rank matrix, a structure that arises when latent-variable marginalization is combined with conditioning on linear measurements. The...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Real-Time Disturbance-Aware Koopman Model Predictive Control for Quadrotors in Spatially Varying Winds",
-      "link": "https://arxiv.org/abs/2610.27414",
-      "summary": "arXiv:2610.27414v1 Announce Type: cross Abstract: Reliable quadrotor flight in disturbed environments requires predictive models that remain accurate as unmodeled aerodynamic effects change during deployment. We introduce a disturbance-aware Koopman Control Family (DA-KCF) framework that preserves an...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Explicit Convex Inner Approximation of TSO-DSO Flexibility Regions via Exact Second-order Cone Relaxation in Radial Networks",
-      "link": "https://arxiv.org/abs/2610.27897",
-      "summary": "arXiv:2610.27897v1 Announce Type: new Abstract: Accurate representations of the flexibility in distribution grids via tractable algorithms are essential for TSO-DSO coordination. However, flexibility region (FR) estimation based on nonlinear optimal power flow (OPF) generally lacks feasibility guarantees, while...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
-    },
-    {
-      "title": "Observer-Based Control for Multi-Agent Systems under Communication-Task Graph Mismatch and Directed Switching Topologies",
-      "link": "https://arxiv.org/abs/2610.28094",
-      "summary": "arXiv:2610.28094v1 Announce Type: new Abstract: This paper addresses decentralized estimation and control of heterogeneous multi-agent systems communicating over directed switching topologies. The objective is to satisfy cooperative tasks that require coordination among agents according to a time-invariant task graph....",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 41,
-      "date": "2026-10-21T04:00:00+00:00",
-      "ts": 1792555200.0
     },
     {
       "title": "6G Architecture and Economics: Core Network Evolution, AI Integration and Business Case",
@@ -1145,20 +1127,6 @@
       "ts": 1792490676.0
     },
     {
-      "title": "Telefónica y NOS apuntan a usos militares y defensivos de la 5G",
-      "link": "https://www.mobileworldlive.com/spanish/telefonica-y-nos-apuntan-a-usos-militares-y-defensivos-de-la-5g/",
-      "summary": "Telefónica ha demostrado las capacidades militares de su infraestructura 5G en un ejercicio con drones y vehículos no tripulados, uno Read more... The post Telefónica y NOS apuntan a usos militares y defensivos de la 5G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-10-20T07:37:42+00:00",
-      "ts": 1792481862.0
-    },
-    {
       "title": "IMT-2030/6G Spectrum Sharing: The Roles of WRC-27, NTIA and ITU-R WP 5D",
       "link": "https://techblog.comsoc.org/2026/10/19/imt-2030-6g-spectrum-sharing-the-roles-of-wrc-27-ntia-and-itu-r-wp-5d/",
       "summary": "Introduction: Spectrum sharing is emerging as a core requirement for IMT 2030/6G, as policymakers and operators seek additional capacity in bands already supporting federal, satellite and other incumbent services. A “Spectrum and Test Strategy for the 6G Era” panel was held online as part of the 3rd edition of RCR’s...",
@@ -1228,20 +1196,6 @@
       "relevance": 66,
       "date": "2026-10-19T15:54:15+00:00",
       "ts": 1792425255.0
-    },
-    {
-      "title": "PLD Space updates on reusable rocket",
-      "link": "https://www.mobileworldlive.com/industry/pld-space-updates-on-reusable-rocket/",
-      "summary": "PLD Space kept the focus on European satellite communication ambitions, revealing progress in developing its reusable launcher a matter of hours after major operators outlined plans involving spectrum access. The post PLD Space updates on reusable rocket appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-10-19T15:46:15+00:00",
-      "ts": 1792424775.0
     },
     {
       "title": "Evaluating T-Mobile’s SuperBroadband – Has it Been a Commercial Success?",
