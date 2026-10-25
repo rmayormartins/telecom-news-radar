@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T19:56:49.391215+00:00",
-  "count": 77,
+  "generated_at": "2026-10-25T02:09:41.646829+00:00",
+  "count": 78,
   "theme_counts": {
     "moveis": 35,
-    "fibra": 15,
+    "fibra": 14,
     "antenas": 1,
     "iot": 1,
-    "satelite": 35,
+    "satelite": 36,
     "radar_militar": 10,
     "radiocom": 1,
     "tv": 2,
@@ -65,8 +65,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -81,7 +81,7 @@
     {
       "source": "CircleID (Telecom)",
       "status": "ok (15 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "DataCenterDynamics",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "SpaceX Returns to Profitability With $4.4 Billion Third Quarter on Starlink and Compute Growth",
+      "link": "https://satnews.com/2026/10/24/spacex-returns-to-profitability-with-4-4-billion-third-quarter-on-starlink-and-compute-growth/",
+      "summary": "On Tuesday, October 20, 2026, commercial aerospace manufacturer and satellite operator SpaceX posted a net profit of $4.4 billion for the third quarter of 2026, reversing more than a year […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-10-24T20:43:29+00:00",
+      "ts": 1792874609.0
+    },
     {
       "title": "Telecom news: MTN Uganda, Orange, AI-RAN Deployment, NVIDIA",
       "link": "https://telecomlead.com/news/telecom-news-mtn-uganda-orange-ai-ran-deployment-nvidia-128348",
@@ -786,6 +800,20 @@
       "ts": 1792505806.0
     },
     {
+      "title": "European telcos consider joint bid for satellite spectrum",
+      "link": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
+      "summary": "The move comes as the European Union grows increasingly wary of its reliance on Elon Musk’s Starlink The post European telcos consider joint bid for satellite spectrum appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-20T10:04:36+00:00",
+      "ts": 1792490676.0
+    },
+    {
       "title": "IMT-2030/6G Spectrum Sharing: The Roles of WRC-27, NTIA and ITU-R WP 5D",
       "link": "https://techblog.comsoc.org/2026/10/19/imt-2030-6g-spectrum-sharing-the-roles-of-wrc-27-ntia-and-itu-r-wp-5d/",
       "summary": "Introduction: Spectrum sharing is emerging as a core requirement for IMT 2030/6G, as policymakers and operators seek additional capacity in bands already supporting federal, satellite and other incumbent services. A “Spectrum and Test Strategy for the 6G Era” panel was held online as part of the 3rd edition of RCR’s...",
@@ -1134,21 +1162,6 @@
       "relevance": 50,
       "date": "2026-09-11T14:00:25+00:00",
       "ts": 1789135225.0
-    },
-    {
-      "title": "FCC Moves to Open 1,050 MHz of Spectrum to Satellite Broadband",
-      "link": "https://circleid.com/posts/fcc-moves-to-open-1050-mhz-of-spectrum-to-satellite-broadband",
-      "summary": "The FCC plans to open 1,050 MHz in the 12.7 GHz and 42 GHz bands to expanded satellite use, adding capacity for broadband, mobile connectivity, inter-satellite links and ground networks.",
-      "source": "CircleID (Telecom)",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-09-09T20:26:00+00:00",
-      "ts": 1788985560.0
     },
     {
       "title": "6G monetization plans start with fixing the mistakes of 5G",
