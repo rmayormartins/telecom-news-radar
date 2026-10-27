@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-27T11:12:54.707342+00:00",
-  "count": 106,
+  "generated_at": "2026-10-27T16:58:56.265319+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 48,
-    "fibra": 16,
+    "moveis": 50,
+    "fibra": 18,
     "antenas": 12,
-    "iot": 2,
-    "satelite": 34,
+    "iot": 1,
+    "satelite": 29,
     "radar_militar": 9,
     "radiocom": 1,
     "tv": 1,
-    "geral": 17
+    "geral": 18
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 4,
-    "jp": 4,
+    "in": 5,
+    "jp": 3,
     "kr": 0,
-    "cn": 2
+    "cn": 1
   },
   "research_count": 29,
   "sources": [
@@ -71,11 +71,11 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 5
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (14 itens)",
+      "status": "ok (15 itens)",
       "kept": 0
     },
     {
@@ -186,7 +186,7 @@
     {
       "source": "Advanced Television",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "SatNews",
@@ -200,6 +200,107 @@
     }
   ],
   "items": [
+    {
+      "title": "Direct-to-Device Meets the Tower: How SpaceX’s Terrestrial Ambitions Are Redrawing US Mobile Competition",
+      "link": "https://tecknexus.com/direct-to-device-spacex-terrestrial-us-mobile-competition/",
+      "summary": "Starlink Mobile's move to pair its constellation with terrestrial towers and low-band spectrum has turned direct-to-device from a gap-filler into a strategic question for US mobile. TeckNexus examines what a hybrid network takes to build, the contrasting timeline estimates, the FCC's 482 MHz satellite spectrum vote,...",
+      "source": "TeckNexus",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-10-27T15:57:18+00:00",
+      "ts": 1793116638.0
+    },
+    {
+      "title": "mmWave FWA Gets a Second Act as Verizon Turns Idle Spectrum into Gigabit Broadband",
+      "link": "https://tecknexus.com/mmwave-fwa-verizon-gigabit-broadband/",
+      "summary": "Verizon's plan to deliver 1 Gbps fixed wireless over its mmWave holdings marks a turning point. TeckNexus examines why fixed mmWave succeeds where mobile struggled, how segmentation and C-band offload change spectrum economics, why MDUs and fibre density are the sweet spot, and what to watch as the service scales...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 70,
+      "date": "2026-10-27T15:39:26+00:00",
+      "ts": 1793115566.0
+    },
+    {
+      "title": "CTIA, Big 3 US carriers warn that support for D2D in 5G bands could hurt network performance",
+      "link": "https://www.datacenterdynamics.com/en/news/ctia-big-3-warn-that-support-for-d2d-in-5g-bands-could-hurt-network-performance/",
+      "summary": "As the FCC prepares to vote on measures to harmonize SCS and MSS spectrum this week",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-10-27T15:31:00+00:00",
+      "ts": 1793115060.0
+    },
+    {
+      "title": "KT to fight $386M countersuit over Rwandan 4G network",
+      "link": "https://www.lightreading.com/regulatory-politics/kt-to-fight-386m-countersuit-over-rwandan-4g-network",
+      "summary": "Dispute over end of KT-backed wholesale monopoly in Rwanda grows, with the Rwandan government counter-suing for $386 million over allegations KT breached the terms of their agreement.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-27T15:03:53+00:00",
+      "ts": 1793113433.0
+    },
+    {
+      "title": "Utility Private Networks Move from Pilots to Business Cases",
+      "link": "https://tecknexus.com/utility-private-networks-private-lte-business-case/",
+      "summary": "Heddian's hybrid private wireless network for Avista, Tampa Electric's private LTE build and new guidance from Nokia, Burns & McDonnell and West Monroe show utilities moving from pilots to business cases. TeckNexus sets out the building blocks of a defensible utility private network case, how hybrid architectures and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-10-27T13:08:27+00:00",
+      "ts": 1793106507.0
+    },
+    {
+      "title": "Jio, Airtel Lead India Telecom Subscriber Growth in September 2026; Vodafone Idea Trails as Market Reaches 1.37 Billion",
+      "link": "https://telecomlead.com/4g-lte/jio-airtel-lead-india-telecom-subscriber-growth-in-september-2026-vodafone-idea-trails-as-market-reaches-1-37-billion-128405",
+      "summary": "Reliance Jio and Bharti Airtel emerged as the biggest winners in India’s telecom subscriber market in September 2026, adding millions of mobile customers, while Vodafone Idea recorded slower growth and BSNL maintained its position as the fourth-largest mobile operator. According to the latest telecom subscription data...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 46,
+      "date": "2026-10-27T11:45:50+00:00",
+      "ts": 1793101550.0
+    },
+    {
+      "title": "VodafoneThree’s £2B Pivot: What Stepping Back from Open RAN Says About Operator Priorities in 2026",
+      "link": "https://tecknexus.com/open-ran-vodafonethree-integrated-ran-capex-2026/",
+      "summary": "VodafoneThree's move to integrated RAN from Ericsson and Nokia, Deutsche Telekom's flat RAN budget and Cellnex Poland's Ericsson award show operators applying a stricter test to every RAN decision. TeckNexus analyses why Open RAN is narrowing rather than disappearing, the five priorities now shaping RAN awards, and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-27T11:42:45+00:00",
+      "ts": 1793101365.0
+    },
     {
       "title": "Top 10 Countries Investing in Fiber Broadband in 2026: China, US, India, Germany and UK Lead Network Expansion",
       "link": "https://telecomlead.com/broadband/top-10-countries-investing-in-fiber-broadband-in-2026-china-us-india-germany-and-uk-lead-network-expansion-128403",
@@ -652,21 +753,6 @@
       "ts": 1793073600.0
     },
     {
-      "title": "VMO2 starts rollout of 2Gbps broadband over gigabit cable network",
-      "link": "https://www.advanced-television.com/2026/10/27/vmo2-starts-rollout-of-2gbps-broadband-over-gigabit-cable-network/",
-      "summary": "Virgin Media O2 has announced the rollout of 2Gbps broadband services over its gigabit cable network for the first time, with upgrades already complete in 18 UK locations and due to expand to the majority of its network in 2027. The upgrade means Gig2 is now available in areas served by Virgin Media O2’s DOCSIS-based...",
-      "source": "Advanced Television",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 42,
-      "date": "2026-10-27T00:27:30+00:00",
-      "ts": 1793060850.0
-    },
-    {
       "title": "Analysis: Why Carriers Are Fighting Mid-Band Satellite D2D Spectrum at the FCC",
       "link": "https://techblog.comsoc.org/2026/10/26/analysis-why-carriers-are-fighting-mid-band-satellite-d2d-spectrum-at-the-fcc/",
       "summary": "Disclaimer: Google Gemini was used for research in this article. ……………………………………………………………………………………………………………………………………………….. Executive Summary: Ahead of the FCC’s October 29th open meeting on Supplemental Coverage from Space (SCS), CTIA filed a joint petition on behalf of AT&T, Verizon, and T-Mobile on October 22nd. The...",
@@ -829,22 +915,6 @@
       "ts": 1793015266.0
     },
     {
-      "title": "No Big Bang: Why Operators Are Betting 6G Will Arrive as a Software Upgrade",
-      "link": "https://tecknexus.com/6g-evolution-software-upgrade-5g-standalone/",
-      "summary": "Operators and vendors outside China are converging on an evolutionary 6G built on 5G Standalone and delivered largely through software. TeckNexus examines the three-way 6G core debate, what a software-led upgrade can and cannot deliver, the confirmed 3GPP Release 21 timeline and why monetisation remains the open...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 53,
-      "date": "2026-10-26T11:39:18+00:00",
-      "ts": 1793014758.0
-    },
-    {
       "title": "VMO2 lauds AI impact on RAN",
       "link": "https://www.mobileworldlive.com/operators/vmo2-lauds-ai-impact-on-ran/",
       "summary": "UK operator Virgin Media O2 flagged an around 20% improvement in spectral efficiency by using AI technology in the RAN during a test with Nokia at a busy transport hub, in what it described as first of its kind in the nation. The post VMO2 lauds AI impact on RAN appeared first on Mobile World Live .",
@@ -914,21 +984,6 @@
       "relevance": 24,
       "date": "2026-10-23T18:22:37+00:00",
       "ts": 1792779757.0
-    },
-    {
-      "title": "Future-proof IIoT with cost-smart Teltonika 5G Redcap",
-      "link": "https://tecknexus.com/future-proof-iiot-with-cost-smart-teltonika-5g-redcap/",
-      "summary": "Discover how Teltonika 5G Redcap helps manufacturers modernize industrial connectivity without replacing existing machinery. By connecting legacy PLCs, HMIs, and other equipment to modern networks, it enables reliable data access, remote maintenance, and more unified operations. With connectivity tailored to...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-10-23T12:32:03+00:00",
-      "ts": 1792758723.0
     },
     {
       "title": "SpaceX eyes 80,000 US cell sites for Starlink Mobile",
@@ -1122,22 +1177,6 @@
       "ts": 1792674000.0
     },
     {
-      "title": "AI-RAN Moves From the Lab to the Live Network: What Nokia, NVIDIA and Nearly 20 Operators Signal About the Next Radio Platform",
-      "link": "https://tecknexus.com/ai-ran-live-network-nokia-nvidia-operators/",
-      "summary": "T-Mobile, Nokia and NVIDIA have completed the first AI-RAN call on a live commercial network, Deutsche Telekom has reported 10% to 15% uplink gains, Elisa has run voice, data and vision AI on one platform, and BT, Deutsche Telekom and SoftBank are lining up 2027 field trials. TeckNexus analyses what nearly 20 operator...",
-      "source": "TeckNexus",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 51,
-      "date": "2026-10-22T12:48:29+00:00",
-      "ts": 1792673309.0
-    },
-    {
       "title": "Eurobites: Wake up and smell the Starlink coffee, says EU's Kobosko",
       "link": "https://www.lightreading.com/satellite/eurobites-wake-up-and-smell-the-starlink-coffee-says-eu-s-kobosko",
       "summary": "Also in today's EMEA regional roundup: AI boosts Nokia in Q3; Ericsson detects drones; Zain, Ooredoo launch tower-sharing platform.",
@@ -1250,46 +1289,18 @@
       "ts": 1792541975.0
     },
     {
-      "title": "Europe’s Largest Operators Bid to Shape Direct-to-Device: What a Joint MSS Spectrum Move Really Changes",
-      "link": "https://tecknexus.com/european-operators-joint-mss-spectrum-bid-direct-to-device/",
-      "summary": "Deutsche Telekom, Orange, Telefónica and Vodafone have signed a Letter of Intent to explore a joint bid for Europe's 2 GHz Mobile Satellite Services spectrum, with open wholesale access for every operator. TeckNexus analyses why the move shifts operators from satellite tenants to spectrum holders, how it fits existing...",
-      "source": "TeckNexus",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-20T17:04:44+00:00",
-      "ts": 1792515884.0
-    },
-    {
-      "title": "Singtel and Ericsson partner to scale 5G innovation and build AI-native networks in Singapore",
-      "link": "https://www.lightreading.com/ai-machine-learning/singtel-and-ericsson-partner-to-scale-5g-innovation-and-build-ai-native-networks-in-singapore",
-      "summary": "Extending the collaboration announced in March 2026, the new agreement establishes a longer-term roadmap that will focus on scaling 5G Advanced and AI-powered network capabilities across industries. #pressrelease",
+      "title": "Cox broadband sub losses were worse than expected – analyst",
+      "link": "https://www.lightreading.com/cable-technology/cox-broadband-sub-losses-were-worse-than-expected-analyst",
+      "summary": "Cox's broadband sub losses were higher than expected in recent quarters, according to New Street Research. That presents a challenge to new Spectrum COO Nick Jeffery as he tries to engineer 'The Great Cable Comeback.'",
       "source": "Light Reading",
       "themes": [
-        "moveis"
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 59,
-      "date": "2026-10-20T15:13:09+00:00",
-      "ts": 1792509189.0
-    },
-    {
-      "title": "Singtel and Ericsson renew ties, expand 5G for AI growth",
-      "link": "https://www.lightreading.com/5g/singtel-and-ericsson-renew-ties-expand-5g-for-ai-growth",
-      "summary": "Singtel and Ericsson entered a five-year partnership to scale up Singapore's 5G Advanced capabilities and accelerate the adoption of AI-native networks.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-10-20T14:16:46+00:00",
-      "ts": 1792505806.0
+      "relevance": 46,
+      "date": "2026-10-20T19:15:00+00:00",
+      "ts": 1792523700.0
     },
     {
       "title": "European telcos consider joint bid for satellite spectrum",
@@ -1352,20 +1363,6 @@
       "ts": 1792142200.0
     },
     {
-      "title": "Ericsson Q3 2026 Results: A Profit Beat, a Leaner Structure and a New Home for Private 5G",
-      "link": "https://tecknexus.com/ericsson-q3-2026-results-restructuring-private-5g/",
-      "summary": "Ericsson's third quarter 2026 profit came in well ahead of forecasts on solid network demand, as new CEO Per Narvinger flagged a flat RAN market and AI-driven component costs. TeckNexus analyses the results, the new APAC market area, the move of Private 5G into Business Area Networks, and how Ericsson's path compares...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-15T15:22:36+00:00",
-      "ts": 1792077756.0
-    },
-    {
       "title": "Sceye Flies Floating Cell Tower to Japan to Set Up Test 4G Network",
       "link": "https://spectrum.ieee.org/high-altitude-platform-station",
       "summary": "Providing wireless connectivity from the sky has been the dream of a number of commercial ventures like the shuttered Google Project Loon . Now, Japanese telecom giant SoftBank has moved a step closer to selling phone service from the sky. In a partnership with an American aerospace startup, the pair recently sent a...",
@@ -1380,20 +1377,6 @@
       "relevance": 58,
       "date": "2026-10-15T14:02:56+00:00",
       "ts": 1792072976.0
-    },
-    {
-      "title": "Private 5G Security Starts at the IT Boundary: How Attackers Pivot Into Private Networks",
-      "link": "https://tecknexus.com/private-5g-security-starts-at-the-it-boundary-how-attackers-pivot-into-private-networks/",
-      "summary": "Attackers rarely break 5G itself. They compromise corporate IT and pivot into private networks through weak boundaries. Here is how it works and how operators can close the path. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED ENTERPRISE",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-15T13:48:54+00:00",
-      "ts": 1792072134.0
     },
     {
       "title": "one6G leaders outline the future of wireless infrastructure at Network X 2026 in Vienna",
@@ -1568,17 +1551,17 @@
       "ts": 1789386379.0
     },
     {
-      "title": "Starlink broadband marches onward with 1.6M new global subs in Q3",
-      "link": "https://www.fierce-network.com/broadband/starlink-broadband-marches-onward-16m-new-global-subs-q3",
-      "summary": "On the financial side, Starlink consumer average revenue per user (ARPU) increased 5% sequentially to $69 per month during the quarter.",
+      "title": "Nextlink Internet deploys netElastic to modernize its hybrid broadband network",
+      "link": "https://www.fierce-network.com/newswire/nextlink-internet-deploys-netelastic-modernize-its-hybrid-broadband-network",
+      "summary": "netElastic's software-based vBNG, CGNAT and netVision management platform support Nextlink's network operations and growth across fixed wireless and fiber services.",
       "source": "Fierce Network",
       "themes": [
-        "fibra",
-        "satelite"
+        "moveis",
+        "fibra"
       ],
       "research": false,
       "countries": [],
-      "relevance": 47,
+      "relevance": 48,
       "date": null,
       "ts": 0
     },
@@ -1612,16 +1595,16 @@
       "ts": 0
     },
     {
-      "title": "Elon Musk: Starlink Mobile’s game plan too big for an earnings call",
-      "link": "https://www.fierce-network.com/wireless/elon-musk-starlink-mobiles-game-plan-too-big-earnings-call",
-      "summary": "Elon Musk says Starlink’s mobile game plan requires more than a few minutes on an earnings call to explain it all.",
+      "title": "HPE unifies visibility of wired, wireless and SASE solutions",
+      "link": "https://www.fierce-network.com/newswire/hpe-unifies-visibility-wired-wireless-and-sase-solutions",
+      "summary": "HPE unifies EdgeConnect, HPE Mist and HPE Aruba Central under an AI-native framework, delivering end-to-end network and security visibility from edge to cloud.",
       "source": "Fierce Network",
       "themes": [
-        "satelite"
+        "geral"
       ],
       "research": false,
       "countries": [],
-      "relevance": 40,
+      "relevance": 37,
       "date": null,
       "ts": 0
     },
@@ -1636,6 +1619,21 @@
       "research": false,
       "countries": [],
       "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Calix takes AI to the broadband edge with specialized ‘Gems’",
+      "link": "https://www.fierce-network.com/broadband/calix-takes-ai-broadband-edge-specialized-gems",
+      "summary": "Calix is betting that smaller, telecom-specific AI models running across networks and subscriber premises can handle jobs that don’t need a giant LLM in the cloud.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
@@ -1688,20 +1686,6 @@
       "source": "Fierce Network",
       "themes": [
         "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AT&T beats Q3 estimates but SpaceX threat looms",
-      "link": "https://www.fierce-network.com/wireless/att-beats-q3-estimates-spacex-threat-looms",
-      "summary": "Elon Musk's plans in the terrestrial mobile space hover over this quarter's financial results – and AT&T is feeling it.",
-      "source": "Fierce Network",
-      "themes": [
-        "satelite"
       ],
       "research": false,
       "countries": [],
