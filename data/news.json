@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T21:33:27.315384+00:00",
+  "generated_at": "2026-10-28T02:55:13.835931+00:00",
   "count": 105,
   "theme_counts": {
-    "moveis": 52,
-    "fibra": 18,
+    "moveis": 50,
+    "fibra": 17,
     "antenas": 12,
     "iot": 1,
-    "satelite": 29,
+    "satelite": 30,
     "radar_militar": 8,
     "radiocom": 1,
     "tv": 1,
-    "geral": 16
+    "geral": 18
   },
   "country_counts": {
     "br": 1,
@@ -19,7 +19,7 @@
     "in": 6,
     "jp": 3,
     "kr": 0,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -200,6 +200,65 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: Far EasTone, Elveo Mobile, Ukraine’s OBRIA NANO Satellite",
+      "link": "https://telecomlead.com/news/telecom-news-far-eastone-elveo-mobile-ukraines-obria-nano-satellite-128414",
+      "summary": "The latest telecom news includes announcements on Far EasTone, Elveo Mobile, Ukraine’s OBRIA NANO Satellite, and others. Far EasTone Partners with Elveo Mobile to Expand Satellite Direct-to-Device Connectivity in Taiwan Taiwanese mobile operator Far EasTone Telecommunications announced a satellite connectivity...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-10-28T00:47:59+00:00",
+      "ts": 1793148479.0
+    },
+    {
+      "title": "Telecom news: 6 GHz Wi-Fi Operations in India, Bangladesh Seeks Cut in Spectrum Fee, Amazon Leo",
+      "link": "https://telecomlead.com/news/telecom-news-6-ghz-wi-fi-operations-in-india-bangladesh-seeks-cut-in-spectrum-fee-amazon-leo-128410",
+      "summary": "The latest telecom news includes announcements on COAI, 6 GHz Wi-Fi Operations in India, Bangladesh Seeks Cut in Spectrum Fee, Amazon Leo, and others. Reliance Jio, Airtel and Vodafone Idea Seek Higher-Power 6 GHz Wi-Fi Operations in India Indian telecom operators Reliance Jio, Bharti Airtel and Vodafone Idea are...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 52,
+      "date": "2026-10-28T00:42:22+00:00",
+      "ts": 1793148142.0
+    },
+    {
+      "title": "Telecom news: U Mobile, Kyivstar, 5G Pilot to Kyiv, Uztelecom",
+      "link": "https://telecomlead.com/news/telecom-news-u-mobile-kyivstar-5g-pilot-to-kyiv-uztelecom-128408",
+      "summary": "The latest telecom news includes announcements on U Mobile, Kyivstar, 5G Pilot to Kyiv, Uztelecom, and others. U Mobile Expands 5G Coverage to Malaysian Border Complex Serving 40,000 Daily Passengers Malaysia’s U Mobile has signed an agreement with MRT Corp to explore providing 4G and 5G indoor network coverage at the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-10-28T00:38:54+00:00",
+      "ts": 1793147934.0
+    },
+    {
+      "title": "Oracle Integrates NVIDIA and Google AI Accelerators with its High-Performance Cloud Networking Infrastructure",
+      "link": "https://techblog.comsoc.org/2026/10/27/oracle-integrates-nvidia-and-google-ai-accelerators-with-high-performance-cloud-networking/",
+      "summary": "Disclaimer: ChatGPT was used extensively for research included in this article. ………………………………………………………………………………………………………………………………………………………………… Introduction: Oracle’s multiple announcements on October 27th illustrate how AI cloud infrastructure is evolving beyond simply providing access to GPUs. Oracle Cloud...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-10-27T23:02:21+00:00",
+      "ts": 1793142141.0
+    },
     {
       "title": "Airbus and Thales Contracted for 2 Galileo Satellites Each",
       "link": "https://www.satellitetoday.com/government-military/2026/10/27/airbus-and-thales-contracted-for-2-galileo-satellites-each/",
@@ -500,6 +559,22 @@
       "ts": 1793073600.0
     },
     {
+      "title": "Pinching Antenna and Relay Assisted Joint Indoor Outdoor NOMA Communications with SWIPT",
+      "link": "https://arxiv.org/abs/2610.33367",
+      "summary": "arXiv:2610.33367v2 Announce Type: new Abstract: This paper presents a unified downlink architec- ture for serving indoor and outdoor users from a shared multi-antenna rooftop base station (BS). To overcome severe building-penetration loss, the BS transfers information and radio- frequency (RF) energy to an indoor...",
+      "source": "arXiv cs.IT",
+      "themes": [
+        "moveis",
+        "antenas",
+        "satelite"
+      ],
+      "research": true,
+      "countries": [],
+      "relevance": 63,
+      "date": "2026-10-27T04:00:00+00:00",
+      "ts": 1793073600.0
+    },
+    {
       "title": "Can We Trust AI in 6G? Verifiable and Auditable AI-Driven Trustworthy Wireless Networks",
       "link": "https://arxiv.org/abs/2607.26409",
       "summary": "arXiv:2607.26409v2 Announce Type: replace Abstract: Mobile network operators are increasingly exploring the use of artificial intelligence (AI) to automate network tasks such as cell selection and mobility management. Current assurance methods for these AI functions are forms of output testing. They check what a...",
@@ -558,7 +633,7 @@
     {
       "title": "Exploiting Pinching Antenna Systems in NOMA Covert Communication Networks",
       "link": "https://arxiv.org/abs/2610.29433",
-      "summary": "arXiv:2610.29433v2 Announce Type: replace Abstract: Pinching antenna systems (PASS) provide flexible transmitter-side radiation reconfiguration for high-frequency wireless communications. This paper applies PASS to non-orthogonal multiple access (NOMA) covert communication networks, where activated pinching antennas...",
+      "summary": "arXiv:2610.29433v3 Announce Type: replace Abstract: Pinching antenna systems (PASS) provide flexible transmitter-side radiation reconfiguration for high-frequency wireless communications. This paper applies PASS to non-orthogonal multiple access (NOMA) covert communication networks, where activated pinching antennas...",
       "source": "arXiv cs.IT",
       "themes": [
         "antenas"
@@ -580,20 +655,6 @@
       "research": true,
       "countries": [],
       "relevance": 57,
-      "date": "2026-10-27T04:00:00+00:00",
-      "ts": 1793073600.0
-    },
-    {
-      "title": "Pinching Antenna and Relay Assisted Joint Indoor Outdoor NOMA Communications with SWIPT",
-      "link": "https://arxiv.org/abs/2610.33367",
-      "summary": "arXiv:2610.33367v1 Announce Type: new Abstract: This paper investigates physical layer security in waveguide-based pinching antenna systems with a mobile eavesdropper. Assuming perfect knowledge of the legitimate user's location and only statistical information about the eavesdropper's position, the ergodic secrecy...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
       "date": "2026-10-27T04:00:00+00:00",
       "ts": 1793073600.0
     },
@@ -642,7 +703,7 @@
     {
       "title": "LunarRF: A Terrain-Aware Propagation Engine and Pole-Wide 3GPP Surface Coverage Atlas of the Lunar South Pole",
       "link": "https://arxiv.org/abs/2610.34554",
-      "summary": "arXiv:2610.34554v1 Announce Type: new Abstract: Artemis surface operations will depend on 3GPP cellular links, yet no public product shows where such links are physically possible across the lunar south pole. We present LunarRF, a GPU system for terrain-aware surface coverage, and the pole-wide atlas produced with it....",
+      "summary": "arXiv:2610.34554v2 Announce Type: new Abstract: Artemis surface operations will depend on 3GPP cellular links, yet no public product shows where such links are physically possible across the lunar south pole. We present LunarRF, a GPU system for terrain-aware surface coverage, and the pole-wide atlas produced with it....",
       "source": "arXiv cs.NI",
       "themes": [
         "moveis"
@@ -942,37 +1003,6 @@
       "ts": 1793017640.0
     },
     {
-      "title": "TRAI Mobile Network Test in Vijayanagara: Jio Leads in 5G Download Speed, Airtel Tops Upload Performance, BSNL Trails",
-      "link": "https://telecomlead.com/4g-lte/trai-mobile-network-test-in-vijayanagara-jio-leads-in-5g-download-speed-airtel-tops-upload-performance-bsnl-trails-128390",
-      "summary": "Reliance Jio delivered the fastest mobile download speeds in Karnataka’s Vijayanagara district, reaching 151.30 Mbps, followed by Bharti Airtel at 87.50 Mbps, Vodafone Idea (Vi) at 22.09 Mbps and BSNL at 10.47 Mbps, according to drive test conducted by the Telecom Regulatory Authority of India (TRAI) in August 2026....",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 58,
-      "date": "2026-10-26T12:12:23+00:00",
-      "ts": 1793016743.0
-    },
-    {
-      "title": "Verizon Q3 2026 Results: Revenue Hits $34.3 billion, Fiber Subscribers Jump 44%, Capex at $16–16.5 billion",
-      "link": "https://telecomlead.com/5g/verizon-q3-2026-results-revenue-hits-34-3-billion-fiber-subscribers-jump-44-capex-at-16-16-5-billion-128387",
-      "summary": "Verizon Communications reported revenue of $34.31 billion in Q3 2026, up 1.5 percent year over year, driven by growth in wireless and broadband services. The US telecom operator added 406,000 postpaid phone connections, increased its fiber broadband subscriber base by 44.2 percent to 11.07 million and raised its 2026...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 46,
-      "date": "2026-10-26T11:47:46+00:00",
-      "ts": 1793015266.0
-    },
-    {
       "title": "VMO2 lauds AI impact on RAN",
       "link": "https://www.mobileworldlive.com/operators/vmo2-lauds-ai-impact-on-ran/",
       "summary": "UK operator Virgin Media O2 flagged an around 20% improvement in spectral efficiency by using AI technology in the RAN during a test with Nokia at a busy transport hub, in what it described as first of its kind in the nation. The post VMO2 lauds AI impact on RAN appeared first on Mobile World Live .",
@@ -1002,21 +1032,7 @@
       "ts": 1793008800.0
     },
     {
-      "title": "Canada Telecom Market 2026: $19.5 Billion Capex, 45 Million 5G Connections and AI Investment",
-      "link": "https://telecomlead.com/5g/canada-telecom-market-2026-19-5-billion-capex-45-million-5g-connections-and-ai-investment-128384",
-      "summary": "Canada’s telecom operators are expected to invest $19.5 billion in capital expenditure during 2025–2030, while mobile industry revenue is forecast to increase from $24.6 billion in 2025 to $27.2 billion by 2030, according to the GSMA Intelligence Mobile Economy Canada 2026 report. Canada’s 5G connections are projected...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-26T07:16:25+00:00",
-      "ts": 1792998985.0
-    },
-    {
-      "title": "Custom AI Silicon: OpenAI, Anthropic, Hyperscalers and the Battle with Nvidia, AMD and Broadcom",
+      "title": "Custom AI Silicon: OpenAI, Anthropic, Hyperscalers, Huawei and the Battle with Nvidia, AMD and Broadcom",
       "link": "https://techblog.comsoc.org/2026/10/25/custom-ai-silicon-openai-anthropic-hyperscalers-and-the-battle-with-nvidia-amd-and-broadcom/",
       "summary": "Disclaimer: ChatGPT was used extensively to write this article. Executive Summary: Custom AI silicon is entering a new phase. Google, Amazon, Microsoft and Meta have established proprietary accelerator programs, while OpenAI has introduced its first custom inference chip, Jalapeño, and Anthropic is assembling an...",
       "source": "IEEE ComSoc Tech Blog",
@@ -1024,8 +1040,10 @@
         "geral"
       ],
       "research": false,
-      "countries": [],
-      "relevance": 24,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 32,
       "date": "2026-10-26T01:13:11+00:00",
       "ts": 1792977191.0
     },
@@ -1318,21 +1336,6 @@
       "ts": 1792490676.0
     },
     {
-      "title": "IMT-2030/6G Spectrum Sharing: The Roles of WRC-27, NTIA and ITU-R WP 5D",
-      "link": "https://techblog.comsoc.org/2026/10/19/imt-2030-6g-spectrum-sharing-the-roles-of-wrc-27-ntia-and-itu-r-wp-5d/",
-      "summary": "Introduction: Spectrum sharing is emerging as a core requirement for IMT 2030/6G, as policymakers and operators seek additional capacity in bands already supporting federal, satellite and other incumbent services. A “Spectrum and Test Strategy for the 6G Era” panel was held online as part of the 3rd edition of RCR’s...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 59,
-      "date": "2026-10-19T22:36:55+00:00",
-      "ts": 1792449415.0
-    },
-    {
       "title": "UK to Award £25M Space Surveillance Radar Contract in July 2027",
       "link": "https://europeanspaceflight.com/uk-to-award-25m-space-surveillance-radar-contract-in-july-2027/",
       "summary": "The UK Space Agency (UKSA) is expected to award a £25 million contract for a ground-based space surveillance radar in July 2027. The call, published in late September, follows several changes to the government’s procurement plans for the installation. According to the call, the contract will cover the development and...",
@@ -1567,21 +1570,6 @@
       "ts": 0
     },
     {
-      "title": "SpaceX might sign deals for 80,000 towers to build mobile network, or is it bluffing?",
-      "link": "https://www.fierce-network.com/wireless/spacex-might-sign-deals-80000-towers-build-mobile-network-it-bluffing",
-      "summary": "In terms of the rumored tower deals, one analyst said, “This is the last bluff one would pull to try to convince one of the Big Three carriers to break ranks and agree to an MVNO.”",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "Ericsson CEO Per Narvinger wants a network without borders",
       "link": "https://www.fierce-network.com/wireless/ericsson-ceo-narvinger-wants-network-without-borders",
       "summary": "In his first in-person interview as Ericsson CEO, Per Narvinger talks 5G standalone, network APIs, sensing, sovereignty and the closing divide between enterprise and carrier.",
@@ -1695,6 +1683,20 @@
       "ts": 0
     },
     {
+      "title": "Who Tests the AI? The Case for Realistic Digital Twins",
+      "link": "https://www.fierce-network.com/sponsored/who-tests-ai-case-realistic-digital-twins",
+      "summary": "By 2030, close to 40% of wireless traffic is expected to be AI traffic. Every operator will face the question of who tests the AI, and with what data.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "How Fiber Innovation Is Scaling AI Data Centers",
       "link": "https://www.fierce-network.com/sponsored/how-fiber-innovation-scaling-ai-data-centers",
       "summary": "AI data centers need more fiber without simply adding more space. See how multicore and hollow-core fiber, high-density pre-terminated connectivity and new cable designs can help operators scale capacity, reduce latency and deploy faster.",
@@ -1709,16 +1711,16 @@
       "ts": 0
     },
     {
-      "title": "Who Tests the AI? The Case for Realistic Digital Twins",
-      "link": "https://www.fierce-network.com/sponsored/who-tests-ai-case-realistic-digital-twins",
-      "summary": "By 2030, close to 40% of wireless traffic is expected to be AI traffic. Every operator will face the question of who tests the AI, and with what data.",
+      "title": "FCC gives OK for Amazon Leo’s acquisition of Globalstar",
+      "link": "https://www.fierce-network.com/wireless/fcc-gives-ok-amazon-leos-acquisition-globalstar",
+      "summary": "The FCC approved Amazon Leo's $11.57 billion Globalstar deal, giving Amazon spectrum to build out D2D service.",
       "source": "Fierce Network",
       "themes": [
-        "geral"
+        "satelite"
       ],
       "research": false,
       "countries": [],
-      "relevance": 23,
+      "relevance": 21,
       "date": null,
       "ts": 0
     }
