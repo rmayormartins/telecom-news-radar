@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-28T21:58:25.650392+00:00",
-  "count": 101,
+  "generated_at": "2026-10-29T03:20:32.136129+00:00",
+  "count": 100,
   "theme_counts": {
-    "moveis": 47,
-    "fibra": 14,
+    "moveis": 44,
+    "fibra": 15,
     "antenas": 15,
     "iot": 2,
-    "satelite": 33,
+    "satelite": 32,
     "radar_militar": 7,
     "radiocom": 1,
     "tv": 1,
-    "geral": 21
+    "geral": 22
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 4,
     "jp": 3,
     "kr": 1,
-    "cn": 1
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Telecoms.com",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,50 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: Entel Bolivia, GSMA, Paratus, Congo Telecom Networks",
+      "link": "https://telecomlead.com/news/telecom-news-entel-bolivia-gsma-paratus-congo-telecom-networks-128441",
+      "summary": "Today’s telecom news includes announcements on Entel Bolivia, GSMA, Paratus, Congo Telecom Networks, among others. Entel Bolivia Begins 3G Network Shutdown in La Paz to Reallocate 850 MHz Spectrum to 4G Entel Bolivia has started retiring its 3G network in La Paz, redirecting 850 MHz spectrum toward 4G mobile services....",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": "2026-10-29T03:01:01+00:00",
+      "ts": 1793242861.0
+    },
+    {
+      "title": "Telecom news: MViSTA Submarine Cable, 123NET, Vodafone Idea, Chunghwa Telecom",
+      "link": "https://telecomlead.com/news/telecom-news-mvista-submarine-cable-123net-vodafone-idea-chunghwa-telecom-128433",
+      "summary": "Today’s telecom news includes announcements on MViSTA Submarine Cable, 123NET, Vodafone Idea, Chunghwa Telecom, among others. $400 Million MViSTA Submarine Cable Advances Procurement for 2,500-km Southeast Asian Network The proposed MViSTA submarine cable system has advanced its supplier procurement process as...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 49,
+      "date": "2026-10-29T02:50:26+00:00",
+      "ts": 1793242226.0
+    },
+    {
+      "title": "PsiQuantum Targets AI Data Center Networks with Silicon-Photonic Optical Switching",
+      "link": "https://techblog.comsoc.org/2026/10/28/psiquantum-targets-ai-data-center-networks-with-silicon-photonic-optical-switching/",
+      "summary": "Disclaimer: ChatGPT was used extensively for research contained in this article. …………………………………………………………………………………………………………………………………….. Introduction: As AI workloads expand and AI clusters grow, the networks connecting GPUs and other accelerators are becoming an increasingly important constraint on performance, power...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-10-28T23:31:58+00:00",
+      "ts": 1793230318.0
+    },
     {
       "title": "Risk, Reward, and Agility: The New Themes for European Nations in Space Defense",
       "link": "https://www.satellitetoday.com/government-military/2026/10/28/risk-reward-and-agility-the-new-themes-for-european-nations-in-space-defense/",
@@ -364,20 +408,6 @@
       "relevance": 66,
       "date": "2026-10-28T10:51:16+00:00",
       "ts": 1793184676.0
-    },
-    {
-      "title": "Telecom news: Orange, AmpliTech, HKBN Capex",
-      "link": "https://telecomlead.com/news/telecom-news-orange-amplitech-hkbn-capex-128416",
-      "summary": "The latest telecom news includes announcements on Orange, AmpliTech, HKBN, 5G Open RAN Radio Interoperability, and others. Orange Invests €1.7 Billion in Q3 2026 as Africa 4G Coverage Reaches 80% of Population Orange reported €1.7 billion in eCAPEX during the third quarter of 2026, representing a 2.5 percent...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-28T04:10:49+00:00",
-      "ts": 1793160649.0
     },
     {
       "title": "Orthogonal Zadoff-Chu Based Pilot Design For Fractional Channel Estimation in MIMO-OTFS",
@@ -804,51 +834,6 @@
       "relevance": 48,
       "date": "2026-10-28T04:00:00+00:00",
       "ts": 1793160000.0
-    },
-    {
-      "title": "Telecom news: Far EasTone, Elveo Mobile, Ukraine’s OBRIA NANO Satellite",
-      "link": "https://telecomlead.com/news/telecom-news-far-eastone-elveo-mobile-ukraines-obria-nano-satellite-128414",
-      "summary": "The latest telecom news includes announcements on Far EasTone, Elveo Mobile, Ukraine’s OBRIA NANO Satellite, and others. Far EasTone Partners with Elveo Mobile to Expand Satellite Direct-to-Device Connectivity in Taiwan Taiwanese mobile operator Far EasTone Telecommunications announced a satellite connectivity...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-28T00:47:59+00:00",
-      "ts": 1793148479.0
-    },
-    {
-      "title": "Telecom news: 6 GHz Wi-Fi Operations in India, Bangladesh Seeks Cut in Spectrum Fee, Amazon Leo",
-      "link": "https://telecomlead.com/news/telecom-news-6-ghz-wi-fi-operations-in-india-bangladesh-seeks-cut-in-spectrum-fee-amazon-leo-128410",
-      "summary": "The latest telecom news includes announcements on COAI, 6 GHz Wi-Fi Operations in India, Bangladesh Seeks Cut in Spectrum Fee, Amazon Leo, and others. Reliance Jio, Airtel and Vodafone Idea Seek Higher-Power 6 GHz Wi-Fi Operations in India Indian telecom operators Reliance Jio, Bharti Airtel and Vodafone Idea are...",
-      "source": "Telecom Lead",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 52,
-      "date": "2026-10-28T00:42:22+00:00",
-      "ts": 1793148142.0
-    },
-    {
-      "title": "Telecom news: U Mobile, Kyivstar, 5G Pilot to Kyiv, Uztelecom",
-      "link": "https://telecomlead.com/news/telecom-news-u-mobile-kyivstar-5g-pilot-to-kyiv-uztelecom-128408",
-      "summary": "The latest telecom news includes announcements on U Mobile, Kyivstar, 5G Pilot to Kyiv, Uztelecom, and others. U Mobile Expands 5G Coverage to Malaysian Border Complex Serving 40,000 Daily Passengers Malaysia’s U Mobile has signed an agreement with MRT Corp to explore providing 4G and 5G indoor network coverage at the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-10-28T00:38:54+00:00",
-      "ts": 1793147934.0
     },
     {
       "title": "Oracle Integrates NVIDIA and Google AI Accelerators with its High-Performance Cloud Networking Infrastructure",
@@ -1325,20 +1310,6 @@
       "ts": 1792599238.0
     },
     {
-      "title": "6G Architecture and Economics: Core Network Evolution, AI Integration and Business Case",
-      "link": "https://techblog.comsoc.org/2026/10/20/6g-architecture-and-economics-core-network-evolution-ai-integration-and-the-business-case/",
-      "summary": "Introduction: As the telecom industry moves closer to defining 6G features, functions, radio interfaces, and core network architecture, the questions become more demanding: What must change? Who will pay for it? How much of the investment in 5G can be preserved? Discussions at the recent RCR Wireless 6G Forum exposed...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-21T00:19:35+00:00",
-      "ts": 1792541975.0
-    },
-    {
       "title": "European telcos consider joint bid for satellite spectrum",
       "link": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
       "summary": "The move comes as the European Union grows increasingly wary of its reliance on Elon Musk’s Starlink The post European telcos consider joint bid for satellite spectrum appeared first on Total Telecom .",
@@ -1611,6 +1582,22 @@
       "research": false,
       "countries": [],
       "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Huawei and NISCO put AI to work in the steelworks",
+      "link": "https://www.fierce-network.com/sponsored/huawei-and-nisco-put-ai-work-steelworks",
+      "summary": "A Chinese steelmaker is combining probabilistic AI with deterministic industrial models, using Huawei technology to improve furnace operations, product quality and energy efficiency.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 31,
       "date": null,
       "ts": 0
     },
