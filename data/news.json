@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T17:24:40.000227+00:00",
+  "generated_at": "2026-10-30T21:46:01.504819+00:00",
   "count": 104,
   "theme_counts": {
-    "moveis": 41,
-    "fibra": 11,
-    "antenas": 7,
+    "moveis": 39,
+    "fibra": 10,
+    "antenas": 8,
     "iot": 2,
-    "satelite": 32,
-    "radar_militar": 9,
+    "satelite": 35,
+    "radar_militar": 8,
     "radiocom": 1,
     "tv": 1,
-    "geral": 32
+    "geral": 31
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 4,
-    "jp": 3,
-    "kr": 1,
+    "in": 5,
+    "jp": 2,
+    "kr": 0,
     "cn": 4
   },
   "research_count": 29,
@@ -31,7 +31,7 @@
     {
       "source": "Fierce Network",
       "status": "ok (25 itens)",
-      "kept": 11
+      "kept": 10
     },
     {
       "source": "Telecoms.com",
@@ -70,12 +70,12 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ok (10 itens)",
-      "kept": 2
+      "status": "ERRO: <urlopen error timed out>",
+      "kept": 0
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -181,7 +181,7 @@
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -201,9 +201,82 @@
   ],
   "items": [
     {
-      "title": "SpaceX/SI cracks top-10 tier-2 cloud ranking in Q3",
+      "title": "Eutelsat Q1 LEO Revenue Rises 30% to €70.9M as OneWeb Offsets Video Decline",
+      "link": "https://satnews.com/2026/10/30/eutelsat-q1-leo-revenue-rises-30-to-e70-9m-as-oneweb-offsets-video-decline/",
+      "summary": "PARIS — Eutelsat Group reported total first-quarter revenues of €286 million following the close of market trading on Oct. 29, 2026, driven by expanding low Earth orbit (LEO) operations that […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-10-30T21:27:19+00:00",
+      "ts": 1793395639.0
+    },
+    {
+      "title": "MDA Space to Build Antenna Subsystems for 66 IRIS² LEO Satellites",
+      "link": "https://www.satellitetoday.com/technology/2026/10/30/mda-space-to-build-antenna-subsystems-for-66-iris%c2%b2-leo-satellites/",
+      "summary": "Canadian manufacturer MDA Space will supply digital antenna subsystems for 66 IRIS² Low-Earth Orbit (LEO) satellites, under a new contract with Thales Alenia Space announced Friday. MDA will provide its […] The post MDA Space to Build Antenna Subsystems for 66 IRIS² LEO Satellites appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-10-30T18:24:03+00:00",
+      "ts": 1793384643.0
+    },
+    {
+      "title": "Eutelsat Sets 10B Target for OneWeb Revenue from 2032 to 2040",
+      "link": "https://www.satellitetoday.com/connectivity/2026/10/30/eutelsat-sets-10b-target-for-oneweb-revenue-from-2032-to-2040/",
+      "summary": "Eutelsat’s revenue from the OneWeb constellation grew by 30% year-over-year in the first quarter of its fiscal year, despite lower terminal sales during the quarter. The operator set a bold […] The post Eutelsat Sets 10B Target for OneWeb Revenue from 2032 to 2040 appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 58,
+      "date": "2026-10-30T18:18:37+00:00",
+      "ts": 1793384317.0
+    },
+    {
+      "title": "Reliance Jio Q2 FY27 Revenue Rises 10.8% to ₹35,307 Crore, Net Profit Jumps 10.8% to ₹7,722 Crore as Network Investments Continue",
+      "link": "https://telecomlead.com/5g/reliance-jio-q2-fy27-revenue-rises-10-8-to-%e2%82%b935307-crore-net-profit-jumps-10-8-to-%e2%82%b97722-crore-as-network-investments-continue-128469",
+      "summary": "Reliance Jio Infocomm reported revenue of ₹35,307 crore for the second quarter of FY2026-27, representing growth of 10.8 percent year-on-year, while net profit increased 10.8 percent to ₹7,722 crore. India’s leading telecom operator delivered higher revenue and profitability despite rising finance costs, spectrum...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 40,
+      "date": "2026-10-30T17:41:26+00:00",
+      "ts": 1793382086.0
+    },
+    {
+      "title": "Satellogic Secures 3-Year Agreement with HEO for Non-Earth Imaging",
+      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/10/30/satellogic-secures-3-year-agreement-with-heo-for-non-earth-imaging/",
+      "summary": "Satellogic has expanded its work with HEO through a new three-year agreement for non-Earth imaging worth at minimum, seven figures each year. Satellogic will use its imaging satellites to capture […] The post Satellogic Secures 3-Year Agreement with HEO for Non-Earth Imaging appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-10-30T17:26:18+00:00",
+      "ts": 1793381178.0
+    },
+    {
+      "title": "SpaceX/SI cracks top-10 tier-2 cloud ranking",
       "link": "https://www.mobileworldlive.com/network-tech/spacex-si-cracks-top-10-tier-2-cloud-ranking-in-q3/",
-      "summary": "SpaceX/SI entered the ranks of the top 10 tier-two cloud infrastructure companies by service revenue in Q3 as AI demand continues to reshape the market, Synergy Research Group reported. The post SpaceX/SI cracks top-10 tier-2 cloud ranking in Q3 appeared first on Mobile World Live .",
+      "summary": "SpaceX/SI entered the top-10 of tier-two cloud infrastructure companies by service revenue in Q3 as AI demand continued to reshape the market, Synergy Research Group reported. The post SpaceX/SI cracks top-10 tier-2 cloud ranking appeared first on Mobile World Live .",
       "source": "Mobile World Live",
       "themes": [
         "satelite"
@@ -271,23 +344,6 @@
       "relevance": 68,
       "date": "2026-10-30T14:47:21+00:00",
       "ts": 1793371641.0
-    },
-    {
-      "title": "Physical AI and Connectivity Leaders at a Glance",
-      "link": "https://tecknexus.com/intelligence/physical-ai-and-connectivity-leaders-at-a-glance/",
-      "summary": "Six of 40 telecom operators lead physical AI. Swipe through Deutsche Telekom, KT, NTT DOCOMO, SK Telecom, SoftBank and T-Mobile: where each is strongest and what to watch in 2027. Then download the free executive brief or get the full Leadership Landscape. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED...",
-      "source": "TeckNexus",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp",
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-10-30T14:46:52+00:00",
-      "ts": 1793371612.0
     },
     {
       "title": "Rogers expands D2D roaming reach",
@@ -1003,20 +1059,6 @@
       "ts": 1793284203.0
     },
     {
-      "title": "Private 5G on the Move: Rapid-Deploy Networks for Events, Emergencies and Temporary Sites",
-      "link": "https://tecknexus.com/rapid-deploy-private-5g-events-temporary-sites/",
-      "summary": "DTM's permanent adoption of Riedel's Easy5G for onboard cameras, Citymesh's festival incident reporting network, Teltronic's fast-deployment system and Wifinity's managed private 5G for outdoor estates show portable private networks maturing into their own category. TeckNexus examines the use cases, the role of...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-10-29T13:18:12+00:00",
-      "ts": 1793279892.0
-    },
-    {
       "title": "Federated's AI tool cuts FWA provider's failed installs in half",
       "link": "https://www.lightreading.com/fixed-wireless-access/federated-s-ai-tool-cuts-fwa-provider-s-failed-installs-in-half",
       "summary": "By using Federated Wireless' Adaptive Network Planner (ANP), fixed wireless access provider Element8 saw its installation success rate jump from 79% to over 90% during a five-week deployment.",
@@ -1115,35 +1157,6 @@
       "relevance": 24,
       "date": "2026-10-28T20:25:15+00:00",
       "ts": 1793219115.0
-    },
-    {
-      "title": "Canadian MSS Operator Terrestar Joins With Equatys for D2D",
-      "link": "https://www.satellitetoday.com/connectivity/2026/10/28/canadian-mss-operator-terrestar-joins-with-equatys-for-d2d/",
-      "summary": "Canada’s mobile satellite services (MSS) operator Terrestar Solutions is joining Equatys shared infrastructure approach for direct-to-device (D2D) services under a new MoU announced Wednesday. Equatys is the D2D venture founded […] The post Canadian MSS Operator Terrestar Joins With Equatys for D2D appeared first on...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-10-28T20:19:13+00:00",
-      "ts": 1793218753.0
-    },
-    {
-      "title": "Astroscale Wins New UK MoD Contract Focused on Orbital Defense",
-      "link": "https://www.satellitetoday.com/government-military/2026/10/28/astroscale-wins-new-uk-mod-contract-focused-on-orbital-defense/",
-      "summary": "The UK MoD has tapped Astroscale to be prime contractor for LEDA, a new defence program that builds on the company’s experience developing capabilities to understand, protect and operate in […] The post Astroscale Wins New UK MoD Contract Focused on Orbital Defense appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-10-28T19:56:28+00:00",
-      "ts": 1793217388.0
     },
     {
       "title": "C Spire uses AI smarts to expand 5G FWA to more homes",
@@ -1554,21 +1567,6 @@
       "ts": 1789656732.0
     },
     {
-      "title": "Nextlink Internet deploys netElastic to modernize its hybrid broadband network",
-      "link": "https://www.fierce-network.com/newswire/nextlink-internet-deploys-netelastic-modernize-its-hybrid-broadband-network",
-      "summary": "netElastic's software-based vBNG, CGNAT and netVision management platform support Nextlink's network operations and growth across fixed wireless and fiber services.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": null,
-      "ts": 0
-    },
-    {
       "title": "FCC doubles down on D2D with spectrum plays",
       "link": "https://www.fierce-network.com/wireless/fcc-doubles-down-d2d-spectrum-plays",
       "summary": "The direct-to-device (D2D) market on Thursday received some more love from the FCC, which voted to move forward with proposals to auction 25 megahertz of mid-band spectrum and to modernize rules for D2D services.",
@@ -1608,20 +1606,6 @@
       "research": false,
       "countries": [],
       "relevance": 41,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "HPE unifies visibility of wired, wireless and SASE solutions",
-      "link": "https://www.fierce-network.com/newswire/hpe-unifies-visibility-wired-wireless-and-sase-solutions",
-      "summary": "HPE unifies EdgeConnect, HPE Mist and HPE Aruba Central under an AI-native framework, delivering end-to-end network and security visibility from edge to cloud.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
       "date": null,
       "ts": 0
     },
@@ -1666,6 +1650,20 @@
       "research": false,
       "countries": [],
       "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Do SpaceX’s ‘missing pieces’ carry a Dish logo on them?",
+      "link": "https://www.fierce-network.com/wireless/does-spacexs-missing-pieces-have-dish-logo-them",
+      "summary": "Some analysts think SpaceX may try to buy the rest of EchoStar in a share-based deal, while others question how much Dish's leftover network is worth.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
       "date": null,
       "ts": 0
     },
