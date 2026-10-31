@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-31T03:07:04.901681+00:00",
-  "count": 106,
+  "generated_at": "2026-10-31T11:23:03.873767+00:00",
+  "count": 77,
   "theme_counts": {
-    "moveis": 39,
+    "moveis": 31,
     "fibra": 10,
-    "antenas": 8,
-    "iot": 2,
-    "satelite": 35,
-    "radar_militar": 8,
+    "antenas": 3,
+    "iot": 1,
+    "satelite": 32,
+    "radar_militar": 2,
     "radiocom": 1,
     "tv": 1,
-    "geral": 33
+    "geral": 17
   },
   "country_counts": {
     "br": 0,
@@ -21,7 +21,7 @@
     "kr": 1,
     "cn": 4
   },
-  "research_count": 29,
+  "research_count": 0,
   "sources": [
     {
       "source": "Light Reading",
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (67 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (28 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (68 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (95 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -468,422 +468,6 @@
       "relevance": 56,
       "date": "2026-10-30T04:43:19+00:00",
       "ts": 1793335399.0
-    },
-    {
-      "title": "Semantic-Assisted Joint Channel Estimation and Symbol Detection for MU-MIMO Systems",
-      "link": "https://arxiv.org/abs/2610.38855",
-      "summary": "arXiv:2610.38855v1 Announce Type: new Abstract: This paper presents a semantic-assisted joint channel estimation and symbol detection (Sem-JCED) receiver framework for text transmission in multi-user multiple-input multiple-output (MU-MIMO) systems. Sem-JCED integrates a linear minimum mean-square error (LMMSE)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
-      "link": "https://arxiv.org/abs/2610.40586",
-      "summary": "arXiv:2610.40586v1 Announce Type: cross Abstract: Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Deep Reinforcement Learning for Blind Passive Beamforming in RIS-Assisted MIMO Systems",
-      "link": "https://arxiv.org/abs/2610.39827",
-      "summary": "arXiv:2610.39827v1 Announce Type: new Abstract: Reconfigurable Intelligent Surfaces (RIS) are a promising solution for improving millimeter-wave (mmWave) communications by controlling signal propagation. Yet, selecting the optimal RIS configuration remains challenging due to the high-dimensional search space and...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "A Sub-Aperture-Based Ray-Tracing Framework for Near-Field U-MIMO THz Communications",
-      "link": "https://arxiv.org/abs/2610.38772",
-      "summary": "arXiv:2610.38772v1 Announce Type: new Abstract: Terahertz (THz) communications are characterized by antennas with large apertures and extended near-field (NF) region, offering the opportunity to develop adaptable beam manipulation strategies, particularly related to ultra-massive MIMO (U-MIMO). While Ray-Tracing (RT)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Delay and Throughput Analysis of Computation Offloading in Mobile Edge Computing: A Queueing Network Approach",
-      "link": "https://arxiv.org/abs/2609.06021",
-      "summary": "arXiv:2609.06021v2 Announce Type: replace Abstract: Mobile edge computing (MEC) enables mobile devices to offload computation to nearby edge servers and to the cloud in order to reduce end-to-end delay for different applications. In this paper, we study static computation offloading when each task consists of multiple...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Waveform Bandwidth and Frequency Diversity in FDA-MIMO Range-Angle Estimation: A CRLB Perspective",
-      "link": "https://arxiv.org/abs/2610.39011",
-      "summary": "arXiv:2610.39011v1 Announce Type: new Abstract: Frequency-diverse array multiple-input multiple-output (FDA-MIMO) radar introduces range-dependent phase diversity through element-dependent carrier-frequency offsets, in addition to the delay information carried by transmitted waveforms. This paper develops a...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 71,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Joint Antenna Position and Beamforming Optimization for Movable Antenna Enabled Near-Field ISAC Imaging",
-      "link": "https://arxiv.org/abs/2610.38794",
-      "summary": "arXiv:2610.38794v1 Announce Type: new Abstract: Near-field (NF) integrated sensing and communication (ISAC) systems enable simultaneous two-dimensional (2D) radar imaging and multi-user downlink communication. However, fixed-position antenna arrays can exhibit high sidelobes in the point spread function (PSF), which...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "3GPP-Compatible Long-Range Sensing for LEO-ISAC: A Window-Grid Processing Framework",
-      "link": "https://arxiv.org/abs/2609.30653",
-      "summary": "arXiv:2609.30653v5 Announce Type: replace Abstract: This paper addresses long-range sensing in bistatic low-Earth-orbit integrated sensing and communication (LEO-ISAC). Conventional OFDM sensing fails in LEO-ISAC because millisecond-scale propagation delays destroy the transmitter--receiver symbol alignment and, with...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "AFDM-ISAC Design Amalgamating FMCW Radar and Carrier Aggregation",
-      "link": "https://arxiv.org/abs/2610.40107",
-      "summary": "arXiv:2610.40107v1 Announce Type: new Abstract: Carrier-aggregation (CA)-assisted affine frequency division multiplexing (AFDM) is conceived for integrated sensing and communication (ISAC) systems. A frequency-modulated continuous-wave (FMCW)-inspired dechirping receiver is developed to exploit the inherent...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Federated Learning for Semantic Communications over Multiple Access Channels",
-      "link": "https://arxiv.org/abs/2610.37951",
-      "summary": "arXiv:2610.37951v1 Announce Type: cross Abstract: This paper presents a federated learning (FL) framework for semantic communication (SemCom) over the multiple access channel (MAC), where multiple distributed transmitters simultaneously convey semantic information to a common receiver using end-to-end learned semantic...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "True 3D Holography: A Communication Service of Tomorrow and Its Requirements for a New Converged Cloud and Network Architecture on the Path to 6G",
-      "link": "https://arxiv.org/abs/2610.40306",
-      "summary": "arXiv:2610.40306v1 Announce Type: cross Abstract: Research project 6G NeXt is considering true 3D holography as a use case, setting requirements on the communication as well as the computing infrastructure. In a future holographic communication service, clients are widely spread in the network and cooperatively...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Rydberg Atomic Quantum Receiver Empowered Hybrid Non-orthogonal Multiple Access",
-      "link": "https://arxiv.org/abs/2610.38451",
-      "summary": "arXiv:2610.38451v1 Announce Type: cross Abstract: In this paper, we propose a novel uplink Hybrid Non-Orthogonal Multiple Access (NOMA) architecture assisted by Rydberg Atomic Quantum Receivers (RAQRs) to improve energy efficiency by addressing the physical constraints of atomic sensing. We formulate a joint...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 66,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Twisted Fourier Analysis of Quantum Weight Enumerators",
-      "link": "https://arxiv.org/abs/2610.37894",
-      "summary": "arXiv:2610.37894v1 Announce Type: cross Abstract: A unified Fourier framework for quantum weight enumerators of prime-power-dimensional qudits is developed in this paper. We introduce the notions of Weyl power spectrum and Weyl-conjugation autocorrelation for the Weyl-operator quantities nderlying the Shor--Laflamme...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Efficient Joint Trajectory Optimization and Resource Allocation for Secure UAV Networks: A Deep Reinforcement Learning Approach",
-      "link": "https://arxiv.org/abs/2610.37897",
-      "summary": "arXiv:2610.37897v1 Announce Type: cross Abstract: Unmanned Aerial Vehicles (UAVs) are increasingly deployed in wireless networks; however, ensuring secure communication and efficient energy usage remains challenging. This paper addresses the joint trajectory optimization and resource allocation problem in UAV networks...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "A Linear Parameter-Varying Framework for the Analysis of Time-Varying Optimization Algorithms",
-      "link": "https://arxiv.org/abs/2501.07461",
-      "summary": "arXiv:2501.07461v4 Announce Type: replace-cross Abstract: In this paper we propose a framework to analyze iterative first-order optimization algorithms for time-varying convex optimization. We assume that the temporal variability is caused by a time-varying parameter entering the objective, which can be measured at...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "FedMaJ: Ordinal Meta-Aggregation for Federated Learning Using Majority-Judgment Voting",
-      "link": "https://arxiv.org/abs/2610.39985",
-      "summary": "arXiv:2610.39985v1 Announce Type: new Abstract: Federated learning traditionally relies on a fixed aggregation rule despite shifting client state and wireless dynamics. We present FedMaJ, a framework that dynamically selects aggregation rules via Majority Judgment voting. During voting rounds, clients evaluate...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2610.40214",
-      "summary": "arXiv:2610.40214v1 Announce Type: cross Abstract: As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Log Density Spectrum Based Decoding of Polar Codes for Channels with Strong Phase Noise",
-      "link": "https://arxiv.org/abs/2610.16363",
-      "summary": "arXiv:2610.16363v2 Announce Type: replace Abstract: A decoding method is proposed for polar codes under channels with strong phase noise. In contrast to traditional SC decoding, where recursions are performed on scalar soft information such as probabilities, the proposed decoding recurses over probability density...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Learning Graph Beliefs for Active Radio Mapping With Decision-Certified Multi-Step Sensing",
-      "link": "https://arxiv.org/abs/2610.37717",
-      "summary": "arXiv:2610.37717v1 Announce Type: new Abstract: Radio maps provide essential wireless propagation knowledge for network optimization and autonomous platforms. Acquiring dense measurements, however, is prohibitively costly, requiring active sampling to prioritize informative measurements. Existing active sampling...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Federated Agentic AI for Interference-Aware Adaptive Spectrum Coordination",
-      "link": "https://arxiv.org/abs/2610.39680",
-      "summary": "arXiv:2610.39680v1 Announce Type: new Abstract: Emerging intelligent wireless networks increasingly rely on autonomous AI agents to adapt spectrum usage to dynamic and heterogeneous operating conditions. However, collective learning is challenging when agents experience different local interference environments and...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Improving Energy Efficiency of Uplink RSMA via Rydberg Atomic Quantum Receiver",
-      "link": "https://arxiv.org/abs/2610.39615",
-      "summary": "arXiv:2610.39615v1 Announce Type: cross Abstract: This paper investigates an uplink rate-splitting multiple access (RSMA) network empowered by a Rydberg atomic quantum receiver (RAQR) to maximize energy efficiency (EE). To overcome the amplitude-only measurement limitation of the considered direct readout RAQR, we...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "6G Reasoning Agent Societies: Composition, Scaling, and Consistency-Time Laws",
-      "link": "https://arxiv.org/abs/2610.34357",
-      "summary": "arXiv:2610.34357v2 Announce Type: replace Abstract: Emerging 6G control planes would compose Large Language Model (LLM) agents that exchange interpreted conclusions, so hallucinations can propagate even over error-free transport. Recent architectures audit each message locally against the sender's observation mask,...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Minimum-Energy Control for Stochastic Linear Systems: A Data-Driven Approach with Finite-Sample Guarantees",
-      "link": "https://arxiv.org/abs/2610.27599",
-      "summary": "arXiv:2610.27599v2 Announce Type: replace Abstract: The open-loop minimum-energy control (MEC) problem asks for control inputs that minimize the control energy while ensuring the terminal state reaches a desired value. In this paper, we study the open-loop MEC problem for stochastic linear time-invariant systems. We...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "A Behavioral approach to Constrained Linear Quadratic Control: Feasibility and Optimality",
-      "link": "https://arxiv.org/abs/2610.40542",
-      "summary": "arXiv:2610.40542v1 Announce Type: cross Abstract: This paper develops a constrained linear-quadratic (LQ) optimal control framework within the behavioral approach. Unlike classical formulations that rely on state-input representations, our method treats both the system dynamics and the constraints as trajectory-level...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes",
-      "link": "https://arxiv.org/abs/2610.40490",
-      "summary": "arXiv:2610.40490v1 Announce Type: cross Abstract: Quantum error correction is essential for fault-tolerant quantum computing. High-rate quantum low-density parity-check (qLDPC) codes have emerged as a promising approach to reducing the substantial physical qubit overhead of quantum error correction, enabling encoding...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Belief-Driven Search in Connectivity-Constrained Mobile Sensor Networks with Convergence Guarantees",
-      "link": "https://arxiv.org/abs/2610.38256",
-      "summary": "arXiv:2610.38256v1 Announce Type: new Abstract: Multi-agent search and coverage is critical to autonomous exploration, search-and-rescue, and defense applications. This paper investigates settings where a mobile sensor network is tasked with coordinating to discover the position of a stationary target within a bounded...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "iot",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Tracking analysis of compressed-communication distributed adaptive estimation for time-varying parameters",
-      "link": "https://arxiv.org/abs/2610.39229",
-      "summary": "arXiv:2610.39229v1 Announce Type: new Abstract: This paper studies the problem of distributed time-varying parameter tracking over communication-constrained networks. To mitigate the accumulation of induced compression errors across the network, we propose a differentially compressed distributed least mean squares...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "An Improved Johnson Bound for List-Decoding with Hints",
-      "link": "https://arxiv.org/abs/2610.38022",
-      "summary": "arXiv:2610.38022v1 Announce Type: new Abstract: This paper studies when list-decodability guarantees for error-correcting codes of good distance can go beyond the classical Johnson radius and gives a corresponding efficient list-decoding algorithm for Reed-Solomon codes up to this new radius. The Johnson bound shows...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
-    },
-    {
-      "title": "Level Crossing Rate Bounds for Products of Independent Nonstationary Fading Processes",
-      "link": "https://arxiv.org/abs/2610.39950",
-      "summary": "arXiv:2610.39950v1 Announce Type: new Abstract: We develop a unified framework for the instantaneous total level crossing rate (LCR) of products of independent positive nonstationary fading processes. Universal upper and lower bounds are first derived from an exact decomposition of the product derivative and signed...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 45,
-      "date": "2026-10-30T04:00:00+00:00",
-      "ts": 1793332800.0
     },
     {
       "title": "Can Digital Twins Deliver Real Energy Savings for AI Data Center Cooling?",
