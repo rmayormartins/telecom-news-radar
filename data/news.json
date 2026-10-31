@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T21:46:01.504819+00:00",
-  "count": 104,
+  "generated_at": "2026-10-31T03:07:04.901681+00:00",
+  "count": 106,
   "theme_counts": {
     "moveis": 39,
     "fibra": 10,
@@ -10,15 +10,15 @@
     "radar_militar": 8,
     "radiocom": 1,
     "tv": 1,
-    "geral": 31
+    "geral": 33
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
     "in": 5,
-    "jp": 2,
-    "kr": 0,
+    "jp": 3,
+    "kr": 1,
     "cn": 4
   },
   "research_count": 29,
@@ -70,12 +70,12 @@
     },
     {
       "source": "TeckNexus",
-      "status": "ERRO: <urlopen error timed out>",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 2
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Intel and Broadcom Demonstrate IEEE 802.11bn/Wi-Fi 8 Interoperability",
+      "link": "https://techblog.comsoc.org/2026/10/30/intel-and-broadcom-demonstrate-ieee-802-11bn-wi-fi-8-interoperability/",
+      "summary": "Disclaimer: ChatGPT was used for research in this article, but the author had to frequently checkpoint its AI work for omissions and accuracy. ………………………………………………………………………………………………………………………………………………… Introduction: Wi-Fi 8, based on the IEEE 802.11bn amendment, reached an important development milestone with a public...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-10-31T00:52:04+00:00",
+      "ts": 1793407924.0
+    },
     {
       "title": "Eutelsat Q1 LEO Revenue Rises 30% to €70.9M as OneWeb Offsets Video Decline",
       "link": "https://satnews.com/2026/10/30/eutelsat-q1-leo-revenue-rises-30-to-e70-9m-as-oneweb-offsets-video-decline/",
@@ -344,6 +358,23 @@
       "relevance": 68,
       "date": "2026-10-30T14:47:21+00:00",
       "ts": 1793371641.0
+    },
+    {
+      "title": "Physical AI and Connectivity Leaders at a Glance",
+      "link": "https://tecknexus.com/intelligence/physical-ai-and-connectivity-leaders-at-a-glance/",
+      "summary": "Six of 40 telecom operators lead physical AI. Swipe through Deutsche Telekom, KT, NTT DOCOMO, SK Telecom, SoftBank and T-Mobile: where each is strongest and what to watch in 2027. Then download the free executive brief or get the full Leadership Landscape. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED...",
+      "source": "TeckNexus",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp",
+        "kr"
+      ],
+      "relevance": 44,
+      "date": "2026-10-30T14:46:52+00:00",
+      "ts": 1793371612.0
     },
     {
       "title": "Rogers expands D2D roaming reach",
@@ -1059,6 +1090,20 @@
       "ts": 1793284203.0
     },
     {
+      "title": "Private 5G on the Move: Rapid-Deploy Networks for Events, Emergencies and Temporary Sites",
+      "link": "https://tecknexus.com/rapid-deploy-private-5g-events-temporary-sites/",
+      "summary": "DTM's permanent adoption of Riedel's Easy5G for onboard cameras, Citymesh's festival incident reporting network, Teltronic's fast-deployment system and Wifinity's managed private 5G for outdoor estates show portable private networks maturing into their own category. TeckNexus examines the use cases, the role of...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-10-29T13:18:12+00:00",
+      "ts": 1793279892.0
+    },
+    {
       "title": "Federated's AI tool cuts FWA provider's failed installs in half",
       "link": "https://www.lightreading.com/fixed-wireless-access/federated-s-ai-tool-cuts-fwa-provider-s-failed-installs-in-half",
       "summary": "By using Federated Wireless' Adaptive Network Planner (ANP), fixed wireless access provider Element8 saw its installation success rate jump from 79% to over 90% during a five-week deployment.",
@@ -1350,20 +1395,6 @@
       "ts": 1792723222.0
     },
     {
-      "title": "Deep Dive – AT&T Fiber vs. Verizon Fios: Fiber Deployments, Footprints and Convergence Strategies",
-      "link": "https://techblog.comsoc.org/2026/10/21/deep-dive-att-fiber-vs-verizon-fios-fiber-deployments-footprints-and-convergence-strategies/",
-      "summary": "Disclaimer: This article was written by Perplexity.ai in response to a query from Alan J Weissberger who edited the piece. The companion article is here: AT&T’s Fiber Expansion Strengthens Its Converged Wireless and Home Broadband Strategy Introduction: AT&T reported the large fiber-reach of 39M locations and an...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-10-21T23:56:34+00:00",
-      "ts": 1792626994.0
-    },
-    {
       "title": "European telcos consider joint bid for satellite spectrum",
       "link": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
       "summary": "The move comes as the European Union grows increasingly wary of its reliance on Elon Musk’s Starlink The post European telcos consider joint bid for satellite spectrum appeared first on Total Telecom .",
@@ -1610,6 +1641,20 @@
       "ts": 0
     },
     {
+      "title": "Fiber operator Brightspeed faces potential bankruptcy",
+      "link": "https://www.fierce-network.com/broadband/fiber-operator-brightspeed-faces-potential-bankruptcy",
+      "summary": "New Street Research says Brightspeed ended its second quarter with $1.2 billion in cash, down from $1.8 billion in the first quarter.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Deutsche Telekom shelves plan to merge with T-Mobile US – report",
       "link": "https://www.fierce-network.com/wireless/deutsche-telekom-shelves-plan-merge-t-mobile-us-report",
       "summary": "DT has paused its push for a full T-Mobile US merger amid labor and investor pushback, though the deal could be revived.",
@@ -1635,20 +1680,6 @@
       "countries": [
         "cn"
       ],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Noble Mobile, the MVNO backed by Andrew Yang, acquires SmartLess Mobile",
-      "link": "https://www.fierce-network.com/wireless/noble-mobile-mvno-backed-andrew-yang-acquires-smartless-mobile",
-      "summary": "Andrew Yang's Noble Mobile has acquired SmartLess Mobile, the T-Mobile-based MVNO backed by the SmartLess podcast hosts.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
       "relevance": 31,
       "date": null,
       "ts": 0
