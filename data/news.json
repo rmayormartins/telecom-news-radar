@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-01T03:01:23.479359+00:00",
-  "count": 74,
+  "generated_at": "2026-11-01T12:14:25.136013+00:00",
+  "count": 65,
   "theme_counts": {
-    "moveis": 31,
-    "fibra": 9,
+    "moveis": 30,
+    "fibra": 8,
     "antenas": 3,
     "iot": 1,
-    "satelite": 30,
-    "radar_militar": 1,
+    "satelite": 25,
+    "radar_militar": 2,
     "radiocom": 1,
     "tv": 1,
-    "geral": 17
+    "geral": 14
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 5,
+    "in": 4,
     "jp": 2,
     "kr": 1,
     "cn": 4
@@ -45,8 +45,8 @@
     },
     {
       "source": "Mobile World Live",
-      "status": "ok (30 itens)",
-      "kept": 10
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TelecomTV",
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Telecoms Tech News",
@@ -140,7 +140,7 @@
     },
     {
       "source": "3GPP News",
-      "status": "ERRO: The read operation timed out",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Satellites Meet Towers, Operators Slim Down: Advanced Connectivity Insights, October 2026",
+      "link": "https://tecknexus.com/telecom-wireless-insights-october-2026/",
+      "summary": "October 2026's roundup: SpaceX moves to lease tens of thousands of US tower sites as the FCC opens more spectrum for direct-to-device, 5G-Advanced reaches live networks, mmWave fixed wireless gets a second act, and operators sell, merge and restructure. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-11-01T04:04:51+00:00",
+      "ts": 1793505891.0
+    },
+    {
+      "title": "Spectrum, Substations, and Starting Grids: Private Network Insights, October 2026",
+      "link": "https://tecknexus.com/private-network-insights-october-2026/",
+      "summary": "October 2026's roundup: Chile, Mexico, Sweden and Iceland open spectrum for enterprise networks, Penang Port goes live on dedicated spectrum, utilities move to hybrid private wireless, and portable private 5G proves itself at race tracks, festivals and military exercises. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 65,
+      "date": "2026-11-01T03:45:35+00:00",
+      "ts": 1793504735.0
+    },
     {
       "title": "FCC Proposes 25 MHz Mid-Band Spectrum Auction with Dual 5G and Direct-to-Device Allocations",
       "link": "https://satnews.com/2026/10/31/fcc-proposes-25-mhz-mid-band-spectrum-auction-with-dual-5g-and-direct-to-device-allocations/",
@@ -289,50 +319,6 @@
       "ts": 1793381178.0
     },
     {
-      "title": "SpaceX/SI cracks top-10 for cloud revenue ranking",
-      "link": "https://www.mobileworldlive.com/network-tech/spacex-si-cracks-top-10-tier-2-cloud-ranking-in-q3/",
-      "summary": "SpaceX/SI entered the top-10 of tier-two cloud infrastructure companies by service revenue in Q3 as AI demand continued to reshape the market, Synergy Research Group reported. The post SpaceX/SI cracks top-10 for cloud revenue ranking appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-30T17:15:44+00:00",
-      "ts": 1793380544.0
-    },
-    {
-      "title": "Telefonica, Minsait deliver digital euro set-up",
-      "link": "https://www.mobileworldlive.com/industry/telefonica-minsait-deliver-digital-euro-set-up/",
-      "summary": "Telefonica secured a prestigious position as a supplier of key infrastructure for a European Central Bank plan to digitise the euro, with the operator comprising one of two companies selected. The post Telefonica, Minsait deliver digital euro set-up appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-30T16:16:06+00:00",
-      "ts": 1793376966.0
-    },
-    {
-      "title": "India issues draft guidelines for AI use in telecoms",
-      "link": "https://www.mobileworldlive.com/asia-pacific/india-issues-draft-guidelines-for-ai-use-in-telecoms/",
-      "summary": "The Telecom Regulatory Authority of India opened a consultation into a proposed framework on the responsible use of AI in the provision of telecoms services, including within network infrastructure. The post India issues draft guidelines for AI use in telecoms appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 51,
-      "date": "2026-10-30T16:14:02+00:00",
-      "ts": 1793376842.0
-    },
-    {
       "title": "T-Mobile CTO says carrier will be first to 6G in US",
       "link": "https://www.datacenterdynamics.com/en/news/t-mobile-cto-says-carrier-will-be-first-to-6g-in-us/",
       "summary": "The race to launch 6G is on",
@@ -376,21 +362,6 @@
       "relevance": 44,
       "date": "2026-10-30T14:46:52+00:00",
       "ts": 1793371612.0
-    },
-    {
-      "title": "Rogers expands D2D roaming reach",
-      "link": "https://www.mobileworldlive.com/asia-pacific/rogers-expands-d2d-roaming-reach/",
-      "summary": "Canadian operator Rogers broadened the reach of a direct-to-device satellite service by striking roaming deals covering key nations in and around the Pacific Ocean. The post Rogers expands D2D roaming reach appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-30T11:49:21+00:00",
-      "ts": 1793360961.0
     },
     {
       "title": "Telecom news: Asia-Pacific Fixed Wireless Broadband, Airtel Rwanda, T-Mobile’a 6G Network",
@@ -588,48 +559,6 @@
       "ts": 1793300775.0
     },
     {
-      "title": "Boldyn boosts Radford University connectivity",
-      "link": "https://www.mobileworldlive.com/network-tech/boldyn-boosts-radford-university-connectivity/",
-      "summary": "A US university tackled discrepancies in broadband access across its residences by tasking Boldyn Networks to provide a network which treats all buildings as equals. The post Boldyn boosts Radford University connectivity appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-29T17:19:16+00:00",
-      "ts": 1793294356.0
-    },
-    {
-      "title": "FCC outlines plan to auction 25MHz of spectrum for D2D, mobile",
-      "link": "https://www.mobileworldlive.com/fcc/fcc-outlines-plan-to-auction-25mhz-of-spectrum-for-d2d-mobile/",
-      "summary": "The US Federal Communications Commission proposed auctioning 25MHz of spectrum for satellite direct-to-device services and terrestrial wireless networks. The post FCC outlines plan to auction 25MHz of spectrum for D2D, mobile appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-10-29T16:54:55+00:00",
-      "ts": 1793292895.0
-    },
-    {
-      "title": "Deutsche Telekom cools T-Mobile US merger talk",
-      "link": "https://www.mobileworldlive.com/deutsche-telekom/deutsche-telekom-cools-t-mobile-us-merger-talk/",
-      "summary": "A Deutsche Telekom plan to merge with its subsidiary T-Mobile US reportedly hit an obstacle, prompting the German operator to decide against making a formal offer for now. The post Deutsche Telekom cools T-Mobile US merger talk appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-29T14:47:04+00:00",
-      "ts": 1793285224.0
-    },
-    {
       "title": "T-Mobile: We'll be first with 6G, and no to SpaceX MVNO",
       "link": "https://www.lightreading.com/6g/t-mobile-we-ll-be-first-with-6g-and-no-to-spacex-mvno",
       "summary": "T-Mobile reports Q3 earnings and says it aims to be first with 6G in the US. It also continues to rule out an MVNO deal with SpaceX's Starlink.",
@@ -643,20 +572,6 @@
       "relevance": 60,
       "date": "2026-10-29T14:30:03+00:00",
       "ts": 1793284203.0
-    },
-    {
-      "title": "Private 5G on the Move: Rapid-Deploy Networks for Events, Emergencies and Temporary Sites",
-      "link": "https://tecknexus.com/rapid-deploy-private-5g-events-temporary-sites/",
-      "summary": "DTM's permanent adoption of Riedel's Easy5G for onboard cameras, Citymesh's festival incident reporting network, Teltronic's fast-deployment system and Wifinity's managed private 5G for outdoor estates show portable private networks maturing into their own category. TeckNexus examines the use cases, the role of...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-10-29T13:18:12+00:00",
-      "ts": 1793279892.0
     },
     {
       "title": "Federated's AI tool cuts FWA provider's failed installs in half",
@@ -685,49 +600,6 @@
       "relevance": 58,
       "date": "2026-10-29T13:00:00+00:00",
       "ts": 1793278800.0
-    },
-    {
-      "title": "Terrestar inks pact with Viasat, Space42 on satellite sharing",
-      "link": "https://www.mobileworldlive.com/network-tech/terrestar-inks-pact-with-viasat-space42-on-satellite-sharing/",
-      "summary": "Canada-based Terrestar Solutions struck a deal with the UAE company Space42 and US player Viasat to work on an open framework for sharing satellite infrastructure, with the ultimate aim of scaling direct-to-device (D2D) services while preserving national control over critical networks. The post Terrestar inks pact...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-10-29T12:12:10+00:00",
-      "ts": 1793275930.0
-    },
-    {
-      "title": "T-Mobile US enterre l’idée d’un accord MVNO avec SpaceX",
-      "link": "https://www.mobileworldlive.com/french/t-mobile-us-enterre-lidee-dun-accord-mvno-avec-spacex/",
-      "summary": "Le directeur général de T-Mobile US, Srini Gopalan, a fermé la porte à un accord réseau avec SpaceX lors d’une Read more... The post T-Mobile US enterre l’idée d’un accord MVNO avec SpaceX appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-10-29T09:48:53+00:00",
-      "ts": 1793267333.0
-    },
-    {
-      "title": "Starlink activa su cobertura D2D en Toledo tras el accidente ferroviario",
-      "link": "https://www.mobileworldlive.com/spanish/starlink-activa-su-cobertura-d2d-en-toledo-tras-el-accidente-ferroviario/",
-      "summary": "Starlink, de SpaceX, ha activado su servicio de conexión via satélite directa a móviles (Direct to Cell, D2D) en la Read more... The post Starlink activa su cobertura D2D en Toledo tras el accidente ferroviario appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-10-29T07:37:33+00:00",
-      "ts": 1793259453.0
     },
     {
       "title": "PsiQuantum Targets AI Data Center Networks with Silicon-Photonic Optical Switching",
