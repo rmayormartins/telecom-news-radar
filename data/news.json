@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T21:27:35.305462+00:00",
-  "count": 74,
+  "generated_at": "2026-11-02T03:12:14.146887+00:00",
+  "count": 76,
   "theme_counts": {
-    "moveis": 31,
-    "fibra": 9,
-    "antenas": 3,
+    "moveis": 33,
+    "fibra": 10,
+    "antenas": 4,
     "iot": 1,
     "satelite": 31,
-    "radar_militar": 2,
+    "radar_militar": 3,
     "radiocom": 1,
     "tv": 1,
     "geral": 17
@@ -16,10 +16,10 @@
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 5,
+    "in": 7,
     "jp": 2,
     "kr": 1,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 0,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,55 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: AT&T, Ericsson, Erillisverkot, Reliance Jio, TRAI",
+      "link": "https://telecomlead.com/news/telecom-news-att-ericsson-erillisverkot-reliance-jio-trai-128476",
+      "summary": "The latest telecom news includes announcements on AT&T, Ericsson, Erillisverkot, Reliance Jio, TRAI, and others. AT&T and Ericsson Demonstrate 5G Drone Detection at 300–400 Feet Using Massive MIMO Network Sensing AT&T and Ericsson announced they demonstrated integrated sensing and communication technology outside AT&T...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "antenas",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 66,
+      "date": "2026-11-02T03:11:48+00:00",
+      "ts": 1793589108.0
+    },
+    {
+      "title": "Telecom news: Reliance Jio, OTE Greece Fiber Network, Proximus",
+      "link": "https://telecomlead.com/news/telecom-news-reliance-jio-ote-greece-fiber-network-proximus-128474",
+      "summary": "The latest telecom news includes announcements on Reliance Jio, OTE Greece Fiber Network, Proximus, and others. Reliance Jio Reaches 300 Million 5G Subscribers as Fiber and FWA Broadband Connections Hit 30 Million Reliance Jio reported on October 30 that its 5G subscriber base had reached 300 million at the end of...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 53,
+      "date": "2026-11-02T03:07:12+00:00",
+      "ts": 1793588832.0
+    },
+    {
+      "title": "Eutelsat Q1 LEO Revenue Rises 30% to €70.9M as OneWeb Offsets Video Decline",
+      "link": "https://satnews.com/2026/11/01/eutelsat-q1-leo-revenue-rises-30-to-e70-9m-as-oneweb-offsets-video-decline/",
+      "summary": "PARIS — Eutelsat Group reported total first-quarter revenues of €286 million following the close of market trading on Oct. 29, 2026, driven by expanding low Earth orbit (LEO) operations that […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-11-01T22:27:00+00:00",
+      "ts": 1793572020.0
+    },
     {
       "title": "Satellites Meet Towers, Operators Slim Down: Advanced Connectivity Insights, October 2026",
       "link": "https://tecknexus.com/telecom-wireless-insights-october-2026/",
@@ -513,22 +562,6 @@
       "relevance": 39,
       "date": "2026-10-29T23:51:08+00:00",
       "ts": 1793317868.0
-    },
-    {
-      "title": "Telecom news: ZTE, du, Eutelsat, Starlink, OneWeb",
-      "link": "https://telecomlead.com/news/telecom-news-zte-du-eutelsat-starlink-oneweb-128453",
-      "summary": "Today’s telecom news includes announcements on ZTE, du, Eutelsat, Starlink, OneWeb, Egypt’s National Telecom Regulatory Authority, among others. ZTE and du Launch World-First Commercial Upper 6 GHz Connectivity on Live Network ZTE and UAE telecom operator du have activated Upper 6 GHz radio equipment on a live...",
-      "source": "Telecom Lead",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 61,
-      "date": "2026-10-29T21:24:51+00:00",
-      "ts": 1793309091.0
     },
     {
       "title": "Es’hailSat and Arabsat Deepen Ties in the Middle East",
