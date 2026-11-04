@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-03T22:39:48.599238+00:00",
-  "count": 104,
+  "generated_at": "2026-11-04T03:46:13.869293+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 47,
-    "fibra": 10,
+    "moveis": 48,
+    "fibra": 11,
     "antenas": 15,
     "iot": 2,
     "satelite": 34,
     "radar_militar": 17,
     "radiocom": 1,
     "tv": 1,
-    "geral": 21
+    "geral": 20
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 1,
-    "in": 4,
+    "in": 5,
     "jp": 2,
-    "kr": 1,
-    "cn": 3
+    "kr": 2,
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -200,6 +200,53 @@
     }
   ],
   "items": [
+    {
+      "title": "SK Telecom Q3 2026 Revenue Jumps 13% to KRW 4.5 Trillion; 5G Subscribers Reach 18.09 Million, Capex at KRW 461 Billion",
+      "link": "https://telecomlead.com/5g/sk-telecom-q3-2026-revenue-jumps-13-to-krw-4-5-trillion-5g-subscribers-reach-18-09-million-capex-at-krw-461-billion-128524",
+      "summary": "SK Telecom reported a 13.1 percent increase in revenue to KRW 4.497 trillion in the third quarter of 2026, supported by recovery in mobile services, growth in 5G subscribers, broadband expansion and increasing demand for artificial intelligence (AI) solutions. South Korea’s leading telecom operator recorded operating...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 52,
+      "date": "2026-11-04T01:59:58+00:00",
+      "ts": 1793757598.0
+    },
+    {
+      "title": "Wi-Fi 6 Adoption Reaches 79.7% in Singapore, Just 18% in India: Ookla Report Highlights Asia-Pacific Broadband Gap",
+      "link": "https://telecomlead.com/broadband/wi-fi-6-adoption-reaches-79-7-in-singapore-just-18-in-india-ookla-report-highlights-asia-pacific-broadband-gap-128521",
+      "summary": "Singapore has emerged as the Asia-Pacific leader in Wi-Fi 6 and Wi-Fi 7 adoption, while India, Indonesia and the Philippines continue to face challenges related to outdated home routers, slower broadband connections and limited use of the 6 GHz spectrum band. According to Ookla’s Speedtest Intelligence data for the...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 55,
+      "date": "2026-11-04T01:43:20+00:00",
+      "ts": 1793756600.0
+    },
+    {
+      "title": "Verizon and Ericsson Advance AI-Native RAN Operations with Nationwide EIC Rollout",
+      "link": "https://techblog.comsoc.org/2026/11/03/verizon-and-ericsson-advance-ai-native-ran-operations-with-nationwide-eic-rollout/",
+      "summary": "Executive Summary: Verizon and Ericsson are expanding their longstanding collaboration to introduce AI-native automation into Radio Access Network (RAN) operations. The companies plan a nationwide deployment of Ericsson Intelligent Controller (EIC) [1.], a software platform for running RAN applications (rApps)...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-11-04T00:00:31+00:00",
+      "ts": 1793750431.0
+    },
     {
       "title": "AT&T and AST SpaceMobile Demonstrate Handoff Between Cellular, D2D Networks",
       "link": "https://www.satellitetoday.com/connectivity/2026/11/03/att-and-ast-spacemobile-demonstrate-handoff-between-cellular-d2d-networks/",
@@ -347,21 +394,6 @@
       "relevance": 54,
       "date": "2026-11-03T14:00:09+00:00",
       "ts": 1793714409.0
-    },
-    {
-      "title": "Virgin Media O2 Q3 2026 Revenue Falls 5.7% to £2.43 Billion; Capex Hits £575 Million, 5G+ Coverage Reaches 86 Percent",
-      "link": "https://telecomlead.com/5g/virgin-media-o2-q3-2026-revenue-falls-5-7-to-2-43-billion-capex-hits-575-million-5g-coverage-reaches-86-percent-128502",
-      "summary": "Virgin Media O2 reported a 5.7 percent decline in third-quarter 2026 revenue to £2.43 billion as broadband subscriber losses, falling fixed-line ARPU and intense competition affected its financial performance. The UK telecom operator invested £574.7 million in capital expenditure (capex), expanded 5G+ population...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-11-03T13:08:08+00:00",
-      "ts": 1793711288.0
     },
     {
       "title": "Why Boost Mobile isn't SpaceX's shortcut to an MVNO",
@@ -1371,22 +1403,6 @@
       "relevance": 69,
       "date": "2026-10-26T23:26:39+00:00",
       "ts": 1793057199.0
-    },
-    {
-      "title": "Custom AI Silicon: OpenAI, Anthropic, Hyperscalers, Huawei and the Battle with Nvidia, AMD and Broadcom",
-      "link": "https://techblog.comsoc.org/2026/10/25/custom-ai-silicon-openai-anthropic-hyperscalers-and-the-battle-with-nvidia-amd-and-broadcom/",
-      "summary": "Disclaimer: ChatGPT was used extensively to write this article. Executive Summary: Custom AI silicon is entering a new phase. Google, Amazon, Microsoft and Meta have established proprietary accelerator programs, while OpenAI has introduced its first custom inference chip, Jalapeño, and Anthropic is assembling an...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 32,
-      "date": "2026-10-26T01:13:11+00:00",
-      "ts": 1792977191.0
     },
     {
       "title": "one6G at Bharat International 6G Symposium",
