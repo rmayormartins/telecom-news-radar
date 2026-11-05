@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T22:58:13.320339+00:00",
-  "count": 101,
+  "generated_at": "2026-11-05T04:04:17.003940+00:00",
+  "count": 102,
   "theme_counts": {
-    "moveis": 46,
-    "fibra": 8,
-    "antenas": 7,
+    "moveis": 47,
+    "fibra": 7,
+    "antenas": 8,
     "iot": 0,
-    "satelite": 31,
+    "satelite": 30,
     "radar_militar": 13,
     "radiocom": 2,
     "tv": 2,
@@ -16,10 +16,10 @@
     "br": 0,
     "ru": 1,
     "il": 1,
-    "in": 4,
+    "in": 2,
     "jp": 3,
-    "kr": 2,
-    "cn": 1
+    "kr": 1,
+    "cn": 3
   },
   "research_count": 27,
   "sources": [
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "3G4G Blog",
@@ -201,9 +201,85 @@
   ],
   "items": [
     {
-      "title": "Former DoD Official Warns that Golden Dome May Not Outlive Trump Presidency",
+      "title": "Telecom news: KPN, iBASIS Network, AccelerComm, Taara, Rountree",
+      "link": "https://telecomlead.com/news/telecom-news-kpn-ibasis-network-accelercomm-taara-rountree-128550",
+      "summary": "Today’s telecom news includes announcements on KPN, iBASIS Network, AccelerComm, Taara, Rountree, among others. KPN Renews iBASIS Network Outsourcing Agreement for Five Years, Expands 5G Roaming Cooperation KPN and iBASIS announced on November 3 a five-year renewal of their international voice and mobile network...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-11-05T03:04:59+00:00",
+      "ts": 1793847899.0
+    },
+    {
+      "title": "Telecom news: FiberLight, Hotwire Communications, Nokia, Ooredoo, DE-CIX",
+      "link": "https://telecomlead.com/news/telecom-news-fiberlight-hotwire-communications-nokia-ooredoo-de-cix-128548",
+      "summary": "Today’s telecom news includes announcements on FiberLight, Hotwire Communications, Nokia, Ooredoo, DE-CIX, among others. FiberLight Expands Texas Fiber Network with New I-45 Route Connecting Red Oak and Dallas FiberLight announced on November 3 that it would expand its Texas optical network through a new route along...",
+      "source": "Telecom Lead",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 43,
+      "date": "2026-11-05T03:02:07+00:00",
+      "ts": 1793847727.0
+    },
+    {
+      "title": "Telecom news: Huawei, ZTE, Nokia, Ericsson, Samsung, Ethio Telecom",
+      "link": "https://telecomlead.com/news/telecom-news-huawei-zte-nokia-ericsson-samsung-ethio-telecom-128546",
+      "summary": "Today’s telecom news includes announcements on Huawei, ZTE, Nokia, Ericsson, Samsung, Ethio Telecom, among others. Germany Moves to Restrict Chinese Telecom Equipment in 5G Networks Germany is preparing restrictions on Chinese telecommunications equipment in its mobile networks, potentially excluding Huawei and ZTE...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 53,
+      "date": "2026-11-05T02:59:33+00:00",
+      "ts": 1793847573.0
+    },
+    {
+      "title": "Telecom news: ZTE, Beeline, Globe Telecom, PLDT/Smart, DITO, GSMA, Indus Towers",
+      "link": "https://telecomlead.com/news/telecom-news-zte-beeline-globe-telecom-pldt-smart-dito-gsma-indus-towers-128544",
+      "summary": "Today’s telecom news includes announcements on ZTE, Beeline Kazakhstan, Globe Telecom, PLDT/Smart, DITO Telecommunity, GSMA, Indus Towers, among others. ZTE and Beeline Complete CIS’s First Low-Band Massive MIMO Trial in Kazakhstan ZTE and Beeline Kazakhstan have completed the Commonwealth of Independent States’ first...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "antenas"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 45,
+      "date": "2026-11-05T02:57:34+00:00",
+      "ts": 1793847454.0
+    },
+    {
+      "title": "Skeptical Analysis: SpaceX Selects Qualcomm for Nationwide Terrestrial 5G Network; Impact on Big 3 U.S. Wireless Carriers",
+      "link": "https://techblog.comsoc.org/2026/11/04/spacex-selects-qualcomm-for-nationwide-terrestrial-5g-network-impact-on-big-3-u-s-carriers/",
+      "summary": "Disclosure: ChatGPT was used extensively for research, technical analysis, and drafting assistance in this article. The author reviewed and fact-checked the material and is responsible for the final content. Executive Summary: SpaceX has selected Qualcomm Technologies’ Dragonwing Cellular Infrastructure platforms to...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 67,
+      "date": "2026-11-04T23:25:39+00:00",
+      "ts": 1793834739.0
+    },
+    {
+      "title": "Former DoD Official Warns Golden Dome May Not Outlive Trump Presidency",
       "link": "https://www.satellitetoday.com/government-military/2026/11/04/former-dod-official-warns-that-golden-dome-may-not-outlive-trump-presidency/",
-      "summary": "Branding that associates the Golden Dome missile shield personally with President Trump, alongside its expected $1 trillion price tag, partisan disputes, and Democratic election victories on Capitol Hill may well combine […] The post Former DoD Official Warns that Golden Dome May Not Outlive Trump Presidency appeared...",
+      "summary": "Branding that associates the Golden Dome missile shield personally with President Trump, alongside its expected $1 trillion price tag, partisan disputes, and Democratic election victories on Capitol Hill may well […] The post Former DoD Official Warns Golden Dome May Not Outlive Trump Presidency appeared first on Via...",
       "source": "Via Satellite",
       "themes": [
         "radar_militar",
@@ -880,39 +956,6 @@
       "ts": 1793768400.0
     },
     {
-      "title": "SK Telecom Q3 2026 Revenue Jumps 13% to KRW 4.5 Trillion; 5G Subscribers Reach 18.09 Million, Capex at KRW 461 Billion",
-      "link": "https://telecomlead.com/5g/sk-telecom-q3-2026-revenue-jumps-13-to-krw-4-5-trillion-5g-subscribers-reach-18-09-million-capex-at-krw-461-billion-128524",
-      "summary": "SK Telecom reported a 13.1 percent increase in revenue to KRW 4.497 trillion in the third quarter of 2026, supported by recovery in mobile services, growth in 5G subscribers, broadband expansion and increasing demand for artificial intelligence (AI) solutions. South Korea’s leading telecom operator recorded operating...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 52,
-      "date": "2026-11-04T01:59:58+00:00",
-      "ts": 1793757598.0
-    },
-    {
-      "title": "Wi-Fi 6 Adoption Reaches 79.7% in Singapore, Just 18% in India: Ookla Report Highlights Asia-Pacific Broadband Gap",
-      "link": "https://telecomlead.com/broadband/wi-fi-6-adoption-reaches-79-7-in-singapore-just-18-in-india-ookla-report-highlights-asia-pacific-broadband-gap-128521",
-      "summary": "Singapore has emerged as the Asia-Pacific leader in Wi-Fi 6 and Wi-Fi 7 adoption, while India, Indonesia and the Philippines continue to face challenges related to outdated home routers, slower broadband connections and limited use of the 6 GHz spectrum band. According to Ookla’s Speedtest Intelligence data for the...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 55,
-      "date": "2026-11-04T01:43:20+00:00",
-      "ts": 1793756600.0
-    },
-    {
       "title": "Russia pushes forward with Starlink rival",
       "link": "https://www.advanced-television.com/2026/11/04/russia-pushes-forward-with-starlink-rival/",
       "summary": "Russia has made a formal filing with the International Telecommunications Union (ITU) for an extra satellite network called Rassvet-4 that Russia hasn’t itself announced: Russia wants 374 satellites at 800 km altitude in 17 orbital planes with 22 satellites each and with 12 transmission beams per satellite. Russia...",
@@ -985,23 +1028,6 @@
       "relevance": 48,
       "date": "2026-11-03T18:23:49+00:00",
       "ts": 1793730229.0
-    },
-    {
-      "title": "Telecom news: Airtel Kenya, MDA Space, Telesat",
-      "link": "https://telecomlead.com/news/telecom-news-airtel-kenya-mda-space-telesat-128516",
-      "summary": "Today’s telecom news includes announcements on Airtel Kenya’s 5G Network, MDA Space, Telesat, and others. Airtel Kenya Acquires 100 MHz of 3.5 GHz Spectrum for $65 Million to Expand 5G Network Airtel Kenya has acquired 100 MHz of spectrum in the 3500 MHz band for $65 million, securing usage rights for 25 years. The...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 45,
-      "date": "2026-11-03T14:19:28+00:00",
-      "ts": 1793715568.0
     },
     {
       "title": "Why Boost Mobile isn't SpaceX's shortcut to an MVNO",
@@ -1349,21 +1375,6 @@
       "relevance": 44,
       "date": "2026-10-27T23:02:21+00:00",
       "ts": 1793142141.0
-    },
-    {
-      "title": "Analysis: Why Carriers Are Fighting Mid-Band Satellite D2D Spectrum at the FCC",
-      "link": "https://techblog.comsoc.org/2026/10/26/analysis-why-carriers-are-fighting-mid-band-satellite-d2d-spectrum-at-the-fcc/",
-      "summary": "Disclaimer: Google Gemini was used for research in this article. ……………………………………………………………………………………………………………………………………………….. Executive Summary: Ahead of the FCC’s October 29th open meeting on Supplemental Coverage from Space (SCS), CTIA filed a joint petition on behalf of AT&T, Verizon, and T-Mobile on October 22nd. The...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-10-26T23:26:39+00:00",
-      "ts": 1793057199.0
     },
     {
       "title": "one6G at Bharat International 6G Symposium",
