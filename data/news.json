@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T22:59:40.785589+00:00",
+  "generated_at": "2026-11-06T04:01:39.586460+00:00",
   "count": 99,
   "theme_counts": {
-    "moveis": 50,
-    "fibra": 10,
+    "moveis": 49,
+    "fibra": 8,
     "antenas": 11,
     "iot": 1,
-    "satelite": 30,
-    "radar_militar": 15,
+    "satelite": 32,
+    "radar_militar": 16,
     "radiocom": 0,
     "tv": 1,
     "geral": 20
@@ -19,7 +19,7 @@
     "in": 4,
     "jp": 2,
     "kr": 0,
-    "cn": 2
+    "cn": 3
   },
   "research_count": 28,
   "sources": [
@@ -66,7 +66,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "TeckNexus",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,52 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: NETGEAR, AT&T, Qualcomm, Ericsson, U Mobile, Huawei, ZTE, Deutsche Telekom, SpaceX, Verizon",
+      "link": "https://telecomlead.com/news/telecom-news-netgear-att-qualcomm-ericsson-u-mobile-huawei-zte-deutsche-telekom-spacex-verizon-128573",
+      "summary": "Today’s telecom news includes announcements on NETGEAR, AT&T, Qualcomm, Ericsson, U Mobile, Huawei, ZTE, Deutsche Telekom, SpaceX, Verizon, among others. NETGEAR and AT&T Launch Wi-Fi 7 5G Hotspot for Business Connectivity NETGEAR and AT&T Business have expanded their collaboration with the launch of the Nighthawk 5G...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 63,
+      "date": "2026-11-06T01:18:27+00:00",
+      "ts": 1793927907.0
+    },
+    {
+      "title": "UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
+      "link": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
+      "summary": "TDRA’s spectrum strategy, industry collaboration and commercial deployment are positioning the UAE to expand next-generation connectivity and prepare for an AI-driven digital economy. The United Arab Emirates (UAE) is taking a lead in transitioning from 5G-Advanced (5G-A) towards 6G by focusing on the commercial...",
+      "source": "Total Telecom",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 67,
+      "date": "2026-11-06T00:48:40+00:00",
+      "ts": 1793926120.0
+    },
+    {
+      "title": "Pentagon Commits $150M OSC Loan to LeoLabs in $300M Radar Network Expansion",
+      "link": "https://satnews.com/2026/11/05/pentagon-commits-150m-osc-loan-to-leolabs-in-300m-radar-network-expansion/",
+      "summary": "WASHINGTON — The Pentagon’s Office of Strategic Capital (OSC) has issued a conditional loan commitment of $150 million to commercial space tracking provider LeoLabs to finance the expansion of its […]",
+      "source": "SatNews",
+      "themes": [
+        "radar_militar",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-11-06T00:42:08+00:00",
+      "ts": 1793925728.0
+    },
     {
       "title": "DoD Must Embrace Autonomous On-Orbit Cyber Defense, DoD CIO Official Says",
       "link": "https://www.satellitetoday.com/cybersecurity/2026/11/05/dod-must-embrace-autonomous-on-orbit-cyber-defense-dod-cio-official-says/",
@@ -394,36 +440,6 @@
       "relevance": 55,
       "date": "2026-11-05T08:30:00+00:00",
       "ts": 1793867400.0
-    },
-    {
-      "title": "Deutsche Telekom Q3 2026 Revenue Rises 7.5% to €31.1 Billion; Capex Falls as 5G Coverage Reaches 99% in Germany",
-      "link": "https://telecomlead.com/5g/deutsche-telekom-q3-2026-revenue-rises-7-5-to-e31-1-billion-capex-falls-as-5g-coverage-reaches-99-in-germany-128554",
-      "summary": "Deutsche Telekom reported a 7.5 percent increase in third-quarter 2026 revenue to €31.10 billion, compared with €28.94 billion a year earlier, supported by growth in mobile and broadband services across Germany, Europe and the United States. For the first nine months of 2026, Deutsche Telekom’s revenue increased 4.1...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-05T06:42:18+00:00",
-      "ts": 1793860938.0
-    },
-    {
-      "title": "Swisscom Q3 2026: Revenue Drops 2.1% to CHF 10.94 Billion, Capex Falls 5.9% as 5G Coverage Reaches 90% in Switzerland",
-      "link": "https://telecomlead.com/5g/swisscom-q3-2026-revenue-drops-2-1-to-chf-10-94-billion-capex-falls-5-9-as-5g-coverage-reaches-90-in-switzerland-128552",
-      "summary": "Swisscom reported a 2.1 percent decline in group revenue to CHF 10.94 billion during the first nine months of 2026, compared with CHF 11.18 billion a year earlier, as intense competition affected mobile and broadband subscriber growth in Switzerland and Italy. The telecom operator reduced capital expenditure by 5.9...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-11-05T06:39:40+00:00",
-      "ts": 1793860780.0
     },
     {
       "title": "Consistency Learning and Distillation for One-Step MIMO-OFDM Channel Estimation",
@@ -829,20 +845,6 @@
       "relevance": 45,
       "date": "2026-11-05T05:00:00+00:00",
       "ts": 1793854800.0
-    },
-    {
-      "title": "Telecom news: KPN, iBASIS Network, AccelerComm, Taara, Rountree",
-      "link": "https://telecomlead.com/news/telecom-news-kpn-ibasis-network-accelercomm-taara-rountree-128550",
-      "summary": "Today’s telecom news includes announcements on KPN, iBASIS Network, AccelerComm, Taara, Rountree, among others. KPN Renews iBASIS Network Outsourcing Agreement for Five Years, Expands 5G Roaming Cooperation KPN and iBASIS announced on November 3 a five-year renewal of their international voice and mobile network...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-11-05T03:04:59+00:00",
-      "ts": 1793847899.0
     },
     {
       "title": "Skeptical Analysis: SpaceX Selects Qualcomm for Nationwide Terrestrial 5G Network; Impact on Big 3 U.S. Wireless Carriers",
