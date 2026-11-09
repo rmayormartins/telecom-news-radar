@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T21:26:49.712474+00:00",
-  "count": 77,
+  "generated_at": "2026-11-09T03:31:14.072890+00:00",
+  "count": 68,
   "theme_counts": {
-    "moveis": 38,
-    "fibra": 11,
+    "moveis": 32,
+    "fibra": 10,
     "antenas": 3,
     "iot": 0,
-    "satelite": 29,
-    "radar_militar": 11,
+    "satelite": 25,
+    "radar_militar": 10,
     "radiocom": 0,
     "tv": 1,
     "geral": 8
@@ -45,8 +45,8 @@
     },
     {
       "source": "Mobile World Live",
-      "status": "ok (30 itens)",
-      "kept": 10
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TelecomTV",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,21 @@
     }
   ],
   "items": [
+    {
+      "title": "LISA Constellation Architecture and Laser Interferometry Advance Under Scientific Leadership of Kelly Holley-Bockelmann",
+      "link": "https://satnews.com/2026/11/08/lisa-constellation-architecture-and-laser-interferometry-advance-under-scientific-leadership-of-kelly-holley-bockelmann/",
+      "summary": "LEIDEN, Netherlands — Astrophysicist Dr. Kelly Holley-Bockelmann has joined the Netherlands Institute for Space Research (SRON) to lead multi-messenger astrophysics research and data modeling for the Laser Interferometer Space Antenna […]",
+      "source": "SatNews",
+      "themes": [
+        "antenas",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 41,
+      "date": "2026-11-09T00:40:50+00:00",
+      "ts": 1794184850.0
+    },
     {
       "title": "Ericsson vs Nokia vs Huawei vs Samsung vs ZTE: 5G Equipment Market Share, Contracts and Customer Wins in 2026",
       "link": "https://telecomlead.com/telecom-equipment/ericsson-vs-nokia-vs-huawei-vs-samsung-vs-zte-5g-equipment-market-share-contracts-and-customer-wins-in-2026-128631",
@@ -398,20 +413,6 @@
       "ts": 1793993914.0
     },
     {
-      "title": "AST seeks launch boost with in-house rocket",
-      "link": "https://www.mobileworldlive.com/network-tech/ast-seeks-launch-boost-with-in-house-rocket/",
-      "summary": "AST SpaceMobile decided the best way to offset future disruptions to its satellite launch plans would be to build its own rocket, which it hopes to let fly late in 2028. The post AST seeks launch boost with in-house rocket appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-11-06T16:10:32+00:00",
-      "ts": 1793981432.0
-    },
-    {
       "title": "Ericsson moves mmWave radio production from US to Estonia",
       "link": "https://www.lightreading.com/5g/ericsson-moves-mmwave-radio-production-from-us-to-estonia",
       "summary": "Ericsson stops making millimeter wave radios at its 5G smart factory in Lewisville, Texas, and consolidates production at manufacturing site in Estonia.",
@@ -438,35 +439,6 @@
       "relevance": 50,
       "date": "2026-11-06T12:27:59+00:00",
       "ts": 1793968079.0
-    },
-    {
-      "title": "Toshiba Europe trials fibre quantum links in UK",
-      "link": "https://www.mobileworldlive.com/network-tech/toshiba-europe-trials-fibre-quantum-links-in-uk/",
-      "summary": "The UK tasked Toshiba Europe with putting fibre infrastructure through its paces in preparation for quantum computing with tests spanning long-distance links and multiple-user scenarios. The post Toshiba Europe trials fibre quantum links in UK appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-11-06T12:18:59+00:00",
-      "ts": 1793967539.0
-    },
-    {
-      "title": "The Friday File: SpaceX; UK cyberattacks; Nokia",
-      "link": "https://www.mobileworldlive.com/ai-cloud/the-friday-file-spacex-uk-cyberattacks-nokia/",
-      "summary": "Mobile World Live (MWL) brings you our top three picks of the week as SpaceX tapped Qualcomm to power its US mobile network, experts warned the UK could face a growing wave of AI-powered cyberattacks and Nokia forecast AI to drive almost half of global network traffic by 2035. The post The Friday File: SpaceX; UK...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-11-06T09:17:57+00:00",
-      "ts": 1793956677.0
     },
     {
       "title": "UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
@@ -605,48 +577,6 @@
       "ts": 1793885446.0
     },
     {
-      "title": "GSMA warns 6G gains at risk from spectrum shortages",
-      "link": "https://www.mobileworldlive.com/gsma/gsma-warns-6g-gains-at-risk-from-spectrum-shortages/",
-      "summary": "The GSMA warned that although 6G could add $1.24 trillion to the global economy by 2040, spectrum shortages could put $520 billion of the projected gains at risk. The post GSMA warns 6G gains at risk from spectrum shortages appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-11-05T11:11:55+00:00",
-      "ts": 1793877115.0
-    },
-    {
-      "title": "La GSMA alerta de que la escasez de espectro amenaza los beneficios de la 6G",
-      "link": "https://www.mobileworldlive.com/spanish/la-gsma-alerta-de-que-la-escasez-de-espectro-amenaza-los-beneficios-de-la-6g/",
-      "summary": "La GSMA ha advertido de que, aunque la 6G podría aportar 1,24 billones de dólares (unos 1,07 billones de euros) Read more... The post La GSMA alerta de que la escasez de espectro amenaza los beneficios de la 6G appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-11-05T10:51:31+00:00",
-      "ts": 1793875891.0
-    },
-    {
-      "title": "Orange CTO argues D2D must fit into mobile experience",
-      "link": "https://www.mobileworldlive.com/network-tech/orange-cto-argues-d2d-must-fit-into-mobile-experience/",
-      "summary": "LIVE FROM TIP FYUZ 2026, SEATTLE: Orange CTO Laurent Leboucher (pictured) told attendees direct-to-device (D2D) satellite services from the likes of SpaceX’s Starlink could become a threat to operators if they are not built smoothly into the mobile experience. The post Orange CTO argues D2D must fit into mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-11-05T08:55:41+00:00",
-      "ts": 1793868941.0
-    },
-    {
       "title": "Samsung suffers its worst 5G quarter but knows it can outlast rivals",
       "link": "https://www.lightreading.com/5g/samsung-suffers-its-worst-5g-quarter-but-knows-it-can-outlast-rivals",
       "summary": "Eyewatering group profits give Samsung Networks a much higher tolerance for pain than Ericsson or Nokia in the tough 5G market.",
@@ -676,50 +606,6 @@
       "ts": 1793834739.0
     },
     {
-      "title": "VodafoneThree pioneers Ericsson Massive MIMO",
-      "link": "https://www.mobileworldlive.com/ranvendors/vodafonethree-pioneers-ericsson-massive-mimo/",
-      "summary": "Ericsson credited VodafoneThree as the first operator to deploy its AIR 3266 Massive MIMO radio in a live network, giving it an edge in 5G capacity and coverage and laying the foundations for AI usage. The post VodafoneThree pioneers Ericsson Massive MIMO appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-11-04T17:11:02+00:00",
-      "ts": 1793812262.0
-    },
-    {
-      "title": "AT&T sees ISAC as a platform, not a feature",
-      "link": "https://www.mobileworldlive.com/att/att-sees-isac-as-a-platform-not-a-feature/",
-      "summary": "LIVE FROM TIP FYUZ 2026, SEATTLE: AT&T product development director Amy Gerrie outlined an ambition for its mobile network to detect nearby objects and help machines understand their surroundings. The post AT&T sees ISAC as a platform, not a feature appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": "2026-11-04T16:55:42+00:00",
-      "ts": 1793811342.0
-    },
-    {
-      "title": "Nokia tips AI to generate almost half of traffic by 2035",
-      "link": "https://www.mobileworldlive.com/ai-cloud/nokia-tips-ai-to-generate-almost-half-of-traffic-by-2035/",
-      "summary": "A Nokia report forecast AI will account for 44% of global network traffic over the next decade, as the growing use of autonomous agents and connected machines drives demand for faster, more uplink-heavy networks. The post Nokia tips AI to generate almost half of traffic by 2035 appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-11-04T15:54:17+00:00",
-      "ts": 1793807657.0
-    },
-    {
       "title": "AT&T, Rakuten tout integration with Starlink rival AST SpaceMobile for D2D services",
       "link": "https://www.lightreading.com/satellite/at-t-rakuten-tout-integration-with-starlink-rival-ast-spacemobile-for-d2d-services",
       "summary": "AT&T makes first call handoff to satellite with AST SpaceMobile and prepares for beta service, while Rakuten targets commercial launch in 'near future.'",
@@ -734,21 +620,6 @@
       "relevance": 55,
       "date": "2026-11-04T14:48:53+00:00",
       "ts": 1793803733.0
-    },
-    {
-      "title": "SpaceX taps Qualcomm to power Starlink Mobile in US",
-      "link": "https://www.mobileworldlive.com/network-tech/spacex-taps-qualcomm-to-power-starlink-mobile-in-us/",
-      "summary": "SpaceX signed a deal with Qualcomm to use the chipmaker’s Dragwing Cellular Infrastructure offering for Starlink Mobile’s nationwide mobile network rollout in the US, while agreeing to collaborate on AI-native 6G infrastructure. The post SpaceX taps Qualcomm to power Starlink Mobile in US appeared first on Mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 69,
-      "date": "2026-11-04T14:48:00+00:00",
-      "ts": 1793803680.0
     },
     {
       "title": "SpaceX boldly goes into 'huge' 5G network rollout with Qualcomm",
