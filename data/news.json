@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-12T14:11:05.503100+00:00",
-  "count": 64,
+  "generated_at": "2026-11-12T22:56:48.033537+00:00",
+  "count": 78,
   "theme_counts": {
-    "moveis": 33,
-    "fibra": 11,
-    "antenas": 4,
+    "moveis": 35,
+    "fibra": 17,
+    "antenas": 2,
     "iot": 3,
-    "satelite": 29,
-    "radar_militar": 8,
+    "satelite": 32,
+    "radar_militar": 7,
     "radiocom": 0,
     "tv": 1,
-    "geral": 5
+    "geral": 12
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
-    "il": 2,
-    "in": 1,
-    "jp": 3,
+    "il": 1,
+    "in": 2,
+    "jp": 5,
     "kr": 2,
     "cn": 2
   },
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (25 itens)",
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -60,13 +60,13 @@
     },
     {
       "source": "The Fast Mode",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "TeckNexus",
@@ -86,12 +86,12 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Telecom Lead",
@@ -106,7 +106,7 @@
     {
       "source": "IEEE Spectrum (Telecom)",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Ericsson Blog",
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (13 itens)",
+      "status": "ok (15 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,166 @@
     }
   ],
   "items": [
+    {
+      "title": "Taara Demonstrates 14-km Free-Space Optical Link with AT&T and Nokia",
+      "link": "https://techblog.comsoc.org/2026/11/12/1077932/",
+      "summary": "Introduction: Taara, an independent private company spun out of X, Google’s Moonshot Factory, and a developer of high-speed, high-capacity wireless optical communications, announced an expansion of its commercial activities targeting enterprise and federal customers in the U.S. Following a successful deployment with...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-11-12T21:54:08+00:00",
+      "ts": 1794520448.0
+    },
+    {
+      "title": "SpaceX's bid for Grain's lowband spectrum takes a step forward",
+      "link": "https://www.lightreading.com/5g/spacex-s-bid-for-grain-s-lowband-spectrum-takes-a-step-forward",
+      "summary": "The FCC has cleared SpaceX's application for Grain Management's 800MHz lowband spectrum, a key piece for its Starlink Mobile ambitions. Detractors have until December 8 to oppose it.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 59,
+      "date": "2026-11-12T21:00:00+00:00",
+      "ts": 1794517200.0
+    },
+    {
+      "title": "Avoiding the Starlink Trap: Why the Satellite Industry Must Think Smarter, Not Bigger",
+      "link": "https://www.satellitetoday.com/opinion/2026/11/12/avoiding-the-starlink-trap-why-the-satellite-industry-must-think-smarter-not-bigger/",
+      "summary": "It’s undeniable that Elon Musk has radically shaken up the satellite industry. With thousands of satellites launched and thousands more planned, Starlink has managed to position itself as the dominant […] The post Avoiding the Starlink Trap: Why the Satellite Industry Must Think Smarter, Not Bigger appeared first on...",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-11-12T20:56:29+00:00",
+      "ts": 1794516989.0
+    },
+    {
+      "title": "Gatehouse Satcom to Acquire Satlab to Build Integrated Radio for 5G NTN Solution",
+      "link": "https://www.satellitetoday.com/connectivity/2026/11/12/gatehouse-satcom-to-acquire-satlab-to-build-integrated-radio-for-5g-ntn-solution/",
+      "summary": "Gatehouse Satcom will acquire Satlab, a company that designs and manufactures radio for small satellites, under a new deal announced Thursday. Satlab, based in Aalborg, Denmark, develops S- and X-band […] The post Gatehouse Satcom to Acquire Satlab to Build Integrated Radio for 5G NTN Solution appeared first on Via...",
+      "source": "Via Satellite",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-11-12T20:51:25+00:00",
+      "ts": 1794516685.0
+    },
+    {
+      "title": "Broadband Forum Advances Subscriber Session Steering for Dynamic BNG Resource Optimization",
+      "link": "https://techblog.comsoc.org/2026/11/12/broadband-forum-advances-subscriber-session-steering-for-dynamic-bng-resource-optimization/",
+      "summary": "Attribution: Ken Pyle, Broadband Forum Marketing Director, provided the author with references which he used to write this article. ChatGPT helped with organizing the piece AFTER the author completed his own diligent research. Introduction: As broadband networks evolve toward disaggregated, cloud-native architectures,...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-11-12T17:30:53+00:00",
+      "ts": 1794504653.0
+    },
+    {
+      "title": "What Will It Take to Lay Fiber Optic Cables Across the Arctic?",
+      "link": "https://spectrum.ieee.org/undersea-cables-arctic-european-commission",
+      "summary": "Europe is eyeing the Arctic for a new data pipeline. A European telecommunications strategy plan, released last month, announced intentions to build an “Arctic cable hub”—which would start by connecting Greenland to mainland Europe via undersea fiber optic cables. Future fiber cables could extend the high-speed data...",
+      "source": "IEEE Spectrum (Telecom)",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 22,
+      "date": "2026-11-12T17:06:44+00:00",
+      "ts": 1794503204.0
+    },
+    {
+      "title": "NTT Physical AI: How a Telecom Operator Is Building Robot Intelligence Across Research, Services and Network",
+      "link": "https://tecknexus.com/ntt-physical-ai-world-model-robots/",
+      "summary": "NTT has developed a physics-based world model that lets robots predict the outcome of several possible actions before they move. It scores each option for the risk of dropped items or collapsing loads, then chooses the one most likely to succeed. A proprietary physics control adapter, built into a video generation...",
+      "source": "TeckNexus",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 41,
+      "date": "2026-11-12T16:48:18+00:00",
+      "ts": 1794502098.0
+    },
+    {
+      "title": "Eutelsat Prepares 32 OneWeb Renewal Satellites for Nov. 30 SpaceX Launch",
+      "link": "https://satnews.com/2026/11/12/eutelsat-prepares-32-oneweb-renewal-satellites-for-nov-30-spacex-launch/",
+      "summary": "Eutelsat’s OneWeb division is preparing for Launch #21, a mission provisionally scheduled for Nov. 30 aboard a SpaceX launch vehicle to deploy 32 spacecraft into low Earth orbit (LEO). The […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-11-12T16:27:17+00:00",
+      "ts": 1794500837.0
+    },
+    {
+      "title": "Japan's NTT Docomo apologizes after second 5G SA network outage in five days",
+      "link": "https://www.datacenterdynamics.com/en/news/japans-ntt-docomo-apologizes-after-second-5g-sa-network-outage-in-five-days/",
+      "summary": "A nine-hour outage yesterday followed a 14-hour one last Friday",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 46,
+      "date": "2026-11-12T16:13:48+00:00",
+      "ts": 1794500028.0
+    },
+    {
+      "title": "MWC26 Doha: Keynote 2",
+      "link": "https://www.mobileworldlive.com/gsma/mwc26-doha-keynote-2/",
+      "summary": "Watch ‘AI At Scale – From Ambition to Impact’ on-demand, featuring speakers from BYD, SandboxAQ, Qatar’s Ministry of Communications and Read more... The post MWC26 Doha: Keynote 2 appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-11-12T16:10:23+00:00",
+      "ts": 1794499823.0
+    },
+    {
+      "title": "Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem?",
+      "link": "https://capacityglobal.com/news/above-1000m-can-starlink-resellers-solve-lesothos-connectivity-problem/",
+      "summary": "In Lesotho, where geography has long shaped network development, Starlink is introducing a new approach to enterprise connectivity. The post Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem? appeared first on Capacity .",
+      "source": "Capacity Media",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-11-12T15:37:07+00:00",
+      "ts": 1794497827.0
+    },
     {
       "title": "Starlink Challenges Comcast, Charter, AT&T, Verizon and T-Mobile as US Broadband Competition Intensifies",
       "link": "https://telecomlead.com/broadband/starlink-challenges-comcast-charter-att-verizon-and-t-mobile-as-us-broadband-competition-intensifies-128716",
@@ -231,6 +391,20 @@
       "relevance": 59,
       "date": "2026-11-12T11:45:42+00:00",
       "ts": 1794483942.0
+    },
+    {
+      "title": "Telefonica books Q3 gains as revamp makes impact",
+      "link": "https://www.mobileworldlive.com/telefonica/telefonica-books-q3-gains-as-revamp-makes-impact/",
+      "summary": "Telefonica credited disciplined execution of a five-year strategic plan unveiled in 2025 for improved financial performance in Q3, when it booked increased revenue and profit. The post Telefonica books Q3 gains as revamp makes impact appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": "2026-11-12T11:34:01+00:00",
+      "ts": 1794483241.0
     },
     {
       "title": "Verizon, Nokia show private 5G chops at UK's Thames Freeport",
@@ -400,7 +574,7 @@
     {
       "title": "FCC accepts SpaceX application to acquire 800MHz spectrum",
       "link": "https://totaltele.com/fcc-accepts-spacex-application-to-acquire-800mhz-spectrum/",
-      "summary": "News The move sees the company inch towards direct competition with the US’s largest terrestrial mobile network operators Today, the Federal Communication Commission (FCC) has accepted the validity of SpaceX’s proposed acquisition of 800MHz spectrum from Grain Management, opening the files for public comment and...",
+      "summary": "The move sees the company inch towards direct competition with the US’s largest terrestrial mobile network operators The post FCC accepts SpaceX application to acquire 800MHz spectrum appeared first on Total Telecom .",
       "source": "Total Telecom",
       "themes": [
         "moveis",
@@ -408,7 +582,7 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 45,
+      "relevance": 53,
       "date": "2026-11-11T17:02:25+00:00",
       "ts": 1794416545.0
     },
@@ -535,20 +709,6 @@
       "ts": 1794391983.0
     },
     {
-      "title": "France Approves Globalstar to Launch 54 Next-Gen D2D Satellites Under 20-Year Spectrum License",
-      "link": "https://satnews.com/2026/11/10/france-approves-globalstar-to-launch-54-next-gen-d2d-satellites-under-20-year-spectrum-license/",
-      "summary": "PARIS — The French government has granted regulatory clearance for satellite telecommunications operator Globalstar to launch and operate its constellation of 54 next-generation direct-to-device satellites, SpaceNews reported on Tuesday, Nov. […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-11-11T00:21:46+00:00",
-      "ts": 1794356506.0
-    },
-    {
       "title": "Es’hailSat Makes Move to Boost AI Capabilities",
       "link": "https://www.satellitetoday.com/technology/2026/11/10/eshailsat-makes-move-to-boost-ai-capabilities/",
       "summary": "Es’hailSat has made an interesting move in the area of artificial intelligence, signing an MoU with Qatar Mobility Innovations Center (QMIC), a national research and innovation center owned by Qatar […] The post Es’hailSat Makes Move to Boost AI Capabilities appeared first on Via Satellite .",
@@ -561,24 +721,6 @@
       "relevance": 32,
       "date": "2026-11-10T21:08:28+00:00",
       "ts": 1794344908.0
-    },
-    {
-      "title": "Synspective Orders 10 Launches on Firefly’s Alpha Rocket",
-      "link": "https://www.satellitetoday.com/launch/2026/11/10/synspective-orders-10-launches-on-fireflys-alpha-rocket/",
-      "summary": "Japanese synthetic aperture radar (SAR) provider Synspective ordered 10 launches on Firefly Aerospace’s Alpha rocket, planned through 2030. This is a new customer for Firefly, which plans to launch the […] The post Synspective Orders 10 Launches on Firefly’s Alpha Rocket appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 40,
-      "date": "2026-11-10T20:13:19+00:00",
-      "ts": 1794341599.0
     },
     {
       "title": "Verizon and Nokia Switch On Thames Freeport Private 5G: A Multi-Tenant Blueprint for Physical AI",
@@ -680,34 +822,6 @@
       "ts": 1794312184.0
     },
     {
-      "title": "BT reluctant to launch Starlink D2D amid Ukraine noise",
-      "link": "https://www.mobileworldlive.com/bt/bt-reluctant-to-launch-starlink-d2d-amid-ukraine-noise/",
-      "summary": "BT Group CEO Allison Kirkby told the Financial Times its planned direct-to-device service with Starlink is ready to launch, but it will not pull the trigger until a recent controversy related to the satellite provider’s presence in Ukraine has blown over. The post BT reluctant to launch Starlink D2D amid Ukraine noise...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-11-10T10:46:51+00:00",
-      "ts": 1794307611.0
-    },
-    {
-      "title": "Meta broadens reach of age detection technology",
-      "link": "https://www.mobileworldlive.com/meta/meta-broadens-reach-of-age-detection-technology/",
-      "summary": "Meta Platforms expanded the reach of its AI-based age estimation technology on Instagram worldwide to identify teenagers under 18-years old and put them under Teen Account protections, as it faces an increasing number of lawsuits accusing its platforms of harm. The post Meta broadens reach of age detection technology...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": "2026-11-10T09:19:39+00:00",
-      "ts": 1794302379.0
-    },
-    {
       "title": "OIF Launches 7 New Projects Targeting 448G Electrical Interfaces, 200G Bidirectional Optics and Coherent Link Security",
       "link": "https://techblog.comsoc.org/2026/11/09/oif-launches-7-new-projects-targeting-448g-electrical-interfaces-200g-bidirectional-optics-and-coherent-link-security/",
       "summary": "Editorial Note: ChatGPT was used to assist with historical background research, technical analysis, and editorial suggestions concerning OIF’s role in optical networking interoperability and its relationship with ITU-T. The author reviewed and approved all additions with modifications for technical accuracy....",
@@ -720,20 +834,6 @@
       "relevance": 49,
       "date": "2026-11-10T00:56:04+00:00",
       "ts": 1794272164.0
-    },
-    {
-      "title": "What Starlink Restrictions in Ukraine Reveal About Europe’s Space Sovereignty and the Path Forward",
-      "link": "https://www.satellitetoday.com/podcast/2026/11/09/what-starlink-restrictions-in-ukraine-reveal-about-europes-space-sovereignty-and-the-path-forward/",
-      "summary": "The recent Starlink and Starshield disruptions in Ukraine put satcom access in the center of international news. Ukrainian forces experienced a slowdown in access to Starlink and Starshield that impacted […] The post What Starlink Restrictions in Ukraine Reveal About Europe’s Space Sovereignty and the Path Forward...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-11-09T21:59:13+00:00",
-      "ts": 1794261553.0
     },
     {
       "title": "Brooklyn AI-Native 6G Summit Highlights: Verizon’s 7 GHz Field Tests with Ericsson, AI-RAN Demonstrations and Wireless AI Interop",
@@ -945,35 +1045,6 @@
       "ts": 1793799000.0
     },
     {
-      "title": "Eurobites: VodafoneThree claims world first with Ericsson MIMO rollout",
-      "link": "https://www.lightreading.com/5g/eurobites-vodafonethree-claims-world-first-with-ericsson-mimo-rollout",
-      "summary": "Also in today's EMEA regional roundup: Nokia predicts the data future; GSMA tackles network resilience; Boldyn bigwig chairs Rome's smart-city project.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 61,
-      "date": "2026-11-04T12:52:02+00:00",
-      "ts": 1793796722.0
-    },
-    {
-      "title": "Verizon and Ericsson Advance AI-Native RAN Operations with Nationwide EIC Rollout",
-      "link": "https://techblog.comsoc.org/2026/11/03/verizon-and-ericsson-advance-ai-native-ran-operations-with-nationwide-eic-rollout/",
-      "summary": "Executive Summary: Verizon and Ericsson are expanding their longstanding collaboration to introduce AI-native automation into Radio Access Network (RAN) operations. The companies plan a nationwide deployment of Ericsson Intelligent Controller (EIC) [1.], a software platform for running RAN applications (rApps)...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-04T00:00:31+00:00",
-      "ts": 1793750431.0
-    },
-    {
       "title": "SpaceX Boost Mobile Talks Signal That Satellite Operators Now Want the Whole Phone Plan",
       "link": "https://tecknexus.com/spacex-boost-mobile-talks-starlink-mobile/",
       "summary": "SpaceX has reportedly held talks with EchoStar about acquiring Boost Mobile or gaining access to its network. TeckNexus looks at why a satellite operator needs a ground network, how the talks fit SpaceX's spectrum and satellite moves, the buy, partner or build options, and what the story means for the US wireless...",
@@ -988,20 +1059,6 @@
       "ts": 1793695599.0
     },
     {
-      "title": "ATIS Proposes Wireless Physical-Layer Foundation Models for AI-Native 6G Networks",
-      "link": "https://techblog.comsoc.org/2026/11/02/atis-proposes-wireless-physical-layer-foundation-models-for-ai-native-6g-networks/",
-      "summary": "Disclaimer: ChatGPT was used extensively to read and summarize the 25 page ATIS Whitepaper described in this article. …………………………………………………………………………………………………………………………………………………………………………. Introduction: The Alliance for Telecommunications Industry Solutions (ATIS) has introduced Wireless Physical Layer Foundation Models...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-11-03T00:13:32+00:00",
-      "ts": 1793664812.0
-    },
-    {
       "title": "What Would a U.S. Telecommunications Act 2.0 Look Like?",
       "link": "https://spectrum.ieee.org/telecommunications-act-reform",
       "summary": "In February 1996, U.S. President Bill Clinton signed the Telecommunications Act , which boosted competition and loosened broadcasting requirements. It also set a baseline of telecom service everyone should have and set up funding to pay for it. Thirty years later , people are still fighting over the Act’s provisions...",
@@ -1014,37 +1071,6 @@
       "relevance": 29,
       "date": "2026-11-02T13:00:03+00:00",
       "ts": 1793624403.0
-    },
-    {
-      "title": "Israel’s Discover-Tech suspected of using ads to track Starlink users",
-      "link": "https://totaltele.com/israels-discover-tech-suspected-of-using-ads-to-track-starlink-users/",
-      "summary": "The company is accused of purchasing ads with the purpose of geolocating and surveilling users The post Israel’s Discover-Tech suspected of using ads to track Starlink users appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "il"
-      ],
-      "relevance": 45,
-      "date": "2026-11-02T11:24:44+00:00",
-      "ts": 1793618684.0
-    },
-    {
-      "title": "Satellites Meet Towers, Operators Slim Down: Advanced Connectivity Insights, October 2026",
-      "link": "https://tecknexus.com/telecom-wireless-insights-october-2026/",
-      "summary": "October 2026's roundup: SpaceX moves to lease tens of thousands of US tower sites as the FCC opens more spectrum for direct-to-device, 5G-Advanced reaches live networks, mmWave fixed wireless gets a second act, and operators sell, merge and restructure. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE CONNECTED...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-11-01T04:04:51+00:00",
-      "ts": 1793505891.0
     },
     {
       "title": "one6G at Bharat International 6G Symposium",
@@ -1147,6 +1173,181 @@
       "relevance": 44,
       "date": "2026-09-30T16:39:00+00:00",
       "ts": 1790786340.0
+    },
+    {
+      "title": "After Qualcomm, who else might get a piece of Starlink Mobile’s 5G network?",
+      "link": "https://www.fierce-network.com/wireless/after-qualcomm-who-else-might-get-piece-starlink-mobiles-5g-network",
+      "summary": "Qualcomm will power Starlink Mobile's 5G macro sites, but analysts say SpaceX may skip the usual RAN vendors.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Verizon Business lights up private 5G across Thames Freeport",
+      "link": "https://www.fierce-network.com/wireless/verizon-business-lights-private-5g-across-thames-freeport",
+      "summary": "Verizon Business has completed a Nokia-powered private 5G network across the Thames Freeport.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "CableFinder brings T-Mobile for Business to tech advisors through leading TSDs",
+      "link": "https://www.fierce-network.com/newswire/cablefinder-brings-t-mobile-business-tech-advisors-through-leading-tsds",
+      "summary": "New release expands access to T-Mobile's Fixed Wireless solutions, including Super Broadband, across AVANT, Intelisys, AppDirect, Telarus, Innovative and Pax8.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Starlink’s US broadband users are moving beyond rural America: Ookla",
+      "link": "https://www.fierce-network.com/broadband/starlinks-us-broadband-users-are-moving-beyond-rural-america-ookla",
+      "summary": "Urban users grew faster than rural users in every state but Alaska and Hawaii in the first half of 2026 according to a new Ookla Speedtest report.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The AI revenue opportunity moves to the network edge",
+      "link": "https://www.fierce-network.com/sponsored/ai-revenue-opportunity-moves-network-edge",
+      "summary": "Together, Cisco and Vodafone Idea are pairing network reach with edge AI to support faster experiences and open new paths to operator revenue.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile execs stay unfazed by SpaceX threat",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-execs-stay-unfazed-spacex-hype",
+      "summary": "While the wireless world frets about what's coming from Elon Musk, T-Mobile executives say they're focused on current competitors.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AT&T is rebuilding its network for the AI and autonomous era",
+      "link": "https://www.fierce-network.com/broadband/att-rebuilding-its-network-ai-and-autonomous-era",
+      "summary": "Yigal Elbaz says AT&T’s push toward open, programmable infrastructure is laying the groundwork for L4 network autonomy and an AI traffic mix that looks different from today’s broadband demand.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AST SpaceMobile CEO explains new rocket plan, hints about third US operator",
+      "link": "https://www.fierce-network.com/wireless/ast-spacemobile-ceo-explains-new-rocket-plan-hints-about-third-us-operator",
+      "summary": "AST SpaceMobile's CEO didn't name names but suggested a third U.S. operator will join AT&T and Verizon in their work with the D2D company.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 27,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nvidia fallout: With Huang gone, what happens now?",
+      "link": "https://www.fierce-network.com/cloud/nvidia-fallout-huang-gone-what-happens-now",
+      "summary": "Analysts told Fierce Nvidia's sudden power vacuum is a key opportunity for chip and networking rivals, even if the impact won't necessarily be felt right away.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Blue Planet collaborates with KDDI to advance autonomous networking",
+      "link": "https://www.fierce-network.com/newswire/blue-planet-collaborates-kddi-advance-autonomous-networking",
+      "summary": "The collaboration will support KDDI in expanding AI-driven operations with greater accuracy, visibility and control across a common data-driven foundation.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The GPU gold rush creates a CPU opportunity — and Akamai knows it",
+      "link": "https://www.fierce-network.com/cloud/gpu-gold-rush-creates-cpu-opportunity-and-akamai-knows-it",
+      "summary": "Akamai COO Adam Karon says AI agents will shift work from GPUs to CPUs at the network edge, opening a market for CPU makers and networking firms.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "From cost center to strategic lever: Rethinking supply chain execution in broadband deployment",
+      "link": "https://www.fierce-network.com/sponsored/cost-center-strategic-lever-rethinking-supply-chain-execution-broadband-deployment",
+      "summary": "Your supply chain can do more than control costs. See how the right partner helps broadband providers build faster and protect capital.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
     }
   ]
 }
