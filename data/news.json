@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-13T13:35:02.027726+00:00",
-  "count": 109,
+  "generated_at": "2026-11-13T22:59:08.356332+00:00",
+  "count": 93,
   "theme_counts": {
-    "moveis": 47,
-    "fibra": 18,
+    "moveis": 43,
+    "fibra": 13,
     "antenas": 12,
-    "iot": 4,
-    "satelite": 37,
+    "iot": 3,
+    "satelite": 26,
     "radar_militar": 9,
     "radiocom": 0,
     "tv": 3,
-    "geral": 22
+    "geral": 20
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
-    "il": 1,
-    "in": 3,
-    "jp": 4,
+    "il": 0,
+    "in": 2,
+    "jp": 3,
     "kr": 2,
-    "cn": 2
+    "cn": 1
   },
   "research_count": 30,
   "sources": [
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ok (25 itens)",
-      "kept": 12
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Telecoms.com",
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 3
     },
     {
       "source": "Telecoms Tech News",
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Capacity Media",
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (15 itens)",
+      "status": "ok (16 itens)",
       "kept": 0
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 4
     },
     {
       "source": "Advanced Television",
@@ -200,6 +200,76 @@
     }
   ],
   "items": [
+    {
+      "title": "FCC sets key dates for upper C-band auction",
+      "link": "https://www.lightreading.com/regulatory-politics/fcc-sets-key-dates-for-upper-c-band-auction",
+      "summary": "The FCC said the auction for 160MHz of upper C-band spectrum will begin on April 27, 2027, putting winners on track to light up most of that spectrum before the end of 2030.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 53,
+      "date": "2026-11-13T20:15:00+00:00",
+      "ts": 1794600900.0
+    },
+    {
+      "title": "ULA Set to Return Vulcan to Flight in First Amazon Leo Launch",
+      "link": "https://www.satellitetoday.com/launch/2026/11/13/ula-set-to-return-vulcan-to-flight-in-first-amazon-leo-launch/",
+      "summary": "United Launch Alliance is set to return its Vulcan rocket to flight this weekend in its first launch for the Amazon Leo constellation. The Vulcan rocket has been out of […] The post ULA Set to Return Vulcan to Flight in First Amazon Leo Launch appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-11-13T19:55:47+00:00",
+      "ts": 1794599747.0
+    },
+    {
+      "title": "Charlotte Hornets taps Boldyn Networks for cellular 5G",
+      "link": "https://www.datacenterdynamics.com/en/news/charlotte-hornets-taps-boldyn-networks-for-cellular-5g/",
+      "summary": "Will support 5G corridor connectivity to the Hornets nearby training facility",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-11-13T18:02:29+00:00",
+      "ts": 1794592949.0
+    },
+    {
+      "title": "OneNZ gets physical with retail overhaul",
+      "link": "https://www.mobileworldlive.com/operators/onenz-gets-physical-with-retail-overhaul/",
+      "summary": "OneNZ literally set its stall out in physical retail, completing a series of store openings and upgrades as it argued the approach remains relevant in the digital world. The post OneNZ gets physical with retail overhaul appeared first on Mobile World Live .",
+      "source": "Mobile World Live",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": "2026-11-13T16:27:45+00:00",
+      "ts": 1794587265.0
+    },
+    {
+      "title": "Feature: Why ISAC needs AI, operators to reach market lift-off",
+      "link": "https://www.mobileworldlive.com/5g/feature-why-isac-needs-ai-operators-to-reach-market-liftoff/",
+      "summary": "Integrated sensing and communications (ISAC) promises to turn mobile networks into radar-like sensors which detect drones and other objects, with AI turning raw sensing into decisions, but operators still need to find to way to monetise it. Mike Robuck explores why. The post Feature: Why ISAC needs AI, operators to...",
+      "source": "Mobile World Live",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-11-13T16:23:01+00:00",
+      "ts": 1794586981.0
+    },
     {
       "title": "VodafoneThree considers feasibility of UK-Norway subsea cable route",
       "link": "https://www.datacenterdynamics.com/en/news/vodafonethree-considers-feasibility-of-uk-norway-subsea-cable-route/",
@@ -241,20 +311,6 @@
       "relevance": 23,
       "date": "2026-11-13T10:06:45+00:00",
       "ts": 1794564405.0
-    },
-    {
-      "title": "SpaceX set to splash $74B on pair of US facilities",
-      "link": "https://www.mobileworldlive.com/big-tech/spacex-set-to-splash-74b-on-pair-of-us-facilities/",
-      "summary": "SpaceX revealed plans to spend more than $74 billion across two supercomputing campuses in the US to boost its AI compute capabilities. The post SpaceX set to splash $74B on pair of US facilities appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-11-13T09:44:18+00:00",
-      "ts": 1794563058.0
     },
     {
       "title": "Vodafone Idea Targets ₹45,000 Crore Capex by FY29 as 5G Reaches 400 Cities, Subscribers Rise to 194.4 Million",
@@ -706,9 +762,9 @@
       "ts": 1794539768.0
     },
     {
-      "title": "Taara Demonstrates 14-km Free-Space Optical Link with AT&T and Nokia",
+      "title": "Analysis: Taara Demonstrates 14-km Free-Space Optical Link with AT&T and Nokia",
       "link": "https://techblog.comsoc.org/2026/11/12/1077932/",
-      "summary": "Introduction: Taara, an independent private company spun out of X, Google’s Moonshot Factory, and a developer of high-speed, high-capacity wireless optical communications, announced an expansion of its commercial activities targeting enterprise and federal customers in the U.S. Following a successful deployment with...",
+      "summary": "Introduction: Taara, an independent private company spun out of X, Google’s Moonshot Factory, and a developer of high-speed, high-capacity wireless optical communications, announced an expansion of its commercial activities targeting enterprise and federal government customers in the U.S. IEEE Techblog has written...",
       "source": "IEEE ComSoc Tech Blog",
       "themes": [
         "geral"
@@ -822,20 +878,6 @@
       "ts": 1794500837.0
     },
     {
-      "title": "MWC26 Doha: Keynote 2",
-      "link": "https://www.mobileworldlive.com/gsma/mwc26-doha-keynote-2/",
-      "summary": "Watch ‘AI At Scale – From Ambition to Impact’ on-demand, featuring speakers from BYD, SandboxAQ, Qatar’s Ministry of Communications and Read more... The post MWC26 Doha: Keynote 2 appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": "2026-11-12T16:10:23+00:00",
-      "ts": 1794499823.0
-    },
-    {
       "title": "Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem?",
       "link": "https://capacityglobal.com/news/above-1000m-can-starlink-resellers-solve-lesothos-connectivity-problem/",
       "summary": "In Lesotho, where geography has long shaped network development, Starlink is introducing a new approach to enterprise connectivity. The post Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem? appeared first on Capacity .",
@@ -848,6 +890,22 @@
       "relevance": 53,
       "date": "2026-11-12T15:37:07+00:00",
       "ts": 1794497827.0
+    },
+    {
+      "title": "NTT Docomo's network glitches twice in five days",
+      "link": "https://www.lightreading.com/5g/ntt-docomo-s-network-glitches-twice-in-five-days",
+      "summary": "NTT Docomo's 5G-SA network has been hit by mystery fault in switching gear, causing two lengthy disruptions over the course of five days.",
+      "source": "Light Reading",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 40,
+      "date": "2026-11-12T13:46:09+00:00",
+      "ts": 1794491169.0
     },
     {
       "title": "Colette Kress remplace provisoirement Jensen Huang à la tête de Nvidia",
@@ -998,53 +1056,6 @@
       "relevance": 39,
       "date": "2026-11-11T21:34:54+00:00",
       "ts": 1794432894.0
-    },
-    {
-      "title": "8 Globalstar Refresh Satellites Complete Initial Tests In-Orbit",
-      "link": "https://www.satellitetoday.com/manufacturing/2026/11/11/8-globalstar-refresh-satellites-complete-initial-tests-in-orbit/",
-      "summary": "All eight of the Globalstar satellites launched in August have completed initial functional tests and begin the process of orbit-raising, manufacturer MDA Space confirmed on Tuesday. Two of the satellites […] The post 8 Globalstar Refresh Satellites Complete Initial Tests In-Orbit appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": "2026-11-11T20:40:14+00:00",
-      "ts": 1794429614.0
-    },
-    {
-      "title": "Skylo Lands Distribution in South Korea With KT SAT Deal",
-      "link": "https://www.satellitetoday.com/connectivity/2026/11/11/skylo-lands-distribution-in-south-korea-with-kt-sat-deal/",
-      "summary": "Skylo is set to enter the South Korean connectivity market through a new agreement with KT SAT to distribute its standards-based, satellite IoT services. Under the agreement announced Wednesday, KT […] The post Skylo Lands Distribution in South Korea With KT SAT Deal appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "iot",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 39,
-      "date": "2026-11-11T20:36:47+00:00",
-      "ts": 1794429407.0
-    },
-    {
-      "title": "Launch Delays and Slow Rollouts Push Gilat to Downgrade 2026 Outlook",
-      "link": "https://www.satellitetoday.com/finance/2026/11/11/launch-delays-and-slow-rollouts-push-gilat-to-downgrade-2026-outlook/",
-      "summary": "Gilat Satellite Networks lowered its annual outlook as delays to satellite launches and in-flight connectivity (IFC) deliveries impacted the company’s revenue in the third quarter. Gilat slashed its growth forecast […] The post Launch Delays and Slow Rollouts Push Gilat to Downgrade 2026 Outlook appeared first on Via...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "il"
-      ],
-      "relevance": 24,
-      "date": "2026-11-11T20:10:04+00:00",
-      "ts": 1794427804.0
     },
     {
       "title": "Starlink gets faster ahead of 'V3' launches, but shift to dynamic pricing could backfire",
@@ -1198,20 +1209,6 @@
       "ts": 1794385278.0
     },
     {
-      "title": "Es’hailSat Makes Move to Boost AI Capabilities",
-      "link": "https://www.satellitetoday.com/technology/2026/11/10/eshailsat-makes-move-to-boost-ai-capabilities/",
-      "summary": "Es’hailSat has made an interesting move in the area of artificial intelligence, signing an MoU with Qatar Mobility Innovations Center (QMIC), a national research and innovation center owned by Qatar […] The post Es’hailSat Makes Move to Boost AI Capabilities appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-11-10T21:08:28+00:00",
-      "ts": 1794344908.0
-    },
-    {
       "title": "Verizon and Nokia Switch On Thames Freeport Private 5G: A Multi-Tenant Blueprint for Physical AI",
       "link": "https://tecknexus.com/verizon-nokia-thames-freeport-private-5g/",
       "summary": "Verizon Business and Nokia have completed a private 5G platform across five Thames Freeport sites, from DP World London Gateway to Ford Dagenham and the Port of Tilbury. Each tenant runs its own sovereign network core on a shared platform, and a staged trial programme is moving from AI damage detection and truck...",
@@ -1238,6 +1235,22 @@
       "relevance": 51,
       "date": "2026-11-10T16:12:45+00:00",
       "ts": 1794327165.0
+    },
+    {
+      "title": "KT profit falls on slow wireless rebound",
+      "link": "https://www.lightreading.com/finance/kt-profit-falls-on-slow-wireless-rebound",
+      "summary": "With its mobile business still recovering from the fallout of last year’s network security failure, South Korean operator KT saw its profits drop in Q3.",
+      "source": "Light Reading",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "kr"
+      ],
+      "relevance": 39,
+      "date": "2026-11-10T14:49:02+00:00",
+      "ts": 1794322142.0
     },
     {
       "title": "4GHz is the next battleground for spectrum-sharing",
@@ -1413,53 +1426,6 @@
       "ts": 1793906093.0
     },
     {
-      "title": "SpaceX Qualcomm Deal Shows Starlink Mobile Is Building a Carrier the Way a Technology Company Would",
-      "link": "https://tecknexus.com/spacex-qualcomm-starlink-mobile-5g-network/",
-      "summary": "SpaceX has selected Qualcomm Dragonwing radio and baseband platforms for tens of thousands of Starlink Mobile 5G sites, with rollout starting in 2027. TeckNexus looks at how the deal completes Starlink Mobile's satellite and terrestrial stack, what Qualcomm supplies inside each base station, why Qualcomm's role in...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 65,
-      "date": "2026-11-05T14:53:55+00:00",
-      "ts": 1793890435.0
-    },
-    {
-      "title": "Eurobites: BT confirms outlook after steady H1, plays patriot card",
-      "link": "https://www.lightreading.com/operations/eurobites-bt-confirms-outlook-after-steady-h1-plays-patriot-card",
-      "summary": "Also in today's EMEA regional roundup: Telia and Ericsson combine on 5G for Swedish military; Ethio Telecom and ZTE do AI-RAN; Vodafone UK claims broadband breakthrough.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis",
-        "fibra",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 57,
-      "date": "2026-11-05T13:30:46+00:00",
-      "ts": 1793885446.0
-    },
-    {
-      "title": "Samsung suffers its worst 5G quarter but knows it can outlast rivals",
-      "link": "https://www.lightreading.com/5g/samsung-suffers-its-worst-5g-quarter-but-knows-it-can-outlast-rivals",
-      "summary": "Eyewatering group profits give Samsung Networks a much higher tolerance for pain than Ericsson or Nokia in the tough 5G market.",
-      "source": "Light Reading",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-11-05T08:30:00+00:00",
-      "ts": 1793867400.0
-    },
-    {
       "title": "Skeptical Analysis: SpaceX Selects Qualcomm for Nationwide Terrestrial 5G Network; Impact on Big 3 U.S. Wireless Carriers",
       "link": "https://techblog.comsoc.org/2026/11/04/spacex-selects-qualcomm-for-nationwide-terrestrial-5g-network-impact-on-big-3-u-s-carriers/",
       "summary": "Disclosure: ChatGPT was used extensively for research, technical analysis, and drafting assistance in this article. The author reviewed and fact-checked the material and is responsible for the final content. Executive Summary: SpaceX has selected Qualcomm Technologies’ Dragonwing Cellular Infrastructure platforms to...",
@@ -1473,36 +1439,6 @@
       "relevance": 67,
       "date": "2026-11-04T23:25:39+00:00",
       "ts": 1793834739.0
-    },
-    {
-      "title": "AT&T, Rakuten tout integration with Starlink rival AST SpaceMobile for D2D services",
-      "link": "https://www.lightreading.com/satellite/at-t-rakuten-tout-integration-with-starlink-rival-ast-spacemobile-for-d2d-services",
-      "summary": "AT&T makes first call handoff to satellite with AST SpaceMobile and prepares for beta service, while Rakuten targets commercial launch in 'near future.'",
-      "source": "Light Reading",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 55,
-      "date": "2026-11-04T14:48:53+00:00",
-      "ts": 1793803733.0
-    },
-    {
-      "title": "SpaceX Boost Mobile Talks Signal That Satellite Operators Now Want the Whole Phone Plan",
-      "link": "https://tecknexus.com/spacex-boost-mobile-talks-starlink-mobile/",
-      "summary": "SpaceX has reportedly held talks with EchoStar about acquiring Boost Mobile or gaining access to its network. TeckNexus looks at why a satellite operator needs a ground network, how the talks fit SpaceX's spectrum and satellite moves, the buy, partner or build options, and what the story means for the US wireless...",
-      "source": "TeckNexus",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-03T08:46:39+00:00",
-      "ts": 1793695599.0
     },
     {
       "title": "What Would a U.S. Telecommunications Act 2.0 Look Like?",
@@ -1619,181 +1555,6 @@
       "relevance": 44,
       "date": "2026-09-30T16:39:00+00:00",
       "ts": 1790786340.0
-    },
-    {
-      "title": "After Qualcomm, who else might get a piece of Starlink Mobile’s 5G network?",
-      "link": "https://www.fierce-network.com/wireless/after-qualcomm-who-else-might-get-piece-starlink-mobiles-5g-network",
-      "summary": "Qualcomm will power Starlink Mobile's 5G macro sites, but analysts say SpaceX may skip the usual RAN vendors.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 62,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon Business lights up private 5G across Thames Freeport",
-      "link": "https://www.fierce-network.com/wireless/verizon-business-lights-private-5g-across-thames-freeport",
-      "summary": "Verizon Business has completed a Nokia-powered private 5G network across the Thames Freeport.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "CableFinder brings T-Mobile for Business to tech advisors through leading TSDs",
-      "link": "https://www.fierce-network.com/newswire/cablefinder-brings-t-mobile-business-tech-advisors-through-leading-tsds",
-      "summary": "New release expands access to T-Mobile's Fixed Wireless solutions, including Super Broadband, across AVANT, Intelisys, AppDirect, Telarus, Innovative and Pax8.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Starlink’s US broadband users are moving beyond rural America: Ookla",
-      "link": "https://www.fierce-network.com/broadband/starlinks-us-broadband-users-are-moving-beyond-rural-america-ookla",
-      "summary": "Urban users grew faster than rural users in every state but Alaska and Hawaii in the first half of 2026 according to a new Ookla Speedtest report.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 47,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "The AI revenue opportunity moves to the network edge",
-      "link": "https://www.fierce-network.com/sponsored/ai-revenue-opportunity-moves-network-edge",
-      "summary": "Together, Cisco and Vodafone Idea are pairing network reach with edge AI to support faster experiences and open new paths to operator revenue.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "T-Mobile execs stay unfazed by SpaceX threat",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-execs-stay-unfazed-spacex-hype",
-      "summary": "While the wireless world frets about what's coming from Elon Musk, T-Mobile executives say they're focused on current competitors.",
-      "source": "Fierce Network",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AT&T is rebuilding its network for the AI and autonomous era",
-      "link": "https://www.fierce-network.com/broadband/att-rebuilding-its-network-ai-and-autonomous-era",
-      "summary": "Yigal Elbaz says AT&T’s push toward open, programmable infrastructure is laying the groundwork for L4 network autonomy and an AI traffic mix that looks different from today’s broadband demand.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 37,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "AST SpaceMobile CEO explains new rocket plan, hints about third US operator",
-      "link": "https://www.fierce-network.com/wireless/ast-spacemobile-ceo-explains-new-rocket-plan-hints-about-third-us-operator",
-      "summary": "AST SpaceMobile's CEO didn't name names but suggested a third U.S. operator will join AT&T and Verizon in their work with the D2D company.",
-      "source": "Fierce Network",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 27,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Nvidia fallout: With Huang gone, what happens now?",
-      "link": "https://www.fierce-network.com/cloud/nvidia-fallout-huang-gone-what-happens-now",
-      "summary": "Analysts told Fierce Nvidia's sudden power vacuum is a key opportunity for chip and networking rivals, even if the impact won't necessarily be felt right away.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Blue Planet collaborates with KDDI to advance autonomous networking",
-      "link": "https://www.fierce-network.com/newswire/blue-planet-collaborates-kddi-advance-autonomous-networking",
-      "summary": "The collaboration will support KDDI in expanding AI-driven operations with greater accuracy, visibility and control across a common data-driven foundation.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "The GPU gold rush creates a CPU opportunity — and Akamai knows it",
-      "link": "https://www.fierce-network.com/cloud/gpu-gold-rush-creates-cpu-opportunity-and-akamai-knows-it",
-      "summary": "Akamai COO Adam Karon says AI agents will shift work from GPUs to CPUs at the network edge, opening a market for CPU makers and networking firms.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "From cost center to strategic lever: Rethinking supply chain execution in broadband deployment",
-      "link": "https://www.fierce-network.com/sponsored/cost-center-strategic-lever-rethinking-supply-chain-execution-broadband-deployment",
-      "summary": "Your supply chain can do more than control costs. See how the right partner helps broadband providers build faster and protect capital.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
     }
   ]
 }
