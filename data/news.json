@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-13T22:59:08.356332+00:00",
-  "count": 93,
+  "generated_at": "2026-11-14T03:56:08.741790+00:00",
+  "count": 105,
   "theme_counts": {
-    "moveis": 43,
-    "fibra": 13,
+    "moveis": 44,
+    "fibra": 16,
     "antenas": 12,
     "iot": 3,
-    "satelite": 26,
+    "satelite": 29,
     "radar_militar": 9,
     "radiocom": 0,
     "tv": 3,
-    "geral": 20
+    "geral": 26
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 2,
+    "in": 3,
     "jp": 3,
     "kr": 2,
     "cn": 1
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (25 itens)",
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Critical Network Outages: Why Isn’t Redundancy Working? Part II.",
+      "link": "https://techblog.comsoc.org/2026/11/13/critical-network-outages-why-isnt-redundancy-working-part-ii/",
+      "summary": "Introduction: Part 1. of this two part series examined the November 13th FAA telecommunications outage at length briefly described the November 12th Microsoft global cloud disruption. Although the incidents involved different systems and have not been shown to share a common cause, both raise a fundamental engineering...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 24,
+      "date": "2026-11-14T01:24:42+00:00",
+      "ts": 1794619482.0
+    },
     {
       "title": "FCC sets key dates for upper C-band auction",
       "link": "https://www.lightreading.com/regulatory-politics/fcc-sets-key-dates-for-upper-c-band-auction",
@@ -1209,6 +1223,20 @@
       "ts": 1794385278.0
     },
     {
+      "title": "Ethernet Advances Towards 400 Gb/s-per-Lane Signaling for AI Networks: IEEE P802.3dv, Copper and Optical Interconnects",
+      "link": "https://techblog.comsoc.org/2026/11/10/ethernet-advances-towards-400-gb-s-per-lane-signaling-for-ai-networks-ieee-p802-3dv-copper-and-optical-interconnects/",
+      "summary": "Original Shared-Medium Ethernet LANs have evolved to High-Performance AI Networking Fabrics: Ethernet originated at Xerox’s Palo Alto Research Center (PARC) in 1973 as a local area networking (LAN) technology that allowed computers and peripherals to communicate over a shared coaxial cable. The original 3 Mb/s...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-11-11T00:08:10+00:00",
+      "ts": 1794355690.0
+    },
+    {
       "title": "Verizon and Nokia Switch On Thames Freeport Private 5G: A Multi-Tenant Blueprint for Physical AI",
       "link": "https://tecknexus.com/verizon-nokia-thames-freeport-private-5g/",
       "summary": "Verizon Business and Nokia have completed a private 5G platform across five Thames Freeport sites, from DP World London Gateway to Ford Dagenham and the Port of Tilbury. Each tenant runs its own sovereign network core on a shared platform, and a staged trial programme is moving from AI damage detection and truck...",
@@ -1411,36 +1439,6 @@
       "ts": 1793926120.0
     },
     {
-      "title": "Ericsson Expands 5G Beyond Connectivity: Drone Detection, NATO Military Networks and Cross-Border Emergency Communications",
-      "link": "https://techblog.comsoc.org/2026/11/05/ericsson-expands-5g-beyond-connectivity-drone-detection-nato-military-networks-and-cross-border-emergency-communications/",
-      "summary": "Disclaimer: ChatGPT was used extensively for research, source summarization, and drafting assistance in preparing this article. The author reviewed and edited the material and assumes full responsibility for its accuracy, technical content, and conclusions. Introduction: Ericsson is advancing the use of 5G mobile...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-11-05T19:14:53+00:00",
-      "ts": 1793906093.0
-    },
-    {
-      "title": "Skeptical Analysis: SpaceX Selects Qualcomm for Nationwide Terrestrial 5G Network; Impact on Big 3 U.S. Wireless Carriers",
-      "link": "https://techblog.comsoc.org/2026/11/04/spacex-selects-qualcomm-for-nationwide-terrestrial-5g-network-impact-on-big-3-u-s-carriers/",
-      "summary": "Disclosure: ChatGPT was used extensively for research, technical analysis, and drafting assistance in this article. The author reviewed and fact-checked the material and is responsible for the final content. Executive Summary: SpaceX has selected Qualcomm Technologies’ Dragonwing Cellular Infrastructure platforms to...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 67,
-      "date": "2026-11-04T23:25:39+00:00",
-      "ts": 1793834739.0
-    },
-    {
       "title": "What Would a U.S. Telecommunications Act 2.0 Look Like?",
       "link": "https://spectrum.ieee.org/telecommunications-act-reform",
       "summary": "In February 1996, U.S. President Bill Clinton signed the Telecommunications Act , which boosted competition and loosened broadcasting requirements. It also set a baseline of telecom service everyone should have and set up funding to pay for it. Thirty years later , people are still fighting over the Act’s provisions...",
@@ -1555,6 +1553,179 @@
       "relevance": 44,
       "date": "2026-09-30T16:39:00+00:00",
       "ts": 1790786340.0
+    },
+    {
+      "title": "After Qualcomm, who else might get a piece of Starlink Mobile’s 5G network?",
+      "link": "https://www.fierce-network.com/wireless/after-qualcomm-who-else-might-get-piece-starlink-mobiles-5g-network",
+      "summary": "Qualcomm will power Starlink Mobile's 5G macro sites, but analysts say SpaceX may skip the usual RAN vendors.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 62,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Verizon Business lights up private 5G across Thames Freeport",
+      "link": "https://www.fierce-network.com/wireless/verizon-business-lights-private-5g-across-thames-freeport",
+      "summary": "Verizon Business has completed a Nokia-powered private 5G network across the Thames Freeport.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Upper C-band auction gets April 27 start date",
+      "link": "https://www.fierce-network.com/wireless/upper-c-band-auction-gets-april-27-start-date",
+      "summary": "The FCC set April 27, 2027 as the start date for Auction 115, which will offer 160 MHz of upper C-band spectrum.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "CableFinder brings T-Mobile for Business to tech advisors through leading TSDs",
+      "link": "https://www.fierce-network.com/newswire/cablefinder-brings-t-mobile-business-tech-advisors-through-leading-tsds",
+      "summary": "New release expands access to T-Mobile's Fixed Wireless solutions, including Super Broadband, across AVANT, Intelisys, AppDirect, Telarus, Innovative and Pax8.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 48,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Starlink’s US broadband users are moving beyond rural America: Ookla",
+      "link": "https://www.fierce-network.com/broadband/starlinks-us-broadband-users-are-moving-beyond-rural-america-ookla",
+      "summary": "Urban users grew faster than rural users in every state but Alaska and Hawaii in the first half of 2026 according to a new Ookla Speedtest report.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The AI revenue opportunity moves to the network edge",
+      "link": "https://www.fierce-network.com/sponsored/ai-revenue-opportunity-moves-network-edge",
+      "summary": "Together, Cisco and Vodafone Idea are pairing network reach with edge AI to support faster experiences and open new paths to operator revenue.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "in"
+      ],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile execs stay unfazed by SpaceX threat",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-execs-stay-unfazed-spacex-hype",
+      "summary": "While the wireless world frets about what's coming from Elon Musk, T-Mobile executives say they're focused on current competitors.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AT&T is rebuilding its network for the AI and autonomous era",
+      "link": "https://www.fierce-network.com/broadband/att-rebuilding-its-network-ai-and-autonomous-era",
+      "summary": "Yigal Elbaz says AT&T’s push toward open, programmable infrastructure is laying the groundwork for L4 network autonomy and an AI traffic mix that looks different from today’s broadband demand.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 37,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nokia Federal wins DoW contract for ISAC project",
+      "link": "https://www.fierce-network.com/wireless/nokia-federal-wins-dow-contract-isac-project",
+      "summary": "The U.S. Department of War (DoW) has awarded Nokia Federal Solutions a contract under its Real-World Application Prototyping for ISAC Demonstration (RAPID) project.",
+      "source": "Fierce Network",
+      "themes": [
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "AST SpaceMobile CEO explains new rocket plan, hints about third US operator",
+      "link": "https://www.fierce-network.com/wireless/ast-spacemobile-ceo-explains-new-rocket-plan-hints-about-third-us-operator",
+      "summary": "AST SpaceMobile's CEO didn't name names but suggested a third U.S. operator will join AT&T and Verizon in their work with the D2D company.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 27,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Opinion: Telcos can be a broker for AI workloads",
+      "link": "https://www.fierce-network.com/wireless/opinion-telcos-can-be-broker-ai-workloads",
+      "summary": "As a connectivity provider, a telco can identify and authenticate each AI agent, to ensure that every workflow is authorized and to govern how many tokens it can use.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nvidia fallout: With Huang gone, what happens now?",
+      "link": "https://www.fierce-network.com/cloud/nvidia-fallout-huang-gone-what-happens-now",
+      "summary": "Analysts told Fierce Nvidia's sudden power vacuum is a key opportunity for chip and networking rivals, even if the impact won't necessarily be felt right away.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
     }
   ]
 }
