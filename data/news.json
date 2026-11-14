@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-14T03:56:08.741790+00:00",
-  "count": 105,
+  "generated_at": "2026-11-14T12:40:15.097234+00:00",
+  "count": 77,
   "theme_counts": {
-    "moveis": 44,
+    "moveis": 33,
     "fibra": 16,
-    "antenas": 12,
-    "iot": 3,
-    "satelite": 29,
-    "radar_militar": 9,
+    "antenas": 2,
+    "iot": 2,
+    "satelite": 25,
+    "radar_militar": 7,
     "radiocom": 0,
-    "tv": 3,
-    "geral": 26
+    "tv": 1,
+    "geral": 16
   },
   "country_counts": {
     "br": 1,
@@ -21,7 +21,7 @@
     "kr": 2,
     "cn": 1
   },
-  "research_count": 30,
+  "research_count": 1,
   "sources": [
     {
       "source": "Light Reading",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "3G4G Blog",
@@ -150,23 +150,23 @@
     },
     {
       "source": "arXiv eess.SP",
-      "status": "ok (69 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.NI",
-      "status": "ok (26 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.IT",
-      "status": "ok (54 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv eess.SY",
-      "status": "ok (123 itens)",
-      "kept": 5
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "FCC Headlines",
@@ -200,6 +200,21 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom Argentina Boosts Capex 44% to $354 Million, Adds 887 5G Sites as Mobile Subscribers Reach 17.94 Million",
+      "link": "https://telecomlead.com/telecom-services/telecom-argentina-boosts-capex-44-to-354-million-adds-887-5g-sites-as-mobile-subscribers-reach-17-94-million-128724",
+      "summary": "Telecom Argentina accelerated its 5G network expansion and broadband investment during the third quarter of 2026, increasing capital expenditure by 44 percent year over year to $354 million. The operator added 887 5G sites during the first nine months of 2026, while its Personal mobile business reported 17.94 million...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis",
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 54,
+      "date": "2026-11-14T06:02:27+00:00",
+      "ts": 1794636147.0
+    },
     {
       "title": "Critical Network Outages: Why Isn’t Redundancy Working? Part II.",
       "link": "https://techblog.comsoc.org/2026/11/13/critical-network-outages-why-isnt-redundancy-working-part-ii/",
@@ -341,425 +356,6 @@
       "relevance": 59,
       "date": "2026-11-13T06:28:45+00:00",
       "ts": 1794551325.0
-    },
-    {
-      "title": "Physics-Aware Transformer-Based Beamforming Optimization for Near-Field E-MIMO ISAC Systems",
-      "link": "https://arxiv.org/abs/2611.16305",
-      "summary": "arXiv:2611.16305v1 Announce Type: new Abstract: This paper proposes a physics-aware Transformer-based beamforming optimization (PATBO) framework for near-field extreme massive multiple-input multiple-output integrated sensing and communication (E-MIMO-ISAC) systems. PATBO combines regularized zero-forcing (RZF)...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 75,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Reduced-Complexity WMMSE Approach for Cell-Free Massive MIMO Systems With Finite-Capacity Fronthaul Links",
-      "link": "https://arxiv.org/abs/2611.15054",
-      "summary": "arXiv:2611.15054v1 Announce Type: cross Abstract: We propose a reduced-complexity weighted minimum mean squared error (R-WMMSE) framework for cell-free massive MIMO (CF-mMIMO) systems with finite-capacity fronthaul links. To maximize the system capacity, we need to jointly design beamforming vectors at distributed...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 75,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Hybrid Precoding and Combining for O-RAN Massive MIMO Systems",
-      "link": "https://arxiv.org/abs/2611.15199",
-      "summary": "arXiv:2611.15199v1 Announce Type: new Abstract: Recently, the radio access network (RAN) has been reimagined through open RAN (O-RAN) architecture to overcome the limitations of the traditional monolithic, black-box design philosophy and to leverage emerging technologies such as cloud computing, machine learning, and...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 75,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Optimization of Finite Alphabet Message Passing Decoding on Fully Node-Parallel Architectures for 5G LDPC Codes",
-      "link": "https://arxiv.org/abs/2611.15694",
-      "summary": "arXiv:2611.15694v1 Announce Type: cross Abstract: In this paper, we propose a novel design method for the lookup tables (LUTs) of the minimum reconstruction, computation, and quantization (min-RCQ) LDPC code decoding algorithm. The proposed design method uses Bayesian optimization and samples from a subspace of the...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 74,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Set-Theoretic PAPR Reduction in Multi-Antenna Systems",
-      "link": "https://arxiv.org/abs/2611.15557",
-      "summary": "arXiv:2611.15557v1 Announce Type: new Abstract: In this study, we propose an optimization framework for PAPR reduction in multi-antenna systems with beamforming. Unlike previous techniques, the proposed approach permits full control over the distorted symbol constellation via arbitrary (convex) constraints on the...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Antenna Positioning and Beamforming Optimization in MA Enabled Secure ISAC Systems: A Gradient-Based Meta Learning Approach",
-      "link": "https://arxiv.org/abs/2608.12870",
-      "summary": "arXiv:2608.12870v4 Announce Type: replace Abstract: Integrated sensing and communications (ISAC) significantly improves spectral efficiency but introduces security risks regarding the interception of embedded communication signals. This paper proposes an movable antenna (MA)-enabled secure ISAC system that utilizes...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "antenas",
-        "radar_militar"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 73,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Multi-Band Indoor MIMO Channel Measurements Across Sub-6 GHz, Mid-Band and mmWave: Comparing 2.55 GHz, 12.75 GHz and 25.5 GHz",
-      "link": "https://arxiv.org/abs/2611.15285",
-      "summary": "arXiv:2611.15285v1 Announce Type: new Abstract: Future wireless systems for indoor applications are expected to extend their operating frequencies from sub-6 GHz to mid-band and millimeter wave (mmWave) frequencies to support higher data rates. To characterize the frequency-dependent propagation behavior across these...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 72,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Asymptotic SINR Analysis of Linear Detectors in Uplink Massive NTN MIMO Transmissions",
-      "link": "https://arxiv.org/abs/2611.16851",
-      "summary": "arXiv:2611.16851v1 Announce Type: new Abstract: This paper examines the performance degradation of receivers caused by imperfect channel state information (CSI), arising from training-based and semi-blind channel estimation techniques. We focus on the uplink of massive multiple-input multiple-output (MIMO) systems...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 71,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Channel-Chart-Driven Antenna Activation for Energy-Efficient Cell-Free Massive MIMO",
-      "link": "https://arxiv.org/abs/2611.16996",
-      "summary": "arXiv:2611.16996v1 Announce Type: new Abstract: Cell-free massive MIMO (CF-mMIMO) can provide uniformly high system performance across the coverage area through distributed cooperation. However, keeping all antennas active leads to high circuit and fronthaul power consumption. This paper studies energy-efficient...",
-      "source": "arXiv eess.SP",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 71,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Agentic Orchestration for SLA-Constrained Network Slicing in Programmable Mobile Data Planes",
-      "link": "https://arxiv.org/abs/2611.16801",
-      "summary": "arXiv:2611.16801v1 Announce Type: new Abstract: The Third Generation Partnership Project (3GPP) Technical Specification 23.501 (Release 17) defines Maximum Bit Rate (MBR) enforcement at the User Plane Function (UPF) in fifth-generation (5G) networks. Supporting differentiated service-level agreements across the radio...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Information Spectrum Methods for Multiple-Access Channels--Part I: $\\varepsilon$-Capacity Regions in the Mixed Gaussian Case",
-      "link": "https://arxiv.org/abs/2609.18352",
-      "summary": "arXiv:2609.18352v3 Announce Type: replace Abstract: We study the {\\epsilon}-capacity regions of mixed multiple-access channels (MACs) with general mixture and cost constraints by the information spectrum method. The starting point is a general formula for the {\\epsilon}-capacity region of general MACs with cost...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 64,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Information Spectrum Methods for Multiple-Access Channels --Part II : $\\varepsilon$-Capacity Regions in the Mixed Finite-Alphabet Case",
-      "link": "https://arxiv.org/abs/2611.16653",
-      "summary": "arXiv:2611.16653v1 Announce Type: new Abstract: In a nonergodic channel such as a slowly fading link, the channel law is drawn once and held fixed for the whole codeword, and the relevant performance measure is the $\\varepsilon$-capacity. We study the $\\varepsilon$-capacity regions of two-user mixed multiple-access...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Topology-Aware Handover Management for Service Continuity in LEO Satellite Networks",
-      "link": "https://arxiv.org/abs/2611.16878",
-      "summary": "arXiv:2611.16878v1 Announce Type: new Abstract: Low Earth orbit (LEO) satellites are expected to play a key role in sixth-generation (6G) non-terrestrial networks. The high mobility of LEO satellites necessitates frequent handovers (HOs), posing challenges to service continuity and availability for user equipment....",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Sub Terahertz LEO Satellite Communication: Is Doppler Shift a Major Challenge?",
-      "link": "https://arxiv.org/abs/2611.01264",
-      "summary": "arXiv:2611.01264v2 Announce Type: replace Abstract: In this work, we investigate the impact of Doppler frequency shift on sub-terahertz low Earth orbit (LEO) satellite communications using OFDM transmission. To comprehensively evaluate the severity of the Doppler shift impact on sub-terahertz satellite-to-ground...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "satelite"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Sustainable Federated Fine-Tuning with LoRA: Environmental Impact and Performance Footprint",
-      "link": "https://arxiv.org/abs/2611.16856",
-      "summary": "arXiv:2611.16856v1 Announce Type: cross Abstract: Federated Learning (FL) with Parameter-Efficient Fine-Tuning (PEFT) enables efficient adaptation of Large Language Models (LLMs), yet its energy and carbon costs across hardware remain poorly understood. We evaluated federated Low-Rank Adaptation (LoRA) fine-tuning on...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "iot"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Information Spectrum Methods for MUltiple-Access Channels--Part III : The Strong Converse in the $K$-User Gaussian Case",
-      "link": "https://arxiv.org/abs/2611.16664",
-      "summary": "arXiv:2611.16664v1 Announce Type: new Abstract: This paper, Part III of a series, treats $K$-user multiple-access channels (MACs). Its starting point is a pair of fundamental lemmas, a random-coding lemma of Feinstein type and a converse lemma of Verd\\'u--Han type, which are the $K$-user extensions of the two lemmas...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Integrated Localization, Mapping, and Communication through VCSEL-Based Light-emitting RIS (LeRIS)",
-      "link": "https://arxiv.org/abs/2510.08071",
-      "summary": "arXiv:2510.08071v3 Announce Type: replace Abstract: Light-emitting reconfigurable intelligent surfaces (LeRISs) have recently emerged as a promising solution for providing the spatial awareness required for reliable millimeter-wave (mmWave) communication in programmable wireless environments (PWEs). However, existing...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "GridForge: A Tractable Network-Flow Method for Constructing Open, Continental-Scale Synthetic Power Grids",
-      "link": "https://arxiv.org/abs/2611.16222",
-      "summary": "arXiv:2611.16222v1 Announce Type: new Abstract: The goal of this paper is to construct open, continental-scale synthetic transmission grids with an optimization method that stays tractable. Security restrictions keep models of the real grid out of open research and machine-learning datasets, and optimization-based...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Contract-Theoretic Semantic Abstraction for Covert Communication in LAENets",
-      "link": "https://arxiv.org/abs/2603.01478",
-      "summary": "arXiv:2603.01478v2 Announce Type: replace Abstract: In Low-Altitude Economy Networks (LAENets), Unmanned Aerial Vehicles (UAVs) transmit task-related information to the Base Station (BS) under stringent low-probability-of-detection constraints. These constraints limit transmission resources, hindering reliable...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "moveis"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 55,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "A Connectionless Interaction Model for Network Spatial Proximity Services",
-      "link": "https://arxiv.org/abs/2611.16737",
-      "summary": "arXiv:2611.16737v1 Announce Type: new Abstract: In this paper, we present a connectionless interaction model for network spatial proximity services. In the network spatial proximity model, the reception of an identification or discovery frame of a nearby wireless node confirms proximity and delivers content at the...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 54,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Integrated Control and Communication in LQG Systems",
-      "link": "https://arxiv.org/abs/2512.18535",
-      "summary": "arXiv:2512.18535v2 Announce Type: replace Abstract: In this paper, we study the Integrated Communication and Control (ICAC) problem. Specifically, we investigate how messages can be transmitted from the controller/encoder to the observer/decoder through the control signal in Multiple-Input Multiple-Output (MIMO)...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "moveis",
-        "antenas"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Inverse-Optimal Fixed-Time Integral Reinforcement Learning for Unknown Nonlinear Leader-Follower Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2611.14927",
-      "summary": "arXiv:2611.14927v1 Announce Type: new Abstract: This paper develops a distributed inverse-optimal fixed-time integral reinforcement learning framework for unknown nonlinear leader-follower multi-agent systems. The proposed method first reconstructs the unknown agent dynamics from finite integral data. Based on the...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "SLyM: LLM-Driven Symbolic Lyapunov Function Discovery via Structure Proposal and Coefficient Optimization",
-      "link": "https://arxiv.org/abs/2611.15401",
-      "summary": "arXiv:2611.15401v1 Announce Type: new Abstract: Lyapunov functions are the cornerstone of stability analysis for dynamical systems, yet synthesizing a symbolic form remains difficult as no universal constructive algorithm exists. To address this challenge, we introduce SLyM, a framework that harnesses the knowledge...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "A Unified Interpretable Semantic Framework for Multi-Modal Fiber Sensing Under Data Scarcity",
-      "link": "https://arxiv.org/abs/2611.16027",
-      "summary": "arXiv:2611.16027v1 Announce Type: cross Abstract: We propose a unified interpretable semantic framework for multi-modal fiber sensing under data scarcity. The framework maps heterogeneous measurements from state of-polarization (SOP) monitoring, distributed acoustic sensing (DAS), and optical time-domain reflectometry...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "fibra"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Physics-informed structured learning of a class of recurrent neural networks with guaranteed properties",
-      "link": "https://arxiv.org/abs/2603.25574",
-      "summary": "arXiv:2603.25574v2 Announce Type: replace Abstract: This paper proposes a physics-informed learning framework for a class of recurrent neural networks tailored to networked systems. The approach aims to learn control-oriented models that preserve the structural and stability properties of the plant. The learning...",
-      "source": "arXiv eess.SY",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "ComBO: Community Bayesian Optimization for Carrier Shutdown in HAPS-Hypercell Networks",
-      "link": "https://arxiv.org/abs/2611.14761",
-      "summary": "arXiv:2611.14761v1 Announce Type: new Abstract: In this paper, we investigate carrier shutdown (CS) in high-altitude platform station (HAPS)-Hypercell-assisted networks, leveraging network-wide information to optimize both coverage macro cells and capacity cells CS. To address the high dimensionality of this problem,...",
-      "source": "arXiv cs.IT",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Machine Learning for Scalable Multi-AP Coordination in IEEE 802.11bn Networks",
-      "link": "https://arxiv.org/abs/2611.16634",
-      "summary": "arXiv:2611.16634v1 Announce Type: new Abstract: As Wi-Fi deployments become denser, fully distributed random channel access no longer guarantees the required quality of service. The multi-access point coordination (MAPC) framework introduced in IEEE~802.11bn lets neighboring access points (APs) cooperate, but choosing...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "geral"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Collision-Resilient All-to-All Broadcast Scheduling in Underwater Acoustic Networks",
-      "link": "https://arxiv.org/abs/2611.16884",
-      "summary": "arXiv:2611.16884v1 Announce Type: new Abstract: This paper studies all-to-all broadcast scheduling for underwater swarms with collision-resilient physical layers that can decode asynchronously overlapping packets. Propagation-aware collision-free schedulers coordinate packet arrivals but do not account for this...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
-    },
-    {
-      "title": "Rateless Coding for Efficient Model Broadcast in Federated Learning",
-      "link": "https://arxiv.org/abs/2611.15499",
-      "summary": "arXiv:2611.15499v1 Announce Type: cross Abstract: Model broadcast in federated learning (FL) with wireless channels faces significant challenges due to large model sizes and heterogeneous, unreliable channel conditions. While rateless coding has been widely adopted in modern broadcast communications to handle channel...",
-      "source": "arXiv cs.NI",
-      "themes": [
-        "tv"
-      ],
-      "research": true,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-11-13T05:00:00+00:00",
-      "ts": 1794546000.0
     },
     {
       "title": "South Africa ready for Starlink?",
