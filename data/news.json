@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-18T14:44:33.991528+00:00",
-  "count": 89,
+  "generated_at": "2026-11-18T23:40:26.362175+00:00",
+  "count": 90,
   "theme_counts": {
-    "moveis": 27,
-    "fibra": 6,
-    "antenas": 9,
-    "iot": 3,
+    "moveis": 32,
+    "fibra": 11,
+    "antenas": 6,
+    "iot": 5,
     "satelite": 20,
-    "radar_militar": 14,
+    "radar_militar": 11,
     "radiocom": 0,
     "tv": 1,
-    "geral": 36
+    "geral": 29
   },
   "country_counts": {
     "br": 0,
@@ -18,8 +18,8 @@
     "il": 0,
     "in": 2,
     "jp": 3,
-    "kr": 1,
-    "cn": 1
+    "kr": 0,
+    "cn": 2
   },
   "research_count": 29,
   "sources": [
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (25 itens)",
+      "kept": 9
     },
     {
       "source": "Telecoms.com",
@@ -71,11 +71,11 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -86,17 +86,17 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Capacity Media",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "3G4G Blog",
@@ -120,8 +120,8 @@
     },
     {
       "source": "IEEE ComSoc Tech Blog",
-      "status": "ok (10 itens)",
-      "kept": 8
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "One6G",
@@ -135,7 +135,7 @@
     },
     {
       "source": "6GWorld",
-      "status": "ok (10 itens)",
+      "status": "ERRO: HTTP Error 503: Service Unavailable",
       "kept": 0
     },
     {
@@ -175,13 +175,13 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (15 itens)",
+      "status": "ok (18 itens)",
       "kept": 0
     },
     {
       "source": "Via Satellite",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 4
     },
     {
       "source": "Advanced Television",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 4
     },
     {
       "source": "European Spaceflight",
@@ -201,18 +201,178 @@
   ],
   "items": [
     {
-      "title": "AT&T targets global enterprises with eSIM service",
-      "link": "https://www.mobileworldlive.com/industry/att-targets-global-enterprises-with-esim-service/",
-      "summary": "AT&T announced general availability of a remote SIM provisioning product compliant with the GSMA SGP.32 specification intended to ease scaling of global IoT deployments for enterprises. The post AT&T targets global enterprises with eSIM service appeared first on Mobile World Live .",
+      "title": "Iridium Activates Commercial Service on Standards-Based NB-IoT Direct-to-Device Network",
+      "link": "https://satnews.com/2026/11/18/iridium-activates-commercial-service-on-standards-based-nb-iot-direct-to-device-network/",
+      "summary": "On Tuesday, Nov. 17, Iridium Communications announced the commercial activation of Iridium NTN Direct, bringing its standards-based narrowband Internet of Things (NB-IoT) direct-to-device (D2D) offering into live operation. Operating across […]",
+      "source": "SatNews",
+      "themes": [
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-11-18T22:20:54+00:00",
+      "ts": 1795040454.0
+    },
+    {
+      "title": "SES to Lead New European D2D Project SELYCE",
+      "link": "https://www.satellitetoday.com/connectivity/2026/11/18/ses-to-lead-new-european-d2d-project-selyce/",
+      "summary": "The European Space Agency (ESA) has tapped SES to lead a new European direct-to-device (D2D) project that will develop and test new technologies for use cases like vehicle connectivity and […] The post SES to Lead New European D2D Project SELYCE appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 32,
+      "date": "2026-11-18T20:49:59+00:00",
+      "ts": 1795034999.0
+    },
+    {
+      "title": "Univity bets on very low orbit, Europe base for D2D services",
+      "link": "https://www.mobileworldlive.com/network-tech/univity-bets-on-very-low-orbit-european-base-for-d2d-services/",
+      "summary": "LIVE FROM UNWRAPPED – THE 5G EVOLUTION: European startup Univity plans to sell wholesale satellite capacity from very low Earth orbit (LEO) to mobile operators for broadband and direct-to-device (D2D) services, with two demonstration satellites slated for launch no later than Q2 2028. The post Univity bets on very low...",
       "source": "Mobile World Live",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 52,
+      "date": "2026-11-18T17:59:57+00:00",
+      "ts": 1795024797.0
+    },
+    {
+      "title": "FCC Upper C-Band Auction 115 Creates Indirect Spectrum and Market Shifts for SmallSat and LEO Operators",
+      "link": "https://satnews.com/2026/11/18/fcc-upper-c-band-auction-115-creates-indirect-spectrum-and-market-shifts-for-smallsat-and-leo-operators/",
+      "summary": "Building on regulatory proceedings initiated earlier this year to clear mid-band satellite frequencies for terrestrial broadband, the Federal Communications Commission (FCC) established final bidding procedures on Friday, Nov. 13, for […]",
+      "source": "SatNews",
+      "themes": [
+        "moveis",
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": "2026-11-18T16:58:53+00:00",
+      "ts": 1795021133.0
+    },
+    {
+      "title": "FCC Sets April 27, 2027 Start Date for Upper C-Band Auction, Pressuring Broadcasters",
+      "link": "https://satnews.com/2026/11/18/fcc-sets-april-27-2027-start-date-for-upper-c-band-auction-pressuring-broadcasters/",
+      "summary": "The Federal Communications Commission (FCC) adopted the formal schedule and bidding procedures for Auction 115, setting April 27, 2027, as the start date to auction 160 megahertz (MHz) of Upper […]",
+      "source": "SatNews",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-11-18T16:54:04+00:00",
+      "ts": 1795020844.0
+    },
+    {
+      "title": "Reliance plans satellite network to take on Starlink",
+      "link": "https://www.mobileworldlive.com/reliance/reliance-plans-satellite-network-to-take-on-starlink/",
+      "summary": "Reliance group is reportedly exploring manufacturing partnerships to support its planned 1,600-satellite low-Earth orbit broadband constellation, as billionaire Mukesh Ambani steps up efforts to build a domestic rival to Elon Musk’s Starlink. The post Reliance plans satellite network to take on Starlink appeared first...",
+      "source": "Mobile World Live",
+      "themes": [
+        "fibra",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 57,
+      "date": "2026-11-18T16:53:46+00:00",
+      "ts": 1795020826.0
+    },
+    {
+      "title": "T-Mobile 600MHz Spectrum Deal: Why Bluewater’s Licences Matter for Low-Band 5G",
+      "link": "https://tecknexus.com/t-mobile-600mhz-spectrum-bluewater-wireless/",
+      "summary": "T-Mobile has filed with the FCC to buy 58 600MHz licences from Bluewater Wireless covering 435 counties in 27 states, with a short-term lease that lets it light up the spectrum within days. TeckNexus explains what the deal adds, how it fits T-Mobile's long run of 600MHz lease-to-own transactions, what the FCC's recent...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 56,
+      "date": "2026-11-18T16:25:12+00:00",
+      "ts": 1795019112.0
+    },
+    {
+      "title": "Fulton-Liberty Line Private Wireless: Inside New York’s 5G-Based Train Control Upgrade",
+      "link": "https://tecknexus.com/fulton-liberty-line-private-wireless-cbtc-train-control/",
+      "summary": "Fortress Solutions will integrate the private wireless network that carries Siemens Mobility's 5G-based Trainguard MT train control on New York's Fulton-Liberty Line, part of the MTA's $1.9 billion signal replacement led by L.K. Comstock. TeckNexus explains who does what, what the network will enable for the A and C...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": "2026-11-18T16:08:29+00:00",
+      "ts": 1795018109.0
+    },
+    {
+      "title": "Orange seeks partners to extend ReuNION subsea cable to Singapore",
+      "link": "https://www.datacenterdynamics.com/en/news/orange-seeks-partners-to-extend-reunion-subsea-cable-to-singapore/",
+      "summary": "Telco says system could land at a number of points along the way",
+      "source": "DataCenterDynamics",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 46,
+      "date": "2026-11-18T15:29:00+00:00",
+      "ts": 1795015740.0
+    },
+    {
+      "title": "T-Mobile grabs for Bluewater's 600MHz licenses, keeping them out of SpaceX's reach",
+      "link": "https://www.lightreading.com/5g/t-mobile-grabs-for-bluewater-s-600mhz-licenses-keeping-them-out-of-spacex-s-reach",
+      "summary": "T-Mobile informed the FCC it is acquiring Bluewater Wireless' 600MHz spectrum licenses covering 435 counties in 27 states. It will add about 10MHz of capacity in most areas, and it keeps the spectrum out of the hands of SpaceX.",
+      "source": "Light Reading",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 50,
+      "date": "2026-11-18T15:26:46+00:00",
+      "ts": 1795015606.0
+    },
+    {
+      "title": "Verizon CTO positive on race to understand 6G",
+      "link": "https://www.mobileworldlive.com/verizon/verizon-cto-positive-on-race-to-understand-6g/",
+      "summary": "LIVE FROM UNWRAPPED – THE 5G EVOLUTION: Verizon CTO Yago Tenorio gave a positive diagnosis on work towards 6G, highlighting a break from architectural issues which hampered 5G and its position in the race to uncover what the technology could do. The post Verizon CTO positive on race to understand 6G appeared first on...",
+      "source": "Mobile World Live",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 55,
+      "date": "2026-11-18T15:26:08+00:00",
+      "ts": 1795015568.0
+    },
+    {
+      "title": "Verizon IoT connects Bosch Motorsport race cars at 200 mph",
+      "link": "https://www.lightreading.com/iot/verizon-iot-connects-bosch-motorsport-race-cars-at-200-mph",
+      "summary": "Verizon Business provides IoT connectivity and data management for Bosch Motorsport in first commercial deal for its Global IoT Orchestration service.",
+      "source": "Light Reading",
       "themes": [
         "iot"
       ],
       "research": false,
       "countries": [],
-      "relevance": 37,
-      "date": "2026-11-18T11:40:15+00:00",
-      "ts": 1795002015.0
+      "relevance": 32,
+      "date": "2026-11-18T15:18:25+00:00",
+      "ts": 1795015105.0
     },
     {
       "title": "VodafoneThree taps Nokia, Nvidia for UK AI-RAN trials",
@@ -699,20 +859,6 @@
       "ts": 1794978000.0
     },
     {
-      "title": "AI’s Double-Edged Impact on Telecom Networks: Accelerating Cyber Threats While Improving Network Resilience",
-      "link": "https://techblog.comsoc.org/2026/11/17/ais-double-edged-impact-on-telecom-networks-accelerating-cyber-threats-while-improving-network-resilience/",
-      "summary": "Disclaimer: ChatGPT was used in a dialog to help select this important telecom topic and subsequently conduct research that the author used to write this article. Introduction: Artificial intelligence (AI) is creating a fundamental paradox for telecommunications networks and other critical infrastructure. The same...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-18T00:24:49+00:00",
-      "ts": 1794961489.0
-    },
-    {
       "title": "UK Startup Foundational.Space Launches Laser Retroreflector for Space Domain Awareness",
       "link": "https://www.satellitetoday.com/technology/2026/11/17/uk-startup-foundational-space-launches-laser-retroreflector-for-space-domain-awareness/",
       "summary": "BREMEN, Germany –Foundational.Space has developed an in-orbit optical satellite tracking technology, the Retro-2 laser retroreflector, reporting the tech recently demonstrated laser ranging signals in space. London startup Foundational.Space emerged from […] The post UK Startup Foundational.Space Launches Laser...",
@@ -755,20 +901,6 @@
       "relevance": 24,
       "date": "2026-11-17T21:04:18+00:00",
       "ts": 1794949458.0
-    },
-    {
-      "title": "European Leaders Call for Singular Standard in D2D Market and Infrastructure Investment",
-      "link": "https://www.satellitetoday.com/connectivity/2026/11/17/european-leaders-call-for-singular-standard-in-d2d-market-and-infrastructure-investment/",
-      "summary": "BREMEN, Germany — European satellite and tech leaders call for industry to lead the charge in establishing a European direct-to-device (D2D) market during Space Tech Expo Europe, with unanimous recommendations for […] The post European Leaders Call for Singular Standard in D2D Market and Infrastructure Investment...",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-11-17T20:44:46+00:00",
-      "ts": 1794948286.0
     },
     {
       "title": "Starlink Satellites Pass Over South Africa, But Licensing Approval Remains Stalled",
@@ -858,20 +990,6 @@
       "ts": 1794924000.0
     },
     {
-      "title": "Orange commits additional €250M to VC fund",
-      "link": "https://www.mobileworldlive.com/orange/orange-commits-additional-e250m-to-vc-fund/",
-      "summary": "Orange allocated €250 million in fresh cash to its venture capital fund with the aim of backing companies involved in sectors core to its ongoing strategic plan, one of a number of announcements made by the operator at an event in Paris. The post Orange commits additional €250M to VC fund appeared first on Mobile...",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-11-17T13:09:57+00:00",
-      "ts": 1794920997.0
-    },
-    {
       "title": "Nvidia highlights 3 early AI-RAN use cases; admits ISAC surprise",
       "link": "https://www.mobileworldlive.com/nvidia/nvidia-highlights-3-early-ai-ran-use-cases-admits-isac-surprise/",
       "summary": "Soma Velayutham, VP for AI and Telecoms at Nvidia, admitted the emergence and speed of traction around integrated sensing and communications has taken the company by surprise, as he highlighted three credible AI-RAN use cases today. The post Nvidia highlights 3 early AI-RAN use cases; admits ISAC surprise appeared...",
@@ -902,21 +1020,6 @@
       "ts": 1794913204.0
     },
     {
-      "title": "How SpaceX and Qualcomm Plan to Reduce the Cost of Deploying Tens of Thousands of 5G Base Stations",
-      "link": "https://telecomlead.com/semiconductor/how-spacex-and-qualcomm-plan-to-reduce-the-cost-of-deploying-tens-of-thousands-of-5g-base-stations-128752",
-      "summary": "SpaceX’s adoption of Qualcomm Dragonwing 5G chipsets could significantly reduce the cost of deploying base stations across the United States by lowering equipment integration expenses, simplifying multi-vendor interoperability and reducing dependence on traditional telecom equipment suppliers Ericsson and Nokia....",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 56,
-      "date": "2026-11-17T09:56:59+00:00",
-      "ts": 1794909419.0
-    },
-    {
       "title": "El Gobierno español adjudica 17,46 M€ a Orange y Telefónica para la 5G en 358 zonas rurales",
       "link": "https://www.mobileworldlive.com/spanish/el-gobierno-espanol-adjudica-1746-me-a-orange-y-telefonica-para-la-5g-en-358-zonas-rurales/",
       "summary": "El programa «5G Redes muy rurales» movilizará más de 26 millones de euros de inversión total para llevar la cobertura Read more... The post El Gobierno español adjudica 17,46 M€ a Orange y Telefónica para la 5G en 358 zonas rurales appeared first on Mobile World Live .",
@@ -945,96 +1048,6 @@
       "relevance": 39,
       "date": "2026-11-17T03:58:33+00:00",
       "ts": 1794887913.0
-    },
-    {
-      "title": "Broadcom’s Open Ethernet Fabric: Architectural Evolution, AI Tail Latency, Proprietary Interconnects, Cisco Silicon One",
-      "link": "https://techblog.comsoc.org/2026/11/16/broadcoms-sc26-open-ethernet-fabric-ai-tail-latency-vs-proprietary-interconnects-and-cisco-silicon-one/",
-      "summary": "Introduction: On November 15, 2026, Broadcom showcased its open Ethernet fabric portfolio for artificial intelligence (AI) and high-performance computing at the Super Computing 2026 (SC26) event in Chicago, IL. The silicon included the 102.4-terabit Tomahawk 6 switch, Tomahawk Ultra, Jericho 4, and the 800G Thor Ultra...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-11-16T21:20:36+00:00",
-      "ts": 1794864036.0
-    },
-    {
-      "title": "Iceye’s Fifth Generation SAR Satellite Built for 11cm Resolution",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/11/16/iceyes-fifth-generation-sar-satellite-built-for-11cm-resolution/",
-      "summary": "Iceye announced its next-generation satellite, designed to provide synthetic aperture radar (SAR) imaging in as fine as 11 centimeter resolution for sovereign nations, and 16 cm for commercial customers. This […] The post Iceye’s Fifth Generation SAR Satellite Built for 11cm Resolution appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 40,
-      "date": "2026-11-16T20:50:20+00:00",
-      "ts": 1794862220.0
-    },
-    {
-      "title": "Umbra Secures Launch for Next 7 SAR Satellites WIth Increased Capabilities",
-      "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/11/16/umbra-secures-launch-for-next-7-sar-satellites-with-increased-capabilities/",
-      "summary": "Umbra has secured launches for its next seven synthetic aperture radar (SAR) satellites as it upgrades its constellation. Umbra also released the first images from its 13th and 14th satellites, […] The post Umbra Secures Launch for Next 7 SAR Satellites WIth Increased Capabilities appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 50,
-      "date": "2026-11-16T20:44:58+00:00",
-      "ts": 1794861898.0
-    },
-    {
-      "title": "LeoLabs Buys Missile Defense and Space Awareness Engineering Firm FishEye",
-      "link": "https://www.satellitetoday.com/finance/2026/11/16/leolabs-buys-missile-defense-and-space-awareness-engineering-firm-fisheye/",
-      "summary": "LeoLabs, which plans to have two large plants by 2028 as it accelerates hiring, said on Monday that it has bought FishEye Software, Inc., an engineering firm that has specialized […] The post LeoLabs Buys Missile Defense and Space Awareness Engineering Firm FishEye appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-11-16T20:42:09+00:00",
-      "ts": 1794861729.0
-    },
-    {
-      "title": "Meridian Space Validates Reflectarray Antenna in Space",
-      "link": "https://www.satellitetoday.com/connectivity/2026/11/16/meridian-space-validates-reflectarray-antenna-in-space/",
-      "summary": "Meridian Space has validated its reflectarray antenna technology on the operator’s demonstration satellite, which launched early October. The First Customer Link (FCL) satellite demonstrated high bandwidth communications, communicating with a […] The post Meridian Space Validates Reflectarray Antenna in Space appeared...",
-      "source": "Via Satellite",
-      "themes": [
-        "antenas",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-11-16T20:38:45+00:00",
-      "ts": 1794861525.0
-    },
-    {
-      "title": "Ofcom targets platforms over child abuse content",
-      "link": "https://www.mobileworldlive.com/europe/ofcom-targets-platforms-over-child-abuse-content/",
-      "summary": "UK watchdog Ofcom tightened online safety rules for digital platforms, requiring websites and major social media services to deploy detection technology to identify and remove child sexual abuse material. The post Ofcom targets platforms over child abuse content appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-11-16T16:01:49+00:00",
-      "ts": 1794844909.0
     },
     {
       "title": "Integrated Sensing and Communications: Nokia Federal and Ericsson Turn 5G Networks into Drone Sensors",
@@ -1068,34 +1081,6 @@
       "ts": 1794817800.0
     },
     {
-      "title": "Critical Network Outages: Why Isn’t Redundancy Working? Part II.",
-      "link": "https://techblog.comsoc.org/2026/11/13/critical-network-outages-why-isnt-redundancy-working-part-ii/",
-      "summary": "Introduction: Part 1. of this two part series examined the November 13th FAA telecommunications outage at length & briefly described the November 12th Microsoft global cloud disruption. Although the incidents involved different systems and have not been shown to share a common cause, both raise a fundamental...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-11-14T01:24:42+00:00",
-      "ts": 1794619482.0
-    },
-    {
-      "title": "Critical Network Outages: Why Isn’t Redundancy Working? Part I.",
-      "link": "https://techblog.comsoc.org/2026/11/13/critical-network-outages-why-isnt-redundancy-working-part-i/",
-      "summary": "Introduction: Today’s Federal Aviation Administration (FAA) nationwide U.S. flight departure halt, attributed to an unspecified “telecommunications problem,” Microsoft’s global cloud disruption yesterday, and other prolonged telecommunications outages highlight serious questions about the resilience of critical...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-11-14T01:05:13+00:00",
-      "ts": 1794618313.0
-    },
-    {
       "title": "FCC sets key dates for upper C-band auction",
       "link": "https://www.lightreading.com/regulatory-politics/fcc-sets-key-dates-for-upper-c-band-auction",
       "summary": "The FCC said the auction for 160MHz of upper C-band spectrum will begin on April 27, 2027, putting winners on track to light up most of that spectrum before the end of 2030.",
@@ -1124,20 +1109,6 @@
       "ts": 1794567602.0
     },
     {
-      "title": "Analysis: Taara Demonstrates 14-km Free-Space Optical Link with AT&T and Nokia",
-      "link": "https://techblog.comsoc.org/2026/11/12/1077932/",
-      "summary": "Introduction: Taara, an independent private company spun out of X, Google’s Moonshot Factory, and a developer of high-speed, high-capacity wireless optical communications, announced an expansion of its commercial activities targeting enterprise and federal government customers in the U.S. IEEE Techblog has written...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-12T21:54:08+00:00",
-      "ts": 1794520448.0
-    },
-    {
       "title": "SpaceX's bid for Grain's lowband spectrum takes a step forward",
       "link": "https://www.lightreading.com/5g/spacex-s-bid-for-grain-s-lowband-spectrum-takes-a-step-forward",
       "summary": "The FCC has cleared SpaceX's application for Grain Management's 800MHz lowband spectrum, a key piece for its Starlink Mobile ambitions. Detractors have until December 8 to oppose it.",
@@ -1152,21 +1123,6 @@
       "ts": 1794517200.0
     },
     {
-      "title": "Broadband Forum Advances Subscriber Session Steering for Dynamic BNG Resource Optimization",
-      "link": "https://techblog.comsoc.org/2026/11/12/broadband-forum-advances-subscriber-session-steering-for-dynamic-bng-resource-optimization/",
-      "summary": "Attribution: Ken Pyle, Broadband Forum Marketing Director, provided the author with references which he used to write this article. ChatGPT helped with organizing the piece AFTER the author completed his own diligent research. Introduction: As broadband networks evolve toward disaggregated, cloud-native architectures,...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "moveis",
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-12T17:30:53+00:00",
-      "ts": 1794504653.0
-    },
-    {
       "title": "What Will It Take to Lay Fiber-Optic Cables Across the Arctic?",
       "link": "https://spectrum.ieee.org/undersea-cables-arctic-european-commission",
       "summary": "Europe is eyeing the Arctic for a new data pipeline. A European telecommunications strategy plan, released last month, announced intentions to build an “Arctic cable hub”—which would start by connecting Greenland to mainland Europe via undersea fiber-optic cables. Future fiber cables could extend the high-speed data...",
@@ -1179,20 +1135,6 @@
       "relevance": 22,
       "date": "2026-11-12T17:06:44+00:00",
       "ts": 1794503204.0
-    },
-    {
-      "title": "Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem?",
-      "link": "https://capacityglobal.com/news/above-1000m-can-starlink-resellers-solve-lesothos-connectivity-problem/",
-      "summary": "In Lesotho, where geography has long shaped network development, Starlink is introducing a new approach to enterprise connectivity. The post Above 1,000m: can Starlink resellers solve Lesotho’s connectivity problem? appeared first on Capacity .",
-      "source": "Capacity Media",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-12T15:37:07+00:00",
-      "ts": 1794497827.0
     },
     {
       "title": "NTT Docomo's network glitches twice in five days",
@@ -1238,20 +1180,6 @@
       "relevance": 50,
       "date": "2026-11-12T07:30:54+00:00",
       "ts": 1794468654.0
-    },
-    {
-      "title": "VodafoneThree to study a new UK–Norway submarine cable system with route diversity",
-      "link": "https://techblog.comsoc.org/2026/11/11/vodafonethree-to-study-a-new-uk-norway-submarine-cable-system-with-route-diversity/",
-      "summary": "Disclaimer: ChatGPT was used to assist with research, technical analysis, and drafting. The author reviewed and edited the material for accuracy and final content. He also provided additional information, quotes and images. Introduction: On November 10th, VodafoneThree (UK) [1.] announced a feasibility study for a...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 58,
-      "date": "2026-11-12T00:22:10+00:00",
-      "ts": 1794442930.0
     },
     {
       "title": "Starlink gets faster ahead of 'V3' launches, but shift to dynamic pricing could backfire",
@@ -1300,20 +1228,6 @@
       "ts": 1794402835.0
     },
     {
-      "title": "Ethernet Advances Towards 400 Gb/s-per-Lane Signaling for AI Networks: IEEE P802.3dv, Copper and Optical Interconnects",
-      "link": "https://techblog.comsoc.org/2026/11/10/ethernet-advances-towards-400-gb-s-per-lane-signaling-for-ai-networks-ieee-p802-3dv-copper-and-optical-interconnects/",
-      "summary": "Original Shared-Medium Ethernet LANs have evolved to High-Performance AI Networking Fabrics: Ethernet originated at Xerox’s Palo Alto Research Center (PARC) in 1973 as a local area networking (LAN) technology that allowed computers and peripherals to communicate over a shared coaxial cable. The original 3 Mb/s...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-11-11T00:08:10+00:00",
-      "ts": 1794355690.0
-    },
-    {
       "title": "VodafoneThree mulls UK–Norway subsea cable",
       "link": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
       "summary": "VodafoneThree today announced a feasibility study into a new UK-Norway digital corridor The post VodafoneThree mulls UK–Norway subsea cable appeared first on Total Telecom .",
@@ -1326,36 +1240,6 @@
       "relevance": 51,
       "date": "2026-11-10T16:12:45+00:00",
       "ts": 1794327165.0
-    },
-    {
-      "title": "KT profit falls on slow wireless rebound",
-      "link": "https://www.lightreading.com/finance/kt-profit-falls-on-slow-wireless-rebound",
-      "summary": "With its mobile business still recovering from the fallout of last year’s network security failure, South Korean operator KT saw its profits drop in Q3.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 39,
-      "date": "2026-11-10T14:49:02+00:00",
-      "ts": 1794322142.0
-    },
-    {
-      "title": "4GHz is the next battleground for spectrum-sharing",
-      "link": "https://www.lightreading.com/regulatory-politics/4ghz-is-the-next-battleground-for-spectrum-sharing",
-      "summary": "Spectrum policy defaults to auctioning national, high-power exclusive licenses. Dean Bubley argues that shared, localized networks could deliver wireless capacity faster, with less disruption and more flexibility.",
-      "source": "Light Reading",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 48,
-      "date": "2026-11-10T14:00:00+00:00",
-      "ts": 1794319200.0
     },
     {
       "title": "one6G special session explores 6G Agentic AI at FCN 2026 in Bologna",
@@ -1486,6 +1370,134 @@
       "relevance": 55,
       "date": "2026-10-09T15:30:00+00:00",
       "ts": 1791559800.0
+    },
+    {
+      "title": "T-Mobile adds more 600 MHz to its 5G spectrum arsenal",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-adds-more-600-mhz-its-5g-spectrum-arsenal",
+      "summary": "T-Mobile wants to improve its spectrum position with the addition of 600 MHz licenses from Bluewater Wireless.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "C Spire eyes 5G standalone, with VoNR trials set for 2027",
+      "link": "https://www.fierce-network.com/wireless/c-spire-eyes-5g-standalone-vonr-trials-set-2027",
+      "summary": "C Spire, a small Mississippi carrier, used AI-assisted network planning tools to expand its 5G Home Internet reach. It’s also preparing 5G standalone, with Voice over New Radio (VoNR) trials planned for 2027.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Why the Future of Broadband Is About More Than Speed",
+      "link": "https://www.fierce-network.com/sponsored/why-future-broadband-about-more-speed",
+      "summary": "AI is changing what consumers expect from broadband. NCTA's Rikin Thakker explores how DOCSIS 4.0, next-generation Wi-Fi and smarter networks are helping deliver the seamless, reliable connectivity needed for an AI-driven future.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Lumen’s Rob Ward: 'The AI factory has no walls'",
+      "link": "https://www.fierce-network.com/broadband/lumens-rob-ward-ai-factory-has-no-walls",
+      "summary": "In a keynote at Broadband Nation Expo about connectivity’s new job description, Lumen's network engineering chief said that moving data, not just computing it, is now AI’s challenge.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Operators hasten to meet post-quantum deadlines as Q-Day nears — Fierce Network Research",
+      "link": "https://www.fierce-network.com/broadband/operators-hasten-meet-post-quantum-deadlines-q-day-nears-fierce-network-research",
+      "summary": "Telcos and enterprises face fixed post-quantum deadlines and years of migration work, our latest Fierce Network Research report finds.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nvidia sold over half its stake in Nokia. Analysts aren't panicking",
+      "link": "https://www.fierce-network.com/wireless/nvidia-sold-over-half-its-stake-nokia-analysts-arent-panicking",
+      "summary": "Nvidia cashed out more than half its Nokia stake. Analysts say it's profit-taking, not a pullback from AI-RAN.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Bracing for broadband build bottlenecks",
+      "link": "https://www.fierce-network.com/broadband/bracing-broadband-build-bottlenecks",
+      "summary": "Panelists at Broadband Nation Expo 2026 addressed fiber, labor and permits collide ahead of the 2027.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Verizon shifts Bosch Motorsport IoT deal into high gear",
+      "link": "https://www.fierce-network.com/wireless/verizon-shifts-bosch-motorsport-iot-deal-high-gear",
+      "summary": "Bosch Motorsport is turning to Verizon Business to power its IoT at race tracks around the globe.",
+      "source": "Fierce Network",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Opinion: Huawei vs. DOJ — Judgment day in Brooklyn",
+      "link": "https://www.fierce-network.com/wireless/analysis-huawei-vs-doj-judgment-day-brooklyn",
+      "summary": "After eight years of legal warfare, the trial of Huawei heads to a Brooklyn jury. An unpredictable verdict could deliver a major victory for U.S. prosecutors — or raise profound questions about Washington's campaign against a telecom giant with customers in more than 170 countries.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
     }
   ]
 }
