@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-18T23:40:26.362175+00:00",
-  "count": 90,
+  "generated_at": "2026-11-19T04:55:08.584792+00:00",
+  "count": 81,
   "theme_counts": {
-    "moveis": 32,
-    "fibra": 11,
+    "moveis": 29,
+    "fibra": 8,
     "antenas": 6,
-    "iot": 5,
+    "iot": 4,
     "satelite": 20,
     "radar_militar": 11,
     "radiocom": 0,
     "tv": 1,
-    "geral": 29
+    "geral": 27
   },
   "country_counts": {
     "br": 0,
     "ru": 0,
     "il": 0,
-    "in": 2,
+    "in": 1,
     "jp": 3,
     "kr": 0,
     "cn": 2
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ok (25 itens)",
-      "kept": 9
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Telecoms.com",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "3G4G Blog",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,36 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: CTM, Huawei, NuRAN Wireless, Quebecor’s C$60.6 Billion offer for Telus",
+      "link": "https://telecomlead.com/news/telecom-news-ctm-huawei-nuran-wireless-quebecors-c60-6-billion-offer-for-telus-128783",
+      "summary": "The latest telecom news includes announcements on CTM and Huawei, NuRAN Wireless, Quebecor’s C$60.6 Billion offer for Telus, and others. CTM and Huawei Achieve 6.38 Gbps Using 700 MHz of Upper 6 GHz Spectrum in Macau CTM and Huawei demonstrated peak downlink throughput of 6.38 Gbps using upper 6 GHz spectrum at MGM...",
+      "source": "Telecom Lead",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 40,
+      "date": "2026-11-19T03:29:55+00:00",
+      "ts": 1795058995.0
+    },
+    {
+      "title": "Telecom news: T2 Mobile, Ribbon SBC SWe, O2, Freshwave, Spectrum Auction in Honduras",
+      "link": "https://telecomlead.com/news/telecom-news-t2-mobile-ribbon-sbc-swe-o2-freshwave-spectrum-auction-in-honduras-128781",
+      "summary": "The latest telecom news includes announcements on T2 Mobile, Ribbon SBC SWe, O2, Freshwave, Spectrum Auction in Honduras, and others. T2 Mobile Selects Ribbon SBC SWe and Analytics for Zoom Enterprise Communications T2 Mobile has selected Ribbon Communications’ Zoom-certified Session Border Controller (SBC SWe) and...",
+      "source": "Telecom Lead",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 49,
+      "date": "2026-11-19T03:27:07+00:00",
+      "ts": 1795058827.0
+    },
     {
       "title": "Iridium Activates Commercial Service on Standards-Based NB-IoT Direct-to-Device Network",
       "link": "https://satnews.com/2026/11/18/iridium-activates-commercial-service-on-standards-based-nb-iot-direct-to-device-network/",
@@ -903,36 +933,6 @@
       "ts": 1794949458.0
     },
     {
-      "title": "Starlink Satellites Pass Over South Africa, But Licensing Approval Remains Stalled",
-      "link": "https://satnews.com/2026/11/17/starlink-satellites-pass-over-south-africa-but-licensing-approval-remains-stalled/",
-      "summary": "Although SpaceX’s Starlink constellation continuously passes over South Africa in low Earth orbit (LEO), formal regulatory approval to operate in the country remains deadlocked as of Nov. 17. Following parliamentary […]",
-      "source": "SatNews",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-17T17:33:51+00:00",
-      "ts": 1794936831.0
-    },
-    {
-      "title": "Jio Leads India Mobile Network Reliability and 5G Download Speed; Airtel Maintains Narrow Lead in 5G Availability",
-      "link": "https://telecomlead.com/5g/jio-leads-india-mobile-network-reliability-and-5g-download-speed-airtel-maintains-narrow-lead-in-5g-availability-128758",
-      "summary": "Reliance Jio has emerged as India’s leading mobile network operator for reliability, consistent quality and download speeds, while Bharti Airtel leads in 5G availability, gaming and live video experience, according to the latest Opensignal network performance findings. Vodafone Idea (Vi) has strengthened its...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 58,
-      "date": "2026-11-17T17:23:17+00:00",
-      "ts": 1794936197.0
-    },
-    {
       "title": "Telia, Nokia and QMill Bring Quantum-Powered Encryption to the 5G Base Station",
       "link": "https://tecknexus.com/telia-nokia-qmill-quantum-powered-5g-encryption/",
       "summary": "Telia Finland, Nokia and QMill have integrated quantum-powered encryption into Nokia's 5G base station software, combining standard ML-KEM post-quantum cryptography with a quantum-computed key exchange. TeckNexus looks at what was proven, what is still missing, and how the hybrid model compares with PQC and quantum...",
@@ -1370,134 +1370,6 @@
       "relevance": 55,
       "date": "2026-10-09T15:30:00+00:00",
       "ts": 1791559800.0
-    },
-    {
-      "title": "T-Mobile adds more 600 MHz to its 5G spectrum arsenal",
-      "link": "https://www.fierce-network.com/wireless/t-mobile-adds-more-600-mhz-its-5g-spectrum-arsenal",
-      "summary": "T-Mobile wants to improve its spectrum position with the addition of 600 MHz licenses from Bluewater Wireless.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "C Spire eyes 5G standalone, with VoNR trials set for 2027",
-      "link": "https://www.fierce-network.com/wireless/c-spire-eyes-5g-standalone-vonr-trials-set-2027",
-      "summary": "C Spire, a small Mississippi carrier, used AI-assisted network planning tools to expand its 5G Home Internet reach. It’s also preparing 5G standalone, with Voice over New Radio (VoNR) trials planned for 2027.",
-      "source": "Fierce Network",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Why the Future of Broadband Is About More Than Speed",
-      "link": "https://www.fierce-network.com/sponsored/why-future-broadband-about-more-speed",
-      "summary": "AI is changing what consumers expect from broadband. NCTA's Rikin Thakker explores how DOCSIS 4.0, next-generation Wi-Fi and smarter networks are helping deliver the seamless, reliable connectivity needed for an AI-driven future.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 39,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Lumen’s Rob Ward: 'The AI factory has no walls'",
-      "link": "https://www.fierce-network.com/broadband/lumens-rob-ward-ai-factory-has-no-walls",
-      "summary": "In a keynote at Broadband Nation Expo about connectivity’s new job description, Lumen's network engineering chief said that moving data, not just computing it, is now AI’s challenge.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Operators hasten to meet post-quantum deadlines as Q-Day nears — Fierce Network Research",
-      "link": "https://www.fierce-network.com/broadband/operators-hasten-meet-post-quantum-deadlines-q-day-nears-fierce-network-research",
-      "summary": "Telcos and enterprises face fixed post-quantum deadlines and years of migration work, our latest Fierce Network Research report finds.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Nvidia sold over half its stake in Nokia. Analysts aren't panicking",
-      "link": "https://www.fierce-network.com/wireless/nvidia-sold-over-half-its-stake-nokia-analysts-arent-panicking",
-      "summary": "Nvidia cashed out more than half its Nokia stake. Analysts say it's profit-taking, not a pullback from AI-RAN.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Bracing for broadband build bottlenecks",
-      "link": "https://www.fierce-network.com/broadband/bracing-broadband-build-bottlenecks",
-      "summary": "Panelists at Broadband Nation Expo 2026 addressed fiber, labor and permits collide ahead of the 2027.",
-      "source": "Fierce Network",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon shifts Bosch Motorsport IoT deal into high gear",
-      "link": "https://www.fierce-network.com/wireless/verizon-shifts-bosch-motorsport-iot-deal-high-gear",
-      "summary": "Bosch Motorsport is turning to Verizon Business to power its IoT at race tracks around the globe.",
-      "source": "Fierce Network",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Opinion: Huawei vs. DOJ — Judgment day in Brooklyn",
-      "link": "https://www.fierce-network.com/wireless/analysis-huawei-vs-doj-judgment-day-brooklyn",
-      "summary": "After eight years of legal warfare, the trial of Huawei heads to a Brooklyn jury. An unpredictable verdict could deliver a major victory for U.S. prosecutors — or raise profound questions about Washington's campaign against a telecom giant with customers in more than 170 countries.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
     }
   ]
 }
