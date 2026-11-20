@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-20T14:50:20.844386+00:00",
+  "generated_at": "2026-11-20T23:28:07.155324+00:00",
   "count": 106,
   "theme_counts": {
     "moveis": 44,
     "fibra": 21,
     "antenas": 11,
     "iot": 5,
-    "satelite": 30,
-    "radar_militar": 8,
+    "satelite": 31,
+    "radar_militar": 9,
     "radiocom": 0,
     "tv": 1,
-    "geral": 26
+    "geral": 25
   },
   "country_counts": {
     "br": 0,
@@ -19,7 +19,7 @@
     "in": 2,
     "jp": 5,
     "kr": 0,
-    "cn": 4
+    "cn": 3
   },
   "research_count": 30,
   "sources": [
@@ -71,7 +71,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Telecoms Tech News",
@@ -191,7 +191,7 @@
     {
       "source": "SatNews",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "European Spaceflight",
@@ -200,6 +200,53 @@
     }
   ],
   "items": [
+    {
+      "title": "SSC Space Furthers Optical Space Ambitions with NTT MoU",
+      "link": "https://www.satellitetoday.com/technology/2026/11/20/ssc-space-furthers-optical-space-ambitions-with-ntt-mou/",
+      "summary": "SSC Space has signed an interesting new MoU with one of Asia’s biggest telcos in the area of seamless optical ground network capability. It is teaming up with Japanese telecoms […] The post SSC Space Furthers Optical Space Ambitions with NTT MoU appeared first on Via Satellite .",
+      "source": "Via Satellite",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [
+        "jp"
+      ],
+      "relevance": 44,
+      "date": "2026-11-20T21:14:02+00:00",
+      "ts": 1795209242.0
+    },
+    {
+      "title": "Satellite IoT Beyond Cellular Coverage: Orange Spain, Skylo and Digitanimal Pilot Livestock Tracking in Galicia",
+      "link": "https://tecknexus.com/orange-spain-skylo-digitanimal-satellite-iot-livestock-tracking/",
+      "summary": "Skylo, Orange Spain and Digitanimal have launched a satellite IoT pilot in the Serra do Xistral, Galicia, using 3GPP standards-based non-terrestrial connectivity and standard SIMs to track free-range livestock beyond mobile coverage. TeckNexus looks at how the pilot works, what is confirmed and not yet disclosed, and...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis",
+        "iot",
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-11-20T18:44:33+00:00",
+      "ts": 1795200273.0
+    },
+    {
+      "title": "FCC Drone Spectrum Rules: 450 MHz Control Links and 24 GHz Counter-Drone Radar Explained",
+      "link": "https://tecknexus.com/fcc-drone-spectrum-450-mhz-24-ghz-counter-drone-radar/",
+      "summary": "On 19 November 2026 the FCC voted to open the 450 MHz band to nationwide licensed drone command-and-control links, allow ground-based counter-drone radar at 24.45 to 24.65 GHz, and update 800 MHz in-flight broadband rules. TeckNexus explains what each band now allows and what the decisions mean for airports,...",
+      "source": "TeckNexus",
+      "themes": [
+        "fibra",
+        "radar_militar"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": "2026-11-20T18:28:21+00:00",
+      "ts": 1795199301.0
+    },
     {
       "title": "Eurobites: VMO2 soups up its 'social' broadband packages",
       "link": "https://www.lightreading.com/sustainability/eurobites-vmo2-soups-up-its-social-broadband-packages",
@@ -965,20 +1012,6 @@
       "ts": 1795040454.0
     },
     {
-      "title": "SES to Lead New European D2D Project SELYCE",
-      "link": "https://www.satellitetoday.com/connectivity/2026/11/18/ses-to-lead-new-european-d2d-project-selyce/",
-      "summary": "The European Space Agency (ESA) has tapped SES to lead a new European direct-to-device (D2D) project that will develop and test new technologies for use cases like vehicle connectivity and […] The post SES to Lead New European D2D Project SELYCE appeared first on Via Satellite .",
-      "source": "Via Satellite",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 32,
-      "date": "2026-11-18T20:49:59+00:00",
-      "ts": 1795034999.0
-    },
-    {
       "title": "The AI-RAN Silicon Conundrum: GPUs, General-Purpose CPUs, or Custom ASICs?",
       "link": "https://techblog.comsoc.org/2026/11/18/the-ai-ran-silicon-conundrum-gpus-general-purpose-cpus-or-custom-asics/",
       "summary": "Disclaimer: Google Gemini was extensively used to research this article and generate the comparative table herein. Google Search was used to verify and detail the AI-RAN telco trials. Introduction: As mobile network operators prepare to embed artificial intelligence directly into the Radio Access Network (RAN), a...",
@@ -1007,22 +1040,6 @@
       "relevance": 52,
       "date": "2026-11-18T17:59:57+00:00",
       "ts": 1795024797.0
-    },
-    {
-      "title": "FCC Upper C-Band Auction 115 Creates Indirect Spectrum and Market Shifts for SmallSat and LEO Operators",
-      "link": "https://satnews.com/2026/11/18/fcc-upper-c-band-auction-115-creates-indirect-spectrum-and-market-shifts-for-smallsat-and-leo-operators/",
-      "summary": "Building on regulatory proceedings initiated earlier this year to clear mid-band satellite frequencies for terrestrial broadband, the Federal Communications Commission (FCC) established final bidding procedures on Friday, Nov. 13, for […]",
-      "source": "SatNews",
-      "themes": [
-        "moveis",
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 60,
-      "date": "2026-11-18T16:58:53+00:00",
-      "ts": 1795021133.0
     },
     {
       "title": "Reliance plans satellite network to take on Starlink",
@@ -1354,22 +1371,6 @@
       "ts": 1794503204.0
     },
     {
-      "title": "NTT Physical AI: How a Telecom Operator Is Building Robot Intelligence Across Research, Services and Network",
-      "link": "https://tecknexus.com/ntt-physical-ai-world-model-robots/",
-      "summary": "NTT has developed a physics-based world model that lets robots predict the outcome of several possible actions before they move. It scores each option for the risk of dropped items or collapsing loads, then chooses the one most likely to succeed. A proprietary physics control adapter, built into a video generation...",
-      "source": "TeckNexus",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 41,
-      "date": "2026-11-12T16:48:18+00:00",
-      "ts": 1794502098.0
-    },
-    {
       "title": "NTT Docomo's network glitches twice in five days",
       "link": "https://www.lightreading.com/5g/ntt-docomo-s-network-glitches-twice-in-five-days",
       "summary": "NTT Docomo's 5G-SA network has been hit by mystery fault in switching gear, causing two lengthy disruptions over the course of five days.",
@@ -1605,6 +1606,20 @@
       "ts": 0
     },
     {
+      "title": "Elon Musk says micro cell towers will bring Starlink Mobile indoors",
+      "link": "https://www.fierce-network.com/wireless/elon-musk-says-micro-cell-towers-will-bring-starlink-mobile-indoors",
+      "summary": "Elon Musk says SpaceX will start producing rooftop \"micro cell towers\" as soon as next year to solve Starlink Mobile's indoor coverage problem.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": null,
+      "ts": 0
+    },
+    {
       "title": "Connected IoT becomes the neural network of Physical AI",
       "link": "https://www.fierce-network.com/sponsored/connected-iot-becomes-neural-network-physical-ai",
       "summary": "Tele2 IoT and Cisco pair global connectivity with a tested management platform to support connected cars and the rise of physical AI.",
@@ -1643,6 +1658,20 @@
       "research": false,
       "countries": [],
       "relevance": 39,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The Five Nine: Is the telco edge opportunity really real?",
+      "link": "https://www.fierce-network.com/wireless/five-nine-telco-edge-opportunity-really-real",
+      "summary": "Edge computing flopped once. Is AI the reason it works this time? We asked the people who would know.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 33,
       "date": null,
       "ts": 0
     },
@@ -1712,36 +1741,6 @@
       ],
       "research": false,
       "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Verizon shifts Bosch Motorsport IoT deal into high gear",
-      "link": "https://www.fierce-network.com/wireless/verizon-shifts-bosch-motorsport-iot-deal-high-gear",
-      "summary": "Bosch Motorsport is turning to Verizon Business to power its IoT at race tracks around the globe.",
-      "source": "Fierce Network",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 23,
-      "date": null,
-      "ts": 0
-    },
-    {
-      "title": "Opinion: Huawei vs. DOJ — Judgment day in Brooklyn",
-      "link": "https://www.fierce-network.com/wireless/analysis-huawei-vs-doj-judgment-day-brooklyn",
-      "summary": "After eight years of legal warfare, the trial of Huawei heads to a Brooklyn jury. An unpredictable verdict could deliver a major victory for U.S. prosecutors — or raise profound questions about Washington's campaign against a telecom giant with customers in more than 170 countries.",
-      "source": "Fierce Network",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
       "relevance": 23,
       "date": null,
       "ts": 0
