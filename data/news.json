@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-21T22:33:00.929131+00:00",
-  "count": 64,
+  "generated_at": "2026-11-22T03:54:55.517378+00:00",
+  "count": 76,
   "theme_counts": {
-    "moveis": 29,
-    "fibra": 15,
+    "moveis": 31,
+    "fibra": 20,
     "antenas": 1,
-    "iot": 3,
-    "satelite": 21,
+    "iot": 4,
+    "satelite": 23,
     "radar_militar": 7,
     "radiocom": 0,
     "tv": 1,
-    "geral": 11
+    "geral": 13
   },
   "country_counts": {
     "br": 0,
@@ -30,8 +30,8 @@
     },
     {
       "source": "Fierce Network",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (25 itens)",
+      "kept": 12
     },
     {
       "source": "Telecoms.com",
@@ -75,7 +75,7 @@
     },
     {
       "source": "Telecoms Tech News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -200,6 +200,20 @@
     }
   ],
   "items": [
+    {
+      "title": "Will Nvidia’s Retreat from Circular Financing Deals Curtail the AI CAPEX Infrastructure Spending Frenzy?",
+      "link": "https://techblog.comsoc.org/2026/11/21/will-nvidias-retreat-from-circular-financing-deals-curtail-the-ai-capex-infrastructure-spending-frenzy/",
+      "summary": "Disclaimer: ChatGPT was used extensively to help select the topic of this IEEE Techblog post and to assist with the research, analysis, and drafting of the article. The author reviewed, edited, and fact-checked the material and is 100% responsible for the final content and conclusions. Introduction: Jensen Huang’s...",
+      "source": "IEEE ComSoc Tech Blog",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": "2026-11-21T23:42:02+00:00",
+      "ts": 1795304522.0
+    },
     {
       "title": "NATO Official Explains Long-Term Goals for Starlift Launch Initiative",
       "link": "https://www.satellitetoday.com/launch/2026/11/21/nato-official-explains-long-term-goals-for-starlift-launch-initiative/",
@@ -894,20 +908,6 @@
       "ts": 1794567602.0
     },
     {
-      "title": "Analysis: Taara Demonstrates 14-km Free-Space Optical Link with AT&T and Nokia",
-      "link": "https://techblog.comsoc.org/2026/11/12/1077932/",
-      "summary": "Introduction: Taara, an independent private company spun out of X, Google’s Moonshot Factory, and a developer of high-speed, high-capacity wireless optical communications, announced an expansion of its commercial activities targeting enterprise and federal government customers in the U.S. IEEE Techblog has written...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 49,
-      "date": "2026-11-12T21:54:08+00:00",
-      "ts": 1794520448.0
-    },
-    {
       "title": "SpaceX's bid for Grain's lowband spectrum takes a step forward",
       "link": "https://www.lightreading.com/5g/spacex-s-bid-for-grain-s-lowband-spectrum-takes-a-step-forward",
       "summary": "The FCC has cleared SpaceX's application for Grain Management's 800MHz lowband spectrum, a key piece for its Starlink Mobile ambitions. Detractors have until December 8 to oppose it.",
@@ -1141,6 +1141,174 @@
       "relevance": 55,
       "date": "2026-10-09T15:30:00+00:00",
       "ts": 1791559800.0
+    },
+    {
+      "title": "GeoLinks, Intracom Telecom expand licensed mmWave FWA partnership",
+      "link": "https://www.fierce-network.com/newswire/geolinks-intracom-telecom-expand-licensed-mmwave-fwa-partnership",
+      "summary": "GeoLinks is offering the spectrum as a service to providers in more than 1,300 U.S. counties.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 61,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "T-Mobile adds more 600 MHz to its 5G spectrum arsenal",
+      "link": "https://www.fierce-network.com/wireless/t-mobile-adds-more-600-mhz-its-5g-spectrum-arsenal",
+      "summary": "T-Mobile wants to improve its spectrum position with the addition of 600 MHz licenses from Bluewater Wireless.",
+      "source": "Fierce Network",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 60,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Elon Musk says micro cell towers will bring Starlink Mobile indoors",
+      "link": "https://www.fierce-network.com/wireless/elon-musk-says-micro-cell-towers-will-bring-starlink-mobile-indoors",
+      "summary": "Elon Musk says SpaceX will start producing rooftop \"micro cell towers\" as soon as next year to solve Starlink Mobile's indoor coverage problem.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 51,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Connected IoT becomes the neural network of Physical AI",
+      "link": "https://www.fierce-network.com/sponsored/connected-iot-becomes-neural-network-physical-ai",
+      "summary": "Tele2 IoT and Cisco pair global connectivity with a tested management platform to support connected cars and the rise of physical AI.",
+      "source": "Fierce Network",
+      "themes": [
+        "iot"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 47,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The network is the AI economy – NCTA says cable built the foundation",
+      "link": "https://www.fierce-network.com/broadband/network-ai-economy-ncta-says-cable-built-foundation",
+      "summary": "NCTA’s Sam Love tells Broadband Nation Expo that AI runs on connectivity, with 6 GHz Wi-Fi, security and a looming global spectrum fight shaping U.S. competitiveness.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 44,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Why the Future of Broadband Is About More Than Speed",
+      "link": "https://www.fierce-network.com/sponsored/why-future-broadband-about-more-speed",
+      "summary": "AI is changing what consumers expect from broadband. NCTA's Rikin Thakker explores how DOCSIS 4.0, next-generation Wi-Fi and smarter networks are helping deliver the seamless, reliable connectivity needed for an AI-driven future.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 39,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "The Five Nine: Is the telco edge opportunity really real?",
+      "link": "https://www.fierce-network.com/wireless/five-nine-telco-edge-opportunity-really-real",
+      "summary": "Edge computing flopped once. Is AI the reason it works this time? We asked the people who would know.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 33,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Charter bets Wi-Fi, the edge will carry it through the AI era",
+      "link": "https://www.fierce-network.com/broadband/charter-bets-wi-fi-edge-will-carry-it-through-ai-era",
+      "summary": "EVP of Technology Strategy and Innovation Justin Colwell says convergence, 1,500 edge sites and Wi-Fi 7 give Charter a durable hand in the AI era, and that satellite is a partner, not a threat.",
+      "source": "Fierce Network",
+      "themes": [
+        "satelite"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 33,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Meet the winners of the 2026 Fierce Network Innovation Awards",
+      "link": "https://www.fierce-network.com/broadband/meet-winners-2026-fierce-network-innovation-awards-0",
+      "summary": "The industry's leading innovators across AI, broadband, wireless and cloud, were honored live for the first time at Broadband Nation Expo in New Orleans.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Lumen’s Rob Ward: 'The AI factory has no walls'",
+      "link": "https://www.fierce-network.com/broadband/lumens-rob-ward-ai-factory-has-no-walls",
+      "summary": "In a keynote at Broadband Nation Expo about connectivity’s new job description, Lumen's network engineering chief said that moving data, not just computing it, is now AI’s challenge.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 31,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Nvidia sold over half its stake in Nokia. Analysts aren't panicking",
+      "link": "https://www.fierce-network.com/wireless/nvidia-sold-over-half-its-stake-nokia-analysts-arent-panicking",
+      "summary": "Nvidia cashed out more than half its Nokia stake. Analysts say it's profit-taking, not a pullback from AI-RAN.",
+      "source": "Fierce Network",
+      "themes": [
+        "geral"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
+    },
+    {
+      "title": "Bracing for broadband build bottlenecks",
+      "link": "https://www.fierce-network.com/broadband/bracing-broadband-build-bottlenecks",
+      "summary": "Panelists at Broadband Nation Expo 2026 addressed fiber, labor and permits collide ahead of the 2027.",
+      "source": "Fierce Network",
+      "themes": [
+        "fibra"
+      ],
+      "research": false,
+      "countries": [],
+      "relevance": 23,
+      "date": null,
+      "ts": 0
     }
   ]
 }
