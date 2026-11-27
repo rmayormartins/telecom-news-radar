@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-26T15:57:43.562378+00:00",
-  "count": 113,
+  "generated_at": "2026-11-27T01:14:51.155052+00:00",
+  "count": 110,
   "theme_counts": {
     "moveis": 47,
-    "fibra": 18,
+    "fibra": 16,
     "antenas": 8,
     "iot": 3,
-    "satelite": 32,
+    "satelite": 31,
     "radar_militar": 12,
     "radiocom": 1,
     "tv": 1,
-    "geral": 26
+    "geral": 25
   },
   "country_counts": {
     "br": 1,
     "ru": 0,
     "il": 0,
-    "in": 7,
-    "jp": 7,
+    "in": 5,
+    "jp": 6,
     "kr": 1,
-    "cn": 5
+    "cn": 7
   },
   "research_count": 30,
   "sources": [
@@ -86,7 +86,7 @@
     {
       "source": "DataCenterDynamics",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Capacity Media",
@@ -96,7 +96,7 @@
     {
       "source": "Telecom Lead",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "3G4G Blog",
@@ -121,7 +121,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "One6G",
@@ -135,7 +135,7 @@
     },
     {
       "source": "6GWorld",
-      "status": "ERRO: HTTP Error 503: Service Unavailable",
+      "status": "ERRO: HTTP Error 404: Not Found",
       "kept": 0
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "source": "SpaceNews",
-      "status": "ok (12 itens)",
+      "status": "ok (13 itens)",
       "kept": 0
     },
     {
@@ -200,6 +200,38 @@
     }
   ],
   "items": [
+    {
+      "title": "Telecom news: Openreach, Ncell, China’s 6G Pilot Program",
+      "link": "https://telecomlead.com/news/telecom-news-openreach-ncell-chinas-6g-pilot-program-128866",
+      "summary": "Today’s telecom news includes announcements on Openreach, Ncell, China’s 6G Pilot Program, and others. Openreach Identifies 44,000 ISDN Lines Facing Disconnection Ahead of UK Copper Network Transition British telecommunications infrastructure operator Openreach has identified approximately 44,000 ISDN lines facing...",
+      "source": "Telecom Lead",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 54,
+      "date": "2026-11-27T01:05:47+00:00",
+      "ts": 1795741547.0
+    },
+    {
+      "title": "Private Network Ecosystem Players in 2026: Who Builds, Runs and Secures Private 5G",
+      "link": "https://tecknexus.com/private-network-ecosystem-players/",
+      "summary": "Built on TeckNexus analysis of more than 1,000 private network deployments, its Private Network Leadership Awards and 30+ decision tools, this 2026 guide to the private network ecosystem maps who builds, runs and secures private LTE and 5G: equipment vendors Nokia, Ericsson, Huawei, Samsung and ZTE; platforms from...",
+      "source": "TeckNexus",
+      "themes": [
+        "moveis"
+      ],
+      "research": false,
+      "countries": [
+        "cn"
+      ],
+      "relevance": 68,
+      "date": "2026-11-26T16:21:51+00:00",
+      "ts": 1795710111.0
+    },
     {
       "title": "Huawei HarmonyOS device ecosystem tops 100M",
       "link": "https://www.mobileworldlive.com/devices/huawei-harmonyos-device-ecosystem-tops-100m/",
@@ -263,22 +295,6 @@
       "relevance": 58,
       "date": "2026-11-26T12:02:57+00:00",
       "ts": 1795694577.0
-    },
-    {
-      "title": "India considers subsea cable to extend connectivity to Andaman and Nicobar Islands",
-      "link": "https://www.datacenterdynamics.com/en/news/india-considers-subsea-cable-to-extend-connectivity-to-andaman-and-nicobar-islands/",
-      "summary": "Original cable linking the islands to Chennai launched in 2020",
-      "source": "DataCenterDynamics",
-      "themes": [
-        "fibra"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 43,
-      "date": "2026-11-26T10:55:20+00:00",
-      "ts": 1795690520.0
     },
     {
       "title": "ITU sets sights on the Moon",
@@ -925,22 +941,6 @@
       "ts": 1795605865.0
     },
     {
-      "title": "TRAI Drive Test: Reliance Jio Leads 5G Download Speed, Airtel Tops Upload, Vodafone Idea Excels in Call Quality in Noida and Ghaziabad",
-      "link": "https://telecomlead.com/telecom-services/trai-drive-test-reliance-jio-leads-5g-download-speed-airtel-tops-upload-vodafone-idea-excels-in-call-quality-in-noida-and-ghaziabad-128840",
-      "summary": "Reliance Jio recorded the fastest 5G download speed, Bharti Airtel delivered the highest overall upload speed and Vodafone Idea registered the lowest call drop rate across Noida, Ghaziabad and Greater Noida, according to the latest drive test findings released by the Telecom Regulatory Authority of India (TRAI). The...",
-      "source": "Telecom Lead",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "in"
-      ],
-      "relevance": 52,
-      "date": "2026-11-25T10:09:59+00:00",
-      "ts": 1795601399.0
-    },
-    {
       "title": "Interview: Vodafone IoT strategy head reveals performance goals",
       "link": "https://www.mobileworldlive.com/industry/interview-vodafone-iot-strategy-head-reveals-performance-goals/",
       "summary": "Vodafone IoT head Philip Skipper discusses how the shift towards physical AI is fuelling a shift in the sector, with performance likely to emerge as the key metric rather than pure coverage. The post Interview: Vodafone IoT strategy head reveals performance goals appeared first on Mobile World Live .",
@@ -969,21 +969,6 @@
       "relevance": 31,
       "date": "2026-11-25T09:06:25+00:00",
       "ts": 1795597585.0
-    },
-    {
-      "title": "Starlink BEAD Broadband Deal Faces Opposition as Fiber Broadband Association Seeks Flexibility on $21 Billion Funding",
-      "link": "https://telecomlead.com/broadband/starlink-bead-broadband-deal-faces-opposition-as-fiber-broadband-association-seeks-flexibility-on-21-billion-funding-128835",
-      "summary": "The Fiber Broadband Association (FBA) has opposed the National Telecommunications and Information Administration’s (NTIA) proposed agreement covering Starlink locations under the $42.45 billion Broadband Equity, Access, and Deployment (BEAD) Program, warning that the arrangement could leave rural American communities...",
-      "source": "Telecom Lead",
-      "themes": [
-        "fibra",
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 52,
-      "date": "2026-11-25T06:02:09+00:00",
-      "ts": 1795586529.0
     },
     {
       "title": "BlackSky Acquires Data Fusion Company EpochGeo To Enhance Solutions",
@@ -1274,22 +1259,6 @@
       "ts": 1795429824.0
     },
     {
-      "title": "Current State of Open RAN in 2026: Countries and Operators Deploying and Trialling Open RAN",
-      "link": "https://tecknexus.com/current-state-of-open-ran-countries-operators/",
-      "summary": "TeckNexus's updated Open RAN tracker for November 2026 covers AT&T, Verizon, TELUS, Rakuten, 1&1, NTT Docomo, Deutsche Telekom, Vodafone and more: who has scaled commercial Open RAN, who is still piloting, who has paused, and how RIC applications and AI-RAN are changing the case for open networks. TeckNexus -...",
-      "source": "TeckNexus",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "jp"
-      ],
-      "relevance": 55,
-      "date": "2026-11-23T03:31:04+00:00",
-      "ts": 1795404664.0
-    },
-    {
       "title": "Top Open RAN Vendors: Leaders in Radios, vRAN Software, RIC, Silicon and Testing",
       "link": "https://tecknexus.com/top-open-ran-vendors-by-category/",
       "summary": "TeckNexus's updated guide to the top Open RAN vendors in 2026 covers end-to-end suppliers Samsung, Ericsson, Nokia and NEC, radio specialists 1Finity and Airspan, RAN software from Rakuten Symphony, Mavenir, Parallel Wireless and Radisys, RIC and SMO consolidation, silicon and cloud platforms from Intel, NVIDIA, AMD...",
@@ -1523,20 +1492,6 @@
       "relevance": 24,
       "date": "2026-11-16T21:20:36+00:00",
       "ts": 1794864036.0
-    },
-    {
-      "title": "Critical Network Outages: Why Isn’t Redundancy Working? Part II.",
-      "link": "https://techblog.comsoc.org/2026/11/13/critical-network-outages-why-isnt-redundancy-working-part-ii/",
-      "summary": "Introduction: Part 1. of this two part series examined the November 13th FAA telecommunications outage at length & briefly described the November 12th Microsoft global cloud disruption. Although the incidents involved different systems and have not been shown to share a common cause, both raise a fundamental...",
-      "source": "IEEE ComSoc Tech Blog",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 24,
-      "date": "2026-11-14T01:24:42+00:00",
-      "ts": 1794619482.0
     },
     {
       "title": "Engineer Overhead Lines to Withstand Ice, Wind and FreezingRain",
