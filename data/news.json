@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-27T15:46:08.510697+00:00",
-  "count": 79,
+  "generated_at": "2026-11-28T00:47:47.715035+00:00",
+  "count": 69,
   "theme_counts": {
-    "moveis": 38,
+    "moveis": 33,
     "fibra": 13,
     "antenas": 2,
-    "iot": 3,
-    "satelite": 25,
-    "radar_militar": 9,
+    "iot": 2,
+    "satelite": 23,
+    "radar_militar": 8,
     "radiocom": 0,
     "tv": 1,
-    "geral": 11
+    "geral": 9
   },
   "country_counts": {
     "br": 1,
@@ -18,8 +18,8 @@
     "il": 0,
     "in": 3,
     "jp": 5,
-    "kr": 3,
-    "cn": 7
+    "kr": 1,
+    "cn": 6
   },
   "research_count": 1,
   "sources": [
@@ -45,8 +45,8 @@
     },
     {
       "source": "Mobile World Live",
-      "status": "ok (30 itens)",
-      "kept": 10
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TelecomTV",
@@ -245,52 +245,6 @@
       "ts": 1795781538.0
     },
     {
-      "title": "The Friday File: Nvidia; Huawei; SpaceX",
-      "link": "https://www.mobileworldlive.com/huawei/the-friday-file-nvidia-huawei-spacex/",
-      "summary": "Mobile World Live (MWL) brings you our top three picks of the week as Nvidia reinstated Jensen Huang as CEO in a dramatic U-turn, Huawei was found guilty of multiple criminal charges in a US court case and SpaceX bagged FCC approval to launch up to 1 million satellites for orbital data centres. The post The Friday...",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [
-        "cn"
-      ],
-      "relevance": 34,
-      "date": "2026-11-27T11:31:17+00:00",
-      "ts": 1795779077.0
-    },
-    {
-      "title": "South Korea unveils fresh SA push",
-      "link": "https://www.mobileworldlive.com/asia-pacific/south-korea-unveils-sa-push-to-support-fresh-applications/",
-      "summary": "South Korea's communications authority and its three mobile operators unveiled a plan to support fresh industrial and commercial applications following the upcoming wider availability of standalone 5G in the country. The post South Korea unveils fresh SA push appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 44,
-      "date": "2026-11-27T11:15:23+00:00",
-      "ts": 1795778123.0
-    },
-    {
-      "title": "Podcast: Making profit from AI-RAN",
-      "link": "https://www.mobileworldlive.com/ai-cloud/podcast-making-profit-from-ai-ran/",
-      "summary": "In the first of our mini-series focused on the 5G Evolution, our panel of experts delve into the current state of AI-RAN, assessing the business case, architecture and openness, agentic RAN and the road to 6G. The post Podcast: Making profit from AI-RAN appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 53,
-      "date": "2026-11-27T10:36:54+00:00",
-      "ts": 1795775814.0
-    },
-    {
       "title": "Telecom news: Openreach, Ncell, China’s 6G Pilot Program",
       "link": "https://telecomlead.com/news/telecom-news-openreach-ncell-chinas-6g-pilot-program-128866",
       "summary": "Today’s telecom news includes announcements on Openreach, Ncell, China’s 6G Pilot Program, and others. Openreach Identifies 44,000 ISDN Lines Facing Disconnection Ahead of UK Copper Network Transition British telecommunications infrastructure operator Openreach has identified approximately 44,000 ISDN lines facing...",
@@ -369,48 +323,6 @@
       "relevance": 58,
       "date": "2026-11-26T12:02:57+00:00",
       "ts": 1795694577.0
-    },
-    {
-      "title": "ITU sets sights on the Moon",
-      "link": "https://www.mobileworldlive.com/network-tech/itu-sets-sights-on-the-moon/",
-      "summary": "The ITU threw its weight behind the use of spectrum for lunar explorations, issuing a call for the industry to develop innovative solutions to support communications between systems operating on the ground and in orbit. The post ITU sets sights on the Moon appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 44,
-      "date": "2026-11-26T10:37:07+00:00",
-      "ts": 1795689427.0
-    },
-    {
-      "title": "BT credits AI network kit for London download boost",
-      "link": "https://www.mobileworldlive.com/bt/bt-credits-ai-network-kit-for-london-download-boost/",
-      "summary": "BT’s mobile brand EE reported a 26% boost in download speeds and improvements in spectral efficiency from the deployment of equipment in London which uses AI to optimise how data is transmitted across its network. The post BT credits AI network kit for London download boost appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "geral"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-11-26T10:30:41+00:00",
-      "ts": 1795689041.0
-    },
-    {
-      "title": "FCC clears SpaceX to launch 1M orbital data centre satellites",
-      "link": "https://www.mobileworldlive.com/fcc/fcc-clears-spacex-to-launch-1m-orbital-data-centre-satellites/",
-      "summary": "The US Federal Communications Commission (FCC) gave SpaceX the green light to deploy up to 1 million orbital compute modules, the first approval in US history for a constellation of data centres in space. The post FCC clears SpaceX to launch 1M orbital data centre satellites appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "satelite"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 43,
-      "date": "2026-11-26T08:44:55+00:00",
-      "ts": 1795682695.0
     },
     {
       "title": "India FWA Market Outlook 2031: Subscriber Growth, Jio and Airtel Investments and Consumer Challenges",
@@ -536,50 +448,6 @@
       "ts": 1795612143.0
     },
     {
-      "title": "KT, LG record upload boost from potential 6G tech",
-      "link": "https://www.mobileworldlive.com/network-tech/kt-lg-record-upload-boost-from-potential-6g-tech/",
-      "summary": "KT and LG Electronics clocked data upload capacity at almost 5 times the level of 5G for a technology they expect to be core to 6G, in trials reported by various news outlets in South Korea. The post KT, LG record upload boost from potential 6G tech appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [
-        "kr"
-      ],
-      "relevance": 55,
-      "date": "2026-11-25T11:24:25+00:00",
-      "ts": 1795605865.0
-    },
-    {
-      "title": "Ericsson conecta sistemas antidrones mediante 5G táctica en las maniobras Atlas 26",
-      "link": "https://www.mobileworldlive.com/spanish/ericsson-conecta-sistemas-antidrones-mediante-5g-tactica-en-las-maniobras-atlas-26/",
-      "summary": "Ericsson ha conectado sistemas antidrones y de defensa aérea a través de una red 5G táctica en Atlas 26, el Read more... The post Ericsson conecta sistemas antidrones mediante 5G táctica en las maniobras Atlas 26 appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 51,
-      "date": "2026-11-25T10:12:12+00:00",
-      "ts": 1795601532.0
-    },
-    {
-      "title": "Interview: Vodafone IoT strategy head reveals performance goals",
-      "link": "https://www.mobileworldlive.com/industry/interview-vodafone-iot-strategy-head-reveals-performance-goals/",
-      "summary": "Vodafone IoT head Philip Skipper discusses how the shift towards physical AI is fuelling a shift in the sector, with performance likely to emerge as the key metric rather than pure coverage. The post Interview: Vodafone IoT strategy head reveals performance goals appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "iot"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 31,
-      "date": "2026-11-25T10:00:00+00:00",
-      "ts": 1795600800.0
-    },
-    {
       "title": "BlackSky Acquires Data Fusion Company EpochGeo To Enhance Solutions",
       "link": "https://www.satellitetoday.com/imagery-and-sensing/2026/11/24/blacksky-acquires-data-fusion-company-epochgeo-to-enhance-solutions/",
       "summary": "BlackSky Technology on Tuesday said it has acquired EpochGeo, a data science company whose artificial intelligence and machine learning (AI/ML) technology fuses multiple types of data sources in a deal […] The post BlackSky Acquires Data Fusion Company EpochGeo To Enhance Solutions appeared first on Via Satellite .",
@@ -636,21 +504,6 @@
       "relevance": 24,
       "date": "2026-11-24T20:44:25+00:00",
       "ts": 1795553065.0
-    },
-    {
-      "title": "Ericsson demos 5G for drone defence at military exercise",
-      "link": "https://www.mobileworldlive.com/ericsson/ericsson-demos-5g-for-drone-defence-at-military-exercise/",
-      "summary": "Ericsson showcased the potential of 5G kit designed for military use to support rapid data exchange between air defence systems during the Spanish Armed Forces’ Atlas 26 military drill in Huelva. The post Ericsson demos 5G for drone defence at military exercise appeared first on Mobile World Live .",
-      "source": "Mobile World Live",
-      "themes": [
-        "moveis",
-        "radar_militar"
-      ],
-      "research": false,
-      "countries": [],
-      "relevance": 57,
-      "date": "2026-11-24T16:27:17+00:00",
-      "ts": 1795537637.0
     },
     {
       "title": "Top 10 Satellite Connectivity Companies in 2026: LEO Broadband, Multi-Orbit and Direct-to-Device",
